@@ -172,7 +172,7 @@
                         <thead class="bg-gray-50 text-gray-600 text-xs">
                             <tr>
                                 <th class="px-2 py-2 text-center w-8">#</th>
-                                <th class="px-2 py-2 text-right sticky right-0 bg-gray-50 z-10">שם שחקן</th>
+                                <th class="px-2 py-2 text-right sticky right-0 bg-gray-50 z-10 max-w-[180px] md:max-w-[220px]">שם שחקן</th>
                                 <th class="px-2 py-2 text-center">משחק הבא</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
@@ -199,7 +199,7 @@
                             <template x-for="(p, idx) in paginated()" :key="p.id">
                                 <tr class="border-t hover:bg-blue-50 cursor-pointer transition text-xs" @click="window.location.hash = '#/players/' + p.id">
                                     <td class="px-2 py-1.5 text-center text-gray-400" x-text="(currentPage - 1) * pageSize + idx + 1"></td>
-                                    <td class="px-2 py-1.5 sticky right-0 bg-white z-10">
+                                    <td class="px-2 py-1.5 sticky right-0 bg-white z-10 overflow-hidden max-w-[180px] md:max-w-[220px]">
                                         <div class="flex items-center gap-2">
                                             <template x-if="p.imageUrl">
                                                 <img :src="p.imageUrl" class="w-7 h-7 rounded-full object-cover" loading="lazy">
