@@ -101,17 +101,7 @@ table th, table td {
     background-color: #1e3a5f !important;
 }
 
-/* Sticky cells: use CSS var + GPU layer to prevent mobile scroll repaint flicker */
-td.sticky, th.sticky {
-    background-color: var(--color-sticky);
-    will-change: transform;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.dark td.sticky, .dark th.sticky {
-    background-color: var(--color-sticky) !important;
-}
+/* Sticky cell background set via Alpine :style binding — not CSS class overrides */
 
 .dark ::-webkit-scrollbar-track {
     background: #262c3c;
