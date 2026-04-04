@@ -15,7 +15,7 @@
     <nav class="bg-white shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex items-center justify-between h-14">
-                <a href="#/players" class="text-xl font-bold text-blue-600">DataLeague</a>
+                <a href="#/players" @click="window.location.hash='#/players'; window.location.reload()" class="text-xl font-bold text-blue-600 cursor-pointer">DataLeague</a>
                 <div class="flex gap-1 text-sm">
                     <a href="#/players" class="px-3 py-2 rounded-md transition"
                        :class="page === 'players' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">שחקנים</a>
