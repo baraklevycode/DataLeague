@@ -38,9 +38,8 @@ def test_exact_hebrew_match():
     matched = matcher.match_all()
     assert len(matched) == 1
     assert matched[0].sport5_id == 1
-    assert matched[0].footballcoil_id == 100
-    assert matched[0].scores365_id == 500
     assert matched[0].name_en == "Dan Biton"
+    assert matched[0].scores365_id == 500
 
 
 def test_fuzzy_hebrew_match():
@@ -55,7 +54,7 @@ def test_fuzzy_hebrew_match():
     )
     matched = matcher.match_all()
     assert len(matched) == 1
-    assert matched[0].footballcoil_id == 101
+    assert matched[0].name_en == "Dan Biton"
 
 
 def test_no_match():
@@ -70,14 +69,14 @@ def test_no_match():
     )
     matched = matcher.match_all()
     assert len(matched) == 1
-    assert matched[0].footballcoil_id is None
+    assert matched[0].name_en == ""  # no Hebrew name match → no English name
 
 
 def test_multiple_players_different_teams():
     matcher = PlayerMatcher(
         sport5_players=[
             {"id": 10, "name": "יוסי כהן", "teamId": 130},
-            {"id": 11, "name": "משה לוי", "teamId": 131},
+            {"id": 11, "name": "משה לוי", "teamId": 140},
         ],
         footballcoil_players=[
             {"_id": 200, "name": "Yossi Cohen", "hebrewName": "יוסי כהן", "teamName": "Hapoel Beer Sheva"},
@@ -89,5 +88,26 @@ def test_multiple_players_different_teams():
     assert len(matched) == 2
     yossi = next(m for m in matched if m.sport5_id == 10)
     moshe = next(m for m in matched if m.sport5_id == 11)
-    assert yossi.footballcoil_id == 200
-    assert moshe.footballcoil_id == 201
+    assert yossi.name_en == "Yossi Cohen"
+    assert moshe.name_en == "Moshe Levi"
+
+
+# -- FC team ID mapping tests --
+
+def test_footballcoil_id_map_has_14_teams():
+    from fetcher.config import build_footballcoil_id_map
+    mapping = build_footballcoil_id_map()
+    assert len(mapping) == 14
+    assert len(set(mapping.values())) == 14  # all unique internal IDs
+
+
+def test_footballcoil_id_map_beer_sheva():
+    from fetcher.config import build_footballcoil_id_map
+    mapping = build_footballcoil_id_map()
+    assert mapping[4554] == 1  # Hapoel Beer Sheva
+
+
+def test_footballcoil_id_map_beitar():
+    from fetcher.config import build_footballcoil_id_map
+    mapping = build_footballcoil_id_map()
+    assert mapping[4524] == 2  # Beitar Jerusalem

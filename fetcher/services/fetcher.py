@@ -5,7 +5,6 @@ from __future__ import annotations
 import asyncio
 import json
 import logging
-from collections import defaultdict
 from pathlib import Path
 
 from fetcher.clients.footballcoil import FootballCoIlClient
@@ -64,7 +63,7 @@ async def run_pipeline(settings: Settings) -> None:
         s365_game_data = await s365.get_all_game_details(s365_games)
 
     # Build FC teamId -> internal team mapping by correlating standings data
-    fc_team_id_map = _build_fc_team_map(fc_season, standings, sport5_details, sport5_teams_dicts)
+    fc_team_id_map = _build_fc_team_map()
     logger.info("Mapped %d FC team IDs to internal teams", len(fc_team_id_map))
 
     # Match players
@@ -124,83 +123,13 @@ async def run_pipeline(settings: Settings) -> None:
     )
 
 
-def _build_fc_team_map(
-    fc_stats: list[dict],
-    standings: list,
-    sport5_details: dict | None = None,
-    sport5_teams: list[dict] | None = None,
-) -> dict[int, int]:
+def _build_fc_team_map() -> dict[int, int]:
     """Map Football.co.il teamIds to internal team IDs.
 
-    Uses top-scorer fingerprinting: for each Sport5 team, find the top scorer's
-    goals+minutes, then find the FC team whose top scorer has matching stats.
+    Uses hardcoded IDs confirmed from the FC /team API endpoint.
     """
-    from fetcher.clients.sport5 import Sport5Client
-
-    # Group FC stats by teamId
-    fc_by_team: dict[int, list[dict]] = defaultdict(list)
-    fc_team_count: dict[int, int] = defaultdict(int)
-    for row in fc_stats:
-        fc_tid = row.get("teamId", -1)
-        if fc_tid != -1:
-            fc_by_team[fc_tid].append(row)
-            fc_team_count[fc_tid] += 1
-
-    # Only consider FC teams with 20+ players
-    fc_teams = {tid: rows for tid, rows in fc_by_team.items() if fc_team_count[tid] >= 20}
-
-    # Build Sport5 top scorer per internal team
-    s5_team_top: dict[int, tuple[int, int]] = {}  # internal_id -> (goals, minutes)
-    if sport5_details and sport5_teams:
-        from fetcher.config import build_sport5_id_map
-        s5_map = build_sport5_id_map()
-        for team_dict in sport5_teams:
-            tm = s5_map.get(team_dict["id"])
-            if not tm:
-                continue
-            best_goals = 0
-            best_mins = 0
-            for p in team_dict.get("players", []):
-                detail = sport5_details.get(p["id"])
-                if not detail or not detail.seasonStats:
-                    continue
-                sd = Sport5Client.parse_stats_data(detail.seasonStats.get("statsData", ""))
-                if sd.Goals.Count > best_goals or (sd.Goals.Count == best_goals and sd.MinutesPlayed.Count > best_mins):
-                    best_goals = sd.Goals.Count
-                    best_mins = sd.MinutesPlayed.Count
-            if best_goals > 0:
-                s5_team_top[tm.internal_id] = (best_goals, best_mins)
-
-    # For each FC team, compute top scorer fingerprint
-    fc_team_top: dict[int, tuple[int, int]] = {}
-    for fc_tid, rows in fc_teams.items():
-        best = max(rows, key=lambda r: (int(r.get("Goal", 0)), int(r.get("totalMinutesPlayed", 0))))
-        fc_team_top[fc_tid] = (int(best.get("Goal", 0)), int(best.get("totalMinutesPlayed", 0)))
-
-    # Match: for each internal team, find the FC team whose top scorer
-    # best matches by goals (exact or ±1) and minutes (within 15%)
-    result: dict[int, int] = {}
-    used_fc: set[int] = set()
-
-    pairs: list[tuple[float, int, int]] = []
-    for int_id, (s5_goals, s5_mins) in s5_team_top.items():
-        for fc_tid, (fc_goals, fc_mins) in fc_team_top.items():
-            goal_diff = abs(s5_goals - fc_goals)
-            min_pct = abs(s5_mins - fc_mins) / max(s5_mins, 1)
-            if goal_diff <= 2 and min_pct < 0.15:
-                score = goal_diff * 100 + min_pct * 50
-                pairs.append((score, fc_tid, int_id))
-
-    pairs.sort()
-    used_internal: set[int] = set()
-    for score, fc_tid, int_id in pairs:
-        if fc_tid in used_fc or int_id in used_internal:
-            continue
-        result[fc_tid] = int_id
-        used_fc.add(fc_tid)
-        used_internal.add(int_id)
-
-    return result
+    from fetcher.config import build_footballcoil_id_map
+    return build_footballcoil_id_map()
 
 
 def _write_json(path: Path, data: object) -> None:

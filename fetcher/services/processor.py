@@ -61,6 +61,12 @@ class DataProcessor:
         self._match_fc_stats()
         self._match_365_stats()
 
+        # Log unmapped FC teamIds (transferred players)
+        all_fc_tids = {row.get("teamId") for row in self.fc_season_stats if row.get("teamId", -1) != -1}
+        unmapped = all_fc_tids - set(self.fc_team_id_map.keys())
+        if unmapped:
+            logger.debug("FC teamIds not in mapping (transferred players): %s", unmapped)
+
     def _index_fc_season(self) -> None:
         for row in self.fc_season_stats:
             pid = row.get("playerId", -1)
