@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataLeague — Israeli Premier League Fantasy Stats</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body class="bg-gray-50 text-gray-900 min-h-screen" x-data="app()" x-init="init()">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex items-center justify-between h-14">
+                <a href="#/players" class="text-xl font-bold text-blue-600">DataLeague</a>
+                <div class="flex gap-1 text-sm">
+                    <a href="#/players" class="px-3 py-2 rounded-md transition"
+                       :class="page === 'players' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">שחקנים</a>
+                    <a href="#/teams" class="px-3 py-2 rounded-md transition"
+                       :class="page === 'teams' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">קבוצות</a>
+                    <a href="#/rounds" class="px-3 py-2 rounded-md transition"
+                       :class="page === 'rounds' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">מחזורים</a>
+                    <a href="#/leaders" class="px-3 py-2 rounded-md transition"
+                       :class="page === 'leaders' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">מובילים</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Loading -->
+    <div x-show="loading" class="flex items-center justify-center h-64">
+        <div class="text-center">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mx-auto mb-4"></div>
+            <p class="text-gray-500">טוען נתונים...</p>
+        </div>
+    </div>
+
+    <!-- Error -->
+    <div x-show="error" class="max-w-7xl mx-auto px-4 py-8">
+        <div class="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
+            <p class="text-red-600 font-medium" x-text="error"></p>
+            <p class="text-sm text-red-400 mt-2">ודאו שהנתונים נטענו באמצעות <code>python -m fetcher fetch</code></p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main x-show="!loading && !error" class="max-w-7xl mx-auto px-4 py-6">
+
+        <!-- Players List Page -->
+        <div x-show="page === 'players'" x-cloak>
+            <div x-data="playerTable()" x-init="initFilters()">
+                <!-- Filters -->
+                <div class="bg-white rounded-lg shadow p-4 mb-4 flex flex-wrap gap-3 items-end">
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">חיפוש</label>
+                        <input type="text" x-model="search" placeholder="שם שחקן..."
+                               class="border rounded px-3 py-1.5 text-sm w-40 focus:ring-2 focus:ring-blue-300 focus:outline-none">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">עמדה</label>
+                        <select x-model="posFilter" class="border rounded px-3 py-1.5 text-sm">
+                            <option value="">הכל</option>
+                            <option value="1">שוער</option>
+                            <option value="2">מגן</option>
+                            <option value="3">קשר</option>
+                            <option value="4">חלוץ</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">קבוצה</label>
+                        <select x-model="teamFilter" class="border rounded px-3 py-1.5 text-sm">
+                            <option value="">הכל</option>
+                            <template x-for="t in $store.data.teams" :key="t.id">
+                                <option :value="t.id" x-text="t.name"></option>
+                            </template>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">מחיר מקסימלי (מיליון)</label>
+                        <input type="number" x-model.number="maxPriceM" placeholder="∞" step="0.5" min="3"
+                               class="border rounded px-3 py-1.5 text-sm w-28">
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">מחזור</label>
+                        <select x-model="roundFilter" class="border rounded px-3 py-1.5 text-sm">
+                            <option value="season">עונה</option>
+                            <template x-for="r in availableRounds" :key="r">
+                                <option :value="r" x-text="'מחזור ' + r"></option>
+                            </template>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">מיון</label>
+                        <select x-model="sortBy" class="border rounded px-3 py-1.5 text-sm">
+                            <option value="fantasyPoints">נק׳ פנטזי</option>
+                            <option value="goals">גולים</option>
+                            <option value="xG">xG</option>
+                            <option value="shotAttempts">הזדמנויות</option>
+                            <option value="assists">בישולים</option>
+                            <option value="xA">xA</option>
+                            <option value="xGI">xGI</option>
+                            <option value="minutes">דקות</option>
+                            <option value="cleanSheets">שער נקי</option>
+                            <option value="price">מחיר</option>
+                        </select>
+                    </div>
+                </div>
+
+                <p class="text-sm text-gray-500 mb-2">
+                    מציג <span x-text="filtered().length" class="font-semibold"></span>
+                    מתוך <span x-text="$store.data.players.length" class="font-semibold"></span> שחקנים
+                </p>
+
+                <!-- Table -->
+                <div class="bg-white rounded-lg shadow overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-50 text-gray-600 text-xs">
+                            <tr>
+                                <th class="px-2 py-2 text-right sticky right-0 bg-gray-50 z-10">שם שחקן</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('goals')">גולים</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xG')">xG</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('shotAttempts')">הזדמנויות</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('assists')">בישולים</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xA')">xA</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xGI')">xGI</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('minutes')">דקות משחק</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('cleanSheets')">שער נקי</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subIn')">החליף</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subOut')">הוחלף</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ownGoals')">שער עצמי</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('yellowCards')">צהובים</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('redCards')">אדומים</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penStopped')">עצירת פנדל</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penMissed')">החמצת פנדל</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('causedPen')">הכשיל</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('failedPen')">הוכשל</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template x-for="p in filtered().slice(0, 200)" :key="p.id">
+                                <tr class="border-t hover:bg-blue-50 cursor-pointer transition text-xs" @click="window.location.hash = '#/players/' + p.id">
+                                    <td class="px-2 py-1.5 sticky right-0 bg-white z-10">
+                                        <div class="flex items-center gap-2">
+                                            <template x-if="p.imageUrl">
+                                                <img :src="p.imageUrl" class="w-7 h-7 rounded-full object-cover" loading="lazy">
+                                            </template>
+                                            <div>
+                                                <div class="font-medium text-sm" x-text="p.name"></div>
+                                                <div class="text-[10px] text-gray-400" x-text="p.team + ' · ' + posLabel(p.position) + ' · ₪' + formatPrice(p.price)"></div>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="px-2 py-1.5 text-center font-semibold" x-text="getStat(p, 'fantasyPoints')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'goals')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xG')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'shotAttempts')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'assists')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xA')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xGI')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'minutes')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'cleanSheets')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'subIn')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'subOut')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'ownGoals')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'yellowCards')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'redCards')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'penStopped')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'penMissed')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'causedPen')"></td>
+                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'failedPen')"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Player Detail Page -->
+        <div x-show="page === 'playerDetail'" x-cloak>
+            <div x-data="playerDetail()" x-effect="loadPlayer()">
+                <template x-if="player">
+                    <div>
+                        <!-- Back -->
+                        <a href="#/players" class="text-blue-600 text-sm mb-4 inline-block">&larr; חזרה לרשימה</a>
+
+                        <!-- Header Card -->
+                        <div class="bg-white rounded-lg shadow p-6 mb-4">
+                            <div class="flex items-start gap-4">
+                                <template x-if="player.imageUrl">
+                                    <img :src="player.imageUrl" class="w-24 h-24 rounded-full object-cover">
+                                </template>
+                                <div class="flex-1">
+                                    <h1 class="text-2xl font-bold" x-text="player.name"></h1>
+                                    <p class="text-gray-500" x-text="player.englishName"></p>
+                                    <div class="flex flex-wrap gap-3 mt-2 text-sm">
+                                        <span class="bg-gray-100 px-2 py-1 rounded" x-text="player.team"></span>
+                                        <span class="px-2 py-1 rounded" :class="posClass(player.position)" x-text="posLabel(player.position)"></span>
+                                        <span class="bg-green-100 text-green-700 px-2 py-1 rounded" x-text="'₪' + formatPrice(player.price)"></span>
+                                        <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded" x-text="'נבחר ' + (player.timesSelected || 0).toLocaleString() + ' פעמים'"></span>
+                                        <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded" x-text="'ממוצע: ' + (player.avgPoints || 0).toFixed(1)"></span>
+                                    </div>
+                                    <template x-if="player.injuredStatus > 0">
+                                        <span class="inline-block mt-2 bg-red-100 text-red-700 px-2 py-1 rounded text-xs">פצוע</span>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3-Source Stats Cards -->
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
+                            <!-- Sport5 -->
+                            <div class="bg-white rounded-lg shadow p-4">
+                                <h3 class="font-semibold text-blue-600 mb-3 text-sm">Sport5 — פנטזי</h3>
+                                <template x-if="player.sport5">
+                                    <div class="space-y-1 text-sm">
+                                        <div class="flex justify-between"><span>נקודות כוללות</span><span class="font-bold" x-text="player.sport5.totalPoints"></span></div>
+                                        <div class="flex justify-between"><span>שערים</span><span x-text="player.sport5.goals + ' (' + player.sport5.goalsPoints + ' נק׳)'"></span></div>
+                                        <div class="flex justify-between"><span>בישולים</span><span x-text="player.sport5.assists + ' (' + player.sport5.assistsPoints + ' נק׳)'"></span></div>
+                                        <div class="flex justify-between"><span>דקות משחק</span><span x-text="player.sport5.minutesPlayed"></span></div>
+                                        <div class="flex justify-between"><span>הרכב פתיחה</span><span x-text="player.sport5.openLineup"></span></div>
+                                        <div class="flex justify-between"><span>שער נקי</span><span x-text="player.sport5.cleanSheets"></span></div>
+                                        <div class="flex justify-between"><span>צהובים</span><span x-text="player.sport5.yellowCards + ' (' + player.sport5.yellowCardsPoints + ' נק׳)'"></span></div>
+                                        <div class="flex justify-between"><span>אדומים</span><span x-text="player.sport5.redCards"></span></div>
+                                    </div>
+                                </template>
+                                <template x-if="!player.sport5">
+                                    <p class="text-gray-400 text-sm">אין נתונים</p>
+                                </template>
+                            </div>
+
+                            <!-- Football.co.il -->
+                            <div class="bg-white rounded-lg shadow p-4">
+                                <h3 class="font-semibold text-emerald-600 mb-3 text-sm">Football.co.il — סטטיסטיקה</h3>
+                                <template x-if="player.footballCoIl">
+                                    <div class="space-y-1 text-sm">
+                                        <div class="flex justify-between"><span>xG</span><span class="font-bold" x-text="player.footballCoIl.expectedGoals.toFixed(2)"></span></div>
+                                        <div class="flex justify-between"><span>שערים</span><span x-text="player.footballCoIl.goals"></span></div>
+                                        <div class="flex justify-between"><span>בישולים</span><span x-text="player.footballCoIl.assists"></span></div>
+                                        <div class="flex justify-between"><span>בעיטות למסגרת</span><span x-text="player.footballCoIl.shotsOnTarget"></span></div>
+                                        <div class="flex justify-between"><span>ניסיונות</span><span x-text="player.footballCoIl.shotAttempts"></span></div>
+                                        <div class="flex justify-between"><span>דקות</span><span x-text="player.footballCoIl.totalMinutesPlayed"></span></div>
+                                        <div class="flex justify-between"><span>הופעות</span><span x-text="player.footballCoIl.appearances"></span></div>
+                                        <div class="flex justify-between"><span>מסירות</span><span x-text="player.footballCoIl.passes"></span></div>
+                                    </div>
+                                </template>
+                                <template x-if="!player.footballCoIl">
+                                    <p class="text-gray-400 text-sm">אין נתונים</p>
+                                </template>
+                            </div>
+
+                            <!-- 365Scores -->
+                            <div class="bg-white rounded-lg shadow p-4">
+                                <h3 class="font-semibold text-orange-600 mb-3 text-sm">365Scores — מתקדם</h3>
+                                <template x-if="player.scores365">
+                                    <div class="space-y-1 text-sm">
+                                        <div class="flex justify-between"><span>דירוג ממוצע</span><span class="font-bold" x-text="player.scores365.avgRating.toFixed(1)"></span></div>
+                                        <div class="flex justify-between"><span>שערים</span><span x-text="player.scores365.goals"></span></div>
+                                        <div class="flex justify-between"><span>בישולים</span><span x-text="player.scores365.assists"></span></div>
+                                        <div class="flex justify-between"><span>xG</span><span x-text="player.scores365.expectedGoals.toFixed(2)"></span></div>
+                                        <div class="flex justify-between"><span>xA</span><span x-text="player.scores365.expectedAssists.toFixed(2)"></span></div>
+                                        <div class="flex justify-between"><span>חיתוכים</span><span x-text="player.scores365.tacklesWon"></span></div>
+                                        <div class="flex justify-between"><span>יירוטים</span><span x-text="player.scores365.interceptions"></span></div>
+                                        <div class="flex justify-between"><span>דו-קרבות</span><span x-text="player.scores365.duelsWon"></span></div>
+                                        <div class="flex justify-between"><span>כדרורים</span><span x-text="player.scores365.dribblesWon"></span></div>
+                                        <div class="flex justify-between"><span>דיוק מסירות %</span><span x-text="player.scores365.avgPassAccuracy.toFixed(1)"></span></div>
+                                    </div>
+                                </template>
+                                <template x-if="!player.scores365">
+                                    <p class="text-gray-400 text-sm">אין נתונים</p>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Round-by-round chart -->
+                        <div class="bg-white rounded-lg shadow p-4 mb-4">
+                            <h3 class="font-semibold mb-3">ביצועים לפי מחזור</h3>
+                            <canvas id="playerChart" height="100"></canvas>
+                        </div>
+
+                        <!-- Round table -->
+                        <div class="bg-white rounded-lg shadow overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="bg-gray-50 text-gray-600">
+                                    <tr>
+                                        <th class="px-3 py-2 text-right">מחזור</th>
+                                        <th class="px-3 py-2 text-center">נק׳ פנטזי</th>
+                                        <th class="px-3 py-2 text-center">שערים</th>
+                                        <th class="px-3 py-2 text-center">בישולים</th>
+                                        <th class="px-3 py-2 text-center">דקות</th>
+                                        <th class="px-3 py-2 text-center">xG</th>
+                                        <th class="px-3 py-2 text-center">דירוג</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="r in playerRounds()" :key="r.round">
+                                        <tr class="border-t">
+                                            <td class="px-3 py-2 font-medium" x-text="r.round"></td>
+                                            <td class="px-3 py-2 text-center font-semibold" x-text="r.points"></td>
+                                            <td class="px-3 py-2 text-center" x-text="r.goals"></td>
+                                            <td class="px-3 py-2 text-center" x-text="r.assists"></td>
+                                            <td class="px-3 py-2 text-center" x-text="r.minutes"></td>
+                                            <td class="px-3 py-2 text-center" x-text="r.xG"></td>
+                                            <td class="px-3 py-2 text-center" x-text="r.rating"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Teams Overview Page -->
+        <div x-show="page === 'teams'" x-cloak>
+            <h1 class="text-xl font-bold mb-4">קבוצות</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <template x-for="t in $store.data.teams" :key="t.id">
+                    <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg cursor-pointer transition"
+                         @click="window.location.hash = '#/teams/' + t.id">
+                        <div class="flex items-center gap-3 mb-3">
+                            <template x-if="t.logoUrl">
+                                <img :src="t.logoUrl" class="w-12 h-12 object-contain">
+                            </template>
+                            <div>
+                                <h3 class="font-bold" x-text="t.name"></h3>
+                                <p class="text-xs text-gray-400" x-text="t.englishName"></p>
+                            </div>
+                        </div>
+                        <template x-if="t.standings">
+                            <div class="text-sm space-y-1">
+                                <div class="flex justify-between">
+                                    <span>מיקום</span>
+                                    <span class="font-bold" x-text="'#' + t.standings.position"></span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>נקודות</span>
+                                    <span class="font-bold" x-text="t.standings.points"></span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>נצ/תי/הפ</span>
+                                    <span x-text="t.standings.won + '/' + t.standings.drawn + '/' + t.standings.lost"></span>
+                                </div>
+                                <div class="flex justify-between">
+                                    <span>שערים</span>
+                                    <span x-text="t.standings.goalsFor + ':' + t.standings.goalsAgainst"></span>
+                                </div>
+                                <div class="flex gap-1 mt-2">
+                                    <template x-for="(f, i) in (t.standings.recentForm || [])" :key="i">
+                                        <span class="w-5 h-5 rounded-full text-white text-xs flex items-center justify-center"
+                                              :class="f === 1 ? 'bg-green-500' : f === 2 ? 'bg-gray-400' : 'bg-red-500'"
+                                              x-text="f === 1 ? 'נ' : f === 2 ? 'ת' : 'ה'"></span>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Team Detail Page -->
+        <div x-show="page === 'teamDetail'" x-cloak>
+            <div x-data="teamDetail()" x-effect="loadTeam()">
+                <template x-if="team">
+                    <div>
+                        <a href="#/teams" class="text-blue-600 text-sm mb-4 inline-block">&larr; חזרה לקבוצות</a>
+                        <div class="bg-white rounded-lg shadow p-6 mb-4">
+                            <div class="flex items-center gap-4">
+                                <template x-if="team.logoUrl">
+                                    <img :src="team.logoUrl" class="w-16 h-16 object-contain">
+                                </template>
+                                <div>
+                                    <h1 class="text-2xl font-bold" x-text="team.name"></h1>
+                                    <p class="text-gray-500" x-text="team.englishName"></p>
+                                </div>
+                                <template x-if="team.standings">
+                                    <div class="mr-auto flex gap-6 text-sm">
+                                        <div class="text-center"><div class="font-bold text-2xl" x-text="'#' + team.standings.position"></div><div class="text-gray-400">מיקום</div></div>
+                                        <div class="text-center"><div class="font-bold text-2xl" x-text="team.standings.points"></div><div class="text-gray-400">נקודות</div></div>
+                                        <div class="text-center"><div class="font-bold text-2xl" x-text="team.standings.goalsFor + ':' + team.standings.goalsAgainst"></div><div class="text-gray-400">שערים</div></div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+
+                        <!-- Team roster table -->
+                        <div class="bg-white rounded-lg shadow overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="bg-gray-50 text-gray-600">
+                                    <tr>
+                                        <th class="px-3 py-2 text-right">שחקן</th>
+                                        <th class="px-3 py-2 text-center">עמדה</th>
+                                        <th class="px-3 py-2 text-center">מחיר</th>
+                                        <th class="px-3 py-2 text-center">נק׳ פנטזי</th>
+                                        <th class="px-3 py-2 text-center">שערים</th>
+                                        <th class="px-3 py-2 text-center">בישולים</th>
+                                        <th class="px-3 py-2 text-center">xG</th>
+                                        <th class="px-3 py-2 text-center">דירוג</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="p in teamPlayers()" :key="p.id">
+                                        <tr class="border-t hover:bg-blue-50 cursor-pointer" @click="window.location.hash = '#/players/' + p.id">
+                                            <td class="px-3 py-2">
+                                                <div class="font-medium" x-text="p.name"></div>
+                                                <div class="text-xs text-gray-400" x-text="p.englishName"></div>
+                                            </td>
+                                            <td class="px-3 py-2 text-center">
+                                                <span class="text-xs px-1.5 py-0.5 rounded" :class="posClass(p.position)" x-text="posLabel(p.position)"></span>
+                                            </td>
+                                            <td class="px-3 py-2 text-center text-xs" x-text="formatPrice(p.price)"></td>
+                                            <td class="px-3 py-2 text-center font-semibold" x-text="p.sport5 ? p.sport5.totalPoints : '-'"></td>
+                                            <td class="px-3 py-2 text-center" x-text="p.sport5 ? p.sport5.goals : '-'"></td>
+                                            <td class="px-3 py-2 text-center" x-text="p.sport5 ? p.sport5.assists : '-'"></td>
+                                            <td class="px-3 py-2 text-center" x-text="p.footballCoIl ? p.footballCoIl.expectedGoals.toFixed(2) : '-'"></td>
+                                            <td class="px-3 py-2 text-center" x-text="p.scores365 ? p.scores365.avgRating.toFixed(1) : '-'"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+
+        <!-- Rounds Browser Page -->
+        <div x-show="page === 'rounds'" x-cloak>
+            <div x-data="roundsBrowser()" x-init="initRounds()">
+                <h1 class="text-xl font-bold mb-4">מחזורים</h1>
+
+                <!-- Round selector pills -->
+                <div class="flex flex-wrap gap-1 mb-4">
+                    <template x-for="r in availableRounds" :key="r">
+                        <button class="px-3 py-1 text-sm rounded-full transition"
+                                :class="selectedRound == r ? 'bg-blue-600 text-white' : 'bg-white hover:bg-blue-50 border'"
+                                @click="selectedRound = r" x-text="r"></button>
+                    </template>
+                </div>
+
+                <!-- Position tabs -->
+                <div class="flex gap-2 mb-4">
+                    <button class="px-3 py-1 text-sm rounded" :class="posTab === '' ? 'bg-blue-100 text-blue-700' : 'bg-white border'" @click="posTab=''">הכל</button>
+                    <button class="px-3 py-1 text-sm rounded" :class="posTab === '1' ? 'bg-blue-100 text-blue-700' : 'bg-white border'" @click="posTab='1'">שוער</button>
+                    <button class="px-3 py-1 text-sm rounded" :class="posTab === '2' ? 'bg-blue-100 text-blue-700' : 'bg-white border'" @click="posTab='2'">מגן</button>
+                    <button class="px-3 py-1 text-sm rounded" :class="posTab === '3' ? 'bg-blue-100 text-blue-700' : 'bg-white border'" @click="posTab='3'">קשר</button>
+                    <button class="px-3 py-1 text-sm rounded" :class="posTab === '4' ? 'bg-blue-100 text-blue-700' : 'bg-white border'" @click="posTab='4'">חלוץ</button>
+                </div>
+
+                <!-- Top performers -->
+                <template x-if="topPerformers().length">
+                    <div class="mb-4">
+                        <h2 class="text-sm font-semibold text-gray-500 mb-2">מצטייני המחזור</h2>
+                        <div class="flex gap-3 overflow-x-auto pb-2">
+                            <template x-for="tp in topPerformers()" :key="tp.id">
+                                <div class="bg-white rounded-lg shadow p-3 min-w-[140px] text-center cursor-pointer hover:shadow-lg transition"
+                                     @click="window.location.hash = '#/players/' + tp.id">
+                                    <div class="font-bold text-2xl text-blue-600" x-text="tp.points"></div>
+                                    <div class="text-sm font-medium mt-1" x-text="tp.name"></div>
+                                    <div class="text-xs text-gray-400" x-text="tp.team"></div>
+                                </div>
+                            </template>
+                        </div>
+                    </div>
+                </template>
+
+                <!-- Round table -->
+                <div class="bg-white rounded-lg shadow overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-50 text-gray-600">
+                            <tr>
+                                <th class="px-3 py-2 text-right">שחקן</th>
+                                <th class="px-3 py-2 text-right">קבוצה</th>
+                                <th class="px-3 py-2 text-center">עמדה</th>
+                                <th class="px-3 py-2 text-center">נק׳</th>
+                                <th class="px-3 py-2 text-center">שערים</th>
+                                <th class="px-3 py-2 text-center">בישולים</th>
+                                <th class="px-3 py-2 text-center">דקות</th>
+                                <th class="px-3 py-2 text-center">xG</th>
+                                <th class="px-3 py-2 text-center">דירוג</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template x-for="rp in roundPlayers()" :key="rp.id">
+                                <tr class="border-t hover:bg-blue-50 cursor-pointer" @click="window.location.hash = '#/players/' + rp.id">
+                                    <td class="px-3 py-2 font-medium" x-text="rp.name"></td>
+                                    <td class="px-3 py-2 text-xs" x-text="rp.team"></td>
+                                    <td class="px-3 py-2 text-center"><span class="text-xs px-1.5 py-0.5 rounded" :class="posClass(rp.position)" x-text="posLabel(rp.position)"></span></td>
+                                    <td class="px-3 py-2 text-center font-semibold" x-text="rp.points"></td>
+                                    <td class="px-3 py-2 text-center" x-text="rp.goals"></td>
+                                    <td class="px-3 py-2 text-center" x-text="rp.assists"></td>
+                                    <td class="px-3 py-2 text-center" x-text="rp.minutes"></td>
+                                    <td class="px-3 py-2 text-center" x-text="rp.xG"></td>
+                                    <td class="px-3 py-2 text-center" x-text="rp.rating"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Leaders Page -->
+        <div x-show="page === 'leaders'" x-cloak>
+            <div x-data="leadersPage()">
+                <h1 class="text-xl font-bold mb-4">מובילים</h1>
+
+                <!-- Category tabs -->
+                <div class="flex flex-wrap gap-2 mb-4">
+                    <template x-for="cat in categories" :key="cat.key">
+                        <button class="px-3 py-1 text-sm rounded-full transition"
+                                :class="activeCat === cat.key ? 'bg-blue-600 text-white' : 'bg-white hover:bg-blue-50 border'"
+                                @click="activeCat = cat.key" x-text="cat.label"></button>
+                    </template>
+                </div>
+
+                <!-- Leaderboard -->
+                <div class="bg-white rounded-lg shadow">
+                    <template x-for="(entry, idx) in currentLeaders()" :key="entry.playerId">
+                        <div class="flex items-center gap-3 px-4 py-3 border-b last:border-0 hover:bg-blue-50 cursor-pointer transition"
+                             @click="window.location.hash = '#/players/' + entry.playerId">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold"
+                                 :class="idx === 0 ? 'bg-yellow-400 text-white' : idx === 1 ? 'bg-gray-300 text-white' : idx === 2 ? 'bg-amber-600 text-white' : 'bg-gray-100 text-gray-500'"
+                                 x-text="idx + 1"></div>
+                            <div class="flex-1">
+                                <div class="font-medium" x-text="entry.name"></div>
+                                <div class="text-xs text-gray-400" x-text="entry.team"></div>
+                            </div>
+                            <div class="text-lg font-bold text-blue-600" x-text="Number.isInteger(entry.value) ? entry.value : entry.value.toFixed(2)"></div>
+                            <!-- Mini bar -->
+                            <div class="w-24 h-3 bg-gray-100 rounded-full overflow-hidden hidden md:block">
+                                <div class="h-full bg-blue-500 rounded-full" :style="'width:' + barWidth(entry.value) + '%'"></div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+
+        <!-- Meta footer -->
+        <div class="mt-8 text-center text-xs text-gray-400 pb-4" x-show="$store.data.meta">
+            <span>עודכן: </span>
+            <span x-text="$store.data.meta ? new Date($store.data.meta.fetchedAt).toLocaleString('he-IL') : ''"></span>
+            <span> | </span>
+            <span x-text="($store.data.meta ? $store.data.meta.matchedPlayers : 0) + ' שחקנים מותאמים'"></span>
+        </div>
+    </main>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
