@@ -1,0 +1,32 @@
+name: Fetch fresh data
+
+on:
+  schedule:
+    - cron: '0 6 */3 * *'  # Every 3 days at 06:00 UTC
+  workflow_dispatch:  # Manual trigger button
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install httpx pydantic pydantic-settings typer tenacity python-dotenv
+
+      - name: Fetch data
+        env:
+          DDL_SPORT5_EMAIL: ${{ secrets.SPORT5_EMAIL }}
+          DDL_SPORT5_PASSWORD: ${{ secrets.SPORT5_PASSWORD }}
+        run: python -m fetcher fetch
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/data/
+          git diff --cached --quiet || (git commit -m "Update data $(date -u +%Y-%m-%d)" && git push)
