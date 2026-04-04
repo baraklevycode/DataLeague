@@ -23,7 +23,7 @@ class Sport5Client:
         self._client: httpx.AsyncClient | None = None
 
     async def __aenter__(self) -> Sport5Client:
-        self._client = httpx.AsyncClient(timeout=30.0)
+        self._client = httpx.AsyncClient(timeout=30.0, limits=httpx.Limits(max_connections=100, max_keepalive_connections=50))
         await self._login()
         return self
 

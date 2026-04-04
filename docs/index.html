@@ -137,6 +137,7 @@
                     <table class="w-full text-sm">
                         <thead class="bg-gray-50 text-gray-600 text-xs">
                             <tr>
+                                <th class="px-2 py-2 text-center w-8">#</th>
                                 <th class="px-2 py-2 text-right sticky right-0 bg-gray-50 z-10">שם שחקן</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
@@ -160,8 +161,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <template x-for="p in filtered().slice(0, 200)" :key="p.id">
+                            <template x-for="(p, idx) in filtered().slice(0, 200)" :key="p.id">
                                 <tr class="border-t hover:bg-blue-50 cursor-pointer transition text-xs" @click="window.location.hash = '#/players/' + p.id">
+                                    <td class="px-2 py-1.5 text-center text-gray-400" x-text="idx + 1"></td>
                                     <td class="px-2 py-1.5 sticky right-0 bg-white z-10">
                                         <div class="flex items-center gap-2">
                                             <template x-if="p.imageUrl">
@@ -274,27 +276,24 @@
                                 </template>
                             </div>
 
-                            <!-- 365Scores / xGI -->
+                            <!-- 365Scores -->
                             <div class="bg-white rounded-lg shadow p-4">
-                                <h3 class="font-semibold text-orange-600 mb-3 text-sm">מעורבות צפויה (xGI)</h3>
-                                <template x-if="player.xA > 0 || (player.footballCoIl && player.footballCoIl.expectedGoals > 0)">
+                                <h3 class="font-semibold text-orange-600 mb-3 text-sm">365Scores — מתקדם</h3>
+                                <template x-if="player.scores365">
                                     <div class="space-y-1 text-sm">
-                                        <div class="flex justify-between"><span>xGI (שערים + בישולים צפויים)</span><span class="font-bold text-lg" x-text="player.xGI.toFixed(2)"></span></div>
-                                        <div class="flex justify-between"><span>xG (שערים צפויים)</span><span x-text="player.footballCoIl ? player.footballCoIl.expectedGoals.toFixed(2) : '-'"></span></div>
-                                        <div class="flex justify-between"><span>xA (בישולים צפויים)</span><span x-text="player.xA > 0 ? player.xA.toFixed(2) : '-'"></span></div>
+                                        <div class="flex justify-between"><span>דירוג</span><span class="font-bold text-lg" x-text="player.scores365.rating.toFixed(1)"></span></div>
+                                        <div class="flex justify-between"><span>xG</span><span class="font-bold" x-text="player.scores365.xG.toFixed(2)"></span></div>
+                                        <div class="flex justify-between"><span>xA</span><span class="font-bold" x-text="player.scores365.xA.toFixed(2)"></span></div>
+                                        <div class="flex justify-between"><span>xGI</span><span class="font-bold" x-text="player.xGI.toFixed(2)"></span></div>
                                         <hr class="my-2">
-                                        <div class="flex justify-between text-gray-500"><span>שערים בפועל</span><span x-text="player.sport5 ? player.sport5.goals : '-'"></span></div>
-                                        <div class="flex justify-between text-gray-500"><span>בישולים בפועל</span><span x-text="player.sport5 ? player.sport5.assists : '-'"></span></div>
-                                        <template x-if="player.footballCoIl && player.sport5">
-                                            <div class="flex justify-between mt-1">
-                                                <span>ביצוע מעל הצפוי</span>
-                                                <span class="font-semibold" :class="(player.sport5.goals - player.footballCoIl.expectedGoals) >= 0 ? 'text-green-600' : 'text-red-500'"
-                                                      x-text="((player.sport5.goals - player.footballCoIl.expectedGoals) >= 0 ? '+' : '') + (player.sport5.goals - player.footballCoIl.expectedGoals).toFixed(2)"></span>
-                                            </div>
-                                        </template>
+                                        <div class="flex justify-between"><span>בעיטות לשער</span><span x-text="player.scores365.totalShots"></span></div>
+                                        <div class="flex justify-between"><span>בעיטות למסגרת</span><span x-text="player.scores365.shotsOnTarget"></span></div>
+                                        <div class="flex justify-between"><span>מצבים מסוכנים</span><span x-text="player.scores365.bigChancesCreated"></span></div>
+                                        <div class="flex justify-between"><span>נגיעות</span><span x-text="player.scores365.touches"></span></div>
+                                        <div class="flex justify-between"><span>דקות</span><span x-text="player.scores365.minutesPlayed"></span></div>
                                     </div>
                                 </template>
-                                <template x-if="!(player.xA > 0 || (player.footballCoIl && player.footballCoIl.expectedGoals > 0))">
+                                <template x-if="!player.scores365">
                                     <p class="text-gray-400 text-sm">אין נתונים</p>
                                 </template>
                             </div>

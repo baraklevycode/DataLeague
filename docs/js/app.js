@@ -435,6 +435,7 @@ function leadersPage() {
             { key: 'assists', label: 'בישולים' },
             { key: 'xA', label: 'xA' },
             { key: 'xGI', label: 'xGI' },
+            { key: 'rating', label: 'דירוג' },
             { key: 'cleanSheets', label: 'שער נקי' },
             { key: 'yellowCards', label: 'צהובים' },
             { key: 'minutesPlayed', label: 'דקות' },

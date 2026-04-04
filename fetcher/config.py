@@ -32,8 +32,8 @@ class Settings(BaseSettings):
     output_dir: Path = Path("docs/data")
 
     # Concurrency
-    sport5_max_concurrent: int = 10
-    scores365_max_concurrent: int = 15
+    sport5_max_concurrent: int = 50
+    scores365_max_concurrent: int = 50
 
 
 @dataclass(frozen=True)

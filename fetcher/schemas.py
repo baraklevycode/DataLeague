@@ -165,17 +165,19 @@ class OutputFootballCoIlStats(BaseModel):
 
 
 class OutputScores365Stats(BaseModel):
-    avgRating: float = 0.0
+    xG: float = 0.0
+    xA: float = 0.0
+    rating: float = 0.0
+    appearances: int = 0
     goals: int = 0
     assists: int = 0
-    expectedGoals: float = 0.0
-    expectedAssists: float = 0.0
-    tacklesWon: int = 0
-    interceptions: int = 0
-    duelsWon: int = 0
-    dribblesWon: int = 0
-    avgPassAccuracy: float = 0.0
-    avgTouches: float = 0.0
+    totalShots: int = 0
+    shotsOnTarget: int = 0
+    bigChancesCreated: int = 0
+    touches: int = 0
+    minutesPlayed: int = 0
+    yellowCards: int = 0
+    redCards: int = 0
 
 
 class OutputPlayer(BaseModel):

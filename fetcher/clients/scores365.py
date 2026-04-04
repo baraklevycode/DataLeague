@@ -10,62 +10,47 @@ import httpx
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from fetcher.config import Settings
-from fetcher.schemas import Scores365GameRef, Scores365PlayerGameStats, Scores365StandingRow
+from fetcher.schemas import Scores365GameRef, Scores365StandingRow
 
 logger = logging.getLogger(__name__)
 
-# Stat name mapping — API returns names in French/Hebrew depending on game
-STAT_NAME_MAP = {
-    # French names (most common)
-    "Buts": "goals",
-    "Pass. Décisiv.": "assists",
-    "Passes décisives": "assists",
-    "Buts attendus": "xG",
-    "Passe décisive attendue": "xA",
-    "Minutes": "minutes",
-    "Tirs cadrés": "shotsOnTarget",
-    "Tirs au total": "totalShots",
-    "Tirs non cadrés": "shotsOffTarget",
-    "Passes Completed": "passesCompleted",
-    "Touches": "touches",
-    "Tacles Gagnés": "tacklesWon",
-    "Les interceptions": "interceptions",
-    "Dégagements": "clearances",
-    "Duels aériens gagnés": "aerialDuelsWon",
-    "Duels au sol gagnés": "groundDuelsWon",
-    "Dribbles réussis": "dribblesWon",
-    "Perte de balle": "ballLosses",
-    "Fautes faites": "fouls",
-    "Gardien Parades": "saves",
-    "Buts encaissés": "goalsConceded",
-    "Tirs bloqués": "blocks",
-    "Grosses occasions": "bigChancesCreated",
-    "De grandes occasions manquées": "bigChancesMissed",
-    "Hors jeu": "offsides",
-    # Hebrew names (some games)
-    "שערים": "goals",
-    "בישולים": "assists",
-    "שערים צפויים": "xG",
-    "בישולים צפויים": "xA",
-    "דקות": "minutes",
-    "בעיטות למסגרת": "shotsOnTarget",
-    "נגיעות בכדור": "touches",
-    "תיקולים מוצלחים": "tacklesWon",
-    "חטיפות": "interceptions",
-    "דריבלים מוצלחים": "dribblesWon",
-    "הצלות שוער": "saves",
-    "ספיגת שערים": "goalsConceded",
+# highlightStats type IDs → field names
+HIGHLIGHT_STAT_TYPES = {
+    205: "xG",
+    207: "xA",
+    54: "rating",
+    5: "appearances",
+    1: "goals",
+    2: "assists",
+    223: "totalShots",
+    35: "shotsOnTarget",
+    34: "shotsOffTarget",
+    212: "bigChancesCreated",
+    210: "bigChancesMissed",
+    44: "touches",
+    222: "minutesPlayed",
+    3: "yellowCards",
+    4: "redCards",
 }
 
 
-def _parse_minutes(val: str | float | int) -> int:
-    """Parse minutes value like \"90'\" or 90 to int."""
+def _parse_stat_value(val: str | float | int) -> float:
+    """Parse stat value like '12(3פנ׳)', '22/24', '7.5', '90'' to float."""
     if isinstance(val, (int, float)):
-        return int(val)
-    if isinstance(val, str):
-        cleaned = re.sub(r"[^0-9]", "", val)
-        return int(cleaned) if cleaned else 0
-    return 0
+        return float(val)
+    if not val or not isinstance(val, str):
+        return 0.0
+    # Handle "12(3פנ׳)" → 12
+    cleaned = re.sub(r"\(.*?\)", "", val)
+    # Handle "22/24" → 22
+    if "/" in cleaned:
+        cleaned = cleaned.split("/")[0]
+    # Remove non-numeric except dots
+    cleaned = re.sub(r"[^0-9.]", "", cleaned)
+    try:
+        return float(cleaned)
+    except ValueError:
+        return 0.0
 
 
 class Scores365Client:
@@ -75,14 +60,21 @@ class Scores365Client:
         self.competition_id = settings.scores365_competition_id
         self.common_params = {
             "appTypeId": "5",
-            "langId": "15",
+            "langId": "2",
             "timezoneName": "Asia/Jerusalem",
-            "userCountryId": "2",
+            "userCountryId": "6",
         }
         self._client: httpx.AsyncClient | None = None
 
     async def __aenter__(self) -> Scores365Client:
-        self._client = httpx.AsyncClient(timeout=30.0)
+        self._client = httpx.AsyncClient(
+            timeout=30.0,
+            limits=httpx.Limits(max_connections=100, max_keepalive_connections=50),
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+                "Referer": "https://www.365scores.com/",
+            },
+        )
         return self
 
     async def __aexit__(self, *exc: object) -> None:
@@ -129,94 +121,136 @@ class Scores365Client:
         logger.info("Fetched standings for %d teams", len(rows))
         return rows
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=1, max=10))
-    async def get_completed_games(self) -> list[Scores365GameRef]:
+    # ------------------------------------------------------------------
+    # Player identification via search
+    # ------------------------------------------------------------------
+
+    async def search_player(self, name: str) -> dict | None:
+        """Search for a player by name. Returns {id, name, clubId} or None."""
+        try:
+            resp = await self._client.get(
+                f"{self.base}/search/",
+                params={**self.common_params, "query": name, "entityTypes": "3"},
+            )
+            if resp.status_code != 200:
+                return None
+            athletes = resp.json().get("athletes", [])
+            return athletes[0] if athletes else None
+        except Exception:
+            return None
+
+    async def resolve_all_players(
+        self, player_names: list[tuple[int, str]], cache_path: str = "docs/data/.365cache.json"
+    ) -> dict[int, int]:
+        """Search for all players by name. Uses local cache to avoid re-searching.
+        Returns {sport5_id: athlete_id}."""
+        import json
+        from pathlib import Path
+
+        # Load cache
+        cache_file = Path(cache_path)
+        cache: dict[str, int] = {}
+        if cache_file.exists():
+            try:
+                cache = json.loads(cache_file.read_text(encoding="utf-8"))
+            except Exception:
+                pass
+
+        results: dict[int, int] = {}
+        to_search: list[tuple[int, str]] = []
+
+        for s5id, name in player_names:
+            cached = cache.get(str(s5id))
+            if cached:
+                results[s5id] = cached
+            else:
+                to_search.append((s5id, name))
+
+        if to_search:
+            logger.info("Searching 365Scores for %d new players (%d cached)...", len(to_search), len(results))
+            sem = asyncio.Semaphore(50)
+
+            async def _search(sport5_id: int, name: str) -> None:
+                async with sem:
+                    athlete = await self.search_player(name)
+                    if athlete and athlete.get("id"):
+                        results[sport5_id] = athlete["id"]
+                        cache[str(sport5_id)] = athlete["id"]
+
+            tasks = [asyncio.create_task(_search(s5id, name)) for s5id, name in to_search]
+            await asyncio.gather(*tasks)
+
+            # Save cache
+            cache_file.parent.mkdir(parents=True, exist_ok=True)
+            cache_file.write_text(json.dumps(cache), encoding="utf-8")
+
+        logger.info("Resolved %d/%d players via 365Scores (%d from cache)", len(results), len(player_names), len(results) - len(to_search) + len([s for s in to_search if str(s[0]) in cache]))
+        return results
+
+    # ------------------------------------------------------------------
+    # Full player stats via athletes endpoint
+    # ------------------------------------------------------------------
+
+    async def _fetch_athlete_batch(self, athlete_ids: list[int]) -> dict[int, dict]:
+        """Fetch full stats for a small batch of athletes."""
+        if not athlete_ids:
+            return {}
+
+        batch = ",".join(str(x) for x in athlete_ids)
         resp = await self._client.get(
-            f"{self.base}/games/results/",
-            params={**self.common_params, "competitions": self.competition_id},
+            f"{self.base}/athletes/",
+            params={
+                **self.common_params,
+                "athletes": batch,
+                "competitionId": self.competition_id,
+                "fullDetails": "true",
+                "topBookmaker": "1",
+            },
+            timeout=15.0,
         )
         resp.raise_for_status()
         data = resp.json()
 
-        games: list[Scores365GameRef] = []
-        for game in data.get("games", []):
-            home = game.get("homeCompetitor", {})
-            away = game.get("awayCompetitor", {})
-            games.append(Scores365GameRef(
-                game_id=game["id"],
-                round_num=game.get("roundNum", 0),
-                home_team_id=home.get("id", 0),
-                away_team_id=away.get("id", 0),
-                home_score=int(home.get("score", 0)),
-                away_score=int(away.get("score", 0)),
-            ))
-        logger.info("Fetched %d completed games", len(games))
-        return games
+        results: dict[int, dict] = {}
+        for athlete in data.get("athletes", []):
+            aid = athlete.get("id", 0)
+            if not aid:
+                continue
 
-    @retry(stop=stop_after_attempt(3), wait=wait_exponential(min=1, max=10))
-    async def get_game_detail(self, game_id: int) -> tuple[int, list[Scores365PlayerGameStats]]:
-        """Returns (round_num, player_stats) with anonymous players (no IDs/names)."""
-        resp = await self._client.get(
-            f"{self.base}/game/",
-            params={**self.common_params, "gameId": game_id},
-        )
-        resp.raise_for_status()
-        data = resp.json()
+            stats: dict[str, float] = {}
+            for comp_stats in athlete.get("highlightStats", []):
+                if comp_stats.get("competitionId") == self.competition_id:
+                    for s in comp_stats.get("stats", []):
+                        stat_type = s.get("type", 0)
+                        field_name = HIGHLIGHT_STAT_TYPES.get(stat_type)
+                        if field_name:
+                            stats[field_name] = _parse_stat_value(s.get("value", 0))
 
-        game = data.get("game", {})
-        round_num = game.get("roundNum", 0)
-        player_stats: list[Scores365PlayerGameStats] = []
+            if stats:
+                results[aid] = stats
 
-        for side in ("homeCompetitor", "awayCompetitor"):
-            competitor = game.get(side, {})
-            team_id = competitor.get("id", 0)
-            members = competitor.get("lineups", {}).get("members", [])
+        return results
 
-            for idx, member in enumerate(members):
-                # Parse stats from Hebrew names to English keys
-                stats_dict: dict[str, float] = {}
-                for stat in member.get("stats", []):
-                    he_name = stat.get("name", "")
-                    en_name = STAT_NAME_MAP.get(he_name, "")
-                    if en_name:
-                        raw_val = stat.get("value", 0)
-                        if en_name == "minutes":
-                            stats_dict[en_name] = float(_parse_minutes(raw_val))
-                        else:
-                            try:
-                                stats_dict[en_name] = float(raw_val)
-                            except (ValueError, TypeError):
-                                pass
+    async def get_all_athletes_stats(
+        self, athlete_ids: list[int]
+    ) -> dict[int, dict]:
+        """Fetch full stats for all athletes — parallel batches of 5, no retries."""
+        all_results: dict[int, dict] = {}
+        sem = asyncio.Semaphore(10)
+        batch_size = 5
 
-                pos = member.get("position", {})
-                pos_id = pos.get("id", 0) if isinstance(pos, dict) else 0
-
-                player_stats.append(Scores365PlayerGameStats(
-                    player_id=0,  # anonymous
-                    player_name="",
-                    team_id=team_id,
-                    stats=stats_dict,
-                    rating=0.0,
-                ))
-
-        return round_num, player_stats
-
-    async def get_all_game_details(
-        self, games: list[Scores365GameRef]
-    ) -> dict[int, list[tuple[int, list[Scores365PlayerGameStats]]]]:
-        """Fetch all game details. Returns {round_num: [(game_id, [player_stats])]}."""
-        sem = asyncio.Semaphore(self.settings.scores365_max_concurrent)
-        results: dict[int, list[tuple[int, list[Scores365PlayerGameStats]]]] = {}
-
-        async def _fetch(game: Scores365GameRef) -> None:
+        async def _fetch(batch: list[int]) -> None:
             async with sem:
                 try:
-                    round_num, stats = await self.get_game_detail(game.game_id)
-                    results.setdefault(round_num, []).append((game.game_id, stats))
+                    results = await self._fetch_athlete_batch(batch)
+                    all_results.update(results)
                 except Exception:
-                    logger.warning("Failed to fetch 365Scores game %d", game.game_id)
+                    pass  # skip failed batches silently
 
-        tasks = [asyncio.create_task(_fetch(g)) for g in games]
+        tasks = []
+        for i in range(0, len(athlete_ids), batch_size):
+            tasks.append(asyncio.create_task(_fetch(athlete_ids[i:i + batch_size])))
         await asyncio.gather(*tasks)
-        logger.info("Fetched details for %d games across %d rounds", len(games), len(results))
-        return results
+
+        logger.info("Fetched 365Scores stats for %d/%d athletes", len(all_results), len(athlete_ids))
+        return all_results

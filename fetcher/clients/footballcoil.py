@@ -45,7 +45,7 @@ class FootballCoIlClient:
         self._client: httpx.AsyncClient | None = None
 
     async def __aenter__(self) -> FootballCoIlClient:
-        self._client = httpx.AsyncClient(timeout=30.0)
+        self._client = httpx.AsyncClient(timeout=30.0, limits=httpx.Limits(max_connections=100, max_keepalive_connections=50))
         return self
 
     async def __aexit__(self, *exc: object) -> None:

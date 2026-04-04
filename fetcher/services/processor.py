@@ -34,7 +34,7 @@ class DataProcessor:
         fc_round_stats: dict[int, list[dict]],
         standings: list[Scores365StandingRow],
         fc_team_id_map: dict[int, int],
-        s365_game_data: dict[int, list[tuple[int, list[Scores365PlayerGameStats]]]],
+        s365_by_sport5: dict[int, dict],
         unmatched_names: list[str],
     ) -> None:
         self.matched_players = matched_players
@@ -44,7 +44,7 @@ class DataProcessor:
         self.fc_round_stats = fc_round_stats
         self.standings = standings
         self.fc_team_id_map = fc_team_id_map
-        self.s365_game_data = s365_game_data
+        self.s365_by_sport5 = s365_by_sport5  # sport5_id -> {xG, xA, rating, ...}
         self.unmatched_names = unmatched_names
 
         # FC stats index
@@ -52,20 +52,9 @@ class DataProcessor:
         self._fc_round_by_pid: dict[int, dict[int, dict]] = {}
         self._sport5_to_fc: dict[int, int] = {}
 
-        # 365 aggregated per-player season stats (matched by minutes+goals fingerprint)
-        # sport5_id -> {xG, xA, ...}
-        self._s365_player_season: dict[int, dict[str, float]] = {}
-
         self._index_fc_season()
         self._index_fc_rounds()
         self._match_fc_stats()
-        self._match_365_stats()
-
-        # Log unmapped FC teamIds (transferred players)
-        all_fc_tids = {row.get("teamId") for row in self.fc_season_stats if row.get("teamId", -1) != -1}
-        unmapped = all_fc_tids - set(self.fc_team_id_map.keys())
-        if unmapped:
-            logger.debug("FC teamIds not in mapping (transferred players): %s", unmapped)
 
     def _index_fc_season(self) -> None:
         for row in self.fc_season_stats:
@@ -312,12 +301,27 @@ class DataProcessor:
                     passes=int(_fval(s, "passes", "accuratePasses")),
                 ).model_dump()
 
-            # 365Scores xA from matched game data
+            # 365Scores identified stats
             s365_stats = None
             xa_val = 0.0
-            s365_matched = self._s365_player_season.get(mp.sport5_id) if mp.sport5_id else None
-            if s365_matched:
-                xa_val = s365_matched.get("xA", 0.0)
+            s365_data = self.s365_by_sport5.get(mp.sport5_id) if mp.sport5_id else None
+            if s365_data:
+                xa_val = s365_data.get("xA", 0.0)
+                s365_stats = OutputScores365Stats(
+                    xG=s365_data.get("xG", 0.0),
+                    xA=s365_data.get("xA", 0.0),
+                    rating=s365_data.get("rating", 0.0),
+                    appearances=int(s365_data.get("appearances", 0)),
+                    goals=int(s365_data.get("goals", 0)),
+                    assists=int(s365_data.get("assists", 0)),
+                    totalShots=int(s365_data.get("totalShots", 0)),
+                    shotsOnTarget=int(s365_data.get("shotsOnTarget", 0)),
+                    bigChancesCreated=int(s365_data.get("bigChancesCreated", 0)),
+                    touches=int(s365_data.get("touches", 0)),
+                    minutesPlayed=int(s365_data.get("minutesPlayed", 0)),
+                    yellowCards=int(s365_data.get("yellowCards", 0)),
+                    redCards=int(s365_data.get("redCards", 0)),
+                ).model_dump()
 
             # Sport5 player basic info
             sp_basic = None
@@ -351,7 +355,10 @@ class DataProcessor:
                 avgPoints=detail.avgPoints if detail else 0.0,
                 ppm=round(total_pts / (player_price / 1_000_000), 2) if player_price > 0 and total_pts else 0.0,
                 xA=round(xa_val, 2),
-                xGI=round((fc_stats.get("expectedGoals", 0) if isinstance(fc_stats, dict) else 0) + xa_val, 2),
+                xGI=round(
+                    (s365_data.get("xG", 0) if s365_data else (fc_stats.get("expectedGoals", 0) if isinstance(fc_stats, dict) else 0))
+                    + xa_val, 2
+                ),
                 sport5=sport5_stats,
                 footballCoIl=fc_stats,
                 scores365=s365_stats,
@@ -479,6 +486,7 @@ class DataProcessor:
             "assists": lambda p: _get_stat(p, "sport5", "assists"),
             "xA": lambda p: float(p.get("xA", 0) or 0),
             "xGI": lambda p: float(p.get("xGI", 0) or 0),
+            "rating": lambda p: _get_stat(p, "scores365", "rating"),
             "cleanSheets": lambda p: _get_stat(p, "sport5", "cleanSheets"),
             "yellowCards": lambda p: _get_stat(p, "sport5", "yellowCards"),
             "minutesPlayed": lambda p: _get_stat(p, "sport5", "minutesPlayed"),
