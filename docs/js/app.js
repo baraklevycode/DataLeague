@@ -388,6 +388,7 @@ function playerDetail() {
 function teamDetail() {
     return {
         team: null,
+        teamSort: 'points',
         posLabel, posClass, formatPrice,
 
         loadTeam() {
@@ -399,9 +400,28 @@ function teamDetail() {
         teamPlayers() {
             if (!this.team) return [];
             const ids = new Set(this.team.playerIds || []);
-            return Alpine.store('data').players
-                .filter(p => ids.has(p.id))
-                .sort((a, b) => (a.position || 99) - (b.position || 99));
+            let list = Alpine.store('data').players
+                .filter(p => ids.has(p.id) && p.sport5 && p.sport5.minutesPlayed > 0);
+
+            const desc = this.teamSort.startsWith('-');
+            const key = desc ? this.teamSort.slice(1) : this.teamSort;
+            const dir = desc ? 1 : -1;
+
+            list.sort((a, b) => {
+                let va, vb;
+                switch (key) {
+                    case 'position': va = a.position || 99; vb = b.position || 99; break;
+                    case 'price': va = a.price; vb = b.price; break;
+                    case 'points': va = a.sport5 ? a.sport5.totalPoints : 0; vb = b.sport5 ? b.sport5.totalPoints : 0; break;
+                    case 'ppm': va = a.ppm || 0; vb = b.ppm || 0; break;
+                    case 'goals': va = a.sport5 ? a.sport5.goals : 0; vb = b.sport5 ? b.sport5.goals : 0; break;
+                    case 'assists': va = a.sport5 ? a.sport5.assists : 0; vb = b.sport5 ? b.sport5.assists : 0; break;
+                    case 'xG': va = a.footballCoIl ? a.footballCoIl.expectedGoals : 0; vb = b.footballCoIl ? b.footballCoIl.expectedGoals : 0; break;
+                    default: va = 0; vb = 0;
+                }
+                return dir * (va - vb);
+            });
+            return list;
         }
     };
 }

@@ -512,34 +512,39 @@
                         <!-- Team roster table -->
                         <div class="bg-white rounded-lg shadow overflow-x-auto">
                             <table class="w-full text-sm">
-                                <thead class="bg-gray-50 text-gray-600">
+                                <thead class="bg-gray-50 text-gray-600 text-xs">
                                     <tr>
                                         <th class="px-3 py-2 text-right">שחקן</th>
-                                        <th class="px-3 py-2 text-center">עמדה</th>
-                                        <th class="px-3 py-2 text-center">מחיר</th>
-                                        <th class="px-3 py-2 text-center">נק׳ פנטזי</th>
-                                        <th class="px-3 py-2 text-center">שערים</th>
-                                        <th class="px-3 py-2 text-center">בישולים</th>
-                                        <th class="px-3 py-2 text-center">xG</th>
-                                        <th class="px-3 py-2 text-center">דירוג</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'position' ? '-position' : 'position'">עמדה</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'price' ? '-price' : 'price'">מחיר</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'points' ? '-points' : 'points'">נק׳ פנטזי</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'ppm' ? '-ppm' : 'ppm'">PPM</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'goals' ? '-goals' : 'goals'">שערים</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'assists' ? '-assists' : 'assists'">בישולים</th>
+                                        <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600" @click="teamSort = teamSort === 'xG' ? '-xG' : 'xG'">xG</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <template x-for="p in teamPlayers()" :key="p.id">
                                         <tr class="border-t hover:bg-blue-50 cursor-pointer" @click="window.location.hash = '#/players/' + p.id">
                                             <td class="px-3 py-2">
-                                                <div class="font-medium" x-text="p.name"></div>
-                                                <div class="text-xs text-gray-400" x-text="p.englishName"></div>
+                                                <div class="flex items-center gap-2">
+                                                    <template x-if="p.imageUrl"><img :src="p.imageUrl" class="w-7 h-7 rounded-full object-cover"></template>
+                                                    <div>
+                                                        <div class="font-medium" x-text="p.name"></div>
+                                                        <div class="text-xs text-gray-400" x-text="p.englishName"></div>
+                                                    </div>
+                                                </div>
                                             </td>
                                             <td class="px-3 py-2 text-center">
                                                 <span class="text-xs px-1.5 py-0.5 rounded" :class="posClass(p.position)" x-text="posLabel(p.position)"></span>
                                             </td>
                                             <td class="px-3 py-2 text-center text-xs" x-text="formatPrice(p.price)"></td>
                                             <td class="px-3 py-2 text-center font-semibold" x-text="p.sport5 ? p.sport5.totalPoints : '-'"></td>
+                                            <td class="px-3 py-2 text-center text-blue-600" x-text="p.ppm ? p.ppm.toFixed(1) : '-'"></td>
                                             <td class="px-3 py-2 text-center" x-text="p.sport5 ? p.sport5.goals : '-'"></td>
                                             <td class="px-3 py-2 text-center" x-text="p.sport5 ? p.sport5.assists : '-'"></td>
                                             <td class="px-3 py-2 text-center" x-text="p.footballCoIl ? p.footballCoIl.expectedGoals.toFixed(2) : '-'"></td>
-                                            <td class="px-3 py-2 text-center" x-text="p.scores365 ? p.scores365.avgRating.toFixed(1) : '-'"></td>
                                         </tr>
                                     </template>
                                 </tbody>
