@@ -10,7 +10,7 @@ import httpx
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 from fetcher.config import Settings
-from fetcher.schemas import Sport5Player, Sport5PlayerDetail, Sport5RoundStat, Sport5StatsData, Sport5Team
+from fetcher.schemas import Sport5GameStat, Sport5Player, Sport5PlayerDetail, Sport5RoundStat, Sport5StatsData, Sport5Team
 
 logger = logging.getLogger(__name__)
 
@@ -84,11 +84,46 @@ class Sport5Client:
                 statsData=rs.get("statsData", ""),
             ))
 
+        # Parse gameStats with opponent info
+        game_stats: list[Sport5GameStat] = []
+        for gs in data.get("gameStats", []):
+            game = gs.get("game", {})
+            player_team = gs.get("playerTeamId", 0)
+            team_a = game.get("teamAId", 0)
+            team_b = game.get("teamBId", 0)
+            is_home = player_team == team_a
+            opponent_id = team_b if is_home else team_a
+            opponent_name = game.get("teamBName", "") if is_home else game.get("teamAName", "")
+
+            result_str = game.get("resultData", "")
+            home_score = away_score = 0
+            if result_str:
+                try:
+                    rd = json.loads(result_str)
+                    home_score = rd.get("HostGoals", 0)
+                    away_score = rd.get("GuestGoals", 0)
+                except (json.JSONDecodeError, Exception):
+                    pass
+
+            game_stats.append(Sport5GameStat(
+                gameId=gs.get("gameId", 0),
+                playerTeamId=player_team,
+                points=gs.get("points", 0),
+                statsData=gs.get("statsData", ""),
+                opponentId=opponent_id,
+                opponentName=opponent_name,
+                roundId=game.get("roundId", 0),
+                homeScore=home_score,
+                awayScore=away_score,
+                isHome=is_home,
+            ))
+
         return Sport5PlayerDetail(
             id=player_id,
             name=data.get("player", {}).get("name", "") if isinstance(data.get("player"), dict) else "",
             seasonStats=data.get("seasonStats"),
             roundsStats=rounds_stats,
+            gameStats=game_stats,
             timesSelected=data.get("timesSelected", 0),
             avgPoints=data.get("avgPoints", 0.0),
         )

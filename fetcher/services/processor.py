@@ -363,7 +363,37 @@ class DataProcessor:
                 footballCoIl=fc_stats,
                 scores365=s365_stats,
             )
-            players.append(player.model_dump())
+            pd = player.model_dump()
+
+            # Add per-game data with opponent info
+            round_map = self._build_round_map()
+            if detail:
+                games_list = []
+                opponent_points: dict[str, int] = {}  # opponent_name -> total points
+                for gs in detail.gameStats:
+                    seq_round = round_map.get(gs.roundId, 0)
+                    sd = Sport5Client.parse_stats_data(gs.statsData)
+                    games_list.append({
+                        "round": seq_round,
+                        "opponent": gs.opponentName,
+                        "opponentId": gs.opponentId,
+                        "points": gs.points,
+                        "goals": sd.Goals.Count,
+                        "assists": sd.Assists.Count,
+                        "isHome": gs.isHome,
+                        "homeScore": gs.homeScore,
+                        "awayScore": gs.awayScore,
+                    })
+                    if gs.opponentName:
+                        opponent_points[gs.opponentName] = opponent_points.get(gs.opponentName, 0) + gs.points
+
+                pd["games"] = sorted(games_list, key=lambda g: g["round"])
+                pd["topOpponents"] = sorted(
+                    [{"name": k, "points": v} for k, v in opponent_points.items()],
+                    key=lambda x: x["points"], reverse=True,
+                )[:3]
+
+            players.append(pd)
 
         return players
 

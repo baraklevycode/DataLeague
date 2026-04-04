@@ -59,11 +59,25 @@ class Sport5RoundStat(BaseModel):
     statsData: str = ""  # JSON string that needs double-parsing
 
 
+class Sport5GameStat(BaseModel):
+    gameId: int = 0
+    playerTeamId: int = 0
+    points: int = 0
+    statsData: str = ""
+    opponentId: int = 0
+    opponentName: str = ""
+    roundId: int = 0
+    homeScore: int = 0
+    awayScore: int = 0
+    isHome: bool = False
+
+
 class Sport5PlayerDetail(BaseModel):
     id: int
     name: str = ""
     seasonStats: dict | None = None
     roundsStats: list[Sport5RoundStat] = Field(default_factory=list)
+    gameStats: list[Sport5GameStat] = Field(default_factory=list)
     timesSelected: int = 0
     avgPoints: float = 0.0
 

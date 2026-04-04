@@ -308,34 +308,52 @@
                             </div>
                         </div>
 
+                        <!-- Top opponents -->
+                        <template x-if="player.topOpponents && player.topOpponents.length">
+                            <div class="bg-white rounded-lg shadow p-4 mb-4">
+                                <h3 class="font-semibold mb-3">הכי הרבה נקודות מול</h3>
+                                <div class="flex gap-4">
+                                    <template x-for="(opp, i) in player.topOpponents" :key="opp.name">
+                                        <div class="flex items-center gap-2 bg-gray-50 rounded-lg px-4 py-2">
+                                            <span class="text-lg font-bold" :class="i === 0 ? 'text-yellow-500' : i === 1 ? 'text-gray-400' : 'text-amber-600'" x-text="(i+1) + '.'"></span>
+                                            <div>
+                                                <div class="font-medium text-sm" x-text="opp.name"></div>
+                                                <div class="text-blue-600 font-bold" x-text="opp.points + ' נק׳'"></div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </template>
+
                         <!-- Round-by-round chart -->
                         <div class="bg-white rounded-lg shadow p-4 mb-4">
                             <h3 class="font-semibold mb-3">ביצועים לפי מחזור</h3>
                             <canvas id="playerChart" height="100"></canvas>
                         </div>
 
-                        <!-- Round table -->
+                        <!-- Games table with opponent -->
                         <div class="bg-white rounded-lg shadow overflow-x-auto">
                             <table class="w-full text-sm">
                                 <thead class="bg-gray-50 text-gray-600">
                                     <tr>
                                         <th class="px-3 py-2 text-right">מחזור</th>
-                                        <th class="px-3 py-2 text-center">נק׳ פנטזי</th>
+                                        <th class="px-3 py-2 text-right">מול</th>
+                                        <th class="px-3 py-2 text-center">תוצאה</th>
+                                        <th class="px-3 py-2 text-center">נק׳</th>
                                         <th class="px-3 py-2 text-center">שערים</th>
                                         <th class="px-3 py-2 text-center">בישולים</th>
-                                        <th class="px-3 py-2 text-center">דקות</th>
-                                        <th class="px-3 py-2 text-center">xG</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <template x-for="r in playerRounds()" :key="r.round">
+                                    <template x-for="g in (player.games || [])" :key="g.round">
                                         <tr class="border-t">
-                                            <td class="px-3 py-2 font-medium" x-text="r.round"></td>
-                                            <td class="px-3 py-2 text-center font-semibold" x-text="r.points"></td>
-                                            <td class="px-3 py-2 text-center" x-text="r.goals"></td>
-                                            <td class="px-3 py-2 text-center" x-text="r.assists"></td>
-                                            <td class="px-3 py-2 text-center" x-text="r.minutes"></td>
-                                            <td class="px-3 py-2 text-center" x-text="r.xG"></td>
+                                            <td class="px-3 py-2 font-medium" x-text="g.round"></td>
+                                            <td class="px-3 py-2 text-right text-xs" x-text="(g.isHome ? '(ב) ' : '(ח) ') + g.opponent"></td>
+                                            <td class="px-3 py-2 text-center text-xs" x-text="g.homeScore + ':' + g.awayScore"></td>
+                                            <td class="px-3 py-2 text-center font-semibold" :class="g.points >= 8 ? 'text-green-600' : g.points <= 0 ? 'text-red-500' : ''" x-text="g.points"></td>
+                                            <td class="px-3 py-2 text-center" x-text="g.goals || ''"></td>
+                                            <td class="px-3 py-2 text-center" x-text="g.assists || ''"></td>
                                         </tr>
                                     </template>
                                 </tbody>
