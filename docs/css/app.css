@@ -30,21 +30,37 @@ table th, table td {
     background: #94a3b8;
 }
 
-/* Dark mode — body matches logo/nav background #262c3c */
+/* CSS variables for reliable dark mode — avoids mobile WebKit repaint flicker */
+:root {
+    --color-card: #ffffff;
+    --color-surface: #f9fafb;
+    --color-raised: #f3f4f6;
+    --color-sticky: #ffffff;
+    --color-body: #f9fafb;
+}
+
+.dark {
+    --color-card: #2f3647;
+    --color-surface: #262c3c;
+    --color-raised: #38405a;
+    --color-sticky: #2f3647;
+    --color-body: #262c3c;
+}
+
 .dark body {
-    background-color: #262c3c !important;
+    background-color: var(--color-body) !important;
 }
 
 .dark .bg-white {
-    background-color: #2f3647 !important;
+    background-color: var(--color-card) !important;
 }
 
 .dark .bg-gray-50 {
-    background-color: #262c3c !important;
+    background-color: var(--color-surface) !important;
 }
 
 .dark .bg-gray-100 {
-    background-color: #38405a !important;
+    background-color: var(--color-raised) !important;
 }
 
 .dark .text-gray-900 {
@@ -85,8 +101,16 @@ table th, table td {
     background-color: #1e3a5f !important;
 }
 
+/* Sticky cells: use CSS var + GPU layer to prevent mobile scroll repaint flicker */
+td.sticky, th.sticky {
+    background-color: var(--color-sticky);
+    will-change: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
 .dark td.sticky, .dark th.sticky {
-    background-color: #2f3647 !important;
+    background-color: var(--color-sticky) !important;
 }
 
 .dark ::-webkit-scrollbar-track {
@@ -110,6 +134,15 @@ table th, table td {
 
     table th, table td {
         padding: 0.25rem 0.4rem;
+    }
+
+    /* Compact nav on mobile */
+    .nav-logo {
+        width: 70px !important;
+    }
+
+    .nav-row {
+        min-height: 3.5rem !important;
     }
 
     /* Ensure touch targets are large enough */
