@@ -161,7 +161,7 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <template x-for="(p, idx) in filtered().slice(0, 200)" :key="p.id">
+                            <template x-for="(p, idx) in paginated()" :key="p.id">
                                 <tr class="border-t hover:bg-blue-50 cursor-pointer transition text-xs" @click="window.location.hash = '#/players/' + p.id">
                                     <td class="px-2 py-1.5 text-center text-gray-400" x-text="idx + 1"></td>
                                     <td class="px-2 py-1.5 sticky right-0 bg-white z-10">
@@ -198,6 +198,15 @@
                             </template>
                         </tbody>
                     </table>
+                </div>
+
+                <!-- Pagination -->
+                <div class="flex items-center justify-center gap-2 mt-4 text-sm" x-show="totalPages() > 1">
+                    <button @click="currentPage = Math.max(1, currentPage - 1)" :disabled="currentPage === 1"
+                            class="px-3 py-1 rounded border disabled:opacity-30">הקודם</button>
+                    <span x-text="'עמוד ' + currentPage + ' מתוך ' + totalPages()" class="text-gray-500"></span>
+                    <button @click="currentPage = Math.min(totalPages(), currentPage + 1)" :disabled="currentPage >= totalPages()"
+                            class="px-3 py-1 rounded border disabled:opacity-30">הבא</button>
                 </div>
             </div>
         </div>

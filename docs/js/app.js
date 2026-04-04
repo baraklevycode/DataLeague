@@ -75,6 +75,8 @@ function playerTable() {
         roundMode: 'season',
         selectedRounds: [],
         sortDesc: true,
+        currentPage: 1,
+        pageSize: 50,
         sortBy: 'fantasyPoints',
         posLabel, posClass, formatPrice,
 
@@ -83,7 +85,13 @@ function playerTable() {
             return rounds;
         },
 
-        initFilters() {},
+        initFilters() {
+            this.$watch('search', () => this.currentPage = 1);
+            this.$watch('posFilter', () => this.currentPage = 1);
+            this.$watch('teamFilter', () => this.currentPage = 1);
+            this.$watch('maxPriceM', () => this.currentPage = 1);
+            this.$watch('sortBy', () => this.currentPage = 1);
+        },
 
         toggleRound(r) {
             const idx = this.selectedRounds.indexOf(r);
@@ -214,8 +222,19 @@ function playerTable() {
             return typeof val === 'number' ? val : parseFloat(val) || 0;
         },
 
+        totalPages() {
+            return Math.ceil(this.filtered().length / this.pageSize) || 1;
+        },
+
+        paginated() {
+            const f = this.filtered();
+            const start = (this.currentPage - 1) * this.pageSize;
+            return f.slice(start, start + this.pageSize);
+        },
+
         filtered() {
-            let list = [...Alpine.store('data').players];
+            // Only show players who are in the Sport5 game (have minutes)
+            let list = Alpine.store('data').players.filter(p => p.sport5 && p.sport5.minutesPlayed > 0);
 
             if (this.search) {
                 const q = this.search.toLowerCase();

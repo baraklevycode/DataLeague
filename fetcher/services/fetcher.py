@@ -78,11 +78,28 @@ async def run_pipeline(settings: Settings) -> None:
         )
         logger.info("Fetched Sport5+FC+standings (%.1fs)", time.time() - t1)
 
-        # 365Scores: search + stats (cached)
+        # 365Scores: search by Hebrew name, then English name fallback
         t2 = time.time()
         played_ids = {pid for pid, detail in sport5_details.items() if detail.roundsStats}
+
+        # First pass: search by Hebrew name
         player_names = [(p["id"], p["name"]) for p in sport5_players_flat if p["id"] in played_ids]
         s365_id_map = await s365.resolve_all_players(player_names)
+
+        # Second pass: for unresolved players, try English name from FC match
+        fc_english_names = {p.get("hebrewName", ""): p.get("name", "") for p in (
+            {"hebrewName": p.hebrewName, "name": p.name} for p in fc_players
+        ) if p.get("name")}
+        fallback_names = []
+        for p in sport5_players_flat:
+            if p["id"] in played_ids and p["id"] not in s365_id_map:
+                en_name = fc_english_names.get(p["name"], "")
+                if en_name:
+                    fallback_names.append((p["id"], en_name))
+        if fallback_names:
+            logger.info("Trying English name fallback for %d players...", len(fallback_names))
+            fallback_map = await s365.resolve_all_players(fallback_names)
+            s365_id_map.update(fallback_map)
 
         athlete_ids = list(s365_id_map.values())
         s365_stats = await s365.get_all_athletes_stats(athlete_ids)
