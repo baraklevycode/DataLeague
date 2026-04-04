@@ -72,7 +72,8 @@ function playerTable() {
         posFilter: '',
         teamFilter: '',
         maxPriceM: null,
-        roundFilter: 'season',
+        roundMode: 'season',
+        selectedRounds: [],
         sortDesc: true,
         sortBy: 'fantasyPoints',
         posLabel, posClass, formatPrice,
@@ -84,6 +85,19 @@ function playerTable() {
 
         initFilters() {},
 
+        toggleRound(r) {
+            const idx = this.selectedRounds.indexOf(r);
+            if (idx >= 0) this.selectedRounds.splice(idx, 1);
+            else this.selectedRounds.push(r);
+            this.roundMode = 'pick';
+        },
+
+        selectLastN(n) {
+            const rounds = this.availableRounds;
+            this.selectedRounds = rounds.slice(-n);
+            this.roundMode = 'pick';
+        },
+
         toggleSort(col) {
             if (this.sortBy === col) {
                 this.sortDesc = !this.sortDesc;
@@ -94,8 +108,8 @@ function playerTable() {
         },
 
         getStat(player, stat) {
-            if (this.roundFilter !== 'season') {
-                return this.getRoundStat(player, stat);
+            if (this.roundMode === 'pick' && this.selectedRounds.length > 0) {
+                return this.getMultiRoundStat(player, stat);
             }
             const s5 = player.sport5;
             const fc = player.footballCoIl;
@@ -146,6 +160,53 @@ function playerTable() {
                 case 'redCards': return s5.redCards || 0;
                 default: return 0;
             }
+        },
+
+        getMultiRoundStat(player, stat) {
+            const rounds = Alpine.store('data').rounds || {};
+            const pid = String(player.id);
+            let total = 0;
+            let totalPts = 0;
+            let found = false;
+
+            // For ppm, we need total points regardless of which stat is requested
+            const needPpm = (stat === 'ppm');
+            const actualStat = needPpm ? 'fantasyPoints' : stat;
+
+            for (const r of this.selectedRounds) {
+                const rnd = rounds[String(r)];
+                if (!rnd || !rnd.players) continue;
+                const ps = rnd.players[pid];
+                if (!ps) continue;
+                found = true;
+                const s5 = ps.sport5 || {};
+                const fc = ps.footballCoIl || {};
+
+                totalPts += s5.points || 0;
+
+                switch (actualStat) {
+                    case 'fantasyPoints': total += s5.points || 0; break;
+                    case 'goals': total += s5.goals || 0; break;
+                    case 'assists': total += s5.assists || 0; break;
+                    case 'xG': total += fc.expectedGoals || 0; break;
+                    case 'shotAttempts': total += fc.shotsOnTarget || 0; break;
+                    case 'minutes': total += s5.minutesPlayed || 0; break;
+                    case 'cleanSheets': total += s5.cleanSheets || 0; break;
+                    case 'subIn': total += s5.substituteIn || 0; break;
+                    case 'subOut': total += s5.substituteOut || 0; break;
+                    case 'ownGoals': total += s5.ownGoals || 0; break;
+                    case 'yellowCards': total += s5.yellowCards || 0; break;
+                    case 'redCards': total += s5.redCards || 0; break;
+                    case 'penStopped': case 'penMissed': case 'causedPen': case 'failedPen': break;
+                }
+            }
+
+            if (!found) return '-';
+            if (needPpm) return player.price > 0 && totalPts > 0 ? (totalPts / (player.price / 1000000)).toFixed(1) : '-';
+            if (stat === 'xG') return total > 0 ? total.toFixed(2) : '-';
+            if (stat === 'xA' || stat === 'xGI') return '-';
+            if (stat === 'price') return player.price;
+            return total;
         },
 
         getNumericStat(player, stat) {

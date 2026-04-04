@@ -84,13 +84,27 @@
                                class="border rounded px-3 py-1.5 text-sm w-28">
                     </div>
                     <div>
-                        <label class="block text-xs text-gray-500 mb-1">מחזור</label>
-                        <select x-model="roundFilter" class="border rounded px-3 py-1.5 text-sm">
-                            <option value="season">עונה</option>
+                        <label class="block text-xs text-gray-500 mb-1">מחזורים</label>
+                        <div class="flex items-center gap-2">
+                            <button @click="roundMode = 'season'; selectedRounds = []"
+                                    class="px-2 py-1 text-xs rounded transition"
+                                    :class="roundMode === 'season' ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-gray-200'">עונה</button>
+                            <button @click="roundMode = 'pick'"
+                                    class="px-2 py-1 text-xs rounded transition"
+                                    :class="roundMode === 'pick' ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-gray-200'">בחירה</button>
+                            <button @click="selectLastN(5)"
+                                    class="px-2 py-1 text-xs rounded bg-gray-100 hover:bg-gray-200">5 אחרונים</button>
+                            <button @click="selectLastN(10)"
+                                    class="px-2 py-1 text-xs rounded bg-gray-100 hover:bg-gray-200">10 אחרונים</button>
+                        </div>
+                        <div x-show="roundMode === 'pick'" class="flex flex-wrap gap-1 mt-2 max-w-md">
                             <template x-for="r in availableRounds" :key="r">
-                                <option :value="r" x-text="'מחזור ' + r"></option>
+                                <button @click="toggleRound(r)"
+                                        class="w-8 h-7 text-xs rounded transition"
+                                        :class="selectedRounds.includes(r) ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-blue-100'"
+                                        x-text="r"></button>
                             </template>
-                        </select>
+                        </div>
                     </div>
                     <div>
                         <label class="block text-xs text-gray-500 mb-1">מיון</label>
@@ -113,6 +127,9 @@
                 <p class="text-sm text-gray-500 mb-2">
                     מציג <span x-text="filtered().length" class="font-semibold"></span>
                     מתוך <span x-text="$store.data.players.length" class="font-semibold"></span> שחקנים
+                    <template x-if="roundMode === 'pick' && selectedRounds.length > 0">
+                        <span class="text-blue-600 font-medium" x-text="' · מחזורים: ' + selectedRounds.sort((a,b)=>a-b).join(', ')"></span>
+                    </template>
                 </p>
 
                 <!-- Table -->
