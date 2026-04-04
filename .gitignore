@@ -11,4 +11,3 @@ exports/
 .mypy_cache/
 .pytest_cache/
 CLAUDE.md
-docs/data/.365cache.json
