@@ -192,7 +192,8 @@ function playerDetail() {
             const param = Alpine.evaluate(this.$el.closest('[x-data="app()"]'), 'pageParam');
             if (!param) return;
             this.player = Alpine.store('data').getPlayer(param);
-            this.$nextTick(() => this.buildChart());
+            // Double nextTick: first for x-if to render, second for canvas to be in DOM
+            this.$nextTick(() => this.$nextTick(() => this.buildChart()));
         },
 
         playerRounds() {
@@ -214,7 +215,6 @@ function playerDetail() {
                     assists: s5.assists || 0,
                     minutes: s5.minutesPlayed || 0,
                     xG: fc.expectedGoals != null ? fc.expectedGoals.toFixed(2) : '-',
-                    rating: s3.rating ? s3.rating.toFixed(1) : '-',
                 });
             }
 
@@ -234,7 +234,6 @@ function playerDetail() {
             const labels = rds.map(r => 'מחזור ' + r.round);
             const points = rds.map(r => r.points);
             const xG = rds.map(r => parseFloat(r.xG) || 0);
-            const ratings = rds.map(r => parseFloat(r.rating) || 0);
 
             this._chart = new Chart(canvas, {
                 type: 'line',
@@ -257,14 +256,6 @@ function playerDetail() {
                             borderDash: [5, 5],
                             tension: 0.3,
                             yAxisID: 'y1',
-                        },
-                        {
-                            label: 'דירוג 365',
-                            data: ratings,
-                            borderColor: '#f59e0b',
-                            borderDash: [2, 2],
-                            tension: 0.3,
-                            yAxisID: 'y1',
                         }
                     ]
                 },
@@ -274,7 +265,7 @@ function playerDetail() {
                     plugins: { legend: { position: 'top' } },
                     scales: {
                         y: { type: 'linear', position: 'right', title: { display: true, text: 'נקודות' } },
-                        y1: { type: 'linear', position: 'left', title: { display: true, text: 'xG / דירוג' }, grid: { drawOnChartArea: false } }
+                        y1: { type: 'linear', position: 'left', title: { display: true, text: 'xG' }, grid: { drawOnChartArea: false } }
                     }
                 }
             });
