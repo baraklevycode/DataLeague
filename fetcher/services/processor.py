@@ -311,7 +311,8 @@ class DataProcessor:
                     if sp_basic:
                         break
 
-            image_url = sp_basic.get("imagePath", "") if sp_basic else ""
+            raw_img = sp_basic.get("imagePath", "") if sp_basic else ""
+            image_url = raw_img if raw_img and "/Files/" in raw_img else ""
             player_price = int(sp_basic.get("price", 0)) if sp_basic else 0
 
             player = OutputPlayer(
