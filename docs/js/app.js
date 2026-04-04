@@ -43,6 +43,7 @@ function app() {
         loading: true,
         error: null,
         isDark: localStorage.getItem('darkMode') === 'true',
+        menuOpen: false,
 
         async init() {
             if (this.isDark) document.documentElement.classList.add('dark');

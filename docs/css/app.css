@@ -92,3 +92,26 @@ table th, table td {
 .dark ::-webkit-scrollbar-thumb {
     background: #4b5563;
 }
+
+/* Mobile adjustments */
+@media (max-width: 767px) {
+    .max-w-7xl {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    table {
+        font-size: 0.7rem;
+    }
+
+    table th, table td {
+        padding: 0.25rem 0.4rem;
+    }
+
+    /* Ensure touch targets are large enough */
+    nav a, nav button {
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+}
