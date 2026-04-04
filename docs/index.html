@@ -5,26 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataLeague — Israeli Premier League Fantasy Stats</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = { darkMode: 'class' }</script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="css/app.css">
 </head>
-<body class="bg-gray-50 text-gray-900 min-h-screen" x-data="app()" x-init="init()">
+<body class="bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100 min-h-screen" x-data="app()" x-init="init()">
 
     <!-- Navigation -->
-    <nav class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="bg-white dark:bg-gray-800 shadow-md sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex items-center justify-between h-14">
-                <a href="#/players" @click="window.location.hash='#/players'; window.location.reload()" class="text-xl font-bold text-blue-600 cursor-pointer">DataLeague</a>
-                <div class="flex gap-1 text-sm">
+                <a href="#/players" @click="window.location.hash='#/players'; window.location.reload()" class="text-xl font-bold text-blue-600 dark:text-blue-400 cursor-pointer">DataLeague</a>
+                <div class="flex gap-1 text-sm items-center">
                     <a href="#/players" class="px-3 py-2 rounded-md transition"
-                       :class="page === 'players' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">שחקנים</a>
+                       :class="page === 'players' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-gray-700'">שחקנים</a>
                     <a href="#/teams" class="px-3 py-2 rounded-md transition"
-                       :class="page === 'teams' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">קבוצות</a>
+                       :class="page === 'teams' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-gray-700'">קבוצות</a>
                     <a href="#/rounds" class="px-3 py-2 rounded-md transition"
-                       :class="page === 'rounds' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">מחזורים</a>
+                       :class="page === 'rounds' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-gray-700'">מחזורים</a>
                     <a href="#/leaders" class="px-3 py-2 rounded-md transition"
-                       :class="page === 'leaders' ? 'bg-blue-100 text-blue-700 font-semibold' : 'hover:bg-gray-100'">מובילים</a>
+                       :class="page === 'leaders' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-gray-700'">מובילים</a>
+                    <a href="#/compare" class="px-3 py-2 rounded-md transition"
+                       :class="page === 'compare' ? 'bg-blue-100 text-blue-700 dark:bg-blue-900 dark:text-blue-300 font-semibold' : 'hover:bg-gray-100 dark:hover:bg-gray-700'">השוואה</a>
+                    <button @click="toggleDark()" class="mr-2 p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-700 transition">
+                        <span x-show="!isDark">&#9790;</span>
+                        <span x-show="isDark">&#9788;</span>
+                    </button>
                 </div>
             </div>
         </div>
@@ -653,6 +660,102 @@
                         </div>
                     </template>
                 </div>
+            </div>
+        </div>
+
+        <!-- Compare Page -->
+        <div x-show="page === 'compare'" x-cloak>
+            <div x-data="comparePage()" x-init="initCompare()">
+                <h1 class="text-xl font-bold mb-4">השוואת שחקנים</h1>
+
+                <!-- Player selectors -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <label class="block text-xs text-gray-500 mb-1">שחקן 1</label>
+                        <input type="text" x-model="search1" placeholder="חפש שחקן..." class="border rounded px-3 py-1.5 text-sm w-full mb-2">
+                        <div x-show="search1 && !player1" class="max-h-48 overflow-y-auto border rounded">
+                            <template x-for="p in searchResults(search1)" :key="p.id">
+                                <div @click="selectPlayer(1, p)" class="px-3 py-2 hover:bg-blue-50 cursor-pointer text-sm border-b flex items-center gap-2">
+                                    <template x-if="p.imageUrl"><img :src="p.imageUrl" class="w-6 h-6 rounded-full"></template>
+                                    <span x-text="p.name"></span>
+                                    <span class="text-xs text-gray-400" x-text="p.team"></span>
+                                </div>
+                            </template>
+                        </div>
+                        <template x-if="player1">
+                            <div class="flex items-center gap-3 mt-2 p-2 bg-blue-50 rounded">
+                                <template x-if="player1.imageUrl"><img :src="player1.imageUrl" class="w-10 h-10 rounded-full"></template>
+                                <div>
+                                    <div class="font-medium" x-text="player1.name"></div>
+                                    <div class="text-xs text-gray-500" x-text="player1.team + ' · ' + posLabel(player1.position)"></div>
+                                </div>
+                                <button @click="player1 = null; search1 = ''" class="mr-auto text-red-400 hover:text-red-600 text-lg">&times;</button>
+                            </div>
+                        </template>
+                    </div>
+                    <div class="bg-white rounded-lg shadow p-4">
+                        <label class="block text-xs text-gray-500 mb-1">שחקן 2</label>
+                        <input type="text" x-model="search2" placeholder="חפש שחקן..." class="border rounded px-3 py-1.5 text-sm w-full mb-2">
+                        <div x-show="search2 && !player2" class="max-h-48 overflow-y-auto border rounded">
+                            <template x-for="p in searchResults(search2)" :key="p.id">
+                                <div @click="selectPlayer(2, p)" class="px-3 py-2 hover:bg-blue-50 cursor-pointer text-sm border-b flex items-center gap-2">
+                                    <template x-if="p.imageUrl"><img :src="p.imageUrl" class="w-6 h-6 rounded-full"></template>
+                                    <span x-text="p.name"></span>
+                                    <span class="text-xs text-gray-400" x-text="p.team"></span>
+                                </div>
+                            </template>
+                        </div>
+                        <template x-if="player2">
+                            <div class="flex items-center gap-3 mt-2 p-2 bg-orange-50 rounded">
+                                <template x-if="player2.imageUrl"><img :src="player2.imageUrl" class="w-10 h-10 rounded-full"></template>
+                                <div>
+                                    <div class="font-medium" x-text="player2.name"></div>
+                                    <div class="text-xs text-gray-500" x-text="player2.team + ' · ' + posLabel(player2.position)"></div>
+                                </div>
+                                <button @click="player2 = null; search2 = ''" class="mr-auto text-red-400 hover:text-red-600 text-lg">&times;</button>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+
+                <!-- Comparison content -->
+                <template x-if="player1 && player2">
+                    <div>
+                        <!-- Radar/Spider Chart -->
+                        <div class="bg-white rounded-lg shadow p-4 mb-4">
+                            <h3 class="font-semibold mb-3">השוואה ויזואלית</h3>
+                            <div class="max-w-lg mx-auto">
+                                <canvas id="radarChart"></canvas>
+                            </div>
+                        </div>
+
+                        <!-- Stats comparison table -->
+                        <div class="bg-white rounded-lg shadow overflow-x-auto">
+                            <table class="w-full text-sm">
+                                <thead class="bg-gray-50 text-gray-600">
+                                    <tr>
+                                        <th class="px-4 py-2 text-center w-1/3" x-text="player1.name"></th>
+                                        <th class="px-4 py-2 text-center w-1/3">סטטיסטיקה</th>
+                                        <th class="px-4 py-2 text-center w-1/3" x-text="player2.name"></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="row in comparisonRows()" :key="row.label">
+                                        <tr class="border-t">
+                                            <td class="px-4 py-2 text-center font-medium"
+                                                :class="row.v1 > row.v2 ? 'text-green-600' : row.v1 < row.v2 ? 'text-red-500' : ''"
+                                                x-text="row.d1"></td>
+                                            <td class="px-4 py-2 text-center text-gray-500 text-xs" x-text="row.label"></td>
+                                            <td class="px-4 py-2 text-center font-medium"
+                                                :class="row.v2 > row.v1 ? 'text-green-600' : row.v2 < row.v1 ? 'text-red-500' : ''"
+                                                x-text="row.d2"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </template>
             </div>
         </div>
 

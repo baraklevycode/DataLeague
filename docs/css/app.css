@@ -4,17 +4,14 @@
     display: none !important;
 }
 
-/* Smooth transitions */
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
-/* RTL table alignment fix */
 table th, table td {
     white-space: nowrap;
 }
 
-/* Scrollbar styling */
 ::-webkit-scrollbar {
     height: 6px;
 }
@@ -33,3 +30,65 @@ table th, table td {
     background: #94a3b8;
 }
 
+/* Dark mode overrides for elements that use bg-white inline */
+.dark .bg-white {
+    background-color: #1f2937 !important; /* gray-800 */
+}
+
+.dark .bg-gray-50 {
+    background-color: #111827 !important; /* gray-900 */
+}
+
+.dark .bg-gray-100 {
+    background-color: #374151 !important; /* gray-700 */
+}
+
+.dark .text-gray-900 {
+    color: #f3f4f6 !important; /* gray-100 */
+}
+
+.dark .text-gray-600 {
+    color: #9ca3af !important; /* gray-400 */
+}
+
+.dark .text-gray-500 {
+    color: #9ca3af !important;
+}
+
+.dark .text-gray-400 {
+    color: #6b7280 !important;
+}
+
+.dark .border-t {
+    border-color: #374151 !important;
+}
+
+.dark .border {
+    border-color: #4b5563 !important;
+}
+
+.dark .shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
+}
+
+.dark input, .dark select {
+    background-color: #374151;
+    color: #f3f4f6;
+    border-color: #4b5563;
+}
+
+.dark .hover\:bg-blue-50:hover {
+    background-color: #1e3a5f !important;
+}
+
+.dark .sticky {
+    background-color: #1f2937 !important;
+}
+
+.dark ::-webkit-scrollbar-track {
+    background: #1f2937;
+}
+
+.dark ::-webkit-scrollbar-thumb {
+    background: #4b5563;
+}

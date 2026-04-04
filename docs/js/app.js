@@ -42,8 +42,11 @@ function app() {
         pageParam: null,
         loading: true,
         error: null,
+        isDark: localStorage.getItem('darkMode') === 'true',
 
         async init() {
+            if (this.isDark) document.documentElement.classList.add('dark');
+
             this.parseHash();
             window.addEventListener('hashchange', () => this.parseHash());
 
@@ -54,6 +57,12 @@ function app() {
                 this.loading = false;
                 this.error = 'שגיאה בטעינת הנתונים: ' + err.message;
             }
+        },
+
+        toggleDark() {
+            this.isDark = !this.isDark;
+            document.documentElement.classList.toggle('dark', this.isDark);
+            localStorage.setItem('darkMode', this.isDark);
         },
 
         parseHash() {
@@ -490,6 +499,168 @@ function leadersPage() {
             if (!leaders.length) return 0;
             const max = leaders[0].value || 1;
             return Math.round((value / max) * 100);
+        }
+    };
+}
+
+// -- Compare Page Component --
+
+function comparePage() {
+    return {
+        search1: '',
+        search2: '',
+        player1: null,
+        player2: null,
+        _radar: null,
+        posLabel,
+
+        initCompare() {},
+
+        searchResults(query) {
+            if (!query || query.length < 2) return [];
+            const q = query.toLowerCase();
+            return Alpine.store('data').players
+                .filter(p => p.sport5 && p.sport5.minutesPlayed > 0 &&
+                    (p.name.toLowerCase().includes(q) || (p.englishName && p.englishName.toLowerCase().includes(q))))
+                .slice(0, 8);
+        },
+
+        selectPlayer(num, p) {
+            if (num === 1) { this.player1 = p; this.search1 = ''; }
+            else { this.player2 = p; this.search2 = ''; }
+            this.$nextTick(() => this.$nextTick(() => this.buildRadar()));
+        },
+
+        _val(p, key) {
+            const s5 = p.sport5 || {};
+            const fc = p.footballCoIl || {};
+            const s3 = p.scores365 || {};
+            switch (key) {
+                case 'points': return s5.totalPoints || 0;
+                case 'goals': return s5.goals || 0;
+                case 'assists': return s5.assists || 0;
+                case 'xG': return s3.xG || fc.expectedGoals || 0;
+                case 'xA': return p.xA || 0;
+                case 'minutes': return s5.minutesPlayed || 0;
+                case 'cleanSheets': return s5.cleanSheets || 0;
+                case 'rating': return s3.rating || 0;
+                case 'ppm': return p.ppm || 0;
+                case 'shots': return s3.totalShots || fc.shotAttempts || 0;
+                case 'touches': return s3.touches || 0;
+                case 'yellowCards': return s5.yellowCards || 0;
+                case 'appearances': return s3.appearances || (s5.openLineup + s5.substituteIn) || 0;
+                default: return 0;
+            }
+        },
+
+        comparisonRows() {
+            if (!this.player1 || !this.player2) return [];
+            const stats = [
+                { key: 'points', label: 'נקודות פנטזי', fmt: v => v },
+                { key: 'ppm', label: 'PPM', fmt: v => v.toFixed(1) },
+                { key: 'goals', label: 'שערים', fmt: v => v },
+                { key: 'assists', label: 'בישולים', fmt: v => v },
+                { key: 'xG', label: 'xG', fmt: v => v.toFixed(2) },
+                { key: 'xA', label: 'xA', fmt: v => v.toFixed(2) },
+                { key: 'rating', label: 'דירוג', fmt: v => v > 0 ? v.toFixed(1) : '-' },
+                { key: 'minutes', label: 'דקות', fmt: v => v },
+                { key: 'appearances', label: 'הופעות', fmt: v => v },
+                { key: 'shots', label: 'בעיטות', fmt: v => v },
+                { key: 'touches', label: 'נגיעות', fmt: v => v > 0 ? v : '-' },
+                { key: 'cleanSheets', label: 'שער נקי', fmt: v => v },
+                { key: 'yellowCards', label: 'צהובים', fmt: v => v },
+            ];
+            return stats.map(s => {
+                const v1 = this._val(this.player1, s.key);
+                const v2 = this._val(this.player2, s.key);
+                // For yellow cards, lower is better
+                const inv = s.key === 'yellowCards';
+                return {
+                    label: s.label,
+                    v1: inv ? -v1 : v1,
+                    v2: inv ? -v2 : v2,
+                    d1: s.fmt(v1),
+                    d2: s.fmt(v2),
+                };
+            });
+        },
+
+        buildRadar() {
+            const canvas = document.getElementById('radarChart');
+            if (!canvas || !this.player1 || !this.player2) return;
+            if (this._radar) this._radar.destroy();
+
+            // Normalize stats to 0-100 scale for radar
+            const dims = [
+                { key: 'points', label: 'נקודות' },
+                { key: 'goals', label: 'שערים' },
+                { key: 'assists', label: 'בישולים' },
+                { key: 'xG', label: 'xG' },
+                { key: 'xA', label: 'xA' },
+                { key: 'rating', label: 'דירוג' },
+                { key: 'ppm', label: 'PPM' },
+                { key: 'shots', label: 'בעיטות' },
+            ];
+
+            const labels = dims.map(d => d.label);
+            const raw1 = dims.map(d => this._val(this.player1, d.key));
+            const raw2 = dims.map(d => this._val(this.player2, d.key));
+
+            // Normalize each dimension to 0-100
+            const data1 = [];
+            const data2 = [];
+            for (let i = 0; i < dims.length; i++) {
+                const max = Math.max(raw1[i], raw2[i], 0.01);
+                data1.push(Math.round(raw1[i] / max * 100));
+                data2.push(Math.round(raw2[i] / max * 100));
+            }
+
+            this._radar = new Chart(canvas, {
+                type: 'radar',
+                data: {
+                    labels,
+                    datasets: [
+                        {
+                            label: this.player1.name,
+                            data: data1,
+                            borderColor: '#3b82f6',
+                            backgroundColor: 'rgba(59, 130, 246, 0.15)',
+                            pointBackgroundColor: '#3b82f6',
+                        },
+                        {
+                            label: this.player2.name,
+                            data: data2,
+                            borderColor: '#f97316',
+                            backgroundColor: 'rgba(249, 115, 22, 0.15)',
+                            pointBackgroundColor: '#f97316',
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { display: false },
+                            grid: { color: 'rgba(0,0,0,0.08)' },
+                            pointLabels: { font: { size: 12 } },
+                        }
+                    },
+                    plugins: {
+                        legend: { position: 'top' },
+                        tooltip: {
+                            callbacks: {
+                                label: (ctx) => {
+                                    const dim = dims[ctx.dataIndex];
+                                    const p = ctx.datasetIndex === 0 ? this.player1 : this.player2;
+                                    return ctx.dataset.label + ': ' + this._val(p, dim.key);
+                                }
+                            }
+                        }
+                    }
+                }
+            });
         }
     };
 }
