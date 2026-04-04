@@ -78,6 +78,7 @@ class Sport5PlayerDetail(BaseModel):
     seasonStats: dict | None = None
     roundsStats: list[Sport5RoundStat] = Field(default_factory=list)
     gameStats: list[Sport5GameStat] = Field(default_factory=list)
+    futureGames: list[dict] = Field(default_factory=list)
     timesSelected: int = 0
     avgPoints: float = 0.0
 

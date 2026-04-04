@@ -118,12 +118,24 @@ class Sport5Client:
                 isHome=is_home,
             ))
 
+        # Parse futureGames
+        future_games: list[dict] = []
+        for fg in data.get("futureGames", []):
+            future_games.append({
+                "roundId": fg.get("roundId", 0),
+                "teamAId": fg.get("teamAId", 0),
+                "teamBId": fg.get("teamBId", 0),
+                "teamAName": fg.get("teamAName", ""),
+                "teamBName": fg.get("teamBName", ""),
+            })
+
         return Sport5PlayerDetail(
             id=player_id,
             name=data.get("player", {}).get("name", "") if isinstance(data.get("player"), dict) else "",
             seasonStats=data.get("seasonStats"),
             roundsStats=rounds_stats,
             gameStats=game_stats,
+            futureGames=future_games,
             timesSelected=data.get("timesSelected", 0),
             avgPoints=data.get("avgPoints", 0.0),
         )

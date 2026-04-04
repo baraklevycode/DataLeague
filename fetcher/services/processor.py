@@ -394,6 +394,14 @@ class DataProcessor:
                     key=lambda x: x["points"], reverse=True,
                 )[:3]
 
+            # Add next game + difficulty
+            if hasattr(self, '_team_next_game') and mp.team:
+                ng = self._team_next_game.get(mp.team.internal_id)
+                if ng:
+                    opp_diff = getattr(self, '_team_difficulty', {}).get(ng.get("opponentId", 0), "medium")
+                    pd["nextGame"] = ng["opponent"]
+                    pd["nextGameDifficulty"] = opp_diff
+
             players.append(pd)
 
         # Mark penalty takers: per team, the player with most penalty goals
@@ -457,6 +465,32 @@ class DataProcessor:
                     shirt_url = st.get("shirtPath", "") or ""
                     break
 
+            # Find next game from any player on this team
+            next_game = None
+            for mp in self.matched_players:
+                if mp.team and mp.team.internal_id == tm.internal_id and mp.sport5_id:
+                    detail = self.sport5_details.get(mp.sport5_id)
+                    if detail and detail.futureGames:
+                        fg = detail.futureGames[0]
+                        is_home = fg["teamAId"] == tm.sport5_id
+                        opp_name = fg["teamBName"] if is_home else fg["teamAName"]
+                        opp_s5_id = fg["teamBId"] if is_home else fg["teamAId"]
+                        # Find opponent internal ID
+                        from fetcher.config import build_sport5_id_map
+                        opp_tm = build_sport5_id_map().get(opp_s5_id)
+                        next_game = {
+                            "opponent": opp_name,
+                            "opponentId": opp_tm.internal_id if opp_tm else 0,
+                            "isHome": is_home,
+                        }
+                        break
+
+            # Compute form score from recentForm
+            form_score = 0
+            if standings_data and standings_data.get("recentForm"):
+                for f in standings_data["recentForm"]:
+                    form_score += {1: 3, 2: 1, 0: 0}.get(f, 0)
+
             team = OutputTeam(
                 id=tm.internal_id,
                 name=tm.name_he,
@@ -468,7 +502,29 @@ class DataProcessor:
                 standings=standings_data,
                 playerIds=player_ids,
             )
-            teams.append(team.model_dump())
+            td = team.model_dump()
+            td["formScore"] = form_score
+            td["nextGame"] = next_game
+            teams.append(td)
+
+        # Compute form rank (1 = best form)
+        teams.sort(key=lambda t: t["formScore"], reverse=True)
+        for i, t in enumerate(teams):
+            t["formRank"] = i + 1
+            # Difficulty tier: 1-5 = hard, 6-10 = medium, 11-14 = easy
+            if i < 5:
+                t["difficultyTier"] = "hard"
+            elif i < 10:
+                t["difficultyTier"] = "medium"
+            else:
+                t["difficultyTier"] = "easy"
+
+        # Build team difficulty lookup for players
+        self._team_difficulty = {t["id"]: t["difficultyTier"] for t in teams}
+        self._team_next_game = {}
+        for t in teams:
+            if t.get("nextGame"):
+                self._team_next_game[t["id"]] = t["nextGame"]
 
         return teams
 

@@ -139,6 +139,7 @@
                             <tr>
                                 <th class="px-2 py-2 text-center w-8">#</th>
                                 <th class="px-2 py-2 text-right sticky right-0 bg-gray-50 z-10">שם שחקן</th>
+                                <th class="px-2 py-2 text-center">משחק הבא</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('goals')">גולים</th>
@@ -174,6 +175,13 @@
                                                 <div class="text-[10px] text-gray-400" x-text="p.team + ' · ' + posLabel(p.position) + ' · ₪' + formatPrice(p.price)"></div>
                                             </div>
                                         </div>
+                                    </td>
+                                    <td class="px-2 py-1.5 text-center">
+                                        <template x-if="p.nextGame">
+                                            <span class="px-1.5 py-0.5 rounded text-[10px] font-medium"
+                                                  :class="p.nextGameDifficulty === 'hard' ? 'bg-red-100 text-red-700' : p.nextGameDifficulty === 'medium' ? 'bg-orange-100 text-orange-700' : 'bg-green-100 text-green-700'"
+                                                  x-text="p.nextGame"></span>
+                                        </template>
                                     </td>
                                     <td class="px-2 py-1.5 text-center font-semibold" x-text="getStat(p, 'fantasyPoints')"></td>
                                     <td class="px-2 py-1.5 text-center text-blue-600 font-medium" x-text="getStat(p, 'ppm')"></td>
@@ -370,6 +378,52 @@
         <!-- Teams Overview Page -->
         <div x-show="page === 'teams'" x-cloak>
             <h1 class="text-xl font-bold mb-4">קבוצות</h1>
+
+            <!-- Power Rank Table -->
+            <div class="bg-white rounded-lg shadow mb-6 overflow-x-auto">
+                <h2 class="font-semibold p-4 pb-2">דירוג כוח (5 משחקים אחרונים)</h2>
+                <table class="w-full text-sm">
+                    <thead class="bg-gray-50 text-gray-600 text-xs">
+                        <tr>
+                            <th class="px-3 py-2 text-center w-10">#</th>
+                            <th class="px-3 py-2 text-right">קבוצה</th>
+                            <th class="px-3 py-2 text-center">פורמה</th>
+                            <th class="px-3 py-2 text-center">נק׳</th>
+                            <th class="px-3 py-2 text-center">קושי</th>
+                            <th class="px-3 py-2 text-right">משחק הבא</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template x-for="t in powerRankedTeams()" :key="t.id">
+                            <tr class="border-t">
+                                <td class="px-3 py-2 text-center font-bold" x-text="t.formRank"></td>
+                                <td class="px-3 py-2 text-right font-medium" x-text="t.name"></td>
+                                <td class="px-3 py-2 text-center">
+                                    <div class="flex gap-1 justify-center">
+                                        <template x-if="t.standings" x-for="(f, i) in (t.standings.recentForm || [])" :key="i">
+                                            <span class="w-5 h-5 rounded-full text-white text-xs flex items-center justify-center"
+                                                  :class="f === 1 ? 'bg-green-500' : f === 2 ? 'bg-gray-400' : 'bg-red-500'"
+                                                  x-text="f === 1 ? 'נ' : f === 2 ? 'ת' : 'ה'"></span>
+                                        </template>
+                                    </div>
+                                </td>
+                                <td class="px-3 py-2 text-center font-semibold" x-text="t.formScore"></td>
+                                <td class="px-3 py-2 text-center">
+                                    <span class="px-2 py-0.5 rounded text-xs font-medium"
+                                          :class="t.difficultyTier === 'hard' ? 'bg-red-100 text-red-700' : t.difficultyTier === 'medium' ? 'bg-orange-100 text-orange-700' : 'bg-green-100 text-green-700'"
+                                          x-text="t.difficultyTier === 'hard' ? 'קשה' : t.difficultyTier === 'medium' ? 'שקול' : 'קל'"></span>
+                                </td>
+                                <td class="px-3 py-2 text-right text-xs">
+                                    <template x-if="t.nextGame">
+                                        <span x-text="(t.nextGame.isHome ? '(ב) ' : '(ח) ') + t.nextGame.opponent"></span>
+                                    </template>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <template x-for="t in $store.data.teams" :key="t.id">
                     <div class="bg-white rounded-lg shadow p-4 hover:shadow-lg cursor-pointer transition"

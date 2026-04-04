@@ -24,6 +24,10 @@ function formatPrice(price) {
     return price.toString();
 }
 
+function powerRankedTeams() {
+    return [...Alpine.store('data').teams].sort((a, b) => (a.formRank || 99) - (b.formRank || 99));
+}
+
 function getPenaltyTaker(teamId, rank) {
     const r = rank || 1;
     const players = Alpine.store('data').players.filter(p => p.teamId === teamId && p.penaltyRank === r);

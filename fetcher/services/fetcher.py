@@ -140,8 +140,8 @@ async def run_pipeline(settings: Settings) -> None:
         unmatched_names=[],
     )
 
+    teams = processor.build_teams()  # must run first — builds difficulty lookup for players
     players = processor.build_players()
-    teams = processor.build_teams()
     rounds = processor.build_rounds()
     leaders = processor.build_leaders(players)
     meta = processor.build_meta(players)
