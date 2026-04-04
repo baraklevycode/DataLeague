@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DataLeague — Israeli Premier League Fantasy Stats</title>
+    <!-- Sync dark mode init — MUST run before CSS/paint to avoid FOUC on sticky cells -->
+    <script>if (localStorage.getItem('darkMode') !== 'false') document.documentElement.classList.add('dark');</script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>tailwind.config = { darkMode: 'class' }</script>
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
@@ -175,7 +177,7 @@
                         <thead class="bg-gray-50 text-gray-600 text-xs">
                             <tr>
                                 <th class="px-2 py-2 text-center w-8">#</th>
-                                <th class="px-2 py-2 text-right sticky right-0 z-10" :style="isDark ? 'background-color:#2f3647' : 'background-color:#f9fafb'">שם שחקן</th>
+                                <th class="px-2 py-2 text-right sticky right-0 z-10">שם שחקן</th>
                                 <th class="px-2 py-2 text-center">משחק הבא</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
@@ -202,7 +204,7 @@
                             <template x-for="(p, idx) in paginated()" :key="p.id">
                                 <tr class="border-t hover:bg-blue-50 cursor-pointer transition text-xs" @click="window.location.hash = '#/players/' + p.id">
                                     <td class="px-2 py-1.5 text-center text-gray-400" x-text="(currentPage - 1) * pageSize + idx + 1"></td>
-                                    <td class="px-2 py-1.5 sticky right-0 z-10" :style="isDark ? 'background-color:#2f3647' : 'background-color:#ffffff'">
+                                    <td class="px-2 py-1.5 sticky right-0 z-10">
                                         <div class="flex items-center gap-2">
                                             <template x-if="p.imageUrl">
                                                 <img :src="p.imageUrl" class="w-7 h-7 rounded-full object-cover flex-shrink-0" loading="lazy">
