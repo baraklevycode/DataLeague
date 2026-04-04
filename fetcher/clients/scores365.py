@@ -322,16 +322,23 @@ class Scores365Client:
             tasks.append(asyncio.create_task(_fetch(athlete_ids[i:i + batch_size])))
         await asyncio.gather(*tasks)
 
-        # Retry missed athletes individually
-        missed = [aid for aid in athlete_ids if aid not in all_results]
-        if missed:
-            logger.info("Retrying %d missed athletes individually...", len(missed))
-            for aid in missed:
-                try:
-                    r = await self._fetch_athlete_batch([aid])
-                    all_results.update(r)
-                except Exception:
-                    pass
+        # Retry ALL missed athletes individually (catches batch timeout failures)
+        for retry_round in range(2):
+            missed = [aid for aid in athlete_ids if aid not in all_results]
+            if not missed:
+                break
+            logger.info("Retry %d: fetching %d missed athletes one-by-one...", retry_round + 1, len(missed))
+            retry_sem = asyncio.Semaphore(5)
+
+            async def _retry(aid: int) -> None:
+                async with retry_sem:
+                    try:
+                        r = await self._fetch_athlete_batch([aid])
+                        all_results.update(r)
+                    except Exception:
+                        pass
+
+            await asyncio.gather(*[asyncio.create_task(_retry(a)) for a in missed])
 
         logger.info("Fetched 365Scores stats for %d/%d athletes", len(all_results), len(athlete_ids))
         return all_results

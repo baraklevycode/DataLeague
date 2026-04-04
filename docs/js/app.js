@@ -313,28 +313,39 @@ function playerDetail() {
 
             const labels = rds.map(r => 'מחזור ' + r.round);
             const points = rds.map(r => r.points);
+            const goals = rds.map(r => r.goals);
             const xG = rds.map(r => parseFloat(r.xG) || 0);
 
             this._chart = new Chart(canvas, {
-                type: 'line',
+                type: 'bar',
                 data: {
                     labels,
                     datasets: [
                         {
                             label: 'נקודות פנטזי',
                             data: points,
-                            borderColor: '#3b82f6',
-                            backgroundColor: 'rgba(59, 130, 246, 0.1)',
-                            fill: true,
-                            tension: 0.3,
+                            backgroundColor: 'rgba(59, 130, 246, 0.7)',
+                            order: 3,
                             yAxisID: 'y',
                         },
                         {
+                            label: 'שערים',
+                            type: 'bar',
+                            data: goals,
+                            backgroundColor: 'rgba(239, 68, 68, 0.7)',
+                            order: 2,
+                            yAxisID: 'y1',
+                        },
+                        {
                             label: 'xG',
+                            type: 'line',
                             data: xG,
                             borderColor: '#10b981',
-                            borderDash: [5, 5],
+                            backgroundColor: 'rgba(16, 185, 129, 0.1)',
+                            fill: true,
                             tension: 0.3,
+                            pointRadius: 4,
+                            order: 1,
                             yAxisID: 'y1',
                         }
                     ]
@@ -344,8 +355,8 @@ function playerDetail() {
                     interaction: { mode: 'index', intersect: false },
                     plugins: { legend: { position: 'top' } },
                     scales: {
-                        y: { type: 'linear', position: 'right', title: { display: true, text: 'נקודות' } },
-                        y1: { type: 'linear', position: 'left', title: { display: true, text: 'xG' }, grid: { drawOnChartArea: false } }
+                        y: { type: 'linear', position: 'right', title: { display: true, text: 'נקודות' }, beginAtZero: true },
+                        y1: { type: 'linear', position: 'left', title: { display: true, text: 'שערים / xG' }, beginAtZero: true, grid: { drawOnChartArea: false } }
                     }
                 }
             });
