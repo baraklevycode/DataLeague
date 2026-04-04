@@ -206,7 +206,7 @@
                                             </template>
                                             <div>
                                                 <div class="font-medium text-sm" x-text="p.name"></div>
-                                                <div class="text-[10px] text-gray-400" x-text="p.team + ' · ' + posLabel(p.position) + ' · ₪' + formatPrice(p.price)"></div>
+                                                <div class="text-[10px] text-gray-400 truncate max-w-[120px] md:max-w-[200px]" x-text="p.team + ' · ' + posLabel(p.position) + ' · ₪' + formatPrice(p.price)"></div>
                                             </div>
                                         </div>
                                     </td>
