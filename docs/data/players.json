@@ -16,8 +16,8 @@
       "timesSelected": 445,
       "avgPoints": 0.36363636363636365,
       "ppm": 0.67,
-      "xA": 0.0,
-      "xGI": 0.2,
+      "xA": 0.14,
+      "xGI": 0.36,
       "sport5": {
         "totalPoints": 4,
         "minutesPlayed": 181,
@@ -50,7 +50,21 @@
         "appearances": 9,
         "passes": 43
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.22,
+        "xA": 0.14,
+        "rating": 6.2,
+        "appearances": 9,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 4,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 0,
+        "touches": 79,
+        "minutesPlayed": 176,
+        "yellowCards": 2,
+        "redCards": 1
+      }
     },
     {
       "id": 2,
@@ -483,7 +497,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4316,
+      "timesSelected": 4319,
       "avgPoints": 2.5454545454545454,
       "ppm": 11.2,
       "xA": 1.48,
@@ -1220,7 +1234,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1120,
+      "timesSelected": 1119,
       "avgPoints": 1.4705882352941178,
       "ppm": 5.0,
       "xA": 0.32,
@@ -1396,7 +1410,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 36385,
+      "timesSelected": 36401,
       "avgPoints": 5.333333333333333,
       "ppm": 8.73,
       "xA": 4.27,
@@ -1825,7 +1839,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6046,
+      "timesSelected": 6051,
       "avgPoints": 2.1875,
       "ppm": 11.67,
       "xA": 0.28,
@@ -1891,7 +1905,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 23523,
+      "timesSelected": 23524,
       "avgPoints": 3.347826086956522,
       "ppm": 11.0,
       "xA": 0.0,
@@ -1957,7 +1971,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 35692,
+      "timesSelected": 35693,
       "avgPoints": 2.0,
       "ppm": 4.18,
       "xA": 0.55,
@@ -2177,7 +2191,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 3522,
+      "timesSelected": 3521,
       "avgPoints": 2.5454545454545454,
       "ppm": 8.0,
       "xA": 1.4,
@@ -2331,7 +2345,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11356,
+      "timesSelected": 11359,
       "avgPoints": 3.727272727272727,
       "ppm": 11.71,
       "xA": 0.0,
@@ -2449,7 +2463,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8230,
+      "timesSelected": 8231,
       "avgPoints": 3.0526315789473686,
       "ppm": 5.8,
       "xA": 4.32,
@@ -2894,7 +2908,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 337,
+      "timesSelected": 338,
       "avgPoints": 2.3333333333333335,
       "ppm": 0.64,
       "xA": 0.0,
@@ -2960,7 +2974,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12312,
+      "timesSelected": 12326,
       "avgPoints": 3.217391304347826,
       "ppm": 12.33,
       "xA": 2.2,
@@ -3136,7 +3150,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 808,
+      "timesSelected": 809,
       "avgPoints": 1.65,
       "ppm": 5.5,
       "xA": 0.39,
@@ -3202,7 +3216,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1250,
+      "timesSelected": 1251,
       "avgPoints": -0.15384615384615385,
       "ppm": -0.5,
       "xA": 0.01,
@@ -3268,7 +3282,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1058,
+      "timesSelected": 1057,
       "avgPoints": 1.9565217391304348,
       "ppm": 7.5,
       "xA": 0.36,
@@ -3378,7 +3392,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5622,
+      "timesSelected": 5631,
       "avgPoints": 2.260869565217391,
       "ppm": 8.67,
       "xA": 0.0,
@@ -3730,7 +3744,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5076,
+      "timesSelected": 5078,
       "avgPoints": 2.4583333333333335,
       "ppm": 11.8,
       "xA": 0.86,
@@ -3796,7 +3810,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5510,
+      "timesSelected": 5516,
       "avgPoints": 2.869565217391304,
       "ppm": 11.0,
       "xA": 1.56,
@@ -4038,7 +4052,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 649,
+      "timesSelected": 652,
       "avgPoints": 0.4782608695652174,
       "ppm": 2.2,
       "xA": 0.0,
@@ -4519,7 +4533,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3689,
+      "timesSelected": 3690,
       "avgPoints": 2.0434782608695654,
       "ppm": 5.88,
       "xA": 1.07,
@@ -4695,7 +4709,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2268,
+      "timesSelected": 2267,
       "avgPoints": 1.5833333333333333,
       "ppm": 9.5,
       "xA": 0.34,
@@ -4830,8 +4844,8 @@
       "timesSelected": 1396,
       "avgPoints": 2.590909090909091,
       "ppm": 9.5,
-      "xA": 0.0,
-      "xGI": 0.05,
+      "xA": 0.38,
+      "xGI": 0.42,
       "sport5": {
         "totalPoints": 57,
         "minutesPlayed": 1973,
@@ -4864,7 +4878,21 @@
         "appearances": 21,
         "passes": 709
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.04,
+        "xA": 0.38,
+        "rating": 6.5,
+        "appearances": 21,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 2,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 128,
@@ -4957,7 +4985,7 @@
       "avgPoints": 0.75,
       "ppm": 0.6,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 85,
@@ -4990,21 +5018,7 @@
         "appearances": 3,
         "passes": 23
       },
-      "scores365": {
-        "xG": 0.0,
-        "xA": 0.0,
-        "rating": 0.0,
-        "appearances": 1,
-        "goals": 0,
-        "assists": 0,
-        "totalShots": 0,
-        "shotsOnTarget": 0,
-        "bigChancesCreated": 0,
-        "touches": 3,
-        "minutesPlayed": 7,
-        "yellowCards": 0,
-        "redCards": 0
-      }
+      "scores365": null
     },
     {
       "id": 131,
@@ -5217,7 +5231,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3309,
+      "timesSelected": 3308,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -5280,11 +5294,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 3714,
+      "timesSelected": 3713,
       "avgPoints": 2.772727272727273,
       "ppm": 8.71,
-      "xA": 0.0,
-      "xGI": 5.22,
+      "xA": 1.23,
+      "xGI": 6.5,
       "sport5": {
         "totalPoints": 61,
         "minutesPlayed": 1885,
@@ -5317,7 +5331,21 @@
         "appearances": 22,
         "passes": 401
       },
-      "scores365": null
+      "scores365": {
+        "xG": 5.27,
+        "xA": 1.23,
+        "rating": 6.7,
+        "appearances": 22,
+        "goals": 5,
+        "assists": 0,
+        "totalShots": 25,
+        "shotsOnTarget": 16,
+        "bigChancesCreated": 2,
+        "touches": 616,
+        "minutesPlayed": 1884,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 137,
@@ -5687,7 +5715,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 7.9,
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 45,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 146,
@@ -5820,7 +5862,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9111,
+      "timesSelected": 9110,
       "avgPoints": 4.043478260869565,
       "ppm": 11.62,
       "xA": 1.1,
@@ -5996,11 +6038,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 28703,
+      "timesSelected": 28714,
       "avgPoints": 3.75,
       "ppm": 8.33,
-      "xA": 0.0,
-      "xGI": 3.11,
+      "xA": 1.44,
+      "xGI": 4.64,
       "sport5": {
         "totalPoints": 75,
         "minutesPlayed": 1334,
@@ -6033,7 +6075,21 @@
         "appearances": 19,
         "passes": 614
       },
-      "scores365": null
+      "scores365": {
+        "xG": 3.2,
+        "xA": 1.44,
+        "rating": 6.9,
+        "appearances": 19,
+        "goals": 3,
+        "assists": 2,
+        "totalShots": 15,
+        "shotsOnTarget": 7,
+        "bigChancesCreated": 3,
+        "touches": 985,
+        "minutesPlayed": 1334,
+        "yellowCards": 4,
+        "redCards": 0
+      }
     },
     {
       "id": 153,
@@ -6085,7 +6141,21 @@
         "appearances": 7,
         "passes": 212
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.8,
+        "appearances": 7,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 282,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 154,
@@ -6147,8 +6217,8 @@
       "timesSelected": 15,
       "avgPoints": 1.0,
       "ppm": 0.17,
-      "xA": 0.0,
-      "xGI": 0.07,
+      "xA": 0.01,
+      "xGI": 0.08,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 10,
@@ -6181,7 +6251,21 @@
         "appearances": 1,
         "passes": 7
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.07,
+        "xA": 0.01,
+        "rating": 6.7,
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 1,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 14,
+        "minutesPlayed": 9,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 157,
@@ -6243,8 +6327,8 @@
       "timesSelected": 344,
       "avgPoints": 1.0909090909090908,
       "ppm": 4.0,
-      "xA": 0.0,
-      "xGI": 0.65,
+      "xA": 0.64,
+      "xGI": 1.32,
       "sport5": {
         "totalPoints": 24,
         "minutesPlayed": 405,
@@ -6277,7 +6361,21 @@
         "appearances": 16,
         "passes": 175
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.68,
+        "xA": 0.64,
+        "rating": 6.6,
+        "appearances": 16,
+        "goals": 1,
+        "assists": 1,
+        "totalShots": 4,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 2,
+        "touches": 260,
+        "minutesPlayed": 392,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 160,
@@ -6314,11 +6412,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10027,
+      "timesSelected": 10051,
       "avgPoints": 3.5217391304347827,
       "ppm": 5.79,
-      "xA": 0.0,
-      "xGI": 8.99,
+      "xA": 2.26,
+      "xGI": 11.81,
       "sport5": {
         "totalPoints": 81,
         "minutesPlayed": 1808,
@@ -6351,7 +6449,21 @@
         "appearances": 23,
         "passes": 318
       },
-      "scores365": null
+      "scores365": {
+        "xG": 9.55,
+        "xA": 2.26,
+        "rating": 7.0,
+        "appearances": 23,
+        "goals": 8,
+        "assists": 2,
+        "totalShots": 42,
+        "shotsOnTarget": 23,
+        "bigChancesCreated": 6,
+        "touches": 556,
+        "minutesPlayed": 1816,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 162,
@@ -6366,11 +6478,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18852,
+      "timesSelected": 18856,
       "avgPoints": 3.652173913043478,
       "ppm": 10.5,
-      "xA": 0.0,
-      "xGI": 0.83,
+      "xA": 2.28,
+      "xGI": 3.21,
       "sport5": {
         "totalPoints": 84,
         "minutesPlayed": 1746,
@@ -6403,7 +6515,21 @@
         "appearances": 22,
         "passes": 1061
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.93,
+        "xA": 2.28,
+        "rating": 6.8,
+        "appearances": 22,
+        "goals": 2,
+        "assists": 1,
+        "totalShots": 10,
+        "shotsOnTarget": 8,
+        "bigChancesCreated": 2,
+        "touches": 1518,
+        "minutesPlayed": 1750,
+        "yellowCards": 5,
+        "redCards": 0
+      }
     },
     {
       "id": 163,
@@ -6619,8 +6745,8 @@
       "timesSelected": 309,
       "avgPoints": 1.2777777777777777,
       "ppm": 2.09,
-      "xA": 0.0,
-      "xGI": 1.04,
+      "xA": 1.34,
+      "xGI": 2.03,
       "sport5": {
         "totalPoints": 23,
         "minutesPlayed": 392,
@@ -6653,7 +6779,21 @@
         "appearances": 13,
         "passes": 209
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.69,
+        "xA": 1.34,
+        "rating": 6.7,
+        "appearances": 13,
+        "goals": 2,
+        "assists": 0,
+        "totalShots": 12,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 3,
+        "touches": 336,
+        "minutesPlayed": 393,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 167,
@@ -6690,7 +6830,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8533,
+      "timesSelected": 8535,
       "avgPoints": 2.65,
       "ppm": 5.89,
       "xA": 0.0,
@@ -6756,11 +6896,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3917,
+      "timesSelected": 3919,
       "avgPoints": 2.2083333333333335,
       "ppm": 5.89,
-      "xA": 0.0,
-      "xGI": 2.59,
+      "xA": 4.58,
+      "xGI": 7.56,
       "sport5": {
         "totalPoints": 53,
         "minutesPlayed": 1336,
@@ -6793,7 +6933,21 @@
         "appearances": 23,
         "passes": 518
       },
-      "scores365": null
+      "scores365": {
+        "xG": 2.98,
+        "xA": 4.58,
+        "rating": 7.0,
+        "appearances": 23,
+        "goals": 1,
+        "assists": 3,
+        "totalShots": 26,
+        "shotsOnTarget": 17,
+        "bigChancesCreated": 8,
+        "touches": 794,
+        "minutesPlayed": 1333,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 170,
@@ -6830,7 +6984,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6614,
+      "timesSelected": 6620,
       "avgPoints": 2.375,
       "ppm": 8.14,
       "xA": 2.14,
@@ -7006,7 +7160,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 27067,
+      "timesSelected": 27107,
       "avgPoints": 4.181818181818182,
       "ppm": 7.08,
       "xA": 0.0,
@@ -7083,8 +7237,8 @@
       "timesSelected": 4418,
       "avgPoints": 1.45,
       "ppm": 3.62,
-      "xA": 0.0,
-      "xGI": 0.52,
+      "xA": 0.93,
+      "xGI": 1.43,
       "sport5": {
         "totalPoints": 29,
         "minutesPlayed": 818,
@@ -7117,7 +7271,21 @@
         "appearances": 12,
         "passes": 681
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.5,
+        "xA": 0.93,
+        "rating": 6.9,
+        "appearances": 12,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 3,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 1,
+        "touches": 804,
+        "minutesPlayed": 818,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 180,
@@ -7179,8 +7347,8 @@
       "timesSelected": 513,
       "avgPoints": 0.2727272727272727,
       "ppm": 2.0,
-      "xA": 0.0,
-      "xGI": 0.21,
+      "xA": 0.38,
+      "xGI": 0.66,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 54,
@@ -7213,7 +7381,21 @@
         "appearances": 3,
         "passes": 30
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.28,
+        "xA": 0.38,
+        "rating": 6.8,
+        "appearances": 3,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 2,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 1,
+        "touches": 45,
+        "minutesPlayed": 53,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 183,
@@ -7316,11 +7498,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5252,
+      "timesSelected": 5256,
       "avgPoints": 3.217391304347826,
       "ppm": 9.25,
-      "xA": 0.0,
-      "xGI": 4.76,
+      "xA": 4.37,
+      "xGI": 8.86,
       "sport5": {
         "totalPoints": 74,
         "minutesPlayed": 1741,
@@ -7353,7 +7535,21 @@
         "appearances": 23,
         "passes": 985
       },
-      "scores365": null
+      "scores365": {
+        "xG": 4.49,
+        "xA": 4.37,
+        "rating": 7.0,
+        "appearances": 23,
+        "goals": 4,
+        "assists": 3,
+        "totalShots": 26,
+        "shotsOnTarget": 16,
+        "bigChancesCreated": 5,
+        "touches": 1349,
+        "minutesPlayed": 1741,
+        "yellowCards": 6,
+        "redCards": 0
+      }
     },
     {
       "id": 188,
@@ -7416,7 +7612,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 190,
@@ -7453,11 +7663,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11024,
+      "timesSelected": 11031,
       "avgPoints": 2.75,
       "ppm": 11.0,
-      "xA": 0.0,
-      "xGI": 5.81,
+      "xA": 0.05,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 66,
         "minutesPlayed": 1807,
@@ -7490,7 +7700,21 @@
         "appearances": 23,
         "passes": 469
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.05,
+        "rating": 6.8,
+        "appearances": 23,
+        "goals": 4,
+        "assists": 3,
+        "totalShots": 33,
+        "shotsOnTarget": 12,
+        "bigChancesCreated": 0,
+        "touches": 911,
+        "minutesPlayed": 7,
+        "yellowCards": 7,
+        "redCards": 0
+      }
     },
     {
       "id": 192,
@@ -7615,11 +7839,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 30963,
+      "timesSelected": 30964,
       "avgPoints": 3.8636363636363638,
       "ppm": 10.62,
-      "xA": 0.0,
-      "xGI": 9.28,
+      "xA": 0.01,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 85,
         "minutesPlayed": 1773,
@@ -7652,7 +7876,21 @@
         "appearances": 22,
         "passes": 296
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.01,
+        "rating": 7.1,
+        "appearances": 22,
+        "goals": 9,
+        "assists": 3,
+        "totalShots": 26,
+        "shotsOnTarget": 20,
+        "bigChancesCreated": 0,
+        "touches": 515,
+        "minutesPlayed": 25,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 196,
@@ -7766,8 +8004,8 @@
       "timesSelected": 665,
       "avgPoints": 2.55,
       "ppm": 5.67,
-      "xA": 0.0,
-      "xGI": 0.68,
+      "xA": 0.63,
+      "xGI": 1.35,
       "sport5": {
         "totalPoints": 51,
         "minutesPlayed": 1246,
@@ -7800,7 +8038,21 @@
         "appearances": 17,
         "passes": 923
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.72,
+        "xA": 0.63,
+        "rating": 6.5,
+        "appearances": 17,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 5,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 1,
+        "touches": 1097,
+        "minutesPlayed": 1247,
+        "yellowCards": 3,
+        "redCards": 2
+      }
     },
     {
       "id": 200,
@@ -7870,11 +8122,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4042,
+      "timesSelected": 4046,
       "avgPoints": 1.25,
       "ppm": 2.73,
-      "xA": 0.0,
-      "xGI": 1.47,
+      "xA": 0.41,
+      "xGI": 1.13,
       "sport5": {
         "totalPoints": 30,
         "minutesPlayed": 368,
@@ -7907,7 +8159,21 @@
         "appearances": 21,
         "passes": 99
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.72,
+        "xA": 0.41,
+        "rating": 6.8,
+        "appearances": 21,
+        "goals": 2,
+        "assists": 0,
+        "totalShots": 7,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 1,
+        "touches": 159,
+        "minutesPlayed": 231,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 202,
@@ -8164,11 +8430,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10049,
+      "timesSelected": 10050,
       "avgPoints": 1.5833333333333333,
       "ppm": 6.33,
-      "xA": 0.0,
-      "xGI": 1.4,
+      "xA": 0.13,
+      "xGI": 1.64,
       "sport5": {
         "totalPoints": 38,
         "minutesPlayed": 2002,
@@ -8201,7 +8467,21 @@
         "appearances": 24,
         "passes": 978
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.51,
+        "xA": 0.13,
+        "rating": 6.5,
+        "appearances": 24,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 7,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 0,
+        "touches": 1230,
+        "minutesPlayed": 2001,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 208,
@@ -9052,7 +9332,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 273,
+      "timesSelected": 276,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -9269,7 +9549,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1337,
+      "timesSelected": 1338,
       "avgPoints": 1.6,
       "ppm": 4.57,
       "xA": 0.36,
@@ -9467,7 +9747,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2740,
+      "timesSelected": 2741,
       "avgPoints": 1.75,
       "ppm": 6.0,
       "xA": 3.05,
@@ -10640,7 +10920,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 171,
+      "timesSelected": 173,
       "avgPoints": 2.0,
       "ppm": 0.25,
       "xA": 0.0,
@@ -10729,7 +11009,21 @@
         "appearances": 2,
         "passes": 31
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.9,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 269,
@@ -10744,7 +11038,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5365,
+      "timesSelected": 5366,
       "avgPoints": 3.4347826086956523,
       "ppm": 9.88,
       "xA": 2.96,
@@ -10847,7 +11141,21 @@
         "appearances": 2,
         "passes": 5
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.8,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 11,
+        "minutesPlayed": 29,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 271,
@@ -11016,7 +11324,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8192,
+      "timesSelected": 8193,
       "avgPoints": 0.7391304347826086,
       "ppm": 2.43,
       "xA": 0.0,
@@ -11134,7 +11442,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18843,
+      "timesSelected": 18855,
       "avgPoints": 4.181818181818182,
       "ppm": 13.14,
       "xA": 4.45,
@@ -11516,7 +11824,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2209,
+      "timesSelected": 2210,
       "avgPoints": 0.6666666666666666,
       "ppm": 3.2,
       "xA": 0.53,
@@ -11692,7 +12000,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13230,
+      "timesSelected": 13233,
       "avgPoints": 1.625,
       "ppm": 6.5,
       "xA": 0.0,
@@ -11780,7 +12088,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9401,
+      "timesSelected": 9408,
       "avgPoints": 2.4545454545454546,
       "ppm": 7.71,
       "xA": 1.51,
@@ -12066,7 +12374,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3778,
+      "timesSelected": 3782,
       "avgPoints": 2.9047619047619047,
       "ppm": 8.71,
       "xA": 3.0,
@@ -12594,8 +12902,8 @@
       "timesSelected": 1485,
       "avgPoints": 0.8823529411764706,
       "ppm": 2.14,
-      "xA": 0.02,
-      "xGI": 0.96,
+      "xA": 0.0,
+      "xGI": 0.81,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 285,
@@ -12628,21 +12936,7 @@
         "appearances": 9,
         "passes": 33
       },
-      "scores365": {
-        "xG": 0.94,
-        "xA": 0.02,
-        "rating": 6.4,
-        "appearances": 9,
-        "goals": 1,
-        "assists": 0,
-        "totalShots": 3,
-        "shotsOnTarget": 2,
-        "bigChancesCreated": 0,
-        "touches": 78,
-        "minutesPlayed": 286,
-        "yellowCards": 1,
-        "redCards": 0
-      }
+      "scores365": null
     },
     {
       "id": 311,
@@ -12660,8 +12954,8 @@
       "timesSelected": 97,
       "avgPoints": 0.7142857142857143,
       "ppm": 2.5,
-      "xA": 0.0,
-      "xGI": 0.89,
+      "xA": 0.2,
+      "xGI": 1.09,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 373,
@@ -12694,7 +12988,21 @@
         "appearances": 11,
         "passes": 169
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.89,
+        "xA": 0.2,
+        "rating": 6.3,
+        "appearances": 11,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 6,
+        "shotsOnTarget": 3,
+        "bigChancesCreated": 0,
+        "touches": 243,
+        "minutesPlayed": 372,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 312,
@@ -12764,11 +13072,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 19444,
+      "timesSelected": 19460,
       "avgPoints": 3.9047619047619047,
       "ppm": 10.25,
-      "xA": 0.0,
-      "xGI": 11.97,
+      "xA": 3.28,
+      "xGI": 16.74,
       "sport5": {
         "totalPoints": 82,
         "minutesPlayed": 1582,
@@ -12801,7 +13109,21 @@
         "appearances": 20,
         "passes": 316
       },
-      "scores365": null
+      "scores365": {
+        "xG": 13.46,
+        "xA": 3.28,
+        "rating": 7.2,
+        "appearances": 20,
+        "goals": 8,
+        "assists": 6,
+        "totalShots": 44,
+        "shotsOnTarget": 23,
+        "bigChancesCreated": 9,
+        "touches": 567,
+        "minutesPlayed": 1581,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 314,
@@ -12882,7 +13204,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8174,
+      "timesSelected": 8176,
       "avgPoints": 0.9,
       "ppm": 6.0,
       "xA": 0.49,
@@ -12951,8 +13273,8 @@
       "timesSelected": 139,
       "avgPoints": 1.5263157894736843,
       "ppm": 4.83,
-      "xA": 0.0,
-      "xGI": 1.67,
+      "xA": 0.95,
+      "xGI": 2.66,
       "sport5": {
         "totalPoints": 29,
         "minutesPlayed": 1041,
@@ -12985,7 +13307,21 @@
         "appearances": 19,
         "passes": 371
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.71,
+        "xA": 0.95,
+        "rating": 6.5,
+        "appearances": 19,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 25,
+        "shotsOnTarget": 10,
+        "bigChancesCreated": 3,
+        "touches": 649,
+        "minutesPlayed": 1043,
+        "yellowCards": 5,
+        "redCards": 0
+      }
     },
     {
       "id": 317,
@@ -13069,8 +13405,8 @@
       "timesSelected": 80,
       "avgPoints": 1.0,
       "ppm": 0.29,
-      "xA": 0.0,
-      "xGI": 0.14,
+      "xA": 0.16,
+      "xGI": 0.33,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 43,
@@ -13103,7 +13439,21 @@
         "appearances": 2,
         "passes": 36
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.17,
+        "xA": 0.16,
+        "rating": 6.2,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 2,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 1,
+        "touches": 44,
+        "minutesPlayed": 43,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 319,
@@ -13144,7 +13494,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 320,
@@ -13269,7 +13633,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2346,
+      "timesSelected": 2349,
       "avgPoints": 1.1818181818181819,
       "ppm": 3.25,
       "xA": 1.02,
@@ -13445,7 +13809,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 40037,
+      "timesSelected": 40053,
       "avgPoints": 4.2,
       "ppm": 8.4,
       "xA": 2.78,
@@ -13731,7 +14095,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 34120,
+      "timesSelected": 34126,
       "avgPoints": 4.571428571428571,
       "ppm": 8.0,
       "xA": 0.92,
@@ -13885,7 +14249,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6553,
+      "timesSelected": 6554,
       "avgPoints": 1.608695652173913,
       "ppm": 3.7,
       "xA": 0.73,
@@ -14083,7 +14447,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6989,
+      "timesSelected": 7001,
       "avgPoints": 3.0,
       "ppm": 8.57,
       "xA": 1.77,
@@ -14149,7 +14513,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7483,
+      "timesSelected": 7484,
       "avgPoints": 3.590909090909091,
       "ppm": 11.29,
       "xA": 2.32,
@@ -14237,7 +14601,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11673,
+      "timesSelected": 11675,
       "avgPoints": 2.260869565217391,
       "ppm": 4.0,
       "xA": 4.4,
@@ -14633,7 +14997,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6849,
+      "timesSelected": 6853,
       "avgPoints": 2.176470588235294,
       "ppm": 7.4,
       "xA": 0.0,
@@ -14721,7 +15085,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9624,
+      "timesSelected": 9628,
       "avgPoints": 3.1904761904761907,
       "ppm": 7.44,
       "xA": 1.06,
@@ -14790,8 +15154,8 @@
       "timesSelected": 276,
       "avgPoints": 1.2352941176470589,
       "ppm": 3.5,
-      "xA": 0.0,
-      "xGI": 0.5,
+      "xA": 0.49,
+      "xGI": 1.01,
       "sport5": {
         "totalPoints": 21,
         "minutesPlayed": 1145,
@@ -14824,7 +15188,21 @@
         "appearances": 16,
         "passes": 619
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.52,
+        "xA": 0.49,
+        "rating": 6.5,
+        "appearances": 16,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 6,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 1,
+        "touches": 793,
+        "minutesPlayed": 1144,
+        "yellowCards": 6,
+        "redCards": 0
+      }
     },
     {
       "id": 361,
@@ -14883,7 +15261,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12,
+      "timesSelected": 11,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -14996,8 +15374,8 @@
       "timesSelected": 87,
       "avgPoints": 0.10526315789473684,
       "ppm": 0.33,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 0.02,
+      "xGI": 0.02,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 72,
@@ -15030,7 +15408,21 @@
         "appearances": 3,
         "passes": 32
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.02,
+        "rating": 6.4,
+        "appearances": 3,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 43,
+        "minutesPlayed": 71,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 369,
@@ -15048,8 +15440,8 @@
       "timesSelected": 1502,
       "avgPoints": 0.7777777777777778,
       "ppm": 1.0,
-      "xA": 0.0,
-      "xGI": 0.23,
+      "xA": 0.23,
+      "xGI": 0.46,
       "sport5": {
         "totalPoints": 7,
         "minutesPlayed": 120,
@@ -15082,7 +15474,21 @@
         "appearances": 2,
         "passes": 42
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.23,
+        "xA": 0.23,
+        "rating": 6.7,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 2,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 0,
+        "touches": 74,
+        "minutesPlayed": 119,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 370,
@@ -15100,8 +15506,8 @@
       "timesSelected": 766,
       "avgPoints": 1.619047619047619,
       "ppm": 3.78,
-      "xA": 0.0,
-      "xGI": 0.47,
+      "xA": 0.48,
+      "xGI": 0.88,
       "sport5": {
         "totalPoints": 34,
         "minutesPlayed": 1168,
@@ -15134,7 +15540,21 @@
         "appearances": 16,
         "passes": 776
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.4,
+        "xA": 0.48,
+        "rating": 6.8,
+        "appearances": 16,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 8,
+        "shotsOnTarget": 3,
+        "bigChancesCreated": 1,
+        "touches": 972,
+        "minutesPlayed": 1170,
+        "yellowCards": 4,
+        "redCards": 0
+      }
     },
     {
       "id": 371,
@@ -15196,8 +15616,8 @@
       "timesSelected": 3728,
       "avgPoints": 1.3636363636363635,
       "ppm": 2.14,
-      "xA": 0.0,
-      "xGI": 0.31,
+      "xA": 0.39,
+      "xGI": 0.7,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 522,
@@ -15230,7 +15650,21 @@
         "appearances": 11,
         "passes": 337
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.31,
+        "xA": 0.39,
+        "rating": 6.6,
+        "appearances": 11,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 6,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 0,
+        "touches": 479,
+        "minutesPlayed": 528,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 374,
@@ -15314,8 +15748,8 @@
       "timesSelected": 1183,
       "avgPoints": 2.1,
       "ppm": 3.0,
-      "xA": 0.0,
-      "xGI": 1.58,
+      "xA": 2.75,
+      "xGI": 4.34,
       "sport5": {
         "totalPoints": 42,
         "minutesPlayed": 1135,
@@ -15348,7 +15782,21 @@
         "appearances": 19,
         "passes": 410
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.59,
+        "xA": 2.75,
+        "rating": 7.0,
+        "appearances": 19,
+        "goals": 1,
+        "assists": 2,
+        "totalShots": 18,
+        "shotsOnTarget": 11,
+        "bigChancesCreated": 2,
+        "touches": 700,
+        "minutesPlayed": 1137,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 376,
@@ -15367,7 +15815,7 @@
       "avgPoints": 0.16666666666666666,
       "ppm": 0.25,
       "xA": 0.0,
-      "xGI": 0.1,
+      "xGI": 0.08,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 4,
@@ -15400,7 +15848,21 @@
         "appearances": 1,
         "passes": 5
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.08,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 1,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 2,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 377,
@@ -15459,11 +15921,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 1412,
+      "timesSelected": 1407,
       "avgPoints": 5.0,
       "ppm": 1.67,
-      "xA": 0.0,
-      "xGI": 1.01,
+      "xA": 0.41,
+      "xGI": 1.42,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 270,
@@ -15496,7 +15958,21 @@
         "appearances": 4,
         "passes": 78
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.01,
+        "xA": 0.41,
+        "rating": 7.3,
+        "appearances": 4,
+        "goals": 2,
+        "assists": 0,
+        "totalShots": 4,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 0,
+        "touches": 129,
+        "minutesPlayed": 271,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 380,
@@ -15511,7 +15987,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5094,
+      "timesSelected": 5096,
       "avgPoints": 1.875,
       "ppm": 7.5,
       "xA": 1.08,
@@ -15973,7 +16449,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9421,
+      "timesSelected": 9420,
       "avgPoints": 2.5416666666666665,
       "ppm": 10.17,
       "xA": 0.0,
@@ -16193,7 +16669,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2340,
+      "timesSelected": 2341,
       "avgPoints": 2.142857142857143,
       "ppm": 9.0,
       "xA": 2.3,
@@ -16391,7 +16867,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4174,
+      "timesSelected": 4178,
       "avgPoints": 3.2,
       "ppm": 8.0,
       "xA": 0.33,
@@ -17312,11 +17788,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10667,
+      "timesSelected": 10669,
       "avgPoints": 3.0416666666666665,
       "ppm": 9.12,
-      "xA": 0.0,
-      "xGI": 2.7,
+      "xA": 1.91,
+      "xGI": 4.51,
       "sport5": {
         "totalPoints": 73,
         "minutesPlayed": 1686,
@@ -17349,7 +17825,21 @@
         "appearances": 24,
         "passes": 403
       },
-      "scores365": null
+      "scores365": {
+        "xG": 2.6,
+        "xA": 1.91,
+        "rating": 6.9,
+        "appearances": 24,
+        "goals": 4,
+        "assists": 5,
+        "totalShots": 17,
+        "shotsOnTarget": 7,
+        "bigChancesCreated": 7,
+        "touches": 716,
+        "minutesPlayed": 1677,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 432,
@@ -17364,7 +17854,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12776,
+      "timesSelected": 12775,
       "avgPoints": 2.75,
       "ppm": 13.2,
       "xA": 0.94,
@@ -17551,11 +18041,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5368,
+      "timesSelected": 5377,
       "avgPoints": 3.0454545454545454,
       "ppm": 16.75,
-      "xA": 0.0,
-      "xGI": 3.45,
+      "xA": 0.57,
+      "xGI": 4.23,
       "sport5": {
         "totalPoints": 67,
         "minutesPlayed": 1036,
@@ -17588,7 +18078,21 @@
         "appearances": 21,
         "passes": 300
       },
-      "scores365": null
+      "scores365": {
+        "xG": 3.66,
+        "xA": 0.57,
+        "rating": 7.0,
+        "appearances": 21,
+        "goals": 6,
+        "assists": 2,
+        "totalShots": 18,
+        "shotsOnTarget": 12,
+        "bigChancesCreated": 3,
+        "touches": 443,
+        "minutesPlayed": 1039,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 436,
@@ -17603,7 +18107,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1802,
+      "timesSelected": 1801,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -17629,7 +18133,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 437,
@@ -17669,8 +18187,8 @@
       "timesSelected": 83,
       "avgPoints": 1.2857142857142858,
       "ppm": 4.5,
-      "xA": 0.0,
-      "xGI": 0.98,
+      "xA": 0.62,
+      "xGI": 1.68,
       "sport5": {
         "totalPoints": 27,
         "minutesPlayed": 1086,
@@ -17703,7 +18221,21 @@
         "appearances": 16,
         "passes": 497
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.06,
+        "xA": 0.62,
+        "rating": 6.7,
+        "appearances": 16,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 7,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 1,
+        "touches": 701,
+        "minutesPlayed": 1089,
+        "yellowCards": 7,
+        "redCards": 0
+      }
     },
     {
       "id": 439,
@@ -17770,11 +18302,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4547,
+      "timesSelected": 4549,
       "avgPoints": 0.5714285714285714,
       "ppm": 2.67,
-      "xA": 0.0,
-      "xGI": 0.47,
+      "xA": 0.58,
+      "xGI": 1.05,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 151,
@@ -17807,7 +18339,21 @@
         "appearances": 7,
         "passes": 63
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.47,
+        "xA": 0.58,
+        "rating": 6.4,
+        "appearances": 7,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 4,
+        "shotsOnTarget": 3,
+        "bigChancesCreated": 1,
+        "touches": 108,
+        "minutesPlayed": 149,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 441,
@@ -17825,8 +18371,8 @@
       "timesSelected": 9114,
       "avgPoints": 3.409090909090909,
       "ppm": 8.33,
-      "xA": 0.0,
-      "xGI": 6.27,
+      "xA": 2.32,
+      "xGI": 8.51,
       "sport5": {
         "totalPoints": 75,
         "minutesPlayed": 1674,
@@ -17859,7 +18405,21 @@
         "appearances": 22,
         "passes": 479
       },
-      "scores365": null
+      "scores365": {
+        "xG": 6.19,
+        "xA": 2.32,
+        "rating": 7.0,
+        "appearances": 22,
+        "goals": 6,
+        "assists": 3,
+        "totalShots": 31,
+        "shotsOnTarget": 15,
+        "bigChancesCreated": 5,
+        "touches": 844,
+        "minutesPlayed": 1680,
+        "yellowCards": 3,
+        "redCards": 1
+      }
     },
     {
       "id": 442,
@@ -17874,7 +18434,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 29,
+      "timesSelected": 30,
       "avgPoints": 0.3333333333333333,
       "ppm": 0.67,
       "xA": 0.0,
@@ -17926,11 +18486,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 236,
+      "timesSelected": 239,
       "avgPoints": 0.0,
       "ppm": 0.0,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 1.2,
+      "xGI": 2.25,
       "sport5": {
         "totalPoints": 0,
         "minutesPlayed": 0,
@@ -17952,7 +18512,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 1.05,
+        "xA": 1.2,
+        "rating": 6.9,
+        "appearances": 9,
+        "goals": 1,
+        "assists": 1,
+        "totalShots": 11,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 1,
+        "touches": 261,
+        "minutesPlayed": 345,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 444,
@@ -17967,11 +18541,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 43,
+      "timesSelected": 44,
       "avgPoints": 2.5,
       "ppm": 1.25,
-      "xA": 0.0,
-      "xGI": 0.27,
+      "xA": 0.05,
+      "xGI": 0.2,
       "sport5": {
         "totalPoints": 10,
         "minutesPlayed": 116,
@@ -18004,7 +18578,21 @@
         "appearances": 4,
         "passes": 48
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.15,
+        "xA": 0.05,
+        "rating": 6.9,
+        "appearances": 4,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 1,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 0,
+        "touches": 80,
+        "minutesPlayed": 118,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 445,
@@ -18151,7 +18739,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2280,
+      "timesSelected": 2281,
       "avgPoints": 0.041666666666666664,
       "ppm": 0.25,
       "xA": 0.0,
@@ -18217,7 +18805,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1505,
+      "timesSelected": 1513,
       "avgPoints": 1.0526315789473684,
       "ppm": 2.22,
       "xA": 0.48,
@@ -18467,7 +19055,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1208,
+      "timesSelected": 1209,
       "avgPoints": 1.3157894736842106,
       "ppm": 4.17,
       "xA": 0.21,
@@ -18932,8 +19520,8 @@
       "timesSelected": 428,
       "avgPoints": 1.75,
       "ppm": 5.83,
-      "xA": 0.0,
-      "xGI": 1.44,
+      "xA": 1.01,
+      "xGI": 2.47,
       "sport5": {
         "totalPoints": 35,
         "minutesPlayed": 1201,
@@ -18966,7 +19554,21 @@
         "appearances": 20,
         "passes": 431
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.46,
+        "xA": 1.01,
+        "rating": 6.5,
+        "appearances": 20,
+        "goals": 1,
+        "assists": 1,
+        "totalShots": 9,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 0,
+        "touches": 692,
+        "minutesPlayed": 1198,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 470,
@@ -19073,7 +19675,7 @@
       "avgPoints": 1.1818181818181819,
       "ppm": 1.86,
       "xA": 0.0,
-      "xGI": 1.07,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 13,
         "minutesPlayed": 242,
@@ -19106,7 +19708,21 @@
         "appearances": 7,
         "passes": 72
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.7,
+        "appearances": 7,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 6,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 0,
+        "touches": 145,
+        "minutesPlayed": 4,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 473,
@@ -19627,7 +20243,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2147,
+      "timesSelected": 2148,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -19891,7 +20507,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16299,
+      "timesSelected": 16302,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -20031,7 +20647,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 34097,
+      "timesSelected": 34108,
       "avgPoints": 3.8181818181818183,
       "ppm": 10.5,
       "xA": 3.32,
@@ -20267,7 +20883,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4785,
+      "timesSelected": 4786,
       "avgPoints": 1.9583333333333333,
       "ppm": 7.83,
       "xA": 0.0,
@@ -20591,7 +21207,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 304,
+      "timesSelected": 305,
       "avgPoints": 1.8823529411764706,
       "ppm": 4.57,
       "xA": 0.0,
@@ -20646,8 +21262,8 @@
       "timesSelected": 86,
       "avgPoints": 0.1111111111111111,
       "ppm": 0.17,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 0.01,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 91,
@@ -20682,16 +21298,16 @@
       },
       "scores365": {
         "xG": 0.0,
-        "xA": 0.0,
-        "rating": 0.0,
+        "xA": 0.01,
+        "rating": 6.4,
         "appearances": 3,
         "goals": 0,
         "assists": 0,
         "totalShots": 0,
         "shotsOnTarget": 0,
         "bigChancesCreated": 0,
-        "touches": 0,
-        "minutesPlayed": 0,
+        "touches": 40,
+        "minutesPlayed": 91,
         "yellowCards": 0,
         "redCards": 0
       }
@@ -20709,7 +21325,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1386,
+      "timesSelected": 1393,
       "avgPoints": 1.0,
       "ppm": 4.0,
       "xA": 0.0,
@@ -20904,8 +21520,8 @@
       "timesSelected": 5,
       "avgPoints": 2.0,
       "ppm": 0.8,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 0.02,
+      "xGI": 0.02,
       "sport5": {
         "totalPoints": 4,
         "minutesPlayed": 180,
@@ -20938,7 +21554,21 @@
         "appearances": 2,
         "passes": 68
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.02,
+        "rating": 6.0,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 96,
+        "minutesPlayed": 180,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 512,
@@ -20953,7 +21583,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1513,
+      "timesSelected": 1512,
       "avgPoints": 1.0,
       "ppm": 3.67,
       "xA": 0.53,
@@ -21019,7 +21649,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16600,
+      "timesSelected": 16598,
       "avgPoints": 2.5416666666666665,
       "ppm": 6.78,
       "xA": 2.4,
@@ -21415,7 +22045,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2417,
+      "timesSelected": 2418,
       "avgPoints": 1.6363636363636365,
       "ppm": 6.0,
       "xA": 0.92,
@@ -21547,7 +22177,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6108,
+      "timesSelected": 6109,
       "avgPoints": 1.2857142857142858,
       "ppm": 3.86,
       "xA": 0.09,
@@ -21657,7 +22287,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17489,
+      "timesSelected": 17523,
       "avgPoints": 2.4583333333333335,
       "ppm": 9.83,
       "xA": 0.0,
@@ -21833,7 +22463,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 790,
+      "timesSelected": 793,
       "avgPoints": 1.8181818181818181,
       "ppm": 8.0,
       "xA": 0.4,
@@ -21943,7 +22573,7 @@
       "injuredStatus": 0,
       "expelledStatus": 1,
       "missingStatus": 0,
-      "timesSelected": 7383,
+      "timesSelected": 7386,
       "avgPoints": 2.1818181818181817,
       "ppm": 8.0,
       "xA": 2.2,
@@ -22152,7 +22782,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1140,
+      "timesSelected": 1142,
       "avgPoints": 1.3636363636363635,
       "ppm": 4.29,
       "xA": 1.5,
@@ -22244,7 +22874,7 @@
       "avgPoints": 0.25,
       "ppm": 2.0,
       "xA": 0.0,
-      "xGI": 0.03,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 90,
@@ -22277,7 +22907,21 @@
         "appearances": 3,
         "passes": 16
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 546,
@@ -22292,11 +22936,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3465,
+      "timesSelected": 3460,
       "avgPoints": 1.875,
       "ppm": 9.0,
-      "xA": 0.0,
-      "xGI": 0.45,
+      "xA": 0.33,
+      "xGI": 0.71,
       "sport5": {
         "totalPoints": 45,
         "minutesPlayed": 1483,
@@ -22329,7 +22973,21 @@
         "appearances": 18,
         "passes": 519
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.38,
+        "xA": 0.33,
+        "rating": 6.8,
+        "appearances": 18,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 4,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 1,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 547,
@@ -22347,8 +23005,8 @@
       "timesSelected": 811,
       "avgPoints": 0.8333333333333334,
       "ppm": 4.0,
-      "xA": 0.0,
-      "xGI": 0.24,
+      "xA": 0.59,
+      "xGI": 0.84,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 656,
@@ -22381,7 +23039,21 @@
         "appearances": 15,
         "passes": 200
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.25,
+        "xA": 0.59,
+        "rating": 6.4,
+        "appearances": 15,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 271,
+        "minutesPlayed": 651,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 548,
@@ -22616,7 +23288,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13477,
+      "timesSelected": 13489,
       "avgPoints": 2.347826086956522,
       "ppm": 10.8,
       "xA": 1.38,
@@ -22792,7 +23464,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1842,
+      "timesSelected": 1843,
       "avgPoints": 1.0,
       "ppm": 2.25,
       "xA": 0.26,
@@ -22858,11 +23530,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3751,
+      "timesSelected": 3763,
       "avgPoints": 1.1875,
       "ppm": 4.75,
-      "xA": 0.0,
-      "xGI": 0.22,
+      "xA": 0.19,
+      "xGI": 0.42,
       "sport5": {
         "totalPoints": 19,
         "minutesPlayed": 939,
@@ -22895,7 +23567,21 @@
         "appearances": 16,
         "passes": 380
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.23,
+        "xA": 0.19,
+        "rating": 6.6,
+        "appearances": 16,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 6,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 0,
+        "touches": 587,
+        "minutesPlayed": 939,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 560,
@@ -23025,7 +23711,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6601,
+      "timesSelected": 6600,
       "avgPoints": 0.9230769230769231,
       "ppm": 2.4,
       "xA": 0.01,
@@ -23094,8 +23780,8 @@
       "timesSelected": 226,
       "avgPoints": 0.5,
       "ppm": 1.25,
-      "xA": 0.0,
-      "xGI": 0.09,
+      "xA": 0.1,
+      "xGI": 0.19,
       "sport5": {
         "totalPoints": 5,
         "minutesPlayed": 140,
@@ -23128,7 +23814,21 @@
         "appearances": 4,
         "passes": 35
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.09,
+        "xA": 0.1,
+        "rating": 6.7,
+        "appearances": 4,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 57,
+        "minutesPlayed": 140,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 565,
@@ -23146,8 +23846,8 @@
       "timesSelected": 93,
       "avgPoints": 1.3636363636363635,
       "ppm": 3.75,
-      "xA": 0.0,
-      "xGI": 0.45,
+      "xA": 0.32,
+      "xGI": 0.82,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 807,
@@ -23180,7 +23880,21 @@
         "appearances": 11,
         "passes": 237
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.5,
+        "xA": 0.32,
+        "rating": 6.9,
+        "appearances": 11,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 10,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 0,
+        "touches": 449,
+        "minutesPlayed": 866,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 566,
@@ -23195,7 +23909,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 137,
+      "timesSelected": 138,
       "avgPoints": 1.6666666666666667,
       "ppm": 1.67,
       "xA": 0.0,
@@ -23247,11 +23961,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 1029,
+      "timesSelected": 1027,
       "avgPoints": 3.0,
       "ppm": 2.25,
-      "xA": 0.0,
-      "xGI": 1.3,
+      "xA": 0.63,
+      "xGI": 1.91,
       "sport5": {
         "totalPoints": 18,
         "minutesPlayed": 466,
@@ -23284,7 +23998,21 @@
         "appearances": 6,
         "passes": 91
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.28,
+        "xA": 0.63,
+        "rating": 6.9,
+        "appearances": 6,
+        "goals": 2,
+        "assists": 0,
+        "totalShots": 11,
+        "shotsOnTarget": 5,
+        "bigChancesCreated": 1,
+        "touches": 165,
+        "minutesPlayed": 465,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 568,
@@ -23387,7 +24115,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12190,
+      "timesSelected": 12188,
       "avgPoints": 3.8,
       "ppm": 4.75,
       "xA": 0.86,
@@ -23453,7 +24181,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9904,
+      "timesSelected": 9905,
       "avgPoints": 3.1666666666666665,
       "ppm": 8.14,
       "xA": 3.22,
@@ -24157,7 +24885,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6435,
+      "timesSelected": 6434,
       "avgPoints": 1.6363636363636365,
       "ppm": 4.5,
       "xA": 0.38,
@@ -24223,7 +24951,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 829,
+      "timesSelected": 830,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -24619,7 +25347,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8788,
+      "timesSelected": 8789,
       "avgPoints": 2.7,
       "ppm": 5.4,
       "xA": 2.59,
@@ -24751,7 +25479,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16244,
+      "timesSelected": 16247,
       "avgPoints": 3.4347826086956523,
       "ppm": 8.78,
       "xA": 2.15,
@@ -24839,7 +25567,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13621,
+      "timesSelected": 13625,
       "avgPoints": 3.35,
       "ppm": 9.57,
       "xA": 1.32,
@@ -25279,11 +26007,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7347,
+      "timesSelected": 7349,
       "avgPoints": 2.5714285714285716,
       "ppm": 7.71,
-      "xA": 0.0,
-      "xGI": 0.8,
+      "xA": 0.45,
+      "xGI": 1.18,
       "sport5": {
         "totalPoints": 54,
         "minutesPlayed": 1339,
@@ -25316,7 +26044,21 @@
         "appearances": 17,
         "passes": 965
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.73,
+        "xA": 0.45,
+        "rating": 6.7,
+        "appearances": 17,
+        "goals": 1,
+        "assists": 2,
+        "totalShots": 7,
+        "shotsOnTarget": 3,
+        "bigChancesCreated": 1,
+        "touches": 1158,
+        "minutesPlayed": 1340,
+        "yellowCards": 5,
+        "redCards": 0
+      }
     },
     {
       "id": 617,
@@ -25669,11 +26411,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5157,
+      "timesSelected": 5163,
       "avgPoints": 3.272727272727273,
       "ppm": 6.55,
-      "xA": 0.0,
-      "xGI": 2.84,
+      "xA": 3.52,
+      "xGI": 6.48,
       "sport5": {
         "totalPoints": 72,
         "minutesPlayed": 1362,
@@ -25706,7 +26448,21 @@
         "appearances": 22,
         "passes": 452
       },
-      "scores365": null
+      "scores365": {
+        "xG": 2.96,
+        "xA": 3.52,
+        "rating": 7.0,
+        "appearances": 22,
+        "goals": 4,
+        "assists": 6,
+        "totalShots": 26,
+        "shotsOnTarget": 15,
+        "bigChancesCreated": 7,
+        "touches": 739,
+        "minutesPlayed": 1360,
+        "yellowCards": 4,
+        "redCards": 0
+      }
     },
     {
       "id": 627,
@@ -25721,7 +26477,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17575,
+      "timesSelected": 17577,
       "avgPoints": 2.869565217391304,
       "ppm": 7.33,
       "xA": 0.0,
@@ -25758,7 +26514,21 @@
         "appearances": 23,
         "passes": 546
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.8,
+        "appearances": 23,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 758,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 628,
@@ -25773,11 +26543,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 14795,
+      "timesSelected": 14798,
       "avgPoints": 3.1363636363636362,
       "ppm": 4.93,
-      "xA": 0.0,
-      "xGI": 7.8,
+      "xA": 0.35,
+      "xGI": 8.19,
       "sport5": {
         "totalPoints": 69,
         "minutesPlayed": 1097,
@@ -25810,7 +26580,21 @@
         "appearances": 22,
         "passes": 143
       },
-      "scores365": null
+      "scores365": {
+        "xG": 7.84,
+        "xA": 0.35,
+        "rating": 6.8,
+        "appearances": 22,
+        "goals": 9,
+        "assists": 0,
+        "totalShots": 30,
+        "shotsOnTarget": 18,
+        "bigChancesCreated": 2,
+        "touches": 358,
+        "minutesPlayed": 1097,
+        "yellowCards": 1,
+        "redCards": 1
+      }
     },
     {
       "id": 629,
@@ -25891,7 +26675,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3187,
+      "timesSelected": 3190,
       "avgPoints": 2.142857142857143,
       "ppm": 5.0,
       "xA": 1.12,
@@ -26023,7 +26807,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 823,
+      "timesSelected": 824,
       "avgPoints": 2.142857142857143,
       "ppm": 5.0,
       "xA": 2.13,
@@ -26089,7 +26873,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 316,
+      "timesSelected": 318,
       "avgPoints": 1.8,
       "ppm": 3.0,
       "xA": 0.01,
@@ -26177,7 +26961,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 26,
+      "timesSelected": 27,
       "avgPoints": 0.2,
       "ppm": 0.33,
       "xA": 0.0,
@@ -26229,7 +27013,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1658,
+      "timesSelected": 1670,
       "avgPoints": 3.6666666666666665,
       "ppm": 0.85,
       "xA": 1.13,
@@ -26339,7 +27123,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6084,
+      "timesSelected": 6099,
       "avgPoints": 0.5416666666666666,
       "ppm": 4.33,
       "xA": 0.0,
@@ -26405,7 +27189,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3441,
+      "timesSelected": 3445,
       "avgPoints": 1.8095238095238095,
       "ppm": 4.75,
       "xA": 2.07,
@@ -26474,8 +27258,8 @@
       "timesSelected": 511,
       "avgPoints": 1.105263157894737,
       "ppm": 4.2,
-      "xA": 0.0,
-      "xGI": 0.24,
+      "xA": 0.02,
+      "xGI": 0.14,
       "sport5": {
         "totalPoints": 21,
         "minutesPlayed": 538,
@@ -26508,7 +27292,21 @@
         "appearances": 15,
         "passes": 180
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.12,
+        "xA": 0.02,
+        "rating": 6.6,
+        "appearances": 15,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 5,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 0,
+        "touches": 267,
+        "minutesPlayed": 45,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 642,
@@ -26589,7 +27387,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3916,
+      "timesSelected": 3918,
       "avgPoints": 1.5238095238095237,
       "ppm": 4.57,
       "xA": 0.0,
@@ -26641,7 +27439,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9302,
+      "timesSelected": 9300,
       "avgPoints": 2.75,
       "ppm": 3.67,
       "xA": 0.48,
@@ -26707,7 +27505,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2836,
+      "timesSelected": 2837,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -26784,11 +27582,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1448,
+      "timesSelected": 1449,
       "avgPoints": 0.9565217391304348,
       "ppm": 3.67,
-      "xA": 0.0,
-      "xGI": 0.91,
+      "xA": 1.0,
+      "xGI": 1.91,
       "sport5": {
         "totalPoints": 22,
         "minutesPlayed": 1623,
@@ -26821,7 +27619,21 @@
         "appearances": 21,
         "passes": 604
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.91,
+        "xA": 1.0,
+        "rating": 6.3,
+        "appearances": 21,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 1,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 2,
+        "touches": 994,
+        "minutesPlayed": 1623,
+        "yellowCards": 3,
+        "redCards": 0
+      }
     },
     {
       "id": 648,
@@ -26902,11 +27714,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1771,
+      "timesSelected": 1773,
       "avgPoints": 1.25,
       "ppm": 5.0,
-      "xA": 0.0,
-      "xGI": 0.17,
+      "xA": 0.9,
+      "xGI": 1.07,
       "sport5": {
         "totalPoints": 25,
         "minutesPlayed": 1202,
@@ -26939,7 +27751,21 @@
         "appearances": 17,
         "passes": 464
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.17,
+        "xA": 0.9,
+        "rating": 6.4,
+        "appearances": 17,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 2,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 2,
+        "touches": 745,
+        "minutesPlayed": 1212,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 652,
@@ -27526,7 +28352,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1800,
+      "timesSelected": 1802,
       "avgPoints": 0.5,
       "ppm": 2.75,
       "xA": 0.09,
@@ -27768,7 +28594,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 229,
+      "timesSelected": 235,
       "avgPoints": 1.5,
       "ppm": 1.12,
       "xA": 0.0,
@@ -27996,7 +28822,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6587,
+      "timesSelected": 6589,
       "avgPoints": 0.21428571428571427,
       "ppm": 1.0,
       "xA": 0.0,
@@ -28084,7 +28910,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4958,
+      "timesSelected": 4959,
       "avgPoints": 0.125,
       "ppm": 0.33,
       "xA": 0.0,
@@ -28139,8 +28965,8 @@
       "timesSelected": 440,
       "avgPoints": -0.45,
       "ppm": -1.5,
-      "xA": 0.0,
-      "xGI": 0.7,
+      "xA": 0.11,
+      "xGI": 0.81,
       "sport5": {
         "totalPoints": -9,
         "minutesPlayed": 1323,
@@ -28173,7 +28999,21 @@
         "appearances": 16,
         "passes": 612
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.7,
+        "xA": 0.11,
+        "rating": 6.1,
+        "appearances": 16,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 5,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 0,
+        "touches": 833,
+        "minutesPlayed": 1322,
+        "yellowCards": 4,
+        "redCards": 2
+      }
     },
     {
       "id": 690,
@@ -28332,7 +29172,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 693,
@@ -28413,7 +29267,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3554,
+      "timesSelected": 3557,
       "avgPoints": 0.4166666666666667,
       "ppm": 2.5,
       "xA": 0.02,
@@ -28504,8 +29358,8 @@
       "timesSelected": 190,
       "avgPoints": 1.4782608695652173,
       "ppm": 4.25,
-      "xA": 0.0,
-      "xGI": 0.92,
+      "xA": 2.13,
+      "xGI": 3.08,
       "sport5": {
         "totalPoints": 34,
         "minutesPlayed": 1396,
@@ -28538,7 +29392,21 @@
         "appearances": 23,
         "passes": 615
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.95,
+        "xA": 2.13,
+        "rating": 6.5,
+        "appearances": 23,
+        "goals": 0,
+        "assists": 2,
+        "totalShots": 22,
+        "shotsOnTarget": 9,
+        "bigChancesCreated": 7,
+        "touches": 831,
+        "minutesPlayed": 1386,
+        "yellowCards": 4,
+        "redCards": 0
+      }
     },
     {
       "id": 697,
@@ -28663,8 +29531,8 @@
       "timesSelected": 142,
       "avgPoints": 1.9333333333333333,
       "ppm": 3.62,
-      "xA": 0.79,
-      "xGI": 4.9,
+      "xA": 0.0,
+      "xGI": 4.28,
       "sport5": {
         "totalPoints": 29,
         "minutesPlayed": 1095,
@@ -28697,21 +29565,7 @@
         "appearances": 15,
         "passes": 299
       },
-      "scores365": {
-        "xG": 4.11,
-        "xA": 0.79,
-        "rating": 6.5,
-        "appearances": 15,
-        "goals": 2,
-        "assists": 1,
-        "totalShots": 41,
-        "shotsOnTarget": 14,
-        "bigChancesCreated": 0,
-        "touches": 653,
-        "minutesPlayed": 1093,
-        "yellowCards": 5,
-        "redCards": 2
-      }
+      "scores365": null
     },
     {
       "id": 700,
@@ -28752,7 +29606,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 701,
@@ -28811,8 +29679,8 @@
       "timesSelected": 3,
       "avgPoints": 1.0,
       "ppm": 0.29,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 0.02,
+      "xGI": 0.02,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 28,
@@ -28845,7 +29713,21 @@
         "appearances": 2,
         "passes": 7
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.02,
+        "rating": 6.4,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 16,
+        "minutesPlayed": 28,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 703,
@@ -28863,8 +29745,8 @@
       "timesSelected": 5,
       "avgPoints": 1.0,
       "ppm": 0.4,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 0.02,
+      "xGI": 0.21,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 172,
@@ -28897,7 +29779,21 @@
         "appearances": 0,
         "passes": 0
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.19,
+        "xA": 0.02,
+        "rating": 6.5,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 1,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 100,
+        "minutesPlayed": 172,
+        "yellowCards": 2,
+        "redCards": 0
+      }
     },
     {
       "id": 704,
@@ -28912,7 +29808,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10495,
+      "timesSelected": 10528,
       "avgPoints": 3.227272727272727,
       "ppm": 10.14,
       "xA": 2.91,
@@ -29264,7 +30160,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2298,
+      "timesSelected": 2299,
       "avgPoints": 0.6190476190476191,
       "ppm": 2.17,
       "xA": 0.39,
@@ -29660,11 +30556,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2997,
+      "timesSelected": 2999,
       "avgPoints": 2.0952380952380953,
       "ppm": 5.5,
-      "xA": 0.0,
-      "xGI": 1.05,
+      "xA": 1.24,
+      "xGI": 2.18,
       "sport5": {
         "totalPoints": 44,
         "minutesPlayed": 1402,
@@ -29697,7 +30593,21 @@
         "appearances": 19,
         "passes": 928
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.94,
+        "xA": 1.24,
+        "rating": 6.7,
+        "appearances": 19,
+        "goals": 2,
+        "assists": 2,
+        "totalShots": 10,
+        "shotsOnTarget": 4,
+        "bigChancesCreated": 2,
+        "touches": 1299,
+        "minutesPlayed": 1402,
+        "yellowCards": 6,
+        "redCards": 0
+      }
     },
     {
       "id": 721,
@@ -29712,7 +30622,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9731,
+      "timesSelected": 9735,
       "avgPoints": 2.409090909090909,
       "ppm": 6.62,
       "xA": 0.0,
@@ -29888,11 +30798,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10273,
+      "timesSelected": 10275,
       "avgPoints": 2.7916666666666665,
       "ppm": 7.44,
-      "xA": 0.0,
-      "xGI": 3.99,
+      "xA": 1.79,
+      "xGI": 5.83,
       "sport5": {
         "totalPoints": 67,
         "minutesPlayed": 1302,
@@ -29925,7 +30835,21 @@
         "appearances": 24,
         "passes": 374
       },
-      "scores365": null
+      "scores365": {
+        "xG": 4.04,
+        "xA": 1.79,
+        "rating": 6.8,
+        "appearances": 24,
+        "goals": 4,
+        "assists": 5,
+        "totalShots": 23,
+        "shotsOnTarget": 9,
+        "bigChancesCreated": 4,
+        "touches": 702,
+        "minutesPlayed": 1302,
+        "yellowCards": 6,
+        "redCards": 0
+      }
     },
     {
       "id": 728,
@@ -29940,7 +30864,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7067,
+      "timesSelected": 7069,
       "avgPoints": 4.0,
       "ppm": 9.78,
       "xA": 2.13,
@@ -30006,7 +30930,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 20960,
+      "timesSelected": 20985,
       "avgPoints": 5.136363636363637,
       "ppm": 7.53,
       "xA": 6.83,
@@ -30094,7 +31018,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4267,
+      "timesSelected": 4270,
       "avgPoints": 2.1666666666666665,
       "ppm": 5.2,
       "xA": 2.34,
@@ -30317,8 +31241,8 @@
       "timesSelected": 3134,
       "avgPoints": 1.375,
       "ppm": 3.67,
-      "xA": 0.0,
-      "xGI": 3.47,
+      "xA": 0.59,
+      "xGI": 3.75,
       "sport5": {
         "totalPoints": 33,
         "minutesPlayed": 366,
@@ -30351,7 +31275,21 @@
         "appearances": 21,
         "passes": 92
       },
-      "scores365": null
+      "scores365": {
+        "xG": 3.16,
+        "xA": 0.59,
+        "rating": 6.6,
+        "appearances": 21,
+        "goals": 3,
+        "assists": 1,
+        "totalShots": 13,
+        "shotsOnTarget": 7,
+        "bigChancesCreated": 3,
+        "touches": 155,
+        "minutesPlayed": 359,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 740,
@@ -30586,11 +31524,11 @@
       "injuredStatus": 1,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 47313,
+      "timesSelected": 47284,
       "avgPoints": 4.3,
       "ppm": 6.14,
-      "xA": 0.0,
-      "xGI": 8.19,
+      "xA": 4.18,
+      "xGI": 12.41,
       "sport5": {
         "totalPoints": 86,
         "minutesPlayed": 1565,
@@ -30623,7 +31561,21 @@
         "appearances": 20,
         "passes": 495
       },
-      "scores365": null
+      "scores365": {
+        "xG": 8.23,
+        "xA": 4.18,
+        "rating": 7.4,
+        "appearances": 20,
+        "goals": 8,
+        "assists": 5,
+        "totalShots": 50,
+        "shotsOnTarget": 30,
+        "bigChancesCreated": 7,
+        "touches": 906,
+        "minutesPlayed": 1562,
+        "yellowCards": 6,
+        "redCards": 0
+      }
     },
     {
       "id": 751,
@@ -30664,7 +31616,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 752,
@@ -30705,7 +31671,21 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 753,
@@ -30723,8 +31703,8 @@
       "timesSelected": 16331,
       "avgPoints": 3.227272727272727,
       "ppm": 7.1,
-      "xA": 0.0,
-      "xGI": 4.43,
+      "xA": 1.26,
+      "xGI": 5.85,
       "sport5": {
         "totalPoints": 71,
         "minutesPlayed": 1513,
@@ -30757,7 +31737,21 @@
         "appearances": 22,
         "passes": 352
       },
-      "scores365": null
+      "scores365": {
+        "xG": 4.59,
+        "xA": 1.26,
+        "rating": 6.9,
+        "appearances": 22,
+        "goals": 6,
+        "assists": 3,
+        "totalShots": 39,
+        "shotsOnTarget": 18,
+        "bigChancesCreated": 4,
+        "touches": 702,
+        "minutesPlayed": 1513,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 754,
@@ -30861,7 +31855,21 @@
         "appearances": 3,
         "passes": 88
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.7,
+        "appearances": 3,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 125,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
       "id": 756,
@@ -30942,7 +31950,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2669,
+      "timesSelected": 2671,
       "avgPoints": 2.4,
       "ppm": 6.0,
       "xA": 0.44,
@@ -31063,7 +32071,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1011,
+      "timesSelected": 1035,
       "avgPoints": 4.0,
       "ppm": 1.2,
       "xA": 0.0,
@@ -31115,11 +32123,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 832,
+      "timesSelected": 840,
       "avgPoints": 4.5,
       "ppm": 1.12,
-      "xA": 0.0,
-      "xGI": 0.08,
+      "xA": 0.45,
+      "xGI": 0.48,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 164,
@@ -31152,7 +32160,21 @@
         "appearances": 2,
         "passes": 46
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.03,
+        "xA": 0.45,
+        "rating": 7.0,
+        "appearances": 2,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 1,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 1,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 1,
+        "redCards": 0
+      }
     },
     {
       "id": 761,
@@ -31266,6 +32288,28 @@
     },
     {
       "id": 763,
+      "name": "איתי שושן",
+      "englishName": "Itay Shor",
+      "team": "בית\"ר ירושלים",
+      "teamId": 2,
+      "position": 3,
+      "price": 4000000,
+      "shirtNumber": 12,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null
+    },
+    {
+      "id": 764,
       "name": "איציק שולמייסטר",
       "englishName": "Itzik Shoolmaister",
       "team": "הפועל קרית שמונה",
@@ -31331,7 +32375,7 @@
       }
     },
     {
-      "id": 764,
+      "id": 765,
       "name": "עובדיה דרוויש",
       "englishName": "Obeida Darwish",
       "team": "הפועל קרית שמונה",
@@ -31343,7 +32387,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8750,
+      "timesSelected": 8753,
       "avgPoints": 1.9583333333333333,
       "ppm": 6.71,
       "xA": 2.1,
@@ -31397,7 +32441,7 @@
       }
     },
     {
-      "id": 765,
+      "id": 766,
       "name": "עידו וייר",
       "englishName": "Ido Vayer",
       "team": "הפועל קרית שמונה",
@@ -31449,7 +32493,7 @@
       "scores365": null
     },
     {
-      "id": 766,
+      "id": 767,
       "name": "אביב אברהם",
       "englishName": "Aviv Avraham",
       "team": "הפועל קרית שמונה",
@@ -31515,7 +32559,7 @@
       }
     },
     {
-      "id": 767,
+      "id": 768,
       "name": "עמית גלזר",
       "englishName": "Amit Dov Glezer",
       "team": "הפועל קרית שמונה",
@@ -31581,7 +32625,7 @@
       }
     },
     {
-      "id": 768,
+      "id": 769,
       "name": "נמניה ליוביסבלייביץ`",
       "englishName": "Nemanja Ljubisavljević",
       "team": "הפועל קרית שמונה",
@@ -31593,7 +32637,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3161,
+      "timesSelected": 3163,
       "avgPoints": 1.7727272727272727,
       "ppm": 6.5,
       "xA": 0.26,
@@ -31647,7 +32691,7 @@
       }
     },
     {
-      "id": 769,
+      "id": 770,
       "name": "דניאל טננבאום",
       "englishName": "Daniel Tenenbaum",
       "team": "הפועל קרית שמונה",
@@ -31659,7 +32703,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12423,
+      "timesSelected": 12430,
       "avgPoints": 1.625,
       "ppm": 6.5,
       "xA": 0.0,
@@ -31713,7 +32757,7 @@
       }
     },
     {
-      "id": 770,
+      "id": 771,
       "name": "ליאל דרעי",
       "englishName": "Liel Deri",
       "team": "הפועל קרית שמונה",
@@ -31779,7 +32823,7 @@
       }
     },
     {
-      "id": 771,
+      "id": 772,
       "name": "סטפן אלפרדו",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -31801,7 +32845,7 @@
       "scores365": null
     },
     {
-      "id": 772,
+      "id": 773,
       "name": "פיטר אוניקאצ`י",
       "englishName": "Peter Onyekachi",
       "team": "הפועל קרית שמונה",
@@ -31823,7 +32867,7 @@
       "scores365": null
     },
     {
-      "id": 773,
+      "id": 774,
       "name": "שון עדרי",
       "englishName": "Sean Edri",
       "team": "הפועל קרית שמונה",
@@ -31845,7 +32889,7 @@
       "scores365": null
     },
     {
-      "id": 774,
+      "id": 775,
       "name": "סלאח חוסיין",
       "englishName": "Saleh Husein",
       "team": "הפועל קרית שמונה",
@@ -31867,7 +32911,7 @@
       "scores365": null
     },
     {
-      "id": 775,
+      "id": 776,
       "name": "שי בן דוד",
       "englishName": "Shay Ben David",
       "team": "הפועל קרית שמונה",
@@ -31879,7 +32923,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6196,
+      "timesSelected": 6197,
       "avgPoints": 1.8181818181818181,
       "ppm": 6.67,
       "xA": 0.0,
@@ -31919,7 +32963,7 @@
       "scores365": null
     },
     {
-      "id": 776,
+      "id": 777,
       "name": "אור חסין",
       "englishName": "Or Hasin",
       "team": "הפועל קרית שמונה",
@@ -31941,7 +32985,7 @@
       "scores365": null
     },
     {
-      "id": 777,
+      "id": 778,
       "name": "אופיר בנבנישתי",
       "englishName": "Ofir Benbenishti",
       "team": "הפועל קרית שמונה",
@@ -31953,7 +32997,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 679,
+      "timesSelected": 683,
       "avgPoints": 0.7916666666666666,
       "ppm": 3.8,
       "xA": 0.31,
@@ -32007,7 +33051,7 @@
       }
     },
     {
-      "id": 778,
+      "id": 779,
       "name": "דודי טוויטו",
       "englishName": "Dudu Twitto",
       "team": "הפועל קרית שמונה",
@@ -32029,7 +33073,7 @@
       "scores365": null
     },
     {
-      "id": 779,
+      "id": 780,
       "name": "מתן זלמנוביץ`",
       "englishName": "Matan Zalmanovich",
       "team": "הפועל קרית שמונה",
@@ -32084,7 +33128,7 @@
       }
     },
     {
-      "id": 780,
+      "id": 781,
       "name": "לידור כהן",
       "englishName": "Lidor Cohen",
       "team": "הפועל קרית שמונה",
@@ -32106,7 +33150,7 @@
       "scores365": null
     },
     {
-      "id": 781,
+      "id": 782,
       "name": "אריאל שרצקי",
       "englishName": "Ariel Shiratzki",
       "team": "הפועל קרית שמונה",
@@ -32118,7 +33162,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 628,
+      "timesSelected": 630,
       "avgPoints": 2.0833333333333335,
       "ppm": 10.0,
       "xA": 1.3,
@@ -32172,7 +33216,7 @@
       }
     },
     {
-      "id": 782,
+      "id": 783,
       "name": "יאיר מרדכי",
       "englishName": "Yair Mordechai",
       "team": "הפועל קרית שמונה",
@@ -32184,11 +33228,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4748,
+      "timesSelected": 4767,
       "avgPoints": 3.8333333333333335,
       "ppm": 15.33,
-      "xA": 0.0,
-      "xGI": 6.7,
+      "xA": 2.83,
+      "xGI": 9.57,
       "sport5": {
         "totalPoints": 92,
         "minutesPlayed": 1546,
@@ -32221,10 +33265,24 @@
         "appearances": 24,
         "passes": 387
       },
-      "scores365": null
+      "scores365": {
+        "xG": 6.74,
+        "xA": 2.83,
+        "rating": 7.0,
+        "appearances": 24,
+        "goals": 8,
+        "assists": 5,
+        "totalShots": 39,
+        "shotsOnTarget": 20,
+        "bigChancesCreated": 2,
+        "touches": 710,
+        "minutesPlayed": 1543,
+        "yellowCards": 7,
+        "redCards": 0
+      }
     },
     {
-      "id": 783,
+      "id": 784,
       "name": "אביחי וודגה",
       "englishName": "Avichay Wodaje",
       "team": "הפועל קרית שמונה",
@@ -32246,7 +33304,7 @@
       "scores365": null
     },
     {
-      "id": 784,
+      "id": 785,
       "name": "בילאל שאהין",
       "englishName": "Bilal Shaheen",
       "team": "הפועל קרית שמונה",
@@ -32261,8 +33319,8 @@
       "timesSelected": 1466,
       "avgPoints": 2.0,
       "ppm": 5.33,
-      "xA": 0.0,
-      "xGI": 0.13,
+      "xA": 0.8,
+      "xGI": 0.93,
       "sport5": {
         "totalPoints": 32,
         "minutesPlayed": 1064,
@@ -32295,10 +33353,24 @@
         "appearances": 16,
         "passes": 251
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.13,
+        "xA": 0.8,
+        "rating": 6.2,
+        "appearances": 16,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 4,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 2,
+        "touches": 583,
+        "minutesPlayed": 1065,
+        "yellowCards": 6,
+        "redCards": 0
+      }
     },
     {
-      "id": 785,
+      "id": 786,
       "name": "סקו בנגורה",
       "englishName": "Sekou Tidiany Bangoura",
       "team": "הפועל קרית שמונה",
@@ -32350,7 +33422,7 @@
       "scores365": null
     },
     {
-      "id": 786,
+      "id": 787,
       "name": "דוד דגו",
       "englishName": "David Dego",
       "team": "הפועל קרית שמונה",
@@ -32372,7 +33444,7 @@
       "scores365": null
     },
     {
-      "id": 787,
+      "id": 788,
       "name": "כריסטיאן מרטינס",
       "englishName": "Christian Martinez",
       "team": "הפועל קרית שמונה",
@@ -32387,8 +33459,8 @@
       "timesSelected": 1218,
       "avgPoints": 2.347826086956522,
       "ppm": 9.0,
-      "xA": 0.0,
-      "xGI": 4.26,
+      "xA": 3.48,
+      "xGI": 7.93,
       "sport5": {
         "totalPoints": 54,
         "minutesPlayed": 1843,
@@ -32421,10 +33493,24 @@
         "appearances": 23,
         "passes": 1030
       },
-      "scores365": null
+      "scores365": {
+        "xG": 4.45,
+        "xA": 3.48,
+        "rating": 6.8,
+        "appearances": 23,
+        "goals": 4,
+        "assists": 0,
+        "totalShots": 17,
+        "shotsOnTarget": 9,
+        "bigChancesCreated": 4,
+        "touches": 1431,
+        "minutesPlayed": 1853,
+        "yellowCards": 5,
+        "redCards": 0
+      }
     },
     {
-      "id": 788,
+      "id": 789,
       "name": "אורי שנפר",
       "englishName": "Ori Shnaper",
       "team": "הפועל קרית שמונה",
@@ -32436,7 +33522,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 14464,
+      "timesSelected": 14466,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -32462,10 +33548,24 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
-      "id": 789,
+      "id": 790,
       "name": "כריסטיאן בלה",
       "englishName": "Rosin Christian Bella",
       "team": "הפועל קרית שמונה",
@@ -32517,7 +33617,7 @@
       "scores365": null
     },
     {
-      "id": 790,
+      "id": 791,
       "name": "ג`ואן חלבי",
       "englishName": "Jwan Al Halabi",
       "team": "הפועל קרית שמונה",
@@ -32532,8 +33632,8 @@
       "timesSelected": 1053,
       "avgPoints": 0.4782608695652174,
       "ppm": 2.2,
-      "xA": 0.0,
-      "xGI": 0.2,
+      "xA": 0.36,
+      "xGI": 0.56,
       "sport5": {
         "totalPoints": 11,
         "minutesPlayed": 190,
@@ -32566,10 +33666,24 @@
         "appearances": 14,
         "passes": 43
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.2,
+        "xA": 0.36,
+        "rating": 6.4,
+        "appearances": 14,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 2,
+        "shotsOnTarget": 1,
+        "bigChancesCreated": 0,
+        "touches": 94,
+        "minutesPlayed": 177,
+        "yellowCards": 1,
+        "redCards": 1
+      }
     },
     {
-      "id": 791,
+      "id": 792,
       "name": "יהונתן מלכה",
       "englishName": "Yehonatan Malka",
       "team": "הפועל קרית שמונה",
@@ -32624,7 +33738,7 @@
       }
     },
     {
-      "id": 792,
+      "id": 793,
       "name": "רובן קומפאורה",
       "englishName": "Ruben Compaore",
       "team": "הפועל קרית שמונה",
@@ -32646,7 +33760,7 @@
       "scores365": null
     },
     {
-      "id": 793,
+      "id": 794,
       "name": "יואב כראדי",
       "englishName": "Yoav Karadi",
       "team": "הפועל קרית שמונה",
@@ -32712,7 +33826,7 @@
       }
     },
     {
-      "id": 794,
+      "id": 795,
       "name": "הראל גולדנברג",
       "englishName": "Harel David Goldenberg",
       "team": "הפועל קרית שמונה",
@@ -32778,7 +33892,7 @@
       }
     },
     {
-      "id": 795,
+      "id": 796,
       "name": "אופרי בוארון",
       "englishName": "Ofri Boaron",
       "team": "הפועל קרית שמונה",
@@ -32800,7 +33914,7 @@
       "scores365": null
     },
     {
-      "id": 796,
+      "id": 797,
       "name": "מור סימן טוב",
       "englishName": "Mor Siman-Tov",
       "team": "הפועל קרית שמונה",
@@ -32812,7 +33926,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 49,
+      "timesSelected": 50,
       "avgPoints": 1.1666666666666667,
       "ppm": 1.17,
       "xA": 0.06,
@@ -32866,7 +33980,7 @@
       }
     },
     {
-      "id": 797,
+      "id": 798,
       "name": "אדריאן אוגריסה",
       "englishName": "Adrián Ugarriza",
       "team": "הפועל קרית שמונה",
@@ -32878,7 +33992,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 26188,
+      "timesSelected": 26227,
       "avgPoints": 4.045454545454546,
       "ppm": 9.89,
       "xA": 0.0,
@@ -32918,7 +34032,7 @@
       "scores365": null
     },
     {
-      "id": 798,
+      "id": 799,
       "name": "אנתוני לימבומבה",
       "englishName": "Anthony Limbombe",
       "team": "הפועל קרית שמונה",
@@ -32930,7 +34044,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1177,
+      "timesSelected": 1178,
       "avgPoints": 0.45454545454545453,
       "ppm": 0.62,
       "xA": 0.69,
@@ -32984,7 +34098,7 @@
       }
     },
     {
-      "id": 799,
+      "id": 800,
       "name": "וואלי מוסא עלי",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -32999,8 +34113,8 @@
       "timesSelected": 252,
       "avgPoints": 1.8095238095238095,
       "ppm": 5.43,
-      "xA": 0.0,
-      "xGI": 2.69,
+      "xA": 0.73,
+      "xGI": 2.68,
       "sport5": {
         "totalPoints": 38,
         "minutesPlayed": 1112,
@@ -33033,10 +34147,24 @@
         "appearances": 21,
         "passes": 211
       },
-      "scores365": null
+      "scores365": {
+        "xG": 1.95,
+        "xA": 0.73,
+        "rating": 6.6,
+        "appearances": 20,
+        "goals": 0,
+        "assists": 1,
+        "totalShots": 16,
+        "shotsOnTarget": 7,
+        "bigChancesCreated": 1,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 4,
+        "redCards": 0
+      }
     },
     {
-      "id": 800,
+      "id": 801,
       "name": "רוי שדו",
       "englishName": "Roy Shefer",
       "team": "הפועל קרית שמונה",
@@ -33077,7 +34205,7 @@
       "scores365": null
     },
     {
-      "id": 801,
+      "id": 802,
       "name": "יאהו אקה",
       "englishName": "Yaw Ackah",
       "team": "הפועל קרית שמונה",
@@ -33092,8 +34220,8 @@
       "timesSelected": 4,
       "avgPoints": 0.6,
       "ppm": 0.6,
-      "xA": 0.0,
-      "xGI": 0.0,
+      "xA": 0.04,
+      "xGI": 0.04,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 240,
@@ -33126,10 +34254,24 @@
         "appearances": 5,
         "passes": 129
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.04,
+        "rating": 6.6,
+        "appearances": 5,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 167,
+        "minutesPlayed": 241,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
-      "id": 802,
+      "id": 803,
       "name": "פרננדו פאצ`קו",
       "englishName": "Fernando José Pacheco Rivas",
       "team": "הפועל קרית שמונה",
@@ -33181,7 +34323,7 @@
       "scores365": null
     },
     {
-      "id": 803,
+      "id": 804,
       "name": "יונתן טפר",
       "englishName": "Yonatan Teper",
       "team": "עירוני טבריה",
@@ -33193,7 +34335,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3888,
+      "timesSelected": 3889,
       "avgPoints": 1.5454545454545454,
       "ppm": 8.5,
       "xA": 0.46,
@@ -33247,7 +34389,7 @@
       }
     },
     {
-      "id": 804,
+      "id": 805,
       "name": "דוד קלטינס",
       "englishName": "David Keltjens",
       "team": "עירוני טבריה",
@@ -33313,7 +34455,7 @@
       }
     },
     {
-      "id": 805,
+      "id": 806,
       "name": "אביב סולומון",
       "englishName": "Aviv Solomon",
       "team": "עירוני טבריה",
@@ -33335,7 +34477,7 @@
       "scores365": null
     },
     {
-      "id": 806,
+      "id": 807,
       "name": "מתנאל טדסה",
       "englishName": "Matanel Tadisa",
       "team": "עירוני טבריה",
@@ -33357,7 +34499,7 @@
       "scores365": null
     },
     {
-      "id": 807,
+      "id": 808,
       "name": "סטניסלב בילנקי",
       "englishName": "Stanislav Bilenskyy",
       "team": "עירוני טבריה",
@@ -33369,7 +34511,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7485,
+      "timesSelected": 7487,
       "avgPoints": 2.8947368421052633,
       "ppm": 6.88,
       "xA": 1.32,
@@ -33423,7 +34565,7 @@
       }
     },
     {
-      "id": 808,
+      "id": 809,
       "name": "אונדז`יי באצ`ו",
       "englishName": "Ondřej Bačo",
       "team": "עירוני טבריה",
@@ -33489,7 +34631,7 @@
       }
     },
     {
-      "id": 809,
+      "id": 810,
       "name": "עידן דהן",
       "englishName": "Idan Dahan Aharon",
       "team": "עירוני טבריה",
@@ -33544,7 +34686,7 @@
       }
     },
     {
-      "id": 810,
+      "id": 811,
       "name": "רון אונגר",
       "englishName": "Ron Unger",
       "team": "עירוני טבריה",
@@ -33610,7 +34752,7 @@
       }
     },
     {
-      "id": 811,
+      "id": 812,
       "name": "ניב גוטליב",
       "englishName": "Niv Gottlieb",
       "team": "עירוני טבריה",
@@ -33676,7 +34818,7 @@
       }
     },
     {
-      "id": 812,
+      "id": 813,
       "name": " סמביניה",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -33742,7 +34884,7 @@
       }
     },
     {
-      "id": 813,
+      "id": 814,
       "name": "מוחמד אוסמן",
       "englishName": "Usman Mohammed",
       "team": "עירוני טבריה",
@@ -33757,8 +34899,8 @@
       "timesSelected": 285,
       "avgPoints": 1.1764705882352942,
       "ppm": 3.33,
-      "xA": 0.0,
-      "xGI": 0.76,
+      "xA": 0.97,
+      "xGI": 1.73,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 1091,
@@ -33791,10 +34933,24 @@
         "appearances": 17,
         "passes": 604
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.76,
+        "xA": 0.97,
+        "rating": 6.3,
+        "appearances": 17,
+        "goals": 1,
+        "assists": 0,
+        "totalShots": 6,
+        "shotsOnTarget": 3,
+        "bigChancesCreated": 0,
+        "touches": 806,
+        "minutesPlayed": 1091,
+        "yellowCards": 9,
+        "redCards": 1
+      }
     },
     {
-      "id": 814,
+      "id": 815,
       "name": "אור רויזמן",
       "englishName": "Or Roizman",
       "team": "עירוני טבריה",
@@ -33816,7 +34972,7 @@
       "scores365": null
     },
     {
-      "id": 815,
+      "id": 816,
       "name": "ניב טובול",
       "englishName": "Niv Tubul",
       "team": "עירוני טבריה",
@@ -33838,7 +34994,7 @@
       "scores365": null
     },
     {
-      "id": 816,
+      "id": 817,
       "name": "ירין סוויסה",
       "englishName": "Yarin Swisa",
       "team": "עירוני טבריה",
@@ -33904,7 +35060,7 @@
       }
     },
     {
-      "id": 817,
+      "id": 818,
       "name": "איתמר שבירו",
       "englishName": "Itamar Shabiro",
       "team": "עירוני טבריה",
@@ -33916,7 +35072,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3679,
+      "timesSelected": 3678,
       "avgPoints": 1.7916666666666667,
       "ppm": 5.38,
       "xA": 0.33,
@@ -33970,7 +35126,7 @@
       }
     },
     {
-      "id": 818,
+      "id": 819,
       "name": "ג`ורדן בוטאקה",
       "englishName": "Jordan Botaka",
       "team": "עירוני טבריה",
@@ -33992,7 +35148,7 @@
       "scores365": null
     },
     {
-      "id": 819,
+      "id": 820,
       "name": "נואף בזיע",
       "englishName": "Noaf Bazea",
       "team": "עירוני טבריה",
@@ -34014,7 +35170,7 @@
       "scores365": null
     },
     {
-      "id": 820,
+      "id": 821,
       "name": "עידן ברנס",
       "englishName": "Idan Baranes",
       "team": "עירוני טבריה",
@@ -34026,7 +35182,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 446,
+      "timesSelected": 447,
       "avgPoints": 0.95,
       "ppm": 3.8,
       "xA": 0.46,
@@ -34080,7 +35236,7 @@
       }
     },
     {
-      "id": 821,
+      "id": 822,
       "name": "גיא חדידה",
       "englishName": "Guy Hadida",
       "team": "עירוני טבריה",
@@ -34092,7 +35248,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7328,
+      "timesSelected": 7329,
       "avgPoints": 4.2631578947368425,
       "ppm": 9.0,
       "xA": 3.13,
@@ -34146,7 +35302,7 @@
       }
     },
     {
-      "id": 822,
+      "id": 823,
       "name": "דניאל גולאני",
       "englishName": "Daniel Golani",
       "team": "עירוני טבריה",
@@ -34158,7 +35314,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2507,
+      "timesSelected": 2511,
       "avgPoints": 2.3157894736842106,
       "ppm": 8.8,
       "xA": 1.48,
@@ -34212,7 +35368,7 @@
       }
     },
     {
-      "id": 823,
+      "id": 824,
       "name": "שי קונסטנטין",
       "englishName": "Shay Konstantini",
       "team": "עירוני טבריה",
@@ -34234,7 +35390,7 @@
       "scores365": null
     },
     {
-      "id": 824,
+      "id": 825,
       "name": "אלי בלילתי",
       "englishName": "Eli Belilti",
       "team": "עירוני טבריה",
@@ -34300,7 +35456,7 @@
       }
     },
     {
-      "id": 825,
+      "id": 826,
       "name": "בן והבה",
       "englishName": "Ben Vahaba",
       "team": "עירוני טבריה",
@@ -34322,7 +35478,7 @@
       "scores365": null
     },
     {
-      "id": 826,
+      "id": 827,
       "name": "רועי שחר",
       "englishName": "Roei Shachar",
       "team": "עירוני טבריה",
@@ -34344,7 +35500,7 @@
       "scores365": null
     },
     {
-      "id": 827,
+      "id": 828,
       "name": "הארון שפסו",
       "englishName": "Haroun Shapso",
       "team": "עירוני טבריה",
@@ -34396,7 +35552,7 @@
       "scores365": null
     },
     {
-      "id": 828,
+      "id": 829,
       "name": "ג`ונס אבו גנימה",
       "englishName": "Gons Abu Nigma",
       "team": "עירוני טבריה",
@@ -34434,10 +35590,24 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
-      "id": 829,
+      "id": 830,
       "name": "טל בומשטיין",
       "englishName": "Tal Bomshtein",
       "team": "עירוני טבריה",
@@ -34459,7 +35629,7 @@
       "scores365": null
     },
     {
-      "id": 830,
+      "id": 831,
       "name": "פראס אבו עקל",
       "englishName": "Firas Abu Akel",
       "team": "עירוני טבריה",
@@ -34525,7 +35695,7 @@
       }
     },
     {
-      "id": 831,
+      "id": 832,
       "name": "שניר טליאס",
       "englishName": "Snir Talias",
       "team": "עירוני טבריה",
@@ -34547,7 +35717,7 @@
       "scores365": null
     },
     {
-      "id": 832,
+      "id": 833,
       "name": "איתן וולבלום",
       "englishName": "Eithan Velblum",
       "team": "עירוני טבריה",
@@ -34613,7 +35783,7 @@
       }
     },
     {
-      "id": 833,
+      "id": 834,
       "name": "יניב בריק",
       "englishName": "Yaniv Brik",
       "team": "עירוני טבריה",
@@ -34635,7 +35805,7 @@
       "scores365": null
     },
     {
-      "id": 834,
+      "id": 835,
       "name": "והיב חביבאללה",
       "englishName": "Wahib Habiballa",
       "team": "עירוני טבריה",
@@ -34701,7 +35871,7 @@
       }
     },
     {
-      "id": 835,
+      "id": 836,
       "name": "פרנקו מזורק",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -34723,7 +35893,7 @@
       "scores365": null
     },
     {
-      "id": 836,
+      "id": 837,
       "name": "באסל שעאבן",
       "englishName": "Basel Sha'aban",
       "team": "עירוני טבריה",
@@ -34745,7 +35915,7 @@
       "scores365": null
     },
     {
-      "id": 837,
+      "id": 838,
       "name": "רון אפלבאום",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -34767,7 +35937,7 @@
       "scores365": null
     },
     {
-      "id": 838,
+      "id": 839,
       "name": "נרי בר",
       "englishName": "Arad Bar",
       "team": "עירוני טבריה",
@@ -34789,7 +35959,7 @@
       "scores365": null
     },
     {
-      "id": 839,
+      "id": 840,
       "name": "מנסור באדג`י",
       "englishName": "Mansur Badji",
       "team": "עירוני טבריה",
@@ -34811,7 +35981,7 @@
       "scores365": null
     },
     {
-      "id": 840,
+      "id": 841,
       "name": "מתן דגני",
       "englishName": "Matan Dgani",
       "team": "עירוני טבריה",
@@ -34833,7 +36003,7 @@
       "scores365": null
     },
     {
-      "id": 841,
+      "id": 842,
       "name": "אוהד אסולין",
       "englishName": "Ohad Asulin",
       "team": "עירוני טבריה",
@@ -34855,7 +36025,7 @@
       "scores365": null
     },
     {
-      "id": 842,
+      "id": 843,
       "name": "אור לוי",
       "englishName": "Or Levi",
       "team": "עירוני טבריה",
@@ -34877,7 +36047,7 @@
       "scores365": null
     },
     {
-      "id": 843,
+      "id": 844,
       "name": "יהודה אגם",
       "englishName": "Yehuda Agam",
       "team": "עירוני טבריה",
@@ -34915,10 +36085,24 @@
         "failedForPenalty": 0
       },
       "footballCoIl": null,
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 0.0,
+        "appearances": 0,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 0,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
-      "id": 844,
+      "id": 845,
       "name": "פיטר מייקל",
       "englishName": "Peter Godly Michael",
       "team": "עירוני טבריה",
@@ -34984,7 +36168,7 @@
       }
     },
     {
-      "id": 845,
+      "id": 846,
       "name": "עומר יצחק",
       "englishName": "Omer Yizhak",
       "team": "עירוני טבריה",
@@ -35050,7 +36234,7 @@
       }
     },
     {
-      "id": 846,
+      "id": 847,
       "name": "עידו שרון",
       "englishName": "Ido Sharon",
       "team": "עירוני טבריה",
@@ -35062,7 +36246,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16783,
+      "timesSelected": 16790,
       "avgPoints": 0.9166666666666666,
       "ppm": 7.33,
       "xA": 0.0,
@@ -35116,7 +36300,7 @@
       }
     },
     {
-      "id": 847,
+      "id": 848,
       "name": "רוג`ריו סנטוס",
       "englishName": "Rogério Paulo Veiga Santos",
       "team": "עירוני טבריה",
@@ -35165,10 +36349,24 @@
         "appearances": 3,
         "passes": 33
       },
-      "scores365": null
+      "scores365": {
+        "xG": 0.0,
+        "xA": 0.0,
+        "rating": 6.4,
+        "appearances": 12,
+        "goals": 0,
+        "assists": 0,
+        "totalShots": 0,
+        "shotsOnTarget": 0,
+        "bigChancesCreated": 0,
+        "touches": 461,
+        "minutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0
+      }
     },
     {
-      "id": 848,
+      "id": 849,
       "name": "נהוראי חן",
       "englishName": "Nehorai Yosef Chen",
       "team": "עירוני טבריה",
@@ -35234,7 +36432,7 @@
       }
     },
     {
-      "id": 849,
+      "id": 850,
       "name": "יהונתן חסון",
       "englishName": "Jonathan Hasson",
       "team": "עירוני טבריה",
@@ -35289,7 +36487,7 @@
       }
     },
     {
-      "id": 850,
+      "id": 851,
       "name": "מתן דגני",
       "englishName": "Matan Dgani",
       "team": "עירוני טבריה",
@@ -35301,7 +36499,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 972,
+      "timesSelected": 974,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,

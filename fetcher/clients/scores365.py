@@ -122,69 +122,139 @@ class Scores365Client:
         return rows
 
     # ------------------------------------------------------------------
-    # Player identification via search
+    # Player identification via smart multi-strategy search
     # ------------------------------------------------------------------
 
-    async def search_player(self, name: str) -> dict | None:
-        """Search for a player by name. Returns {id, name, clubId} or None."""
+    async def _search_query(self, query: str) -> list[dict]:
+        """Raw search returning all athlete results."""
         try:
             resp = await self._client.get(
                 f"{self.base}/search/",
-                params={**self.common_params, "query": name, "entityTypes": "3"},
+                params={**self.common_params, "query": query, "entityTypes": "3"},
             )
             if resp.status_code != 200:
-                return None
-            athletes = resp.json().get("athletes", [])
-            return athletes[0] if athletes else None
+                return []
+            return resp.json().get("athletes", [])
         except Exception:
-            return None
+            return []
+
+    @staticmethod
+    def _search_variants(hebrew_name: str, english_name: str) -> list[str]:
+        """Generate search query variants in priority order."""
+        variants: list[str] = []
+
+        # 1. Hebrew original
+        if hebrew_name:
+            variants.append(hebrew_name)
+
+        # 2. Hebrew with normalized quotes (` and ' → ')
+        cleaned_he = hebrew_name.replace("`", "'").replace("\u05f3", "'")
+        if cleaned_he != hebrew_name and cleaned_he:
+            variants.append(cleaned_he)
+
+        # 3. English full name
+        if english_name:
+            variants.append(english_name)
+
+        # 4. English last name only (most unique for foreign players)
+        if english_name and " " in english_name:
+            parts = english_name.strip().split()
+            last = parts[-1]
+            if len(last) >= 3:
+                variants.append(last)
+
+        # 5. Hebrew last name only
+        if hebrew_name and " " in hebrew_name:
+            parts = hebrew_name.strip().split()
+            last = parts[-1]
+            if len(last) >= 3:
+                variants.append(last)
+
+        # Deduplicate while preserving order
+        seen: set[str] = set()
+        unique: list[str] = []
+        for v in variants:
+            if v not in seen:
+                seen.add(v)
+                unique.append(v)
+        return unique
+
+    async def _smart_search(
+        self, hebrew_name: str, english_name: str, expected_club_id: int
+    ) -> int | None:
+        """Try multiple search variants, verify by clubId. Returns athlete_id or None."""
+        variants = self._search_variants(hebrew_name, english_name)
+
+        for query in variants:
+            results = await self._search_query(query)
+            if not results:
+                continue
+
+            # First: exact club match
+            for a in results:
+                if a.get("clubId") == expected_club_id:
+                    return a["id"]
+
+            # For first variant (most specific), accept first result even without club match
+            # (player might have transferred recently, 365 club not updated)
+            if query == variants[0] and len(results) == 1:
+                return results[0]["id"]
+
+        return None
 
     async def resolve_all_players(
-        self, player_names: list[tuple[int, str]], cache_path: str = "docs/data/.365cache.json"
+        self,
+        players: list[tuple[int, str, str, int]],
+        cache_path: str = "docs/data/.365cache.json",
     ) -> dict[int, int]:
-        """Search for all players by name. Uses local cache to avoid re-searching.
-        Returns {sport5_id: athlete_id}."""
-        import json
+        """Smart multi-strategy search for all players.
+
+        Args:
+            players: list of (sport5_id, hebrew_name, english_name, scores365_team_id)
+
+        Returns {sport5_id: athlete_id}.
+        """
+        import json as _json
         from pathlib import Path
 
-        # Load cache
         cache_file = Path(cache_path)
         cache: dict[str, int] = {}
         if cache_file.exists():
             try:
-                cache = json.loads(cache_file.read_text(encoding="utf-8"))
+                cache = _json.loads(cache_file.read_text(encoding="utf-8"))
             except Exception:
                 pass
 
         results: dict[int, int] = {}
-        to_search: list[tuple[int, str]] = []
+        to_search: list[tuple[int, str, str, int]] = []
 
-        for s5id, name in player_names:
+        for s5id, he_name, en_name, club_id in players:
             cached = cache.get(str(s5id))
             if cached:
                 results[s5id] = cached
             else:
-                to_search.append((s5id, name))
+                to_search.append((s5id, he_name, en_name, club_id))
 
         if to_search:
-            logger.info("Searching 365Scores for %d new players (%d cached)...", len(to_search), len(results))
-            sem = asyncio.Semaphore(50)
+            logger.info("Smart-searching 365Scores for %d players (%d cached)...", len(to_search), len(results))
+            sem = asyncio.Semaphore(20)
 
-            async def _search(sport5_id: int, name: str) -> None:
+            async def _search(s5id: int, he: str, en: str, club: int) -> None:
                 async with sem:
-                    athlete = await self.search_player(name)
-                    if athlete and athlete.get("id"):
-                        results[sport5_id] = athlete["id"]
-                        cache[str(sport5_id)] = athlete["id"]
+                    aid = await self._smart_search(he, en, club)
+                    if aid:
+                        results[s5id] = aid
+                        cache[str(s5id)] = aid
 
-            tasks = [asyncio.create_task(_search(s5id, name)) for s5id, name in to_search]
+            tasks = [asyncio.create_task(_search(*p)) for p in to_search]
             await asyncio.gather(*tasks)
 
-            # Save cache
+            # Save cache (only positive matches)
             cache_file.parent.mkdir(parents=True, exist_ok=True)
-            cache_file.write_text(json.dumps(cache), encoding="utf-8")
+            cache_file.write_text(_json.dumps(cache), encoding="utf-8")
 
-        logger.info("Resolved %d/%d players via 365Scores (%d from cache)", len(results), len(player_names), len(results) - len(to_search) + len([s for s in to_search if str(s[0]) in cache]))
+        logger.info("Resolved %d/%d players (%d cached, %d new searches)",
+                     len(results), len(players), len(players) - len(to_search), len(to_search))
         return results
 
     # ------------------------------------------------------------------
@@ -206,7 +276,7 @@ class Scores365Client:
                 "fullDetails": "true",
                 "topBookmaker": "1",
             },
-            timeout=15.0,
+            timeout=30.0,
         )
         resp.raise_for_status()
         data = resp.json()
@@ -236,8 +306,8 @@ class Scores365Client:
     ) -> dict[int, dict]:
         """Fetch full stats for all athletes — parallel batches of 5, no retries."""
         all_results: dict[int, dict] = {}
-        sem = asyncio.Semaphore(10)
-        batch_size = 5
+        sem = asyncio.Semaphore(15)
+        batch_size = 3
 
         async def _fetch(batch: list[int]) -> None:
             async with sem:
@@ -251,6 +321,17 @@ class Scores365Client:
         for i in range(0, len(athlete_ids), batch_size):
             tasks.append(asyncio.create_task(_fetch(athlete_ids[i:i + batch_size])))
         await asyncio.gather(*tasks)
+
+        # Retry missed athletes individually
+        missed = [aid for aid in athlete_ids if aid not in all_results]
+        if missed:
+            logger.info("Retrying %d missed athletes individually...", len(missed))
+            for aid in missed:
+                try:
+                    r = await self._fetch_athlete_batch([aid])
+                    all_results.update(r)
+                except Exception:
+                    pass
 
         logger.info("Fetched 365Scores stats for %d/%d athletes", len(all_results), len(athlete_ids))
         return all_results

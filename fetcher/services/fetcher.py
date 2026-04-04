@@ -78,28 +78,29 @@ async def run_pipeline(settings: Settings) -> None:
         )
         logger.info("Fetched Sport5+FC+standings (%.1fs)", time.time() - t1)
 
-        # 365Scores: search by Hebrew name, then English name fallback
+        # 365Scores: smart multi-strategy search
         t2 = time.time()
         played_ids = {pid for pid, detail in sport5_details.items() if detail.roundsStats}
 
-        # First pass: search by Hebrew name
-        player_names = [(p["id"], p["name"]) for p in sport5_players_flat if p["id"] in played_ids]
-        s365_id_map = await s365.resolve_all_players(player_names)
+        # Build FC English name lookup
+        fc_english = {p.hebrewName: p.name for p in fc_players if p.name}
 
-        # Second pass: for unresolved players, try English name from FC match
-        fc_english_names = {p.get("hebrewName", ""): p.get("name", "") for p in (
-            {"hebrewName": p.hebrewName, "name": p.name} for p in fc_players
-        ) if p.get("name")}
-        fallback_names = []
+        # Build sport5_id -> 365 team ID lookup
+        from fetcher.config import build_sport5_id_map
+        s5_team_map = build_sport5_id_map()
+
+        # Prepare search list: (sport5_id, hebrew_name, english_name, 365_team_id)
+        search_list: list[tuple[int, str, str, int]] = []
         for p in sport5_players_flat:
-            if p["id"] in played_ids and p["id"] not in s365_id_map:
-                en_name = fc_english_names.get(p["name"], "")
-                if en_name:
-                    fallback_names.append((p["id"], en_name))
-        if fallback_names:
-            logger.info("Trying English name fallback for %d players...", len(fallback_names))
-            fallback_map = await s365.resolve_all_players(fallback_names)
-            s365_id_map.update(fallback_map)
+            if p["id"] not in played_ids:
+                continue
+            he_name = p["name"]
+            en_name = fc_english.get(he_name, "")
+            tm = s5_team_map.get(p["teamId"])
+            club_id = tm.scores365_id if tm else 0
+            search_list.append((p["id"], he_name, en_name, club_id))
+
+        s365_id_map = await s365.resolve_all_players(search_list)
 
         athlete_ids = list(s365_id_map.values())
         s365_stats = await s365.get_all_athletes_stats(athlete_ids)
