@@ -451,7 +451,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4299,
+      "timesSelected": 4298,
       "avgPoints": 2.5454545454545454,
       "xA": 0.34,
       "xGI": 2.4,
@@ -791,7 +791,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 672,
+      "timesSelected": 673,
       "avgPoints": 2.3333333333333335,
       "xA": 0.09,
       "xGI": 2.4,
@@ -1058,7 +1058,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1113,
+      "timesSelected": 1115,
       "avgPoints": 1.4705882352941178,
       "xA": 0.09,
       "xGI": 0.25,
@@ -1202,7 +1202,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 36152,
+      "timesSelected": 36162,
       "avgPoints": 5.333333333333333,
       "xA": 0.29,
       "xGI": 5.92,
@@ -1575,7 +1575,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5973,
+      "timesSelected": 5977,
       "avgPoints": 2.1875,
       "xA": 0.59,
       "xGI": 2.36,
@@ -1626,7 +1626,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 23480,
+      "timesSelected": 23482,
       "avgPoints": 3.347826086956522,
       "xA": 0.2,
       "xGI": 0.2,
@@ -1677,7 +1677,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 35672,
+      "timesSelected": 35676,
       "avgPoints": 2.0,
       "xA": 0.05,
       "xGI": 8.12,
@@ -1974,7 +1974,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11323,
+      "timesSelected": 11324,
       "avgPoints": 3.727272727272727,
       "xA": 0.2,
       "xGI": 1.46,
@@ -2076,7 +2076,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8196,
+      "timesSelected": 8197,
       "avgPoints": 3.0526315789473686,
       "xA": 1.11,
       "xGI": 4.16,
@@ -2429,7 +2429,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 337,
+      "timesSelected": 336,
       "avgPoints": 2.3333333333333335,
       "xA": 0.0,
       "xGI": 0.76,
@@ -2480,7 +2480,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12134,
+      "timesSelected": 12144,
       "avgPoints": 3.217391304347826,
       "xA": 0.32,
       "xGI": 1.36,
@@ -2624,7 +2624,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 803,
+      "timesSelected": 804,
       "avgPoints": 1.65,
       "xA": 0.3,
       "xGI": 0.34,
@@ -2726,7 +2726,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1054,
+      "timesSelected": 1055,
       "avgPoints": 1.9565217391304348,
       "xA": 0.08,
       "xGI": 0.2,
@@ -2819,7 +2819,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5515,
+      "timesSelected": 5520,
       "avgPoints": 2.260869565217391,
       "xA": 0.13,
       "xGI": 0.13,
@@ -3119,7 +3119,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4996,
+      "timesSelected": 5003,
       "avgPoints": 2.4583333333333335,
       "xA": 0.21,
       "xGI": 3.83,
@@ -3170,7 +3170,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5475,
+      "timesSelected": 5479,
       "avgPoints": 2.869565217391304,
       "xA": 0.27,
       "xGI": 4.63,
@@ -3813,7 +3813,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3688,
+      "timesSelected": 3689,
       "avgPoints": 2.0434782608695654,
       "xA": 0.05,
       "xGI": 4.18,
@@ -4296,7 +4296,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2149,
+      "timesSelected": 2150,
       "avgPoints": 0.5,
       "xA": 0.0,
       "xGI": 0.0,
@@ -4459,7 +4459,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 3721,
+      "timesSelected": 3720,
       "avgPoints": 2.772727272727273,
       "xA": 0.05,
       "xGI": 5.27,
@@ -4817,7 +4817,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 121,
+      "timesSelected": 122,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -4959,10 +4959,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9029,
+      "timesSelected": 9038,
       "avgPoints": 4.043478260869565,
       "xA": 0.05,
-      "xGI": 1.1,
+      "xGI": 1.19,
       "sport5": {
         "totalPoints": 93,
         "minutesPlayed": 2013,
@@ -4984,16 +4984,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.0467,
+        "expectedGoals": 1.1380000000000001,
         "goals": 2,
-        "assists": 2,
+        "assists": 3,
         "shotsOnTarget": 4,
         "shotAttempts": 11,
-        "totalMinutesPlayed": 1402,
-        "yellowCards": 6,
-        "redCards": 0,
-        "appearances": 19,
-        "passes": 928
+        "totalMinutesPlayed": 2013,
+        "yellowCards": 5,
+        "redCards": 1,
+        "appearances": 23,
+        "passes": 1676
       },
       "scores365": null
     },
@@ -5034,7 +5034,7 @@
       "timesSelected": 839,
       "avgPoints": 0.2,
       "xA": 0.05,
-      "xGI": 0.17,
+      "xGI": 0.73,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 322,
@@ -5056,16 +5056,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1191,
+        "expectedGoals": 0.6830999999999999,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 1,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 705,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 321,
         "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 10,
-        "passes": 272
+        "redCards": 1,
+        "appearances": 9,
+        "passes": 249
       },
       "scores365": null
     },
@@ -5103,10 +5103,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 28556,
+      "timesSelected": 28558,
       "avgPoints": 3.75,
       "xA": 0.2,
-      "xGI": 2.07,
+      "xGI": 3.31,
       "sport5": {
         "totalPoints": 75,
         "minutesPlayed": 1334,
@@ -5128,16 +5128,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.8732000000000002,
+        "expectedGoals": 3.1125,
         "goals": 3,
-        "assists": 3,
+        "assists": 2,
         "shotsOnTarget": 7,
-        "shotAttempts": 14,
-        "totalMinutesPlayed": 1546,
+        "shotAttempts": 17,
+        "totalMinutesPlayed": 1335,
         "yellowCards": 4,
         "redCards": 0,
-        "appearances": 18,
-        "passes": 920
+        "appearances": 19,
+        "passes": 614
       },
       "scores365": null
     },
@@ -5157,7 +5157,7 @@
       "timesSelected": 4367,
       "avgPoints": 0.875,
       "xA": 0.12,
-      "xGI": 0.21,
+      "xGI": 0.12,
       "sport5": {
         "totalPoints": 21,
         "minutesPlayed": 630,
@@ -5179,16 +5179,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0907,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 170,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 630,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 6,
-        "passes": 128
+        "appearances": 7,
+        "passes": 212
       },
       "scores365": null
     },
@@ -5250,7 +5250,7 @@
       "timesSelected": 15,
       "avgPoints": 1.0,
       "xA": 0.0,
-      "xGI": 1.07,
+      "xGI": 0.07,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 10,
@@ -5272,16 +5272,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.0726000000000002,
-        "goals": 1,
+        "expectedGoals": 0.0658,
+        "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 3,
-        "shotAttempts": 9,
-        "totalMinutesPlayed": 242,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 9,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 7,
-        "passes": 72
+        "appearances": 1,
+        "passes": 7
       },
       "scores365": null
     },
@@ -5343,7 +5343,7 @@
       "timesSelected": 344,
       "avgPoints": 1.0909090909090908,
       "xA": 0.02,
-      "xGI": 0.1,
+      "xGI": 0.67,
       "sport5": {
         "totalPoints": 24,
         "minutesPlayed": 405,
@@ -5365,16 +5365,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0759,
+        "expectedGoals": 0.6514000000000001,
         "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 684,
-        "yellowCards": 0,
-        "redCards": 1,
-        "appearances": 10,
-        "passes": 466
+        "assists": 1,
+        "shotsOnTarget": 2,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 392,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 16,
+        "passes": 175
       },
       "scores365": null
     },
@@ -5412,10 +5412,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9751,
+      "timesSelected": 9762,
       "avgPoints": 3.5217391304347827,
       "xA": 0.63,
-      "xGI": 6.74,
+      "xGI": 9.62,
       "sport5": {
         "totalPoints": 81,
         "minutesPlayed": 1808,
@@ -5437,16 +5437,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 6.1057,
+        "expectedGoals": 8.9911,
         "goals": 8,
         "assists": 2,
-        "shotsOnTarget": 17,
-        "shotAttempts": 33,
-        "totalMinutesPlayed": 1566,
-        "yellowCards": 0,
+        "shotsOnTarget": 23,
+        "shotAttempts": 52,
+        "totalMinutesPlayed": 1816,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 22,
-        "passes": 483
+        "appearances": 23,
+        "passes": 318
       },
       "scores365": null
     },
@@ -5463,10 +5463,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18741,
+      "timesSelected": 18750,
       "avgPoints": 3.652173913043478,
       "xA": 0.22,
-      "xGI": 0.73,
+      "xGI": 1.05,
       "sport5": {
         "totalPoints": 84,
         "minutesPlayed": 1746,
@@ -5488,16 +5488,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5134,
-        "goals": 1,
-        "assists": 4,
-        "shotsOnTarget": 3,
-        "shotAttempts": 9,
-        "totalMinutesPlayed": 1417,
-        "yellowCards": 2,
+        "expectedGoals": 0.8313,
+        "goals": 2,
+        "assists": 1,
+        "shotsOnTarget": 8,
+        "shotAttempts": 13,
+        "totalMinutesPlayed": 1748,
+        "yellowCards": 5,
         "redCards": 0,
         "appearances": 22,
-        "passes": 896
+        "passes": 1061
       },
       "scores365": null
     },
@@ -5517,7 +5517,7 @@
       "timesSelected": 2585,
       "avgPoints": 2.1578947368421053,
       "xA": 0.27,
-      "xGI": 0.65,
+      "xGI": 1.13,
       "sport5": {
         "totalPoints": 41,
         "minutesPlayed": 706,
@@ -5539,16 +5539,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.3774,
+        "expectedGoals": 0.8614,
         "goals": 1,
         "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 539,
+        "shotsOnTarget": 1,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 704,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 6,
-        "passes": 265
+        "appearances": 14,
+        "passes": 387
       },
       "scores365": null
     },
@@ -5568,7 +5568,7 @@
       "timesSelected": 31925,
       "avgPoints": 5.75,
       "xA": 1.1,
-      "xGI": 1.1,
+      "xGI": 15.82,
       "sport5": {
         "totalPoints": 138,
         "minutesPlayed": 2115,
@@ -5589,7 +5589,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 2
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 14.723899999999999,
+        "goals": 15,
+        "assists": 3,
+        "shotsOnTarget": 44,
+        "shotAttempts": 101,
+        "totalMinutesPlayed": 2126,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 24,
+        "passes": 1055
+      },
       "scores365": null
     },
     {
@@ -5608,7 +5619,7 @@
       "timesSelected": 1099,
       "avgPoints": 0.7142857142857143,
       "xA": 0.15,
-      "xGI": 0.15,
+      "xGI": 0.36,
       "sport5": {
         "totalPoints": 10,
         "minutesPlayed": 173,
@@ -5630,16 +5641,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.20529999999999998,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 122,
+        "shotsOnTarget": 1,
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 173,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
-        "passes": 86
+        "appearances": 7,
+        "passes": 140
       },
       "scores365": null
     },
@@ -5659,7 +5670,7 @@
       "timesSelected": 309,
       "avgPoints": 1.2777777777777777,
       "xA": 0.96,
-      "xGI": 0.96,
+      "xGI": 2.0,
       "sport5": {
         "totalPoints": 23,
         "minutesPlayed": 392,
@@ -5680,7 +5691,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.0362,
+        "goals": 2,
+        "assists": 0,
+        "shotsOnTarget": 5,
+        "shotAttempts": 17,
+        "totalMinutesPlayed": 393,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 13,
+        "passes": 209
+      },
       "scores365": null
     },
     {
@@ -5717,10 +5739,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8509,
+      "timesSelected": 8510,
       "avgPoints": 2.65,
       "xA": 0.25,
-      "xGI": 1.16,
+      "xGI": 0.25,
       "sport5": {
         "totalPoints": 53,
         "minutesPlayed": 1530,
@@ -5742,16 +5764,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.9087999999999999,
+        "expectedGoals": 0.0,
         "goals": 0,
-        "assists": 2,
-        "shotsOnTarget": 3,
-        "shotAttempts": 17,
-        "totalMinutesPlayed": 1339,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1530,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 18,
-        "passes": 704
+        "appearances": 17,
+        "passes": 436
       },
       "scores365": null
     },
@@ -5768,10 +5790,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3912,
+      "timesSelected": 3915,
       "avgPoints": 2.2083333333333335,
       "xA": 0.4,
-      "xGI": 1.7,
+      "xGI": 2.99,
       "sport5": {
         "totalPoints": 53,
         "minutesPlayed": 1336,
@@ -5793,16 +5815,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 1.3027000000000002,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 5,
-        "shotAttempts": 19,
-        "totalMinutesPlayed": 1980,
-        "yellowCards": 7,
+        "expectedGoals": 2.5876,
+        "goals": 1,
+        "assists": 3,
+        "shotsOnTarget": 17,
+        "shotAttempts": 49,
+        "totalMinutesPlayed": 1333,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 22,
-        "passes": 1521
+        "appearances": 23,
+        "passes": 518
       },
       "scores365": null
     },
@@ -5843,7 +5865,7 @@
       "timesSelected": 6572,
       "avgPoints": 2.375,
       "xA": 0.18,
-      "xGI": 4.17,
+      "xGI": 5.45,
       "sport5": {
         "totalPoints": 57,
         "minutesPlayed": 1066,
@@ -5865,16 +5887,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 3.9852,
+        "expectedGoals": 5.269299999999999,
         "goals": 4,
-        "assists": 5,
-        "shotsOnTarget": 9,
-        "shotAttempts": 28,
-        "totalMinutesPlayed": 1302,
-        "yellowCards": 6,
+        "assists": 2,
+        "shotsOnTarget": 8,
+        "shotAttempts": 18,
+        "totalMinutesPlayed": 1069,
+        "yellowCards": 4,
         "redCards": 0,
         "appearances": 24,
-        "passes": 374
+        "passes": 533
       },
       "scores365": null
     },
@@ -5996,10 +6018,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 26531,
+      "timesSelected": 26555,
       "avgPoints": 4.181818181818182,
       "xA": 2.16,
-      "xGI": 10.35,
+      "xGI": 7.92,
       "sport5": {
         "totalPoints": 92,
         "minutesPlayed": 1797,
@@ -6021,16 +6043,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 8.191700000000003,
+        "expectedGoals": 5.7619,
         "goals": 8,
         "assists": 5,
-        "shotsOnTarget": 30,
-        "shotAttempts": 69,
-        "totalMinutesPlayed": 1561,
+        "shotsOnTarget": 23,
+        "shotAttempts": 51,
+        "totalMinutesPlayed": 1799,
         "yellowCards": 6,
         "redCards": 0,
-        "appearances": 20,
-        "passes": 495
+        "appearances": 22,
+        "passes": 1009
       },
       "scores365": null
     },
@@ -6071,7 +6093,7 @@
       "timesSelected": 4418,
       "avgPoints": 1.45,
       "xA": 0.14,
-      "xGI": 0.21,
+      "xGI": 0.66,
       "sport5": {
         "totalPoints": 29,
         "minutesPlayed": 818,
@@ -6093,16 +6115,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0721,
+        "expectedGoals": 0.5169,
         "goals": 0,
         "assists": 1,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 764,
-        "yellowCards": 3,
-        "redCards": 1,
-        "appearances": 11,
-        "passes": 384
+        "shotsOnTarget": 2,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 818,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 12,
+        "passes": 681
       },
       "scores365": null
     },
@@ -6164,7 +6186,7 @@
       "timesSelected": 513,
       "avgPoints": 0.2727272727272727,
       "xA": 0.01,
-      "xGI": 0.07,
+      "xGI": 0.22,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 54,
@@ -6186,16 +6208,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0614,
+        "expectedGoals": 0.2147,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 17,
-        "yellowCards": 1,
+        "assists": 1,
+        "shotsOnTarget": 1,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 53,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
-        "passes": 14
+        "appearances": 3,
+        "passes": 30
       },
       "scores365": null
     },
@@ -6296,10 +6318,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5200,
+      "timesSelected": 5207,
       "avgPoints": 3.217391304347826,
       "xA": 0.19,
-      "xGI": 0.19,
+      "xGI": 4.95,
       "sport5": {
         "totalPoints": 74,
         "minutesPlayed": 1741,
@@ -6320,7 +6342,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 4.7613,
+        "goals": 4,
+        "assists": 3,
+        "shotsOnTarget": 16,
+        "shotAttempts": 37,
+        "totalMinutesPlayed": 1741,
+        "yellowCards": 6,
+        "redCards": 0,
+        "appearances": 23,
+        "passes": 985
+      },
       "scores365": null
     },
     {
@@ -6421,7 +6454,7 @@
       "timesSelected": 10929,
       "avgPoints": 2.75,
       "xA": 0.07,
-      "xGI": 0.07,
+      "xGI": 5.88,
       "sport5": {
         "totalPoints": 66,
         "minutesPlayed": 1807,
@@ -6442,7 +6475,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 2
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 5.809499999999999,
+        "goals": 4,
+        "assists": 3,
+        "shotsOnTarget": 12,
+        "shotAttempts": 42,
+        "totalMinutesPlayed": 1790,
+        "yellowCards": 7,
+        "redCards": 0,
+        "appearances": 23,
+        "passes": 469
+      },
       "scores365": null
     },
     {
@@ -6461,7 +6505,7 @@
       "timesSelected": 2956,
       "avgPoints": 1.9565217391304348,
       "xA": 1.2,
-      "xGI": 1.2,
+      "xGI": 3.15,
       "sport5": {
         "totalPoints": 45,
         "minutesPlayed": 1972,
@@ -6483,16 +6527,16 @@
         "failedForPenalty": 2
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 1.9453999999999998,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1890,
-        "yellowCards": 1,
+        "assists": 1,
+        "shotsOnTarget": 8,
+        "shotAttempts": 35,
+        "totalMinutesPlayed": 1974,
+        "yellowCards": 7,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 647
+        "appearances": 23,
+        "passes": 967
       },
       "scores365": null
     },
@@ -6551,10 +6595,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 30961,
+      "timesSelected": 30962,
       "avgPoints": 3.8636363636363638,
       "xA": 0.63,
-      "xGI": 0.63,
+      "xGI": 9.91,
       "sport5": {
         "totalPoints": 85,
         "minutesPlayed": 1773,
@@ -6575,7 +6619,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 9.280400000000002,
+        "goals": 9,
+        "assists": 3,
+        "shotsOnTarget": 20,
+        "shotAttempts": 33,
+        "totalMinutesPlayed": 1771,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 22,
+        "passes": 296
+      },
       "scores365": null
     },
     {
@@ -6636,7 +6691,7 @@
       "timesSelected": 143,
       "avgPoints": 0.14285714285714285,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.39,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 22,
@@ -6658,16 +6713,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.3897,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 22,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "appearances": 1,
+        "passes": 7
       },
       "scores365": null
     },
@@ -6684,10 +6739,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 661,
+      "timesSelected": 662,
       "avgPoints": 2.55,
       "xA": 1.21,
-      "xGI": 3.45,
+      "xGI": 1.89,
       "sport5": {
         "totalPoints": 51,
         "minutesPlayed": 1246,
@@ -6709,16 +6764,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.238,
+        "expectedGoals": 0.6761999999999999,
         "goals": 0,
         "assists": 1,
         "shotsOnTarget": 2,
-        "shotAttempts": 19,
-        "totalMinutesPlayed": 1590,
-        "yellowCards": 7,
-        "redCards": 0,
-        "appearances": 19,
-        "passes": 1384
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 1247,
+        "yellowCards": 2,
+        "redCards": 2,
+        "appearances": 17,
+        "passes": 923
       },
       "scores365": null
     },
@@ -6775,10 +6830,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3988,
+      "timesSelected": 3991,
       "avgPoints": 1.25,
       "xA": 0.07,
-      "xGI": 1.0,
+      "xGI": 0.07,
       "sport5": {
         "totalPoints": 30,
         "minutesPlayed": 368,
@@ -6799,18 +6854,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.9260999999999999,
-        "goals": 2,
-        "assists": 0,
-        "shotsOnTarget": 6,
-        "shotAttempts": 20,
-        "totalMinutesPlayed": 462,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 16,
-        "passes": 103
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -6829,7 +6873,7 @@
       "timesSelected": 1561,
       "avgPoints": 2.210526315789474,
       "xA": 0.62,
-      "xGI": 1.93,
+      "xGI": 0.62,
       "sport5": {
         "totalPoints": 42,
         "minutesPlayed": 1015,
@@ -6850,18 +6894,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": {
-        "expectedGoals": 1.3079,
-        "goals": 3,
-        "assists": 2,
-        "shotsOnTarget": 6,
-        "shotAttempts": 17,
-        "totalMinutesPlayed": 750,
-        "yellowCards": 4,
-        "redCards": 0,
-        "appearances": 16,
-        "passes": 263
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -6880,7 +6913,7 @@
       "timesSelected": 159,
       "avgPoints": 0.8421052631578947,
       "xA": 0.01,
-      "xGI": 1.8,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 16,
         "minutesPlayed": 372,
@@ -6901,18 +6934,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 1.7909,
-        "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 3,
-        "shotAttempts": 11,
-        "totalMinutesPlayed": 331,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 13,
-        "passes": 83
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -6952,7 +6974,7 @@
       "timesSelected": 729,
       "avgPoints": 0.5,
       "xA": 0.31,
-      "xGI": 0.44,
+      "xGI": 0.31,
       "sport5": {
         "totalPoints": 11,
         "minutesPlayed": 592,
@@ -6973,18 +6995,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.1253,
-        "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 0,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 555,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 9,
-        "passes": 297
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7024,7 +7035,7 @@
       "timesSelected": 10044,
       "avgPoints": 1.5833333333333333,
       "xA": 0.77,
-      "xGI": 2.67,
+      "xGI": 0.77,
       "sport5": {
         "totalPoints": 38,
         "minutesPlayed": 2002,
@@ -7045,18 +7056,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 1.8982999999999997,
-        "goals": 1,
-        "assists": 2,
-        "shotsOnTarget": 6,
-        "shotAttempts": 19,
-        "totalMinutesPlayed": 1618,
-        "yellowCards": 7,
-        "redCards": 0,
-        "appearances": 21,
-        "passes": 699
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7075,7 +7075,7 @@
       "timesSelected": 4104,
       "avgPoints": 1.3333333333333333,
       "xA": 0.05,
-      "xGI": 0.13,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 32,
         "minutesPlayed": 1560,
@@ -7096,18 +7096,7 @@
         "causedPenalty": 1,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0765,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 1562,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 18,
-        "passes": 637
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7126,7 +7115,7 @@
       "timesSelected": 1535,
       "avgPoints": 0.7272727272727273,
       "xA": 0.05,
-      "xGI": 0.25,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 388,
@@ -7147,18 +7136,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.1979,
-        "goals": 0,
-        "assists": 2,
-        "shotsOnTarget": 1,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 367,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 6,
-        "passes": 102
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7198,7 +7176,7 @@
       "timesSelected": 1992,
       "avgPoints": 2.409090909090909,
       "xA": 0.31,
-      "xGI": 1.28,
+      "xGI": 0.31,
       "sport5": {
         "totalPoints": 53,
         "minutesPlayed": 1812,
@@ -7219,18 +7197,7 @@
         "causedPenalty": 1,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.9680000000000001,
-        "goals": 3,
-        "assists": 0,
-        "shotsOnTarget": 6,
-        "shotAttempts": 14,
-        "totalMinutesPlayed": 2160,
-        "yellowCards": 4,
-        "redCards": 0,
-        "appearances": 24,
-        "passes": 1042
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7270,7 +7237,7 @@
       "timesSelected": 396,
       "avgPoints": 1.3157894736842106,
       "xA": 0.05,
-      "xGI": 0.39,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 25,
         "minutesPlayed": 534,
@@ -7291,18 +7258,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.3407,
-        "goals": 1,
-        "assists": 1,
-        "shotsOnTarget": 3,
-        "shotAttempts": 8,
-        "totalMinutesPlayed": 1223,
-        "yellowCards": 7,
-        "redCards": 1,
-        "appearances": 16,
-        "passes": 433
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7384,7 +7340,7 @@
       "timesSelected": 1792,
       "avgPoints": 1.0909090909090908,
       "xA": 0.1,
-      "xGI": 0.19,
+      "xGI": 0.1,
       "sport5": {
         "totalPoints": 12,
         "minutesPlayed": 322,
@@ -7405,18 +7361,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.088,
-        "goals": 0,
-        "assists": 3,
-        "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 443,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 7,
-        "passes": 125
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7456,7 +7401,7 @@
       "timesSelected": 632,
       "avgPoints": 1.173913043478261,
       "xA": 0.09,
-      "xGI": 0.11,
+      "xGI": 0.09,
       "sport5": {
         "totalPoints": 27,
         "minutesPlayed": 1246,
@@ -7477,18 +7422,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0195,
-        "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 1039,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 16,
-        "passes": 451
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7504,10 +7438,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3278,
+      "timesSelected": 3280,
       "avgPoints": 3.2,
       "xA": 0.61,
-      "xGI": 3.03,
+      "xGI": 0.61,
       "sport5": {
         "totalPoints": 64,
         "minutesPlayed": 1238,
@@ -7528,18 +7462,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": {
-        "expectedGoals": 2.4206,
-        "goals": 2,
-        "assists": 3,
-        "shotsOnTarget": 12,
-        "shotAttempts": 30,
-        "totalMinutesPlayed": 1673,
-        "yellowCards": 4,
-        "redCards": 0,
-        "appearances": 21,
-        "passes": 647
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7558,7 +7481,7 @@
       "timesSelected": 447,
       "avgPoints": 1.1818181818181819,
       "xA": 0.44,
-      "xGI": 1.88,
+      "xGI": 0.44,
       "sport5": {
         "totalPoints": 26,
         "minutesPlayed": 622,
@@ -7579,18 +7502,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 1.4411,
-        "goals": 1,
-        "assists": 1,
-        "shotsOnTarget": 4,
-        "shotAttempts": 18,
-        "totalMinutesPlayed": 1198,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 20,
-        "passes": 431
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7630,7 +7542,7 @@
       "timesSelected": 795,
       "avgPoints": 0.16666666666666666,
       "xA": 0.0,
-      "xGI": 0.05,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 103,
@@ -7651,18 +7563,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0511,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 101,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 3,
-        "passes": 31
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -7762,7 +7663,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 235,
+      "timesSelected": 238,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -8013,7 +7914,7 @@
       "timesSelected": 2797,
       "avgPoints": 0.9565217391304348,
       "xA": 0.51,
-      "xGI": 0.54,
+      "xGI": 0.51,
       "sport5": {
         "totalPoints": 22,
         "minutesPlayed": 919,
@@ -8034,18 +7935,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0325,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 774,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 15,
-        "passes": 288
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8061,7 +7951,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2821,
+      "timesSelected": 2822,
       "avgPoints": 1.7272727272727273,
       "xA": 0.04,
       "xGI": 0.04,
@@ -8249,7 +8139,7 @@
       "timesSelected": 911,
       "avgPoints": 0.5555555555555556,
       "xA": 0.01,
-      "xGI": 0.04,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 10,
         "minutesPlayed": 130,
@@ -8270,18 +8160,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0322,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 140,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 7,
-        "passes": 55
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8321,18 +8200,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 45,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 1,
-        "passes": 10
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8456,18 +8324,7 @@
         "causedPenalty": 1,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 199,
-        "yellowCards": 1,
-        "redCards": 1,
-        "appearances": 5,
-        "passes": 73
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8589,18 +8446,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 180,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 2,
-        "passes": 68
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8659,7 +8505,7 @@
       "timesSelected": 190,
       "avgPoints": 1.0,
       "xA": 0.01,
-      "xGI": 0.09,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 838,
@@ -8680,18 +8526,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0824,
-        "goals": 0,
-        "assists": 2,
-        "shotsOnTarget": 0,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 505,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 9,
-        "passes": 144
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8731,18 +8566,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 2115,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 24,
-        "passes": 674
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8801,7 +8625,7 @@
       "timesSelected": 4141,
       "avgPoints": 1.2222222222222223,
       "xA": 0.29,
-      "xGI": 0.55,
+      "xGI": 0.29,
       "sport5": {
         "totalPoints": 22,
         "minutesPlayed": 1405,
@@ -8822,18 +8646,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.2583,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 615,
-        "yellowCards": 1,
-        "redCards": 2,
-        "appearances": 8,
-        "passes": 333
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8852,7 +8665,7 @@
       "timesSelected": 3451,
       "avgPoints": 0.7777777777777778,
       "xA": 0.07,
-      "xGI": 0.16,
+      "xGI": 0.07,
       "sport5": {
         "totalPoints": 14,
         "minutesPlayed": 566,
@@ -8873,18 +8686,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0866,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 238,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 6,
-        "passes": 73
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8943,7 +8745,7 @@
       "timesSelected": 116,
       "avgPoints": 2.2,
       "xA": 0.17,
-      "xGI": 0.34,
+      "xGI": 0.17,
       "sport5": {
         "totalPoints": 11,
         "minutesPlayed": 437,
@@ -8964,18 +8766,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.1712,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 260,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 5,
-        "passes": 53
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -8994,7 +8785,7 @@
       "timesSelected": 20,
       "avgPoints": 1.1666666666666667,
       "xA": 0.87,
-      "xGI": 0.89,
+      "xGI": 0.87,
       "sport5": {
         "totalPoints": 7,
         "minutesPlayed": 447,
@@ -9015,18 +8806,7 @@
         "causedPenalty": 1,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0191,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 290,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 4,
-        "passes": 96
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -9085,7 +8865,7 @@
       "timesSelected": 163,
       "avgPoints": 2.0,
       "xA": 0.51,
-      "xGI": 0.57,
+      "xGI": 0.51,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 80,
@@ -9106,18 +8886,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0584,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 45,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 1,
-        "passes": 13
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -9157,18 +8926,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 0.0,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 91,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 3,
-        "passes": 31
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -9184,10 +8942,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5340,
+      "timesSelected": 5344,
       "avgPoints": 3.4347826086956523,
       "xA": 0.35,
-      "xGI": 3.4,
+      "xGI": 0.35,
       "sport5": {
         "totalPoints": 79,
         "minutesPlayed": 1771,
@@ -9208,18 +8966,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": {
-        "expectedGoals": 3.0479,
-        "goals": 5,
-        "assists": 5,
-        "shotsOnTarget": 12,
-        "shotAttempts": 30,
-        "totalMinutesPlayed": 1771,
-        "yellowCards": 0,
-        "redCards": 1,
-        "appearances": 23,
-        "passes": 901
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -9238,7 +8985,7 @@
       "timesSelected": 114,
       "avgPoints": 0.2222222222222222,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.02,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 30,
@@ -9260,16 +9007,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0154,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 29,
-        "yellowCards": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 27,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 2,
-        "passes": 5
+        "appearances": 1,
+        "passes": 14
       },
       "scores365": null
     },
@@ -9310,7 +9057,7 @@
       "timesSelected": 1791,
       "avgPoints": 0.45,
       "xA": 0.14,
-      "xGI": 0.67,
+      "xGI": 0.24,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 1439,
@@ -9332,16 +9079,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5321,
+        "expectedGoals": 0.1016,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 1438,
-        "yellowCards": 3,
-        "redCards": 1,
-        "appearances": 20,
-        "passes": 820
+        "assists": 1,
+        "shotsOnTarget": 0,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 1563,
+        "yellowCards": 5,
+        "redCards": 0,
+        "appearances": 21,
+        "passes": 833
       },
       "scores365": null
     },
@@ -9424,7 +9171,7 @@
       "timesSelected": 8180,
       "avgPoints": 0.7391304347826086,
       "xA": 0.07,
-      "xGI": 0.14,
+      "xGI": 0.96,
       "sport5": {
         "totalPoints": 17,
         "minutesPlayed": 2048,
@@ -9446,16 +9193,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0667,
+        "expectedGoals": 0.8865,
         "goals": 0,
-        "assists": 2,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 2048,
+        "assists": 1,
+        "shotsOnTarget": 2,
+        "shotAttempts": 12,
+        "totalMinutesPlayed": 1220,
         "yellowCards": 7,
         "redCards": 0,
-        "appearances": 23,
-        "passes": 1119
+        "appearances": 19,
+        "passes": 450
       },
       "scores365": null
     },
@@ -9475,7 +9222,7 @@
       "timesSelected": 2486,
       "avgPoints": -0.047619047619047616,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.22,
       "sport5": {
         "totalPoints": -1,
         "minutesPlayed": 90,
@@ -9497,16 +9244,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.2185,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 90,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 81,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "passes": 21
+        "passes": 14
       },
       "scores365": null
     },
@@ -9523,10 +9270,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18665,
+      "timesSelected": 18674,
       "avgPoints": 4.181818181818182,
       "xA": 0.46,
-      "xGI": 8.49,
+      "xGI": 0.46,
       "sport5": {
         "totalPoints": 92,
         "minutesPlayed": 1667,
@@ -9547,18 +9294,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": {
-        "expectedGoals": 8.0301,
-        "goals": 8,
-        "assists": 3,
-        "shotsOnTarget": 28,
-        "shotAttempts": 65,
-        "totalMinutesPlayed": 1673,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 22,
-        "passes": 527
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -9577,7 +9313,7 @@
       "timesSelected": 476,
       "avgPoints": 1.434782608695652,
       "xA": 0.09,
-      "xGI": 1.16,
+      "xGI": 1.49,
       "sport5": {
         "totalPoints": 33,
         "minutesPlayed": 1478,
@@ -9599,16 +9335,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.0726,
+        "expectedGoals": 1.397,
         "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 5,
-        "shotAttempts": 14,
-        "totalMinutesPlayed": 1476,
-        "yellowCards": 1,
-        "redCards": 1,
-        "appearances": 22,
-        "passes": 648
+        "shotsOnTarget": 2,
+        "shotAttempts": 8,
+        "totalMinutesPlayed": 2001,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 24,
+        "passes": 978
       },
       "scores365": null
     },
@@ -9670,7 +9406,7 @@
       "timesSelected": 6383,
       "avgPoints": 1.0555555555555556,
       "xA": 0.36,
-      "xGI": 4.56,
+      "xGI": 1.71,
       "sport5": {
         "totalPoints": 19,
         "minutesPlayed": 694,
@@ -9692,16 +9428,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 4.2029000000000005,
+        "expectedGoals": 1.3516000000000001,
         "goals": 1,
-        "assists": 2,
-        "shotsOnTarget": 9,
-        "shotAttempts": 27,
-        "totalMinutesPlayed": 699,
-        "yellowCards": 1,
+        "assists": 0,
+        "shotsOnTarget": 5,
+        "shotAttempts": 13,
+        "totalMinutesPlayed": 624,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 17,
-        "passes": 384
+        "appearances": 18,
+        "passes": 143
       },
       "scores365": null
     },
@@ -9742,7 +9478,7 @@
       "timesSelected": 131,
       "avgPoints": 1.4210526315789473,
       "xA": 0.23,
-      "xGI": 2.83,
+      "xGI": 3.73,
       "sport5": {
         "totalPoints": 27,
         "minutesPlayed": 551,
@@ -9764,16 +9500,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.6002,
+        "expectedGoals": 3.4992000000000005,
         "goals": 3,
-        "assists": 0,
-        "shotsOnTarget": 7,
-        "shotAttempts": 15,
-        "totalMinutesPlayed": 547,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 13,
-        "passes": 156
+        "assists": 2,
+        "shotsOnTarget": 15,
+        "shotAttempts": 37,
+        "totalMinutesPlayed": 1014,
+        "yellowCards": 6,
+        "redCards": 1,
+        "appearances": 19,
+        "passes": 267
       },
       "scores365": null
     },
@@ -9793,7 +9529,7 @@
       "timesSelected": 30,
       "avgPoints": 0.6,
       "xA": 0.0,
-      "xGI": 0.25,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 41,
@@ -9815,16 +9551,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.2503,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 41,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
-        "passes": 19
+        "appearances": 0,
+        "passes": 0
       },
       "scores365": null
     },
@@ -9844,7 +9580,7 @@
       "timesSelected": 2204,
       "avgPoints": 0.6666666666666666,
       "xA": 0.3,
-      "xGI": 1.21,
+      "xGI": 1.22,
       "sport5": {
         "totalPoints": 16,
         "minutesPlayed": 906,
@@ -9866,16 +9602,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.9112999999999999,
+        "expectedGoals": 0.9221999999999999,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 5,
-        "shotAttempts": 11,
-        "totalMinutesPlayed": 899,
+        "assists": 0,
+        "shotsOnTarget": 3,
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 916,
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 19,
-        "passes": 476
+        "passes": 451
       },
       "scores365": null
     },
@@ -9916,7 +9652,7 @@
       "timesSelected": 1214,
       "avgPoints": 0.3157894736842105,
       "xA": 0.27,
-      "xGI": 0.64,
+      "xGI": 0.27,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 942,
@@ -9938,16 +9674,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.3693000000000001,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 954,
-        "yellowCards": 2,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1505,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 12,
-        "passes": 562
+        "appearances": 17,
+        "passes": 424
       },
       "scores365": null
     },
@@ -9985,10 +9721,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13202,
+      "timesSelected": 13203,
       "avgPoints": 1.625,
       "xA": 0.4,
-      "xGI": 0.4,
+      "xGI": 0.44,
       "sport5": {
         "totalPoints": 39,
         "minutesPlayed": 1504,
@@ -10010,16 +9746,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0405,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1505,
-        "yellowCards": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 1406,
+        "yellowCards": 5,
         "redCards": 0,
         "appearances": 17,
-        "passes": 424
+        "passes": 729
       },
       "scores365": null
     },
@@ -10057,10 +9793,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9356,
+      "timesSelected": 9359,
       "avgPoints": 2.4545454545454546,
       "xA": 0.47,
-      "xGI": 1.14,
+      "xGI": 2.51,
       "sport5": {
         "totalPoints": 54,
         "minutesPlayed": 1697,
@@ -10082,16 +9818,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.6725,
+        "expectedGoals": 2.0362999999999998,
         "goals": 2,
-        "assists": 3,
-        "shotsOnTarget": 6,
-        "shotAttempts": 8,
-        "totalMinutesPlayed": 1696,
-        "yellowCards": 4,
+        "assists": 1,
+        "shotsOnTarget": 13,
+        "shotAttempts": 40,
+        "totalMinutesPlayed": 1154,
+        "yellowCards": 2,
         "redCards": 0,
         "appearances": 22,
-        "passes": 675
+        "passes": 372
       },
       "scores365": null
     },
@@ -10132,7 +9868,7 @@
       "timesSelected": 7429,
       "avgPoints": 1.2380952380952381,
       "xA": 0.74,
-      "xGI": 0.74,
+      "xGI": 1.19,
       "sport5": {
         "totalPoints": 26,
         "minutesPlayed": 1800,
@@ -10154,16 +9890,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.4503,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1800,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 20,
-        "passes": 557
+        "shotsOnTarget": 4,
+        "shotAttempts": 13,
+        "totalMinutesPlayed": 1451,
+        "yellowCards": 5,
+        "redCards": 1,
+        "appearances": 18,
+        "passes": 468
       },
       "scores365": null
     },
@@ -10183,7 +9919,7 @@
       "timesSelected": 847,
       "avgPoints": 0.0,
       "xA": 0.0,
-      "xGI": 0.09,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 0,
         "minutesPlayed": 374,
@@ -10205,16 +9941,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0865,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 374,
-        "yellowCards": 1,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 388,
+        "yellowCards": 0,
         "redCards": 0,
         "appearances": 5,
-        "passes": 192
+        "passes": 100
       },
       "scores365": null
     },
@@ -10294,10 +10030,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3765,
+      "timesSelected": 3766,
       "avgPoints": 2.9047619047619047,
       "xA": 1.05,
-      "xGI": 4.96,
+      "xGI": 1.93,
       "sport5": {
         "totalPoints": 61,
         "minutesPlayed": 1642,
@@ -10319,16 +10055,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 3.9072000000000005,
-        "goals": 4,
-        "assists": 5,
-        "shotsOnTarget": 17,
-        "shotAttempts": 38,
-        "totalMinutesPlayed": 1645,
+        "expectedGoals": 0.8812,
+        "goals": 3,
+        "assists": 2,
+        "shotsOnTarget": 4,
+        "shotAttempts": 9,
+        "totalMinutesPlayed": 1841,
         "yellowCards": 7,
-        "redCards": 1,
-        "appearances": 21,
-        "passes": 516
+        "redCards": 0,
+        "appearances": 22,
+        "passes": 817
       },
       "scores365": null
     },
@@ -10369,7 +10105,7 @@
       "timesSelected": 215,
       "avgPoints": 0.3333333333333333,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.16,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 199,
@@ -10391,16 +10127,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.1629,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 189,
-        "yellowCards": 2,
+        "shotsOnTarget": 2,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 217,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 4,
-        "passes": 102
+        "appearances": 5,
+        "passes": 94
       },
       "scores365": null
     },
@@ -10441,7 +10177,7 @@
       "timesSelected": 8755,
       "avgPoints": 1.9,
       "xA": 0.41,
-      "xGI": 3.6,
+      "xGI": 0.41,
       "sport5": {
         "totalPoints": 38,
         "minutesPlayed": 513,
@@ -10462,18 +10198,7 @@
         "causedPenalty": 1,
         "failedForPenalty": 1
       },
-      "footballCoIl": {
-        "expectedGoals": 3.1925,
-        "goals": 5,
-        "assists": 1,
-        "shotsOnTarget": 8,
-        "shotAttempts": 19,
-        "totalMinutesPlayed": 512,
-        "yellowCards": 4,
-        "redCards": 0,
-        "appearances": 18,
-        "passes": 99
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -10553,7 +10278,7 @@
       "timesSelected": 5191,
       "avgPoints": 0.3333333333333333,
       "xA": 0.0,
-      "xGI": 0.51,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 87,
@@ -10575,16 +10300,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5139,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 88,
-        "yellowCards": 1,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 101,
+        "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "passes": 16
+        "passes": 27
       },
       "scores365": null
     },
@@ -10604,7 +10329,7 @@
       "timesSelected": 213,
       "avgPoints": 0.4,
       "xA": 0.0,
-      "xGI": 0.13,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 28,
@@ -10626,16 +10351,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1277,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 27,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
-        "passes": 10
+        "appearances": 0,
+        "passes": 0
       },
       "scores365": null
     },
@@ -10676,7 +10401,7 @@
       "timesSelected": 460,
       "avgPoints": 0.09090909090909091,
       "xA": 0.0,
-      "xGI": 0.5,
+      "xGI": 0.11,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 136,
@@ -10698,16 +10423,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.4963,
+        "expectedGoals": 0.1146,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 135,
-        "yellowCards": 1,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 139,
+        "yellowCards": 2,
         "redCards": 0,
         "appearances": 2,
-        "passes": 66
+        "passes": 87
       },
       "scores365": null
     },
@@ -10727,7 +10452,7 @@
       "timesSelected": 1485,
       "avgPoints": 0.8823529411764706,
       "xA": 0.0,
-      "xGI": 0.81,
+      "xGI": 0.85,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 285,
@@ -10749,16 +10474,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8077,
+        "expectedGoals": 0.8458,
         "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 286,
-        "yellowCards": 1,
+        "shotsOnTarget": 1,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 372,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 9,
-        "passes": 33
+        "appearances": 13,
+        "passes": 75
       },
       "scores365": null
     },
@@ -10778,7 +10503,7 @@
       "timesSelected": 97,
       "avgPoints": 0.7142857142857143,
       "xA": 0.01,
-      "xGI": 0.9,
+      "xGI": 0.82,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 373,
@@ -10800,16 +10525,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8933,
+        "expectedGoals": 0.8143999999999999,
         "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 3,
+        "shotsOnTarget": 1,
         "shotAttempts": 10,
-        "totalMinutesPlayed": 372,
-        "yellowCards": 3,
+        "totalMinutesPlayed": 531,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 11,
-        "passes": 169
+        "appearances": 16,
+        "passes": 210
       },
       "scores365": null
     },
@@ -10866,10 +10591,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 19218,
+      "timesSelected": 19228,
       "avgPoints": 3.9047619047619047,
       "xA": 0.58,
-      "xGI": 12.55,
+      "xGI": 0.58,
       "sport5": {
         "totalPoints": 82,
         "minutesPlayed": 1582,
@@ -10890,18 +10615,7 @@
         "causedPenalty": 0,
         "failedForPenalty": 2
       },
-      "footballCoIl": {
-        "expectedGoals": 11.974,
-        "goals": 8,
-        "assists": 6,
-        "shotsOnTarget": 22,
-        "shotAttempts": 60,
-        "totalMinutesPlayed": 1581,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 20,
-        "passes": 316
-      },
+      "footballCoIl": null,
       "scores365": null
     },
     {
@@ -10920,7 +10634,7 @@
       "timesSelected": 841,
       "avgPoints": 1.736842105263158,
       "xA": 0.12,
-      "xGI": 1.01,
+      "xGI": 2.03,
       "sport5": {
         "totalPoints": 33,
         "minutesPlayed": 1568,
@@ -10942,16 +10656,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.8926999999999999,
+        "expectedGoals": 1.9137999999999997,
         "goals": 1,
-        "assists": 1,
-        "shotsOnTarget": 3,
-        "shotAttempts": 15,
-        "totalMinutesPlayed": 1569,
-        "yellowCards": 8,
-        "redCards": 1,
-        "appearances": 19,
-        "passes": 841
+        "assists": 0,
+        "shotsOnTarget": 7,
+        "shotAttempts": 19,
+        "totalMinutesPlayed": 887,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 20,
+        "passes": 279
       },
       "scores365": null
     },
@@ -10968,10 +10682,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8096,
+      "timesSelected": 8100,
       "avgPoints": 0.9,
       "xA": 0.45,
-      "xGI": 0.74,
+      "xGI": 0.61,
       "sport5": {
         "totalPoints": 18,
         "minutesPlayed": 191,
@@ -10993,16 +10707,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.2916,
+        "expectedGoals": 0.1622,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 187,
-        "yellowCards": 0,
+        "assists": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 131,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 16,
-        "passes": 96
+        "appearances": 11,
+        "passes": 91
       },
       "scores365": null
     },
@@ -11022,7 +10736,7 @@
       "timesSelected": 139,
       "avgPoints": 1.5263157894736843,
       "xA": 0.25,
-      "xGI": 1.92,
+      "xGI": 2.41,
       "sport5": {
         "totalPoints": 29,
         "minutesPlayed": 1041,
@@ -11044,16 +10758,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.6709999999999998,
-        "goals": 1,
+        "expectedGoals": 2.1614999999999993,
+        "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 10,
-        "shotAttempts": 32,
-        "totalMinutesPlayed": 1043,
-        "yellowCards": 5,
+        "shotsOnTarget": 6,
+        "shotAttempts": 23,
+        "totalMinutesPlayed": 862,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 371
+        "appearances": 18,
+        "passes": 278
       },
       "scores365": null
     },
@@ -11073,7 +10787,7 @@
       "timesSelected": 40,
       "avgPoints": 3.5,
       "xA": 0.46,
-      "xGI": 1.44,
+      "xGI": 0.46,
       "sport5": {
         "totalPoints": 7,
         "minutesPlayed": 180,
@@ -11095,16 +10809,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.9848,
-        "goals": 1,
+        "expectedGoals": 0.0,
+        "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 1,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
         "totalMinutesPlayed": 180,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "passes": 111
+        "passes": 31
       },
       "scores365": null
     },
@@ -11121,10 +10835,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 73,
+      "timesSelected": 74,
       "avgPoints": 1.0,
       "xA": 0.1,
-      "xGI": 0.24,
+      "xGI": 0.1,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 43,
@@ -11146,16 +10860,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1391,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 43,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 0,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
-        "passes": 36
+        "appearances": 0,
+        "passes": 0
       },
       "scores365": null
     },
@@ -11257,7 +10971,7 @@
       "timesSelected": 25130,
       "avgPoints": 2.9545454545454546,
       "xA": 0.76,
-      "xGI": 2.04,
+      "xGI": 5.92,
       "sport5": {
         "totalPoints": 65,
         "minutesPlayed": 953,
@@ -11279,16 +10993,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.2766,
-        "goals": 2,
-        "assists": 1,
-        "shotsOnTarget": 5,
-        "shotAttempts": 15,
-        "totalMinutesPlayed": 666,
-        "yellowCards": 0,
+        "expectedGoals": 5.158200000000001,
+        "goals": 3,
+        "assists": 4,
+        "shotsOnTarget": 12,
+        "shotAttempts": 32,
+        "totalMinutesPlayed": 955,
+        "yellowCards": 4,
         "redCards": 0,
         "appearances": 21,
-        "passes": 142
+        "passes": 314
       },
       "scores365": null
     },
@@ -11308,7 +11022,7 @@
       "timesSelected": 2343,
       "avgPoints": 1.1818181818181819,
       "xA": 0.24,
-      "xGI": 0.64,
+      "xGI": 0.67,
       "sport5": {
         "totalPoints": 26,
         "minutesPlayed": 820,
@@ -11330,16 +11044,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.4031,
+        "expectedGoals": 0.42990000000000006,
         "goals": 1,
         "assists": 0,
         "shotsOnTarget": 3,
-        "shotAttempts": 16,
-        "totalMinutesPlayed": 1005,
-        "yellowCards": 2,
+        "shotAttempts": 10,
+        "totalMinutesPlayed": 818,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 15,
-        "passes": 633
+        "appearances": 14,
+        "passes": 397
       },
       "scores365": null
     },
@@ -11359,7 +11073,7 @@
       "timesSelected": 709,
       "avgPoints": 1.9130434782608696,
       "xA": 0.92,
-      "xGI": 3.84,
+      "xGI": 1.94,
       "sport5": {
         "totalPoints": 44,
         "minutesPlayed": 949,
@@ -11381,16 +11095,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.9204000000000003,
+        "expectedGoals": 1.0173,
         "goals": 2,
-        "assists": 4,
-        "shotsOnTarget": 15,
-        "shotAttempts": 39,
-        "totalMinutesPlayed": 1501,
-        "yellowCards": 3,
+        "assists": 2,
+        "shotsOnTarget": 5,
+        "shotAttempts": 10,
+        "totalMinutesPlayed": 948,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 18,
-        "passes": 531
+        "appearances": 21,
+        "passes": 500
       },
       "scores365": null
     },
@@ -11449,10 +11163,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 39796,
+      "timesSelected": 39809,
       "avgPoints": 4.2,
       "xA": 0.4,
-      "xGI": 1.2,
+      "xGI": 2.23,
       "sport5": {
         "totalPoints": 84,
         "minutesPlayed": 1656,
@@ -11474,16 +11188,16 @@
         "failedForPenalty": 4
       },
       "footballCoIl": {
-        "expectedGoals": 0.8004000000000001,
+        "expectedGoals": 1.8343,
         "goals": 1,
-        "assists": 2,
-        "shotsOnTarget": 3,
-        "shotAttempts": 9,
-        "totalMinutesPlayed": 1340,
-        "yellowCards": 5,
-        "redCards": 0,
-        "appearances": 17,
-        "passes": 965
+        "assists": 7,
+        "shotsOnTarget": 8,
+        "shotAttempts": 24,
+        "totalMinutesPlayed": 1657,
+        "yellowCards": 2,
+        "redCards": 1,
+        "appearances": 20,
+        "passes": 702
       },
       "scores365": null
     },
@@ -11650,7 +11364,7 @@
       "timesSelected": 6068,
       "avgPoints": 1.1363636363636365,
       "xA": 0.0,
-      "xGI": 1.2,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 25,
         "minutesPlayed": 778,
@@ -11672,16 +11386,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.1972,
+        "expectedGoals": 0.0,
         "goals": 0,
-        "assists": 2,
-        "shotsOnTarget": 4,
-        "shotAttempts": 13,
-        "totalMinutesPlayed": 645,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 778,
         "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 11,
-        "passes": 182
+        "redCards": 1,
+        "appearances": 9,
+        "passes": 242
       },
       "scores365": null
     },
@@ -11698,10 +11412,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 34004,
+      "timesSelected": 34013,
       "avgPoints": 4.571428571428571,
       "xA": 0.4,
-      "xGI": 8.2,
+      "xGI": 8.64,
       "sport5": {
         "totalPoints": 96,
         "minutesPlayed": 1737,
@@ -11723,16 +11437,16 @@
         "failedForPenalty": 2
       },
       "footballCoIl": {
-        "expectedGoals": 7.7958,
-        "goals": 9,
-        "assists": 0,
-        "shotsOnTarget": 18,
-        "shotAttempts": 42,
-        "totalMinutesPlayed": 1098,
-        "yellowCards": 1,
-        "redCards": 1,
-        "appearances": 22,
-        "passes": 143
+        "expectedGoals": 8.2434,
+        "goals": 10,
+        "assists": 1,
+        "shotsOnTarget": 27,
+        "shotAttempts": 52,
+        "totalMinutesPlayed": 1740,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 21,
+        "passes": 432
       },
       "scores365": null
     },
@@ -11836,7 +11550,7 @@
       "timesSelected": 6552,
       "avgPoints": 1.608695652173913,
       "xA": 0.1,
-      "xGI": 3.64,
+      "xGI": 4.4,
       "sport5": {
         "totalPoints": 37,
         "minutesPlayed": 768,
@@ -11858,16 +11572,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 3.5364,
+        "expectedGoals": 4.3019,
         "goals": 3,
-        "assists": 0,
-        "shotsOnTarget": 6,
-        "shotAttempts": 11,
-        "totalMinutesPlayed": 339,
+        "assists": 1,
+        "shotsOnTarget": 9,
+        "shotAttempts": 25,
+        "totalMinutesPlayed": 769,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 12,
-        "passes": 62
+        "appearances": 16,
+        "passes": 185
       },
       "scores365": null
     },
@@ -11887,7 +11601,7 @@
       "timesSelected": 5558,
       "avgPoints": 2.090909090909091,
       "xA": 0.0,
-      "xGI": 1.85,
+      "xGI": 2.27,
       "sport5": {
         "totalPoints": 23,
         "minutesPlayed": 365,
@@ -11909,16 +11623,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 1.8452000000000002,
+        "expectedGoals": 2.2684,
         "goals": 2,
-        "assists": 0,
-        "shotsOnTarget": 3,
+        "assists": 1,
+        "shotsOnTarget": 6,
         "shotAttempts": 11,
-        "totalMinutesPlayed": 457,
-        "yellowCards": 1,
+        "totalMinutesPlayed": 363,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 10,
-        "passes": 223
+        "appearances": 9,
+        "passes": 44
       },
       "scores365": null
     },
@@ -11938,7 +11652,7 @@
       "timesSelected": 3146,
       "avgPoints": 1.7894736842105263,
       "xA": 0.84,
-      "xGI": 0.94,
+      "xGI": 0.86,
       "sport5": {
         "totalPoints": 34,
         "minutesPlayed": 1120,
@@ -11960,16 +11674,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.1026,
+        "expectedGoals": 0.0246,
         "goals": 0,
-        "assists": 3,
-        "shotsOnTarget": 2,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 1075,
-        "yellowCards": 3,
-        "redCards": 1,
+        "assists": 1,
+        "shotsOnTarget": 1,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 1119,
+        "yellowCards": 1,
+        "redCards": 0,
         "appearances": 15,
-        "passes": 666
+        "passes": 900
       },
       "scores365": null
     },
@@ -11986,10 +11700,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6831,
+      "timesSelected": 6841,
       "avgPoints": 3.0,
       "xA": 0.1,
-      "xGI": 5.25,
+      "xGI": 5.94,
       "sport5": {
         "totalPoints": 60,
         "minutesPlayed": 1142,
@@ -12011,16 +11725,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 5.147200000000001,
+        "expectedGoals": 5.8435999999999995,
         "goals": 5,
-        "assists": 1,
-        "shotsOnTarget": 6,
-        "shotAttempts": 24,
-        "totalMinutesPlayed": 1057,
+        "assists": 3,
+        "shotsOnTarget": 14,
+        "shotAttempts": 40,
+        "totalMinutesPlayed": 1139,
         "yellowCards": 4,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 450
+        "appearances": 20,
+        "passes": 262
       },
       "scores365": null
     },
@@ -12040,7 +11754,7 @@
       "timesSelected": 7468,
       "avgPoints": 3.590909090909091,
       "xA": 0.23,
-      "xGI": 0.23,
+      "xGI": 5.27,
       "sport5": {
         "totalPoints": 79,
         "minutesPlayed": 1140,
@@ -12061,7 +11775,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 5.0377,
+        "goals": 9,
+        "assists": 2,
+        "shotsOnTarget": 12,
+        "shotAttempts": 30,
+        "totalMinutesPlayed": 1139,
+        "yellowCards": 1,
+        "redCards": 1,
+        "appearances": 22,
+        "passes": 392
+      },
       "scores365": null
     },
     {
@@ -12101,7 +11826,7 @@
       "timesSelected": 11658,
       "avgPoints": 2.260869565217391,
       "xA": 0.39,
-      "xGI": 3.35,
+      "xGI": 3.3,
       "sport5": {
         "totalPoints": 52,
         "minutesPlayed": 1264,
@@ -12123,16 +11848,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 2.9557000000000007,
+        "expectedGoals": 2.9122000000000003,
         "goals": 2,
-        "assists": 0,
-        "shotsOnTarget": 4,
-        "shotAttempts": 24,
-        "totalMinutesPlayed": 1594,
-        "yellowCards": 2,
+        "assists": 2,
+        "shotsOnTarget": 12,
+        "shotAttempts": 37,
+        "totalMinutesPlayed": 1262,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 18,
-        "passes": 988
+        "appearances": 22,
+        "passes": 322
       },
       "scores365": null
     },
@@ -12173,7 +11898,7 @@
       "timesSelected": 7313,
       "avgPoints": 1.9411764705882353,
       "xA": 0.01,
-      "xGI": 0.54,
+      "xGI": 0.74,
       "sport5": {
         "totalPoints": 33,
         "minutesPlayed": 1178,
@@ -12195,16 +11920,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5335,
-        "goals": 0,
+        "expectedGoals": 0.7323999999999999,
+        "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 1071,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 17,
-        "passes": 741
+        "shotsOnTarget": 3,
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 1178,
+        "yellowCards": 4,
+        "redCards": 1,
+        "appearances": 16,
+        "passes": 869
       },
       "scores365": null
     },
@@ -12287,7 +12012,7 @@
       "timesSelected": 722,
       "avgPoints": 0.6923076923076923,
       "xA": 0.05,
-      "xGI": 0.3,
+      "xGI": 0.23,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 443,
@@ -12309,16 +12034,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.2501,
+        "expectedGoals": 0.1786,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 503,
-        "yellowCards": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 442,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 7,
-        "passes": 253
+        "appearances": 6,
+        "passes": 374
       },
       "scores365": null
     },
@@ -12338,7 +12063,7 @@
       "timesSelected": 173,
       "avgPoints": 1.125,
       "xA": 0.07,
-      "xGI": 0.93,
+      "xGI": 1.09,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 60,
@@ -12360,16 +12085,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8566,
+        "expectedGoals": 1.0164,
         "goals": 1,
         "assists": 0,
         "shotsOnTarget": 1,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 51,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 60,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 5,
-        "passes": 10
+        "passes": 12
       },
       "scores365": null
     },
@@ -12428,10 +12153,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6780,
+      "timesSelected": 6785,
       "avgPoints": 2.176470588235294,
       "xA": 0.24,
-      "xGI": 0.53,
+      "xGI": 0.24,
       "sport5": {
         "totalPoints": 37,
         "minutesPlayed": 1260,
@@ -12453,16 +12178,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.29380000000000006,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 1094,
-        "yellowCards": 4,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1260,
+        "yellowCards": 0,
         "redCards": 0,
         "appearances": 14,
-        "passes": 730
+        "passes": 414
       },
       "scores365": null
     },
@@ -12500,10 +12225,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9603,
+      "timesSelected": 9606,
       "avgPoints": 3.1904761904761907,
       "xA": 0.14,
-      "xGI": 0.14,
+      "xGI": 0.4,
       "sport5": {
         "totalPoints": 67,
         "minutesPlayed": 1805,
@@ -12525,16 +12250,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1991,
-        "yellowCards": 1,
+        "expectedGoals": 0.2586,
+        "goals": 1,
+        "assists": 1,
+        "shotsOnTarget": 3,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 1804,
+        "yellowCards": 5,
         "redCards": 0,
-        "appearances": 23,
-        "passes": 546
+        "appearances": 21,
+        "passes": 997
       },
       "scores365": null
     },
@@ -12554,7 +12279,7 @@
       "timesSelected": 276,
       "avgPoints": 1.2352941176470589,
       "xA": 0.21,
-      "xGI": 0.87,
+      "xGI": 0.71,
       "sport5": {
         "totalPoints": 21,
         "minutesPlayed": 1145,
@@ -12576,16 +12301,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.6604,
+        "expectedGoals": 0.5013,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 635,
-        "yellowCards": 1,
+        "assists": 1,
+        "shotsOnTarget": 1,
+        "shotAttempts": 12,
+        "totalMinutesPlayed": 1143,
+        "yellowCards": 6,
         "redCards": 0,
-        "appearances": 12,
-        "passes": 345
+        "appearances": 16,
+        "passes": 619
       },
       "scores365": null
     },
@@ -12752,7 +12477,7 @@
       "timesSelected": 87,
       "avgPoints": 0.10526315789473684,
       "xA": 0.0,
-      "xGI": 0.12,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 2,
         "minutesPlayed": 72,
@@ -12774,16 +12499,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1236,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 76,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 71,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 2,
-        "passes": 13
+        "appearances": 3,
+        "passes": 32
       },
       "scores365": null
     },
@@ -12803,7 +12528,7 @@
       "timesSelected": 1502,
       "avgPoints": 0.7777777777777778,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.23,
       "sport5": {
         "totalPoints": 7,
         "minutesPlayed": 120,
@@ -12825,16 +12550,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.2331,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 169,
+        "shotsOnTarget": 1,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 119,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "passes": 51
+        "passes": 42
       },
       "scores365": null
     },
@@ -12854,7 +12579,7 @@
       "timesSelected": 764,
       "avgPoints": 1.619047619047619,
       "xA": 0.33,
-      "xGI": 2.95,
+      "xGI": 0.8,
       "sport5": {
         "totalPoints": 34,
         "minutesPlayed": 1168,
@@ -12876,16 +12601,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.6161,
-        "goals": 2,
-        "assists": 3,
-        "shotsOnTarget": 6,
-        "shotAttempts": 17,
-        "totalMinutesPlayed": 738,
-        "yellowCards": 1,
-        "redCards": 1,
-        "appearances": 14,
-        "passes": 249
+        "expectedGoals": 0.47100000000000003,
+        "goals": 1,
+        "assists": 0,
+        "shotsOnTarget": 3,
+        "shotAttempts": 12,
+        "totalMinutesPlayed": 1170,
+        "yellowCards": 4,
+        "redCards": 0,
+        "appearances": 16,
+        "passes": 776
       },
       "scores365": null
     },
@@ -12947,7 +12672,7 @@
       "timesSelected": 3728,
       "avgPoints": 1.3636363636363635,
       "xA": 0.27,
-      "xGI": 0.27,
+      "xGI": 0.58,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 522,
@@ -12969,16 +12694,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.3126,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 227,
-        "yellowCards": 0,
-        "redCards": 1,
-        "appearances": 7,
-        "passes": 123
+        "assists": 1,
+        "shotsOnTarget": 1,
+        "shotAttempts": 8,
+        "totalMinutesPlayed": 527,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 11,
+        "passes": 337
       },
       "scores365": null
     },
@@ -12998,7 +12723,7 @@
       "timesSelected": 1260,
       "avgPoints": 1.8095238095238095,
       "xA": 0.5,
-      "xGI": 0.5,
+      "xGI": 2.41,
       "sport5": {
         "totalPoints": 38,
         "minutesPlayed": 735,
@@ -13019,7 +12744,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.9132000000000002,
+        "goals": 2,
+        "assists": 0,
+        "shotsOnTarget": 5,
+        "shotAttempts": 25,
+        "totalMinutesPlayed": 733,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 19,
+        "passes": 283
+      },
       "scores365": null
     },
     {
@@ -13035,10 +12771,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1170,
+      "timesSelected": 1171,
       "avgPoints": 2.1,
       "xA": 0.98,
-      "xGI": 0.98,
+      "xGI": 2.56,
       "sport5": {
         "totalPoints": 42,
         "minutesPlayed": 1135,
@@ -13059,7 +12795,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.5771,
+        "goals": 1,
+        "assists": 2,
+        "shotsOnTarget": 11,
+        "shotAttempts": 28,
+        "totalMinutesPlayed": 1137,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 19,
+        "passes": 410
+      },
       "scores365": null
     },
     {
@@ -13078,7 +12825,7 @@
       "timesSelected": 21,
       "avgPoints": 0.16666666666666666,
       "xA": 0.0,
-      "xGI": 0.13,
+      "xGI": 0.1,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 4,
@@ -13100,16 +12847,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1308,
+        "expectedGoals": 0.0966,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 1,
+        "shotsOnTarget": 2,
+        "shotAttempts": 2,
         "totalMinutesPlayed": 4,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 1,
-        "passes": 1
+        "passes": 5
       },
       "scores365": null
     },
@@ -13168,10 +12915,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 1455,
+      "timesSelected": 1452,
       "avgPoints": 5.0,
       "xA": 0.39,
-      "xGI": 0.39,
+      "xGI": 1.4,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 270,
@@ -13192,7 +12939,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.0131999999999999,
+        "goals": 2,
+        "assists": 1,
+        "shotsOnTarget": 2,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 271,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 4,
+        "passes": 78
+      },
       "scores365": null
     },
     {
@@ -13208,7 +12966,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5086,
+      "timesSelected": 5085,
       "avgPoints": 1.875,
       "xA": 0.72,
       "xGI": 4.5,
@@ -13613,7 +13371,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9410,
+      "timesSelected": 9411,
       "avgPoints": 2.5416666666666665,
       "xA": 0.0,
       "xGI": 0.0,
@@ -13952,7 +13710,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4123,
+      "timesSelected": 4124,
       "avgPoints": 3.2,
       "xA": 0.19,
       "xGI": 3.67,
@@ -14595,7 +14353,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1771,
+      "timesSelected": 1772,
       "avgPoints": 2.1578947368421053,
       "xA": 0.03,
       "xGI": 0.22,
@@ -14646,7 +14404,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1039,
+      "timesSelected": 1040,
       "avgPoints": 1.608695652173913,
       "xA": 0.41,
       "xGI": 1.53,
@@ -14748,7 +14506,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10613,
+      "timesSelected": 10615,
       "avgPoints": 3.0416666666666665,
       "xA": 0.84,
       "xGI": 3.54,
@@ -14799,7 +14557,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12748,
+      "timesSelected": 12750,
       "avgPoints": 2.75,
       "xA": 0.59,
       "xGI": 2.11,
@@ -14941,7 +14699,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5243,
+      "timesSelected": 5248,
       "avgPoints": 3.0454545454545454,
       "xA": 0.17,
       "xGI": 3.62,
@@ -15155,7 +14913,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4531,
+      "timesSelected": 4532,
       "avgPoints": 0.5714285714285714,
       "xA": 0.11,
       "xGI": 0.58,
@@ -15257,7 +15015,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 27,
+      "timesSelected": 28,
       "avgPoints": 0.3333333333333333,
       "xA": 0.04,
       "xGI": 0.04,
@@ -15308,7 +15066,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 184,
+      "timesSelected": 185,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -15399,7 +15157,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18,
+      "timesSelected": 19,
       "avgPoints": 5.5,
       "xA": 0.12,
       "xGI": 0.26,
@@ -15453,7 +15211,7 @@
       "timesSelected": 1340,
       "avgPoints": 1.7142857142857142,
       "xA": 0.34,
-      "xGI": 2.32,
+      "xGI": 2.24,
       "sport5": {
         "totalPoints": 36,
         "minutesPlayed": 1617,
@@ -15475,16 +15233,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.9791,
+        "expectedGoals": 1.8982999999999997,
         "goals": 1,
-        "assists": 3,
-        "shotsOnTarget": 7,
-        "shotAttempts": 14,
-        "totalMinutesPlayed": 1254,
-        "yellowCards": 5,
+        "assists": 2,
+        "shotsOnTarget": 6,
+        "shotAttempts": 19,
+        "totalMinutesPlayed": 1618,
+        "yellowCards": 7,
         "redCards": 0,
         "appearances": 21,
-        "passes": 319
+        "passes": 699
       },
       "scores365": null
     },
@@ -15531,11 +15289,11 @@
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 0,
-        "totalMinutesPlayed": 29,
+        "totalMinutesPlayed": 45,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 3,
-        "passes": 21
+        "appearances": 1,
+        "passes": 10
       },
       "scores365": null
     },
@@ -15552,10 +15310,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1437,
+      "timesSelected": 1443,
       "avgPoints": 1.0526315789473684,
       "xA": 0.01,
-      "xGI": 0.8,
+      "xGI": 1.8,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 335,
@@ -15577,16 +15335,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.7935000000000001,
-        "goals": 0,
+        "expectedGoals": 1.7909,
+        "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 4,
-        "shotAttempts": 14,
-        "totalMinutesPlayed": 377,
+        "shotsOnTarget": 3,
+        "shotAttempts": 11,
+        "totalMinutesPlayed": 331,
         "yellowCards": 0,
-        "redCards": 1,
-        "appearances": 12,
-        "passes": 118
+        "redCards": 0,
+        "appearances": 13,
+        "passes": 83
       },
       "scores365": null
     },
@@ -15606,7 +15364,7 @@
       "timesSelected": 1780,
       "avgPoints": 1.0,
       "xA": 0.0,
-      "xGI": 0.22,
+      "xGI": 0.13,
       "sport5": {
         "totalPoints": 11,
         "minutesPlayed": 553,
@@ -15628,16 +15386,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.22060000000000002,
+        "expectedGoals": 0.1253,
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 641,
-        "yellowCards": 0,
-        "redCards": 1,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 555,
+        "yellowCards": 2,
+        "redCards": 0,
         "appearances": 9,
-        "passes": 209
+        "passes": 297
       },
       "scores365": null
     },
@@ -15678,7 +15436,7 @@
       "timesSelected": 985,
       "avgPoints": 1.5,
       "xA": 0.0,
-      "xGI": 0.05,
+      "xGI": 0.2,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 366,
@@ -15700,16 +15458,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0468,
+        "expectedGoals": 0.1979,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 504,
-        "yellowCards": 3,
+        "assists": 2,
+        "shotsOnTarget": 1,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 367,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 8,
-        "passes": 192
+        "appearances": 6,
+        "passes": 102
       },
       "scores365": null
     },
@@ -15771,7 +15529,7 @@
       "timesSelected": 1206,
       "avgPoints": 1.3157894736842106,
       "xA": 0.01,
-      "xGI": 0.14,
+      "xGI": 0.09,
       "sport5": {
         "totalPoints": 25,
         "minutesPlayed": 1561,
@@ -15793,16 +15551,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1287,
+        "expectedGoals": 0.0765,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 1507,
-        "yellowCards": 7,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 1562,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 17,
-        "passes": 632
+        "appearances": 18,
+        "passes": 637
       },
       "scores365": null
     },
@@ -15822,7 +15580,7 @@
       "timesSelected": 3605,
       "avgPoints": 3.0,
       "xA": 0.0,
-      "xGI": 0.55,
+      "xGI": 0.09,
       "sport5": {
         "totalPoints": 21,
         "minutesPlayed": 442,
@@ -15844,16 +15602,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5498999999999999,
-        "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 1304,
-        "yellowCards": 4,
+        "expectedGoals": 0.088,
+        "goals": 0,
+        "assists": 3,
+        "shotsOnTarget": 0,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 443,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 550
+        "appearances": 7,
+        "passes": 125
       },
       "scores365": null
     },
@@ -16083,7 +15841,7 @@
       "timesSelected": 372,
       "avgPoints": 0.8571428571428571,
       "xA": 0.03,
-      "xGI": 0.03,
+      "xGI": 0.06,
       "sport5": {
         "totalPoints": 18,
         "minutesPlayed": 776,
@@ -16105,16 +15863,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0325,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1080,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 774,
         "yellowCards": 3,
         "redCards": 0,
-        "appearances": 12,
-        "passes": 349
+        "appearances": 15,
+        "passes": 288
       },
       "scores365": null
     },
@@ -16176,7 +15934,7 @@
       "timesSelected": 425,
       "avgPoints": 1.75,
       "xA": 0.17,
-      "xGI": 0.93,
+      "xGI": 1.61,
       "sport5": {
         "totalPoints": 35,
         "minutesPlayed": 1201,
@@ -16198,16 +15956,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.7644,
+        "expectedGoals": 1.4411,
         "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 3,
-        "shotAttempts": 10,
-        "totalMinutesPlayed": 1091,
-        "yellowCards": 8,
-        "redCards": 1,
-        "appearances": 17,
-        "passes": 604
+        "assists": 1,
+        "shotsOnTarget": 4,
+        "shotAttempts": 18,
+        "totalMinutesPlayed": 1198,
+        "yellowCards": 3,
+        "redCards": 0,
+        "appearances": 20,
+        "passes": 431
       },
       "scores365": null
     },
@@ -16248,7 +16006,7 @@
       "timesSelected": 88,
       "avgPoints": 0.6,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 102,
@@ -16270,16 +16028,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0511,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 123,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 101,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 3,
-        "passes": 33
+        "passes": 31
       },
       "scores365": null
     },
@@ -16299,7 +16057,7 @@
       "timesSelected": 146,
       "avgPoints": 1.1818181818181819,
       "xA": 0.06,
-      "xGI": 0.06,
+      "xGI": 1.13,
       "sport5": {
         "totalPoints": 13,
         "minutesPlayed": 242,
@@ -16320,7 +16078,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.0726000000000002,
+        "goals": 1,
+        "assists": 0,
+        "shotsOnTarget": 3,
+        "shotAttempts": 9,
+        "totalMinutesPlayed": 242,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 7,
+        "passes": 72
+      },
       "scores365": null
     },
     {
@@ -16360,7 +16129,7 @@
       "timesSelected": 469,
       "avgPoints": 1.6,
       "xA": 0.03,
-      "xGI": 0.03,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 289,
@@ -16382,16 +16151,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0191,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
-        "yellowCards": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 290,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "appearances": 4,
+        "passes": 96
       },
       "scores365": null
     },
@@ -16429,10 +16198,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 751,
+      "timesSelected": 752,
       "avgPoints": 1.1818181818181819,
       "xA": 0.47,
-      "xGI": 1.11,
+      "xGI": 1.4,
       "sport5": {
         "totalPoints": 26,
         "minutesPlayed": 464,
@@ -16454,16 +16223,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.636,
+        "expectedGoals": 0.9260999999999999,
         "goals": 2,
-        "assists": 2,
-        "shotsOnTarget": 3,
-        "shotAttempts": 11,
-        "totalMinutesPlayed": 647,
-        "yellowCards": 3,
-        "redCards": 1,
-        "appearances": 21,
-        "passes": 280
+        "assists": 0,
+        "shotsOnTarget": 6,
+        "shotAttempts": 20,
+        "totalMinutesPlayed": 462,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 16,
+        "passes": 103
       },
       "scores365": null
     },
@@ -16483,7 +16252,7 @@
       "timesSelected": 1366,
       "avgPoints": 2.347826086956522,
       "xA": 0.5,
-      "xGI": 2.04,
+      "xGI": 2.92,
       "sport5": {
         "totalPoints": 54,
         "minutesPlayed": 1670,
@@ -16505,16 +16274,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.5372,
-        "goals": 1,
-        "assists": 1,
-        "shotsOnTarget": 1,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 1899,
+        "expectedGoals": 2.4206,
+        "goals": 2,
+        "assists": 3,
+        "shotsOnTarget": 12,
+        "shotAttempts": 30,
+        "totalMinutesPlayed": 1673,
         "yellowCards": 4,
-        "redCards": 2,
-        "appearances": 22,
-        "passes": 875
+        "redCards": 0,
+        "appearances": 21,
+        "passes": 647
       },
       "scores365": null
     },
@@ -16531,10 +16300,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4564,
+      "timesSelected": 4565,
       "avgPoints": 0.3,
       "xA": 0.01,
-      "xGI": 0.01,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 117,
@@ -16556,16 +16325,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0434,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
-        "yellowCards": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 117,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "appearances": 5,
+        "passes": 40
       },
       "scores365": null
     },
@@ -16585,7 +16354,7 @@
       "timesSelected": 1408,
       "avgPoints": 2.5555555555555554,
       "xA": 0.03,
-      "xGI": 0.03,
+      "xGI": 1.34,
       "sport5": {
         "totalPoints": 23,
         "minutesPlayed": 313,
@@ -16606,7 +16375,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.3085,
+        "goals": 2,
+        "assists": 1,
+        "shotsOnTarget": 5,
+        "shotAttempts": 17,
+        "totalMinutesPlayed": 312,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 9,
+        "passes": 108
+      },
       "scores365": null
     },
     {
@@ -16673,11 +16453,11 @@
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "totalMinutesPlayed": 199,
+        "yellowCards": 1,
+        "redCards": 1,
+        "appearances": 5,
+        "passes": 73
       },
       "scores365": null
     },
@@ -16802,7 +16582,7 @@
       "timesSelected": 103,
       "avgPoints": 1.0,
       "xA": 0.17,
-      "xGI": 0.17,
+      "xGI": 0.43,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 614,
@@ -16824,16 +16604,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.2583,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1080,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 615,
         "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 12,
-        "passes": 336
+        "redCards": 2,
+        "appearances": 8,
+        "passes": 333
       },
       "scores365": null
     },
@@ -16871,10 +16651,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2070,
+      "timesSelected": 2068,
       "avgPoints": 0.4,
       "xA": 0.01,
-      "xGI": 0.44,
+      "xGI": 0.03,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 1098,
@@ -16896,16 +16676,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.4311,
+        "expectedGoals": 0.0195,
         "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 4,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 175,
-        "yellowCards": 0,
+        "assists": 1,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 1039,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 17,
-        "passes": 56
+        "appearances": 16,
+        "passes": 451
       },
       "scores365": null
     },
@@ -16964,7 +16744,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16239,
+      "timesSelected": 16242,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -16988,7 +16768,7 @@
       "timesSelected": 5792,
       "avgPoints": 1.7916666666666667,
       "xA": 0.11,
-      "xGI": 0.35,
+      "xGI": 0.11,
       "sport5": {
         "totalPoints": 43,
         "minutesPlayed": 2116,
@@ -17010,16 +16790,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.23650000000000004,
+        "expectedGoals": 0.0,
         "goals": 0,
-        "assists": 1,
+        "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 1894,
-        "yellowCards": 3,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 2115,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 23,
-        "passes": 737
+        "appearances": 24,
+        "passes": 674
       },
       "scores365": null
     },
@@ -17039,7 +16819,7 @@
       "timesSelected": 82,
       "avgPoints": 1.6363636363636365,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.08,
       "sport5": {
         "totalPoints": 18,
         "minutesPlayed": 505,
@@ -17061,16 +16841,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0824,
         "goals": 0,
-        "assists": 0,
+        "assists": 2,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
-        "yellowCards": 0,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 505,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "appearances": 9,
+        "passes": 144
       },
       "scores365": null
     },
@@ -17087,10 +16867,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 33841,
+      "timesSelected": 33863,
       "avgPoints": 3.8181818181818183,
       "xA": 0.62,
-      "xGI": 0.62,
+      "xGI": 6.43,
       "sport5": {
         "totalPoints": 84,
         "minutesPlayed": 1836,
@@ -17111,7 +16891,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 5.810700000000001,
+        "goals": 8,
+        "assists": 5,
+        "shotsOnTarget": 20,
+        "shotAttempts": 61,
+        "totalMinutesPlayed": 1837,
+        "yellowCards": 6,
+        "redCards": 0,
+        "appearances": 22,
+        "passes": 452
+      },
       "scores365": null
     },
     {
@@ -17157,11 +16948,11 @@
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
+        "totalMinutesPlayed": 256,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "appearances": 4,
+        "passes": 152
       },
       "scores365": null
     },
@@ -17181,7 +16972,7 @@
       "timesSelected": 10290,
       "avgPoints": 0.8095238095238095,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.12,
       "sport5": {
         "totalPoints": 17,
         "minutesPlayed": 796,
@@ -17202,7 +16993,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.1191,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 705,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 10,
+        "passes": 272
+      },
       "scores365": null
     },
     {
@@ -17221,7 +17023,7 @@
       "timesSelected": 4293,
       "avgPoints": 3.15,
       "xA": 0.14,
-      "xGI": 4.46,
+      "xGI": 4.86,
       "sport5": {
         "totalPoints": 63,
         "minutesPlayed": 1565,
@@ -17243,16 +17045,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 4.3246,
+        "expectedGoals": 4.7214,
         "goals": 5,
-        "assists": 0,
-        "shotsOnTarget": 17,
-        "shotAttempts": 45,
-        "totalMinutesPlayed": 1528,
-        "yellowCards": 1,
+        "assists": 2,
+        "shotsOnTarget": 12,
+        "shotAttempts": 29,
+        "totalMinutesPlayed": 1565,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 444
+        "appearances": 20,
+        "passes": 228
       },
       "scores365": null
     },
@@ -17272,7 +17074,7 @@
       "timesSelected": 4769,
       "avgPoints": 1.9583333333333333,
       "xA": 0.98,
-      "xGI": 4.58,
+      "xGI": 1.95,
       "sport5": {
         "totalPoints": 47,
         "minutesPlayed": 2160,
@@ -17294,16 +17096,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 3.6034,
+        "expectedGoals": 0.9680000000000001,
         "goals": 3,
         "assists": 0,
-        "shotsOnTarget": 13,
-        "shotAttempts": 28,
-        "totalMinutesPlayed": 970,
-        "yellowCards": 3,
+        "shotsOnTarget": 6,
+        "shotAttempts": 14,
+        "totalMinutesPlayed": 2160,
+        "yellowCards": 4,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 172
+        "appearances": 24,
+        "passes": 1042
       },
       "scores365": null
     },
@@ -17320,7 +17122,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2029,
+      "timesSelected": 2030,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -17344,7 +17146,7 @@
       "timesSelected": 983,
       "avgPoints": 1.588235294117647,
       "xA": 1.03,
-      "xGI": 1.55,
+      "xGI": 1.37,
       "sport5": {
         "totalPoints": 27,
         "minutesPlayed": 1223,
@@ -17366,16 +17168,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5216,
+        "expectedGoals": 0.3407,
         "goals": 1,
         "assists": 1,
         "shotsOnTarget": 3,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 1077,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 17,
-        "passes": 365
+        "shotAttempts": 8,
+        "totalMinutesPlayed": 1223,
+        "yellowCards": 7,
+        "redCards": 1,
+        "appearances": 16,
+        "passes": 433
       },
       "scores365": null
     },
@@ -17395,7 +17197,7 @@
       "timesSelected": 210,
       "avgPoints": 0.3125,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 5,
         "minutesPlayed": 71,
@@ -17416,7 +17218,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0491,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 70,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 5,
+        "passes": 26
+      },
       "scores365": null
     },
     {
@@ -17456,7 +17269,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 97,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 5,
+        "passes": 24
+      },
       "scores365": null
     },
     {
@@ -17472,10 +17296,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2058,
+      "timesSelected": 2057,
       "avgPoints": 0.6666666666666666,
       "xA": 0.06,
-      "xGI": 0.06,
+      "xGI": 0.15,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 237,
@@ -17496,7 +17320,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0866,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 238,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 6,
+        "passes": 73
+      },
       "scores365": null
     },
     {
@@ -17515,7 +17350,7 @@
       "timesSelected": 301,
       "avgPoints": 1.8823529411764706,
       "xA": 0.21,
-      "xGI": 2.56,
+      "xGI": 1.52,
       "sport5": {
         "totalPoints": 32,
         "minutesPlayed": 746,
@@ -17537,16 +17372,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 2.3486000000000002,
+        "expectedGoals": 1.3079,
         "goals": 3,
-        "assists": 1,
-        "shotsOnTarget": 7,
-        "shotAttempts": 21,
-        "totalMinutesPlayed": 1200,
+        "assists": 2,
+        "shotsOnTarget": 6,
+        "shotAttempts": 17,
+        "totalMinutesPlayed": 750,
         "yellowCards": 4,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 433
+        "appearances": 16,
+        "passes": 263
       },
       "scores365": null
     },
@@ -17587,7 +17422,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 91,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 3,
+        "passes": 31
+      },
       "scores365": null
     },
     {
@@ -17603,10 +17449,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1309,
+      "timesSelected": 1313,
       "avgPoints": 1.0,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.03,
       "sport5": {
         "totalPoints": 12,
         "minutesPlayed": 139,
@@ -17627,7 +17473,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0322,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 140,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 7,
+        "passes": 55
+      },
       "scores365": null
     },
     {
@@ -17643,10 +17500,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 27,
+      "timesSelected": 28,
       "avgPoints": 0.0,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.06,
       "sport5": {
         "totalPoints": 0,
         "minutesPlayed": 46,
@@ -17667,7 +17524,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0584,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 45,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 1,
+        "passes": 13
+      },
       "scores365": null
     },
     {
@@ -17683,7 +17551,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 30,
+      "timesSelected": 31,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -17707,7 +17575,7 @@
       "timesSelected": 5,
       "avgPoints": 1.4,
       "xA": 0.13,
-      "xGI": 0.13,
+      "xGI": 0.3,
       "sport5": {
         "totalPoints": 7,
         "minutesPlayed": 261,
@@ -17728,7 +17596,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.1712,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 2,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 260,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 5,
+        "passes": 53
+      },
       "scores365": null
     },
     {
@@ -17768,7 +17647,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 180,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 2,
+        "passes": 68
+      },
       "scores365": null
     },
     {
@@ -17784,7 +17674,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1547,
+      "timesSelected": 1549,
       "avgPoints": 1.0,
       "xA": 0.13,
       "xGI": 0.38,
@@ -17835,7 +17725,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16620,
+      "timesSelected": 16627,
       "avgPoints": 2.5416666666666665,
       "xA": 0.48,
       "xGI": 2.56,
@@ -17988,7 +17878,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1173,
+      "timesSelected": 1174,
       "avgPoints": 1.8,
       "xA": 0.14,
       "xGI": 1.8,
@@ -18165,7 +18055,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2296,
+      "timesSelected": 2300,
       "avgPoints": 1.6363636363636365,
       "xA": 0.02,
       "xGI": 0.29,
@@ -18372,7 +18262,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17133,
+      "timesSelected": 17154,
       "avgPoints": 2.4583333333333335,
       "xA": 0.29,
       "xGI": 0.29,
@@ -18516,7 +18406,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 765,
+      "timesSelected": 767,
       "avgPoints": 1.8181818181818181,
       "xA": 0.14,
       "xGI": 4.6,
@@ -18856,7 +18746,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2378,
+      "timesSelected": 2379,
       "avgPoints": 0.25,
       "xA": 0.0,
       "xGI": 0.03,
@@ -18907,7 +18797,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3524,
+      "timesSelected": 3526,
       "avgPoints": 1.875,
       "xA": 0.34,
       "xGI": 0.79,
@@ -19195,7 +19085,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13311,
+      "timesSelected": 13318,
       "avgPoints": 2.347826086956522,
       "xA": 0.14,
       "xGI": 2.87,
@@ -19339,7 +19229,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1829,
+      "timesSelected": 1830,
       "avgPoints": 1.0,
       "xA": 0.34,
       "xGI": 0.56,
@@ -19390,7 +19280,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3534,
+      "timesSelected": 3535,
       "avgPoints": 1.1875,
       "xA": 0.5,
       "xGI": 0.72,
@@ -19706,7 +19596,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 128,
+      "timesSelected": 130,
       "avgPoints": 1.6666666666666667,
       "xA": 0.07,
       "xGI": 0.13,
@@ -19757,7 +19647,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 1068,
+      "timesSelected": 1066,
       "avgPoints": 3.0,
       "xA": 0.55,
       "xGI": 1.85,
@@ -19880,10 +19770,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12225,
+      "timesSelected": 12220,
       "avgPoints": 3.8,
       "xA": 0.73,
-      "xGI": 0.73,
+      "xGI": 8.94,
       "sport5": {
         "totalPoints": 57,
         "minutesPlayed": 959,
@@ -19904,7 +19794,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 8.2136,
+        "goals": 7,
+        "assists": 1,
+        "shotsOnTarget": 13,
+        "shotAttempts": 34,
+        "totalMinutesPlayed": 980,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 13,
+        "passes": 80
+      },
       "scores365": null
     },
     {
@@ -19920,10 +19821,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9898,
+      "timesSelected": 9900,
       "avgPoints": 3.1666666666666665,
       "xA": 0.07,
-      "xGI": 1.98,
+      "xGI": 2.99,
       "sport5": {
         "totalPoints": 57,
         "minutesPlayed": 1502,
@@ -19945,16 +19846,16 @@
         "failedForPenalty": 2
       },
       "footballCoIl": {
-        "expectedGoals": 1.9132000000000002,
+        "expectedGoals": 2.9204000000000003,
         "goals": 2,
-        "assists": 0,
-        "shotsOnTarget": 5,
-        "shotAttempts": 25,
-        "totalMinutesPlayed": 733,
-        "yellowCards": 2,
+        "assists": 4,
+        "shotsOnTarget": 15,
+        "shotAttempts": 39,
+        "totalMinutesPlayed": 1501,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 283
+        "appearances": 18,
+        "passes": 531
       },
       "scores365": null
     },
@@ -19974,7 +19875,7 @@
       "timesSelected": 9076,
       "avgPoints": 1.4,
       "xA": 0.0,
-      "xGI": 4.3,
+      "xGI": 3.54,
       "sport5": {
         "totalPoints": 21,
         "minutesPlayed": 339,
@@ -19996,16 +19897,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 4.3019,
+        "expectedGoals": 3.5364,
         "goals": 3,
-        "assists": 1,
-        "shotsOnTarget": 9,
-        "shotAttempts": 25,
-        "totalMinutesPlayed": 769,
+        "assists": 0,
+        "shotsOnTarget": 6,
+        "shotAttempts": 11,
+        "totalMinutesPlayed": 339,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 16,
-        "passes": 185
+        "appearances": 12,
+        "passes": 62
       },
       "scores365": null
     },
@@ -20025,7 +19926,7 @@
       "timesSelected": 2096,
       "avgPoints": 0.18181818181818182,
       "xA": 0.01,
-      "xGI": 0.19,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 4,
         "minutesPlayed": 227,
@@ -20047,16 +19948,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1786,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 442,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 6,
-        "passes": 374
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 227,
+        "yellowCards": 0,
+        "redCards": 1,
+        "appearances": 7,
+        "passes": 123
       },
       "scores365": null
     },
@@ -20073,10 +19974,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1567,
+      "timesSelected": 1568,
       "avgPoints": 2.1875,
       "xA": 0.56,
-      "xGI": 2.83,
+      "xGI": 3.18,
       "sport5": {
         "totalPoints": 35,
         "minutesPlayed": 738,
@@ -20098,16 +19999,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.2684,
+        "expectedGoals": 2.6161,
         "goals": 2,
-        "assists": 1,
+        "assists": 3,
         "shotsOnTarget": 6,
-        "shotAttempts": 11,
-        "totalMinutesPlayed": 363,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 9,
-        "passes": 44
+        "shotAttempts": 17,
+        "totalMinutesPlayed": 738,
+        "yellowCards": 1,
+        "redCards": 1,
+        "appearances": 14,
+        "passes": 249
       },
       "scores365": null
     },
@@ -20124,10 +20025,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17119,
+      "timesSelected": 17122,
       "avgPoints": 2.7083333333333335,
       "xA": 0.16,
-      "xGI": 5.32,
+      "xGI": 3.7,
       "sport5": {
         "totalPoints": 65,
         "minutesPlayed": 1908,
@@ -20149,16 +20050,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 5.158200000000001,
-        "goals": 3,
-        "assists": 4,
-        "shotsOnTarget": 12,
-        "shotAttempts": 32,
-        "totalMinutesPlayed": 955,
-        "yellowCards": 4,
+        "expectedGoals": 3.5406000000000004,
+        "goals": 4,
+        "assists": 1,
+        "shotsOnTarget": 13,
+        "shotAttempts": 35,
+        "totalMinutesPlayed": 1906,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 314
+        "appearances": 22,
+        "passes": 596
       },
       "scores365": null
     },
@@ -20178,7 +20079,7 @@
       "timesSelected": 125,
       "avgPoints": 0.0,
       "xA": 0.0,
-      "xGI": 0.1,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 0,
         "minutesPlayed": 11,
@@ -20200,16 +20101,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0966,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 4,
-        "yellowCards": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 12,
+        "yellowCards": 1,
         "redCards": 0,
         "appearances": 1,
-        "passes": 5
+        "passes": 2
       },
       "scores365": null
     },
@@ -20355,7 +20256,7 @@
       "timesSelected": 20988,
       "avgPoints": 3.1333333333333333,
       "xA": 0.16,
-      "xGI": 0.18,
+      "xGI": 0.26,
       "sport5": {
         "totalPoints": 47,
         "minutesPlayed": 1075,
@@ -20377,16 +20278,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0246,
+        "expectedGoals": 0.1026,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 1,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 1119,
-        "yellowCards": 1,
-        "redCards": 0,
+        "assists": 3,
+        "shotsOnTarget": 2,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 1075,
+        "yellowCards": 3,
+        "redCards": 1,
         "appearances": 15,
-        "passes": 900
+        "passes": 666
       },
       "scores365": null
     },
@@ -20403,10 +20304,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 21670,
+      "timesSelected": 21672,
       "avgPoints": 3.7777777777777777,
       "xA": 0.34,
-      "xGI": 1.36,
+      "xGI": 3.3,
       "sport5": {
         "totalPoints": 68,
         "minutesPlayed": 1592,
@@ -20428,16 +20329,16 @@
         "failedForPenalty": 2
       },
       "footballCoIl": {
-        "expectedGoals": 1.0173,
+        "expectedGoals": 2.9557000000000007,
         "goals": 2,
-        "assists": 2,
-        "shotsOnTarget": 5,
-        "shotAttempts": 10,
-        "totalMinutesPlayed": 948,
+        "assists": 0,
+        "shotsOnTarget": 4,
+        "shotAttempts": 24,
+        "totalMinutesPlayed": 1594,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 500
+        "appearances": 18,
+        "passes": 988
       },
       "scores365": null
     },
@@ -20499,7 +20400,7 @@
       "timesSelected": 6433,
       "avgPoints": 1.6363636363636365,
       "xA": 0.01,
-      "xGI": 0.51,
+      "xGI": 0.54,
       "sport5": {
         "totalPoints": 36,
         "minutesPlayed": 1071,
@@ -20521,16 +20422,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5013,
+        "expectedGoals": 0.5335,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 1,
-        "shotAttempts": 12,
-        "totalMinutesPlayed": 1143,
-        "yellowCards": 6,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 1071,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 16,
-        "passes": 619
+        "appearances": 17,
+        "passes": 741
       },
       "scores365": null
     },
@@ -20592,7 +20493,7 @@
       "timesSelected": 587,
       "avgPoints": 0.16666666666666666,
       "xA": 0.0,
-      "xGI": 0.23,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 4,
         "minutesPlayed": 168,
@@ -20614,16 +20515,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.2331,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 119,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 169,
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 2,
-        "passes": 42
+        "passes": 51
       },
       "scores365": null
     },
@@ -20670,11 +20571,11 @@
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 0,
-        "totalMinutesPlayed": 71,
-        "yellowCards": 1,
+        "totalMinutesPlayed": 220,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 3,
-        "passes": 32
+        "appearances": 6,
+        "passes": 106
       },
       "scores365": null
     },
@@ -20757,7 +20658,7 @@
       "timesSelected": 802,
       "avgPoints": 1.6428571428571428,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.29,
       "sport5": {
         "totalPoints": 23,
         "minutesPlayed": 1114,
@@ -20779,16 +20680,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.29380000000000006,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1260,
-        "yellowCards": 0,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 1094,
+        "yellowCards": 4,
         "redCards": 0,
         "appearances": 14,
-        "passes": 414
+        "passes": 730
       },
       "scores365": null
     },
@@ -20829,7 +20730,7 @@
       "timesSelected": 1284,
       "avgPoints": 1.7857142857142858,
       "xA": 0.0,
-      "xGI": 0.31,
+      "xGI": 1.2,
       "sport5": {
         "totalPoints": 25,
         "minutesPlayed": 646,
@@ -20851,16 +20752,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.3126,
+        "expectedGoals": 1.1972,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 1,
-        "shotAttempts": 8,
-        "totalMinutesPlayed": 527,
-        "yellowCards": 3,
+        "assists": 2,
+        "shotsOnTarget": 4,
+        "shotAttempts": 13,
+        "totalMinutesPlayed": 645,
+        "yellowCards": 1,
         "redCards": 0,
         "appearances": 11,
-        "passes": 337
+        "passes": 182
       },
       "scores365": null
     },
@@ -20880,7 +20781,7 @@
       "timesSelected": 8776,
       "avgPoints": 2.7,
       "xA": 1.01,
-      "xGI": 6.85,
+      "xGI": 6.16,
       "sport5": {
         "totalPoints": 54,
         "minutesPlayed": 1056,
@@ -20902,16 +20803,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 5.8435999999999995,
+        "expectedGoals": 5.147200000000001,
         "goals": 5,
-        "assists": 3,
-        "shotsOnTarget": 14,
-        "shotAttempts": 40,
-        "totalMinutesPlayed": 1139,
+        "assists": 1,
+        "shotsOnTarget": 6,
+        "shotAttempts": 24,
+        "totalMinutesPlayed": 1057,
         "yellowCards": 4,
         "redCards": 0,
-        "appearances": 20,
-        "passes": 262
+        "appearances": 19,
+        "passes": 450
       },
       "scores365": null
     },
@@ -20991,10 +20892,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16206,
+      "timesSelected": 16208,
       "avgPoints": 3.4347826086956523,
       "xA": 0.67,
-      "xGI": 0.93,
+      "xGI": 1.2,
       "sport5": {
         "totalPoints": 79,
         "minutesPlayed": 1997,
@@ -21016,16 +20917,16 @@
         "failedForPenalty": 3
       },
       "footballCoIl": {
-        "expectedGoals": 0.2586,
-        "goals": 1,
-        "assists": 1,
-        "shotsOnTarget": 3,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 1804,
-        "yellowCards": 5,
-        "redCards": 0,
-        "appearances": 21,
-        "passes": 997
+        "expectedGoals": 0.5289999999999999,
+        "goals": 0,
+        "assists": 2,
+        "shotsOnTarget": 4,
+        "shotAttempts": 10,
+        "totalMinutesPlayed": 1997,
+        "yellowCards": 3,
+        "redCards": 1,
+        "appearances": 23,
+        "passes": 1085
       },
       "scores365": null
     },
@@ -21063,10 +20964,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13589,
+      "timesSelected": 13593,
       "avgPoints": 3.35,
       "xA": 0.43,
-      "xGI": 0.43,
+      "xGI": 3.53,
       "sport5": {
         "totalPoints": 67,
         "minutesPlayed": 960,
@@ -21087,7 +20988,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 3.1014,
+        "goals": 4,
+        "assists": 1,
+        "shotsOnTarget": 11,
+        "shotAttempts": 25,
+        "totalMinutesPlayed": 961,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 18,
+        "passes": 424
+      },
       "scores365": null
     },
     {
@@ -21127,7 +21039,7 @@
       "timesSelected": 215,
       "avgPoints": 1.0,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.13,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 4,
@@ -21148,7 +21060,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.1308,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 4,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 1,
+        "passes": 1
+      },
       "scores365": null
     },
     {
@@ -21227,7 +21150,7 @@
       "injuredStatus": 1,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2437,
+      "timesSelected": 2438,
       "avgPoints": 2.7142857142857144,
       "xA": 0.23,
       "xGI": 0.23,
@@ -21257,11 +21180,11 @@
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 0,
-        "totalMinutesPlayed": 388,
+        "totalMinutesPlayed": 311,
         "yellowCards": 0,
         "redCards": 0,
-        "appearances": 5,
-        "passes": 100
+        "appearances": 4,
+        "passes": 243
       },
       "scores365": null
     },
@@ -21323,7 +21246,7 @@
       "timesSelected": 1992,
       "avgPoints": 1.625,
       "xA": 0.06,
-      "xGI": 2.97,
+      "xGI": 1.34,
       "sport5": {
         "totalPoints": 39,
         "minutesPlayed": 668,
@@ -21345,16 +21268,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.9122000000000003,
+        "expectedGoals": 1.2766,
         "goals": 2,
-        "assists": 2,
-        "shotsOnTarget": 12,
-        "shotAttempts": 37,
-        "totalMinutesPlayed": 1262,
-        "yellowCards": 1,
+        "assists": 1,
+        "shotsOnTarget": 5,
+        "shotAttempts": 15,
+        "totalMinutesPlayed": 666,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 22,
-        "passes": 322
+        "appearances": 21,
+        "passes": 142
       },
       "scores365": null
     },
@@ -21413,10 +21336,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7338,
+      "timesSelected": 7339,
       "avgPoints": 2.5714285714285716,
       "xA": 1.17,
-      "xGI": 1.9,
+      "xGI": 1.97,
       "sport5": {
         "totalPoints": 54,
         "minutesPlayed": 1339,
@@ -21438,16 +21361,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.7323999999999999,
+        "expectedGoals": 0.8004000000000001,
         "goals": 1,
-        "assists": 0,
+        "assists": 2,
         "shotsOnTarget": 3,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 1178,
-        "yellowCards": 4,
-        "redCards": 1,
-        "appearances": 16,
-        "passes": 869
+        "shotAttempts": 9,
+        "totalMinutesPlayed": 1340,
+        "yellowCards": 5,
+        "redCards": 0,
+        "appearances": 17,
+        "passes": 965
       },
       "scores365": null
     },
@@ -21509,7 +21432,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 1,
+        "passes": 3
+      },
       "scores365": null
     },
     {
@@ -21528,7 +21462,7 @@
       "timesSelected": 1054,
       "avgPoints": 1.2105263157894737,
       "xA": 0.0,
-      "xGI": 1.01,
+      "xGI": 1.85,
       "sport5": {
         "totalPoints": 23,
         "minutesPlayed": 455,
@@ -21550,16 +21484,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.0131999999999999,
+        "expectedGoals": 1.8452000000000002,
         "goals": 2,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 271,
-        "yellowCards": 0,
+        "assists": 0,
+        "shotsOnTarget": 3,
+        "shotAttempts": 11,
+        "totalMinutesPlayed": 457,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 4,
-        "passes": 78
+        "appearances": 10,
+        "passes": 223
       },
       "scores365": null
     },
@@ -21740,10 +21674,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5039,
+      "timesSelected": 5054,
       "avgPoints": 3.272727272727273,
       "xA": 1.59,
-      "xGI": 1.59,
+      "xGI": 4.43,
       "sport5": {
         "totalPoints": 72,
         "minutesPlayed": 1362,
@@ -21764,7 +21698,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 2.8420999999999994,
+        "goals": 4,
+        "assists": 6,
+        "shotsOnTarget": 15,
+        "shotAttempts": 46,
+        "totalMinutesPlayed": 1360,
+        "yellowCards": 4,
+        "redCards": 0,
+        "appearances": 22,
+        "passes": 452
+      },
       "scores365": null
     },
     {
@@ -21780,10 +21725,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17542,
+      "timesSelected": 17545,
       "avgPoints": 2.869565217391304,
       "xA": 1.5,
-      "xGI": 3.33,
+      "xGI": 1.5,
       "sport5": {
         "totalPoints": 66,
         "minutesPlayed": 1992,
@@ -21805,16 +21750,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.8343,
-        "goals": 1,
-        "assists": 7,
-        "shotsOnTarget": 8,
-        "shotAttempts": 24,
-        "totalMinutesPlayed": 1657,
-        "yellowCards": 2,
-        "redCards": 1,
-        "appearances": 20,
-        "passes": 702
+        "expectedGoals": 0.0,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1991,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 23,
+        "passes": 546
       },
       "scores365": null
     },
@@ -21831,10 +21776,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 14732,
+      "timesSelected": 14736,
       "avgPoints": 3.1363636363636362,
       "xA": 0.02,
-      "xGI": 5.06,
+      "xGI": 7.82,
       "sport5": {
         "totalPoints": 69,
         "minutesPlayed": 1097,
@@ -21856,16 +21801,16 @@
         "failedForPenalty": 2
       },
       "footballCoIl": {
-        "expectedGoals": 5.0377,
+        "expectedGoals": 7.7958,
         "goals": 9,
-        "assists": 2,
-        "shotsOnTarget": 12,
-        "shotAttempts": 30,
-        "totalMinutesPlayed": 1139,
+        "assists": 0,
+        "shotsOnTarget": 18,
+        "shotAttempts": 42,
+        "totalMinutesPlayed": 1098,
         "yellowCards": 1,
         "redCards": 1,
         "appearances": 22,
-        "passes": 392
+        "passes": 143
       },
       "scores365": null
     },
@@ -21885,7 +21830,7 @@
       "timesSelected": 183,
       "avgPoints": 1.1428571428571428,
       "xA": 0.51,
-      "xGI": 0.98,
+      "xGI": 0.91,
       "sport5": {
         "totalPoints": 24,
         "minutesPlayed": 1004,
@@ -21907,16 +21852,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.47100000000000003,
+        "expectedGoals": 0.4031,
         "goals": 1,
         "assists": 0,
         "shotsOnTarget": 3,
-        "shotAttempts": 12,
-        "totalMinutesPlayed": 1170,
-        "yellowCards": 4,
+        "shotAttempts": 16,
+        "totalMinutesPlayed": 1005,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 16,
-        "passes": 776
+        "appearances": 15,
+        "passes": 633
       },
       "scores365": null
     },
@@ -21933,10 +21878,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3142,
+      "timesSelected": 3143,
       "avgPoints": 2.142857142857143,
       "xA": 0.84,
-      "xGI": 0.84,
+      "xGI": 1.5,
       "sport5": {
         "totalPoints": 30,
         "minutesPlayed": 636,
@@ -21958,16 +21903,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.6604,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 778,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 635,
         "yellowCards": 1,
-        "redCards": 1,
-        "appearances": 9,
-        "passes": 242
+        "redCards": 0,
+        "appearances": 12,
+        "passes": 345
       },
       "scores365": null
     },
@@ -21987,7 +21932,7 @@
       "timesSelected": 170,
       "avgPoints": 0.2,
       "xA": 0.0,
-      "xGI": 1.02,
+      "xGI": 0.12,
       "sport5": {
         "totalPoints": 1,
         "minutesPlayed": 77,
@@ -22009,16 +21954,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.0164,
-        "goals": 1,
+        "expectedGoals": 0.1236,
+        "goals": 0,
         "assists": 0,
         "shotsOnTarget": 1,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 60,
-        "yellowCards": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 76,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 5,
-        "passes": 12
+        "appearances": 2,
+        "passes": 13
       },
       "scores365": null
     },
@@ -22035,10 +21980,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 765,
+      "timesSelected": 764,
       "avgPoints": 2.142857142857143,
       "xA": 0.98,
-      "xGI": 0.98,
+      "xGI": 1.23,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 504,
@@ -22059,7 +22004,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.2501,
+        "goals": 0,
+        "assists": 1,
+        "shotsOnTarget": 2,
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 503,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 7,
+        "passes": 253
+      },
       "scores365": null
     },
     {
@@ -22075,10 +22031,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 296,
+      "timesSelected": 295,
       "avgPoints": 1.8,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.86,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 49,
@@ -22099,7 +22055,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.8566,
+        "goals": 1,
+        "assists": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 51,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 5,
+        "passes": 10
+      },
       "scores365": null
     },
     {
@@ -22160,7 +22127,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.0,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 0,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 0,
+        "passes": 0
+      },
       "scores365": null
     },
     {
@@ -22176,10 +22154,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1533,
+      "timesSelected": 1537,
       "avgPoints": 3.6666666666666665,
       "xA": 1.13,
-      "xGI": 1.13,
+      "xGI": 1.9,
       "sport5": {
         "totalPoints": 11,
         "minutesPlayed": 194,
@@ -22200,7 +22178,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.7716999999999999,
+        "goals": 0,
+        "assists": 2,
+        "shotsOnTarget": 3,
+        "shotAttempts": 16,
+        "totalMinutesPlayed": 195,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 3,
+        "passes": 115
+      },
       "scores365": null
     },
     {
@@ -22258,7 +22247,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5935,
+      "timesSelected": 5942,
       "avgPoints": 0.5416666666666666,
       "xA": 0.01,
       "xGI": 0.01,
@@ -22309,7 +22298,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3428,
+      "timesSelected": 3430,
       "avgPoints": 1.8095238095238095,
       "xA": 0.11,
       "xGI": 2.68,
@@ -22513,7 +22502,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9305,
+      "timesSelected": 9307,
       "avgPoints": 2.75,
       "xA": 0.07,
       "xGI": 1.94,
@@ -22739,7 +22728,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1765,
+      "timesSelected": 1766,
       "avgPoints": 1.25,
       "xA": 0.02,
       "xGI": 0.19,
@@ -23264,7 +23253,7 @@
       "timesSelected": 213,
       "avgPoints": 1.619047619047619,
       "xA": 0.15,
-      "xGI": 0.94,
+      "xGI": 0.7,
       "sport5": {
         "totalPoints": 34,
         "minutesPlayed": 1304,
@@ -23286,16 +23275,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.7897,
+        "expectedGoals": 0.5498999999999999,
         "goals": 1,
         "assists": 0,
         "shotsOnTarget": 1,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 1444,
-        "yellowCards": 5,
-        "redCards": 1,
-        "appearances": 18,
-        "passes": 642
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 1304,
+        "yellowCards": 4,
+        "redCards": 0,
+        "appearances": 21,
+        "passes": 550
       },
       "scores365": null
     },
@@ -23519,7 +23508,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 201,
+      "timesSelected": 203,
       "avgPoints": 1.5,
       "xA": 0.8,
       "xGI": 1.46,
@@ -23663,7 +23652,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3493,
+      "timesSelected": 3494,
       "avgPoints": 1.5,
       "xA": 0.08,
       "xGI": 1.23,
@@ -23714,7 +23703,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6573,
+      "timesSelected": 6574,
       "avgPoints": 0.21428571428571427,
       "xA": 0.0,
       "xGI": 0.01,
@@ -23942,7 +23931,7 @@
       "timesSelected": 1500,
       "avgPoints": 0.16666666666666666,
       "xA": 0.28,
-      "xGI": 2.19,
+      "xGI": 1.07,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 1446,
@@ -23964,16 +23953,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 1.9137999999999997,
+        "expectedGoals": 0.7897,
         "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 7,
-        "shotAttempts": 19,
-        "totalMinutesPlayed": 887,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 20,
-        "passes": 279
+        "shotsOnTarget": 1,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 1444,
+        "yellowCards": 5,
+        "redCards": 1,
+        "appearances": 18,
+        "passes": 642
       },
       "scores365": null
     },
@@ -24528,10 +24517,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10062,
+      "timesSelected": 10075,
       "avgPoints": 3.227272727272727,
       "xA": 1.31,
-      "xGI": 4.42,
+      "xGI": 3.18,
       "sport5": {
         "totalPoints": 71,
         "minutesPlayed": 1545,
@@ -24553,16 +24542,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 3.1125,
+        "expectedGoals": 1.8732000000000002,
         "goals": 3,
-        "assists": 2,
+        "assists": 3,
         "shotsOnTarget": 7,
-        "shotAttempts": 17,
-        "totalMinutesPlayed": 1335,
+        "shotAttempts": 14,
+        "totalMinutesPlayed": 1546,
         "yellowCards": 4,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 614
+        "appearances": 18,
+        "passes": 920
       },
       "scores365": null
     },
@@ -24579,10 +24568,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 190,
+      "timesSelected": 189,
       "avgPoints": 3.1666666666666665,
       "xA": 0.93,
-      "xGI": 1.79,
+      "xGI": 1.31,
       "sport5": {
         "totalPoints": 19,
         "minutesPlayed": 537,
@@ -24604,16 +24593,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8614,
+        "expectedGoals": 0.3774,
         "goals": 1,
         "assists": 1,
-        "shotsOnTarget": 1,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 704,
+        "shotsOnTarget": 2,
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 539,
         "yellowCards": 1,
         "redCards": 0,
-        "appearances": 14,
-        "passes": 387
+        "appearances": 6,
+        "passes": 265
       },
       "scores365": null
     },
@@ -24675,7 +24664,7 @@
       "timesSelected": 28,
       "avgPoints": 0.16666666666666666,
       "xA": 0.02,
-      "xGI": 0.41,
+      "xGI": 0.08,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 17,
@@ -24697,16 +24686,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.3897,
+        "expectedGoals": 0.0614,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 22,
-        "yellowCards": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 17,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 1,
-        "passes": 7
+        "appearances": 5,
+        "passes": 14
       },
       "scores365": null
     },
@@ -24726,7 +24715,7 @@
       "timesSelected": 4101,
       "avgPoints": 1.3157894736842106,
       "xA": 0.01,
-      "xGI": 0.66,
+      "xGI": 0.09,
       "sport5": {
         "totalPoints": 25,
         "minutesPlayed": 684,
@@ -24748,16 +24737,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.6514000000000001,
+        "expectedGoals": 0.0759,
         "goals": 1,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 392,
-        "yellowCards": 3,
-        "redCards": 0,
-        "appearances": 16,
-        "passes": 175
+        "assists": 0,
+        "shotsOnTarget": 1,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 684,
+        "yellowCards": 0,
+        "redCards": 1,
+        "appearances": 10,
+        "passes": 466
       },
       "scores365": null
     },
@@ -24819,7 +24808,7 @@
       "timesSelected": 2299,
       "avgPoints": 0.6190476190476191,
       "xA": 0.01,
-      "xGI": 0.53,
+      "xGI": 0.19,
       "sport5": {
         "totalPoints": 13,
         "minutesPlayed": 547,
@@ -24841,16 +24830,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.5169,
+        "expectedGoals": 0.1789,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 818,
-        "yellowCards": 1,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 546,
+        "yellowCards": 5,
         "redCards": 0,
-        "appearances": 12,
-        "passes": 681
+        "appearances": 13,
+        "passes": 237
       },
       "scores365": null
     },
@@ -24870,7 +24859,7 @@
       "timesSelected": 514,
       "avgPoints": 0.3,
       "xA": 0.0,
-      "xGI": 0.21,
+      "xGI": 0.09,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 171,
@@ -24892,16 +24881,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.20529999999999998,
+        "expectedGoals": 0.0907,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 173,
-        "yellowCards": 1,
+        "shotsOnTarget": 0,
+        "shotAttempts": 3,
+        "totalMinutesPlayed": 170,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 7,
-        "passes": 140
+        "appearances": 6,
+        "passes": 128
       },
       "scores365": null
     },
@@ -24921,7 +24910,7 @@
       "timesSelected": 199,
       "avgPoints": 0.45454545454545453,
       "xA": 0.0,
-      "xGI": 0.21,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 5,
         "minutesPlayed": 122,
@@ -24943,16 +24932,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.2147,
+        "expectedGoals": 0.0,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 1,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 53,
-        "yellowCards": 0,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 122,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 3,
-        "passes": 30
+        "appearances": 5,
+        "passes": 86
       },
       "scores365": null
     },
@@ -24972,7 +24961,7 @@
       "timesSelected": 492,
       "avgPoints": 1.8181818181818181,
       "xA": 0.95,
-      "xGI": 0.95,
+      "xGI": 2.42,
       "sport5": {
         "totalPoints": 40,
         "minutesPlayed": 382,
@@ -24993,7 +24982,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 1
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 1.4682,
+        "goals": 3,
+        "assists": 1,
+        "shotsOnTarget": 6,
+        "shotAttempts": 8,
+        "totalMinutesPlayed": 380,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 19,
+        "passes": 300
+      },
       "scores365": null
     },
     {
@@ -25009,10 +25009,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3721,
+      "timesSelected": 3722,
       "avgPoints": 2.0,
       "xA": 0.39,
-      "xGI": 1.07,
+      "xGI": 1.3,
       "sport5": {
         "totalPoints": 36,
         "minutesPlayed": 1340,
@@ -25034,16 +25034,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.6761999999999999,
+        "expectedGoals": 0.9087999999999999,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 1247,
+        "assists": 2,
+        "shotsOnTarget": 3,
+        "shotAttempts": 17,
+        "totalMinutesPlayed": 1339,
         "yellowCards": 2,
-        "redCards": 2,
-        "appearances": 17,
-        "passes": 923
+        "redCards": 0,
+        "appearances": 18,
+        "passes": 704
       },
       "scores365": null
     },
@@ -25126,7 +25126,7 @@
       "timesSelected": 2989,
       "avgPoints": 2.0952380952380953,
       "xA": 0.25,
-      "xGI": 1.08,
+      "xGI": 1.3,
       "sport5": {
         "totalPoints": 44,
         "minutesPlayed": 1402,
@@ -25148,16 +25148,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8313,
+        "expectedGoals": 1.0467,
         "goals": 2,
-        "assists": 1,
-        "shotsOnTarget": 8,
-        "shotAttempts": 13,
-        "totalMinutesPlayed": 1748,
-        "yellowCards": 5,
+        "assists": 2,
+        "shotsOnTarget": 4,
+        "shotAttempts": 11,
+        "totalMinutesPlayed": 1402,
+        "yellowCards": 6,
         "redCards": 0,
-        "appearances": 22,
-        "passes": 1061
+        "appearances": 19,
+        "passes": 928
       },
       "scores365": null
     },
@@ -25174,10 +25174,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9680,
+      "timesSelected": 9683,
       "avgPoints": 2.409090909090909,
       "xA": 0.1,
-      "xGI": 2.05,
+      "xGI": 0.1,
       "sport5": {
         "totalPoints": 53,
         "minutesPlayed": 1890,
@@ -25199,16 +25199,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.9453999999999998,
+        "expectedGoals": 0.0,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 8,
-        "shotAttempts": 35,
-        "totalMinutesPlayed": 1974,
-        "yellowCards": 7,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1890,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 23,
-        "passes": 967
+        "appearances": 21,
+        "passes": 647
       },
       "scores365": null
     },
@@ -25333,7 +25333,7 @@
       "timesSelected": 10265,
       "avgPoints": 2.7916666666666665,
       "xA": 0.67,
-      "xGI": 5.94,
+      "xGI": 4.66,
       "sport5": {
         "totalPoints": 67,
         "minutesPlayed": 1302,
@@ -25355,16 +25355,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 5.269299999999999,
+        "expectedGoals": 3.9852,
         "goals": 4,
-        "assists": 2,
-        "shotsOnTarget": 8,
-        "shotAttempts": 18,
-        "totalMinutesPlayed": 1069,
-        "yellowCards": 4,
+        "assists": 5,
+        "shotsOnTarget": 9,
+        "shotAttempts": 28,
+        "totalMinutesPlayed": 1302,
+        "yellowCards": 6,
         "redCards": 0,
         "appearances": 24,
-        "passes": 533
+        "passes": 374
       },
       "scores365": null
     },
@@ -25384,7 +25384,7 @@
       "timesSelected": 7070,
       "avgPoints": 4.0,
       "xA": 0.65,
-      "xGI": 6.41,
+      "xGI": 6.76,
       "sport5": {
         "totalPoints": 88,
         "minutesPlayed": 1565,
@@ -25406,16 +25406,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 5.7619,
+        "expectedGoals": 6.1057,
         "goals": 8,
-        "assists": 5,
-        "shotsOnTarget": 23,
-        "shotAttempts": 51,
-        "totalMinutesPlayed": 1799,
-        "yellowCards": 6,
+        "assists": 2,
+        "shotsOnTarget": 17,
+        "shotAttempts": 33,
+        "totalMinutesPlayed": 1566,
+        "yellowCards": 0,
         "redCards": 0,
         "appearances": 22,
-        "passes": 1009
+        "passes": 483
       },
       "scores365": null
     },
@@ -25432,10 +25432,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 20661,
+      "timesSelected": 20674,
       "avgPoints": 5.136363636363637,
       "xA": 1.57,
-      "xGI": 1.57,
+      "xGI": 12.05,
       "sport5": {
         "totalPoints": 113,
         "minutesPlayed": 1657,
@@ -25456,7 +25456,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 2
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 10.475399999999999,
+        "goals": 12,
+        "assists": 3,
+        "shotsOnTarget": 25,
+        "shotAttempts": 55,
+        "totalMinutesPlayed": 1663,
+        "yellowCards": 2,
+        "redCards": 1,
+        "appearances": 22,
+        "passes": 599
+      },
       "scores365": null
     },
     {
@@ -25493,10 +25504,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4246,
+      "timesSelected": 4248,
       "avgPoints": 2.1666666666666665,
       "xA": 0.91,
-      "xGI": 3.5,
+      "xGI": 1.42,
       "sport5": {
         "totalPoints": 52,
         "minutesPlayed": 1415,
@@ -25518,16 +25529,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.5876,
+        "expectedGoals": 0.5134,
         "goals": 1,
-        "assists": 3,
-        "shotsOnTarget": 17,
-        "shotAttempts": 49,
-        "totalMinutesPlayed": 1333,
-        "yellowCards": 1,
+        "assists": 4,
+        "shotsOnTarget": 3,
+        "shotAttempts": 9,
+        "totalMinutesPlayed": 1417,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 23,
-        "passes": 518
+        "appearances": 22,
+        "passes": 896
       },
       "scores365": null
     },
@@ -25694,7 +25705,7 @@
       "timesSelected": 3130,
       "avgPoints": 1.375,
       "xA": 0.62,
-      "xGI": 0.62,
+      "xGI": 4.09,
       "sport5": {
         "totalPoints": 33,
         "minutesPlayed": 366,
@@ -25715,7 +25726,18 @@
         "causedPenalty": 1,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 3.468,
+        "goals": 3,
+        "assists": 1,
+        "shotsOnTarget": 7,
+        "shotAttempts": 14,
+        "totalMinutesPlayed": 358,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 21,
+        "passes": 92
+      },
       "scores365": null
     },
     {
@@ -25944,7 +25966,7 @@
       "timesSelected": 47368,
       "avgPoints": 4.3,
       "xA": 0.16,
-      "xGI": 9.15,
+      "xGI": 8.35,
       "sport5": {
         "totalPoints": 86,
         "minutesPlayed": 1565,
@@ -25966,16 +25988,16 @@
         "failedForPenalty": 3
       },
       "footballCoIl": {
-        "expectedGoals": 8.9911,
+        "expectedGoals": 8.191700000000003,
         "goals": 8,
-        "assists": 2,
-        "shotsOnTarget": 23,
-        "shotAttempts": 52,
-        "totalMinutesPlayed": 1816,
-        "yellowCards": 3,
+        "assists": 5,
+        "shotsOnTarget": 30,
+        "shotAttempts": 69,
+        "totalMinutesPlayed": 1561,
+        "yellowCards": 6,
         "redCards": 0,
-        "appearances": 23,
-        "passes": 318
+        "appearances": 20,
+        "passes": 495
       },
       "scores365": null
     },
@@ -26075,7 +26097,7 @@
       "timesSelected": 16316,
       "avgPoints": 3.227272727272727,
       "xA": 0.38,
-      "xGI": 0.38,
+      "xGI": 4.81,
       "sport5": {
         "totalPoints": 71,
         "minutesPlayed": 1513,
@@ -26096,7 +26118,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 4.4313,
+        "goals": 6,
+        "assists": 3,
+        "shotsOnTarget": 18,
+        "shotAttempts": 55,
+        "totalMinutesPlayed": 1514,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 22,
+        "passes": 352
+      },
       "scores365": null
     },
     {
@@ -26112,10 +26145,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3398,
+      "timesSelected": 3400,
       "avgPoints": 2.090909090909091,
       "xA": 0.59,
-      "xGI": 0.59,
+      "xGI": 1.89,
       "sport5": {
         "totalPoints": 46,
         "minutesPlayed": 1980,
@@ -26137,16 +26170,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 1.3027000000000002,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1530,
-        "yellowCards": 2,
+        "shotsOnTarget": 5,
+        "shotAttempts": 19,
+        "totalMinutesPlayed": 1980,
+        "yellowCards": 7,
         "redCards": 0,
-        "appearances": 17,
-        "passes": 436
+        "appearances": 22,
+        "passes": 1521
       },
       "scores365": null
     },
@@ -26166,7 +26199,7 @@
       "timesSelected": 372,
       "avgPoints": 0.3333333333333333,
       "xA": 0.29,
-      "xGI": 0.36,
+      "xGI": 0.29,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 270,
@@ -26188,16 +26221,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0658,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 9,
-        "yellowCards": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 270,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 1,
-        "passes": 7
+        "appearances": 3,
+        "passes": 88
       },
       "scores365": null
     },
@@ -26217,7 +26250,7 @@
       "timesSelected": 666,
       "avgPoints": 0.7142857142857143,
       "xA": 0.01,
-      "xGI": 0.01,
+      "xGI": 0.08,
       "sport5": {
         "totalPoints": 15,
         "minutesPlayed": 767,
@@ -26239,16 +26272,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0721,
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 630,
-        "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 7,
-        "passes": 212
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 764,
+        "yellowCards": 3,
+        "redCards": 1,
+        "appearances": 11,
+        "passes": 384
       },
       "scores365": null
     },
@@ -26265,10 +26298,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2645,
+      "timesSelected": 2648,
       "avgPoints": 2.4,
       "xA": 2.48,
-      "xGI": 3.95,
+      "xGI": 4.72,
       "sport5": {
         "totalPoints": 48,
         "minutesPlayed": 1589,
@@ -26290,16 +26323,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.4729,
-        "goals": 2,
-        "assists": 0,
-        "shotsOnTarget": 4,
-        "shotAttempts": 8,
-        "totalMinutesPlayed": 360,
-        "yellowCards": 0,
+        "expectedGoals": 2.238,
+        "goals": 0,
+        "assists": 1,
+        "shotsOnTarget": 2,
+        "shotAttempts": 19,
+        "totalMinutesPlayed": 1590,
+        "yellowCards": 7,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 99
+        "appearances": 19,
+        "passes": 1384
       },
       "scores365": null
     },
@@ -26356,10 +26389,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 901,
+      "timesSelected": 909,
       "avgPoints": 4.0,
       "xA": 0.38,
-      "xGI": 0.38,
+      "xGI": 1.14,
       "sport5": {
         "totalPoints": 12,
         "minutesPlayed": 165,
@@ -26380,7 +26413,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 0.7646,
+        "goals": 1,
+        "assists": 1,
+        "shotsOnTarget": 1,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 166,
+        "yellowCards": 0,
+        "redCards": 0,
+        "appearances": 3,
+        "passes": 30
+      },
       "scores365": null
     },
     {
@@ -26396,10 +26440,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 764,
+      "timesSelected": 769,
       "avgPoints": 4.5,
       "xA": 0.94,
-      "xGI": 0.94,
+      "xGI": 1.02,
       "sport5": {
         "totalPoints": 9,
         "minutesPlayed": 164,
@@ -26421,16 +26465,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.0792,
         "goals": 0,
-        "assists": 0,
+        "assists": 1,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 0,
-        "yellowCards": 0,
+        "shotAttempts": 1,
+        "totalMinutesPlayed": 164,
+        "yellowCards": 1,
         "redCards": 0,
-        "appearances": 0,
-        "passes": 0
+        "appearances": 2,
+        "passes": 46
       },
       "scores365": null
     },
@@ -26578,7 +26622,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8656,
+      "timesSelected": 8660,
       "avgPoints": 1.9583333333333333,
       "xA": 0.47,
       "xGI": 0.82,
@@ -26782,7 +26826,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3140,
+      "timesSelected": 3141,
       "avgPoints": 1.7727272727272727,
       "xA": 0.17,
       "xGI": 0.61,
@@ -27019,7 +27063,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6165,
+      "timesSelected": 6168,
       "avgPoints": 1.8181818181818181,
       "xA": 0.56,
       "xGI": 1.35,
@@ -27091,7 +27135,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 641,
+      "timesSelected": 642,
       "avgPoints": 0.7916666666666666,
       "xA": 0.43,
       "xGI": 1.24,
@@ -27224,7 +27268,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 612,
+      "timesSelected": 613,
       "avgPoints": 2.0833333333333335,
       "xA": 0.11,
       "xGI": 1.65,
@@ -27275,7 +27319,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4564,
+      "timesSelected": 4583,
       "avgPoints": 3.8333333333333335,
       "xA": 0.79,
       "xGI": 7.49,
@@ -27347,7 +27391,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1467,
+      "timesSelected": 1469,
       "avgPoints": 2.0,
       "xA": 0.06,
       "xGI": 0.19,
@@ -27470,7 +27514,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1216,
+      "timesSelected": 1217,
       "avgPoints": 2.347826086956522,
       "xA": 0.6,
       "xGI": 4.86,
@@ -27521,7 +27565,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 14446,
+      "timesSelected": 14449,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -27724,7 +27768,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 859,
+      "timesSelected": 860,
       "avgPoints": 0.09090909090909091,
       "xA": 0.0,
       "xGI": 0.0,
@@ -27898,7 +27942,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 25648,
+      "timesSelected": 25660,
       "avgPoints": 4.045454545454546,
       "xA": 0.5,
       "xGI": 9.63,
@@ -28196,7 +28240,7 @@
       "timesSelected": 3883,
       "avgPoints": 1.5454545454545454,
       "xA": 0.51,
-      "xGI": 3.77,
+      "xGI": 1.15,
       "sport5": {
         "totalPoints": 34,
         "minutesPlayed": 649,
@@ -28218,16 +28262,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 3.2643,
+        "expectedGoals": 0.636,
         "goals": 2,
-        "assists": 1,
-        "shotsOnTarget": 9,
-        "shotAttempts": 25,
-        "totalMinutesPlayed": 890,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 22,
-        "passes": 173
+        "assists": 2,
+        "shotsOnTarget": 3,
+        "shotAttempts": 11,
+        "totalMinutesPlayed": 647,
+        "yellowCards": 3,
+        "redCards": 1,
+        "appearances": 21,
+        "passes": 280
       },
       "scores365": null
     },
@@ -28247,7 +28291,7 @@
       "timesSelected": 784,
       "avgPoints": 1.6842105263157894,
       "xA": 0.02,
-      "xGI": 1.37,
+      "xGI": 0.54,
       "sport5": {
         "totalPoints": 32,
         "minutesPlayed": 1075,
@@ -28269,16 +28313,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.3516000000000001,
+        "expectedGoals": 0.5216,
         "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 5,
-        "shotAttempts": 13,
-        "totalMinutesPlayed": 624,
-        "yellowCards": 0,
+        "assists": 1,
+        "shotsOnTarget": 3,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 1077,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 18,
-        "passes": 143
+        "appearances": 17,
+        "passes": 365
       },
       "scores365": null
     },
@@ -28337,10 +28381,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7473,
+      "timesSelected": 7474,
       "avgPoints": 2.8947368421052633,
       "xA": 0.27,
-      "xGI": 0.27,
+      "xGI": 4.59,
       "sport5": {
         "totalPoints": 55,
         "minutesPlayed": 1525,
@@ -28361,7 +28405,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 4.3246,
+        "goals": 5,
+        "assists": 0,
+        "shotsOnTarget": 17,
+        "shotAttempts": 45,
+        "totalMinutesPlayed": 1528,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 19,
+        "passes": 444
+      },
       "scores365": null
     },
     {
@@ -28380,7 +28435,7 @@
       "timesSelected": 530,
       "avgPoints": 0.35294117647058826,
       "xA": 0.99,
-      "xGI": 1.03,
+      "xGI": 1.12,
       "sport5": {
         "totalPoints": 6,
         "minutesPlayed": 1507,
@@ -28402,16 +28457,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0405,
+        "expectedGoals": 0.1287,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 1406,
-        "yellowCards": 5,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 1507,
+        "yellowCards": 7,
         "redCards": 0,
         "appearances": 17,
-        "passes": 729
+        "passes": 632
       },
       "scores365": null
     },
@@ -28471,7 +28526,7 @@
       "timesSelected": 6840,
       "avgPoints": 1.875,
       "xA": 0.48,
-      "xGI": 0.58,
+      "xGI": 0.72,
       "sport5": {
         "totalPoints": 45,
         "minutesPlayed": 1895,
@@ -28493,16 +28548,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1016,
+        "expectedGoals": 0.23650000000000004,
         "goals": 0,
         "assists": 1,
         "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 1563,
-        "yellowCards": 5,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 1894,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 833
+        "appearances": 23,
+        "passes": 737
       },
       "scores365": null
     },
@@ -28522,7 +28577,7 @@
       "timesSelected": 246,
       "avgPoints": 2.0952380952380953,
       "xA": 0.19,
-      "xGI": 1.59,
+      "xGI": 2.17,
       "sport5": {
         "totalPoints": 44,
         "minutesPlayed": 1258,
@@ -28544,16 +28599,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.397,
+        "expectedGoals": 1.9791,
         "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 8,
-        "totalMinutesPlayed": 2001,
-        "yellowCards": 3,
+        "assists": 3,
+        "shotsOnTarget": 7,
+        "shotAttempts": 14,
+        "totalMinutesPlayed": 1254,
+        "yellowCards": 5,
         "redCards": 0,
-        "appearances": 24,
-        "passes": 978
+        "appearances": 21,
+        "passes": 319
       },
       "scores365": null
     },
@@ -28573,7 +28628,7 @@
       "timesSelected": 3786,
       "avgPoints": 1.1818181818181819,
       "xA": 0.31,
-      "xGI": 1.12,
+      "xGI": 1.85,
       "sport5": {
         "totalPoints": 26,
         "minutesPlayed": 1898,
@@ -28595,16 +28650,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8143999999999999,
+        "expectedGoals": 1.5372,
         "goals": 1,
-        "assists": 0,
+        "assists": 1,
         "shotsOnTarget": 1,
-        "shotAttempts": 10,
-        "totalMinutesPlayed": 531,
-        "yellowCards": 1,
-        "redCards": 0,
-        "appearances": 16,
-        "passes": 210
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 1899,
+        "yellowCards": 4,
+        "redCards": 2,
+        "appearances": 22,
+        "passes": 875
       },
       "scores365": null
     },
@@ -28624,7 +28679,7 @@
       "timesSelected": 284,
       "avgPoints": 1.1764705882352942,
       "xA": 0.42,
-      "xGI": 1.27,
+      "xGI": 1.18,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 1091,
@@ -28646,16 +28701,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8458,
+        "expectedGoals": 0.7644,
         "goals": 1,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 372,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 13,
-        "passes": 75
+        "shotsOnTarget": 3,
+        "shotAttempts": 10,
+        "totalMinutesPlayed": 1091,
+        "yellowCards": 8,
+        "redCards": 1,
+        "appearances": 17,
+        "passes": 604
       },
       "scores365": null
     },
@@ -28717,7 +28772,7 @@
       "timesSelected": 339,
       "avgPoints": 0.4782608695652174,
       "xA": 0.05,
-      "xGI": 0.34,
+      "xGI": 0.84,
       "sport5": {
         "totalPoints": 11,
         "minutesPlayed": 394,
@@ -28739,16 +28794,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.29100000000000004,
+        "expectedGoals": 0.7935000000000001,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 4,
-        "totalMinutesPlayed": 534,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 10,
-        "passes": 194
+        "assists": 0,
+        "shotsOnTarget": 4,
+        "shotAttempts": 14,
+        "totalMinutesPlayed": 377,
+        "yellowCards": 0,
+        "redCards": 1,
+        "appearances": 12,
+        "passes": 118
       },
       "scores365": null
     },
@@ -28768,7 +28823,7 @@
       "timesSelected": 3678,
       "avgPoints": 1.7916666666666667,
       "xA": 0.1,
-      "xGI": 0.1,
+      "xGI": 4.17,
       "sport5": {
         "totalPoints": 43,
         "minutesPlayed": 895,
@@ -28789,7 +28844,18 @@
         "causedPenalty": 1,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 4.073200000000001,
+        "goals": 5,
+        "assists": 0,
+        "shotsOnTarget": 14,
+        "shotAttempts": 27,
+        "totalMinutesPlayed": 889,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 20,
+        "passes": 147
+      },
       "scores365": null
     },
     {
@@ -28850,7 +28916,7 @@
       "timesSelected": 441,
       "avgPoints": 0.95,
       "xA": 0.05,
-      "xGI": 0.21,
+      "xGI": 0.48,
       "sport5": {
         "totalPoints": 19,
         "minutesPlayed": 177,
@@ -28872,16 +28938,16 @@
         "failedForPenalty": 1
       },
       "footballCoIl": {
-        "expectedGoals": 0.1622,
+        "expectedGoals": 0.4311,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 1,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 131,
-        "yellowCards": 1,
+        "shotsOnTarget": 4,
+        "shotAttempts": 4,
+        "totalMinutesPlayed": 175,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 11,
-        "passes": 91
+        "appearances": 17,
+        "passes": 56
       },
       "scores365": null
     },
@@ -28898,10 +28964,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7296,
+      "timesSelected": 7297,
       "avgPoints": 4.2631578947368425,
       "xA": 0.4,
-      "xGI": 0.4,
+      "xGI": 3.56,
       "sport5": {
         "totalPoints": 81,
         "minutesPlayed": 1487,
@@ -28922,7 +28988,18 @@
         "causedPenalty": 0,
         "failedForPenalty": 0
       },
-      "footballCoIl": null,
+      "footballCoIl": {
+        "expectedGoals": 3.1604000000000005,
+        "goals": 6,
+        "assists": 6,
+        "shotsOnTarget": 12,
+        "shotAttempts": 29,
+        "totalMinutesPlayed": 1484,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 18,
+        "passes": 683
+      },
       "scores365": null
     },
     {
@@ -28941,7 +29018,7 @@
       "timesSelected": 2495,
       "avgPoints": 2.3157894736842106,
       "xA": 0.54,
-      "xGI": 2.7,
+      "xGI": 1.01,
       "sport5": {
         "totalPoints": 44,
         "minutesPlayed": 995,
@@ -28963,16 +29040,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.1614999999999993,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 6,
-        "shotAttempts": 23,
-        "totalMinutesPlayed": 862,
+        "expectedGoals": 0.47319999999999995,
+        "goals": 1,
+        "assists": 2,
+        "shotsOnTarget": 4,
+        "shotAttempts": 8,
+        "totalMinutesPlayed": 997,
         "yellowCards": 3,
         "redCards": 0,
-        "appearances": 18,
-        "passes": 278
+        "appearances": 17,
+        "passes": 331
       },
       "scores365": null
     },
@@ -29013,7 +29090,7 @@
       "timesSelected": 2307,
       "avgPoints": 1.625,
       "xA": 0.17,
-      "xGI": 2.21,
+      "xGI": 1.62,
       "sport5": {
         "totalPoints": 39,
         "minutesPlayed": 1671,
@@ -29035,16 +29112,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.0362999999999998,
-        "goals": 2,
-        "assists": 1,
-        "shotsOnTarget": 13,
-        "shotAttempts": 40,
-        "totalMinutesPlayed": 1154,
+        "expectedGoals": 1.4495,
+        "goals": 1,
+        "assists": 3,
+        "shotsOnTarget": 4,
+        "shotAttempts": 16,
+        "totalMinutesPlayed": 1670,
         "yellowCards": 2,
         "redCards": 0,
-        "appearances": 22,
-        "passes": 372
+        "appearances": 24,
+        "passes": 480
       },
       "scores365": null
     },
@@ -29106,7 +29183,7 @@
       "timesSelected": 1588,
       "avgPoints": 0.35,
       "xA": 0.0,
-      "xGI": 0.0,
+      "xGI": 0.22,
       "sport5": {
         "totalPoints": 7,
         "minutesPlayed": 642,
@@ -29128,16 +29205,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.22060000000000002,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 565,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 641,
         "yellowCards": 0,
-        "redCards": 0,
-        "appearances": 7,
-        "passes": 168
+        "redCards": 1,
+        "appearances": 9,
+        "passes": 209
       },
       "scores365": null
     },
@@ -29154,7 +29231,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2231,
+      "timesSelected": 2230,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -29218,7 +29295,7 @@
       "timesSelected": 239,
       "avgPoints": 1.5217391304347827,
       "xA": 0.17,
-      "xGI": 1.06,
+      "xGI": 0.17,
       "sport5": {
         "totalPoints": 35,
         "minutesPlayed": 1498,
@@ -29240,16 +29317,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.8865,
+        "expectedGoals": 0.0,
         "goals": 0,
-        "assists": 1,
-        "shotsOnTarget": 2,
-        "shotAttempts": 12,
-        "totalMinutesPlayed": 1220,
-        "yellowCards": 7,
+        "assists": 0,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1080,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 450
+        "appearances": 12,
+        "passes": 349
       },
       "scores365": null
     },
@@ -29290,7 +29367,7 @@
       "timesSelected": 292,
       "avgPoints": 0.3,
       "xA": 0.01,
-      "xGI": 0.03,
+      "xGI": 0.01,
       "sport5": {
         "totalPoints": 3,
         "minutesPlayed": 29,
@@ -29312,16 +29389,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0154,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 1,
-        "totalMinutesPlayed": 27,
-        "yellowCards": 1,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 29,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 1,
-        "passes": 14
+        "appearances": 3,
+        "passes": 21
       },
       "scores365": null
     },
@@ -29362,7 +29439,7 @@
       "timesSelected": 389,
       "avgPoints": 2.2,
       "xA": 0.61,
-      "xGI": 4.11,
+      "xGI": 2.96,
       "sport5": {
         "totalPoints": 44,
         "minutesPlayed": 1182,
@@ -29384,16 +29461,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 3.4992000000000005,
+        "expectedGoals": 2.3486000000000002,
         "goals": 3,
-        "assists": 2,
-        "shotsOnTarget": 15,
-        "shotAttempts": 37,
-        "totalMinutesPlayed": 1014,
-        "yellowCards": 6,
-        "redCards": 1,
+        "assists": 1,
+        "shotsOnTarget": 7,
+        "shotAttempts": 21,
+        "totalMinutesPlayed": 1200,
+        "yellowCards": 4,
+        "redCards": 0,
         "appearances": 19,
-        "passes": 267
+        "passes": 433
       },
       "scores365": null
     },
@@ -29578,7 +29655,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 142,
+      "timesSelected": 143,
       "avgPoints": 0.0,
       "xA": 0.0,
       "xGI": 0.0,
@@ -29621,7 +29698,7 @@
       "timesSelected": 4099,
       "avgPoints": 1.6956521739130435,
       "xA": 0.04,
-      "xGI": 3.01,
+      "xGI": 3.64,
       "sport5": {
         "totalPoints": 39,
         "minutesPlayed": 962,
@@ -29643,16 +29720,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.9716000000000005,
+        "expectedGoals": 3.6034,
         "goals": 3,
-        "assists": 5,
-        "shotsOnTarget": 8,
-        "shotAttempts": 24,
-        "totalMinutesPlayed": 1293,
-        "yellowCards": 0,
+        "assists": 0,
+        "shotsOnTarget": 13,
+        "shotAttempts": 28,
+        "totalMinutesPlayed": 970,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 20,
-        "passes": 394
+        "appearances": 21,
+        "passes": 172
       },
       "scores365": null
     },
@@ -29672,7 +29749,7 @@
       "timesSelected": 566,
       "avgPoints": 0.4,
       "xA": 0.0,
-      "xGI": 0.09,
+      "xGI": 0.05,
       "sport5": {
         "totalPoints": 8,
         "minutesPlayed": 504,
@@ -29694,16 +29771,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0898,
+        "expectedGoals": 0.0468,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 3,
-        "totalMinutesPlayed": 449,
-        "yellowCards": 0,
+        "shotAttempts": 2,
+        "totalMinutesPlayed": 504,
+        "yellowCards": 3,
         "redCards": 0,
-        "appearances": 6,
-        "passes": 140
+        "appearances": 8,
+        "passes": 192
       },
       "scores365": null
     },
@@ -29720,10 +29797,10 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16664,
+      "timesSelected": 16668,
       "avgPoints": 0.9166666666666666,
       "xA": 0.24,
-      "xGI": 0.69,
+      "xGI": 0.24,
       "sport5": {
         "totalPoints": 22,
         "minutesPlayed": 1080,
@@ -29745,16 +29822,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.4503,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 4,
-        "shotAttempts": 13,
-        "totalMinutesPlayed": 1451,
-        "yellowCards": 5,
-        "redCards": 1,
-        "appearances": 18,
-        "passes": 468
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1080,
+        "yellowCards": 1,
+        "redCards": 0,
+        "appearances": 12,
+        "passes": 336
       },
       "scores365": null
     },
@@ -29774,7 +29851,7 @@
       "timesSelected": 3451,
       "avgPoints": 0.8695652173913043,
       "xA": 0.0,
-      "xGI": 0.92,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 1080,
@@ -29796,16 +29873,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.9221999999999999,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 3,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 916,
-        "yellowCards": 3,
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 123,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 19,
-        "passes": 451
+        "appearances": 3,
+        "passes": 33
       },
       "scores365": null
     },
@@ -29825,7 +29902,7 @@
       "timesSelected": 268,
       "avgPoints": -0.75,
       "xA": 0.0,
-      "xGI": 0.11,
+      "xGI": 0.0,
       "sport5": {
         "totalPoints": -6,
         "minutesPlayed": 123,
@@ -29847,16 +29924,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1146,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
-        "shotAttempts": 2,
-        "totalMinutesPlayed": 139,
-        "yellowCards": 2,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 0,
+        "yellowCards": 0,
         "redCards": 0,
-        "appearances": 2,
-        "passes": 87
+        "appearances": 0,
+        "passes": 0
       },
       "scores365": null
     },
