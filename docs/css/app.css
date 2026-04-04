@@ -30,17 +30,21 @@ table th, table td {
     background: #94a3b8;
 }
 
-/* Dark mode overrides for elements that use bg-white inline */
+/* Dark mode — body matches logo/nav background #262c3c */
+.dark body {
+    background-color: #262c3c !important;
+}
+
 .dark .bg-white {
-    background-color: #1f2937 !important; /* gray-800 */
+    background-color: #2f3647 !important;
 }
 
 .dark .bg-gray-50 {
-    background-color: #111827 !important; /* gray-900 */
+    background-color: #262c3c !important;
 }
 
 .dark .bg-gray-100 {
-    background-color: #374151 !important; /* gray-700 */
+    background-color: #38405a !important;
 }
 
 .dark .text-gray-900 {
@@ -81,12 +85,12 @@ table th, table td {
     background-color: #1e3a5f !important;
 }
 
-.dark .sticky {
-    background-color: #1f2937 !important;
+.dark td.sticky, .dark th.sticky {
+    background-color: #2f3647 !important;
 }
 
 .dark ::-webkit-scrollbar-track {
-    background: #1f2937;
+    background: #262c3c;
 }
 
 .dark ::-webkit-scrollbar-thumb {

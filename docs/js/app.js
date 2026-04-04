@@ -42,7 +42,7 @@ function app() {
         pageParam: null,
         loading: true,
         error: null,
-        isDark: localStorage.getItem('darkMode') === 'true',
+        isDark: localStorage.getItem('darkMode') !== 'false',
         menuOpen: false,
 
         async init() {
