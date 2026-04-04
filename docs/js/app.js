@@ -428,14 +428,14 @@ function leadersPage() {
     return {
         activeCat: 'goals',
         categories: [
-            { key: 'goals', label: 'שערים' },
-            { key: 'assists', label: 'בישולים' },
             { key: 'fantasyPoints', label: 'נקודות פנטזי' },
             { key: 'ppm', label: 'PPM' },
+            { key: 'goals', label: 'שערים' },
             { key: 'expectedGoals', label: 'xG' },
-            { key: 'rating', label: 'דירוג' },
+            { key: 'assists', label: 'בישולים' },
+            { key: 'xA', label: 'xA' },
+            { key: 'xGI', label: 'xGI' },
             { key: 'cleanSheets', label: 'שער נקי' },
-            { key: 'tacklesWon', label: 'חיתוכים' },
             { key: 'yellowCards', label: 'צהובים' },
             { key: 'minutesPlayed', label: 'דקות' },
         ],

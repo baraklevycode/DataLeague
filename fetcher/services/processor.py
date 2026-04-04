@@ -452,11 +452,13 @@ class DataProcessor:
 
     def build_leaders(self, players: list[dict]) -> dict:
         categories = {
-            "goals": lambda p: _get_stat(p, "sport5", "goals"),
-            "assists": lambda p: _get_stat(p, "sport5", "assists"),
             "fantasyPoints": lambda p: _get_stat(p, "sport5", "totalPoints"),
             "ppm": lambda p: float(p.get("ppm", 0) or 0),
+            "goals": lambda p: _get_stat(p, "sport5", "goals"),
             "expectedGoals": lambda p: _get_stat(p, "footballCoIl", "expectedGoals"),
+            "assists": lambda p: _get_stat(p, "sport5", "assists"),
+            "xA": lambda p: float(p.get("xA", 0) or 0),
+            "xGI": lambda p: float(p.get("xGI", 0) or 0),
             "cleanSheets": lambda p: _get_stat(p, "sport5", "cleanSheets"),
             "yellowCards": lambda p: _get_stat(p, "sport5", "yellowCards"),
             "minutesPlayed": lambda p: _get_stat(p, "sport5", "minutesPlayed"),
