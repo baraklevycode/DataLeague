@@ -96,6 +96,7 @@
                         <label class="block text-xs text-gray-500 mb-1">מיון</label>
                         <select x-model="sortBy" class="border rounded px-3 py-1.5 text-sm">
                             <option value="fantasyPoints">נק׳ פנטזי</option>
+                            <option value="ppm">PPM</option>
                             <option value="goals">גולים</option>
                             <option value="xG">xG</option>
                             <option value="shotAttempts">הזדמנויות</option>
@@ -121,6 +122,7 @@
                             <tr>
                                 <th class="px-2 py-2 text-right sticky right-0 bg-gray-50 z-10">שם שחקן</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
+                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('goals')">גולים</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xG')">xG</th>
                                 <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('shotAttempts')">הזדמנויות</th>
@@ -155,6 +157,7 @@
                                         </div>
                                     </td>
                                     <td class="px-2 py-1.5 text-center font-semibold" x-text="getStat(p, 'fantasyPoints')"></td>
+                                    <td class="px-2 py-1.5 text-center text-blue-600 font-medium" x-text="getStat(p, 'ppm')"></td>
                                     <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'goals')"></td>
                                     <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xG')"></td>
                                     <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'shotAttempts')"></td>
@@ -203,6 +206,7 @@
                                         <span class="bg-green-100 text-green-700 px-2 py-1 rounded" x-text="'₪' + formatPrice(player.price)"></span>
                                         <span class="bg-purple-100 text-purple-700 px-2 py-1 rounded" x-text="'נבחר ' + (player.timesSelected || 0).toLocaleString() + ' פעמים'"></span>
                                         <span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded" x-text="'ממוצע: ' + (player.avgPoints || 0).toFixed(1)"></span>
+                                        <span class="bg-blue-100 text-blue-700 px-2 py-1 rounded font-semibold" x-text="'PPM: ' + (player.ppm || 0).toFixed(1)"></span>
                                     </div>
                                     <template x-if="player.injuredStatus > 0">
                                         <span class="inline-block mt-2 bg-red-100 text-red-700 px-2 py-1 rounded text-xs">פצוע</span>

@@ -248,6 +248,7 @@ class DataProcessor:
 
         for mp in self.matched_players:
             sport5_stats = None
+            total_pts = 0
             detail = self.sport5_details.get(mp.sport5_id) if mp.sport5_id else None
             if detail and detail.seasonStats:
                 sd_str = detail.seasonStats.get("statsData", "")
@@ -311,6 +312,7 @@ class DataProcessor:
                         break
 
             image_url = sp_basic.get("imagePath", "") if sp_basic else ""
+            player_price = int(sp_basic.get("price", 0)) if sp_basic else 0
 
             player = OutputPlayer(
                 id=mp.internal_id,
@@ -319,7 +321,7 @@ class DataProcessor:
                 team=mp.team.name_he if mp.team else "",
                 teamId=mp.team.internal_id if mp.team else 0,
                 position=sp_basic.get("position", 0) if sp_basic else 0,
-                price=int(sp_basic.get("price", 0)) if sp_basic else 0,
+                price=player_price,
                 shirtNumber=sp_basic.get("shirtNumber", 0) if sp_basic else 0,
                 imageUrl=image_url or "",
                 injuredStatus=sp_basic.get("injuredStatus", 0) if sp_basic else 0,
@@ -327,6 +329,7 @@ class DataProcessor:
                 missingStatus=sp_basic.get("missingStatus", 0) if sp_basic else 0,
                 timesSelected=detail.timesSelected if detail else 0,
                 avgPoints=detail.avgPoints if detail else 0.0,
+                ppm=round(total_pts / (player_price / 1_000_000), 2) if player_price > 0 and total_pts else 0.0,
                 xA=round(xa_val, 2),
                 xGI=round((fc_stats.get("expectedGoals", 0) if isinstance(fc_stats, dict) else 0) + xa_val, 2),
                 sport5=sport5_stats,
@@ -452,6 +455,7 @@ class DataProcessor:
             "goals": lambda p: _get_stat(p, "sport5", "goals"),
             "assists": lambda p: _get_stat(p, "sport5", "assists"),
             "fantasyPoints": lambda p: _get_stat(p, "sport5", "totalPoints"),
+            "ppm": lambda p: float(p.get("ppm", 0) or 0),
             "expectedGoals": lambda p: _get_stat(p, "footballCoIl", "expectedGoals"),
             "cleanSheets": lambda p: _get_stat(p, "sport5", "cleanSheets"),
             "yellowCards": lambda p: _get_stat(p, "sport5", "yellowCards"),

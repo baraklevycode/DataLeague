@@ -193,6 +193,7 @@ class OutputPlayer(BaseModel):
     missingStatus: int = 0
     timesSelected: int = 0
     avgPoints: float = 0.0
+    ppm: float = 0.0  # Points Per Million (totalPoints / price_in_millions)
     xA: float = 0.0  # Expected Assists (from 365Scores game matching)
     xGI: float = 0.0  # Expected Goal Involvement = xG + xA
     sport5: OutputSport5Stats | None = None

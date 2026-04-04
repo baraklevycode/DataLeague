@@ -101,6 +101,7 @@ function playerTable() {
             const fc = player.footballCoIl;
             switch (stat) {
                 case 'fantasyPoints': return s5 ? s5.totalPoints : 0;
+                case 'ppm': return player.ppm > 0 ? player.ppm.toFixed(1) : '-';
                 case 'goals': return s5 ? s5.goals : 0;
                 case 'assists': return s5 ? s5.assists : 0;
                 case 'xG': return fc ? fc.expectedGoals.toFixed(2) : '-';
@@ -378,6 +379,7 @@ function leadersPage() {
             { key: 'goals', label: 'שערים' },
             { key: 'assists', label: 'בישולים' },
             { key: 'fantasyPoints', label: 'נקודות פנטזי' },
+            { key: 'ppm', label: 'PPM' },
             { key: 'expectedGoals', label: 'xG' },
             { key: 'rating', label: 'דירוג' },
             { key: 'cleanSheets', label: 'שער נקי' },
