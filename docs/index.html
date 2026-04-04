@@ -408,9 +408,12 @@
                                               x-text="f === 1 ? 'נ' : f === 2 ? 'ת' : 'ה'"></span>
                                     </template>
                                 </div>
-                                <div class="mt-2 text-xs" x-data="{ pk: getPenaltyTaker(t.id) }">
-                                    <template x-if="pk">
-                                        <span class="text-orange-600">בועט פנדלים: <span class="font-semibold" x-text="pk"></span></span>
+                                <div class="mt-2 text-xs space-y-0.5" x-data="{ pk1: getPenaltyTaker(t.id, 1), pk2: getPenaltyTaker(t.id, 2) }">
+                                    <template x-if="pk1">
+                                        <div class="text-orange-600">בועט פנדלים: <span class="font-semibold" x-text="pk1"></span></div>
+                                    </template>
+                                    <template x-if="pk2">
+                                        <div class="text-orange-400">מחליף: <span class="font-semibold" x-text="pk2"></span></div>
                                     </template>
                                 </div>
                             </div>

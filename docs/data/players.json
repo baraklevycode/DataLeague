@@ -4192,7 +4192,8 @@
           "points": 13
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 42,
@@ -5938,7 +5939,9 @@
           "name": "הפועל תל אביב",
           "points": 5
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 58,
@@ -8640,13 +8643,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 12326,
-      "avgPoints": 3.217391304347826,
-      "ppm": 12.33,
+      "avgPoints": 3.125,
+      "ppm": 12.5,
       "xA": 2.2,
       "xGI": 3.05,
       "sport5": {
-        "totalPoints": 74,
-        "minutesPlayed": 2042,
+        "totalPoints": 75,
+        "minutesPlayed": 2056,
         "goals": 1,
         "goalsPoints": 6,
         "assists": 3,
@@ -8654,7 +8657,7 @@
         "yellowCards": 3,
         "yellowCardsPoints": -3,
         "redCards": 0,
-        "openLineup": 23,
+        "openLineup": 24,
         "substituteIn": 0,
         "substituteOut": 4,
         "cleanSheets": 8,
@@ -8674,7 +8677,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 23,
-        "passes": 782
+        "passes": 793
       },
       "scores365": {
         "xG": 0.85,
@@ -8944,6 +8947,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -9349,13 +9363,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 809,
-      "avgPoints": 1.65,
-      "ppm": 5.5,
+      "avgPoints": 1.619047619047619,
+      "ppm": 5.67,
       "xA": 0.39,
       "xGI": 0.43,
       "sport5": {
-        "totalPoints": 33,
-        "minutesPlayed": 1635,
+        "totalPoints": 34,
+        "minutesPlayed": 1649,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -9363,7 +9377,7 @@
         "yellowCards": 8,
         "yellowCardsPoints": -8,
         "redCards": 0,
-        "openLineup": 19,
+        "openLineup": 20,
         "substituteIn": 1,
         "substituteOut": 6,
         "cleanSheets": 7,
@@ -9374,16 +9388,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0417,
+        "expectedGoals": 0.045899999999999996,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 2,
-        "totalMinutesPlayed": 1632,
-        "yellowCards": 8,
+        "totalMinutesPlayed": 1883,
+        "yellowCards": 2,
         "redCards": 0,
-        "appearances": 20,
-        "passes": 802
+        "appearances": 21,
+        "passes": 718
       },
       "scores365": {
         "xG": 0.04,
@@ -9621,6 +9635,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -9652,7 +9677,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 1251,
-      "avgPoints": -0.15384615384615385,
+      "avgPoints": -0.14285714285714285,
       "ppm": -0.5,
       "xA": 0.01,
       "xGI": 0.01,
@@ -9846,6 +9871,17 @@
           "assists": 0,
           "isHome": false,
           "homeScore": 4,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -10262,13 +10298,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 5631,
-      "avgPoints": 2.260869565217391,
-      "ppm": 8.67,
+      "avgPoints": 2.2083333333333335,
+      "ppm": 8.83,
       "xA": 0.0,
       "xGI": 0.0,
       "sport5": {
-        "totalPoints": 52,
-        "minutesPlayed": 2070,
+        "totalPoints": 53,
+        "minutesPlayed": 2084,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -10276,7 +10312,7 @@
         "yellowCards": 2,
         "yellowCardsPoints": -2,
         "redCards": 1,
-        "openLineup": 23,
+        "openLineup": 24,
         "substituteIn": 0,
         "substituteOut": 0,
         "cleanSheets": 8,
@@ -10296,7 +10332,7 @@
         "yellowCards": 2,
         "redCards": 1,
         "appearances": 23,
-        "passes": 684
+        "passes": 687
       },
       "scores365": {
         "xG": 0.0,
@@ -10566,6 +10602,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -10968,7 +11015,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 2017,
-      "avgPoints": 2.130434782608696,
+      "avgPoints": 2.0416666666666665,
       "ppm": 8.17,
       "xA": 0.44,
       "xGI": 1.32,
@@ -11273,6 +11320,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -11328,13 +11386,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 5078,
-      "avgPoints": 2.4583333333333335,
-      "ppm": 11.8,
+      "avgPoints": 2.4,
+      "ppm": 12.0,
       "xA": 0.86,
       "xGI": 4.67,
       "sport5": {
-        "totalPoints": 59,
-        "minutesPlayed": 1562,
+        "totalPoints": 60,
+        "minutesPlayed": 1576,
         "goals": 5,
         "goalsPoints": 20,
         "assists": 1,
@@ -11342,7 +11400,7 @@
         "yellowCards": 3,
         "yellowCardsPoints": -3,
         "redCards": 0,
-        "openLineup": 20,
+        "openLineup": 21,
         "substituteIn": 4,
         "substituteOut": 21,
         "cleanSheets": 0,
@@ -11362,7 +11420,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 24,
-        "passes": 333
+        "passes": 335
       },
       "scores365": {
         "xG": 3.81,
@@ -11644,6 +11702,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -11675,13 +11744,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 5516,
-      "avgPoints": 2.869565217391304,
-      "ppm": 11.0,
+      "avgPoints": 2.7916666666666665,
+      "ppm": 11.17,
       "xA": 1.56,
       "xGI": 6.24,
       "sport5": {
-        "totalPoints": 66,
-        "minutesPlayed": 1841,
+        "totalPoints": 67,
+        "minutesPlayed": 1855,
         "goals": 5,
         "goalsPoints": 20,
         "assists": 2,
@@ -11689,7 +11758,7 @@
         "yellowCards": 4,
         "yellowCardsPoints": -4,
         "redCards": 0,
-        "openLineup": 21,
+        "openLineup": 22,
         "substituteIn": 2,
         "substituteOut": 11,
         "cleanSheets": 0,
@@ -11709,7 +11778,7 @@
         "yellowCards": 4,
         "redCards": 0,
         "appearances": 23,
-        "passes": 423
+        "passes": 430
       },
       "scores365": {
         "xG": 4.68,
@@ -11980,6 +12049,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -11996,7 +12076,8 @@
           "points": 8
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 96,
@@ -12369,13 +12450,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 652,
-      "avgPoints": 0.4782608695652174,
-      "ppm": 2.2,
+      "avgPoints": 0.5,
+      "ppm": 2.4,
       "xA": 0.0,
       "xGI": 0.08,
       "sport5": {
-        "totalPoints": 11,
-        "minutesPlayed": 92,
+        "totalPoints": 12,
+        "minutesPlayed": 106,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -12383,7 +12464,7 @@
         "yellowCards": 0,
         "yellowCardsPoints": 0,
         "redCards": 0,
-        "openLineup": 0,
+        "openLineup": 1,
         "substituteIn": 11,
         "substituteOut": 0,
         "cleanSheets": 0,
@@ -12403,7 +12484,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 11,
-        "passes": 52
+        "passes": 61
       },
       "scores365": {
         "xG": 0.08,
@@ -12673,6 +12754,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -12950,6 +13042,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -13467,7 +13570,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 3690,
-      "avgPoints": 2.0434782608695654,
+      "avgPoints": 1.9583333333333333,
       "ppm": 5.88,
       "xA": 1.07,
       "xGI": 5.76,
@@ -13772,6 +13875,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -13827,13 +13941,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 1371,
-      "avgPoints": 0.5555555555555556,
-      "ppm": 1.43,
+      "avgPoints": 0.5789473684210527,
+      "ppm": 1.57,
       "xA": 0.01,
       "xGI": 0.01,
       "sport5": {
-        "totalPoints": 10,
-        "minutesPlayed": 295,
+        "totalPoints": 11,
+        "minutesPlayed": 309,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -13841,7 +13955,7 @@
         "yellowCards": 0,
         "yellowCardsPoints": 0,
         "redCards": 0,
-        "openLineup": 1,
+        "openLineup": 2,
         "substituteIn": 9,
         "substituteOut": 1,
         "cleanSheets": 0,
@@ -13861,7 +13975,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 10,
-        "passes": 46
+        "passes": 49
       },
       "scores365": {
         "xG": 0.0,
@@ -14077,6 +14191,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -14089,7 +14214,7 @@
           "points": 2
         },
         {
-          "name": "בית\"ר ירושלים",
+          "name": "הפועל קרית שמונה",
           "points": 1
         }
       ]
@@ -14132,13 +14257,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 2267,
-      "avgPoints": 1.5833333333333333,
-      "ppm": 9.5,
+      "avgPoints": 1.56,
+      "ppm": 9.75,
       "xA": 0.34,
       "xGI": 0.63,
       "sport5": {
-        "totalPoints": 38,
-        "minutesPlayed": 1368,
+        "totalPoints": 39,
+        "minutesPlayed": 1382,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 1,
@@ -14146,7 +14271,7 @@
         "yellowCards": 2,
         "yellowCardsPoints": -2,
         "redCards": 0,
-        "openLineup": 15,
+        "openLineup": 16,
         "substituteIn": 8,
         "substituteOut": 6,
         "cleanSheets": 0,
@@ -14166,7 +14291,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 23,
-        "passes": 504
+        "passes": 508
       },
       "scores365": {
         "xG": 0.29,
@@ -14448,6 +14573,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -14551,13 +14687,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 1396,
-      "avgPoints": 2.590909090909091,
-      "ppm": 9.5,
+      "avgPoints": 2.5217391304347827,
+      "ppm": 9.67,
       "xA": 0.38,
       "xGI": 0.42,
       "sport5": {
-        "totalPoints": 57,
-        "minutesPlayed": 1973,
+        "totalPoints": 58,
+        "minutesPlayed": 1987,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -14565,7 +14701,7 @@
         "yellowCards": 2,
         "yellowCardsPoints": -2,
         "redCards": 0,
-        "openLineup": 22,
+        "openLineup": 23,
         "substituteIn": 0,
         "substituteOut": 1,
         "cleanSheets": 8,
@@ -14576,16 +14712,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.045899999999999996,
+        "expectedGoals": 0.0417,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 0,
         "shotAttempts": 2,
-        "totalMinutesPlayed": 1883,
-        "yellowCards": 2,
+        "totalMinutesPlayed": 1632,
+        "yellowCards": 8,
         "redCards": 0,
-        "appearances": 21,
-        "passes": 709
+        "appearances": 20,
+        "passes": 814
       },
       "scores365": {
         "xG": 0.04,
@@ -14844,6 +14980,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -15333,13 +15480,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 255,
-      "avgPoints": 1.3181818181818181,
-      "ppm": 5.8,
+      "avgPoints": 1.3043478260869565,
+      "ppm": 6.0,
       "xA": 0.47,
       "xGI": 1.29,
       "sport5": {
-        "totalPoints": 29,
-        "minutesPlayed": 452,
+        "totalPoints": 30,
+        "minutesPlayed": 466,
         "goals": 2,
         "goalsPoints": 10,
         "assists": 1,
@@ -15347,7 +15494,7 @@
         "yellowCards": 2,
         "yellowCardsPoints": -2,
         "redCards": 0,
-        "openLineup": 4,
+        "openLineup": 5,
         "substituteIn": 12,
         "substituteOut": 4,
         "cleanSheets": 0,
@@ -15358,16 +15505,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.7478999999999998,
+        "expectedGoals": 0.7979999999999998,
         "goals": 2,
         "assists": 1,
         "shotsOnTarget": 3,
-        "shotAttempts": 14,
+        "shotAttempts": 15,
         "totalMinutesPlayed": 458,
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 17,
-        "passes": 191
+        "passes": 198
       },
       "scores365": {
         "xG": 0.82,
@@ -15627,6 +15774,17 @@
           "isHome": true,
           "homeScore": 0,
           "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -15639,8 +15797,8 @@
           "points": 6
         },
         {
-          "name": "הפועל ירושלים",
-          "points": 2
+          "name": "הפועל קרית שמונה",
+          "points": 3
         }
       ]
     },
@@ -15934,11 +16092,26 @@
           "isHome": true,
           "homeScore": 1,
           "awayScore": 2
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
         {
           "name": "בית\"ר ירושלים",
+          "points": 0
+        },
+        {
+          "name": "הפועל קרית שמונה",
           "points": 0
         }
       ]
@@ -15981,7 +16154,7 @@
       "expelledStatus": 0,
       "missingStatus": 1,
       "timesSelected": 3713,
-      "avgPoints": 2.772727272727273,
+      "avgPoints": 2.652173913043478,
       "ppm": 8.71,
       "xA": 1.23,
       "xGI": 6.5,
@@ -16274,6 +16447,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -16694,11 +16878,26 @@
           "isHome": true,
           "homeScore": 1,
           "awayScore": 2
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
         {
           "name": "בית\"ר ירושלים",
+          "points": 0
+        },
+        {
+          "name": "הפועל קרית שמונה",
           "points": 0
         }
       ]
@@ -17193,7 +17392,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 4,
-        "passes": 94
+        "passes": 96
       },
       "scores365": {
         "xG": 0.53,
@@ -17319,13 +17518,13 @@
       "expelledStatus": 0,
       "missingStatus": 1,
       "timesSelected": 1,
-      "avgPoints": 1.5,
-      "ppm": 1.0,
+      "avgPoints": 1.4,
+      "ppm": 1.17,
       "xA": 0.0,
       "xGI": 0.0,
       "sport5": {
-        "totalPoints": 6,
-        "minutesPlayed": 228,
+        "totalPoints": 7,
+        "minutesPlayed": 242,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -17333,7 +17532,7 @@
         "yellowCards": 0,
         "yellowCardsPoints": 0,
         "redCards": 0,
-        "openLineup": 3,
+        "openLineup": 4,
         "substituteIn": 1,
         "substituteOut": 2,
         "cleanSheets": 0,
@@ -17399,6 +17598,17 @@
           "assists": 0,
           "isHome": true,
           "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
           "awayScore": 0
         }
       ],
@@ -20540,7 +20750,8 @@
           "points": 20
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 165,
@@ -24844,7 +25055,9 @@
           "name": "הפועל באר שבע",
           "points": 9
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 196,
@@ -36962,7 +37175,9 @@
           "name": "מכבי תל אביב",
           "points": 3
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 283,
@@ -41856,7 +42071,8 @@
           "points": 11
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 314,
@@ -46443,7 +46659,9 @@
           "name": "מ.ס. אשדוד",
           "points": 12
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 345,
@@ -46769,7 +46987,8 @@
           "points": 9
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 346,
@@ -58895,7 +59114,8 @@
           "points": 9
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 442,
@@ -60286,7 +60506,8 @@
           "points": 2
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 449,
@@ -69140,7 +69361,9 @@
           "name": "מכבי תל אביב",
           "points": 8
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 514,
@@ -69411,7 +69634,8 @@
           "points": 7
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 515,
@@ -69996,7 +70220,7 @@
       "xGI": 1.19,
       "sport5": {
         "totalPoints": 37,
-        "minutesPlayed": 1704,
+        "minutesPlayed": 1719,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 1,
@@ -70024,7 +70248,7 @@
         "yellowCards": 4,
         "redCards": 1,
         "appearances": 22,
-        "passes": 619
+        "passes": 631
       },
       "scores365": {
         "xG": 0.27,
@@ -70404,7 +70628,7 @@
       "xGI": 0.28,
       "sport5": {
         "totalPoints": 28,
-        "minutesPlayed": 1327,
+        "minutesPlayed": 1342,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -70432,7 +70656,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 18,
-        "passes": 536
+        "passes": 544
       },
       "scores365": {
         "xG": 0.19,
@@ -70777,7 +71001,7 @@
       "xGI": 0.0,
       "sport5": {
         "totalPoints": 60,
-        "minutesPlayed": 2176,
+        "minutesPlayed": 2191,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -70805,7 +71029,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 24,
-        "passes": 729
+        "passes": 739
       },
       "scores365": {
         "xG": 0.0,
@@ -71284,7 +71508,7 @@
       "xGI": 5.04,
       "sport5": {
         "totalPoints": 41,
-        "minutesPlayed": 1465,
+        "minutesPlayed": 1480,
         "goals": 4,
         "goalsPoints": 20,
         "assists": 1,
@@ -71303,16 +71527,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 4.456900000000001,
+        "expectedGoals": 4.648900000000001,
         "goals": 4,
         "assists": 1,
-        "shotsOnTarget": 10,
-        "shotAttempts": 27,
+        "shotsOnTarget": 11,
+        "shotAttempts": 28,
         "totalMinutesPlayed": 1363,
         "yellowCards": 6,
         "redCards": 1,
         "appearances": 18,
-        "passes": 344
+        "passes": 346
       },
       "scores365": {
         "xG": 4.64,
@@ -71668,7 +71892,7 @@
       "xGI": 2.22,
       "sport5": {
         "totalPoints": 49,
-        "minutesPlayed": 1868,
+        "minutesPlayed": 1883,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 1,
@@ -71687,16 +71911,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.9221999999999999,
+        "expectedGoals": 0.9874999999999999,
         "goals": 0,
         "assists": 2,
-        "shotsOnTarget": 7,
-        "shotAttempts": 16,
+        "shotsOnTarget": 8,
+        "shotAttempts": 17,
         "totalMinutesPlayed": 961,
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 22,
-        "passes": 199
+        "passes": 208
       },
       "scores365": {
         "xG": 0.02,
@@ -72175,7 +72399,7 @@
       "xGI": 2.51,
       "sport5": {
         "totalPoints": 31,
-        "minutesPlayed": 975,
+        "minutesPlayed": 990,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 2,
@@ -74113,7 +74337,7 @@
       "xGI": 4.33,
       "sport5": {
         "totalPoints": 55,
-        "minutesPlayed": 1457,
+        "minutesPlayed": 1472,
         "goals": 3,
         "goalsPoints": 12,
         "assists": 2,
@@ -74132,16 +74356,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 2.7257000000000002,
+        "expectedGoals": 2.8307,
         "goals": 3,
         "assists": 2,
-        "shotsOnTarget": 9,
-        "shotAttempts": 25,
+        "shotsOnTarget": 10,
+        "shotAttempts": 26,
         "totalMinutesPlayed": 1430,
         "yellowCards": 4,
         "redCards": 0,
         "appearances": 22,
-        "passes": 278
+        "passes": 290
       },
       "scores365": {
         "xG": 2.95,
@@ -74767,7 +74991,7 @@
       "xGI": 0.51,
       "sport5": {
         "totalPoints": 10,
-        "minutesPlayed": 304,
+        "minutesPlayed": 319,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -74786,16 +75010,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 1.1302,
+        "expectedGoals": 1.1664,
         "goals": 0,
         "assists": 0,
         "shotsOnTarget": 3,
-        "shotAttempts": 9,
+        "shotAttempts": 10,
         "totalMinutesPlayed": 350,
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 9,
-        "passes": 47
+        "passes": 50
       },
       "scores365": {
         "xG": 0.25,
@@ -74960,7 +75184,7 @@
       "xGI": 0.42,
       "sport5": {
         "totalPoints": 20,
-        "minutesPlayed": 955,
+        "minutesPlayed": 970,
         "goals": 1,
         "goalsPoints": 6,
         "assists": 0,
@@ -74988,7 +75212,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 16,
-        "passes": 380
+        "passes": 404
       },
       "scores365": {
         "xG": 0.23,
@@ -75258,7 +75482,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 20,
-        "passes": 551
+        "passes": 565
       },
       "scores365": null,
       "games": [
@@ -75650,7 +75874,7 @@
       "xGI": 0.99,
       "sport5": {
         "totalPoints": 13,
-        "minutesPlayed": 454,
+        "minutesPlayed": 469,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -75678,7 +75902,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 11,
-        "passes": 237
+        "passes": 244
       },
       "scores365": {
         "xG": 0.98,
@@ -76091,7 +76315,7 @@
       "xGI": 0.82,
       "sport5": {
         "totalPoints": 16,
-        "minutesPlayed": 823,
+        "minutesPlayed": 838,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -76119,7 +76343,7 @@
         "yellowCards": 1,
         "redCards": 0,
         "appearances": 8,
-        "passes": 43
+        "passes": 49
       },
       "scores365": {
         "xG": 0.5,
@@ -81072,7 +81296,8 @@
           "points": 7
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 599,
@@ -84525,7 +84750,9 @@
           "name": "מ.ס. אשדוד",
           "points": 7
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 629,
@@ -85845,7 +86072,7 @@
       "xGI": 0.0,
       "sport5": {
         "totalPoints": 14,
-        "minutesPlayed": 1276,
+        "minutesPlayed": 1291,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -85864,16 +86091,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.0,
+        "expectedGoals": 0.6962,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 0,
-        "shotAttempts": 0,
-        "totalMinutesPlayed": 1260,
-        "yellowCards": 2,
-        "redCards": 0,
-        "appearances": 14,
-        "passes": 498
+        "shotsOnTarget": 2,
+        "shotAttempts": 5,
+        "totalMinutesPlayed": 1322,
+        "yellowCards": 3,
+        "redCards": 2,
+        "appearances": 16,
+        "passes": 612
       },
       "scores365": {
         "xG": 0.0,
@@ -86203,7 +86430,7 @@
       "xGI": 4.56,
       "sport5": {
         "totalPoints": 39,
-        "minutesPlayed": 1547,
+        "minutesPlayed": 1562,
         "goals": 1,
         "goalsPoints": 5,
         "assists": 3,
@@ -86231,7 +86458,7 @@
         "yellowCards": 3,
         "redCards": 1,
         "appearances": 21,
-        "passes": 339
+        "passes": 345
       },
       "scores365": {
         "xG": 2.49,
@@ -87123,7 +87350,7 @@
       "xGI": 0.55,
       "sport5": {
         "totalPoints": 33,
-        "minutesPlayed": 1379,
+        "minutesPlayed": 1394,
         "goals": 1,
         "goalsPoints": 6,
         "assists": 0,
@@ -87151,7 +87378,7 @@
         "yellowCards": 4,
         "redCards": 0,
         "appearances": 21,
-        "passes": 550
+        "passes": 557
       },
       "scores365": null,
       "games": [
@@ -87638,7 +87865,8 @@
           "points": 6
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 645,
@@ -87811,7 +88039,7 @@
       "xGI": 1.91,
       "sport5": {
         "totalPoints": 23,
-        "minutesPlayed": 1639,
+        "minutesPlayed": 1654,
         "goals": 1,
         "goalsPoints": 6,
         "assists": 0,
@@ -87839,7 +88067,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 21,
-        "passes": 604
+        "passes": 614
       },
       "scores365": {
         "xG": 0.91,
@@ -88224,19 +88452,19 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 1773,
-      "avgPoints": 1.2380952380952381,
-      "ppm": 5.2,
+      "avgPoints": 1.1904761904761905,
+      "ppm": 5.0,
       "xA": 0.9,
       "xGI": 1.07,
       "sport5": {
-        "totalPoints": 26,
-        "minutesPlayed": 1218,
+        "totalPoints": 25,
+        "minutesPlayed": 1233,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 1,
         "assistsPoints": 3,
-        "yellowCards": 2,
-        "yellowCardsPoints": -2,
+        "yellowCards": 3,
+        "yellowCardsPoints": -3,
         "redCards": 0,
         "openLineup": 15,
         "substituteIn": 3,
@@ -88258,7 +88486,7 @@
         "yellowCards": 5,
         "redCards": 0,
         "appearances": 18,
-        "passes": 570
+        "passes": 592
       },
       "scores365": {
         "xG": 0.17,
@@ -88501,7 +88729,7 @@
           "round": 25,
           "opponent": "הפועל ירושלים",
           "opponentId": 136,
-          "points": 1,
+          "points": 0,
           "goals": 0,
           "assists": 0,
           "isHome": true,
@@ -89140,7 +89368,7 @@
       "xGI": 0.74,
       "sport5": {
         "totalPoints": 35,
-        "minutesPlayed": 1320,
+        "minutesPlayed": 1335,
         "goals": 1,
         "goalsPoints": 5,
         "assists": 0,
@@ -89168,7 +89396,7 @@
         "yellowCards": 8,
         "redCards": 0,
         "appearances": 20,
-        "passes": 609
+        "passes": 626
       },
       "scores365": {
         "xG": 0.54,
@@ -89493,7 +89721,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 9,
-        "passes": 113
+        "passes": 122
       },
       "scores365": {
         "xG": 0.09,
@@ -90257,7 +90485,7 @@
       "xGI": 0.66,
       "sport5": {
         "totalPoints": 10,
-        "minutesPlayed": 454,
+        "minutesPlayed": 469,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -90285,7 +90513,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 6,
-        "passes": 62
+        "passes": 68
       },
       "scores365": null,
       "games": [
@@ -90402,7 +90630,7 @@
       "xGI": 0.27,
       "sport5": {
         "totalPoints": 12,
-        "minutesPlayed": 1375,
+        "minutesPlayed": 1390,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -90427,10 +90655,10 @@
         "shotsOnTarget": 1,
         "shotAttempts": 3,
         "totalMinutesPlayed": 1213,
-        "yellowCards": 2,
+        "yellowCards": 3,
         "redCards": 0,
         "appearances": 17,
-        "passes": 464
+        "passes": 478
       },
       "scores365": {
         "xG": 0.23,
@@ -90764,7 +90992,7 @@
       "xGI": 1.44,
       "sport5": {
         "totalPoints": 34,
-        "minutesPlayed": 780,
+        "minutesPlayed": 795,
         "goals": 2,
         "goalsPoints": 8,
         "assists": 0,
@@ -90792,7 +91020,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 20,
-        "passes": 133
+        "passes": 138
       },
       "scores365": {
         "xG": 1.07,
@@ -91547,16 +91775,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.6962,
+        "expectedGoals": 0.2658,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 5,
-        "totalMinutesPlayed": 1322,
-        "yellowCards": 3,
-        "redCards": 2,
-        "appearances": 16,
-        "passes": 612
+        "shotsOnTarget": 3,
+        "shotAttempts": 7,
+        "totalMinutesPlayed": 1183,
+        "yellowCards": 7,
+        "redCards": 1,
+        "appearances": 17,
+        "passes": 529
       },
       "scores365": {
         "xG": 0.7,
@@ -91850,16 +92078,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.2658,
+        "expectedGoals": 0.0,
         "goals": 0,
         "assists": 0,
-        "shotsOnTarget": 3,
-        "shotAttempts": 7,
-        "totalMinutesPlayed": 1183,
-        "yellowCards": 7,
-        "redCards": 1,
-        "appearances": 17,
-        "passes": 529
+        "shotsOnTarget": 0,
+        "shotAttempts": 0,
+        "totalMinutesPlayed": 1260,
+        "yellowCards": 2,
+        "redCards": 0,
+        "appearances": 14,
+        "passes": 507
       },
       "scores365": {
         "xG": 0.28,
@@ -92852,7 +93080,7 @@
       "xGI": 0.05,
       "sport5": {
         "totalPoints": 11,
-        "minutesPlayed": 260,
+        "minutesPlayed": 275,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -92880,7 +93108,7 @@
         "yellowCards": 2,
         "redCards": 0,
         "appearances": 2,
-        "passes": 76
+        "passes": 87
       },
       "scores365": {
         "xG": 0.03,
@@ -94406,7 +94634,7 @@
       "xGI": 0.21,
       "sport5": {
         "totalPoints": 3,
-        "minutesPlayed": 188,
+        "minutesPlayed": 203,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -98898,7 +99126,9 @@
           "name": "מכבי תל אביב",
           "points": 17
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 730,
@@ -100328,7 +100558,8 @@
           "points": 13
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 751,
@@ -102544,7 +102775,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 28,
-      "avgPoints": 1.0833333333333333,
+      "avgPoints": 1.0,
       "ppm": 3.25,
       "xA": 0.62,
       "xGI": 0.7,
@@ -102728,6 +102959,17 @@
           "isHome": true,
           "homeScore": 2,
           "awayScore": 2
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -102759,13 +103001,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 8753,
-      "avgPoints": 1.9583333333333333,
-      "ppm": 6.71,
+      "avgPoints": 1.92,
+      "ppm": 6.86,
       "xA": 2.1,
       "xGI": 2.45,
       "sport5": {
-        "totalPoints": 47,
-        "minutesPlayed": 2089,
+        "totalPoints": 48,
+        "minutesPlayed": 2103,
         "goals": 1,
         "goalsPoints": 6,
         "assists": 1,
@@ -102773,7 +103015,7 @@
         "yellowCards": 4,
         "yellowCardsPoints": -4,
         "redCards": 0,
-        "openLineup": 24,
+        "openLineup": 25,
         "substituteIn": 0,
         "substituteOut": 5,
         "cleanSheets": 4,
@@ -102793,7 +103035,7 @@
         "yellowCards": 4,
         "redCards": 0,
         "appearances": 24,
-        "passes": 761
+        "passes": 769
       },
       "scores365": {
         "xG": 0.35,
@@ -103075,6 +103317,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -103106,7 +103359,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 638,
-      "avgPoints": 0.22727272727272727,
+      "avgPoints": 0.21739130434782608,
       "ppm": 1.0,
       "xA": 0.0,
       "xGI": 0.1,
@@ -103385,6 +103638,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -103416,7 +103680,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 504,
-      "avgPoints": 1.0,
+      "avgPoints": 0.9565217391304348,
       "ppm": 3.67,
       "xA": 1.33,
       "xGI": 2.21,
@@ -103710,6 +103974,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -103967,13 +104242,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 3163,
-      "avgPoints": 1.7727272727272727,
-      "ppm": 6.5,
+      "avgPoints": 1.7391304347826086,
+      "ppm": 6.67,
       "xA": 0.26,
       "xGI": 0.69,
       "sport5": {
-        "totalPoints": 39,
-        "minutesPlayed": 1968,
+        "totalPoints": 40,
+        "minutesPlayed": 1982,
         "goals": 1,
         "goalsPoints": 6,
         "assists": 1,
@@ -103981,7 +104256,7 @@
         "yellowCards": 6,
         "yellowCardsPoints": -6,
         "redCards": 0,
-        "openLineup": 22,
+        "openLineup": 23,
         "substituteIn": 0,
         "substituteOut": 1,
         "cleanSheets": 4,
@@ -103994,14 +104269,14 @@
       "footballCoIl": {
         "expectedGoals": 0.4391,
         "goals": 1,
-        "assists": 1,
+        "assists": 2,
         "shotsOnTarget": 1,
         "shotAttempts": 10,
         "totalMinutesPlayed": 1969,
         "yellowCards": 6,
         "redCards": 0,
         "appearances": 22,
-        "passes": 1160
+        "passes": 1170
       },
       "scores365": {
         "xG": 0.43,
@@ -104261,6 +104536,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -104292,13 +104578,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 12430,
-      "avgPoints": 1.625,
-      "ppm": 6.5,
+      "avgPoints": 1.6,
+      "ppm": 6.67,
       "xA": 0.0,
       "xGI": 0.0,
       "sport5": {
-        "totalPoints": 39,
-        "minutesPlayed": 2160,
+        "totalPoints": 40,
+        "minutesPlayed": 2174,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -104306,7 +104592,7 @@
         "yellowCards": 3,
         "yellowCardsPoints": -3,
         "redCards": 0,
-        "openLineup": 24,
+        "openLineup": 25,
         "substituteIn": 0,
         "substituteOut": 0,
         "cleanSheets": 4,
@@ -104326,7 +104612,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 24,
-        "passes": 716
+        "passes": 721
       },
       "scores365": {
         "xG": 0.0,
@@ -104608,6 +104894,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -104639,7 +104936,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 377,
-      "avgPoints": 0.34782608695652173,
+      "avgPoints": 0.3333333333333333,
       "ppm": 1.33,
       "xA": 0.03,
       "xGI": 0.03,
@@ -104944,6 +105241,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -105071,13 +105379,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 6197,
-      "avgPoints": 1.8181818181818181,
-      "ppm": 6.67,
+      "avgPoints": 1.7826086956521738,
+      "ppm": 6.83,
       "xA": 0.0,
       "xGI": 0.79,
       "sport5": {
-        "totalPoints": 40,
-        "minutesPlayed": 1965,
+        "totalPoints": 41,
+        "minutesPlayed": 1979,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 2,
@@ -105085,7 +105393,7 @@
         "yellowCards": 7,
         "yellowCardsPoints": -7,
         "redCards": 0,
-        "openLineup": 22,
+        "openLineup": 23,
         "substituteIn": 0,
         "substituteOut": 2,
         "cleanSheets": 4,
@@ -105102,10 +105410,10 @@
         "shotsOnTarget": 1,
         "shotAttempts": 13,
         "totalMinutesPlayed": 1964,
-        "yellowCards": 7,
+        "yellowCards": 8,
         "redCards": 0,
         "appearances": 22,
-        "passes": 913
+        "passes": 922
       },
       "scores365": null,
       "games": [
@@ -105350,6 +105658,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -105405,13 +105724,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 683,
-      "avgPoints": 0.7916666666666666,
-      "ppm": 3.8,
+      "avgPoints": 0.8,
+      "ppm": 4.0,
       "xA": 0.31,
       "xGI": 1.34,
       "sport5": {
-        "totalPoints": 19,
-        "minutesPlayed": 998,
+        "totalPoints": 20,
+        "minutesPlayed": 1012,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 3,
@@ -105419,7 +105738,7 @@
         "yellowCards": 3,
         "yellowCardsPoints": -3,
         "redCards": 0,
-        "openLineup": 10,
+        "openLineup": 11,
         "substituteIn": 7,
         "substituteOut": 2,
         "cleanSheets": 0,
@@ -105439,7 +105758,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 17,
-        "passes": 409
+        "passes": 410
       },
       "scores365": {
         "xG": 1.03,
@@ -105721,6 +106040,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -106081,6 +106411,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -106136,13 +106477,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 630,
-      "avgPoints": 2.0833333333333335,
-      "ppm": 10.0,
+      "avgPoints": 2.04,
+      "ppm": 10.2,
       "xA": 1.3,
       "xGI": 2.9,
       "sport5": {
-        "totalPoints": 50,
-        "minutesPlayed": 902,
+        "totalPoints": 51,
+        "minutesPlayed": 916,
         "goals": 4,
         "goalsPoints": 20,
         "assists": 1,
@@ -106150,7 +106491,7 @@
         "yellowCards": 3,
         "yellowCardsPoints": -3,
         "redCards": 0,
-        "openLineup": 11,
+        "openLineup": 12,
         "substituteIn": 12,
         "substituteOut": 11,
         "cleanSheets": 0,
@@ -106170,7 +106511,7 @@
         "yellowCards": 3,
         "redCards": 0,
         "appearances": 24,
-        "passes": 325
+        "passes": 330
       },
       "scores365": {
         "xG": 1.6,
@@ -106452,6 +106793,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -106483,13 +106835,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 4767,
-      "avgPoints": 3.8333333333333335,
-      "ppm": 15.33,
+      "avgPoints": 3.72,
+      "ppm": 15.5,
       "xA": 2.83,
       "xGI": 9.57,
       "sport5": {
-        "totalPoints": 92,
-        "minutesPlayed": 1546,
+        "totalPoints": 93,
+        "minutesPlayed": 1560,
         "goals": 8,
         "goalsPoints": 41,
         "assists": 5,
@@ -106497,7 +106849,7 @@
         "yellowCards": 7,
         "yellowCardsPoints": -7,
         "redCards": 0,
-        "openLineup": 17,
+        "openLineup": 18,
         "substituteIn": 7,
         "substituteOut": 15,
         "cleanSheets": 0,
@@ -106517,7 +106869,7 @@
         "yellowCards": 7,
         "redCards": 0,
         "appearances": 24,
-        "passes": 387
+        "passes": 388
       },
       "scores365": {
         "xG": 6.74,
@@ -106799,6 +107151,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -106814,7 +107177,9 @@
           "name": "הפועל חיפה",
           "points": 13
         }
-      ]
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
     },
     {
       "id": 784,
@@ -106854,13 +107219,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 1466,
-      "avgPoints": 2.0,
-      "ppm": 5.33,
+      "avgPoints": 1.9411764705882353,
+      "ppm": 5.5,
       "xA": 0.8,
       "xGI": 0.93,
       "sport5": {
-        "totalPoints": 32,
-        "minutesPlayed": 1064,
+        "totalPoints": 33,
+        "minutesPlayed": 1078,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 1,
@@ -106868,7 +107233,7 @@
         "yellowCards": 6,
         "yellowCardsPoints": -6,
         "redCards": 0,
-        "openLineup": 13,
+        "openLineup": 14,
         "substituteIn": 3,
         "substituteOut": 9,
         "cleanSheets": 4,
@@ -106888,7 +107253,7 @@
         "yellowCards": 6,
         "redCards": 0,
         "appearances": 16,
-        "passes": 251
+        "passes": 256
       },
       "scores365": {
         "xG": 0.13,
@@ -107082,6 +107447,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -107348,7 +107724,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 1218,
-      "avgPoints": 2.347826086956522,
+      "avgPoints": 2.25,
       "ppm": 9.0,
       "xA": 3.48,
       "xGI": 7.93,
@@ -107653,6 +108029,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -107669,7 +108056,8 @@
           "points": 8
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 789,
@@ -108403,7 +108791,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 861,
-      "avgPoints": 0.09090909090909091,
+      "avgPoints": 0.08333333333333333,
       "ppm": 0.33,
       "xA": 0.0,
       "xGI": 0.0,
@@ -108576,6 +108964,17 @@
           "isHome": false,
           "homeScore": 1,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -108607,7 +109006,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 835,
-      "avgPoints": 0.5,
+      "avgPoints": 0.47619047619047616,
       "ppm": 2.0,
       "xA": 0.15,
       "xGI": 0.2,
@@ -108879,6 +109278,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -108934,21 +109344,21 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 50,
-      "avgPoints": 1.1666666666666667,
-      "ppm": 1.17,
+      "avgPoints": 1.8571428571428572,
+      "ppm": 2.17,
       "xA": 0.06,
       "xGI": 0.27,
       "sport5": {
-        "totalPoints": 7,
-        "minutesPlayed": 187,
-        "goals": 1,
-        "goalsPoints": 5,
+        "totalPoints": 13,
+        "minutesPlayed": 201,
+        "goals": 2,
+        "goalsPoints": 10,
         "assists": 0,
         "assistsPoints": 0,
         "yellowCards": 1,
         "yellowCardsPoints": -1,
         "redCards": 1,
-        "openLineup": 1,
+        "openLineup": 2,
         "substituteIn": 4,
         "substituteOut": 1,
         "cleanSheets": 0,
@@ -108959,16 +109369,16 @@
         "failedForPenalty": 0
       },
       "footballCoIl": {
-        "expectedGoals": 0.1873,
-        "goals": 1,
+        "expectedGoals": 0.3971,
+        "goals": 2,
         "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 3,
+        "shotsOnTarget": 3,
+        "shotAttempts": 5,
         "totalMinutesPlayed": 186,
         "yellowCards": 1,
         "redCards": 1,
         "appearances": 5,
-        "passes": 34
+        "passes": 36
       },
       "scores365": {
         "xG": 0.21,
@@ -109052,6 +109462,17 @@
           "isHome": true,
           "homeScore": 2,
           "awayScore": 2
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 6,
+          "goals": 1,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -109060,11 +109481,11 @@
           "points": 6
         },
         {
-          "name": "הפועל באר שבע",
-          "points": 1
+          "name": "בני סכנין",
+          "points": 6
         },
         {
-          "name": "מכבי נתניה",
+          "name": "הפועל באר שבע",
           "points": 1
         }
       ]
@@ -109083,13 +109504,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 26227,
-      "avgPoints": 4.045454545454546,
-      "ppm": 9.89,
+      "avgPoints": 3.9130434782608696,
+      "ppm": 10.0,
       "xA": 0.0,
       "xGI": 9.13,
       "sport5": {
-        "totalPoints": 89,
-        "minutesPlayed": 1802,
+        "totalPoints": 90,
+        "minutesPlayed": 1816,
         "goals": 10,
         "goalsPoints": 42,
         "assists": 3,
@@ -109097,7 +109518,7 @@
         "yellowCards": 3,
         "yellowCardsPoints": -3,
         "redCards": 1,
-        "openLineup": 21,
+        "openLineup": 22,
         "substituteIn": 1,
         "substituteOut": 6,
         "cleanSheets": 0,
@@ -109362,6 +109783,17 @@
           "isHome": true,
           "homeScore": 2,
           "awayScore": 2
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -109971,13 +110403,13 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 4,
-      "avgPoints": 0.6,
-      "ppm": 0.6,
+      "avgPoints": 0.6666666666666666,
+      "ppm": 0.8,
       "xA": 0.04,
       "xGI": 0.04,
       "sport5": {
-        "totalPoints": 3,
-        "minutesPlayed": 240,
+        "totalPoints": 4,
+        "minutesPlayed": 254,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 0,
@@ -109985,7 +110417,7 @@
         "yellowCards": 0,
         "yellowCardsPoints": 0,
         "redCards": 0,
-        "openLineup": 3,
+        "openLineup": 4,
         "substituteIn": 2,
         "substituteOut": 2,
         "cleanSheets": 0,
@@ -110005,7 +110437,7 @@
         "yellowCards": 0,
         "redCards": 0,
         "appearances": 5,
-        "passes": 129
+        "passes": 134
       },
       "scores365": {
         "xG": 0.0,
@@ -110078,6 +110510,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -110109,7 +110552,7 @@
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 12,
-      "avgPoints": 1.5,
+      "avgPoints": 1.2,
       "ppm": 0.86,
       "xA": 0.0,
       "xGI": 0.6,
@@ -110190,6 +110633,17 @@
           "isHome": false,
           "homeScore": 0,
           "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
         }
       ],
       "topOpponents": [
@@ -113510,7 +113964,8 @@
           "points": 6
         }
       ],
-      "isPenaltyTaker": true
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 819,

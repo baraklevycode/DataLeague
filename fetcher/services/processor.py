@@ -412,9 +412,12 @@ class DataProcessor:
 
         for tid, entries in team_pen.items():
             entries.sort(reverse=True)
-            if entries:
-                top_pen, top_idx = entries[0]
-                players[top_idx]["isPenaltyTaker"] = True
+            if len(entries) >= 1:
+                players[entries[0][1]]["isPenaltyTaker"] = True
+                players[entries[0][1]]["penaltyRank"] = 1
+            if len(entries) >= 2:
+                players[entries[1][1]]["isPenaltyTaker2"] = True
+                players[entries[1][1]]["penaltyRank"] = 2
 
         return players
 

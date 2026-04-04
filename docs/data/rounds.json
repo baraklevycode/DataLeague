@@ -4164,7 +4164,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -4479,7 +4479,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -6406,13 +6406,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0294,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "128": {
@@ -9939,7 +9933,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -10275,7 +10269,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -12277,13 +12271,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "128": {
@@ -15732,7 +15720,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 65
           },
           "scores365": null
         },
@@ -15995,11 +15983,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0885,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 65
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -16016,11 +16004,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0885,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -17792,11 +17780,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0165,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 15
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -18065,11 +18053,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0165,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 15
           },
           "scores365": null
         },
@@ -21493,13 +21481,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "640": {
@@ -21788,11 +21770,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0664,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -23782,13 +23764,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "128": {
@@ -27239,7 +27215,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.2678,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -27464,11 +27440,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.2678,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 20
           },
           "scores365": null
         },
@@ -27489,7 +27465,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 20
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -33026,7 +33002,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0478,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -33250,13 +33226,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0478,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "691": {
@@ -35071,13 +35041,7 @@
             "redCards": 0,
             "cleanSheets": 1
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "80": {
@@ -35338,7 +35302,13 @@
             "redCards": 0,
             "cleanSheets": 1
           },
-          "footballCoIl": null,
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 90
+          },
           "scores365": null
         },
         "128": {
@@ -39102,7 +39072,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 3
           },
           "scores365": null
         },
@@ -39123,7 +39093,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 3
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -40827,7 +40797,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 88
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -41073,7 +41043,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 88
           },
           "scores365": null
         },
@@ -44844,7 +44814,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 67
           },
           "scores365": null
         },
@@ -44865,7 +44835,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 67
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -50358,7 +50328,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -50648,11 +50618,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.011,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "shotsOnTarget": 1,
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -50669,10 +50639,10 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.011,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 1,
+            "shotsOnTarget": 0,
             "minutesPlayed": 90
           },
           "scores365": null
@@ -56175,7 +56145,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -56465,11 +56435,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.011,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "shotsOnTarget": 1,
+            "minutesPlayed": 45
           },
           "scores365": null
         },
@@ -56486,11 +56456,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.011,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 1,
-            "minutesPlayed": 45
+            "shotsOnTarget": 0,
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -58236,7 +58206,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 86
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -58482,7 +58452,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 86
           },
           "scores365": null
         },
@@ -61974,7 +61944,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -62257,13 +62227,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "691": {
@@ -67860,7 +67824,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -68128,13 +68092,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "691": {
@@ -69903,7 +69861,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 45
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -70107,7 +70065,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 45
           },
           "scores365": null
         },
@@ -73589,7 +73547,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.2695,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -73861,13 +73819,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.2695,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "691": {
@@ -79396,13 +79348,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "640": {
@@ -79626,7 +79572,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -81465,7 +81411,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 85
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -81732,7 +81678,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 85
           },
           "scores365": null
         },
@@ -85167,7 +85113,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 71
           },
           "scores365": null
         },
@@ -85409,11 +85355,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0298,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 71
+            "shotsOnTarget": 1,
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -85430,11 +85376,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0298,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 1,
-            "minutesPlayed": 90
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -91044,7 +90990,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 22
           },
           "scores365": null
         },
@@ -91223,11 +91169,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0591,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 22
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -91244,11 +91190,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0591,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -96780,7 +96726,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -97005,7 +96951,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -98825,11 +98771,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0261,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 85
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -99050,11 +98996,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0261,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 85
           },
           "scores365": null
         },
@@ -104645,11 +104591,11 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0156,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 58
+            "minutesPlayed": 83
           },
           "scores365": null
         },
@@ -104891,11 +104837,11 @@
             "cleanSheets": 1
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0156,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 83
+            "minutesPlayed": 58
           },
           "scores365": null
         },
@@ -108374,10 +108320,10 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.1111,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
+            "shotsOnTarget": 2,
             "minutesPlayed": 90
           },
           "scores365": null
@@ -108620,10 +108566,10 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.1111,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 2,
+            "shotsOnTarget": 0,
             "minutesPlayed": 90
           },
           "scores365": null
@@ -110392,13 +110338,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "80": {
@@ -114381,7 +114321,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 45
           },
           "scores365": null
         },
@@ -114402,7 +114342,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 45
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -119877,7 +119817,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -120154,13 +120094,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "691": {
@@ -125683,13 +125617,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "640": {
@@ -131479,13 +131407,7 @@
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "640": {
@@ -136521,7 +136443,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 84
           },
           "scores365": null
         },
@@ -136794,7 +136716,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 84
+            "minutesPlayed": 13
           },
           "scores365": null
         },
@@ -136815,7 +136737,7 @@
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "minutesPlayed": 13
+            "minutesPlayed": 0
           },
           "scores365": null
         },
@@ -138130,6 +138052,366 @@
       "stage": "RegularSeason",
       "sport5RoundId": 135,
       "players": {
+        "75": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "79": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "80": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "84": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "92": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "94": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "95": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "102": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "103": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": null,
+          "scores365": null
+        },
+        "119": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "121": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "123": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "127": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "131": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0764,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "134": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": null,
+          "scores365": null
+        },
+        "136": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "142": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": null,
+          "scores365": null
+        },
+        "147": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
         "512": {
           "sport5": {
             "points": 0,
@@ -138179,7 +138461,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138200,7 +138482,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138221,7 +138503,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138242,16 +138524,16 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.192,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
+            "shotsOnTarget": 1,
             "minutesPlayed": 0
           },
           "scores365": null
@@ -138263,16 +138545,16 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0653,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
+            "shotsOnTarget": 1,
             "minutesPlayed": 0
           },
           "scores365": null
@@ -138284,7 +138566,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138389,16 +138671,16 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.105,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
+            "shotsOnTarget": 1,
             "minutesPlayed": 0
           },
           "scores365": null
@@ -138410,7 +138692,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138431,7 +138713,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138473,7 +138755,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138515,7 +138797,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138557,18 +138839,12 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
           },
-          "footballCoIl": {
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "minutesPlayed": 0
-          },
+          "footballCoIl": null,
           "scores365": null
         },
         "640": {
@@ -138578,7 +138854,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138641,7 +138917,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138698,7 +138974,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138714,13 +138990,13 @@
         },
         "651": {
           "sport5": {
-            "points": 1,
+            "points": 0,
             "goals": 0,
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
-            "yellowCards": 0,
+            "minutesPlayed": 31,
+            "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0
           },
@@ -138740,7 +139016,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138803,7 +139079,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138824,7 +139100,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138845,7 +139121,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138908,7 +139184,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -138950,12 +139226,420 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 16,
+            "minutesPlayed": 31,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
           },
           "footballCoIl": null,
+          "scores365": null
+        },
+        "764": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "765": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "766": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "767": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "769": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 1,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "770": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "771": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "776": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "778": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "780": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": null,
+          "scores365": null
+        },
+        "782": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "783": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "785": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "788": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "794": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": null,
+          "scores365": null
+        },
+        "795": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "797": {
+          "sport5": {
+            "points": 6,
+            "goals": 1,
+            "goalsPoints": 5,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.2098,
+            "goals": 1,
+            "assists": 0,
+            "shotsOnTarget": 1,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "798": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "802": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 14,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "803": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0
+          },
+          "footballCoIl": {
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "minutesPlayed": 0
+          },
           "scores365": null
         }
       }

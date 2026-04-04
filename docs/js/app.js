@@ -24,8 +24,9 @@ function formatPrice(price) {
     return price.toString();
 }
 
-function getPenaltyTaker(teamId) {
-    const players = Alpine.store('data').players.filter(p => p.teamId === teamId && p.isPenaltyTaker);
+function getPenaltyTaker(teamId, rank) {
+    const r = rank || 1;
+    const players = Alpine.store('data').players.filter(p => p.teamId === teamId && p.penaltyRank === r);
     return players.length ? players[0].name : null;
 }
 
