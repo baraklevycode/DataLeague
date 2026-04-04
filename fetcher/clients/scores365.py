@@ -53,6 +53,14 @@ def _parse_stat_value(val: str | float | int) -> float:
         return 0.0
 
 
+def _parse_penalty_goals(goals_val: str) -> int:
+    """Parse penalty count from goals value like '15(4פנ׳)' → 4."""
+    if not isinstance(goals_val, str):
+        return 0
+    m = re.search(r"\((\d+)פנ", goals_val)
+    return int(m.group(1)) if m else 0
+
+
 class Scores365Client:
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
@@ -295,6 +303,9 @@ class Scores365Client:
                         field_name = HIGHLIGHT_STAT_TYPES.get(stat_type)
                         if field_name:
                             stats[field_name] = _parse_stat_value(s.get("value", 0))
+                        # Extract penalty goals from goals stat
+                        if stat_type == 1:
+                            stats["penaltyGoals"] = float(_parse_penalty_goals(str(s.get("value", ""))))
 
             if stats:
                 results[aid] = stats

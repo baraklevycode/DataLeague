@@ -314,6 +314,7 @@ class DataProcessor:
                     appearances=int(s365_data.get("appearances", 0)),
                     goals=int(s365_data.get("goals", 0)),
                     assists=int(s365_data.get("assists", 0)),
+                    penaltyGoals=int(s365_data.get("penaltyGoals", 0)),
                     totalShots=int(s365_data.get("totalShots", 0)),
                     shotsOnTarget=int(s365_data.get("shotsOnTarget", 0)),
                     bigChancesCreated=int(s365_data.get("bigChancesCreated", 0)),
@@ -394,6 +395,26 @@ class DataProcessor:
                 )[:3]
 
             players.append(pd)
+
+        # Mark penalty takers: per team, the player with most penalty goals
+        from collections import defaultdict
+        team_pen: dict[int, list[tuple[int, int]]] = defaultdict(list)  # teamId -> [(penGoals, playerIdx)]
+        for i, p in enumerate(players):
+            pen = 0
+            if p.get("scores365") and p["scores365"].get("penaltyGoals"):
+                pen = p["scores365"]["penaltyGoals"]
+            elif p.get("sport5"):
+                # Fallback: Sport5 tracks penalties missed but not taken
+                # Use causedPenalty as a weak signal (not reliable for penalty taker)
+                pass
+            if pen > 0:
+                team_pen[p["teamId"]].append((pen, i))
+
+        for tid, entries in team_pen.items():
+            entries.sort(reverse=True)
+            if entries:
+                top_pen, top_idx = entries[0]
+                players[top_idx]["isPenaltyTaker"] = True
 
         return players
 

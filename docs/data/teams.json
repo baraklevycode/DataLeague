@@ -639,13 +639,13 @@
       "shirtUrl": "https://www.sport5.co.il/Files/7/174207.png",
       "standings": {
         "position": 8,
-        "played": 24,
+        "played": 25,
         "won": 7,
-        "drawn": 8,
+        "drawn": 9,
         "lost": 9,
         "goalsFor": 25,
         "goalsAgainst": 33,
-        "points": 29,
+        "points": 30,
         "recentForm": [
           2,
           0,
@@ -740,13 +740,13 @@
       "shirtUrl": "https://www.sport5.co.il/Files/8/174208.png",
       "standings": {
         "position": 9,
-        "played": 24,
+        "played": 25,
         "won": 6,
-        "drawn": 6,
+        "drawn": 7,
         "lost": 12,
         "goalsFor": 34,
         "goalsAgainst": 42,
-        "points": 24,
+        "points": 25,
         "recentForm": [
           1,
           2,

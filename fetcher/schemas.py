@@ -185,6 +185,7 @@ class OutputScores365Stats(BaseModel):
     appearances: int = 0
     goals: int = 0
     assists: int = 0
+    penaltyGoals: int = 0
     totalShots: int = 0
     shotsOnTarget: int = 0
     bigChancesCreated: int = 0
