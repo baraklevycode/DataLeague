@@ -106,16 +106,16 @@
       "shirtUrl": "https://www.sport5.co.il/Files/8/163978.png",
       "standings": {
         "position": 4,
-        "played": 24,
-        "won": 14,
+        "played": 25,
+        "won": 15,
         "drawn": 5,
         "lost": 5,
-        "goalsFor": 44,
+        "goalsFor": 46,
         "goalsAgainst": 26,
-        "points": 45,
+        "points": 48,
         "recentForm": [
-          2,
           1,
+          2,
           1,
           1,
           1
@@ -199,9 +199,9 @@
       ],
       "formScore": 13,
       "nextGame": {
-        "opponent": "מכבי חיפה",
-        "opponentId": 5,
-        "isHome": true
+        "opponent": "הפועל פתח תקווה",
+        "opponentId": 6,
+        "isHome": false
       },
       "formRank": 2,
       "difficultyTier": "hard"
@@ -579,19 +579,19 @@
       "shirtUrl": "https://www.sport5.co.il/Files/5/174215.png",
       "standings": {
         "position": 5,
-        "played": 24,
+        "played": 25,
         "won": 10,
         "drawn": 9,
-        "lost": 5,
+        "lost": 6,
         "goalsFor": 46,
-        "goalsAgainst": 25,
+        "goalsAgainst": 27,
         "points": 39,
         "recentForm": [
           0,
+          0,
           1,
           2,
-          1,
-          0
+          1
         ]
       },
       "playerIds": [
@@ -667,9 +667,9 @@
       ],
       "formScore": 7,
       "nextGame": {
-        "opponent": "הפועל תל אביב",
-        "opponentId": 4,
-        "isHome": false
+        "opponent": "הפועל קרית שמונה",
+        "opponentId": 9,
+        "isHome": true
       },
       "formRank": 7,
       "difficultyTier": "medium"
