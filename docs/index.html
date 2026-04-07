@@ -122,6 +122,15 @@
                         <input type="number" x-model.number="maxPriceM" placeholder="∞" step="0.5" min="3"
                                class="border rounded px-3 py-1.5 text-sm w-full md:w-28">
                     </div>
+                    <div>
+                        <label class="block text-xs text-gray-500 mb-1">דרגת קושי</label>
+                        <select x-model="difficultyFilter" class="border rounded px-3 py-1.5 text-sm">
+                            <option value="">הכל</option>
+                            <option value="easy">קל</option>
+                            <option value="medium">בינוני</option>
+                            <option value="hard">קשה</option>
+                        </select>
+                    </div>
                     <div class="col-span-2 md:col-span-1">
                         <label class="block text-xs text-gray-500 mb-1">מחזורים</label>
                         <div class="flex items-center gap-2 flex-wrap">

@@ -92,6 +92,7 @@ function playerTable() {
         posFilter: '',
         teamFilter: '',
         maxPriceM: null,
+        difficultyFilter: '',
         roundMode: 'season',
         selectedRounds: [],
         sortDesc: true,
@@ -111,6 +112,7 @@ function playerTable() {
             this.$watch('posFilter', () => this.currentPage = 1);
             this.$watch('teamFilter', () => this.currentPage = 1);
             this.$watch('maxPriceM', () => this.currentPage = 1);
+            this.$watch('difficultyFilter', () => this.currentPage = 1);
             this.$watch('sortBy', () => this.currentPage = 1);
         },
 
@@ -271,6 +273,9 @@ function playerTable() {
             }
             if (this.maxPriceM) {
                 list = list.filter(p => p.price <= this.maxPriceM * 1000000);
+            }
+            if (this.difficultyFilter) {
+                list = list.filter(p => p.nextGameDifficulty === this.difficultyFilter);
             }
 
             const dir = this.sortDesc ? -1 : 1;
