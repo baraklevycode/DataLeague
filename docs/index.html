@@ -171,80 +171,108 @@
                     </template>
                 </p>
 
-                <!-- Table -->
-                <div id="players-table-wrap" class="bg-white rounded-lg shadow overflow-x-auto">
-                    <table class="w-full text-sm">
-                        <thead class="bg-gray-50 text-gray-600 text-xs">
-                            <tr>
-                                <th class="px-2 py-2 text-center w-8">#</th>
-                                <th class="px-2 py-2 text-right sticky right-0 z-10">שם שחקן</th>
-                                <th class="px-2 py-2 text-center">משחק הבא</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('goals')">גולים</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xG')">xG</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('shotAttempts')">הזדמנויות</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('assists')">בישולים</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xA')">xA</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xGI')">xGI</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('minutes')">דקות משחק</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('cleanSheets')">שער נקי</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subIn')">החליף</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subOut')">הוחלף</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ownGoals')">שער עצמי</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('yellowCards')">צהובים</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('redCards')">אדומים</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penStopped')">עצירת פנדל</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penMissed')">החמצת פנדל</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('causedPen')">הכשיל</th>
-                                <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('failedPen')">הוכשל</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <template x-for="(p, idx) in paginated()" :key="p.id">
-                                <tr class="border-t hover:bg-blue-50 cursor-pointer transition text-xs" @click="window.location.hash = '#/players/' + p.id">
-                                    <td class="px-2 py-1.5 text-center text-gray-400" x-text="(currentPage - 1) * pageSize + idx + 1"></td>
-                                    <td class="px-2 py-1.5 sticky right-0 z-10">
-                                        <div class="flex items-center gap-2">
-                                            <template x-if="p.imageUrl">
-                                                <img :src="p.imageUrl" class="w-7 h-7 rounded-full object-cover flex-shrink-0" loading="lazy">
-                                            </template>
-                                            <div class="min-w-0">
-                                                <div class="font-medium text-sm truncate" x-text="p.name"></div>
-                                                <div class="text-[10px] text-gray-400 whitespace-nowrap" x-text="p.team + ' · ' + posLabel(p.position) + ' · ₪' + formatPrice(p.price)"></div>
-                                            </div>
-                                        </div>
-                                    </td>
-                                    <td class="px-2 py-1.5 text-center">
-                                        <template x-if="p.nextGame">
-                                            <span class="px-1.5 py-0.5 rounded text-[10px] font-medium"
-                                                  :class="p.nextGameDifficulty === 'hard' ? 'bg-red-100 text-red-700' : p.nextGameDifficulty === 'medium' ? 'bg-orange-100 text-orange-700' : 'bg-green-100 text-green-700'"
-                                                  x-text="p.nextGame"></span>
-                                        </template>
-                                    </td>
-                                    <td class="px-2 py-1.5 text-center font-semibold" x-text="getStat(p, 'fantasyPoints')"></td>
-                                    <td class="px-2 py-1.5 text-center text-blue-600 font-medium" x-text="getStat(p, 'ppm')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'goals')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xG')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'shotAttempts')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'assists')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xA')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xGI')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'minutes')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'cleanSheets')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'subIn')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'subOut')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'ownGoals')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'yellowCards')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'redCards')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'penStopped')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'penMissed')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'causedPen')"></td>
-                                    <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'failedPen')"></td>
+                <!-- Table: two-panel layout — fixed name column + scrollable stats.
+                     position:sticky on <td> is broken on iOS Safari/Chrome (WebKit limitation),
+                     so we use a flex container: the name panel never scrolls horizontally. -->
+                <div class="bg-white rounded-lg shadow overflow-hidden flex">
+                    <!-- RIGHT panel (in RTL flex, first child = rightmost): rank + player name. Fixed width, no horizontal overflow. -->
+                    <div class="flex-none border-l border-gray-200">
+                        <table class="text-sm">
+                            <thead class="bg-gray-50 text-gray-600 text-xs">
+                                <tr>
+                                    <th class="px-2 py-2 text-center w-8">#</th>
+                                    <th class="px-2 py-2 text-right">שם שחקן</th>
                                 </tr>
-                            </template>
-                        </tbody>
-                    </table>
+                            </thead>
+                            <tbody>
+                                <template x-for="(p, idx) in paginated()" :key="p.id">
+                                    <tr class="border-t cursor-pointer transition-colors text-xs"
+                                        :class="hoveredPlayer === p.id ? 'bg-blue-50' : ''"
+                                        @mouseenter="hoveredPlayer = p.id" @mouseleave="hoveredPlayer = null"
+                                        @click="window.location.hash = '#/players/' + p.id"
+                                        style="height:44px">
+                                        <td class="px-2 py-1.5 text-center text-gray-400" x-text="(currentPage - 1) * pageSize + idx + 1"></td>
+                                        <td class="px-2 py-1.5">
+                                            <div class="flex items-center gap-1.5">
+                                                <template x-if="p.imageUrl">
+                                                    <img :src="p.imageUrl" class="w-7 h-7 rounded-full object-cover flex-shrink-0" loading="lazy">
+                                                </template>
+                                                <div class="min-w-0">
+                                                    <div class="font-medium text-sm truncate max-w-[110px]" x-text="p.name"></div>
+                                                    <div class="text-[10px] text-gray-400 whitespace-nowrap" x-text="p.team + ' · ' + posLabel(p.position)"></div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- LEFT panel: all stats columns, scrolls horizontally -->
+                    <div class="flex-1 overflow-x-auto min-w-0">
+                        <table class="text-sm">
+                            <thead class="bg-gray-50 text-gray-600 text-xs">
+                                <tr>
+                                    <th class="px-2 py-2 text-center">משחק הבא</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('fantasyPoints')">נק׳ משחק</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ppm')">PPM</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('goals')">גולים</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xG')">xG</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('shotAttempts')">הזדמנויות</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('assists')">בישולים</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xA')">xA</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xGI')">xGI</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('minutes')">דקות משחק</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('cleanSheets')">שער נקי</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subIn')">החליף</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subOut')">הוחלף</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ownGoals')">שער עצמי</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('yellowCards')">צהובים</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('redCards')">אדומים</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penStopped')">עצירת פנדל</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penMissed')">החמצת פנדל</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('causedPen')">הכשיל</th>
+                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('failedPen')">הוכשל</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template x-for="(p, idx) in paginated()" :key="p.id">
+                                    <tr class="border-t cursor-pointer transition-colors text-xs"
+                                        :class="hoveredPlayer === p.id ? 'bg-blue-50' : ''"
+                                        @mouseenter="hoveredPlayer = p.id" @mouseleave="hoveredPlayer = null"
+                                        @click="window.location.hash = '#/players/' + p.id"
+                                        style="height:44px">
+                                        <td class="px-2 py-1.5 text-center">
+                                            <template x-if="p.nextGame">
+                                                <span class="px-1.5 py-0.5 rounded text-[10px] font-medium"
+                                                      :class="p.nextGameDifficulty === 'hard' ? 'bg-red-100 text-red-700' : p.nextGameDifficulty === 'medium' ? 'bg-orange-100 text-orange-700' : 'bg-green-100 text-green-700'"
+                                                      x-text="p.nextGame"></span>
+                                            </template>
+                                        </td>
+                                        <td class="px-2 py-1.5 text-center font-semibold" x-text="getStat(p, 'fantasyPoints')"></td>
+                                        <td class="px-2 py-1.5 text-center text-blue-600 font-medium" x-text="getStat(p, 'ppm')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'goals')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xG')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'shotAttempts')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'assists')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xA')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'xGI')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'minutes')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'cleanSheets')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'subIn')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'subOut')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'ownGoals')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'yellowCards')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'redCards')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'penStopped')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'penMissed')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'causedPen')"></td>
+                                        <td class="px-2 py-1.5 text-center" x-text="getStat(p, 'failedPen')"></td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
 
                 <!-- Pagination -->
@@ -805,23 +833,5 @@
     <!-- Scripts -->
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
-    <script>
-        // iOS WebKit fix: position:sticky on <td> inside overflow-x:auto doesn't work on real devices.
-        // In RTL, scrollLeft is positive as you scroll left. We must translate the sticky cell
-        // leftward (negative X) by the same amount to keep it pinned at the right edge.
-        document.addEventListener('alpine:initialized', function () {
-            var wrap = document.getElementById('players-table-wrap');
-            if (!wrap) return;
-            function syncSticky() {
-                var offset = -Math.abs(wrap.scrollLeft);
-                wrap.querySelectorAll('td.sticky, th.sticky').forEach(function (el) {
-                    el.style.transform = 'translateX(' + offset + 'px)';
-                });
-            }
-            wrap.addEventListener('scroll', syncSticky, { passive: true });
-            // Re-sync after Alpine re-renders (pagination / sort changes)
-            wrap.addEventListener('alpine:after-evaluate', syncSticky);
-        });
-    </script>
 </body>
 </html>

@@ -98,6 +98,7 @@ function playerTable() {
         currentPage: 1,
         pageSize: 50,
         sortBy: 'fantasyPoints',
+        hoveredPlayer: null,
         posLabel, posClass, formatPrice,
 
         get availableRounds() {
