@@ -138,7 +138,6 @@ class Scores365PlayerGameStats(BaseModel):
     player_name: str = ""
     team_id: int = 0
     stats: dict[str, float] = Field(default_factory=dict)
-    rating: float = 0.0
 
 
 # ---------------------------------------------------------------------------
@@ -182,7 +181,6 @@ class OutputFootballCoIlStats(BaseModel):
 class OutputScores365Stats(BaseModel):
     xG: float = 0.0
     xA: float = 0.0
-    rating: float = 0.0
     appearances: int = 0
     goals: int = 0
     assists: int = 0

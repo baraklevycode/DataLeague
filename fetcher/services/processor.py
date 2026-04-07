@@ -44,7 +44,7 @@ class DataProcessor:
         self.fc_round_stats = fc_round_stats
         self.standings = standings
         self.fc_team_id_map = fc_team_id_map
-        self.s365_by_sport5 = s365_by_sport5  # sport5_id -> {xG, xA, rating, ...}
+        self.s365_by_sport5 = s365_by_sport5  # sport5_id -> {xG, xA, ...}
         self.unmatched_names = unmatched_names
 
         # FC stats index
@@ -310,7 +310,6 @@ class DataProcessor:
                 s365_stats = OutputScores365Stats(
                     xG=s365_data.get("xG", 0.0),
                     xA=s365_data.get("xA", 0.0),
-                    rating=s365_data.get("rating", 0.0),
                     appearances=int(s365_data.get("appearances", 0)),
                     goals=int(s365_data.get("goals", 0)),
                     assists=int(s365_data.get("assists", 0)),
@@ -596,7 +595,6 @@ class DataProcessor:
             "assists": lambda p: _get_stat(p, "sport5", "assists"),
             "xA": lambda p: float(p.get("xA", 0) or 0),
             "xGI": lambda p: float(p.get("xGI", 0) or 0),
-            "rating": lambda p: _get_stat(p, "scores365", "rating"),
             "cleanSheets": lambda p: _get_stat(p, "sport5", "cleanSheets"),
             "yellowCards": lambda p: _get_stat(p, "sport5", "yellowCards"),
             "minutesPlayed": lambda p: _get_stat(p, "sport5", "minutesPlayed"),

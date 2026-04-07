@@ -340,7 +340,6 @@
                                 <h3 class="font-semibold text-orange-600 mb-3 text-sm">365Scores — מתקדם</h3>
                                 <template x-if="player.scores365">
                                     <div class="space-y-1 text-sm">
-                                        <div class="flex justify-between"><span>דירוג</span><span class="font-bold text-lg" x-text="player.scores365.rating.toFixed(1)"></span></div>
                                         <div class="flex justify-between"><span>xG</span><span class="font-bold" x-text="player.scores365.xG.toFixed(2)"></span></div>
                                         <div class="flex justify-between"><span>xA</span><span class="font-bold" x-text="player.scores365.xA.toFixed(2)"></span></div>
                                         <div class="flex justify-between"><span>xGI</span><span class="font-bold" x-text="player.xGI.toFixed(2)"></span></div>
@@ -640,7 +639,6 @@
                                 <th class="px-3 py-2 text-center">בישולים</th>
                                 <th class="px-3 py-2 text-center">דקות</th>
                                 <th class="px-3 py-2 text-center">xG</th>
-                                <th class="px-3 py-2 text-center">דירוג</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -654,7 +652,6 @@
                                     <td class="px-3 py-2 text-center" x-text="rp.assists"></td>
                                     <td class="px-3 py-2 text-center" x-text="rp.minutes"></td>
                                     <td class="px-3 py-2 text-center" x-text="rp.xG"></td>
-                                    <td class="px-3 py-2 text-center" x-text="rp.rating"></td>
                                 </tr>
                             </template>
                         </tbody>

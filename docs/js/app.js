@@ -182,7 +182,6 @@ function playerTable() {
                 case 'goals': return s5.goals || 0;
                 case 'assists': return s5.assists || 0;
                 case 'xG': return fc.expectedGoals != null ? fc.expectedGoals.toFixed(2) : '-';
-                case 'rating': return s3.rating ? s3.rating.toFixed(1) : '-';
                 case 'minutes': return s5.minutesPlayed || 0;
                 case 'yellowCards': return s5.yellowCards || 0;
                 case 'redCards': return s5.redCards || 0;
@@ -483,7 +482,6 @@ function roundsBrowser() {
                     assists: s5.assists || 0,
                     minutes: s5.minutesPlayed || 0,
                     xG: fc.expectedGoals != null ? fc.expectedGoals.toFixed(2) : '-',
-                    rating: s3.rating ? s3.rating.toFixed(1) : '-',
                 });
             }
             entries.sort((a, b) => b.points - a.points);
@@ -505,7 +503,6 @@ function leadersPage() {
             { key: 'assists', label: 'בישולים' },
             { key: 'xA', label: 'xA' },
             { key: 'xGI', label: 'xGI' },
-            { key: 'rating', label: 'דירוג' },
             { key: 'cleanSheets', label: 'שער נקי' },
             { key: 'yellowCards', label: 'צהובים' },
             { key: 'minutesPlayed', label: 'דקות' },
@@ -564,7 +561,6 @@ function comparePage() {
                 case 'xA': return p.xA || 0;
                 case 'minutes': return s5.minutesPlayed || 0;
                 case 'cleanSheets': return s5.cleanSheets || 0;
-                case 'rating': return s3.rating || 0;
                 case 'ppm': return p.ppm || 0;
                 case 'shots': return s3.totalShots || fc.shotAttempts || 0;
                 case 'touches': return s3.touches || 0;
@@ -583,7 +579,6 @@ function comparePage() {
                 { key: 'assists', label: 'בישולים', fmt: v => v },
                 { key: 'xG', label: 'xG', fmt: v => v.toFixed(2) },
                 { key: 'xA', label: 'xA', fmt: v => v.toFixed(2) },
-                { key: 'rating', label: 'דירוג', fmt: v => v > 0 ? v.toFixed(1) : '-' },
                 { key: 'minutes', label: 'דקות', fmt: v => v },
                 { key: 'appearances', label: 'הופעות', fmt: v => v },
                 { key: 'shots', label: 'בעיטות', fmt: v => v },
@@ -618,7 +613,6 @@ function comparePage() {
                 { key: 'assists', label: 'בישולים' },
                 { key: 'xG', label: 'xG' },
                 { key: 'xA', label: 'xA' },
-                { key: 'rating', label: 'דירוג' },
                 { key: 'ppm', label: 'PPM' },
                 { key: 'shots', label: 'בעיטות' },
             ];

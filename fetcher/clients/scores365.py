@@ -18,7 +18,6 @@ logger = logging.getLogger(__name__)
 HIGHLIGHT_STAT_TYPES = {
     205: "xG",
     207: "xA",
-    54: "rating",
     5: "appearances",
     1: "goals",
     2: "assists",
