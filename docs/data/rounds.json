@@ -133427,7 +133427,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.2534,
+            "expectedGoals": 0.2637,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -133784,7 +133784,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 1.0739,
+            "expectedGoals": 1.1006,
             "goals": 1,
             "assists": 0,
             "shotsOnTarget": 3,
@@ -135591,13 +135591,13 @@
         },
         "338": {
           "sport5": {
-            "points": 10,
+            "points": 9,
             "goals": 1,
             "goalsPoints": 5,
             "assists": 1,
             "assistsPoints": 3,
             "minutesPlayed": 90,
-            "yellowCards": 0,
+            "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0
           },
@@ -136398,12 +136398,12 @@
         },
         "474": {
           "sport5": {
-            "points": -1,
+            "points": 0,
             "goals": 0,
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 0,
+            "minutesPlayed": 3,
             "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0
@@ -136508,7 +136508,7 @@
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
-            "minutesPlayed": 90,
+            "minutesPlayed": 87,
             "yellowCards": 0,
             "redCards": 0,
             "cleanSheets": 0
@@ -137175,13 +137175,13 @@
         },
         "573": {
           "sport5": {
-            "points": -3,
+            "points": -4,
             "goals": 0,
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
             "minutesPlayed": 17,
-            "yellowCards": 0,
+            "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0
           },
@@ -137249,7 +137249,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0388,
+            "expectedGoals": 0.0374,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -137270,7 +137270,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0282,
+            "expectedGoals": 0.063,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -137438,7 +137438,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.1256,
+            "expectedGoals": 0.1056,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -137480,7 +137480,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0247,
+            "expectedGoals": 0.017,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -137543,7 +137543,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0414,
+            "expectedGoals": 0.0332,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -137564,7 +137564,7 @@
             "cleanSheets": 0
           },
           "footballCoIl": {
-            "expectedGoals": 0.0799,
+            "expectedGoals": 0.0733,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
