@@ -172,7 +172,7 @@
                 </p>
 
                 <!-- Table -->
-                <div class="bg-white rounded-lg shadow overflow-x-auto">
+                <div id="players-table-wrap" class="bg-white rounded-lg shadow overflow-x-auto">
                     <table class="w-full text-sm">
                         <thead class="bg-gray-50 text-gray-600 text-xs">
                             <tr>
@@ -805,5 +805,19 @@
     <!-- Scripts -->
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
+    <script>
+        // iOS WebKit fix: position:sticky on <td> inside overflow-x:auto doesn't work on real devices.
+        // Manually translate sticky cells to counteract horizontal scroll.
+        document.addEventListener('alpine:initialized', function () {
+            var wrap = document.getElementById('players-table-wrap');
+            if (!wrap) return;
+            wrap.addEventListener('scroll', function () {
+                var sl = wrap.scrollLeft; // RTL iOS Safari: 0 at start, goes negative on scroll
+                wrap.querySelectorAll('td.sticky, th.sticky').forEach(function (el) {
+                    el.style.transform = 'translateX(' + sl + 'px)';
+                });
+            }, { passive: true });
+        });
+    </script>
 </body>
 </html>
