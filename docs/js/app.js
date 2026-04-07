@@ -494,7 +494,7 @@ function roundsBrowser() {
 
 function leadersPage() {
     return {
-        activeCat: 'goals',
+        activeCat: 'fantasyPoints',
         categories: [
             { key: 'fantasyPoints', label: 'נקודות פנטזי' },
             { key: 'ppm', label: 'PPM' },
