@@ -103,6 +103,9 @@ table th, table td {
 
 /* Sticky cell backgrounds — set directly, not via class cascade, for reliable mobile repaint */
 td.sticky, th.sticky {
+    position: -webkit-sticky; /* iOS Safari/Chrome vendor prefix */
+    position: sticky;
+    will-change: transform;   /* force GPU compositing so WebKit honors sticky in overflow-x scroll */
     background-color: #ffffff;
 }
 html.dark td.sticky, html.dark th.sticky {
