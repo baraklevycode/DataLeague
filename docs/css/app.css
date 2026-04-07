@@ -105,6 +105,11 @@ table th, table td {
     background-color: #1e3a5f !important;
 }
 
+/* Alpine-bound hover class (no CSS :hover, so needs its own dark override) */
+html.dark tr.bg-blue-50 {
+    background-color: #1e3a5f !important;
+}
+
 /* Sticky cell backgrounds — set directly, not via class cascade, for reliable mobile repaint */
 td.sticky, th.sticky {
     background-color: #ffffff;
