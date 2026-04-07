@@ -86,7 +86,7 @@
     </div>
 
     <!-- Main Content -->
-    <main x-show="!loading && !error" class="max-w-7xl mx-auto px-4 py-6">
+    <main x-show="!loading && !error" class="max-w-screen-2xl mx-auto px-4 py-6">
 
         <!-- Players List Page -->
         <div x-show="page === 'players'" x-cloak>
@@ -176,7 +176,7 @@
                      so we use a flex container: the name panel never scrolls horizontally. -->
                 <div class="bg-white rounded-lg shadow overflow-hidden flex">
                     <!-- RIGHT panel (in RTL flex, first child = rightmost): rank + player name. Fixed width, no horizontal overflow. -->
-                    <div class="flex-none border-l border-gray-200">
+                    <div id="players-name-panel" class="flex-none border-l border-gray-200">
                         <table class="text-sm">
                             <thead class="bg-gray-50 text-gray-600 text-xs">
                                 <tr>
@@ -209,8 +209,8 @@
                         </table>
                     </div>
                     <!-- LEFT panel: all stats columns, scrolls horizontally -->
-                    <div class="flex-1 overflow-x-auto min-w-0">
-                        <table class="text-sm">
+                    <div id="players-stats-panel" class="flex-1 overflow-x-auto min-w-0">
+                        <table class="w-full text-sm">
                             <thead class="bg-gray-50 text-gray-600 text-xs">
                                 <tr>
                                     <th class="px-2 py-2 text-center">משחק הבא</th>
@@ -240,8 +240,7 @@
                                     <tr class="border-t cursor-pointer transition-colors text-xs"
                                         :class="hoveredPlayer === p.id ? 'bg-blue-50' : ''"
                                         @mouseenter="hoveredPlayer = p.id" @mouseleave="hoveredPlayer = null"
-                                        @click="window.location.hash = '#/players/' + p.id"
-                                        style="height:44px">
+                                        @click="window.location.hash = '#/players/' + p.id">
                                         <td class="px-2 py-1.5 text-center">
                                             <template x-if="p.nextGame">
                                                 <span class="px-1.5 py-0.5 rounded text-[10px] font-medium"
@@ -833,5 +832,35 @@
     <!-- Scripts -->
     <script src="js/data.js"></script>
     <script src="js/app.js"></script>
+    <script>
+        // Sync stats panel row heights to match name panel row heights.
+        // The name cells (image + two text lines) are naturally taller than the stats cells,
+        // so we measure name rows after each Alpine render and apply those heights to stats rows.
+        document.addEventListener('alpine:initialized', function () {
+            var namePanel = document.getElementById('players-name-panel');
+            var statsPanel = document.getElementById('players-stats-panel');
+            if (!namePanel || !statsPanel) return;
+
+            function syncHeights() {
+                var nameRows = namePanel.querySelectorAll('tbody tr');
+                var statsRows = statsPanel.querySelectorAll('tbody tr');
+                if (!nameRows.length) return;
+                // If rows not yet laid out, retry after layout is ready
+                if (nameRows[0].offsetHeight === 0) {
+                    setTimeout(syncHeights, 50);
+                    return;
+                }
+                statsRows.forEach(function (r) { r.style.height = ''; });
+                nameRows.forEach(function (row, i) {
+                    if (statsRows[i]) statsRows[i].style.height = row.offsetHeight + 'px';
+                });
+            }
+
+            syncHeights();
+            new MutationObserver(function () {
+                requestAnimationFrame(syncHeights);
+            }).observe(namePanel.querySelector('tbody'), { childList: true });
+        });
+    </script>
 </body>
 </html>
