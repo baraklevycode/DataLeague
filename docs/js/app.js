@@ -432,9 +432,18 @@ function teamsStatsTable() {
             const players = store.players;
             const rounds = store.rounds || {};
 
-            // Build player → teamId map
+            // Build player → teamId map, team → players map, sport5Id → internalId map
             const playerTeam = {};
-            for (const p of players) playerTeam[p.id] = p.teamId;
+            const teamPlayers = {};
+            const sport5ToInternal = {};
+            for (const t of teams) {
+                sport5ToInternal[t.sport5Id] = t.id;
+                teamPlayers[t.id] = [];
+            }
+            for (const p of players) {
+                playerTeam[p.id] = p.teamId;
+                if (teamPlayers[p.teamId]) teamPlayers[p.teamId].push(p);
+            }
 
             // Precompute round → teamId → { xG, shots }
             const roundTeamXG = {};
@@ -457,9 +466,27 @@ function teamsStatsTable() {
             const result = [];
 
             for (const t of teams) {
-                if (!t.games) continue;
+                // Use backend-generated games if available, otherwise derive from player data
+                let games = t.games;
+                if (!games || !games.length) {
+                    const seen = {};
+                    for (const p of (teamPlayers[t.id] || [])) {
+                        for (const g of (p.games || [])) {
+                            if (!seen[g.round]) {
+                                seen[g.round] = {
+                                    round: g.round,
+                                    isHome: g.isHome,
+                                    goalsFor: g.isHome ? g.homeScore : g.awayScore,
+                                    goalsAgainst: g.isHome ? g.awayScore : g.homeScore,
+                                    opponentId: sport5ToInternal[g.opponentId] || 0,
+                                };
+                            }
+                        }
+                    }
+                    games = Object.values(seen).sort((a, b) => a.round - b.round);
+                }
 
-                const filteredGames = t.games.filter(g => {
+                const filteredGames = games.filter(g => {
                     if (g.round < this.roundMin || g.round > effectiveMax) return false;
                     if (this.homeAwayFilter === 'home' && !g.isHome) return false;
                     if (this.homeAwayFilter === 'away' && g.isHome) return false;
