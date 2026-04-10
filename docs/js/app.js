@@ -117,6 +117,19 @@ function cleanSheetsPage() {
 
         get games() { return this.data?.games ?? []; },
 
+        translateTeam(englishName) {
+            const teams = Alpine.store('data').teams;
+            if (!teams || !teams.length) return englishName;
+            const words = englishName.toLowerCase().split(/\s+/);
+            let best = null, bestScore = 0;
+            for (const team of teams) {
+                const teamWords = (team.englishName || '').toLowerCase().split(/\s+/);
+                const overlap = words.filter(w => teamWords.includes(w)).length;
+                if (overlap > bestScore) { bestScore = overlap; best = team; }
+            }
+            return (best && bestScore > 0) ? best.name : englishName;
+        },
+
         csClass(pct) {
             if (pct === null) return 'text-gray-400 dark:text-gray-500';
             if (pct >= 35) return 'text-green-600 dark:text-green-400 font-semibold';
