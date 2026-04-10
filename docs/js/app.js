@@ -507,6 +507,13 @@ function teamsStatsTable() {
                     shotAttempts += rndShots[t.id] || 0;
                 }
 
+                // Fall back to season totals from players if round-level shots not yet available
+                if (shotAttempts === 0) {
+                    for (const p of (teamPlayers[t.id] || [])) {
+                        shotAttempts += (p.footballCoIl && p.footballCoIl.shotAttempts) || 0;
+                    }
+                }
+
                 xG = Math.round(xG * 100) / 100;
                 xGA = Math.round(xGA * 100) / 100;
                 const xGDiff = Math.round((goalsFor - xG) * 100) / 100;
