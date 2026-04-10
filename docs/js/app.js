@@ -24,8 +24,21 @@ function formatPrice(price) {
     return price.toString();
 }
 
-function powerRankedTeams() {
-    return [...Alpine.store('data').teams].sort((a, b) => (a.formRank || 99) - (b.formRank || 99));
+function powerRankedTeamsByN(n) {
+    const teams = Alpine.store('data').teams;
+    const enriched = teams.map(t => {
+        const games = [...(t.games || [])].sort((a, b) => a.round - b.round).slice(-n);
+        let score = 0;
+        const form = games.map(g => {
+            if (g.goalsFor > g.goalsAgainst) { score += 3; return 1; }
+            if (g.goalsFor === g.goalsAgainst) { score += 1; return 2; }
+            return 0;
+        });
+        return { ...t, computedFormScore: score, computedForm: form };
+    });
+    enriched.sort((a, b) => b.computedFormScore - a.computedFormScore);
+    enriched.forEach((t, i) => t.computedRank = i + 1);
+    return enriched;
 }
 
 function getPenaltyTaker(teamId, rank) {

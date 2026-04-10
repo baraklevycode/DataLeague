@@ -454,7 +454,7 @@
         </div>
 
         <!-- Teams Overview Page -->
-        <div x-show="page === 'teams'" x-cloak x-data="{ teamsTab: 'power' }">
+        <div x-show="page === 'teams'" x-cloak x-data="{ teamsTab: 'power', powerN: 5 }">
             <!-- Tab bar -->
             <div class="flex gap-1 mb-4 border-b border-gray-200 dark:border-gray-700">
                 <button @click="teamsTab='power'"
@@ -470,7 +470,14 @@
 
             <!-- Power Rank Table -->
             <div class="bg-white dark:bg-gray-800 rounded-lg shadow mb-6 overflow-x-auto">
-                <h2 class="font-semibold p-4 pb-2">דירוג כוח (5 משחקים אחרונים)</h2>
+                <div class="flex items-center justify-between px-4 pt-4 pb-2">
+                    <h2 class="font-semibold" x-text="'דירוג כוח (' + powerN + ' משחקים אחרונים)'"></h2>
+                    <div class="flex items-center gap-1 text-sm">
+                        <button @click="powerN = Math.max(1, powerN - 1)" class="w-6 h-6 rounded bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 font-bold leading-none">−</button>
+                        <span class="w-6 text-center font-medium" x-text="powerN"></span>
+                        <button @click="powerN = Math.min(34, powerN + 1)" class="w-6 h-6 rounded bg-gray-100 dark:bg-gray-700 hover:bg-gray-200 dark:hover:bg-gray-600 font-bold leading-none">+</button>
+                    </div>
+                </div>
                 <table class="w-full text-sm">
                     <thead class="bg-gray-50 text-gray-600 text-xs">
                         <tr>
@@ -483,20 +490,20 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <template x-for="t in powerRankedTeams()" :key="t.id">
+                        <template x-for="t in powerRankedTeamsByN(powerN)" :key="t.id">
                             <tr class="border-t">
-                                <td class="px-3 py-2 text-center font-bold" x-text="t.formRank"></td>
+                                <td class="px-3 py-2 text-center font-bold" x-text="t.computedRank"></td>
                                 <td class="px-3 py-2 text-right font-medium" x-text="t.name"></td>
                                 <td class="px-3 py-2 text-center">
                                     <div class="flex gap-1 justify-center">
-                                        <template x-if="t.standings" x-for="(f, i) in (t.standings.recentForm || [])" :key="i">
+                                        <template x-for="(f, i) in t.computedForm" :key="i">
                                             <span class="w-5 h-5 rounded-full text-white text-xs flex items-center justify-center"
                                                   :class="f === 1 ? 'bg-green-500' : f === 2 ? 'bg-gray-400' : 'bg-red-500'"
                                                   x-text="f === 1 ? 'נ' : f === 2 ? 'ת' : 'ה'"></span>
                                         </template>
                                     </div>
                                 </td>
-                                <td class="px-3 py-2 text-center font-semibold" x-text="t.formScore"></td>
+                                <td class="px-3 py-2 text-center font-semibold" x-text="t.computedFormScore"></td>
                                 <td class="px-3 py-2 text-center">
                                     <span class="px-2 py-0.5 rounded text-xs font-medium"
                                           :class="t.difficultyTier === 'hard' ? 'bg-red-100 text-red-700' : t.difficultyTier === 'medium' ? 'bg-orange-100 text-orange-700' : 'bg-green-100 text-green-700'"
