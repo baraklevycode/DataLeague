@@ -84,6 +84,58 @@ function app() {
     };
 }
 
+// -- Clean Sheets Page --
+
+function cleanSheetsPage() {
+    return {
+        data: null,
+        loading: false,
+
+        init() {
+            this.data = Alpine.store('data').cleansheets;
+        },
+
+        async refresh() {
+            this.loading = true;
+            try {
+                const r = await fetch('./data/cleansheets.json?t=' + Date.now());
+                if (r.ok) {
+                    this.data = await r.json();
+                    Alpine.store('data').cleansheets = this.data;
+                }
+            } finally {
+                this.loading = false;
+            }
+        },
+
+        get scrapedAt() { return this.data?.scrapedAt ?? null; },
+
+        get isStale() {
+            if (!this.scrapedAt) return false;
+            return (Date.now() - new Date(this.scrapedAt)) > 24 * 3600 * 1000;
+        },
+
+        get games() { return this.data?.games ?? []; },
+
+        csClass(pct) {
+            if (pct === null) return 'text-gray-400 dark:text-gray-500';
+            if (pct >= 35) return 'text-green-600 dark:text-green-400 font-semibold';
+            if (pct >= 25) return 'text-yellow-600 dark:text-yellow-400';
+            return 'text-red-500 dark:text-red-400';
+        },
+
+        formatTime(iso) {
+            if (!iso) return '';
+            try {
+                return new Date(iso).toLocaleString('he-IL', {
+                    day: '2-digit', month: '2-digit',
+                    hour: '2-digit', minute: '2-digit',
+                });
+            } catch { return iso; }
+        },
+    };
+}
+
 // -- Player Table Component --
 
 function playerTable() {

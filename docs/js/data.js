@@ -9,17 +9,19 @@ document.addEventListener('alpine:init', () => {
         rounds: {},
         leaders: {},
         meta: null,
+        cleansheets: null,
         loaded: false,
 
         async load() {
             const base = './data/';
             try {
-                const [playersRes, teamsRes, roundsRes, leadersRes, metaRes] = await Promise.all([
+                const [playersRes, teamsRes, roundsRes, leadersRes, metaRes, cleansheetsRes] = await Promise.all([
                     fetch(base + 'players.json'),
                     fetch(base + 'teams.json'),
                     fetch(base + 'rounds.json'),
                     fetch(base + 'leaders.json'),
                     fetch(base + 'meta.json'),
+                    fetch(base + 'cleansheets.json').catch(() => null),
                 ]);
 
                 if (!playersRes.ok) throw new Error('Failed to load players.json');
@@ -39,6 +41,7 @@ document.addEventListener('alpine:init', () => {
                 this.rounds = roundsData.rounds || {};
                 this.leaders = leadersData;
                 this.meta = metaData;
+                this.cleansheets = cleansheetsRes ? await cleansheetsRes.json().catch(() => null) : null;
                 this.loaded = true;
             } catch (err) {
                 console.error('Data load error:', err);

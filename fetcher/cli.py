@@ -94,6 +94,41 @@ def export(
     typer.echo(f"Exported {len(rows)} players to {out}")
 
 
+@app.command()
+def scrape_cleansheets() -> None:
+    """Scrape MarathonBet clean sheet odds and write docs/data/cleansheets.json."""
+    import json
+    import io
+    from datetime import datetime, timezone
+
+    # Force UTF-8 on stdout (avoids cp1252 crash on Windows)
+    stream = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace") \
+        if hasattr(sys.stdout, "buffer") else sys.stdout
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+        handlers=[logging.StreamHandler(stream)],
+    )
+
+    from fetcher.clients.marathonbet import MarathonBetClient
+
+    async def _run() -> None:
+        async with MarathonBetClient() as client:
+            games = await client.scrape_all()
+
+        out = {
+            "scrapedAt": datetime.now(timezone.utc).isoformat(),
+            "games": games,
+        }
+        path = Path("docs/data/cleansheets.json")
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(out, f, ensure_ascii=False, indent=2)
+        typer.echo(f"Wrote {len(games)} games to {path}")
+
+    asyncio.run(_run())
+
+
 def _setup_logging() -> None:
     logging.basicConfig(
         level=logging.INFO,

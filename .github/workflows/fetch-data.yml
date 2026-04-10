@@ -8,7 +8,7 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     permissions:
       contents: write
 
@@ -21,13 +21,20 @@ jobs:
           cache: 'pip'
 
       - name: Install dependencies
-        run: pip install httpx pydantic pydantic-settings typer tenacity python-dotenv
+        run: pip install httpx pydantic pydantic-settings typer tenacity python-dotenv playwright
+
+      - name: Install Playwright browser
+        run: playwright install chromium --with-deps
 
       - name: Fetch data
         env:
           DDL_SPORT5_EMAIL: ${{ secrets.SPORT5_EMAIL }}
           DDL_SPORT5_PASSWORD: ${{ secrets.SPORT5_PASSWORD }}
         run: python -m fetcher fetch
+
+      - name: Scrape clean sheet odds
+        run: python -m fetcher scrape-cleansheets
+        continue-on-error: true
 
       - name: Commit and push if changed
         run: |
