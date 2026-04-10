@@ -1,12 +1,12 @@
 {
-  "scrapedAt": "2026-04-10T12:39:45.945666+00:00",
+  "scrapedAt": "2026-04-10T21:22:31.232380+00:00",
   "games": [
     {
       "homeTeam": "Bnei Sakhnin",
       "awayTeam": "Maccabi Bnei Reine",
       "gameId": "27853258",
-      "homeCleanSheetPct": 43.9,
-      "awayCleanSheetPct": 27.5,
+      "homeCleanSheetPct": 45.9,
+      "awayCleanSheetPct": 25.4,
       "noData": false
     },
     {
