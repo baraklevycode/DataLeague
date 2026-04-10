@@ -130,6 +130,16 @@ function cleanSheetsPage() {
 
         get games() { return this.data?.games ?? []; },
 
+        get rankedTeams() {
+            const entries = [];
+            for (const g of this.games) {
+                if (g.noData) continue;
+                if (g.homeCleanSheetPct !== null) entries.push({ team: g.homeTeam, pct: g.homeCleanSheetPct });
+                if (g.awayCleanSheetPct !== null) entries.push({ team: g.awayTeam, pct: g.awayCleanSheetPct });
+            }
+            return entries.sort((a, b) => b.pct - a.pct);
+        },
+
         translateTeam(englishName) {
             const teams = Alpine.store('data').teams;
             if (!teams || !teams.length) return englishName;

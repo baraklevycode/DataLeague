@@ -1004,6 +1004,33 @@
                         </table>
                     </div>
                 </template>
+
+                <!-- Ranking by CS% -->
+                <template x-if="data && rankedTeams.length > 0">
+                    <div class="mt-6 bg-white dark:bg-gray-800 rounded-lg shadow overflow-hidden">
+                        <h2 class="font-semibold p-4 pb-2">דירוג סיכויי שער נקי</h2>
+                        <table class="w-full text-sm">
+                            <thead class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs">
+                                <tr>
+                                    <th class="px-3 py-2 text-center w-10">#</th>
+                                    <th class="px-3 py-2 text-right">קבוצה</th>
+                                    <th class="px-3 py-2 text-center">CS%</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <template x-for="(entry, i) in rankedTeams" :key="entry.team">
+                                    <tr class="border-t border-gray-100 dark:border-gray-700">
+                                        <td class="px-3 py-2 text-center text-gray-500 font-medium" x-text="i + 1"></td>
+                                        <td class="px-3 py-2 text-right font-medium" x-text="translateTeam(entry.team)"></td>
+                                        <td class="px-3 py-2 text-center">
+                                            <span :class="csClass(entry.pct)" x-text="entry.pct + '%'"></span>
+                                        </td>
+                                    </tr>
+                                </template>
+                            </tbody>
+                        </table>
+                    </div>
+                </template>
             </div>
         </div>
 
