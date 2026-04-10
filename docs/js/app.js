@@ -389,6 +389,118 @@ function playerDetail() {
     };
 }
 
+// -- Teams Stats Table Component --
+
+function teamsStatsTable() {
+    return {
+        roundMin: 1,
+        roundMax: 99,
+        homeAwayFilter: 'all',
+        sortKey: 'goalsFor',
+        sortDesc: true,
+
+        get currentMaxRound() {
+            const meta = Alpine.store('data').meta;
+            return (meta && meta.currentRound) || 26;
+        },
+
+        init() {
+            const self = this;
+            Alpine.effect(() => {
+                const meta = Alpine.store('data').meta;
+                if (meta && meta.currentRound && self.roundMax === 99) {
+                    self.roundMax = meta.currentRound;
+                }
+            });
+        },
+
+        setSort(key) {
+            if (this.sortKey === key) this.sortDesc = !this.sortDesc;
+            else { this.sortKey = key; this.sortDesc = true; }
+        },
+
+        sortArrow(key) {
+            if (this.sortKey !== key) return '↕';
+            return this.sortDesc ? '↓' : '↑';
+        },
+
+        teamStats() {
+            const store = Alpine.store('data');
+            if (!store.loaded) return [];
+
+            const teams = store.teams;
+            const players = store.players;
+            const rounds = store.rounds || {};
+
+            // Build player → teamId map
+            const playerTeam = {};
+            for (const p of players) playerTeam[p.id] = p.teamId;
+
+            // Precompute round → teamId → { xG, shots }
+            const roundTeamXG = {};
+            const roundTeamShots = {};
+            for (const [rndKey, rndData] of Object.entries(rounds)) {
+                const rnd = parseInt(rndKey);
+                roundTeamXG[rnd] = {};
+                roundTeamShots[rnd] = {};
+                for (const [pid, pstats] of Object.entries(rndData.players || {})) {
+                    const teamId = playerTeam[parseInt(pid)];
+                    if (!teamId) continue;
+                    const fc = pstats.footballCoIl;
+                    if (!fc) continue;
+                    roundTeamXG[rnd][teamId] = (roundTeamXG[rnd][teamId] || 0) + (fc.expectedGoals || 0);
+                    roundTeamShots[rnd][teamId] = (roundTeamShots[rnd][teamId] || 0) + (fc.shotAttempts || 0);
+                }
+            }
+
+            const effectiveMax = Math.min(this.roundMax, this.currentMaxRound);
+            const result = [];
+
+            for (const t of teams) {
+                if (!t.games) continue;
+
+                const filteredGames = t.games.filter(g => {
+                    if (g.round < this.roundMin || g.round > effectiveMax) return false;
+                    if (this.homeAwayFilter === 'home' && !g.isHome) return false;
+                    if (this.homeAwayFilter === 'away' && g.isHome) return false;
+                    return true;
+                });
+
+                let goalsFor = 0, goalsAgainst = 0, cleanSheets = 0;
+                let xG = 0, xGA = 0, shotAttempts = 0;
+
+                for (const g of filteredGames) {
+                    goalsFor += g.goalsFor;
+                    goalsAgainst += g.goalsAgainst;
+                    if (g.goalsAgainst === 0) cleanSheets++;
+                    const rndXG = roundTeamXG[g.round] || {};
+                    const rndShots = roundTeamShots[g.round] || {};
+                    xG += rndXG[t.id] || 0;
+                    xGA += rndXG[g.opponentId] || 0;
+                    shotAttempts += rndShots[t.id] || 0;
+                }
+
+                xG = Math.round(xG * 100) / 100;
+                xGA = Math.round(xGA * 100) / 100;
+                const xGDiff = Math.round((goalsFor - xG) * 100) / 100;
+                const xGADiff = Math.round((goalsAgainst - xGA) * 100) / 100;
+
+                result.push({
+                    id: t.id, name: t.name, logoUrl: t.logoUrl,
+                    gamesPlayed: filteredGames.length,
+                    goalsFor, goalsAgainst, cleanSheets,
+                    shotAttempts, xG, xGA, xGDiff, xGADiff,
+                });
+            }
+
+            const dir = this.sortDesc ? -1 : 1;
+            const key = this.sortKey;
+            result.sort((a, b) => dir * ((a[key] ?? 0) - (b[key] ?? 0)));
+            return result;
+        }
+    };
+}
+
 // -- Team Detail Component --
 
 function teamDetail() {

@@ -450,11 +450,22 @@
         </div>
 
         <!-- Teams Overview Page -->
-        <div x-show="page === 'teams'" x-cloak>
-            <h1 class="text-xl font-bold mb-4">קבוצות</h1>
+        <div x-show="page === 'teams'" x-cloak x-data="{ teamsTab: 'power' }">
+            <!-- Tab bar -->
+            <div class="flex gap-1 mb-4 border-b border-gray-200 dark:border-gray-700">
+                <button @click="teamsTab='power'"
+                        :class="teamsTab==='power' ? 'border-b-2 border-blue-600 text-blue-600 font-semibold' : 'text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'"
+                        class="px-4 py-2 text-sm transition">דירוג כוח</button>
+                <button @click="teamsTab='stats'"
+                        :class="teamsTab==='stats' ? 'border-b-2 border-blue-600 text-blue-600 font-semibold' : 'text-gray-500 hover:text-gray-700 dark:hover:text-gray-300'"
+                        class="px-4 py-2 text-sm transition">סטטיסטיקות</button>
+            </div>
+
+            <!-- Power Rank Tab -->
+            <div x-show="teamsTab==='power'">
 
             <!-- Power Rank Table -->
-            <div class="bg-white rounded-lg shadow mb-6 overflow-x-auto">
+            <div class="bg-white dark:bg-gray-800 rounded-lg shadow mb-6 overflow-x-auto">
                 <h2 class="font-semibold p-4 pb-2">דירוג כוח (5 משחקים אחרונים)</h2>
                 <table class="w-full text-sm">
                     <thead class="bg-gray-50 text-gray-600 text-xs">
@@ -549,6 +560,88 @@
                     </div>
                 </template>
             </div>
+
+            </div><!-- /power rank tab -->
+
+            <!-- Stats Tab -->
+            <div x-show="teamsTab==='stats'" x-data="teamsStatsTable()" x-init="init()">
+                <!-- Filters -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-4">
+                    <div class="flex flex-wrap gap-6 items-end">
+                        <div>
+                            <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1">מחזור</label>
+                            <div class="flex items-center gap-2">
+                                <input type="number" x-model.number="roundMin" :min="1" :max="roundMax"
+                                       class="border dark:border-gray-600 dark:bg-gray-700 rounded px-2 py-1 text-sm w-16">
+                                <span class="text-gray-400">—</span>
+                                <input type="number" x-model.number="roundMax" :min="roundMin" :max="currentMaxRound"
+                                       class="border dark:border-gray-600 dark:bg-gray-700 rounded px-2 py-1 text-sm w-16">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1">משחקים</label>
+                            <div class="flex gap-3">
+                                <label class="flex items-center gap-1 text-sm cursor-pointer">
+                                    <input type="radio" x-model="homeAwayFilter" value="all"> הכל
+                                </label>
+                                <label class="flex items-center gap-1 text-sm cursor-pointer">
+                                    <input type="radio" x-model="homeAwayFilter" value="home"> בית
+                                </label>
+                                <label class="flex items-center gap-1 text-sm cursor-pointer">
+                                    <input type="radio" x-model="homeAwayFilter" value="away"> חוץ
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stats Table -->
+                <div class="bg-white dark:bg-gray-800 rounded-lg shadow overflow-x-auto">
+                    <table class="w-full text-sm">
+                        <thead class="bg-gray-50 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs">
+                            <tr>
+                                <th class="px-3 py-2 text-right sticky right-0 bg-gray-50 dark:bg-gray-700">קבוצה</th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('goalsFor')">שערים <span x-text="sortArrow('goalsFor')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('shotAttempts')">מצבים לגול <span x-text="sortArrow('shotAttempts')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xG')">xG <span x-text="sortArrow('xG')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGDiff')">הפרש xG <span x-text="sortArrow('xGDiff')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('goalsAgainst')">שערי חובה <span x-text="sortArrow('goalsAgainst')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGA')">xGA <span x-text="sortArrow('xGA')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGADiff')">הפרש xGA <span x-text="sortArrow('xGADiff')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('cleanSheets')">שער נקי <span x-text="sortArrow('cleanSheets')"></span></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <template x-for="s in teamStats()" :key="s.id">
+                                <tr class="border-t dark:border-gray-700 hover:bg-blue-50 dark:hover:bg-blue-900/30 cursor-pointer"
+                                    @click="window.location.hash = '#/teams/' + s.id">
+                                    <td class="px-3 py-2 font-medium sticky right-0 bg-white dark:bg-gray-800">
+                                        <div class="flex items-center gap-2">
+                                            <template x-if="s.logoUrl">
+                                                <img :src="s.logoUrl" class="w-6 h-6 object-contain">
+                                            </template>
+                                            <span x-text="s.name"></span>
+                                        </div>
+                                    </td>
+                                    <td class="px-3 py-2 text-center font-semibold" x-text="s.goalsFor"></td>
+                                    <td class="px-3 py-2 text-center" x-text="s.shotAttempts || '-'"></td>
+                                    <td class="px-3 py-2 text-center" x-text="s.xG.toFixed(2)"></td>
+                                    <td class="px-3 py-2 text-center font-medium"
+                                        :class="s.xGDiff > 0.5 ? 'text-green-600' : s.xGDiff < -0.5 ? 'text-red-600' : 'text-gray-500'"
+                                        x-text="(s.xGDiff > 0 ? '+' : '') + s.xGDiff.toFixed(2)"></td>
+                                    <td class="px-3 py-2 text-center font-semibold" x-text="s.goalsAgainst"></td>
+                                    <td class="px-3 py-2 text-center" x-text="s.xGA.toFixed(2)"></td>
+                                    <td class="px-3 py-2 text-center font-medium"
+                                        :class="s.xGADiff < -0.5 ? 'text-green-600' : s.xGADiff > 0.5 ? 'text-red-600' : 'text-gray-500'"
+                                        x-text="(s.xGADiff > 0 ? '+' : '') + s.xGADiff.toFixed(2)"></td>
+                                    <td class="px-3 py-2 text-center font-semibold" x-text="s.cleanSheets"></td>
+                                </tr>
+                            </template>
+                        </tbody>
+                    </table>
+                </div>
+            </div><!-- /stats tab -->
+
         </div>
 
         <!-- Team Detail Page -->

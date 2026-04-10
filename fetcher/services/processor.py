@@ -6,7 +6,7 @@ import logging
 from typing import Any
 
 from fetcher.clients.sport5 import Sport5Client
-from fetcher.config import POSITIONS, TEAM_MAPPINGS, build_scores365_id_map
+from fetcher.config import POSITIONS, TEAM_MAPPINGS, build_scores365_id_map, build_sport5_id_map
 from fetcher.schemas import (
     OutputFootballCoIlStats,
     OutputLeaderEntry,
@@ -432,6 +432,8 @@ class DataProcessor:
         standings_by_s365: dict[int, Scores365StandingRow] = {
             s.competitor_id: s for s in self.standings
         }
+        round_map = self._build_round_map()
+        sport5_id_map = build_sport5_id_map()
 
         teams: list[dict] = []
         for tm in TEAM_MAPPINGS:
@@ -475,8 +477,7 @@ class DataProcessor:
                         opp_name = fg["teamBName"] if is_home else fg["teamAName"]
                         opp_s5_id = fg["teamBId"] if is_home else fg["teamAId"]
                         # Find opponent internal ID
-                        from fetcher.config import build_sport5_id_map
-                        opp_tm = build_sport5_id_map().get(opp_s5_id)
+                        opp_tm = sport5_id_map.get(opp_s5_id)
                         next_game = {
                             "opponent": opp_name,
                             "opponentId": opp_tm.internal_id if opp_tm else 0,
@@ -501,9 +502,36 @@ class DataProcessor:
                 standings=standings_data,
                 playerIds=player_ids,
             )
+            # Build game-by-game history for this team
+            team_games: list[dict] = []
+            seen_rounds: set[int] = set()
+            for mp in self.matched_players:
+                if not (mp.team and mp.team.internal_id == tm.internal_id and mp.sport5_id):
+                    continue
+                detail = self.sport5_details.get(mp.sport5_id)
+                if not detail:
+                    continue
+                for gs in detail.gameStats:
+                    seq_round = round_map.get(gs.roundId, 0)
+                    if seq_round == 0 or seq_round in seen_rounds:
+                        continue
+                    seen_rounds.add(seq_round)
+                    opp_tm = sport5_id_map.get(gs.opponentId)
+                    goals_for = gs.homeScore if gs.isHome else gs.awayScore
+                    goals_against = gs.awayScore if gs.isHome else gs.homeScore
+                    team_games.append({
+                        "round": seq_round,
+                        "isHome": gs.isHome,
+                        "goalsFor": goals_for,
+                        "goalsAgainst": goals_against,
+                        "opponentId": opp_tm.internal_id if opp_tm else 0,
+                    })
+            team_games.sort(key=lambda g: g["round"])
+
             td = team.model_dump()
             td["formScore"] = form_score
             td["nextGame"] = next_game
+            td["games"] = team_games
             teams.append(td)
 
         # Compute form rank (1 = best form)
@@ -574,6 +602,7 @@ class DataProcessor:
                             "goals": int(_fval(fc_row, "Goal")),
                             "assists": int(_fval(fc_row, "Assist")),
                             "shotsOnTarget": int(_fval(fc_row, "OnTarget")),
+                            "shotAttempts": int(_fval(fc_row, "AttemptonGoal", "totalScoringAtt")),
                             "minutesPlayed": int(_fval(fc_row, "totalMinutesPlayed")),
                         }
 
