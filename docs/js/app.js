@@ -37,7 +37,10 @@ function powerRankedTeamsByN(n) {
         return { ...t, computedFormScore: score, computedForm: form };
     });
     enriched.sort((a, b) => b.computedFormScore - a.computedFormScore);
-    enriched.forEach((t, i) => t.computedRank = i + 1);
+    enriched.forEach((t, i) => {
+        t.computedRank = i + 1;
+        t.computedDifficultyTier = i < 5 ? 'hard' : i < 10 ? 'medium' : 'easy';
+    });
     return enriched;
 }
 
