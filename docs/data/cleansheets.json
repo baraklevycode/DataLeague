@@ -1,21 +1,4 @@
 {
-  "scrapedAt": "2026-04-11T21:17:55.636678+00:00",
-  "games": [
-    {
-      "homeTeam": "Maccabi Haifa",
-      "awayTeam": "Ironi Kiryat Shmona",
-      "gameId": "27871667",
-      "homeCleanSheetPct": 45.0,
-      "awayCleanSheetPct": 13.9,
-      "noData": false
-    },
-    {
-      "homeTeam": "Maccabi Tel Aviv",
-      "awayTeam": "Hapoel Be'er Sheva",
-      "gameId": "27871653",
-      "homeCleanSheetPct": 24.4,
-      "awayCleanSheetPct": 22.5,
-      "noData": false
-    }
-  ]
+  "scrapedAt": "2026-04-12T21:19:45.001672+00:00",
+  "games": []
 }
