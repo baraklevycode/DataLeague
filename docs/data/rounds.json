@@ -146218,11 +146218,11 @@
         },
         "95": {
           "sport5": {
-            "points": 11,
+            "points": 8,
             "goals": 1,
             "goalsPoints": 4,
-            "assists": 2,
-            "assistsPoints": 6,
+            "assists": 1,
+            "assistsPoints": 3,
             "minutesPlayed": 90,
             "yellowCards": 1,
             "redCards": 0,
@@ -149630,13 +149630,13 @@
         },
         "578": {
           "sport5": {
-            "points": 8,
+            "points": 7,
             "goals": 0,
             "goalsPoints": 0,
             "assists": 2,
             "assistsPoints": 6,
             "minutesPlayed": 61,
-            "yellowCards": 0,
+            "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0
           },
@@ -150944,13 +150944,13 @@
         },
         "779": {
           "sport5": {
-            "points": -1,
+            "points": -2,
             "goals": 0,
             "goalsPoints": 0,
             "assists": 0,
             "assistsPoints": 0,
             "minutesPlayed": 90,
-            "yellowCards": 0,
+            "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0
           },

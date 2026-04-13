@@ -13,7 +13,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 445,
+      "timesSelected": 446,
       "avgPoints": 0.36363636363636365,
       "ppm": 0.67,
       "xA": 0.14,
@@ -203,7 +203,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 2,
@@ -229,7 +229,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 3,
@@ -255,7 +255,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 4,
@@ -281,7 +281,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 5,
@@ -307,7 +307,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 6,
@@ -333,7 +333,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 7,
@@ -359,7 +359,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 8,
@@ -385,7 +385,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 9,
@@ -411,7 +411,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 10,
@@ -437,7 +437,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 11,
@@ -463,7 +463,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 12,
@@ -489,7 +489,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 13,
@@ -515,7 +515,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 14,
@@ -541,7 +541,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 15,
@@ -567,7 +567,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 16,
@@ -593,7 +593,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 17,
@@ -608,7 +608,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2590,
+      "timesSelected": 2596,
       "avgPoints": 2.4285714285714284,
       "ppm": 6.38,
       "xA": 1.52,
@@ -908,7 +908,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 18,
@@ -934,7 +934,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 19,
@@ -949,7 +949,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4337,
+      "timesSelected": 4339,
       "avgPoints": 2.4583333333333335,
       "ppm": 11.8,
       "xA": 1.51,
@@ -1282,7 +1282,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 20,
@@ -1308,7 +1308,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 21,
@@ -1513,7 +1513,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 22,
@@ -1539,7 +1539,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 23,
@@ -1565,7 +1565,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 24,
@@ -1591,7 +1591,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 25,
@@ -1617,7 +1617,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 26,
@@ -1643,7 +1643,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 27,
@@ -1669,7 +1669,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 28,
@@ -2006,7 +2006,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 29,
@@ -2145,7 +2145,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 30,
@@ -2449,7 +2449,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 31,
@@ -2464,7 +2464,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4410,
+      "timesSelected": 4412,
       "avgPoints": 2.5238095238095237,
       "ppm": 7.57,
       "xA": 1.85,
@@ -2764,7 +2764,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 32,
@@ -2790,7 +2790,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 33,
@@ -3149,7 +3149,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 34,
@@ -3475,7 +3475,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 35,
@@ -3501,7 +3501,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 36,
@@ -3527,7 +3527,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 37,
@@ -3542,7 +3542,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1139,
+      "timesSelected": 1143,
       "avgPoints": 1.9473684210526316,
       "ppm": 7.4,
       "xA": 0.34,
@@ -3820,7 +3820,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 38,
@@ -3846,7 +3846,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 39,
@@ -3872,7 +3872,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 40,
@@ -3887,7 +3887,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18192,
+      "timesSelected": 18201,
       "avgPoints": 3.3157894736842106,
       "ppm": 9.0,
       "xA": 0.69,
@@ -4165,7 +4165,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 41,
@@ -4180,7 +4180,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 37260,
+      "timesSelected": 37303,
       "avgPoints": 5.25,
       "ppm": 9.55,
       "xA": 4.7,
@@ -4469,7 +4469,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -4497,7 +4497,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 43,
@@ -4523,7 +4523,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 44,
@@ -4549,7 +4549,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 45,
@@ -4575,7 +4575,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 46,
@@ -4590,7 +4590,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 584,
+      "timesSelected": 585,
       "avgPoints": 0.875,
       "ppm": 3.0,
       "xA": 0.06,
@@ -4923,7 +4923,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 47,
@@ -4949,7 +4949,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 48,
@@ -4975,7 +4975,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 49,
@@ -5191,7 +5191,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 50,
@@ -5217,7 +5217,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 51,
@@ -5243,7 +5243,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 52,
@@ -5269,7 +5269,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 53,
@@ -5295,7 +5295,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 54,
@@ -5321,7 +5321,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 55,
@@ -5336,7 +5336,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6092,
+      "timesSelected": 6118,
       "avgPoints": 2.0,
       "ppm": 12.0,
       "xA": 0.28,
@@ -5603,7 +5603,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 56,
@@ -5618,7 +5618,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 23796,
+      "timesSelected": 23814,
       "avgPoints": 3.56,
       "ppm": 12.71,
       "xA": 0.0,
@@ -5962,7 +5962,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 57,
@@ -5977,7 +5977,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 35738,
+      "timesSelected": 35739,
       "avgPoints": 1.92,
       "ppm": 4.36,
       "xA": 0.59,
@@ -6321,7 +6321,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 58,
@@ -6336,7 +6336,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5834,
+      "timesSelected": 5835,
       "avgPoints": 2.8125,
       "ppm": 6.43,
       "xA": 1.41,
@@ -6581,7 +6581,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 59,
@@ -6929,7 +6929,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 60,
@@ -6955,7 +6955,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 61,
@@ -7281,7 +7281,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 62,
@@ -7486,7 +7486,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 63,
@@ -7512,7 +7512,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 64,
@@ -7527,7 +7527,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11637,
+      "timesSelected": 11660,
       "avgPoints": 3.9166666666666665,
       "ppm": 13.43,
       "xA": 0.0,
@@ -7846,7 +7846,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 65,
@@ -7861,7 +7861,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 314,
+      "timesSelected": 315,
       "avgPoints": 0.9285714285714286,
       "ppm": 1.62,
       "xA": 0.41,
@@ -8084,7 +8084,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 66,
@@ -8099,7 +8099,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8709,
+      "timesSelected": 8729,
       "avgPoints": 3.2857142857142856,
       "ppm": 6.9,
       "xA": 4.37,
@@ -8399,7 +8399,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker2": true,
       "penaltyRank": 2
     },
@@ -8477,7 +8477,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 68,
@@ -8594,7 +8594,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 69,
@@ -8670,7 +8670,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 70,
@@ -8732,7 +8732,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 71,
@@ -8823,7 +8823,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 72,
@@ -8885,7 +8885,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 73,
@@ -9046,7 +9046,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 74,
@@ -9061,7 +9061,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 365,
+      "timesSelected": 366,
       "avgPoints": 2.0,
       "ppm": 0.91,
       "xA": 0.07,
@@ -9185,7 +9185,7 @@
         }
       ],
       "nextGame": "מכבי תל אביב",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 75,
@@ -9200,7 +9200,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13388,
+      "timesSelected": 13446,
       "avgPoints": 3.24,
       "ppm": 13.5,
       "xA": 2.37,
@@ -9544,7 +9544,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 76,
@@ -9570,7 +9570,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 77,
@@ -9896,7 +9896,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 78,
@@ -9922,7 +9922,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 79,
@@ -9937,7 +9937,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 842,
+      "timesSelected": 841,
       "avgPoints": 1.5909090909090908,
       "ppm": 5.83,
       "xA": 0.41,
@@ -10248,7 +10248,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 80,
@@ -10497,7 +10497,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 81,
@@ -10512,7 +10512,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1104,
+      "timesSelected": 1107,
       "avgPoints": 2.0833333333333335,
       "ppm": 8.33,
       "xA": 0.38,
@@ -10845,7 +10845,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 82,
@@ -10871,7 +10871,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 83,
@@ -10897,7 +10897,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 84,
@@ -10912,7 +10912,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6338,
+      "timesSelected": 6363,
       "avgPoints": 2.36,
       "ppm": 9.83,
       "xA": 0.0,
@@ -11256,7 +11256,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 85,
@@ -11282,7 +11282,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 86,
@@ -11308,7 +11308,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 87,
@@ -11334,7 +11334,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 88,
@@ -11561,7 +11561,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 89,
@@ -11587,7 +11587,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 90,
@@ -11613,7 +11613,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 91,
@@ -11639,7 +11639,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 92,
@@ -11654,7 +11654,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2030,
+      "timesSelected": 2033,
       "avgPoints": 2.04,
       "ppm": 8.5,
       "xA": 0.48,
@@ -11998,7 +11998,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 93,
@@ -12024,7 +12024,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 94,
@@ -12039,7 +12039,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5147,
+      "timesSelected": 5161,
       "avgPoints": 2.423076923076923,
       "ppm": 12.6,
       "xA": 1.08,
@@ -12394,7 +12394,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 95,
@@ -12409,18 +12409,18 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5611,
-      "avgPoints": 3.16,
-      "ppm": 13.17,
+      "timesSelected": 5652,
+      "avgPoints": 3.04,
+      "ppm": 12.67,
       "xA": 1.91,
       "xGI": 7.61,
       "sport5": {
-        "totalPoints": 79,
+        "totalPoints": 76,
         "minutesPlayed": 2021,
         "goals": 6,
         "goalsPoints": 24,
-        "assists": 4,
-        "assistsPoints": 12,
+        "assists": 3,
+        "assistsPoints": 9,
         "yellowCards": 5,
         "yellowCardsPoints": -5,
         "redCards": 0,
@@ -12730,9 +12730,9 @@
           "round": 26,
           "opponent": "מכבי בני ריינה",
           "opponentId": 139,
-          "points": 11,
+          "points": 8,
           "goals": 1,
-          "assists": 2,
+          "assists": 1,
           "isHome": true,
           "homeScore": 2,
           "awayScore": 0
@@ -12740,12 +12740,12 @@
       ],
       "topOpponents": [
         {
-          "name": "מכבי בני ריינה",
-          "points": 13
-        },
-        {
           "name": "הפועל פתח תקווה",
           "points": 12
+        },
+        {
+          "name": "מכבי בני ריינה",
+          "points": 10
         },
         {
           "name": "בית\"ר ירושלים",
@@ -12753,7 +12753,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard",
+      "nextGameDifficulty": "easy",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -12781,7 +12781,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 97,
@@ -13030,7 +13030,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 98,
@@ -13056,7 +13056,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 99,
@@ -13082,7 +13082,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 100,
@@ -13108,7 +13108,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 101,
@@ -13134,7 +13134,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 102,
@@ -13493,7 +13493,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 103,
@@ -13794,7 +13794,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 104,
@@ -13820,7 +13820,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 105,
@@ -13846,7 +13846,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 106,
@@ -13872,7 +13872,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 107,
@@ -13898,7 +13898,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 108,
@@ -13924,7 +13924,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 109,
@@ -13950,7 +13950,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 110,
@@ -13976,7 +13976,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 111,
@@ -14002,7 +14002,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 112,
@@ -14028,7 +14028,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 113,
@@ -14054,7 +14054,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 114,
@@ -14204,7 +14204,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 115,
@@ -14230,7 +14230,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 116,
@@ -14256,7 +14256,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 117,
@@ -14282,7 +14282,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 118,
@@ -14308,7 +14308,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 119,
@@ -14667,7 +14667,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 120,
@@ -14693,7 +14693,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 121,
@@ -14997,7 +14997,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 122,
@@ -15023,7 +15023,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 123,
@@ -15038,7 +15038,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2282,
+      "timesSelected": 2284,
       "avgPoints": 1.5769230769230769,
       "ppm": 10.25,
       "xA": 0.36,
@@ -15393,7 +15393,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 124,
@@ -15419,7 +15419,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 125,
@@ -15445,7 +15445,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 126,
@@ -15471,7 +15471,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 127,
@@ -15486,7 +15486,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1499,
+      "timesSelected": 1507,
       "avgPoints": 2.625,
       "ppm": 10.5,
       "xA": 0.43,
@@ -15819,7 +15819,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 128,
@@ -15834,7 +15834,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 914,
+      "timesSelected": 916,
       "avgPoints": 2.125,
       "ppm": 6.38,
       "xA": 0.0,
@@ -16153,7 +16153,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 129,
@@ -16179,7 +16179,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 130,
@@ -16293,7 +16293,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 131,
@@ -16308,7 +16308,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 266,
+      "timesSelected": 267,
       "avgPoints": 1.375,
       "ppm": 6.6,
       "xA": 0.52,
@@ -16641,7 +16641,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 132,
@@ -16743,7 +16743,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 133,
@@ -16758,7 +16758,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3003,
+      "timesSelected": 3004,
       "avgPoints": 0.2,
       "ppm": 0.25,
       "xA": 0.0,
@@ -16882,7 +16882,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 134,
@@ -16959,7 +16959,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 135,
@@ -16985,7 +16985,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 136,
@@ -17000,7 +17000,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3837,
+      "timesSelected": 3842,
       "avgPoints": 2.6666666666666665,
       "ppm": 9.14,
       "xA": 1.33,
@@ -17333,7 +17333,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 137,
@@ -17513,7 +17513,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 138,
@@ -17539,7 +17539,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 139,
@@ -17565,7 +17565,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 140,
@@ -17591,7 +17591,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 141,
@@ -17679,7 +17679,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 142,
@@ -17770,7 +17770,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 143,
@@ -17873,7 +17873,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 144,
@@ -18141,7 +18141,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 145,
@@ -18217,7 +18217,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 146,
@@ -18232,7 +18232,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 1,
+      "timesSelected": 2,
       "avgPoints": 1.375,
       "ppm": 1.83,
       "xA": 0.12,
@@ -18389,7 +18389,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 147,
@@ -18525,7 +18525,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 148,
@@ -18540,7 +18540,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 25,
+      "timesSelected": 42,
       "avgPoints": 1.0,
       "ppm": 0.33,
       "xA": 0.0,
@@ -18598,7 +18598,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 149,
@@ -18660,7 +18660,7 @@
         }
       ],
       "nextGame": "עירוני טבריה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 150,
@@ -18675,7 +18675,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9166,
+      "timesSelected": 9217,
       "avgPoints": 3.88,
       "ppm": 12.12,
       "xA": 1.15,
@@ -19019,7 +19019,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 151,
@@ -19045,7 +19045,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 152,
@@ -19305,7 +19305,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 153,
@@ -19331,7 +19331,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 154,
@@ -19346,7 +19346,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 28777,
+      "timesSelected": 28811,
       "avgPoints": 3.5454545454545454,
       "ppm": 8.67,
       "xA": 1.48,
@@ -19657,7 +19657,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 155,
@@ -20027,7 +20027,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 156,
@@ -20053,7 +20053,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 157,
@@ -20079,7 +20079,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 158,
@@ -20196,7 +20196,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 159,
@@ -20222,7 +20222,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 160,
@@ -20248,7 +20248,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 161,
@@ -20585,7 +20585,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 162,
@@ -20611,7 +20611,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 163,
@@ -20626,7 +20626,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10143,
+      "timesSelected": 10165,
       "avgPoints": 3.52,
       "ppm": 6.29,
       "xA": 2.28,
@@ -20970,7 +20970,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 164,
@@ -20985,7 +20985,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 18939,
+      "timesSelected": 18989,
       "avgPoints": 3.52,
       "ppm": 11.0,
       "xA": 2.69,
@@ -21329,7 +21329,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 165,
@@ -21622,7 +21622,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 166,
@@ -21970,7 +21970,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard",
+      "nextGameDifficulty": "medium",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -21987,7 +21987,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1105,
+      "timesSelected": 1106,
       "avgPoints": 0.6875,
       "ppm": 1.38,
       "xA": 1.44,
@@ -22034,7 +22034,7 @@
         "totalShots": 1,
         "shotsOnTarget": 1,
         "bigChancesCreated": 4,
-        "touches": 216,
+        "touches": 217,
         "minutesPlayed": 174,
         "yellowCards": 1,
         "redCards": 0
@@ -22232,7 +22232,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 168,
@@ -22247,7 +22247,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 310,
+      "timesSelected": 311,
       "avgPoints": 1.2105263157894737,
       "ppm": 2.09,
       "xA": 1.34,
@@ -22525,7 +22525,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 169,
@@ -22551,7 +22551,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 170,
@@ -22566,7 +22566,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8556,
+      "timesSelected": 8574,
       "avgPoints": 2.590909090909091,
       "ppm": 6.33,
       "xA": 0.0,
@@ -22877,7 +22877,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 171,
@@ -22892,7 +22892,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3947,
+      "timesSelected": 3949,
       "avgPoints": 2.1153846153846154,
       "ppm": 6.11,
       "xA": 4.65,
@@ -23247,7 +23247,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 172,
@@ -23273,7 +23273,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 173,
@@ -23288,7 +23288,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6649,
+      "timesSelected": 6653,
       "avgPoints": 2.5,
       "ppm": 9.29,
       "xA": 2.26,
@@ -23335,7 +23335,7 @@
         "totalShots": 17,
         "shotsOnTarget": 9,
         "bigChancesCreated": 4,
-        "touches": 905,
+        "touches": 904,
         "minutesPlayed": 1163,
         "yellowCards": 4,
         "redCards": 0
@@ -23643,7 +23643,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 174,
@@ -23669,7 +23669,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 175,
@@ -23695,7 +23695,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 176,
@@ -23721,7 +23721,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 177,
@@ -23747,7 +23747,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 178,
@@ -23773,7 +23773,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 179,
@@ -23788,7 +23788,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 27492,
+      "timesSelected": 27643,
       "avgPoints": 4.416666666666667,
       "ppm": 8.15,
       "xA": 0.0,
@@ -24107,7 +24107,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 180,
@@ -24133,7 +24133,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 181,
@@ -24459,7 +24459,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 182,
@@ -24485,7 +24485,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 183,
@@ -24511,7 +24511,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 184,
@@ -24859,7 +24859,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 185,
@@ -24885,7 +24885,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 186,
@@ -24911,7 +24911,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 187,
@@ -24937,7 +24937,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 188,
@@ -24963,7 +24963,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 189,
@@ -24978,7 +24978,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5325,
+      "timesSelected": 5390,
       "avgPoints": 3.44,
       "ppm": 10.75,
       "xA": 4.6,
@@ -25322,7 +25322,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 190,
@@ -25348,7 +25348,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 191,
@@ -25424,7 +25424,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 192,
@@ -25450,7 +25450,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 193,
@@ -25465,7 +25465,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11059,
+      "timesSelected": 11085,
       "avgPoints": 2.923076923076923,
       "ppm": 12.67,
       "xA": 0.75,
@@ -25820,7 +25820,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 194,
@@ -25835,7 +25835,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2962,
+      "timesSelected": 2963,
       "avgPoints": 1.8,
       "ppm": 7.5,
       "xA": 1.31,
@@ -26179,7 +26179,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 195,
@@ -26205,7 +26205,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 196,
@@ -26231,7 +26231,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 197,
@@ -26246,7 +26246,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 31025,
+      "timesSelected": 31033,
       "avgPoints": 3.625,
       "ppm": 10.88,
       "xA": 0.02,
@@ -26579,7 +26579,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard",
+      "nextGameDifficulty": "medium",
       "isPenaltyTaker2": true,
       "penaltyRank": 2
     },
@@ -26607,7 +26607,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 199,
@@ -26633,7 +26633,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 200,
@@ -26780,7 +26780,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 201,
@@ -26795,7 +26795,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 665,
+      "timesSelected": 667,
       "avgPoints": 2.5,
       "ppm": 6.11,
       "xA": 0.69,
@@ -27106,7 +27106,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 202,
@@ -27223,7 +27223,7 @@
         }
       ],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 203,
@@ -27249,7 +27249,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל פתח תקווה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 204,
@@ -27264,7 +27264,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4814,
+      "timesSelected": 4903,
       "avgPoints": 1.4230769230769231,
       "ppm": 3.36,
       "xA": 0.41,
@@ -27634,7 +27634,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1585,
+      "timesSelected": 1587,
       "avgPoints": 2.0952380952380953,
       "ppm": 4.4,
       "xA": 1.56,
@@ -28279,7 +28279,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 733,
+      "timesSelected": 737,
       "avgPoints": 0.5,
       "ppm": 1.71,
       "xA": 0.78,
@@ -28653,7 +28653,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10061,
+      "timesSelected": 10072,
       "avgPoints": 1.4615384615384615,
       "ppm": 6.33,
       "xA": 0.13,
@@ -29023,7 +29023,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4128,
+      "timesSelected": 4201,
       "avgPoints": 1.52,
       "ppm": 6.33,
       "xA": 1.68,
@@ -29382,7 +29382,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1564,
+      "timesSelected": 1621,
       "avgPoints": 1.0,
       "ppm": 1.44,
       "xA": 0.0,
@@ -29635,7 +29635,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2021,
+      "timesSelected": 2030,
       "avgPoints": 2.5,
       "ppm": 10.0,
       "xA": 2.31,
@@ -30376,7 +30376,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16,
+      "timesSelected": 27,
       "avgPoints": 3.0,
       "ppm": 1.0,
       "xA": 0.01,
@@ -30478,7 +30478,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1844,
+      "timesSelected": 1852,
       "avgPoints": 1.2307692307692308,
       "ppm": 1.78,
       "xA": 0.62,
@@ -31090,7 +31090,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3296,
+      "timesSelected": 3302,
       "avgPoints": 3.2,
       "ppm": 8.0,
       "xA": 1.63,
@@ -32066,7 +32066,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 287,
+      "timesSelected": 292,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -32336,7 +32336,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1340,
+      "timesSelected": 1341,
       "avgPoints": 1.5454545454545454,
       "ppm": 4.86,
       "xA": 0.36,
@@ -32662,7 +32662,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2812,
+      "timesSelected": 2815,
       "avgPoints": 0.92,
       "ppm": 3.29,
       "xA": 1.67,
@@ -33021,7 +33021,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2828,
+      "timesSelected": 2830,
       "avgPoints": 1.5833333333333333,
       "ppm": 6.33,
       "xA": 1.46,
@@ -33369,7 +33369,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2758,
+      "timesSelected": 2761,
       "avgPoints": 1.6923076923076923,
       "ppm": 6.29,
       "xA": 3.06,
@@ -33869,7 +33869,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 916,
+      "timesSelected": 917,
       "avgPoints": 0.5555555555555556,
       "ppm": 2.0,
       "xA": 0.26,
@@ -34866,7 +34866,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 190,
+      "timesSelected": 191,
       "avgPoints": 1.0,
       "ppm": 2.86,
       "xA": 0.0,
@@ -35156,7 +35156,7 @@
       "injuredStatus": 1,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5307,
+      "timesSelected": 5308,
       "avgPoints": 2.0526315789473686,
       "ppm": 5.57,
       "xA": 2.06,
@@ -35449,7 +35449,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 93,
+      "timesSelected": 94,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -35511,7 +35511,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4145,
+      "timesSelected": 4147,
       "avgPoints": 1.2222222222222223,
       "ppm": 3.14,
       "xA": 0.85,
@@ -36178,7 +36178,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 132,
+      "timesSelected": 160,
       "avgPoints": 2.142857142857143,
       "ppm": 2.14,
       "xA": 0.0,
@@ -36497,7 +36497,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17,
+      "timesSelected": 18,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -36614,7 +36614,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 213,
+      "timesSelected": 218,
       "avgPoints": 2.0,
       "ppm": 0.75,
       "xA": 0.0,
@@ -36717,7 +36717,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 41,
+      "timesSelected": 61,
       "avgPoints": 3.25,
       "ppm": 1.86,
       "xA": 0.01,
@@ -36845,7 +36845,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5784,
+      "timesSelected": 5796,
       "avgPoints": 3.44,
       "ppm": 10.75,
       "xA": 3.08,
@@ -37189,7 +37189,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 273,
@@ -37372,7 +37372,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 274,
@@ -37398,7 +37398,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 275,
@@ -37413,7 +37413,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1791,
+      "timesSelected": 1792,
       "avgPoints": 0.4090909090909091,
       "ppm": 1.5,
       "xA": 0.22,
@@ -37724,7 +37724,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 276,
@@ -37750,7 +37750,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 277,
@@ -37776,7 +37776,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 278,
@@ -37802,7 +37802,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 279,
@@ -37817,7 +37817,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8276,
+      "timesSelected": 8285,
       "avgPoints": 0.96,
       "ppm": 3.43,
       "xA": 0.0,
@@ -38147,7 +38147,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 280,
@@ -38484,7 +38484,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 281,
@@ -38499,7 +38499,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 19118,
+      "timesSelected": 19134,
       "avgPoints": 3.9166666666666665,
       "ppm": 13.43,
       "xA": 4.59,
@@ -38832,7 +38832,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 282,
@@ -39166,7 +39166,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 283,
@@ -39192,7 +39192,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 284,
@@ -39218,7 +39218,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 285,
@@ -39522,7 +39522,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium",
+      "nextGameDifficulty": "easy",
       "isPenaltyTaker2": true,
       "penaltyRank": 2
     },
@@ -39550,7 +39550,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 287,
@@ -39565,7 +39565,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 343,
+      "timesSelected": 351,
       "avgPoints": 2.0,
       "ppm": 8.4,
       "xA": 0.66,
@@ -39865,7 +39865,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 288,
@@ -40026,7 +40026,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 289,
@@ -40041,7 +40041,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2242,
+      "timesSelected": 2248,
       "avgPoints": 0.8461538461538461,
       "ppm": 4.4,
       "xA": 0.62,
@@ -40396,7 +40396,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 290,
@@ -40422,7 +40422,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 291,
@@ -40437,7 +40437,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1241,
+      "timesSelected": 1242,
       "avgPoints": 0.8571428571428571,
       "ppm": 3.0,
       "xA": 0.18,
@@ -40737,7 +40737,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 292,
@@ -40763,7 +40763,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 293,
@@ -40778,7 +40778,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13369,
+      "timesSelected": 13395,
       "avgPoints": 1.7692307692307692,
       "ppm": 7.67,
       "xA": 0.0,
@@ -41133,7 +41133,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 294,
@@ -41159,7 +41159,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 295,
@@ -41174,7 +41174,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9492,
+      "timesSelected": 9508,
       "avgPoints": 2.2916666666666665,
       "ppm": 7.86,
       "xA": 1.55,
@@ -41507,7 +41507,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 296,
@@ -41533,7 +41533,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 297,
@@ -41848,7 +41848,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 298,
@@ -41987,7 +41987,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 299,
@@ -42013,7 +42013,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 300,
@@ -42039,7 +42039,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 301,
@@ -42065,7 +42065,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 302,
@@ -42080,7 +42080,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3946,
+      "timesSelected": 3953,
       "avgPoints": 2.9565217391304346,
       "ppm": 9.71,
       "xA": 3.29,
@@ -42402,7 +42402,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 303,
@@ -42428,7 +42428,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 304,
@@ -42597,7 +42597,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 305,
@@ -42623,7 +42623,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 306,
@@ -42927,7 +42927,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 307,
@@ -42953,7 +42953,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 308,
@@ -43092,7 +43092,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 309,
@@ -43107,7 +43107,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5205,
+      "timesSelected": 5207,
       "avgPoints": 0.3333333333333333,
       "ppm": 0.67,
       "xA": 0.01,
@@ -43242,7 +43242,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 310,
@@ -43381,7 +43381,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 311,
@@ -43407,7 +43407,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 312,
@@ -43612,7 +43612,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 313,
@@ -43869,7 +43869,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 314,
@@ -44206,7 +44206,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 315,
@@ -44221,7 +44221,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7937,
+      "timesSelected": 7939,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -44323,7 +44323,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 316,
@@ -44338,7 +44338,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 20057,
+      "timesSelected": 20079,
       "avgPoints": 3.739130434782609,
       "ppm": 10.75,
       "xA": 3.46,
@@ -44660,7 +44660,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium",
+      "nextGameDifficulty": "easy",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -44977,7 +44977,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 318,
@@ -44992,7 +44992,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8230,
+      "timesSelected": 8251,
       "avgPoints": 0.9,
       "ppm": 6.0,
       "xA": 0.49,
@@ -45281,7 +45281,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 319,
@@ -45596,7 +45596,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 320,
@@ -45611,7 +45611,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 59,
+      "timesSelected": 61,
       "avgPoints": 3.5,
       "ppm": 2.0,
       "xA": 0.02,
@@ -45724,7 +45724,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 321,
@@ -45739,7 +45739,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 92,
+      "timesSelected": 93,
       "avgPoints": 1.75,
       "ppm": 1.0,
       "xA": 0.22,
@@ -45852,7 +45852,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 322,
@@ -45954,7 +45954,7 @@
         }
       ],
       "nextGame": "מ.ס. אשדוד",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "easy"
     },
     {
       "id": 323,
@@ -46021,7 +46021,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 25158,
+      "timesSelected": 25164,
       "avgPoints": 2.9166666666666665,
       "ppm": 7.78,
       "xA": 4.74,
@@ -47128,11 +47128,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 40253,
+      "timesSelected": 40275,
       "avgPoints": 3.9545454545454546,
       "ppm": 8.7,
       "xA": 3.0,
-      "xGI": 4.93,
+      "xGI": 4.94,
       "sport5": {
         "totalPoints": 87,
         "minutesPlayed": 1836,
@@ -47166,7 +47166,7 @@
         "passes": 775
       },
       "scores365": {
-        "xG": 1.93,
+        "xG": 1.94,
         "xA": 3.0,
         "appearances": 22,
         "goals": 1,
@@ -47636,7 +47636,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6075,
+      "timesSelected": 6076,
       "avgPoints": 1.0416666666666667,
       "ppm": 3.12,
       "xA": 0.0,
@@ -47984,11 +47984,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 34671,
+      "timesSelected": 34702,
       "avgPoints": 4.6521739130434785,
       "ppm": 8.92,
-      "xA": 1.02,
-      "xGI": 9.86,
+      "xA": 1.01,
+      "xGI": 9.83,
       "sport5": {
         "totalPoints": 107,
         "minutesPlayed": 1917,
@@ -48022,8 +48022,8 @@
         "passes": 470
       },
       "scores365": {
-        "xG": 8.84,
-        "xA": 1.02,
+        "xG": 8.82,
+        "xA": 1.01,
         "appearances": 23,
         "goals": 11,
         "assists": 2,
@@ -48425,11 +48425,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6557,
+      "timesSelected": 6559,
       "avgPoints": 1.56,
       "ppm": 3.9,
       "xA": 0.74,
-      "xGI": 4.81,
+      "xGI": 4.84,
       "sport5": {
         "totalPoints": 39,
         "minutesPlayed": 785,
@@ -48463,7 +48463,7 @@
         "passes": 192
       },
       "scores365": {
-        "xG": 4.07,
+        "xG": 4.1,
         "xA": 0.74,
         "appearances": 18,
         "goals": 3,
@@ -49304,7 +49304,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7068,
+      "timesSelected": 7096,
       "avgPoints": 3.090909090909091,
       "ppm": 9.71,
       "xA": 1.81,
@@ -49632,11 +49632,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7672,
+      "timesSelected": 7691,
       "avgPoints": 3.6666666666666665,
       "ppm": 12.57,
-      "xA": 3.1,
-      "xGI": 8.4,
+      "xA": 3.17,
+      "xGI": 8.47,
       "sport5": {
         "totalPoints": 88,
         "minutesPlayed": 1320,
@@ -49671,7 +49671,7 @@
       },
       "scores365": {
         "xG": 5.3,
-        "xA": 3.1,
+        "xA": 3.17,
         "appearances": 24,
         "goals": 10,
         "assists": 2,
@@ -49679,7 +49679,7 @@
         "totalShots": 19,
         "shotsOnTarget": 14,
         "bigChancesCreated": 6,
-        "touches": 712,
+        "touches": 711,
         "minutesPlayed": 1319,
         "yellowCards": 1,
         "redCards": 1
@@ -50008,7 +50008,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11714,
+      "timesSelected": 11716,
       "avgPoints": 2.44,
       "ppm": 4.69,
       "xA": 4.61,
@@ -50393,11 +50393,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7318,
+      "timesSelected": 7319,
       "avgPoints": 1.894736842105263,
       "ppm": 4.0,
       "xA": 0.69,
-      "xGI": 1.61,
+      "xGI": 1.67,
       "sport5": {
         "totalPoints": 36,
         "minutesPlayed": 1278,
@@ -50431,7 +50431,7 @@
         "passes": 959
       },
       "scores365": {
-        "xG": 0.92,
+        "xG": 0.98,
         "xA": 0.69,
         "appearances": 18,
         "goals": 1,
@@ -51248,7 +51248,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6898,
+      "timesSelected": 6912,
       "avgPoints": 2.0526315789473686,
       "ppm": 7.8,
       "xA": 0.0,
@@ -51567,11 +51567,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9657,
+      "timesSelected": 9662,
       "avgPoints": 3.0,
       "ppm": 7.67,
-      "xA": 1.12,
-      "xGI": 1.48,
+      "xA": 1.11,
+      "xGI": 1.46,
       "sport5": {
         "totalPoints": 69,
         "minutesPlayed": 1985,
@@ -51605,8 +51605,8 @@
         "passes": 1134
       },
       "scores365": {
-        "xG": 0.36,
-        "xA": 1.12,
+        "xG": 0.35,
+        "xA": 1.11,
         "appearances": 23,
         "goals": 1,
         "assists": 1,
@@ -52855,11 +52855,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 766,
+      "timesSelected": 767,
       "avgPoints": 1.6818181818181819,
       "ppm": 4.11,
       "xA": 0.49,
-      "xGI": 0.94,
+      "xGI": 0.92,
       "sport5": {
         "totalPoints": 37,
         "minutesPlayed": 1248,
@@ -52893,7 +52893,7 @@
         "passes": 820
       },
       "scores365": {
-        "xG": 0.45,
+        "xG": 0.43,
         "xA": 0.49,
         "appearances": 17,
         "goals": 1,
@@ -53764,7 +53764,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1243,
+      "timesSelected": 1246,
       "avgPoints": 2.3181818181818183,
       "ppm": 3.64,
       "xA": 2.81,
@@ -54368,7 +54368,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1438,
+      "timesSelected": 1459,
       "avgPoints": 4.2,
       "ppm": 1.75,
       "xA": 0.37,
@@ -54507,7 +54507,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5132,
+      "timesSelected": 5139,
       "avgPoints": 1.8846153846153846,
       "ppm": 8.17,
       "xA": 1.11,
@@ -54862,7 +54862,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 384,
@@ -54888,7 +54888,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 385,
@@ -54903,7 +54903,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 997,
+      "timesSelected": 999,
       "avgPoints": 1.4285714285714286,
       "ppm": 2.22,
       "xA": 1.33,
@@ -55126,7 +55126,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 386,
@@ -55152,7 +55152,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 387,
@@ -55178,7 +55178,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 388,
@@ -55204,7 +55204,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 389,
@@ -55230,7 +55230,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 390,
@@ -55245,7 +55245,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4850,
+      "timesSelected": 4854,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -55256,7 +55256,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 391,
@@ -55282,7 +55282,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 392,
@@ -55308,7 +55308,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 393,
@@ -55334,7 +55334,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 394,
@@ -55360,7 +55360,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 395,
@@ -55386,7 +55386,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 396,
@@ -55401,7 +55401,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 471,
+      "timesSelected": 472,
       "avgPoints": 0.5454545454545454,
       "ppm": 2.4,
       "xA": 0.02,
@@ -55712,7 +55712,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 397,
@@ -55738,7 +55738,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 398,
@@ -55753,7 +55753,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9491,
+      "timesSelected": 9500,
       "avgPoints": 2.6538461538461537,
       "ppm": 11.5,
       "xA": 0.0,
@@ -56108,7 +56108,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 399,
@@ -56134,7 +56134,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 400,
@@ -56160,7 +56160,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 401,
@@ -56420,7 +56420,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 402,
@@ -56446,7 +56446,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 403,
@@ -56472,7 +56472,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 404,
@@ -56484,7 +56484,7 @@
       "price": 5000000,
       "shirtNumber": 13,
       "imageUrl": "https://www.sport5.co.il/Files/7/184967.png",
-      "injuredStatus": 0,
+      "injuredStatus": 1,
       "expelledStatus": 0,
       "missingStatus": 0,
       "timesSelected": 2349,
@@ -56798,7 +56798,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 405,
@@ -56813,7 +56813,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1356,
+      "timesSelected": 1357,
       "avgPoints": 2.05,
       "ppm": 8.2,
       "xA": 2.18,
@@ -57102,7 +57102,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 406,
@@ -57274,7 +57274,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 407,
@@ -57289,7 +57289,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4385,
+      "timesSelected": 4390,
       "avgPoints": 3.0454545454545454,
       "ppm": 8.38,
       "xA": 0.47,
@@ -57600,7 +57600,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 408,
@@ -57615,7 +57615,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3801,
+      "timesSelected": 3804,
       "avgPoints": 1.9166666666666667,
       "ppm": 7.67,
       "xA": 1.09,
@@ -57948,7 +57948,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 409,
@@ -57974,7 +57974,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 410,
@@ -58000,7 +58000,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 411,
@@ -58026,7 +58026,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 412,
@@ -58052,7 +58052,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 413,
@@ -58078,7 +58078,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 414,
@@ -58104,7 +58104,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 415,
@@ -58130,7 +58130,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 416,
@@ -58156,7 +58156,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 417,
@@ -58182,7 +58182,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 418,
@@ -58208,7 +58208,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 419,
@@ -58234,7 +58234,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 420,
@@ -58428,7 +58428,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 421,
@@ -58454,7 +58454,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 422,
@@ -58480,7 +58480,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 423,
@@ -58506,7 +58506,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 424,
@@ -58810,7 +58810,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 425,
@@ -58825,7 +58825,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 652,
+      "timesSelected": 653,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -59037,7 +59037,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 426,
@@ -59063,7 +59063,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 427,
@@ -59089,7 +59089,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 428,
@@ -59115,7 +59115,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 429,
@@ -59141,7 +59141,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 430,
@@ -59167,7 +59167,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 431,
@@ -59182,7 +59182,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1786,
+      "timesSelected": 1790,
       "avgPoints": 2.3333333333333335,
       "ppm": 8.17,
       "xA": 1.61,
@@ -59482,7 +59482,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 432,
@@ -59497,7 +59497,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1048,
+      "timesSelected": 1050,
       "avgPoints": 1.48,
       "ppm": 6.17,
       "xA": 2.01,
@@ -59841,7 +59841,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 433,
@@ -60065,7 +60065,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 434,
@@ -60080,7 +60080,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10747,
+      "timesSelected": 10755,
       "avgPoints": 2.8846153846153846,
       "ppm": 9.38,
       "xA": 2.12,
@@ -60435,7 +60435,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 435,
@@ -60450,7 +60450,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12908,
+      "timesSelected": 12927,
       "avgPoints": 2.8461538461538463,
       "ppm": 14.8,
       "xA": 0.96,
@@ -60805,7 +60805,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 436,
@@ -61120,7 +61120,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 437,
@@ -61135,7 +61135,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 724,
+      "timesSelected": 725,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -61325,7 +61325,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 438,
@@ -61340,7 +61340,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5735,
+      "timesSelected": 5770,
       "avgPoints": 3.125,
       "ppm": 18.75,
       "xA": 0.59,
@@ -61673,7 +61673,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 439,
@@ -61764,7 +61764,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 440,
@@ -61790,7 +61790,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 441,
@@ -62127,7 +62127,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 442,
@@ -62329,7 +62329,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 443,
@@ -62567,7 +62567,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 444,
@@ -62904,7 +62904,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -63042,7 +63042,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 446,
@@ -63057,7 +63057,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 254,
+      "timesSelected": 264,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 1.33,
@@ -63133,7 +63133,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 447,
@@ -63283,7 +63283,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 448,
@@ -63411,7 +63411,7 @@
         }
       ],
       "nextGame": "הפועל באר שבע",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 449,
@@ -63726,7 +63726,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 450,
@@ -63741,7 +63741,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2285,
+      "timesSelected": 2286,
       "avgPoints": 0.038461538461538464,
       "ppm": 0.25,
       "xA": 0.0,
@@ -64096,7 +64096,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 451,
@@ -64111,7 +64111,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1564,
+      "timesSelected": 1565,
       "avgPoints": 1.0952380952380953,
       "ppm": 2.56,
       "xA": 0.48,
@@ -64411,7 +64411,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard",
+      "nextGameDifficulty": "medium",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -64428,7 +64428,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1783,
+      "timesSelected": 1784,
       "avgPoints": 1.0,
       "ppm": 1.83,
       "xA": 0.0,
@@ -64604,7 +64604,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 453,
@@ -64630,7 +64630,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 454,
@@ -64780,7 +64780,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 455,
@@ -64806,7 +64806,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 456,
@@ -64832,7 +64832,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 457,
@@ -65136,7 +65136,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 458,
@@ -65297,7 +65297,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 459,
@@ -65323,7 +65323,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 460,
@@ -65349,7 +65349,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 461,
@@ -65375,7 +65375,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 462,
@@ -65401,7 +65401,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 463,
@@ -65427,7 +65427,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 464,
@@ -65453,7 +65453,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 465,
@@ -65479,7 +65479,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 466,
@@ -65505,7 +65505,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 467,
@@ -65531,7 +65531,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 468,
@@ -65557,7 +65557,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 469,
@@ -65894,7 +65894,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 470,
@@ -65920,7 +65920,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 471,
@@ -65946,7 +65946,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 472,
@@ -65961,7 +65961,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 435,
+      "timesSelected": 442,
       "avgPoints": 1.7619047619047619,
       "ppm": 6.17,
       "xA": 1.03,
@@ -66261,7 +66261,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 473,
@@ -66287,7 +66287,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 474,
@@ -66426,7 +66426,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 475,
@@ -66441,7 +66441,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 146,
+      "timesSelected": 147,
       "avgPoints": 1.0769230769230769,
       "ppm": 2.0,
       "xA": 0.0,
@@ -66653,7 +66653,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 476,
@@ -66679,7 +66679,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 477,
@@ -66829,7 +66829,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 478,
@@ -66855,7 +66855,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 479,
@@ -67192,7 +67192,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 480,
@@ -67207,7 +67207,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1373,
+      "timesSelected": 1376,
       "avgPoints": 2.32,
       "ppm": 9.67,
       "xA": 2.3,
@@ -67551,7 +67551,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 481,
@@ -67767,7 +67767,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 482,
@@ -67961,7 +67961,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 483,
@@ -67987,7 +67987,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 484,
@@ -68214,7 +68214,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 485,
@@ -68240,7 +68240,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 486,
@@ -68266,7 +68266,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 487,
@@ -68281,7 +68281,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2148,
+      "timesSelected": 2149,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -68292,7 +68292,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 488,
@@ -68318,7 +68318,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 489,
@@ -68344,7 +68344,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 490,
@@ -68516,7 +68516,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 491,
@@ -68542,7 +68542,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 492,
@@ -68557,7 +68557,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2077,
+      "timesSelected": 2085,
       "avgPoints": 0.6363636363636364,
       "ppm": 2.8,
       "xA": 0.17,
@@ -68868,7 +68868,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 493,
@@ -68894,7 +68894,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 494,
@@ -68920,7 +68920,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 495,
@@ -68935,7 +68935,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16334,
+      "timesSelected": 16341,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -68946,7 +68946,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 496,
@@ -68961,7 +68961,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5890,
+      "timesSelected": 5899,
       "avgPoints": 1.8846153846153846,
       "ppm": 8.17,
       "xA": 0.0,
@@ -69316,7 +69316,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 497,
@@ -69507,7 +69507,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 498,
@@ -69522,7 +69522,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 34954,
+      "timesSelected": 34991,
       "avgPoints": 3.75,
       "ppm": 11.25,
       "xA": 3.6,
@@ -69855,7 +69855,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 499,
@@ -69980,7 +69980,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 500,
@@ -69995,7 +69995,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10480,
+      "timesSelected": 10492,
       "avgPoints": 1.391304347826087,
       "ppm": 4.0,
       "xA": 0.16,
@@ -70317,7 +70317,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 501,
@@ -70607,7 +70607,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 502,
@@ -70622,7 +70622,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4852,
+      "timesSelected": 4867,
       "avgPoints": 2.0384615384615383,
       "ppm": 8.83,
       "xA": 0.0,
@@ -70963,7 +70963,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 503,
@@ -70989,7 +70989,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 504,
@@ -71004,7 +71004,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 988,
+      "timesSelected": 990,
       "avgPoints": 1.5789473684210527,
       "ppm": 7.5,
       "xA": 0.96,
@@ -71282,7 +71282,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 505,
@@ -71542,7 +71542,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 506,
@@ -71791,7 +71791,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 507,
@@ -71806,7 +71806,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2122,
+      "timesSelected": 2127,
       "avgPoints": 0.6,
       "ppm": 2.0,
       "xA": 0.0,
@@ -71971,7 +71971,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 508,
@@ -71986,7 +71986,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 351,
+      "timesSelected": 352,
       "avgPoints": 2.1578947368421053,
       "ppm": 5.86,
       "xA": 0.0,
@@ -72250,7 +72250,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 509,
@@ -72433,7 +72433,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 510,
@@ -72448,7 +72448,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1438,
+      "timesSelected": 1458,
       "avgPoints": 0.9285714285714286,
       "ppm": 4.33,
       "xA": 0.0,
@@ -72657,7 +72657,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 511,
@@ -72672,7 +72672,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 33,
+      "timesSelected": 34,
       "avgPoints": 0.6,
       "ppm": 1.0,
       "xA": 0.02,
@@ -72796,7 +72796,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 512,
@@ -72822,7 +72822,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 513,
@@ -72958,7 +72958,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 514,
@@ -73086,7 +73086,7 @@
         }
       ],
       "nextGame": "מכבי נתניה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 515,
@@ -73148,7 +73148,7 @@
         "totalShots": 4,
         "shotsOnTarget": 1,
         "bigChancesCreated": 2,
-        "touches": 475,
+        "touches": 472,
         "minutesPlayed": 881,
         "yellowCards": 4,
         "redCards": 0
@@ -73449,7 +73449,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16615,
+      "timesSelected": 16618,
       "avgPoints": 2.44,
       "ppm": 6.78,
       "xA": 2.4,
@@ -74244,7 +74244,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1173,
+      "timesSelected": 1176,
       "avgPoints": 1.7058823529411764,
       "ppm": 3.62,
       "xA": 1.49,
@@ -74671,7 +74671,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2440,
+      "timesSelected": 2443,
       "avgPoints": 1.7916666666666667,
       "ppm": 7.17,
       "xA": 0.96,
@@ -74718,7 +74718,7 @@
         "totalShots": 5,
         "shotsOnTarget": 1,
         "bigChancesCreated": 1,
-        "touches": 1047,
+        "touches": 1049,
         "minutesPlayed": 1779,
         "yellowCards": 2,
         "redCards": 0
@@ -75486,7 +75486,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17592,
+      "timesSelected": 17604,
       "avgPoints": 2.5384615384615383,
       "ppm": 11.0,
       "xA": 0.0,
@@ -76010,7 +76010,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 830,
+      "timesSelected": 832,
       "avgPoints": 1.8333333333333333,
       "ppm": 8.8,
       "xA": 0.44,
@@ -76057,7 +76057,7 @@
         "totalShots": 25,
         "shotsOnTarget": 10,
         "bigChancesCreated": 1,
-        "touches": 642,
+        "touches": 643,
         "minutesPlayed": 1543,
         "yellowCards": 6,
         "redCards": 1
@@ -76410,7 +76410,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7386,
+      "timesSelected": 7392,
       "avgPoints": 2.2916666666666665,
       "ppm": 9.17,
       "xA": 2.22,
@@ -76457,7 +76457,7 @@
         "totalShots": 1,
         "shotsOnTarget": 0,
         "bigChancesCreated": 3,
-        "touches": 1070,
+        "touches": 1071,
         "minutesPlayed": 1986,
         "yellowCards": 5,
         "redCards": 1
@@ -76938,11 +76938,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1150,
+      "timesSelected": 1151,
       "avgPoints": 1.375,
       "ppm": 4.71,
-      "xA": 1.85,
-      "xGI": 3.19,
+      "xA": 1.84,
+      "xGI": 3.18,
       "sport5": {
         "totalPoints": 33,
         "minutesPlayed": 1085,
@@ -76977,7 +76977,7 @@
       },
       "scores365": {
         "xG": 1.34,
-        "xA": 1.85,
+        "xA": 1.84,
         "appearances": 24,
         "goals": 0,
         "assists": 2,
@@ -77671,7 +77671,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3469,
+      "timesSelected": 3474,
       "avgPoints": 1.7692307692307692,
       "ppm": 9.2,
       "xA": 0.34,
@@ -78936,7 +78936,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13541,
+      "timesSelected": 13562,
       "avgPoints": 2.32,
       "ppm": 11.6,
       "xA": 1.49,
@@ -79607,7 +79607,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1852,
+      "timesSelected": 1856,
       "avgPoints": 1.0,
       "ppm": 2.75,
       "xA": 0.35,
@@ -79812,7 +79812,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3815,
+      "timesSelected": 3845,
       "avgPoints": 1.4444444444444444,
       "ppm": 6.5,
       "xA": 0.22,
@@ -80531,7 +80531,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6606,
+      "timesSelected": 6608,
       "avgPoints": 1.0,
       "ppm": 3.0,
       "xA": 0.02,
@@ -81032,7 +81032,7 @@
         "totalShots": 10,
         "shotsOnTarget": 4,
         "bigChancesCreated": 0,
-        "touches": 535,
+        "touches": 537,
         "minutesPlayed": 1046,
         "yellowCards": 3,
         "redCards": 0
@@ -81212,7 +81212,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 159,
+      "timesSelected": 165,
       "avgPoints": 1.6666666666666667,
       "ppm": 1.67,
       "xA": 0.0,
@@ -81315,7 +81315,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 1,
-      "timesSelected": 1035,
+      "timesSelected": 1040,
       "avgPoints": 2.857142857142857,
       "ppm": 2.5,
       "xA": 0.64,
@@ -81362,7 +81362,7 @@
         "totalShots": 12,
         "shotsOnTarget": 5,
         "bigChancesCreated": 1,
-        "touches": 203,
+        "touches": 204,
         "minutesPlayed": 541,
         "yellowCards": 1,
         "redCards": 0
@@ -81648,7 +81648,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 573,
@@ -81663,11 +81663,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12808,
+      "timesSelected": 12861,
       "avgPoints": 4.0588235294117645,
       "ppm": 5.75,
       "xA": 0.9,
-      "xGI": 9.85,
+      "xGI": 10.15,
       "sport5": {
         "totalPoints": 69,
         "minutesPlayed": 1072,
@@ -81701,7 +81701,7 @@
         "passes": 89
       },
       "scores365": {
-        "xG": 8.95,
+        "xG": 9.25,
         "xA": 0.9,
         "appearances": 15,
         "goals": 9,
@@ -81710,7 +81710,7 @@
         "totalShots": 31,
         "shotsOnTarget": 16,
         "bigChancesCreated": 2,
-        "touches": 211,
+        "touches": 210,
         "minutesPlayed": 1092,
         "yellowCards": 0,
         "redCards": 0
@@ -81919,7 +81919,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 574,
@@ -81934,11 +81934,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9913,
+      "timesSelected": 9922,
       "avgPoints": 3.0,
       "ppm": 8.57,
-      "xA": 3.5,
-      "xGI": 6.55,
+      "xA": 3.64,
+      "xGI": 6.77,
       "sport5": {
         "totalPoints": 60,
         "minutesPlayed": 1609,
@@ -81972,8 +81972,8 @@
         "passes": 573
       },
       "scores365": {
-        "xG": 3.05,
-        "xA": 3.5,
+        "xG": 3.13,
+        "xA": 3.64,
         "appearances": 20,
         "goals": 3,
         "assists": 4,
@@ -81981,7 +81981,7 @@
         "totalShots": 30,
         "shotsOnTarget": 16,
         "bigChancesCreated": 7,
-        "touches": 888,
+        "touches": 887,
         "minutesPlayed": 1608,
         "yellowCards": 4,
         "redCards": 0
@@ -82223,7 +82223,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 575,
@@ -82483,7 +82483,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 576,
@@ -82831,7 +82831,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 577,
@@ -82850,7 +82850,7 @@
       "avgPoints": 2.2222222222222223,
       "ppm": 5.71,
       "xA": 2.58,
-      "xGI": 5.54,
+      "xGI": 5.57,
       "sport5": {
         "totalPoints": 40,
         "minutesPlayed": 772,
@@ -82884,7 +82884,7 @@
         "passes": 266
       },
       "scores365": {
-        "xG": 2.96,
+        "xG": 2.99,
         "xA": 2.58,
         "appearances": 16,
         "goals": 2,
@@ -83113,7 +83113,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 578,
@@ -83128,20 +83128,20 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17218,
-      "avgPoints": 2.8846153846153846,
-      "ppm": 9.38,
-      "xA": 1.02,
-      "xGI": 1.84,
+      "timesSelected": 17235,
+      "avgPoints": 2.8461538461538463,
+      "ppm": 9.25,
+      "xA": 1.08,
+      "xGI": 1.91,
       "sport5": {
-        "totalPoints": 75,
+        "totalPoints": 74,
         "minutesPlayed": 2054,
         "goals": 4,
         "goalsPoints": 21,
         "assists": 3,
         "assistsPoints": 9,
-        "yellowCards": 2,
-        "yellowCardsPoints": -2,
+        "yellowCards": 3,
+        "yellowCardsPoints": -3,
         "redCards": 0,
         "openLineup": 22,
         "substituteIn": 2,
@@ -83166,8 +83166,8 @@
         "passes": 645
       },
       "scores365": {
-        "xG": 0.82,
-        "xA": 1.02,
+        "xG": 0.83,
+        "xA": 1.08,
         "appearances": 24,
         "goals": 4,
         "assists": 3,
@@ -83460,7 +83460,7 @@
           "round": 26,
           "opponent": "הפועל קרית שמונה",
           "opponentId": 197,
-          "points": 8,
+          "points": 7,
           "goals": 0,
           "assists": 2,
           "isHome": true,
@@ -83475,7 +83475,7 @@
         },
         {
           "name": "הפועל קרית שמונה",
-          "points": 15
+          "points": 14
         },
         {
           "name": "בני סכנין",
@@ -83483,7 +83483,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 579,
@@ -83611,7 +83611,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 580,
@@ -83637,7 +83637,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 581,
@@ -83663,7 +83663,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 582,
@@ -83689,7 +83689,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 583,
@@ -83715,7 +83715,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 584,
@@ -83741,7 +83741,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 585,
@@ -83767,7 +83767,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 586,
@@ -84016,7 +84016,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 587,
@@ -84031,7 +84031,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 21938,
+      "timesSelected": 21942,
       "avgPoints": 3.55,
       "ppm": 7.89,
       "xA": 1.36,
@@ -84320,7 +84320,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 588,
@@ -84346,7 +84346,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 589,
@@ -84372,7 +84372,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 590,
@@ -84387,7 +84387,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6441,
+      "timesSelected": 6443,
       "avgPoints": 1.5416666666666667,
       "ppm": 4.62,
       "xA": 0.38,
@@ -84720,7 +84720,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 591,
@@ -84735,7 +84735,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 831,
+      "timesSelected": 833,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -84746,7 +84746,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 592,
@@ -84772,7 +84772,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 593,
@@ -85142,7 +85142,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 594,
@@ -85358,7 +85358,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 595,
@@ -85384,7 +85384,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 596,
@@ -85410,7 +85410,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 597,
@@ -85436,7 +85436,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 598,
@@ -85696,7 +85696,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 599,
@@ -85722,7 +85722,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 600,
@@ -85960,7 +85960,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 601,
@@ -86275,7 +86275,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -86303,7 +86303,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 603,
@@ -86329,7 +86329,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 604,
@@ -86355,7 +86355,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 605,
@@ -86370,11 +86370,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16813,
+      "timesSelected": 16826,
       "avgPoints": 3.28,
       "ppm": 9.11,
-      "xA": 2.54,
-      "xGI": 3.06,
+      "xA": 2.64,
+      "xGI": 3.16,
       "sport5": {
         "totalPoints": 82,
         "minutesPlayed": 2177,
@@ -86409,7 +86409,7 @@
       },
       "scores365": {
         "xG": 0.52,
-        "xA": 2.54,
+        "xA": 2.64,
         "appearances": 25,
         "goals": 0,
         "assists": 2,
@@ -86417,7 +86417,7 @@
         "totalShots": 6,
         "shotsOnTarget": 4,
         "bigChancesCreated": 3,
-        "touches": 1747,
+        "touches": 1748,
         "minutesPlayed": 2177,
         "yellowCards": 3,
         "redCards": 1
@@ -86714,7 +86714,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 606,
@@ -86740,7 +86740,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 607,
@@ -86755,11 +86755,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 13742,
+      "timesSelected": 13748,
       "avgPoints": 3.1363636363636362,
       "ppm": 9.86,
       "xA": 1.35,
-      "xGI": 4.79,
+      "xGI": 4.78,
       "sport5": {
         "totalPoints": 69,
         "minutesPlayed": 1003,
@@ -86793,7 +86793,7 @@
         "passes": 444
       },
       "scores365": {
-        "xG": 3.44,
+        "xG": 3.43,
         "xA": 1.35,
         "appearances": 20,
         "goals": 4,
@@ -86802,7 +86802,7 @@
         "totalShots": 17,
         "shotsOnTarget": 11,
         "bigChancesCreated": 6,
-        "touches": 698,
+        "touches": 699,
         "minutesPlayed": 1002,
         "yellowCards": 2,
         "redCards": 0
@@ -87066,7 +87066,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 608,
@@ -87092,7 +87092,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 609,
@@ -87179,7 +87179,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 610,
@@ -87205,7 +87205,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 611,
@@ -87231,7 +87231,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 612,
@@ -87257,7 +87257,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 613,
@@ -87272,7 +87272,7 @@
       "injuredStatus": 1,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2440,
+      "timesSelected": 2445,
       "avgPoints": 2.375,
       "ppm": 6.33,
       "xA": 0.24,
@@ -87429,7 +87429,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 614,
@@ -87455,7 +87455,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 615,
@@ -87481,7 +87481,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 616,
@@ -87500,7 +87500,7 @@
       "avgPoints": 1.6,
       "ppm": 4.44,
       "xA": 0.98,
-      "xGI": 2.24,
+      "xGI": 2.23,
       "sport5": {
         "totalPoints": 40,
         "minutesPlayed": 697,
@@ -87534,7 +87534,7 @@
         "passes": 148
       },
       "scores365": {
-        "xG": 1.26,
+        "xG": 1.25,
         "xA": 0.98,
         "appearances": 22,
         "goals": 2,
@@ -87840,7 +87840,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 617,
@@ -87866,7 +87866,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 618,
@@ -87892,7 +87892,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 619,
@@ -88229,7 +88229,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 620,
@@ -88255,7 +88255,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 621,
@@ -88342,7 +88342,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 622,
@@ -88635,7 +88635,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 623,
@@ -88661,7 +88661,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 624,
@@ -88723,7 +88723,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 625,
@@ -88799,7 +88799,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 626,
@@ -88825,7 +88825,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 627,
@@ -88851,7 +88851,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 628,
@@ -88877,7 +88877,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 629,
@@ -88892,11 +88892,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 5392,
+      "timesSelected": 5395,
       "avgPoints": 3.1666666666666665,
       "ppm": 6.91,
-      "xA": 3.74,
-      "xGI": 6.86,
+      "xA": 3.78,
+      "xGI": 6.91,
       "sport5": {
         "totalPoints": 76,
         "minutesPlayed": 1517,
@@ -88930,8 +88930,8 @@
         "passes": 493
       },
       "scores365": {
-        "xG": 3.12,
-        "xA": 3.74,
+        "xG": 3.13,
+        "xA": 3.78,
         "appearances": 24,
         "goals": 4,
         "assists": 6,
@@ -88939,7 +88939,7 @@
         "totalShots": 28,
         "shotsOnTarget": 16,
         "bigChancesCreated": 8,
-        "touches": 810,
+        "touches": 809,
         "minutesPlayed": 1515,
         "yellowCards": 4,
         "redCards": 0
@@ -89225,7 +89225,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 630,
@@ -89240,7 +89240,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 17941,
+      "timesSelected": 17947,
       "avgPoints": 2.72,
       "ppm": 7.56,
       "xA": 0.0,
@@ -89287,7 +89287,7 @@
         "totalShots": 0,
         "shotsOnTarget": 0,
         "bigChancesCreated": 0,
-        "touches": 832,
+        "touches": 833,
         "minutesPlayed": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -89584,7 +89584,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 631,
@@ -89921,7 +89921,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker2": true,
       "penaltyRank": 2
     },
@@ -90260,7 +90260,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 633,
@@ -90275,11 +90275,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3370,
+      "timesSelected": 3375,
       "avgPoints": 2.0,
       "ppm": 5.33,
       "xA": 1.22,
-      "xGI": 2.19,
+      "xGI": 2.29,
       "sport5": {
         "totalPoints": 32,
         "minutesPlayed": 816,
@@ -90313,7 +90313,7 @@
         "passes": 420
       },
       "scores365": {
-        "xG": 0.97,
+        "xG": 1.07,
         "xA": 1.22,
         "appearances": 14,
         "goals": 0,
@@ -90322,7 +90322,7 @@
         "totalShots": 4,
         "shotsOnTarget": 1,
         "bigChancesCreated": 1,
-        "touches": 641,
+        "touches": 642,
         "minutesPlayed": 816,
         "yellowCards": 2,
         "redCards": 0
@@ -90520,7 +90520,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 634,
@@ -90659,7 +90659,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 635,
@@ -90674,7 +90674,7 @@
       "injuredStatus": 0,
       "expelledStatus": 1,
       "missingStatus": 0,
-      "timesSelected": 838,
+      "timesSelected": 856,
       "avgPoints": 1.625,
       "ppm": 4.33,
       "xA": 2.14,
@@ -90831,7 +90831,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 636,
@@ -90846,7 +90846,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 342,
+      "timesSelected": 356,
       "avgPoints": 1.8,
       "ppm": 3.0,
       "xA": 0.01,
@@ -90970,7 +90970,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 637,
@@ -90996,7 +90996,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 638,
@@ -91121,7 +91121,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 639,
@@ -91136,11 +91136,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1964,
+      "timesSelected": 1985,
       "avgPoints": 4.0,
       "ppm": 1.54,
       "xA": 1.31,
-      "xGI": 2.55,
+      "xGI": 2.51,
       "sport5": {
         "totalPoints": 20,
         "minutesPlayed": 331,
@@ -91174,7 +91174,7 @@
         "passes": 181
       },
       "scores365": {
-        "xG": 1.24,
+        "xG": 1.2,
         "xA": 1.31,
         "appearances": 5,
         "goals": 1,
@@ -91183,7 +91183,7 @@
         "totalShots": 14,
         "shotsOnTarget": 7,
         "bigChancesCreated": 2,
-        "touches": 301,
+        "touches": 300,
         "minutesPlayed": 332,
         "yellowCards": 0,
         "redCards": 0
@@ -91260,7 +91260,7 @@
         }
       ],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 640,
@@ -91286,7 +91286,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "בית\"ר ירושלים",
-      "nextGameDifficulty": "medium"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 641,
@@ -91312,7 +91312,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 642,
@@ -91327,7 +91327,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6302,
+      "timesSelected": 6320,
       "avgPoints": 0.7692307692307693,
       "ppm": 6.67,
       "xA": 0.0,
@@ -91682,7 +91682,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 643,
@@ -91697,7 +91697,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3466,
+      "timesSelected": 3467,
       "avgPoints": 1.7391304347826086,
       "ppm": 5.0,
       "xA": 2.12,
@@ -92019,7 +92019,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 644,
@@ -92334,7 +92334,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 645,
@@ -92349,7 +92349,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 211,
+      "timesSelected": 212,
       "avgPoints": 0.7,
       "ppm": 2.8,
       "xA": 0.48,
@@ -92638,7 +92638,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 646,
@@ -92961,7 +92961,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 647,
@@ -93199,7 +93199,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard",
+      "nextGameDifficulty": "medium",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -93340,7 +93340,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 649,
@@ -93366,7 +93366,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 650,
@@ -93725,7 +93725,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 651,
@@ -93751,7 +93751,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 652,
@@ -93777,7 +93777,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 653,
@@ -93803,7 +93803,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 654,
@@ -94118,7 +94118,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 655,
@@ -94144,7 +94144,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 656,
@@ -94170,7 +94170,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 657,
@@ -94196,7 +94196,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 658,
@@ -94313,7 +94313,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 659,
@@ -94339,7 +94339,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 660,
@@ -94365,7 +94365,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 661,
@@ -94391,7 +94391,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 662,
@@ -94417,7 +94417,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 663,
@@ -94443,7 +94443,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 664,
@@ -94469,7 +94469,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 665,
@@ -94495,7 +94495,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 666,
@@ -94521,7 +94521,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 667,
@@ -94547,7 +94547,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 668,
@@ -94573,7 +94573,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 669,
@@ -94599,7 +94599,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 670,
@@ -94625,7 +94625,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 671,
@@ -94651,7 +94651,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 672,
@@ -94677,7 +94677,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 673,
@@ -94703,7 +94703,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 674,
@@ -94729,7 +94729,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 675,
@@ -94755,7 +94755,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 676,
@@ -95092,7 +95092,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 677,
@@ -95440,7 +95440,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 678,
@@ -95466,7 +95466,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 679,
@@ -95492,7 +95492,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 680,
@@ -95518,7 +95518,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 681,
@@ -95544,7 +95544,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 682,
@@ -95559,7 +95559,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1018,
+      "timesSelected": 1019,
       "avgPoints": 1.8333333333333333,
       "ppm": 6.29,
       "xA": 0.86,
@@ -95892,7 +95892,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 683,
@@ -95918,7 +95918,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 684,
@@ -96076,7 +96076,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 685,
@@ -96091,7 +96091,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1480,
+      "timesSelected": 1481,
       "avgPoints": 0.8181818181818182,
       "ppm": 2.57,
       "xA": 0.05,
@@ -96402,7 +96402,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 686,
@@ -96428,7 +96428,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 687,
@@ -96454,7 +96454,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 688,
@@ -96802,7 +96802,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 689,
@@ -96817,7 +96817,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6594,
+      "timesSelected": 6600,
       "avgPoints": 0.25,
       "ppm": 1.33,
       "xA": 0.0,
@@ -97062,7 +97062,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 690,
@@ -97088,7 +97088,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 691,
@@ -97103,7 +97103,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4967,
+      "timesSelected": 4974,
       "avgPoints": 0.125,
       "ppm": 0.33,
       "xA": 0.0,
@@ -97246,7 +97246,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 692,
@@ -97550,7 +97550,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 693,
@@ -97821,7 +97821,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 694,
@@ -98089,7 +98089,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 695,
@@ -98104,7 +98104,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4602,
+      "timesSelected": 4603,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -98239,7 +98239,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 696,
@@ -98598,7 +98598,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 697,
@@ -98613,7 +98613,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3592,
+      "timesSelected": 3604,
       "avgPoints": 0.5384615384615384,
       "ppm": 3.5,
       "xA": 0.04,
@@ -98968,7 +98968,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 698,
@@ -98994,7 +98994,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 699,
@@ -99331,7 +99331,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 700,
@@ -99407,7 +99407,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 701,
@@ -99686,7 +99686,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 702,
@@ -99921,7 +99921,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 703,
@@ -99997,7 +99997,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 704,
@@ -100059,7 +100059,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 705,
@@ -100187,7 +100187,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 706,
@@ -100315,7 +100315,7 @@
         }
       ],
       "nextGame": "הפועל חיפה",
-      "nextGameDifficulty": "hard"
+      "nextGameDifficulty": "medium"
     },
     {
       "id": 707,
@@ -100330,11 +100330,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 11040,
+      "timesSelected": 11081,
       "avgPoints": 3.5,
       "ppm": 12.0,
-      "xA": 3.09,
-      "xGI": 5.14,
+      "xA": 3.03,
+      "xGI": 5.08,
       "sport5": {
         "totalPoints": 84,
         "minutesPlayed": 1725,
@@ -100369,7 +100369,7 @@
       },
       "scores365": {
         "xG": 2.05,
-        "xA": 3.09,
+        "xA": 3.03,
         "appearances": 20,
         "goals": 4,
         "assists": 3,
@@ -100663,7 +100663,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 708,
@@ -100678,11 +100678,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 216,
+      "timesSelected": 218,
       "avgPoints": 3.25,
       "ppm": 4.33,
       "xA": 1.08,
-      "xGI": 1.63,
+      "xGI": 1.59,
       "sport5": {
         "totalPoints": 26,
         "minutesPlayed": 717,
@@ -100716,7 +100716,7 @@
         "passes": 404
       },
       "scores365": {
-        "xG": 0.55,
+        "xG": 0.51,
         "xA": 1.08,
         "appearances": 8,
         "goals": 1,
@@ -100835,7 +100835,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 709,
@@ -100861,7 +100861,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 710,
@@ -100887,7 +100887,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 711,
@@ -101169,7 +101169,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 712,
@@ -101484,7 +101484,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 713,
@@ -101510,7 +101510,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 714,
@@ -101536,7 +101536,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 715,
@@ -101862,7 +101862,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 716,
@@ -102188,7 +102188,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 717,
@@ -102393,7 +102393,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 718,
@@ -102408,11 +102408,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 542,
+      "timesSelected": 547,
       "avgPoints": 1.7916666666666667,
       "ppm": 6.14,
       "xA": 1.62,
-      "xGI": 3.13,
+      "xGI": 3.08,
       "sport5": {
         "totalPoints": 43,
         "minutesPlayed": 516,
@@ -102446,7 +102446,7 @@
         "passes": 429
       },
       "scores365": {
-        "xG": 1.51,
+        "xG": 1.46,
         "xA": 1.62,
         "appearances": 21,
         "goals": 3,
@@ -102741,7 +102741,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 719,
@@ -103023,7 +103023,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 720,
@@ -103049,7 +103049,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 721,
@@ -103075,7 +103075,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 722,
@@ -103101,7 +103101,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 723,
@@ -103438,7 +103438,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 724,
@@ -103453,7 +103453,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 9821,
+      "timesSelected": 9824,
       "avgPoints": 2.5,
       "ppm": 7.5,
       "xA": 0.0,
@@ -103786,7 +103786,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 725,
@@ -103812,7 +103812,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 726,
@@ -103838,7 +103838,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 727,
@@ -103864,7 +103864,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 728,
@@ -103890,7 +103890,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 729,
@@ -103916,7 +103916,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 730,
@@ -103931,7 +103931,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 10313,
+      "timesSelected": 10320,
       "avgPoints": 2.6153846153846154,
       "ppm": 7.56,
       "xA": 1.85,
@@ -104286,7 +104286,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 731,
@@ -104612,7 +104612,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 732,
@@ -104627,7 +104627,7 @@
       "injuredStatus": 0,
       "expelledStatus": 1,
       "missingStatus": 0,
-      "timesSelected": 21089,
+      "timesSelected": 21194,
       "avgPoints": 5.086956521739131,
       "ppm": 7.8,
       "xA": 7.44,
@@ -104949,7 +104949,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker2": true,
       "penaltyRank": 2
     },
@@ -104977,7 +104977,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 734,
@@ -104992,7 +104992,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4311,
+      "timesSelected": 4315,
       "avgPoints": 2.076923076923077,
       "ppm": 5.4,
       "xA": 2.96,
@@ -105038,7 +105038,7 @@
         "penaltyGoals": 0,
         "totalShots": 5,
         "shotsOnTarget": 3,
-        "bigChancesCreated": 3,
+        "bigChancesCreated": 4,
         "touches": 1108,
         "minutesPlayed": 1484,
         "yellowCards": 2,
@@ -105347,7 +105347,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 735,
@@ -105373,7 +105373,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 736,
@@ -105399,7 +105399,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 737,
@@ -105425,7 +105425,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 738,
@@ -105451,7 +105451,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 739,
@@ -105477,7 +105477,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 740,
@@ -105503,7 +105503,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 741,
@@ -105529,7 +105529,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 742,
@@ -105544,11 +105544,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3135,
+      "timesSelected": 3136,
       "avgPoints": 1.3846153846153846,
       "ppm": 4.0,
       "xA": 0.85,
-      "xGI": 4.12,
+      "xGI": 4.26,
       "sport5": {
         "totalPoints": 36,
         "minutesPlayed": 435,
@@ -105582,7 +105582,7 @@
         "passes": 113
       },
       "scores365": {
-        "xG": 3.27,
+        "xG": 3.41,
         "xA": 0.85,
         "appearances": 23,
         "goals": 3,
@@ -105591,7 +105591,7 @@
         "totalShots": 14,
         "shotsOnTarget": 7,
         "bigChancesCreated": 5,
-        "touches": 181,
+        "touches": 184,
         "minutesPlayed": 428,
         "yellowCards": 1,
         "redCards": 0
@@ -105899,7 +105899,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 743,
@@ -105925,7 +105925,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 744,
@@ -105951,7 +105951,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 745,
@@ -105977,7 +105977,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 746,
@@ -106003,7 +106003,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 747,
@@ -106029,7 +106029,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 748,
@@ -106055,7 +106055,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 749,
@@ -106081,7 +106081,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 750,
@@ -106107,7 +106107,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 751,
@@ -106133,7 +106133,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 752,
@@ -106159,7 +106159,7 @@
       "games": [],
       "topOpponents": [],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 753,
@@ -106174,11 +106174,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 51083,
+      "timesSelected": 51244,
       "avgPoints": 4.636363636363637,
       "ppm": 7.29,
-      "xA": 4.95,
-      "xGI": 14.55,
+      "xA": 4.97,
+      "xGI": 14.57,
       "sport5": {
         "totalPoints": 102,
         "minutesPlayed": 1699,
@@ -106213,7 +106213,7 @@
       },
       "scores365": {
         "xG": 9.6,
-        "xA": 4.95,
+        "xA": 4.97,
         "appearances": 22,
         "goals": 10,
         "assists": 6,
@@ -106221,7 +106221,7 @@
         "totalShots": 58,
         "shotsOnTarget": 35,
         "bigChancesCreated": 10,
-        "touches": 1031,
+        "touches": 1028,
         "minutesPlayed": 1696,
         "yellowCards": 6,
         "redCards": 0
@@ -106485,7 +106485,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy",
+      "nextGameDifficulty": "hard",
       "isPenaltyTaker": true,
       "penaltyRank": 1
     },
@@ -106563,7 +106563,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 755,
@@ -106639,7 +106639,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 756,
@@ -106654,11 +106654,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16408,
+      "timesSelected": 16413,
       "avgPoints": 3.1739130434782608,
       "ppm": 7.3,
-      "xA": 1.3,
-      "xGI": 6.23,
+      "xA": 1.29,
+      "xGI": 6.24,
       "sport5": {
         "totalPoints": 73,
         "minutesPlayed": 1581,
@@ -106692,8 +106692,8 @@
         "passes": 373
       },
       "scores365": {
-        "xG": 4.93,
-        "xA": 1.3,
+        "xG": 4.95,
+        "xA": 1.29,
         "appearances": 23,
         "goals": 6,
         "assists": 3,
@@ -106701,7 +106701,7 @@
         "totalShots": 40,
         "shotsOnTarget": 18,
         "bigChancesCreated": 4,
-        "touches": 733,
+        "touches": 731,
         "minutesPlayed": 1581,
         "yellowCards": 1,
         "redCards": 0
@@ -106976,7 +106976,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 757,
@@ -106991,7 +106991,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3437,
+      "timesSelected": 3442,
       "avgPoints": 2.2083333333333335,
       "ppm": 6.62,
       "xA": 0.0,
@@ -107310,7 +107310,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 758,
@@ -107325,7 +107325,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 376,
+      "timesSelected": 377,
       "avgPoints": 0.3076923076923077,
       "ppm": 2.0,
       "xA": 0.0,
@@ -107680,7 +107680,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 759,
@@ -108006,7 +108006,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 760,
@@ -108021,11 +108021,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2816,
+      "timesSelected": 2836,
       "avgPoints": 2.772727272727273,
       "ppm": 7.62,
-      "xA": 0.51,
-      "xGI": 2.92,
+      "xA": 0.5,
+      "xGI": 2.91,
       "sport5": {
         "totalPoints": 61,
         "minutesPlayed": 1769,
@@ -108060,7 +108060,7 @@
       },
       "scores365": {
         "xG": 2.41,
-        "xA": 0.51,
+        "xA": 0.5,
         "appearances": 21,
         "goals": 1,
         "assists": 1,
@@ -108068,7 +108068,7 @@
         "totalShots": 18,
         "shotsOnTarget": 4,
         "bigChancesCreated": 1,
-        "touches": 1853,
+        "touches": 1851,
         "minutesPlayed": 1770,
         "yellowCards": 7,
         "redCards": 0
@@ -108332,7 +108332,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 761,
@@ -108408,7 +108408,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 762,
@@ -108423,7 +108423,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1191,
+      "timesSelected": 1209,
       "avgPoints": 4.4,
       "ppm": 2.2,
       "xA": 0.0,
@@ -108533,7 +108533,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 763,
@@ -108548,7 +108548,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 906,
+      "timesSelected": 909,
       "avgPoints": 4.0,
       "ppm": 2.0,
       "xA": 0.69,
@@ -108661,7 +108661,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 764,
@@ -108737,7 +108737,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 765,
@@ -108854,7 +108854,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 766,
@@ -108945,7 +108945,7 @@
         }
       ],
       "nextGame": "מכבי חיפה",
-      "nextGameDifficulty": "easy"
+      "nextGameDifficulty": "hard"
     },
     {
       "id": 767,
@@ -108960,7 +108960,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 29,
+      "timesSelected": 30,
       "avgPoints": 1.0769230769230769,
       "ppm": 3.5,
       "xA": 0.62,
@@ -109187,7 +109187,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8778,
+      "timesSelected": 8796,
       "avgPoints": 2.0384615384615383,
       "ppm": 7.57,
       "xA": 2.11,
@@ -109938,7 +109938,7 @@
         "totalShots": 12,
         "shotsOnTarget": 5,
         "bigChancesCreated": 1,
-        "touches": 305,
+        "touches": 306,
         "minutesPlayed": 699,
         "yellowCards": 6,
         "redCards": 1
@@ -110466,7 +110466,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3180,
+      "timesSelected": 3194,
       "avgPoints": 1.9583333333333333,
       "ppm": 7.83,
       "xA": 0.26,
@@ -110814,7 +110814,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 12455,
+      "timesSelected": 12480,
       "avgPoints": 1.6923076923076923,
       "ppm": 7.33,
       "xA": 0.0,
@@ -110861,7 +110861,7 @@
         "totalShots": 0,
         "shotsOnTarget": 0,
         "bigChancesCreated": 0,
-        "touches": 1009,
+        "touches": 1010,
         "minutesPlayed": 0,
         "yellowCards": 0,
         "redCards": 0
@@ -111647,20 +111647,20 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6214,
-      "avgPoints": 1.8333333333333333,
-      "ppm": 7.33,
+      "timesSelected": 6220,
+      "avgPoints": 1.7916666666666667,
+      "ppm": 7.17,
       "xA": 0.0,
       "xGI": 0.79,
       "sport5": {
-        "totalPoints": 44,
+        "totalPoints": 43,
         "minutesPlayed": 2145,
         "goals": 0,
         "goalsPoints": 0,
         "assists": 2,
         "assistsPoints": 6,
-        "yellowCards": 8,
-        "yellowCardsPoints": -8,
+        "yellowCards": 9,
+        "yellowCardsPoints": -9,
         "redCards": 0,
         "openLineup": 24,
         "substituteIn": 0,
@@ -111943,7 +111943,7 @@
           "round": 26,
           "opponent": "מכבי חיפה",
           "opponentId": 138,
-          "points": -1,
+          "points": -2,
           "goals": 0,
           "assists": 0,
           "isHome": false,
@@ -112007,7 +112007,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 689,
+      "timesSelected": 693,
       "avgPoints": 0.9230769230769231,
       "ppm": 4.8,
       "xA": 0.32,
@@ -112788,11 +112788,11 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 645,
+      "timesSelected": 651,
       "avgPoints": 2.1538461538461537,
       "ppm": 11.2,
-      "xA": 1.57,
-      "xGI": 3.17,
+      "xA": 1.68,
+      "xGI": 3.28,
       "sport5": {
         "totalPoints": 56,
         "minutesPlayed": 1027,
@@ -112827,7 +112827,7 @@
       },
       "scores365": {
         "xG": 1.6,
-        "xA": 1.57,
+        "xA": 1.68,
         "appearances": 26,
         "goals": 4,
         "assists": 2,
@@ -113158,7 +113158,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 4886,
+      "timesSelected": 4914,
       "avgPoints": 3.6923076923076925,
       "ppm": 16.0,
       "xA": 2.92,
@@ -113556,7 +113556,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1464,
+      "timesSelected": 1466,
       "avgPoints": 2.0555555555555554,
       "ppm": 6.17,
       "xA": 0.83,
@@ -114077,7 +114077,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1223,
+      "timesSelected": 1225,
       "avgPoints": 2.28,
       "ppm": 9.5,
       "xA": 3.53,
@@ -114124,7 +114124,7 @@
         "totalShots": 17,
         "shotsOnTarget": 9,
         "bigChancesCreated": 4,
-        "touches": 1511,
+        "touches": 1512,
         "minutesPlayed": 1966,
         "yellowCards": 5,
         "redCards": 0
@@ -114438,7 +114438,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 14475,
+      "timesSelected": 14477,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -115914,7 +115914,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 26643,
+      "timesSelected": 26769,
       "avgPoints": 4.208333333333333,
       "ppm": 11.22,
       "xA": 0.0,
@@ -116453,7 +116453,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 257,
+      "timesSelected": 258,
       "avgPoints": 1.7727272727272727,
       "ppm": 5.57,
       "xA": 0.74,
@@ -116779,7 +116779,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 30,
+      "timesSelected": 31,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -117138,7 +117138,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3916,
+      "timesSelected": 3923,
       "avgPoints": 1.5416666666666667,
       "ppm": 9.25,
       "xA": 0.48,
@@ -117486,7 +117486,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 787,
+      "timesSelected": 788,
       "avgPoints": 1.7142857142857142,
       "ppm": 7.2,
       "xA": 0.5,
@@ -117853,7 +117853,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 7799,
+      "timesSelected": 7804,
       "avgPoints": 3.0476190476190474,
       "ppm": 8.0,
       "xA": 1.36,
@@ -118552,7 +118552,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 6902,
+      "timesSelected": 6916,
       "avgPoints": 1.9230769230769231,
       "ppm": 10.0,
       "xA": 1.01,
@@ -118922,7 +118922,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 252,
+      "timesSelected": 253,
       "avgPoints": 2.0869565217391304,
       "ppm": 8.0,
       "xA": 1.03,
@@ -119259,7 +119259,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3800,
+      "timesSelected": 3802,
       "avgPoints": 1.0869565217391304,
       "ppm": 4.17,
       "xA": 0.44,
@@ -120278,7 +120278,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 3690,
+      "timesSelected": 3691,
       "avgPoints": 1.7307692307692308,
       "ppm": 5.62,
       "xA": 0.33,
@@ -120702,7 +120702,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 455,
+      "timesSelected": 457,
       "avgPoints": 0.9090909090909091,
       "ppm": 4.0,
       "xA": 0.48,
@@ -121028,7 +121028,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 8226,
+      "timesSelected": 8250,
       "avgPoints": 4.095238095238095,
       "ppm": 9.56,
       "xA": 3.48,
@@ -121343,7 +121343,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2623,
+      "timesSelected": 2640,
       "avgPoints": 2.4285714285714284,
       "ppm": 10.2,
       "xA": 1.5,
@@ -121684,7 +121684,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2329,
+      "timesSelected": 2331,
       "avgPoints": 1.4615384615384615,
       "ppm": 6.33,
       "xA": 3.69,
@@ -122396,7 +122396,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 2243,
+      "timesSelected": 2244,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,
@@ -124165,7 +124165,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 566,
+      "timesSelected": 567,
       "avgPoints": 0.4090909090909091,
       "ppm": 1.8,
       "xA": 0.23,
@@ -124491,7 +124491,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 16906,
+      "timesSelected": 16956,
       "avgPoints": 0.8846153846153846,
       "ppm": 7.67,
       "xA": 0.0,
@@ -125531,7 +125531,7 @@
       "injuredStatus": 0,
       "expelledStatus": 0,
       "missingStatus": 0,
-      "timesSelected": 1002,
+      "timesSelected": 1007,
       "avgPoints": 0.0,
       "ppm": 0.0,
       "xA": 0.0,

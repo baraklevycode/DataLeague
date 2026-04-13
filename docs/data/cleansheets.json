@@ -1,4 +1,93 @@
 {
-  "scrapedAt": "2026-04-12T21:19:45.001672+00:00",
-  "games": []
+  "scrapedAt": "2026-04-13T21:35:54.804520+00:00",
+  "games": [
+    {
+      "homeTeam": "Bnei Yehuda",
+      "awayTeam": "Hapoel Kiryat Yam",
+      "gameId": "27984673",
+      "homeCleanSheetPct": 35.8,
+      "awayCleanSheetPct": 29.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Acre",
+      "awayTeam": "Hapoel Kfar Shalem",
+      "gameId": "27984670",
+      "homeCleanSheetPct": 28.2,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Afula",
+      "awayTeam": "Hapoel Nof HaGalil",
+      "gameId": "27984676",
+      "homeCleanSheetPct": 34.8,
+      "awayCleanSheetPct": 39.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Hadera",
+      "awayTeam": "Hapoel Kfar Saba",
+      "gameId": "27965788",
+      "homeCleanSheetPct": 27.9,
+      "awayCleanSheetPct": 35.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Raanana",
+      "awayTeam": "Ironi Modi'in",
+      "gameId": "27965725",
+      "homeCleanSheetPct": 32.9,
+      "awayCleanSheetPct": 34.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Kafr Qasem",
+      "awayTeam": "Hapoel Ramat Gan",
+      "gameId": "27984664",
+      "homeCleanSheetPct": 32.9,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Maccabi Kabilio Jaffa",
+      "awayTeam": "Hapoel Rishon LeZion",
+      "gameId": "27984661",
+      "homeCleanSheetPct": 25.6,
+      "awayCleanSheetPct": 32.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Maccabi Petah Tikva",
+      "awayTeam": "Maccabi Herzliya",
+      "gameId": "27984667",
+      "homeCleanSheetPct": 45.9,
+      "awayCleanSheetPct": 17.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Kfar Saba",
+      "awayTeam": "Hapoel Acre",
+      "gameId": "27982216",
+      "homeCleanSheetPct": 36.9,
+      "awayCleanSheetPct": 27.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Ramat Gan",
+      "awayTeam": "Hapoel Hadera",
+      "gameId": "27982204",
+      "homeCleanSheetPct": 38.5,
+      "awayCleanSheetPct": 22.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Rishon LeZion",
+      "awayTeam": "Maccabi Petah Tikva",
+      "gameId": "27982256",
+      "homeCleanSheetPct": 21.1,
+      "awayCleanSheetPct": 44.6,
+      "noData": false
+    }
+  ]
 }
