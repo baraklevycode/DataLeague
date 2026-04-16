@@ -536,7 +536,11 @@ function teamsStatsTable() {
                 if (teamPlayers[p.teamId]) teamPlayers[p.teamId].push(p);
             }
 
-            // Precompute round → teamId → { xG, shots }
+            // Precompute round → teamId → { xG, shots }.
+            // Prefer the per-round teamId supplied by the backend (the team the
+            // player actually played for in that round); fall back to the
+            // player's current team only when missing. This prevents a
+            // transferee's pre-transfer xG from being credited to their new club.
             const roundTeamXG = {};
             const roundTeamShots = {};
             for (const [rndKey, rndData] of Object.entries(rounds)) {
@@ -544,10 +548,10 @@ function teamsStatsTable() {
                 roundTeamXG[rnd] = {};
                 roundTeamShots[rnd] = {};
                 for (const [pid, pstats] of Object.entries(rndData.players || {})) {
-                    const teamId = playerTeam[parseInt(pid)];
-                    if (!teamId) continue;
                     const fc = pstats.footballCoIl;
                     if (!fc) continue;
+                    const teamId = fc.teamId || playerTeam[parseInt(pid)];
+                    if (!teamId) continue;
                     roundTeamXG[rnd][teamId] = (roundTeamXG[rnd][teamId] || 0) + (fc.expectedGoals || 0);
                     roundTeamShots[rnd][teamId] = (roundTeamShots[rnd][teamId] || 0) + (fc.shotAttempts || 0);
                 }

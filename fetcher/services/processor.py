@@ -502,7 +502,10 @@ class DataProcessor:
                 standings=standings_data,
                 playerIds=player_ids,
             )
-            # Build game-by-game history for this team
+            # Build game-by-game history for this team.
+            # Note: walkover/forfeit matches (e.g., technical losses awarded without the
+            # match being played) will not appear here because they produce no per-player
+            # gameStats. The standings block (from 365Scores) still counts them correctly.
             team_games: list[dict] = []
             seen_rounds: set[int] = set()
             for mp in self.matched_players:
@@ -512,6 +515,8 @@ class DataProcessor:
                 if not detail:
                     continue
                 for gs in detail.gameStats:
+                    if gs.playerTeamId != tm.sport5_id:
+                        continue
                     seq_round = round_map.get(gs.roundId, 0)
                     if seq_round == 0 or seq_round in seen_rounds:
                         continue
@@ -592,12 +597,20 @@ class DataProcessor:
                     "cleanSheets": sd.CleanGames.Count,
                 }
 
-                # FC round data
+                # FC round data. The FC row carries the team the player actually
+                # played for in this round, which can differ from their current
+                # team when the player transferred mid-season. We propagate that
+                # team's internal id so the frontend can attribute per-round xG
+                # to the correct team for team-level aggregates.
                 fc_round_data = None
                 if fc_pid and fc_pid in self._fc_round_by_pid:
                     fc_row = self._fc_round_by_pid[fc_pid].get(seq_round)
                     if fc_row:
+                        fc_team_internal = self.fc_team_id_map.get(
+                            int(fc_row.get("teamId", 0) or 0)
+                        )
                         fc_round_data = {
+                            "teamId": fc_team_internal,
                             "expectedGoals": _fval(fc_row, "expectedGoals"),
                             "goals": int(_fval(fc_row, "Goal")),
                             "assists": int(_fval(fc_row, "Assist")),
