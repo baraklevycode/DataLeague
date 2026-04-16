@@ -60,6 +60,51 @@ def _parse_penalty_goals(goals_val: str) -> int:
     return int(m.group(1)) if m else 0
 
 
+def parse_recent_form(detailed_recent_form: list[dict], cid: int) -> list[int]:
+    """Convert 365Scores ``detailedRecentForm`` entries into our internal form
+    encoding ``1 = Win, 2 = Draw, 0 = Loss`` for competitor id ``cid``.
+
+    The per-competitor ``outcome`` field is 365Scores' native signal, but they
+    have started returning ``-1`` for every competitor; fall back to comparing
+    the two ``score`` values (most reliable) and then to the game-level
+    ``winner`` flag (1 = home won, 2 = away won).
+    """
+    form: list[int] = []
+    for f in detailed_recent_form or []:
+        home = f.get("homeCompetitor") or {}
+        away = f.get("awayCompetitor") or {}
+        if home.get("id") != cid and away.get("id") != cid:
+            continue
+        self_is_home = home.get("id") == cid
+        self_c = home if self_is_home else away
+
+        outcome = self_c.get("outcome", 0) or 0
+        if outcome in (1, 2, 3):
+            form.append({1: 1, 2: 2, 3: 0}[outcome])
+            continue
+
+        home_score = home.get("score")
+        away_score = away.get("score")
+        if home_score is not None and away_score is not None:
+            if home_score == away_score:
+                form.append(2)
+            elif (self_is_home and home_score > away_score) or \
+                 (not self_is_home and away_score > home_score):
+                form.append(1)
+            else:
+                form.append(0)
+            continue
+
+        winner = f.get("winner")
+        if winner in (1, 2):
+            won = (self_is_home and winner == 1) or \
+                  (not self_is_home and winner == 2)
+            form.append(1 if won else 0)
+        else:
+            form.append(0)
+    return form
+
+
 class Scores365Client:
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
@@ -101,16 +146,8 @@ class Scores365Client:
         for comp in data.get("standings", []):
             for row in comp.get("rows", []):
                 competitor = row.get("competitor", {})
-                form: list[int] = []
-                for f in row.get("detailedRecentForm", []):
-                    home = f.get("homeCompetitor", {})
-                    away = f.get("awayCompetitor", {})
-                    cid = competitor.get("id", 0)
-                    if home.get("id") == cid:
-                        outcome = home.get("outcome", 0)
-                    else:
-                        outcome = away.get("outcome", 0)
-                    form.append({1: 1, 2: 2, 3: 0}.get(outcome, 0))
+                cid = competitor.get("id", 0)
+                form = parse_recent_form(row.get("detailedRecentForm", []), cid)
 
                 rows.append(Scores365StandingRow(
                     competitor_id=competitor.get("id", 0),
