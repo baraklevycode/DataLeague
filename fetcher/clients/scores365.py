@@ -60,6 +60,45 @@ def _parse_penalty_goals(goals_val: str) -> int:
     return int(m.group(1)) if m else 0
 
 
+def parse_standings(data: dict) -> list[Scores365StandingRow]:
+    """Convert a raw 365Scores ``/standings`` response into our standing rows.
+
+    When the league is in the regular season the API returns a single group
+    of N rows already numbered 1..N. After the regular season ends 365Scores
+    splits the table into playoff groups (e.g., Championship + Relegation),
+    each restarting at position 1. We flatten the groups in their API order
+    and overwrite the per-group ``position`` with the overall 1..N index so
+    the UI always shows the real standing.
+    """
+    raw_rows: list[tuple[dict, int]] = []
+    for comp in data.get("standings", []) or []:
+        for row in comp.get("rows", []) or []:
+            group_num = row.get("groupNum", 1) or 1
+            raw_rows.append((row, group_num))
+    raw_rows.sort(key=lambda rg: (rg[1], rg[0].get("position", 0)))
+
+    rows: list[Scores365StandingRow] = []
+    for overall_idx, (row, _group) in enumerate(raw_rows, start=1):
+        competitor = row.get("competitor", {})
+        cid = competitor.get("id", 0)
+        form = parse_recent_form(row.get("detailedRecentForm", []), cid)
+
+        rows.append(Scores365StandingRow(
+            competitor_id=competitor.get("id", 0),
+            competitor_name=competitor.get("name", ""),
+            position=overall_idx,
+            played=row.get("gamePlayed", 0),
+            won=row.get("gamesWon", 0),
+            drawn=row.get("gamesEven", 0),
+            lost=row.get("gamesLost", 0),
+            goals_for=row.get("for", 0),
+            goals_against=row.get("against", 0),
+            points=int(row.get("points", 0)),
+            recent_form=form[-5:] if form else [],
+        ))
+    return rows
+
+
 def parse_recent_form(detailed_recent_form: list[dict], cid: int) -> list[int]:
     """Convert 365Scores ``detailedRecentForm`` entries into our internal form
     encoding ``1 = Win, 2 = Draw, 0 = Loss`` for competitor id ``cid``.
@@ -141,27 +180,7 @@ class Scores365Client:
         )
         resp.raise_for_status()
         data = resp.json()
-
-        rows: list[Scores365StandingRow] = []
-        for comp in data.get("standings", []):
-            for row in comp.get("rows", []):
-                competitor = row.get("competitor", {})
-                cid = competitor.get("id", 0)
-                form = parse_recent_form(row.get("detailedRecentForm", []), cid)
-
-                rows.append(Scores365StandingRow(
-                    competitor_id=competitor.get("id", 0),
-                    competitor_name=competitor.get("name", ""),
-                    position=row.get("position", 0),
-                    played=row.get("gamePlayed", 0),
-                    won=row.get("gamesWon", 0),
-                    drawn=row.get("gamesEven", 0),
-                    lost=row.get("gamesLost", 0),
-                    goals_for=row.get("for", 0),
-                    goals_against=row.get("against", 0),
-                    points=int(row.get("points", 0)),
-                    recent_form=form[-5:] if form else [],
-                ))
+        rows = parse_standings(data)
         logger.info("Fetched standings for %d teams", len(rows))
         return rows
 
