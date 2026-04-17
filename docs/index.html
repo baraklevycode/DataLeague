@@ -578,18 +578,23 @@
             <div x-show="teamsTab==='stats'" x-data="teamsStatsTable()" x-init="init()">
                 <!-- Filters -->
                 <div class="bg-white dark:bg-gray-800 rounded-lg shadow p-4 mb-4">
-                    <div class="flex flex-wrap gap-6 items-end">
-                        <div>
-                            <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1">מחזור</label>
-                            <div class="flex items-center gap-2">
-                                <input type="number" x-model.number="roundMin" :min="1" :max="roundMax"
-                                       class="border dark:border-gray-600 dark:bg-gray-700 rounded px-2 py-1 text-sm w-16">
-                                <span class="text-gray-400">—</span>
-                                <input type="number" x-model.number="roundMax" :min="roundMin" :max="currentMaxRound"
-                                       class="border dark:border-gray-600 dark:bg-gray-700 rounded px-2 py-1 text-sm w-16">
+                    <div class="flex flex-wrap gap-4 items-start">
+                        <div class="flex-1 min-w-0">
+                            <div class="flex items-center justify-between mb-1">
+                                <label class="text-xs text-gray-500 dark:text-gray-400">מחזורים</label>
+                                <button x-show="selectedRounds.length > 0" @click="clearRounds()"
+                                        class="text-xs text-blue-600 hover:underline">הכל</button>
+                            </div>
+                            <div class="flex flex-wrap gap-1">
+                                <template x-for="r in availableRounds" :key="r">
+                                    <button @click="toggleRound(r)"
+                                            :class="selectedRounds.includes(r) ? 'bg-blue-600 text-white' : 'bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-600'"
+                                            class="px-2 py-0.5 text-xs rounded transition"
+                                            x-text="r"></button>
+                                </template>
                             </div>
                         </div>
-                        <div>
+                        <div class="shrink-0">
                             <label class="block text-xs text-gray-500 dark:text-gray-400 mb-1">משחקים</label>
                             <div class="flex gap-3">
                                 <label class="flex items-center gap-1 text-sm cursor-pointer">
@@ -620,18 +625,20 @@
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGA')">xGA <span x-text="sortArrow('xGA')"></span></th>
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGADiff')">הפרש xGA <span x-text="sortArrow('xGADiff')"></span></th>
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('cleanSheets')">שער נקי <span x-text="sortArrow('cleanSheets')"></span></th>
+                                <th class="px-3 py-2 w-6"></th>
                             </tr>
                         </thead>
                         <tbody>
                             <template x-for="s in teamStats()" :key="s.id">
                                 <tr class="border-t dark:border-gray-700 hover:bg-blue-50 dark:hover:bg-blue-900/30 cursor-pointer"
-                                    @click="window.location.hash = '#/teams/' + s.id">
+                                    :class="expandedTeamId === s.id ? 'bg-blue-50 dark:bg-blue-900/30' : ''"
+                                    @click="toggleTeam(s.id)">
                                     <td class="px-3 py-2 font-medium sticky right-0 bg-white dark:bg-gray-800">
                                         <div class="flex items-center gap-2">
                                             <template x-if="s.logoUrl">
                                                 <img :src="s.logoUrl" class="w-6 h-6 object-contain">
                                             </template>
-                                            <span x-text="s.name"></span>
+                                            <a :href="'#/teams/' + s.id" @click.stop class="hover:underline" x-text="s.name"></a>
                                         </div>
                                     </td>
                                     <td class="px-3 py-2 text-center font-semibold" x-text="s.goalsFor"></td>
@@ -646,11 +653,52 @@
                                         :class="s.xGADiff < -0.5 ? 'text-green-600' : s.xGADiff > 0.5 ? 'text-red-600' : 'text-gray-500'"
                                         x-text="(s.xGADiff > 0 ? '+' : '') + s.xGADiff.toFixed(2)"></td>
                                     <td class="px-3 py-2 text-center font-semibold" x-text="s.cleanSheets"></td>
+                                    <td class="px-3 py-2 text-center text-gray-400 text-xs" x-text="expandedTeamId === s.id ? '▲' : '▼'"></td>
                                 </tr>
                             </template>
                         </tbody>
                     </table>
                 </div>
+
+                <!-- Per-fixture breakdown panel (shown below table when a team row is clicked) -->
+                <template x-if="expandedTeamId !== null">
+                    <div class="mt-3 bg-white dark:bg-gray-800 rounded-lg shadow p-4">
+                        <div class="flex items-center justify-between mb-3">
+                            <h3 class="font-semibold text-sm"
+                                x-text="(teamStats().find(s => s.id === expandedTeamId) || {}).name + ' — משחקים'"></h3>
+                            <button @click="expandedTeamId = null"
+                                    class="text-gray-400 hover:text-gray-600 dark:hover:text-gray-200 text-xl leading-none">&times;</button>
+                        </div>
+                        <div class="overflow-x-auto">
+                            <table class="w-full text-xs">
+                                <thead>
+                                    <tr class="text-gray-500 dark:text-gray-400 font-semibold border-b dark:border-gray-700">
+                                        <th class="px-2 py-1 text-right">מחזור</th>
+                                        <th class="px-2 py-1 text-right">יריב</th>
+                                        <th class="px-2 py-1 text-center">מ/ב</th>
+                                        <th class="px-2 py-1 text-center">תוצאה</th>
+                                        <th class="px-2 py-1 text-center">xG</th>
+                                        <th class="px-2 py-1 text-center">xGA</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <template x-for="f in teamFixtures(expandedTeamId)" :key="f.round">
+                                        <tr class="border-t border-gray-100 dark:border-gray-700">
+                                            <td class="px-2 py-1.5 font-medium" x-text="'מ' + f.round"></td>
+                                            <td class="px-2 py-1.5" x-text="f.opponentName"></td>
+                                            <td class="px-2 py-1.5 text-center" x-text="f.isHome ? 'בית' : 'חוץ'"></td>
+                                            <td class="px-2 py-1.5 text-center font-bold"
+                                                :class="f.won ? 'text-green-600' : f.draw ? 'text-yellow-600' : 'text-red-600'"
+                                                x-text="f.goalsFor + ':' + f.goalsAgainst"></td>
+                                            <td class="px-2 py-1.5 text-center" x-text="f.xG.toFixed(2)"></td>
+                                            <td class="px-2 py-1.5 text-center" x-text="f.xGA.toFixed(2)"></td>
+                                        </tr>
+                                    </template>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </template>
             </div><!-- /stats tab -->
 
         </div>

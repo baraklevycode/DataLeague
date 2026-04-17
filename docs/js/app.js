@@ -484,25 +484,30 @@ function playerDetail() {
 
 function teamsStatsTable() {
     return {
-        roundMin: 1,
-        roundMax: 99,
+        selectedRounds: [],
         homeAwayFilter: 'all',
         sortKey: 'goalsFor',
         sortDesc: true,
+        expandedTeamId: null,
 
-        get currentMaxRound() {
-            const meta = Alpine.store('data').meta;
-            return (meta && meta.currentRound) || 26;
+        get availableRounds() {
+            return Object.keys(Alpine.store('data').rounds || {}).map(Number).sort((a, b) => a - b);
         },
 
-        init() {
-            const self = this;
-            Alpine.effect(() => {
-                const meta = Alpine.store('data').meta;
-                if (meta && meta.currentRound && self.roundMax === 99) {
-                    self.roundMax = meta.currentRound;
-                }
-            });
+        init() {},
+
+        toggleRound(r) {
+            const idx = this.selectedRounds.indexOf(r);
+            if (idx === -1) this.selectedRounds.push(r);
+            else this.selectedRounds.splice(idx, 1);
+        },
+
+        clearRounds() {
+            this.selectedRounds = [];
+        },
+
+        toggleTeam(id) {
+            this.expandedTeamId = this.expandedTeamId === id ? null : id;
         },
 
         setSort(key) {
@@ -515,13 +520,36 @@ function teamsStatsTable() {
             return this.sortDesc ? '↓' : '↑';
         },
 
+        _buildRoundTeamXG() {
+            const store = Alpine.store('data');
+            const rounds = store.rounds || {};
+            const playerTeam = {};
+            for (const p of store.players) playerTeam[p.id] = p.teamId;
+
+            const roundTeamXG = {};
+            const roundTeamShots = {};
+            for (const [rndKey, rndData] of Object.entries(rounds)) {
+                const rnd = parseInt(rndKey);
+                roundTeamXG[rnd] = {};
+                roundTeamShots[rnd] = {};
+                for (const [pid, pstats] of Object.entries(rndData.players || {})) {
+                    const fc = pstats.footballCoIl;
+                    if (!fc) continue;
+                    const teamId = fc.teamId || playerTeam[parseInt(pid)];
+                    if (!teamId) continue;
+                    roundTeamXG[rnd][teamId] = (roundTeamXG[rnd][teamId] || 0) + (fc.expectedGoals || 0);
+                    roundTeamShots[rnd][teamId] = (roundTeamShots[rnd][teamId] || 0) + (fc.shotAttempts || 0);
+                }
+            }
+            return { roundTeamXG, roundTeamShots };
+        },
+
         teamStats() {
             const store = Alpine.store('data');
             if (!store.loaded) return [];
 
             const teams = store.teams;
             const players = store.players;
-            const rounds = store.rounds || {};
 
             // Build player → teamId map, team → players map, sport5Id → internalId map
             const playerTeam = {};
@@ -541,23 +569,8 @@ function teamsStatsTable() {
             // player actually played for in that round); fall back to the
             // player's current team only when missing. This prevents a
             // transferee's pre-transfer xG from being credited to their new club.
-            const roundTeamXG = {};
-            const roundTeamShots = {};
-            for (const [rndKey, rndData] of Object.entries(rounds)) {
-                const rnd = parseInt(rndKey);
-                roundTeamXG[rnd] = {};
-                roundTeamShots[rnd] = {};
-                for (const [pid, pstats] of Object.entries(rndData.players || {})) {
-                    const fc = pstats.footballCoIl;
-                    if (!fc) continue;
-                    const teamId = fc.teamId || playerTeam[parseInt(pid)];
-                    if (!teamId) continue;
-                    roundTeamXG[rnd][teamId] = (roundTeamXG[rnd][teamId] || 0) + (fc.expectedGoals || 0);
-                    roundTeamShots[rnd][teamId] = (roundTeamShots[rnd][teamId] || 0) + (fc.shotAttempts || 0);
-                }
-            }
-
-            const effectiveMax = Math.min(this.roundMax, this.currentMaxRound);
+            const { roundTeamXG, roundTeamShots } = this._buildRoundTeamXG();
+            const activeRounds = this.selectedRounds.length > 0 ? new Set(this.selectedRounds) : null;
             const result = [];
 
             for (const t of teams) {
@@ -582,7 +595,7 @@ function teamsStatsTable() {
                 }
 
                 const filteredGames = games.filter(g => {
-                    if (g.round < this.roundMin || g.round > effectiveMax) return false;
+                    if (activeRounds && !activeRounds.has(g.round)) return false;
                     if (this.homeAwayFilter === 'home' && !g.isHome) return false;
                     if (this.homeAwayFilter === 'away' && g.isHome) return false;
                     return true;
@@ -626,6 +639,43 @@ function teamsStatsTable() {
             const key = this.sortKey;
             result.sort((a, b) => dir * ((a[key] ?? 0) - (b[key] ?? 0)));
             return result;
+        },
+
+        teamFixtures(teamId) {
+            const store = Alpine.store('data');
+            const t = store.teams.find(t => t.id === teamId);
+            if (!t || !t.games) return [];
+
+            const { roundTeamXG } = this._buildRoundTeamXG();
+            const teamsMap = {};
+            for (const team of store.teams) teamsMap[team.id] = team;
+
+            const activeRounds = this.selectedRounds.length > 0 ? new Set(this.selectedRounds) : null;
+
+            return t.games
+                .filter(g => {
+                    if (activeRounds && !activeRounds.has(g.round)) return false;
+                    if (this.homeAwayFilter === 'home' && !g.isHome) return false;
+                    if (this.homeAwayFilter === 'away' && g.isHome) return false;
+                    return true;
+                })
+                .sort((a, b) => a.round - b.round)
+                .map(g => {
+                    const opp = teamsMap[g.opponentId];
+                    const rndXG = roundTeamXG[g.round] || {};
+                    const xG = Math.round((rndXG[teamId] || 0) * 100) / 100;
+                    const xGA = Math.round((rndXG[g.opponentId] || 0) * 100) / 100;
+                    return {
+                        round: g.round,
+                        isHome: g.isHome,
+                        opponentName: opp ? opp.name : '?',
+                        goalsFor: g.goalsFor,
+                        goalsAgainst: g.goalsAgainst,
+                        xG, xGA,
+                        won: g.goalsFor > g.goalsAgainst,
+                        draw: g.goalsFor === g.goalsAgainst,
+                    };
+                });
         }
     };
 }
