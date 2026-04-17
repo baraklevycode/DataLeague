@@ -602,7 +602,7 @@ function teamsStatsTable() {
                 });
 
                 let goalsFor = 0, goalsAgainst = 0, cleanSheets = 0;
-                let xG = 0, xGA = 0, shotAttempts = 0;
+                let xG = 0, xGC = 0, shotAttempts = 0;
 
                 for (const g of filteredGames) {
                     goalsFor += g.goalsFor;
@@ -611,7 +611,7 @@ function teamsStatsTable() {
                     const rndXG = roundTeamXG[g.round] || {};
                     const rndShots = roundTeamShots[g.round] || {};
                     xG += rndXG[t.id] || 0;
-                    xGA += rndXG[g.opponentId] || 0;
+                    xGC += rndXG[g.opponentId] || 0;
                     shotAttempts += rndShots[t.id] || 0;
                 }
 
@@ -623,15 +623,15 @@ function teamsStatsTable() {
                 }
 
                 xG = Math.round(xG * 100) / 100;
-                xGA = Math.round(xGA * 100) / 100;
+                xGC = Math.round(xGC * 100) / 100;
                 const xGDiff = Math.round((goalsFor - xG) * 100) / 100;
-                const xGADiff = Math.round((goalsAgainst - xGA) * 100) / 100;
+                const xGCDiff = Math.round((goalsAgainst - xGC) * 100) / 100;
 
                 result.push({
                     id: t.id, name: t.name, logoUrl: t.logoUrl,
                     gamesPlayed: filteredGames.length,
                     goalsFor, goalsAgainst, cleanSheets,
-                    shotAttempts, xG, xGA, xGDiff, xGADiff,
+                    shotAttempts, xG, xGC, xGDiff, xGCDiff,
                 });
             }
 
@@ -664,14 +664,14 @@ function teamsStatsTable() {
                     const opp = teamsMap[g.opponentId];
                     const rndXG = roundTeamXG[g.round] || {};
                     const xG = Math.round((rndXG[teamId] || 0) * 100) / 100;
-                    const xGA = Math.round((rndXG[g.opponentId] || 0) * 100) / 100;
+                    const xGC = Math.round((rndXG[g.opponentId] || 0) * 100) / 100;
                     return {
                         round: g.round,
                         isHome: g.isHome,
                         opponentName: opp ? opp.name : '?',
                         goalsFor: g.goalsFor,
                         goalsAgainst: g.goalsAgainst,
-                        xG, xGA,
+                        xG, xGC,
                         won: g.goalsFor > g.goalsAgainst,
                         draw: g.goalsFor === g.goalsAgainst,
                     };

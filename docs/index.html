@@ -622,8 +622,8 @@
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xG')">xG <span x-text="sortArrow('xG')"></span></th>
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGDiff')">הפרש xG <span x-text="sortArrow('xGDiff')"></span></th>
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('goalsAgainst')">שערי חובה <span x-text="sortArrow('goalsAgainst')"></span></th>
-                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGA')">xGA <span x-text="sortArrow('xGA')"></span></th>
-                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGADiff')">הפרש xGA <span x-text="sortArrow('xGADiff')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGC')">xGC <span x-text="sortArrow('xGC')"></span></th>
+                                <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('xGCDiff')">הפרש xGC <span x-text="sortArrow('xGCDiff')"></span></th>
                                 <th class="px-3 py-2 text-center cursor-pointer hover:text-blue-600 whitespace-nowrap" @click="setSort('cleanSheets')">שער נקי <span x-text="sortArrow('cleanSheets')"></span></th>
                                 <th class="px-3 py-2 w-6"></th>
                             </tr>
@@ -648,10 +648,10 @@
                                         :class="s.xGDiff > 0.5 ? 'text-green-600' : s.xGDiff < -0.5 ? 'text-red-600' : 'text-gray-500'"
                                         x-text="(s.xGDiff > 0 ? '+' : '') + s.xGDiff.toFixed(2)"></td>
                                     <td class="px-3 py-2 text-center font-semibold" x-text="s.goalsAgainst"></td>
-                                    <td class="px-3 py-2 text-center" x-text="s.xGA.toFixed(2)"></td>
+                                    <td class="px-3 py-2 text-center" x-text="s.xGC.toFixed(2)"></td>
                                     <td class="px-3 py-2 text-center font-medium"
-                                        :class="s.xGADiff < -0.5 ? 'text-green-600' : s.xGADiff > 0.5 ? 'text-red-600' : 'text-gray-500'"
-                                        x-text="(s.xGADiff > 0 ? '+' : '') + s.xGADiff.toFixed(2)"></td>
+                                        :class="s.xGCDiff < -0.5 ? 'text-green-600' : s.xGCDiff > 0.5 ? 'text-red-600' : 'text-gray-500'"
+                                        x-text="(s.xGCDiff > 0 ? '+' : '') + s.xGCDiff.toFixed(2)"></td>
                                     <td class="px-3 py-2 text-center font-semibold" x-text="s.cleanSheets"></td>
                                     <td class="px-3 py-2 text-center text-gray-400 text-xs" x-text="expandedTeamId === s.id ? '▲' : '▼'"></td>
                                 </tr>
@@ -678,7 +678,7 @@
                                         <th class="px-2 py-1 text-center">מ/ב</th>
                                         <th class="px-2 py-1 text-center">תוצאה</th>
                                         <th class="px-2 py-1 text-center">xG</th>
-                                        <th class="px-2 py-1 text-center">xGA</th>
+                                        <th class="px-2 py-1 text-center">xGC</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -691,7 +691,7 @@
                                                 :class="f.won ? 'text-green-600' : f.draw ? 'text-yellow-600' : 'text-red-600'"
                                                 x-text="f.goalsFor + ':' + f.goalsAgainst"></td>
                                             <td class="px-2 py-1.5 text-center" x-text="f.xG.toFixed(2)"></td>
-                                            <td class="px-2 py-1.5 text-center" x-text="f.xGA.toFixed(2)"></td>
+                                            <td class="px-2 py-1.5 text-center" x-text="f.xGC.toFixed(2)"></td>
                                         </tr>
                                     </template>
                                 </tbody>
