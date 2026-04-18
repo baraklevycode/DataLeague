@@ -1,14 +1,6 @@
 {
-  "scrapedAt": "2026-04-17T21:29:22.355086+00:00",
+  "scrapedAt": "2026-04-18T21:21:57.884175+00:00",
   "games": [
-    {
-      "homeTeam": "Hapoel Be'er Sheva",
-      "awayTeam": "Hapoel Petah Tikva",
-      "gameId": "28001613",
-      "homeCleanSheetPct": 51.8,
-      "awayCleanSheetPct": 12.2,
-      "noData": false
-    },
     {
       "homeTeam": "Beitar Jerusalem",
       "awayTeam": "Maccabi Haifa",
@@ -26,35 +18,27 @@
       "noData": false
     },
     {
-      "homeTeam": "Maccabi Netanya",
-      "awayTeam": "Ashdod",
-      "gameId": "27998083",
-      "homeCleanSheetPct": 32.9,
-      "awayCleanSheetPct": 18.2,
-      "noData": false
-    },
-    {
-      "homeTeam": "Hapoel Haifa",
-      "awayTeam": "Maccabi Bnei Reine",
-      "gameId": "27998082",
-      "homeCleanSheetPct": 44.6,
-      "awayCleanSheetPct": 16.3,
-      "noData": false
-    },
-    {
-      "homeTeam": "Bnei Sakhnin",
-      "awayTeam": "Ironi Tiberias",
-      "gameId": "27998085",
-      "homeCleanSheetPct": 38.3,
-      "awayCleanSheetPct": 30.7,
-      "noData": false
-    },
-    {
       "homeTeam": "Ironi Kiryat Shmona",
       "awayTeam": "Hapoel Jerusalem",
       "gameId": "27998084",
-      "homeCleanSheetPct": 35.2,
-      "awayCleanSheetPct": 29.4,
+      "homeCleanSheetPct": 36.2,
+      "awayCleanSheetPct": 29.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Ashdod",
+      "awayTeam": "Maccabi Bnei Reine",
+      "gameId": "28087098",
+      "homeCleanSheetPct": 45.9,
+      "awayCleanSheetPct": 19.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Maccabi Netanya",
+      "awayTeam": "Bnei Sakhnin",
+      "gameId": "28087099",
+      "homeCleanSheetPct": 39.2,
+      "awayCleanSheetPct": 20.8,
       "noData": false
     }
   ]
