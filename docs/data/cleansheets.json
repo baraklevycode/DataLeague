@@ -1,12 +1,12 @@
 {
-  "scrapedAt": "2026-04-21T21:32:44.395111+00:00",
+  "scrapedAt": "2026-04-22T21:40:14.206509+00:00",
   "games": [
     {
       "homeTeam": "Hapoel Petah Tikva",
       "awayTeam": "Hapoel Tel Aviv",
       "gameId": "28102790",
-      "homeCleanSheetPct": 23.5,
-      "awayCleanSheetPct": 37.3,
+      "homeCleanSheetPct": 21.7,
+      "awayCleanSheetPct": 39.2,
       "noData": false
     },
     {
