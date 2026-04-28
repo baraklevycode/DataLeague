@@ -237,15 +237,15 @@
                                     <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('xGI')">xGI</th>
                                     <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('minutes')">דקות משחק</th>
                                     <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('cleanSheets')">שער נקי</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subIn')">החליף</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('subOut')">הוחלף</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('ownGoals')">שער עצמי</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('subIn') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('subIn') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('subIn')">החליף</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('subOut') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('subOut') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('subOut')">הוחלף</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('ownGoals') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('ownGoals') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('ownGoals')">שער עצמי</th>
                                     <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('yellowCards')">צהובים</th>
                                     <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('redCards')">אדומים</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penStopped')">עצירת פנדל</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('penMissed')">החמצת פנדל</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('causedPen')">הכשיל</th>
-                                    <th class="px-2 py-2 text-center cursor-pointer hover:text-blue-600" @click="toggleSort('failedPen')">הוכשל</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('penStopped') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('penStopped') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('penStopped')">עצירת פנדל</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('penMissed') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('penMissed') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('penMissed')">החמצת פנדל</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('causedPen') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('causedPen') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('causedPen')">הכשיל</th>
+                                    <th class="px-2 py-2 text-center" :class="isPickUnavailable('failedPen') ? 'text-gray-300 cursor-not-allowed' : 'cursor-pointer hover:text-blue-600'" :title="isPickUnavailable('failedPen') ? 'לא זמין במצב בחירת מחזורים' : ''" @click="toggleSort('failedPen')">הוכשל</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -890,6 +890,31 @@
             <div x-data="comparePage()" x-init="initCompare()">
                 <h1 class="text-xl font-bold mb-4">השוואת שחקנים</h1>
 
+                <!-- Fixture picker -->
+                <div class="bg-white rounded-lg shadow p-4 mb-4">
+                    <label class="block text-xs text-gray-500 mb-1">מחזורים</label>
+                    <div class="flex items-center gap-2 flex-wrap">
+                        <button @click="setRoundMode('season')"
+                                class="px-2 py-1 text-xs rounded transition"
+                                :class="roundMode === 'season' ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-gray-200'">עונה</button>
+                        <button @click="setRoundMode('pick')"
+                                class="px-2 py-1 text-xs rounded transition"
+                                :class="roundMode === 'pick' ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-gray-200'">בחירה</button>
+                        <button @click="selectLastN(5)"
+                                class="px-2 py-1 text-xs rounded bg-gray-100 hover:bg-gray-200">5 אחרונים</button>
+                        <button @click="selectLastN(10)"
+                                class="px-2 py-1 text-xs rounded bg-gray-100 hover:bg-gray-200">10 אחרונים</button>
+                    </div>
+                    <div x-show="roundMode === 'pick'" class="flex flex-wrap gap-1 mt-2 max-w-md">
+                        <template x-for="r in availableRounds" :key="r">
+                            <button @click="toggleRound(r)"
+                                    class="w-8 h-7 text-xs rounded transition"
+                                    :class="selectedRounds.includes(r) ? 'bg-blue-600 text-white' : 'bg-gray-100 hover:bg-blue-100'"
+                                    x-text="r"></button>
+                        </template>
+                    </div>
+                </div>
+
                 <!-- Player selectors -->
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                     <div class="bg-white rounded-lg shadow p-4">
@@ -975,6 +1000,54 @@
                                     </template>
                                 </tbody>
                             </table>
+                        </div>
+
+                        <!-- Per-game stats -->
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+                            <template x-for="num in [1, 2]" :key="num">
+                                <div class="bg-white rounded-lg shadow overflow-x-auto">
+                                    <div class="px-4 py-2 bg-gray-50 border-b text-sm font-semibold"
+                                         :class="num === 1 ? 'text-blue-600' : 'text-orange-600'"
+                                         x-text="(num === 1 ? player1 : player2).name + ' — לפי מחזור'"></div>
+                                    <table class="w-full text-xs">
+                                        <thead class="bg-gray-50 text-gray-500">
+                                            <tr>
+                                                <th class="px-2 py-1.5 text-center">מחזור</th>
+                                                <th class="px-2 py-1.5 text-right">יריב</th>
+                                                <th class="px-2 py-1.5 text-center">נק׳</th>
+                                                <th class="px-2 py-1.5 text-center">ש</th>
+                                                <th class="px-2 py-1.5 text-center">ב</th>
+                                                <th class="px-2 py-1.5 text-center">דק׳</th>
+                                                <th class="px-2 py-1.5 text-center">xG</th>
+                                                <th class="px-2 py-1.5 text-center">xA</th>
+                                                <th class="px-2 py-1.5 text-center">בעיטות</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <template x-for="g in perGameRows(num)" :key="g.round">
+                                                <tr class="border-t">
+                                                    <td class="px-2 py-1.5 text-center font-medium" x-text="g.round"></td>
+                                                    <td class="px-2 py-1.5 text-right">
+                                                        <span x-text="g.opponent"></span>
+                                                        <span class="text-gray-400" x-text="g.isHome === true ? '(ב)' : g.isHome === false ? '(ח)' : ''"></span>
+                                                        <span class="text-gray-400" x-show="g.score" x-text="' ' + g.score"></span>
+                                                    </td>
+                                                    <td class="px-2 py-1.5 text-center font-medium" x-text="g.points"></td>
+                                                    <td class="px-2 py-1.5 text-center" x-text="g.goals"></td>
+                                                    <td class="px-2 py-1.5 text-center" x-text="g.assists"></td>
+                                                    <td class="px-2 py-1.5 text-center" x-text="g.minutes"></td>
+                                                    <td class="px-2 py-1.5 text-center" x-text="g.xG"></td>
+                                                    <td class="px-2 py-1.5 text-center" x-text="g.xA"></td>
+                                                    <td class="px-2 py-1.5 text-center" x-text="g.shots"></td>
+                                                </tr>
+                                            </template>
+                                            <template x-if="perGameRows(num).length === 0">
+                                                <tr><td colspan="9" class="px-2 py-3 text-center text-gray-400">אין נתונים</td></tr>
+                                            </template>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </template>
                         </div>
                     </div>
                 </template>

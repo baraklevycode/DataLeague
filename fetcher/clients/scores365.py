@@ -32,6 +32,24 @@ HIGHLIGHT_STAT_TYPES = {
     4: "redCards",
 }
 
+# Per-game lineup member stat type IDs (different namespace from highlightStats!)
+# Probed live from /web/game/?gameId=X. Confirmed examples:
+#   30 → "דקות"           76 → "שערים צפויים" (xG)
+#   78 → "בישולים צפויים" (xA)   45 → "נגיעות בכדור" (touches)
+PER_GAME_STAT_TYPES = {
+    30: "minutesPlayed",
+    27: "goals",
+    26: "assists",
+    76: "xG",
+    78: "xA",
+    24: "chancesCreated",
+    46: "keyPasses",
+    45: "touches",
+    3: "shotsOnTarget",
+    4: "shotsOnFrame",
+    5: "shotsOffTarget",
+}
+
 
 def _parse_stat_value(val: str | float | int) -> float:
     """Parse stat value like '12(3פנ׳)', '22/24', '7.5', '90'' to float."""
@@ -408,3 +426,244 @@ class Scores365Client:
 
         logger.info("Fetched 365Scores stats for %d/%d athletes", len(all_results), len(athlete_ids))
         return all_results
+
+    # ------------------------------------------------------------------
+    # Per-game lineups → per-round player stats (xA, xG, touches, etc.)
+    # ------------------------------------------------------------------
+
+    async def get_completed_games(self) -> list[tuple[int, int]]:
+        """Walk the games-results paging to collect (game_id, round_num) for
+        every finished competition game.
+
+        365Scores' results endpoint returns ~14 games per page and exposes
+        previousPage / nextPage cursors. We start from the default view and
+        walk both directions until cursors are exhausted; finished games are
+        identified by ``statusGroup == 4``.
+        """
+        # Derive scheme://netloc for resolving relative paging URLs.
+        # Naive split("/web") would match "://web" inside the host name.
+        from urllib.parse import urlparse
+        _p = urlparse(self.base)
+        host = f"{_p.scheme}://{_p.netloc}"
+        seen: dict[int, int] = {}  # game_id -> round_num
+
+        async def _fetch(url: str) -> dict:
+            # Endpoint is slow under load (~30s typical); retry once on timeout.
+            for attempt in range(2):
+                try:
+                    resp = await self._client.get(url, timeout=60.0)
+                    if resp.status_code != 200:
+                        return {}
+                    return resp.json()
+                except Exception as exc:
+                    if attempt == 1:
+                        logger.warning("results-paging fetch failed: %s — %s", url, exc)
+                        return {}
+            return {}
+
+        def _ingest(data: dict) -> None:
+            for g in data.get("games", []) or []:
+                if g.get("statusGroup") != 4:
+                    continue  # not finished
+                gid = g.get("id")
+                rnd = g.get("roundNum")
+                if isinstance(gid, int) and isinstance(rnd, int):
+                    seen[gid] = rnd
+
+        # Initial page
+        first = await _fetch(
+            f"{self.base}/games/results/"
+            f"?{'&'.join(f'{k}={v}' for k, v in self.common_params.items())}"
+            f"&competitions={self.competition_id}"
+        )
+        _ingest(first)
+        paging = first.get("paging", {}) or {}
+
+        # Walk previousPage chain (older games) up to a hard cap to avoid loops
+        prev = paging.get("previousPage")
+        for _ in range(60):
+            if not prev:
+                break
+            url = host + prev
+            data = await _fetch(url)
+            before = len(seen)
+            _ingest(data)
+            prev = (data.get("paging") or {}).get("previousPage")
+            if len(seen) == before and not prev:
+                break
+
+        # Walk nextPage chain (newer games)
+        nxt = paging.get("nextPage")
+        for _ in range(60):
+            if not nxt:
+                break
+            url = host + nxt
+            data = await _fetch(url)
+            before = len(seen)
+            _ingest(data)
+            nxt = (data.get("paging") or {}).get("nextPage")
+            if len(seen) == before and not nxt:
+                break
+
+        result = sorted(seen.items())
+        logger.info(
+            "Discovered %d finished 365Scores games across rounds %s",
+            len(result),
+            sorted({r for _gid, r in result}),
+        )
+        return result
+
+    @staticmethod
+    def _parse_member_stats(member: dict) -> dict[str, float]:
+        """Extract the subset of a lineup member's stats we care about."""
+        out: dict[str, float] = {}
+        for s in member.get("stats", []) or []:
+            field = PER_GAME_STAT_TYPES.get(s.get("type", 0))
+            if not field:
+                continue
+            out[field] = _parse_stat_value(s.get("value", 0))
+        # Derive totalShots if any granular shot fields are present
+        if any(k in out for k in ("shotsOnFrame", "shotsOffTarget", "shotsOnTarget")):
+            out["totalShots"] = (
+                out.get("shotsOnFrame", 0)
+                + out.get("shotsOffTarget", 0)
+                + (out.get("shotsOnTarget", 0) if "shotsOnFrame" not in out else 0)
+            )
+        return out
+
+    async def _fetch_game_stats(self, game_id: int) -> dict[int, dict] | None:
+        """Fetch one game's lineups and return ``{athlete_id: stats_dict}``.
+
+        The lineup ``member.id`` is a per-team member identifier (not the
+        global athleteId we use elsewhere). The mapping lives in the
+        top-level ``game.members[]`` array which exposes both ``id`` and
+        ``athleteId`` for every roster member. We resolve member->athlete
+        via that block before keying the stats.
+
+        Returns None on failure so the caller can skip without poisoning
+        the cache.
+        """
+        try:
+            resp = await self._client.get(
+                f"{self.base}/game/",
+                params={**self.common_params, "gameId": game_id},
+                timeout=45.0,
+            )
+            if resp.status_code != 200:
+                return None
+            data = resp.json()
+        except Exception:
+            return None
+
+        game = data.get("game") or {}
+        if game.get("statusGroup") != 4:
+            return None  # not yet finished
+
+        # Build member_id -> athlete_id map from top-level members block
+        member_to_athlete: dict[int, int] = {}
+        for m in game.get("members") or []:
+            mid = m.get("id")
+            aid = m.get("athleteId")
+            if isinstance(mid, int) and isinstance(aid, int):
+                member_to_athlete[mid] = aid
+
+        out: dict[int, dict] = {}
+        for side in ("homeCompetitor", "awayCompetitor"):
+            comp = game.get(side) or {}
+            members = ((comp.get("lineups") or {}).get("members")) or []
+            for m in members:
+                if not m.get("hasStats"):
+                    continue
+                mid = m.get("id")
+                athlete_id = member_to_athlete.get(mid) if isinstance(mid, int) else None
+                if not isinstance(athlete_id, int):
+                    continue  # skip if we can't resolve to an athlete_id
+                stats = self._parse_member_stats(m)
+                if not stats:
+                    continue
+                # Only include players who actually played
+                if (stats.get("minutesPlayed", 0) or 0) <= 0:
+                    continue
+                out[athlete_id] = stats
+        return out
+
+    async def get_all_game_player_stats(
+        self,
+        games: list[tuple[int, int]],
+        cache_path: str = "docs/data/.365games_cache.json",
+    ) -> dict[int, dict[int, dict]]:
+        """Fetch per-game player stats for every (game_id, round_num); cache by game_id.
+
+        Returns ``{round_num: {athlete_id: stats_dict}}`` where multiple games
+        in the same round are merged (a player only appears in one game per round).
+        """
+        import json as _json
+        from pathlib import Path
+
+        cache_file = Path(cache_path)
+        cache: dict[str, dict] = {}
+        if cache_file.exists():
+            try:
+                cache = _json.loads(cache_file.read_text(encoding="utf-8"))
+            except Exception:
+                cache = {}
+
+        to_fetch: list[tuple[int, int]] = []
+        for gid, rnd in games:
+            if str(gid) in cache:
+                # Refresh round_num in case of weird state (cheap)
+                cache[str(gid)]["round_num"] = rnd
+            else:
+                to_fetch.append((gid, rnd))
+
+        if to_fetch:
+            logger.info(
+                "Fetching 365Scores game stats for %d games (%d cached)",
+                len(to_fetch),
+                len(games) - len(to_fetch),
+            )
+            sem = asyncio.Semaphore(15)
+
+            async def _do(gid: int, rnd: int) -> None:
+                async with sem:
+                    players = await self._fetch_game_stats(gid)
+                    if players is None:
+                        return  # don't cache failures
+                    cache[str(gid)] = {
+                        "round_num": rnd,
+                        "players": {str(aid): s for aid, s in players.items()},
+                    }
+
+            await asyncio.gather(*[asyncio.create_task(_do(g, r)) for g, r in to_fetch])
+
+            cache_file.parent.mkdir(parents=True, exist_ok=True)
+            cache_file.write_text(_json.dumps(cache), encoding="utf-8")
+
+        # Aggregate by round
+        by_round: dict[int, dict[int, dict]] = {}
+        for entry in cache.values():
+            rnd = entry.get("round_num")
+            players = entry.get("players") or {}
+            if not isinstance(rnd, int):
+                continue
+            bucket = by_round.setdefault(rnd, {})
+            for aid_str, stats in players.items():
+                try:
+                    aid = int(aid_str)
+                except (TypeError, ValueError):
+                    continue
+                # If the same athlete appears in multiple games for one round
+                # (shouldn't happen in this league but be defensive), prefer the
+                # entry with more minutes.
+                existing = bucket.get(aid)
+                if existing is None or (stats.get("minutesPlayed", 0) or 0) > (
+                    existing.get("minutesPlayed", 0) or 0
+                ):
+                    bucket[aid] = stats
+
+        logger.info(
+            "Built per-round 365Scores stats: %d rounds, %d (round, player) entries",
+            len(by_round),
+            sum(len(v) for v in by_round.values()),
+        )
+        return by_round

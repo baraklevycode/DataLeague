@@ -6,12 +6,13 @@ import logging
 from typing import Any
 
 from fetcher.clients.sport5 import Sport5Client
-from fetcher.config import POSITIONS, TEAM_MAPPINGS, build_scores365_id_map, build_sport5_id_map
+from fetcher.config import POSITIONS, TEAM_MAPPINGS, build_sport5_id_map
 from fetcher.schemas import (
     OutputFootballCoIlStats,
     OutputLeaderEntry,
     OutputMeta,
     OutputPlayer,
+    OutputScores365RoundStats,
     OutputScores365Stats,
     OutputSport5Stats,
     OutputTeam,
@@ -36,6 +37,7 @@ class DataProcessor:
         fc_team_id_map: dict[int, int],
         s365_by_sport5: dict[int, dict],
         unmatched_names: list[str],
+        s365_round_by_sport5: dict[int, dict[int, dict]] | None = None,
     ) -> None:
         self.matched_players = matched_players
         self.sport5_teams = sport5_teams
@@ -45,6 +47,7 @@ class DataProcessor:
         self.standings = standings
         self.fc_team_id_map = fc_team_id_map
         self.s365_by_sport5 = s365_by_sport5  # sport5_id -> {xG, xA, ...}
+        self.s365_round_by_sport5 = s365_round_by_sport5 or {}
         self.unmatched_names = unmatched_names
 
         # FC stats index
@@ -132,116 +135,6 @@ class DataProcessor:
                 mp.fc_stats_player_id = fc_pid
 
         logger.info("Matched %d Sport5 players to FC stats", len(self._sport5_to_fc))
-
-    def _match_365_stats(self) -> None:
-        """Match anonymous 365Scores per-game stats to Sport5 players.
-
-        Strategy: use FC round stats as a bridge. For each round+team:
-        1. Match 365 anonymous player → FC player by (goals, assists, shots, shotsOnTarget)
-           with accuratePasses as tiebreaker
-        2. FC playerId → Sport5 player via self._sport5_to_fc (already computed)
-        3. Only accept matches that are unambiguous
-        """
-        s365_to_internal = {tm.scores365_id: tm for tm in TEAM_MAPPINGS}
-        fc_to_s5 = {fc_pid: s5_id for s5_id, fc_pid in self._sport5_to_fc.items()}
-
-        player_xa_sum: dict[int, float] = {}
-        player_game_count: dict[int, int] = {}
-        verified_matches = 0
-
-        for rnd, game_list in self.s365_game_data.items():
-            # Get FC round stats for this round
-            fc_round = self._fc_round_by_pid
-            fc_this_round: dict[int, dict] = {}
-            for fc_pid, rounds_dict in fc_round.items():
-                if rnd in rounds_dict:
-                    fc_this_round[fc_pid] = rounds_dict[rnd]
-
-            for _gid, players_stats in game_list:
-                by_team: dict[int, list[Scores365PlayerGameStats]] = {}
-                for ps in players_stats:
-                    by_team.setdefault(ps.team_id, []).append(ps)
-
-                for s365_tid, s365_entries in by_team.items():
-                    tm = s365_to_internal.get(s365_tid)
-                    if not tm:
-                        continue
-
-                    # Get FC players for this team in this round
-                    fc_candidates = []
-                    for fc_pid, fc_row in fc_this_round.items():
-                        if fc_row.get("teamId") == tm.footballcoil_id:
-                            fc_candidates.append((fc_pid, fc_row))
-                    # Also check using fc_team_id_map
-                    fc_team_ids = [
-                        fc_tid for fc_tid, int_id in self.fc_team_id_map.items()
-                        if int_id == tm.internal_id
-                    ]
-                    for fc_pid, fc_row in fc_this_round.items():
-                        if fc_row.get("teamId") in fc_team_ids and (fc_pid, fc_row) not in fc_candidates:
-                            fc_candidates.append((fc_pid, fc_row))
-
-                    if not fc_candidates:
-                        continue
-
-                    used_fc: set[int] = set()
-                    for s365_p in s365_entries:
-                        s365_mins = int(s365_p.stats.get("minutes", 0))
-                        if s365_mins == 0:
-                            continue
-
-                        s365_goals = int(s365_p.stats.get("goals", 0))
-                        s365_assists = int(s365_p.stats.get("assists", 0))
-                        s365_shots = int(s365_p.stats.get("totalShots", 0))
-                        s365_on_target = int(s365_p.stats.get("shotsOnTarget", 0))
-                        s365_passes = int(s365_p.stats.get("passesCompleted", 0))
-
-                        # Find FC candidates matching (goals, assists, shots, onTarget)
-                        matches: list[tuple[int, int, int]] = []  # (pass_diff, fc_pid, fc_passes)
-                        for fc_pid, fc_row in fc_candidates:
-                            if fc_pid in used_fc:
-                                continue
-                            fc_goals = int(fc_row.get("Goal", 0))
-                            fc_assists = int(fc_row.get("Assist", 0))
-                            fc_shots = int(fc_row.get("AttemptonGoal", fc_row.get("totalScoringAtt", 0)))
-                            fc_on_target = int(fc_row.get("OnTarget", 0))
-                            fc_passes = int(fc_row.get("accuratePasses", 0))
-
-                            if (fc_goals == s365_goals and fc_assists == s365_assists
-                                    and fc_shots == s365_shots and fc_on_target == s365_on_target):
-                                matches.append((abs(fc_passes - s365_passes), fc_pid, fc_passes))
-
-                        if not matches:
-                            continue
-
-                        matches.sort()
-                        # Accept only if unambiguous: single match, or clear passes tiebreaker
-                        accept = False
-                        if len(matches) == 1:
-                            accept = True
-                        elif matches[0][0] < matches[1][0]:
-                            accept = True
-
-                        if accept:
-                            fc_pid = matches[0][1]
-                            used_fc.add(fc_pid)
-                            s5_id = fc_to_s5.get(fc_pid)
-                            if s5_id is not None:
-                                xa = s365_p.stats.get("xA", 0)
-                                player_xa_sum[s5_id] = player_xa_sum.get(s5_id, 0) + xa
-                                player_game_count[s5_id] = player_game_count.get(s5_id, 0) + 1
-                                verified_matches += 1
-
-        for s5_id in player_xa_sum:
-            self._s365_player_season[s5_id] = {
-                "xA": round(player_xa_sum.get(s5_id, 0), 2),
-                "games": player_game_count.get(s5_id, 0),
-            }
-
-        logger.info(
-            "Matched 365Scores xA for %d players (%d verified round-matches)",
-            len(self._s365_player_season), verified_matches,
-        )
 
     def _build_round_map(self) -> dict[int, int]:
         all_round_ids: set[int] = set()
@@ -595,6 +488,14 @@ class DataProcessor:
                     "yellowCards": sd.YellowCards.Count,
                     "redCards": sd.RedCards.Count,
                     "cleanSheets": sd.CleanGames.Count,
+                    "openLineup": sd.OpenLineup.Count,
+                    "substituteIn": sd.SubstituteIn.Count,
+                    "substituteOut": sd.SubstituteOut.Count,
+                    "ownGoals": sd.OwnGoals.Count,
+                    "penaltiesStopped": sd.PenaltiesStopped.Count,
+                    "penaltiesMissed": sd.PenaltiesMissed.Count,
+                    "causedPenalty": sd.CausedPenalty.Count,
+                    "failedForPenalty": sd.FailedForPenalty.Count,
                 }
 
                 # FC round data. The FC row carries the team the player actually
@@ -619,11 +520,29 @@ class DataProcessor:
                             "minutesPlayed": int(_fval(fc_row, "totalMinutesPlayed")),
                         }
 
+                # Per-round 365Scores stats (xA, xG, touches, etc.)
+                s365_round_data = None
+                if mp.sport5_id is not None:
+                    raw = self.s365_round_by_sport5.get(seq_round, {}).get(mp.sport5_id)
+                    if raw:
+                        s365_round_data = OutputScores365RoundStats(
+                            xG=float(raw.get("xG", 0) or 0),
+                            xA=float(raw.get("xA", 0) or 0),
+                            goals=int(raw.get("goals", 0) or 0),
+                            assists=int(raw.get("assists", 0) or 0),
+                            totalShots=int(raw.get("totalShots", 0) or 0),
+                            shotsOnTarget=int(raw.get("shotsOnTarget", 0) or 0),
+                            keyPasses=int(raw.get("keyPasses", 0) or 0),
+                            chancesCreated=int(raw.get("chancesCreated", 0) or 0),
+                            touches=int(raw.get("touches", 0) or 0),
+                            minutesPlayed=int(raw.get("minutesPlayed", 0) or 0),
+                        ).model_dump()
+
                 pid_key = str(mp.internal_id)
                 rounds[rnd_key]["players"][pid_key] = {
                     "sport5": sport5_round,
                     "footballCoIl": fc_round_data,
-                    "scores365": None,
+                    "scores365": s365_round_data,
                 }
 
         return {"rounds": rounds}

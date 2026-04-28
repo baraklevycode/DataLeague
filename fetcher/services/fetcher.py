@@ -103,14 +103,33 @@ async def run_pipeline(settings: Settings) -> None:
         s365_id_map = await s365.resolve_all_players(search_list)
 
         athlete_ids = list(s365_id_map.values())
-        s365_stats = await s365.get_all_athletes_stats(athlete_ids)
-        logger.info("365Scores: %d athletes resolved, %d with stats (%.1fs)", len(s365_id_map), len(s365_stats), time.time() - t2)
+        s365_stats, completed_games = await asyncio.gather(
+            s365.get_all_athletes_stats(athlete_ids),
+            s365.get_completed_games(),
+        )
+        s365_round_by_athlete = await s365.get_all_game_player_stats(completed_games)
+        logger.info(
+            "365Scores: %d athletes resolved, %d with season stats, %d games processed (%.1fs)",
+            len(s365_id_map), len(s365_stats), len(completed_games), time.time() - t2,
+        )
 
     # Build sport5_id -> 365 stats
     s365_by_sport5: dict[int, dict] = {}
     for sport5_id, athlete_id in s365_id_map.items():
         if athlete_id in s365_stats:
             s365_by_sport5[sport5_id] = s365_stats[athlete_id]
+
+    # Convert per-round 365 stats from athlete-id-keyed to sport5-id-keyed
+    athlete_to_sport5 = {aid: sid for sid, aid in s365_id_map.items()}
+    s365_round_by_sport5: dict[int, dict[int, dict]] = {}
+    for rnd, by_athlete in s365_round_by_athlete.items():
+        bucket: dict[int, dict] = {}
+        for aid, stats in by_athlete.items():
+            sid = athlete_to_sport5.get(aid)
+            if sid is not None:
+                bucket[sid] = stats
+        if bucket:
+            s365_round_by_sport5[rnd] = bucket
 
     # FC team mapping
     fc_team_id_map = _build_fc_team_map()
@@ -137,6 +156,7 @@ async def run_pipeline(settings: Settings) -> None:
         standings=standings,
         fc_team_id_map=fc_team_id_map,
         s365_by_sport5=s365_by_sport5,
+        s365_round_by_sport5=s365_round_by_sport5,
         unmatched_names=[],
     )
 

@@ -221,12 +221,19 @@ function playerTable() {
         },
 
         toggleSort(col) {
+            if (this.isPickUnavailable(col)) return;
             if (this.sortBy === col) {
                 this.sortDesc = !this.sortDesc;
             } else {
                 this.sortBy = col;
                 this.sortDesc = true;
             }
+        },
+
+        isPickUnavailable(stat) {
+            // All stats are now sourced per-round, so nothing is unavailable
+            // when picking fixtures. Kept for future use (e.g. price).
+            return false;
         },
 
         getStat(player, stat) {
@@ -275,7 +282,16 @@ function playerTable() {
                 case 'fantasyPoints': return s5.points || 0;
                 case 'goals': return s5.goals || 0;
                 case 'assists': return s5.assists || 0;
-                case 'xG': return fc.expectedGoals != null ? fc.expectedGoals.toFixed(2) : '-';
+                case 'xG': {
+                    const v = (s3 && s3.xG != null) ? s3.xG : fc.expectedGoals;
+                    return v != null ? v.toFixed(2) : '-';
+                }
+                case 'xA': return (s3 && s3.xA != null) ? (s3.xA > 0 ? s3.xA.toFixed(2) : '-') : '-';
+                case 'xGI': {
+                    if (!s3) return '-';
+                    const v = (s3.xG || 0) + (s3.xA || 0);
+                    return v > 0 ? v.toFixed(2) : '-';
+                }
                 case 'minutes': return s5.minutesPlayed || 0;
                 case 'yellowCards': return s5.yellowCards || 0;
                 case 'redCards': return s5.redCards || 0;
@@ -284,6 +300,7 @@ function playerTable() {
         },
 
         getMultiRoundStat(player, stat) {
+            if (this.isPickUnavailable(stat)) return '-';
             const rounds = Alpine.store('data').rounds || {};
             const pid = String(player.id);
             let total = 0;
@@ -294,6 +311,9 @@ function playerTable() {
             const needPpm = (stat === 'ppm');
             const actualStat = needPpm ? 'fantasyPoints' : stat;
 
+            let totalXG = 0;
+            let totalXA = 0;
+
             for (const r of this.selectedRounds) {
                 const rnd = rounds[String(r)];
                 if (!rnd || !rnd.players) continue;
@@ -302,15 +322,22 @@ function playerTable() {
                 found = true;
                 const s5 = ps.sport5 || {};
                 const fc = ps.footballCoIl || {};
+                const s365 = ps.scores365 || {};
 
                 totalPts += s5.points || 0;
+                // Track xG/xA every round so xGI works even if requested stat is something else.
+                // Prefer 365's xG when present; fall back to FC's expectedGoals.
+                totalXG += (s365.xG != null ? s365.xG : (fc.expectedGoals || 0));
+                totalXA += s365.xA || 0;
 
                 switch (actualStat) {
                     case 'fantasyPoints': total += s5.points || 0; break;
                     case 'goals': total += s5.goals || 0; break;
                     case 'assists': total += s5.assists || 0; break;
-                    case 'xG': total += fc.expectedGoals || 0; break;
-                    case 'shotAttempts': total += fc.shotsOnTarget || 0; break;
+                    case 'xG': /* aggregated above */ break;
+                    case 'xA': /* aggregated above */ break;
+                    case 'xGI': /* aggregated above */ break;
+                    case 'shotAttempts': total += fc.shotAttempts || 0; break;
                     case 'minutes': total += s5.minutesPlayed || 0; break;
                     case 'cleanSheets': total += s5.cleanSheets || 0; break;
                     case 'subIn': total += s5.substituteIn || 0; break;
@@ -318,14 +345,21 @@ function playerTable() {
                     case 'ownGoals': total += s5.ownGoals || 0; break;
                     case 'yellowCards': total += s5.yellowCards || 0; break;
                     case 'redCards': total += s5.redCards || 0; break;
-                    case 'penStopped': case 'penMissed': case 'causedPen': case 'failedPen': break;
+                    case 'penStopped': total += s5.penaltiesStopped || 0; break;
+                    case 'penMissed': total += s5.penaltiesMissed || 0; break;
+                    case 'causedPen': total += s5.causedPenalty || 0; break;
+                    case 'failedPen': total += s5.failedForPenalty || 0; break;
                 }
             }
 
             if (!found) return '-';
             if (needPpm) return player.price > 0 && totalPts > 0 ? (totalPts / (player.price / 1000000)).toFixed(1) : '-';
-            if (stat === 'xG') return total > 0 ? total.toFixed(2) : '-';
-            if (stat === 'xA' || stat === 'xGI') return '-';
+            if (stat === 'xG') return totalXG > 0 ? totalXG.toFixed(2) : '-';
+            if (stat === 'xA') return totalXA > 0 ? totalXA.toFixed(2) : '-';
+            if (stat === 'xGI') {
+                const xgi = totalXG + totalXA;
+                return xgi > 0 ? xgi.toFixed(2) : '-';
+            }
             if (stat === 'price') return player.price;
             return total;
         },
@@ -370,7 +404,8 @@ function playerTable() {
             }
 
             const dir = this.sortDesc ? -1 : 1;
-            list.sort((a, b) => dir * (this.getNumericStat(a, this.sortBy) - this.getNumericStat(b, this.sortBy)));
+            const sortKey = this.isPickUnavailable(this.sortBy) ? 'fantasyPoints' : this.sortBy;
+            list.sort((a, b) => dir * (this.getNumericStat(a, sortKey) - this.getNumericStat(b, sortKey)));
             return list;
         }
     };
@@ -827,9 +862,16 @@ function comparePage() {
         player1: null,
         player2: null,
         _radar: null,
+        roundMode: 'season',
+        selectedRounds: [],
         posLabel,
 
         initCompare() {},
+
+        get availableRounds() {
+            return Object.keys(Alpine.store('data').rounds || {})
+                .map(Number).sort((a, b) => a - b);
+        },
 
         searchResults(query) {
             if (!query || query.length < 2) return [];
@@ -846,7 +888,78 @@ function comparePage() {
             this.$nextTick(() => this.$nextTick(() => this.buildRadar()));
         },
 
+        setRoundMode(mode) {
+            this.roundMode = mode;
+            if (mode === 'season') this.selectedRounds = [];
+            this.$nextTick(() => this.buildRadar());
+        },
+
+        toggleRound(r) {
+            const i = this.selectedRounds.indexOf(r);
+            if (i >= 0) this.selectedRounds.splice(i, 1);
+            else this.selectedRounds.push(r);
+            this.roundMode = 'pick';
+            this.$nextTick(() => this.buildRadar());
+        },
+
+        selectLastN(n) {
+            const all = this.availableRounds;
+            this.selectedRounds = all.slice(-n);
+            this.roundMode = 'pick';
+            this.$nextTick(() => this.buildRadar());
+        },
+
+        _multiRoundVal(p, key) {
+            if (!p || !this.selectedRounds.length) return null;
+            const rounds = Alpine.store('data').rounds || {};
+            let pts = 0, g = 0, a = 0, mins = 0, cs = 0, yc = 0, xg = 0, xa = 0,
+                sh = 0, touches = 0, apps = 0;
+            let any365 = false;
+            for (const r of this.selectedRounds) {
+                const rd = rounds[String(r)] && rounds[String(r)].players
+                    ? rounds[String(r)].players[String(p.id)] : null;
+                if (!rd) continue;
+                const s = rd.sport5 || {};
+                const fc = rd.footballCoIl || {};
+                const s365 = rd.scores365 || null;
+                pts  += s.points || 0;
+                g    += s.goals  || 0;
+                a    += s.assists || 0;
+                mins += s.minutesPlayed || 0;
+                cs   += s.cleanSheets || 0;
+                yc   += s.yellowCards || 0;
+                // Prefer 365's xG when available; fall back to FC's expectedGoals.
+                xg   += (s365 && s365.xG != null) ? s365.xG : (fc.expectedGoals || 0);
+                sh   += fc.shotAttempts || 0;
+                if (s365) {
+                    any365 = true;
+                    xa      += s365.xA || 0;
+                    touches += s365.touches || 0;
+                }
+                if ((s.minutesPlayed || 0) > 0) apps += 1;
+            }
+            switch (key) {
+                case 'points':       return pts;
+                case 'goals':        return g;
+                case 'assists':      return a;
+                case 'minutes':      return mins;
+                case 'cleanSheets':  return cs;
+                case 'yellowCards':  return yc;
+                case 'xG':           return xg;
+                case 'shots':        return sh;
+                case 'appearances':  return apps;
+                case 'ppm':          return p.price ? pts / (p.price / 1000000) : 0;
+                case 'xA':           return any365 ? xa : null;
+                case 'xGI':          return any365 ? xg + xa : xg;
+                case 'touches':      return any365 ? touches : null;
+                default:             return 0;
+            }
+        },
+
         _val(p, key) {
+            if (this.roundMode === 'pick' && this.selectedRounds.length) {
+                return this._multiRoundVal(p, key);
+            }
             const s5 = p.sport5 || {};
             const fc = p.footballCoIl || {};
             const s3 = p.scores365 || {};
@@ -865,6 +978,45 @@ function comparePage() {
                 case 'appearances': return s3.appearances || (s5.openLineup + s5.substituteIn) || 0;
                 default: return 0;
             }
+        },
+
+        perGameRows(playerNum) {
+            const p = playerNum === 1 ? this.player1 : this.player2;
+            if (!p) return [];
+            const rounds = Alpine.store('data').rounds || {};
+            const pid = String(p.id);
+            const gamesByRound = {};
+            for (const g of (p.games || [])) gamesByRound[g.round] = g;
+
+            const targetRounds = (this.roundMode === 'pick' && this.selectedRounds.length)
+                ? [...this.selectedRounds].sort((a, b) => a - b)
+                : Object.keys(rounds).map(Number).sort((a, b) => a - b);
+
+            const out = [];
+            for (const r of targetRounds) {
+                const rd = rounds[String(r)];
+                const ps = rd && rd.players ? rd.players[pid] : null;
+                if (!ps) continue;
+                const s = ps.sport5 || {};
+                const fc = ps.footballCoIl || {};
+                const s3 = ps.scores365 || null;
+                const g = gamesByRound[r];
+                const xgVal = (s3 && s3.xG != null) ? s3.xG : fc.expectedGoals;
+                out.push({
+                    round: r,
+                    opponent: g ? g.opponent : '-',
+                    isHome: g ? g.isHome : null,
+                    score: g && g.homeScore != null ? `${g.homeScore}-${g.awayScore}` : '',
+                    points: s.points || 0,
+                    goals: s.goals || 0,
+                    assists: s.assists || 0,
+                    minutes: s.minutesPlayed || 0,
+                    xG: xgVal != null ? xgVal.toFixed(2) : '-',
+                    xA: (s3 && s3.xA != null) ? (s3.xA > 0 ? s3.xA.toFixed(2) : '-') : '-',
+                    shots: fc.shotAttempts || 0,
+                });
+            }
+            return out;
         },
 
         comparisonRows() {
@@ -888,12 +1040,14 @@ function comparePage() {
                 const v2 = this._val(this.player2, s.key);
                 // For yellow cards, lower is better
                 const inv = s.key === 'yellowCards';
+                const n1 = v1 == null ? null : (inv ? -v1 : v1);
+                const n2 = v2 == null ? null : (inv ? -v2 : v2);
                 return {
                     label: s.label,
-                    v1: inv ? -v1 : v1,
-                    v2: inv ? -v2 : v2,
-                    d1: s.fmt(v1),
-                    d2: s.fmt(v2),
+                    v1: n1,
+                    v2: n2,
+                    d1: v1 == null ? '-' : s.fmt(v1),
+                    d2: v2 == null ? '-' : s.fmt(v2),
                 };
             });
         },
@@ -915,8 +1069,8 @@ function comparePage() {
             ];
 
             const labels = dims.map(d => d.label);
-            const raw1 = dims.map(d => this._val(this.player1, d.key));
-            const raw2 = dims.map(d => this._val(this.player2, d.key));
+            const raw1 = dims.map(d => this._val(this.player1, d.key) || 0);
+            const raw2 = dims.map(d => this._val(this.player2, d.key) || 0);
 
             // Normalize each dimension to 0-100
             const data1 = [];
@@ -966,7 +1120,8 @@ function comparePage() {
                                 label: (ctx) => {
                                     const dim = dims[ctx.dataIndex];
                                     const p = ctx.datasetIndex === 0 ? this.player1 : this.player2;
-                                    return ctx.dataset.label + ': ' + this._val(p, dim.key);
+                                    const v = this._val(p, dim.key);
+                                    return ctx.dataset.label + ': ' + (v == null ? '-' : v);
                                 }
                             }
                         }

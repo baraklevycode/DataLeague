@@ -194,6 +194,19 @@ class OutputScores365Stats(BaseModel):
     redCards: int = 0
 
 
+class OutputScores365RoundStats(BaseModel):
+    xG: float = 0.0
+    xA: float = 0.0
+    goals: int = 0
+    assists: int = 0
+    totalShots: int = 0
+    shotsOnTarget: int = 0
+    keyPasses: int = 0
+    chancesCreated: int = 0
+    touches: int = 0
+    minutesPlayed: int = 0
+
+
 class OutputPlayer(BaseModel):
     id: int
     name: str = ""
