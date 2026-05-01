@@ -138,7 +138,12 @@ class FootballCoIlClient:
             try:
                 stats = await self.get_round_stats(stage, rnd)
                 if stats:
-                    results[overall] = stats
+                    # Championship and Relegation rounds share the same overall round
+                    # number (e.g. ChampionshipRound 1 and RelegationRound 1 both map
+                    # to overall 27). Each player appears in only one stage, so merge
+                    # rather than overwrite — otherwise whichever task finishes last
+                    # wipes out the other half of the league.
+                    results.setdefault(overall, []).extend(stats)
             except Exception:
                 logger.warning("Failed to fetch football.co.il %s round %d", stage, rnd)
 
