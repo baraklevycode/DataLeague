@@ -1213,20 +1213,20 @@
       "logoUrl": "https://www.sport5.co.il/Files/4/183654.png",
       "shirtUrl": "https://www.sport5.co.il/Files/8/174208.png",
       "standings": {
-        "position": 9,
-        "played": 29,
-        "won": 9,
+        "position": 8,
+        "played": 30,
+        "won": 10,
         "drawn": 6,
         "lost": 14,
-        "goalsFor": 41,
+        "goalsFor": 43,
         "goalsAgainst": 49,
-        "points": 33,
+        "points": 36,
         "recentForm": [
           1,
-          0,
           1,
           0,
-          1
+          1,
+          0
         ]
       },
       "playerIds": [
@@ -1273,9 +1273,9 @@
       ],
       "formScore": 9,
       "nextGame": {
-        "opponent": "הפועל חיפה",
-        "opponentId": 10,
-        "isHome": true
+        "opponent": "מכבי בני ריינה",
+        "opponentId": 14,
+        "isHome": false
       },
       "games": [
         {
@@ -1480,10 +1480,313 @@
           "goalsFor": 1,
           "goalsAgainst": 0,
           "opponentId": 7
+        },
+        {
+          "round": 30,
+          "isHome": true,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "opponentId": 10
         }
       ],
       "formRank": 5,
       "difficultyTier": "hard"
+    },
+    {
+      "id": 13,
+      "name": "עירוני טבריה",
+      "englishName": "Ironi Tiberias",
+      "sport5Id": 198,
+      "scores365Id": 606,
+      "logoUrl": "https://www.sport5.co.il/Files/2/183662.png",
+      "shirtUrl": "https://www.sport5.co.il/Files/2/174212.png",
+      "standings": {
+        "position": 10,
+        "played": 30,
+        "won": 9,
+        "drawn": 8,
+        "lost": 13,
+        "goalsFor": 38,
+        "goalsAgainst": 53,
+        "points": 27,
+        "recentForm": [
+          1,
+          2,
+          1,
+          2,
+          2
+        ]
+      },
+      "playerIds": [
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843,
+        844,
+        845,
+        846,
+        847,
+        848,
+        849,
+        850,
+        851,
+        852,
+        853,
+        854,
+        855,
+        856,
+        857
+      ],
+      "formScore": 9,
+      "nextGame": {
+        "opponent": "מכבי נתניה",
+        "opponentId": 7,
+        "isHome": true
+      },
+      "games": [
+        {
+          "round": 1,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "opponentId": 10
+        },
+        {
+          "round": 2,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 7,
+          "opponentId": 1
+        },
+        {
+          "round": 3,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "opponentId": 3
+        },
+        {
+          "round": 4,
+          "isHome": false,
+          "goalsFor": 2,
+          "goalsAgainst": 5,
+          "opponentId": 7
+        },
+        {
+          "round": 5,
+          "isHome": false,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "opponentId": 6
+        },
+        {
+          "round": 6,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "opponentId": 12
+        },
+        {
+          "round": 7,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "opponentId": 8
+        },
+        {
+          "round": 8,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 5
+        },
+        {
+          "round": 9,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "opponentId": 4
+        },
+        {
+          "round": 10,
+          "isHome": true,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "opponentId": 9
+        },
+        {
+          "round": 11,
+          "isHome": false,
+          "goalsFor": 3,
+          "goalsAgainst": 1,
+          "opponentId": 14
+        },
+        {
+          "round": 12,
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 5,
+          "opponentId": 2
+        },
+        {
+          "round": 13,
+          "isHome": false,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 11
+        },
+        {
+          "round": 14,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "opponentId": 10
+        },
+        {
+          "round": 15,
+          "isHome": true,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "opponentId": 1
+        },
+        {
+          "round": 16,
+          "isHome": false,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 3
+        },
+        {
+          "round": 17,
+          "isHome": true,
+          "goalsFor": 4,
+          "goalsAgainst": 0,
+          "opponentId": 7
+        },
+        {
+          "round": 18,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 4,
+          "opponentId": 6
+        },
+        {
+          "round": 19,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "opponentId": 12
+        },
+        {
+          "round": 20,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 8
+        },
+        {
+          "round": 21,
+          "isHome": false,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "opponentId": 5
+        },
+        {
+          "round": 22,
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "opponentId": 4
+        },
+        {
+          "round": 23,
+          "isHome": false,
+          "goalsFor": 2,
+          "goalsAgainst": 2,
+          "opponentId": 9
+        },
+        {
+          "round": 24,
+          "isHome": true,
+          "goalsFor": 2,
+          "goalsAgainst": 1,
+          "opponentId": 14
+        },
+        {
+          "round": 25,
+          "isHome": false,
+          "goalsFor": 2,
+          "goalsAgainst": 3,
+          "opponentId": 2
+        },
+        {
+          "round": 26,
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "opponentId": 11
+        },
+        {
+          "round": 27,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 0,
+          "opponentId": 8
+        },
+        {
+          "round": 28,
+          "isHome": true,
+          "goalsFor": 2,
+          "goalsAgainst": 0,
+          "opponentId": 9
+        },
+        {
+          "round": 29,
+          "isHome": false,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 10
+        },
+        {
+          "round": 30,
+          "isHome": false,
+          "goalsFor": 3,
+          "goalsAgainst": 0,
+          "opponentId": 11
+        }
+      ],
+      "formRank": 6,
+      "difficultyTier": "medium"
     },
     {
       "id": 4,
@@ -1797,7 +2100,7 @@
           "opponentId": 1
         }
       ],
-      "formRank": 6,
+      "formRank": 7,
       "difficultyTier": "medium"
     },
     {
@@ -2104,7 +2407,7 @@
           "opponentId": 12
         }
       ],
-      "formRank": 7,
+      "formRank": 8,
       "difficultyTier": "medium"
     },
     {
@@ -2423,295 +2726,6 @@
           "opponentId": 6
         }
       ],
-      "formRank": 8,
-      "difficultyTier": "medium"
-    },
-    {
-      "id": 13,
-      "name": "עירוני טבריה",
-      "englishName": "Ironi Tiberias",
-      "sport5Id": 198,
-      "scores365Id": 606,
-      "logoUrl": "https://www.sport5.co.il/Files/2/183662.png",
-      "shirtUrl": "https://www.sport5.co.il/Files/2/174212.png",
-      "standings": {
-        "position": 13,
-        "played": 29,
-        "won": 8,
-        "drawn": 8,
-        "lost": 13,
-        "goalsFor": 35,
-        "goalsAgainst": 53,
-        "points": 24,
-        "recentForm": [
-          2,
-          1,
-          2,
-          2,
-          0
-        ]
-      },
-      "playerIds": [
-        810,
-        811,
-        812,
-        813,
-        814,
-        815,
-        816,
-        817,
-        818,
-        819,
-        820,
-        821,
-        822,
-        823,
-        824,
-        825,
-        826,
-        827,
-        828,
-        829,
-        830,
-        831,
-        832,
-        833,
-        834,
-        835,
-        836,
-        837,
-        838,
-        839,
-        840,
-        841,
-        842,
-        843,
-        844,
-        845,
-        846,
-        847,
-        848,
-        849,
-        850,
-        851,
-        852,
-        853,
-        854,
-        855,
-        856,
-        857
-      ],
-      "formScore": 6,
-      "nextGame": {
-        "opponent": "מ.ס. אשדוד",
-        "opponentId": 11,
-        "isHome": false
-      },
-      "games": [
-        {
-          "round": 1,
-          "isHome": true,
-          "goalsFor": 1,
-          "goalsAgainst": 0,
-          "opponentId": 10
-        },
-        {
-          "round": 2,
-          "isHome": false,
-          "goalsFor": 0,
-          "goalsAgainst": 7,
-          "opponentId": 1
-        },
-        {
-          "round": 3,
-          "isHome": true,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "opponentId": 3
-        },
-        {
-          "round": 4,
-          "isHome": false,
-          "goalsFor": 2,
-          "goalsAgainst": 5,
-          "opponentId": 7
-        },
-        {
-          "round": 5,
-          "isHome": false,
-          "goalsFor": 2,
-          "goalsAgainst": 0,
-          "opponentId": 6
-        },
-        {
-          "round": 6,
-          "isHome": true,
-          "goalsFor": 1,
-          "goalsAgainst": 0,
-          "opponentId": 12
-        },
-        {
-          "round": 7,
-          "isHome": false,
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "opponentId": 8
-        },
-        {
-          "round": 8,
-          "isHome": true,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "opponentId": 5
-        },
-        {
-          "round": 9,
-          "isHome": false,
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "opponentId": 4
-        },
-        {
-          "round": 10,
-          "isHome": true,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "opponentId": 9
-        },
-        {
-          "round": 11,
-          "isHome": false,
-          "goalsFor": 3,
-          "goalsAgainst": 1,
-          "opponentId": 14
-        },
-        {
-          "round": 12,
-          "isHome": true,
-          "goalsFor": 0,
-          "goalsAgainst": 5,
-          "opponentId": 2
-        },
-        {
-          "round": 13,
-          "isHome": false,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "opponentId": 11
-        },
-        {
-          "round": 14,
-          "isHome": false,
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "opponentId": 10
-        },
-        {
-          "round": 15,
-          "isHome": true,
-          "goalsFor": 3,
-          "goalsAgainst": 0,
-          "opponentId": 1
-        },
-        {
-          "round": 16,
-          "isHome": false,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "opponentId": 3
-        },
-        {
-          "round": 17,
-          "isHome": true,
-          "goalsFor": 4,
-          "goalsAgainst": 0,
-          "opponentId": 7
-        },
-        {
-          "round": 18,
-          "isHome": true,
-          "goalsFor": 1,
-          "goalsAgainst": 4,
-          "opponentId": 6
-        },
-        {
-          "round": 19,
-          "isHome": false,
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "opponentId": 12
-        },
-        {
-          "round": 20,
-          "isHome": true,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "opponentId": 8
-        },
-        {
-          "round": 21,
-          "isHome": false,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "opponentId": 5
-        },
-        {
-          "round": 22,
-          "isHome": true,
-          "goalsFor": 0,
-          "goalsAgainst": 2,
-          "opponentId": 4
-        },
-        {
-          "round": 23,
-          "isHome": false,
-          "goalsFor": 2,
-          "goalsAgainst": 2,
-          "opponentId": 9
-        },
-        {
-          "round": 24,
-          "isHome": true,
-          "goalsFor": 2,
-          "goalsAgainst": 1,
-          "opponentId": 14
-        },
-        {
-          "round": 25,
-          "isHome": false,
-          "goalsFor": 2,
-          "goalsAgainst": 3,
-          "opponentId": 2
-        },
-        {
-          "round": 26,
-          "isHome": true,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "opponentId": 11
-        },
-        {
-          "round": 27,
-          "isHome": false,
-          "goalsFor": 0,
-          "goalsAgainst": 0,
-          "opponentId": 8
-        },
-        {
-          "round": 28,
-          "isHome": true,
-          "goalsFor": 2,
-          "goalsAgainst": 0,
-          "opponentId": 9
-        },
-        {
-          "round": 29,
-          "isHome": false,
-          "goalsFor": 1,
-          "goalsAgainst": 1,
-          "opponentId": 10
-        }
-      ],
       "formRank": 9,
       "difficultyTier": "medium"
     },
@@ -2724,7 +2738,7 @@
       "logoUrl": "https://www.sport5.co.il/Files/2/183652.png",
       "shirtUrl": "https://www.sport5.co.il/Files/7/174207.png",
       "standings": {
-        "position": 8,
+        "position": 9,
         "played": 29,
         "won": 8,
         "drawn": 10,
@@ -3040,7 +3054,7 @@
       "logoUrl": "https://www.sport5.co.il/Files/3/183663.png",
       "shirtUrl": "https://www.sport5.co.il/Files/7/163977.png",
       "standings": {
-        "position": 11,
+        "position": 12,
         "played": 29,
         "won": 5,
         "drawn": 10,
@@ -3338,20 +3352,20 @@
       "logoUrl": "https://www.sport5.co.il/Files/6/183656.png",
       "shirtUrl": "https://www.sport5.co.il/Files/0/174210.png",
       "standings": {
-        "position": 10,
-        "played": 29,
+        "position": 11,
+        "played": 30,
         "won": 6,
         "drawn": 9,
-        "lost": 14,
+        "lost": 15,
         "goalsFor": 34,
-        "goalsAgainst": 48,
+        "goalsAgainst": 50,
         "points": 27,
         "recentForm": [
+          0,
           2,
           2,
           0,
-          2,
-          0
+          2
         ]
       },
       "playerIds": [
@@ -3426,9 +3440,9 @@
       ],
       "formScore": 3,
       "nextGame": {
-        "opponent": "הפועל קרית שמונה",
-        "opponentId": 9,
-        "isHome": false
+        "opponent": "מ.ס. אשדוד",
+        "opponentId": 11,
+        "isHome": true
       },
       "games": [
         {
@@ -3633,6 +3647,13 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "opponentId": 13
+        },
+        {
+          "round": 30,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 2,
+          "opponentId": 9
         }
       ],
       "formRank": 12,
@@ -3647,20 +3668,20 @@
       "logoUrl": "https://www.sport5.co.il/Files/1/183661.png",
       "shirtUrl": "https://www.sport5.co.il/Files/5/174105.png",
       "standings": {
-        "position": 12,
-        "played": 29,
+        "position": 13,
+        "played": 30,
         "won": 5,
         "drawn": 10,
-        "lost": 14,
+        "lost": 15,
         "goalsFor": 35,
-        "goalsAgainst": 55,
+        "goalsAgainst": 58,
         "points": 25,
         "recentForm": [
+          0,
           2,
           0,
           0,
-          2,
-          0
+          2
         ]
       },
       "playerIds": [
@@ -3733,9 +3754,9 @@
       ],
       "formScore": 2,
       "nextGame": {
-        "opponent": "עירוני טבריה",
-        "opponentId": 13,
-        "isHome": true
+        "opponent": "הפועל חיפה",
+        "opponentId": 10,
+        "isHome": false
       },
       "games": [
         {
@@ -3940,6 +3961,13 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "opponentId": 8
+        },
+        {
+          "round": 30,
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 3,
+          "opponentId": 13
         }
       ],
       "formRank": 13,
