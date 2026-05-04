@@ -620,13 +620,13 @@
       "shirtUrl": "https://www.sport5.co.il/Files/8/174138.png",
       "standings": {
         "position": 7,
-        "played": 29,
-        "won": 12,
+        "played": 30,
+        "won": 13,
         "drawn": 5,
         "lost": 12,
-        "goalsFor": 50,
+        "goalsFor": 51,
         "goalsAgainst": 57,
-        "points": 41,
+        "points": 44,
         "recentForm": [
           0,
           1,
@@ -691,9 +691,9 @@
       ],
       "formScore": 10,
       "nextGame": {
-        "opponent": "הפועל ירושלים",
-        "opponentId": 12,
-        "isHome": true
+        "opponent": "עירוני טבריה",
+        "opponentId": 13,
+        "isHome": false
       },
       "games": [
         {
@@ -898,6 +898,13 @@
           "goalsFor": 0,
           "goalsAgainst": 1,
           "opponentId": 9
+        },
+        {
+          "round": 30,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "opponentId": 12
         }
       ],
       "formRank": 3,
@@ -2198,9 +2205,9 @@
       ],
       "formScore": 7,
       "nextGame": {
-        "opponent": "בני סכנין",
-        "opponentId": 8,
-        "isHome": false
+        "opponent": "הפועל קרית שמונה",
+        "opponentId": 9,
+        "isHome": true
       },
       "games": [
         {
@@ -2405,6 +2412,13 @@
           "goalsFor": 0,
           "goalsAgainst": 1,
           "opponentId": 12
+        },
+        {
+          "round": 30,
+          "isHome": false,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "opponentId": 8
         }
       ],
       "formRank": 8,
@@ -2833,9 +2847,9 @@
       ],
       "formScore": 5,
       "nextGame": {
-        "opponent": "מכבי בני ריינה",
-        "opponentId": 14,
-        "isHome": true
+        "opponent": "הפועל ירושלים",
+        "opponentId": 12,
+        "isHome": false
       },
       "games": [
         {
@@ -3040,6 +3054,13 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "opponentId": 11
+        },
+        {
+          "round": 30,
+          "isHome": true,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "opponentId": 14
         }
       ],
       "formRank": 10,
@@ -3055,12 +3076,12 @@
       "shirtUrl": "https://www.sport5.co.il/Files/7/163977.png",
       "standings": {
         "position": 12,
-        "played": 29,
+        "played": 30,
         "won": 5,
         "drawn": 10,
-        "lost": 14,
+        "lost": 15,
         "goalsFor": 24,
-        "goalsAgainst": 40,
+        "goalsAgainst": 41,
         "points": 25,
         "recentForm": [
           1,
@@ -3131,9 +3152,9 @@
       ],
       "formScore": 5,
       "nextGame": {
-        "opponent": "מכבי נתניה",
-        "opponentId": 7,
-        "isHome": false
+        "opponent": "בני סכנין",
+        "opponentId": 8,
+        "isHome": true
       },
       "games": [
         {
@@ -3338,6 +3359,13 @@
           "goalsFor": 1,
           "goalsAgainst": 0,
           "opponentId": 14
+        },
+        {
+          "round": 30,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "opponentId": 7
         }
       ],
       "formRank": 11,
