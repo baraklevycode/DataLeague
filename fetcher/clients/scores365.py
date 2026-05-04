@@ -431,21 +431,25 @@ class Scores365Client:
     # Per-game lineups → per-round player stats (xA, xG, touches, etc.)
     # ------------------------------------------------------------------
 
-    async def get_completed_games(self) -> list[tuple[int, int]]:
-        """Walk the games-results paging to collect (game_id, round_num) for
-        every finished competition game.
+    async def get_completed_games(self) -> list[Scores365GameRef]:
+        """Walk the games-results paging to collect every finished competition game.
 
         365Scores' results endpoint returns ~14 games per page and exposes
         previousPage / nextPage cursors. We start from the default view and
         walk both directions until cursors are exhausted; finished games are
         identified by ``statusGroup == 4``.
+
+        Returns Scores365GameRef objects so callers can remap round_num to our
+        overall numbering using home/away team IDs and start_time — 365Scores'
+        roundNum drifts during playoffs (skips and restarts) and can't be
+        trusted past the regular season.
         """
         # Derive scheme://netloc for resolving relative paging URLs.
         # Naive split("/web") would match "://web" inside the host name.
         from urllib.parse import urlparse
         _p = urlparse(self.base)
         host = f"{_p.scheme}://{_p.netloc}"
-        seen: dict[int, int] = {}  # game_id -> round_num
+        seen: dict[int, Scores365GameRef] = {}
 
         async def _fetch(url: str) -> dict:
             # Endpoint is slow under load (~30s typical); retry once on timeout.
@@ -467,8 +471,17 @@ class Scores365Client:
                     continue  # not finished
                 gid = g.get("id")
                 rnd = g.get("roundNum")
-                if isinstance(gid, int) and isinstance(rnd, int):
-                    seen[gid] = rnd
+                if not (isinstance(gid, int) and isinstance(rnd, int)):
+                    continue
+                home = (g.get("homeCompetitor") or {}).get("id", 0)
+                away = (g.get("awayCompetitor") or {}).get("id", 0)
+                seen[gid] = Scores365GameRef(
+                    game_id=gid,
+                    round_num=rnd,
+                    home_team_id=int(home or 0),
+                    away_team_id=int(away or 0),
+                    start_time=str(g.get("startTime") or ""),
+                )
 
         # Initial page
         first = await _fetch(
@@ -505,11 +518,11 @@ class Scores365Client:
             if len(seen) == before and not nxt:
                 break
 
-        result = sorted(seen.items())
+        result = sorted(seen.values(), key=lambda r: r.game_id)
         logger.info(
-            "Discovered %d finished 365Scores games across rounds %s",
+            "Discovered %d finished 365Scores games across roundNums %s",
             len(result),
-            sorted({r for _gid, r in result}),
+            sorted({r.round_num for r in result}),
         )
         return result
 
@@ -589,11 +602,13 @@ class Scores365Client:
 
     async def get_all_game_player_stats(
         self,
-        games: list[tuple[int, int]],
+        games: list[Scores365GameRef],
         cache_path: str = "docs/data/.365games_cache.json",
     ) -> dict[int, dict[int, dict]]:
-        """Fetch per-game player stats for every (game_id, round_num); cache by game_id.
+        """Fetch per-game player stats for every game ref; cache by game_id.
 
+        ``games[*].round_num`` is the caller-resolved overall round (already
+        remapped from 365Scores' inconsistent playoff numbering, if needed).
         Returns ``{round_num: {athlete_id: stats_dict}}`` where multiple games
         in the same round are merged (a player only appears in one game per round).
         """
@@ -608,10 +623,18 @@ class Scores365Client:
             except Exception:
                 cache = {}
 
+        # Drop cached entries for games not in the current candidate set so
+        # stale prior-season games (which we now filter out upstream) don't
+        # leak into the round aggregation below.
+        active_ids = {str(g.game_id) for g in games}
+        cache = {k: v for k, v in cache.items() if k in active_ids}
+
         to_fetch: list[tuple[int, int]] = []
-        for gid, rnd in games:
+        for g in games:
+            gid, rnd = g.game_id, g.round_num
             if str(gid) in cache:
-                # Refresh round_num in case of weird state (cheap)
+                # Always refresh round_num — it may have been recomputed by
+                # the caller (team-pair remap) since the last fetch.
                 cache[str(gid)]["round_num"] = rnd
             else:
                 to_fetch.append((gid, rnd))

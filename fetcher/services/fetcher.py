@@ -11,7 +11,8 @@ from pathlib import Path
 from fetcher.clients.footballcoil import FootballCoIlClient
 from fetcher.clients.scores365 import Scores365Client
 from fetcher.clients.sport5 import Sport5Client
-from fetcher.config import Settings
+from fetcher.config import Settings, build_scores365_id_map, build_sport5_id_map
+from fetcher.schemas import Scores365GameRef, Sport5PlayerDetail
 from fetcher.services.matcher import PlayerMatcher
 from fetcher.services.processor import DataProcessor
 
@@ -35,6 +36,190 @@ def _save_cache(name: str, data: object) -> None:
     (CACHE_DIR / f"{name}.json").write_text(
         json.dumps(data, ensure_ascii=False), encoding="utf-8"
     )
+
+
+def _remap_365_rounds_to_overall(
+    games: list[Scores365GameRef],
+    sport5_details: dict[int, Sport5PlayerDetail],
+) -> list[Scores365GameRef]:
+    """Remap each 365Scores game's roundNum to our overall seq_round.
+
+    Why: 365Scores' roundNum is unreliable for the playoff stage. Their
+    /games/results/ endpoint may emit roundNum 27, 28, 30 (skipping 29) for
+    one bracket, while /games/fixtures/ restarts the playoff stage at 1, 2,
+    3, 4… Trusting it caused per-round xA to land in the wrong round or be
+    dropped entirely. Sport5's roundIds are the source of truth.
+
+    Strategy: build (team_a_internal, team_b_internal) → sorted seq_round list
+    from Sport5 fixtures. For each pair, sort 365's matching games by start_time
+    and zip them onto the Sport5 round list — chronological alignment is
+    unambiguous even when (a) regular-season and playoff-stage roundNums
+    collide, or (b) the same pair plays multiple times across the season.
+    Games dated before the current-season window are dropped so prior-season
+    game IDs leaking through results-paging don't contaminate current rounds.
+    """
+    # Build sport5 roundId -> seq_round (1..N) — same convention as
+    # DataProcessor._build_round_map. Include both sources of round IDs so a
+    # game whose roundId only appears in gameStats still gets a seq.
+    all_round_ids: set[int] = set()
+    for detail in sport5_details.values():
+        for rs in detail.roundsStats:
+            all_round_ids.add(rs.roundId)
+        for gs in detail.gameStats:
+            all_round_ids.add(gs.roundId)
+    round_map = {rid: i + 1 for i, rid in enumerate(sorted(all_round_ids))}
+    if not round_map:
+        return games
+
+    s5_to_internal = {tm.sport5_id: tm.internal_id for tm in build_sport5_id_map().values()}
+    s365_to_internal = {tm.scores365_id: tm.internal_id for tm in build_scores365_id_map().values()}
+
+    # Sport5 fixtures: pair → sorted list of seq_rounds the pair played in.
+    from collections import defaultdict
+    pair_to_rounds: dict[frozenset[int], list[int]] = defaultdict(list)
+    for detail in sport5_details.values():
+        for gs in detail.gameStats:
+            seq = round_map.get(gs.roundId, 0)
+            if not seq:
+                continue
+            home_s5 = gs.playerTeamId if gs.isHome else gs.opponentId
+            away_s5 = gs.opponentId if gs.isHome else gs.playerTeamId
+            home_internal = s5_to_internal.get(home_s5)
+            away_internal = s5_to_internal.get(away_s5)
+            if not home_internal or not away_internal:
+                continue
+            key = frozenset({home_internal, away_internal})
+            if seq not in pair_to_rounds[key]:
+                pair_to_rounds[key].append(seq)
+    for key in pair_to_rounds:
+        pair_to_rounds[key].sort()
+
+    # Drop games whose date predates the current-season window. We bound the
+    # window using the latest start_time we see and keep ~12 months back.
+    def _year_month(s: str) -> tuple[int, int] | None:
+        if not s or len(s) < 7:
+            return None
+        try:
+            return int(s[:4]), int(s[5:7])
+        except ValueError:
+            return None
+    latest = max((_year_month(g.start_time) for g in games if _year_month(g.start_time)), default=None)
+    if latest is not None:
+        cutoff_y, cutoff_m = latest
+        cutoff_m -= 11
+        while cutoff_m <= 0:
+            cutoff_m += 12
+            cutoff_y -= 1
+    else:
+        cutoff_y, cutoff_m = (0, 0)
+
+    fresh_games: list[Scores365GameRef] = []
+    dropped_old = 0
+    for g in games:
+        ym = _year_month(g.start_time)
+        if ym is not None and (ym[0], ym[1]) < (cutoff_y, cutoff_m):
+            dropped_old += 1
+            continue
+        fresh_games.append(g)
+
+    # Group 365 games by team-pair so we can assign each pair's games to the
+    # right Sport5 seq_round.
+    games_by_pair: dict[frozenset[int], list[Scores365GameRef]] = defaultdict(list)
+    unpaired: list[Scores365GameRef] = []
+    for g in fresh_games:
+        h_int = s365_to_internal.get(g.home_team_id)
+        a_int = s365_to_internal.get(g.away_team_id)
+        if not h_int or not a_int:
+            unpaired.append(g)
+            continue
+        games_by_pair[frozenset({h_int, a_int})].append(g)
+
+    # Pass 1 — confident assignments: pairs where 365 has exactly as many
+    # games as Sport5 has fixtures. Zip chronologically. These give us a
+    # data-derived seq_round → expected_date map that we use in Pass 2.
+    out: list[Scores365GameRef] = list(unpaired)
+    remapped_count = 0
+    dropped_unmatched = 0
+    seq_dates: dict[int, list[str]] = defaultdict(list)
+    deferred: list[tuple[frozenset[int], list[Scores365GameRef], list[int]]] = []
+
+    for pair, gs in games_by_pair.items():
+        candidates = pair_to_rounds.get(pair, [])
+        if not candidates:
+            # Pair never played in current Sport5 data — drop.
+            dropped_unmatched += len(gs)
+            continue
+        gs_sorted = sorted(gs, key=lambda x: x.start_time or "")
+        if len(gs_sorted) == len(candidates):
+            for game, seq in zip(gs_sorted, candidates):
+                if seq != game.round_num:
+                    remapped_count += 1
+                out.append(game.model_copy(update={"round_num": seq}))
+                if game.start_time:
+                    seq_dates[seq].append(game.start_time)
+        else:
+            deferred.append((pair, gs_sorted, candidates))
+
+    # Build seq_round → median date (use the middle observed start_time).
+    seq_median: dict[int, str] = {}
+    for seq, dates in seq_dates.items():
+        dates.sort()
+        seq_median[seq] = dates[len(dates) // 2]
+
+    # Pass 2 — ambiguous pairs (M ≠ N). For each 365 game, only assign it to
+    # a candidate seq if the date is within ~10 days of that seq's median
+    # date. Each candidate seq can be assigned at most once per pair (so we
+    # don't double-fill). Drops anything that can't find a close enough match
+    # — better to leave a round empty than to backfill with stale stats.
+    DAY = 86400
+    TOLERANCE_DAYS = 10
+
+    def _epoch(s: str) -> float | None:
+        if not s:
+            return None
+        try:
+            from datetime import datetime
+            # 2026-05-02T20:30:00+03:00
+            return datetime.fromisoformat(s).timestamp()
+        except Exception:
+            return None
+
+    for pair, gs_sorted, candidates in deferred:
+        used: set[int] = set()
+        for game in gs_sorted:
+            ge = _epoch(game.start_time)
+            if ge is None:
+                dropped_unmatched += 1
+                continue
+            best_seq = None
+            best_diff = None
+            for seq in candidates:
+                if seq in used:
+                    continue
+                med = seq_median.get(seq)
+                if not med:
+                    continue
+                me = _epoch(med)
+                if me is None:
+                    continue
+                diff = abs(ge - me)
+                if best_diff is None or diff < best_diff:
+                    best_diff, best_seq = diff, seq
+            if best_seq is not None and best_diff is not None and best_diff <= TOLERANCE_DAYS * DAY:
+                used.add(best_seq)
+                if best_seq != game.round_num:
+                    remapped_count += 1
+                out.append(game.model_copy(update={"round_num": best_seq}))
+            else:
+                dropped_unmatched += 1
+
+    if remapped_count or dropped_old or dropped_unmatched:
+        logger.info(
+            "365Scores round remap: %d games re-keyed, %d prior-season "
+            "dropped, %d unmatched dropped",
+            remapped_count, dropped_old, dropped_unmatched,
+        )
+    return out
 
 
 async def run_pipeline(settings: Settings) -> None:
@@ -86,7 +271,6 @@ async def run_pipeline(settings: Settings) -> None:
         fc_english = {p.hebrewName: p.name for p in fc_players if p.name}
 
         # Build sport5_id -> 365 team ID lookup
-        from fetcher.config import build_sport5_id_map
         s5_team_map = build_sport5_id_map()
 
         # Prepare search list: (sport5_id, hebrew_name, english_name, 365_team_id)
@@ -107,6 +291,11 @@ async def run_pipeline(settings: Settings) -> None:
             s365.get_all_athletes_stats(athlete_ids),
             s365.get_completed_games(),
         )
+        # 365Scores' roundNum is unreliable for playoffs (skips numbers, restarts).
+        # Remap each finished game to our overall seq_round by matching home/away
+        # team IDs against Sport5 fixtures, and drop prior-season games whose
+        # game IDs leak in via results-paging.
+        completed_games = _remap_365_rounds_to_overall(completed_games, sport5_details)
         s365_round_by_athlete = await s365.get_all_game_player_stats(completed_games)
         logger.info(
             "365Scores: %d athletes resolved, %d with season stats, %d games processed (%.1fs)",

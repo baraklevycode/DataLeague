@@ -131,6 +131,7 @@ class Scores365GameRef(BaseModel):
     away_team_id: int = 0
     home_score: int = 0
     away_score: int = 0
+    start_time: str = ""
 
 
 class Scores365PlayerGameStats(BaseModel):
