@@ -5055,7 +5055,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -5201,7 +5201,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -15853,15 +15853,7 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": {
-            "teamId": 6,
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": {
             "xG": 0.0,
             "xA": 0.01,
@@ -26566,12 +26558,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0417,
+            "expectedGoals": 0.0,
             "goals": 0,
-            "assists": 0,
+            "assists": 2,
             "shotsOnTarget": 0,
-            "shotAttempts": 1,
-            "minutesPlayed": 14
+            "shotAttempts": 0,
+            "minutesPlayed": 76
           },
           "scores365": {
             "xG": 0.0,
@@ -26692,12 +26684,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0417,
             "goals": 0,
-            "assists": 2,
+            "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 76
+            "shotAttempts": 1,
+            "minutesPlayed": 14
           },
           "scores365": {
             "xG": 0.0,
@@ -37305,12 +37297,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.3307,
+            "expectedGoals": 0.0616,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 2,
-            "minutesPlayed": 55
+            "shotsOnTarget": 1,
+            "shotAttempts": 1,
+            "minutesPlayed": 35
           },
           "scores365": {
             "xG": 0.53,
@@ -37431,12 +37423,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0616,
+            "expectedGoals": 0.3307,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 1,
-            "shotAttempts": 1,
-            "minutesPlayed": 35
+            "shotsOnTarget": 0,
+            "shotAttempts": 2,
+            "minutesPlayed": 55
           },
           "scores365": {
             "xG": 0.06,
@@ -47907,7 +47899,15 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": null,
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 14
+          },
           "scores365": {
             "xG": 0.0,
             "xA": 0.0,
@@ -48056,15 +48056,7 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": {
-            "teamId": 6,
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 14
-          },
+          "footballCoIl": null,
           "scores365": {
             "xG": 0.0,
             "xA": 0.0,
@@ -58706,7 +58698,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 81
+            "minutesPlayed": 9
           },
           "scores365": {
             "xG": 0.0,
@@ -58863,7 +58855,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 9
+            "minutesPlayed": 81
           },
           "scores365": {
             "xG": 0.0,
@@ -69455,10 +69447,10 @@
             "teamId": 6,
             "expectedGoals": 0.0,
             "goals": 0,
-            "assists": 1,
+            "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 75
+            "minutesPlayed": 15
           },
           "scores365": {
             "xG": 0.0,
@@ -69612,10 +69604,10 @@
             "teamId": 6,
             "expectedGoals": 0.0,
             "goals": 0,
-            "assists": 0,
+            "assists": 1,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 15
+            "minutesPlayed": 75
           },
           "scores365": {
             "xG": 0.0,
@@ -80143,7 +80135,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -80300,7 +80292,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -90822,12 +90814,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0217,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 7
+            "shotAttempts": 1,
+            "minutesPlayed": 90
           },
           "scores365": {
             "xG": 0.0,
@@ -90979,12 +90971,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0217,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 1,
-            "minutesPlayed": 90
+            "shotAttempts": 0,
+            "minutesPlayed": 7
           },
           "scores365": {
             "xG": 0.02,
@@ -101709,7 +101701,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -112404,15 +112396,7 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": {
-            "teamId": 6,
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": {
             "xG": 0.0,
             "xA": 0.13,
@@ -123428,12 +123412,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0555,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 1,
-            "minutesPlayed": 77
+            "shotAttempts": 0,
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.05,
@@ -123554,12 +123538,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0555,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 0
+            "shotAttempts": 1,
+            "minutesPlayed": 77
           },
           "scores365": null
         },
@@ -133894,7 +133878,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -134020,7 +134004,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -144782,7 +144766,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -144897,7 +144881,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -155536,7 +155520,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -155651,7 +155635,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -166347,12 +166331,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0759,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 1,
-            "minutesPlayed": 57
+            "shotAttempts": 0,
+            "minutesPlayed": 33
           },
           "scores365": {
             "xG": 0.1,
@@ -166473,12 +166457,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0759,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 33
+            "shotAttempts": 1,
+            "minutesPlayed": 57
           },
           "scores365": {
             "xG": 0.0,
@@ -176910,12 +176894,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0133,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 1,
-            "minutesPlayed": 90
+            "shotAttempts": 0,
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.01,
@@ -177036,12 +177020,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0133,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 0
+            "shotAttempts": 1,
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -187680,7 +187664,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 12
+            "minutesPlayed": 78
           },
           "scores365": {
             "xG": 0.0,
@@ -187806,7 +187790,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 78
+            "minutesPlayed": 12
           },
           "scores365": {
             "xG": 0.0,
@@ -198501,15 +198485,7 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": {
-            "teamId": 6,
-            "expectedGoals": 0.5805,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 1,
-            "shotAttempts": 3,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": {
             "xG": 0.34,
             "xA": 0.02,
@@ -209090,7 +209066,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -209236,7 +209212,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -219961,15 +219937,7 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": {
-            "teamId": 6,
-            "expectedGoals": 0.0246,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 1,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": {
             "xG": 0.03,
             "xA": 0.1,
@@ -230603,15 +230571,7 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": {
-            "teamId": 6,
-            "expectedGoals": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 90
-          },
+          "footballCoIl": null,
           "scores365": {
             "xG": 0.0,
             "xA": 0.08,
@@ -241405,7 +241365,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -241562,7 +241522,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -252180,7 +252140,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -252326,7 +252286,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -262868,7 +262828,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -263014,7 +262974,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -273668,7 +273628,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -273814,7 +273774,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -284310,7 +284270,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -284425,7 +284385,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -295081,7 +295041,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -295227,7 +295187,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -301700,7 +301660,7 @@
           },
           "footballCoIl": {
             "teamId": 8,
-            "expectedGoals": 0.1496,
+            "expectedGoals": 0.1386,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -301899,7 +301859,7 @@
           },
           "footballCoIl": {
             "teamId": 8,
-            "expectedGoals": 0.1603,
+            "expectedGoals": 0.4133,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -302079,7 +302039,7 @@
           },
           "footballCoIl": {
             "teamId": 8,
-            "expectedGoals": 0.0952,
+            "expectedGoals": 0.1244,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -302205,7 +302165,7 @@
           },
           "footballCoIl": {
             "teamId": 8,
-            "expectedGoals": 0.1017,
+            "expectedGoals": 0.0945,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -302236,7 +302196,7 @@
           },
           "footballCoIl": {
             "teamId": 8,
-            "expectedGoals": 0.1764,
+            "expectedGoals": 0.1576,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -303956,7 +303916,7 @@
           },
           "footballCoIl": {
             "teamId": 7,
-            "expectedGoals": 0.1414,
+            "expectedGoals": 0.1235,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -304175,7 +304135,7 @@
           },
           "footballCoIl": {
             "teamId": 7,
-            "expectedGoals": 0.0633,
+            "expectedGoals": 0.0863,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -304323,11 +304283,11 @@
         },
         "302": {
           "sport5": {
-            "points": 2,
+            "points": 5,
             "goals": 0,
             "goalsPoints": 0,
-            "assists": 0,
-            "assistsPoints": 0,
+            "assists": 1,
+            "assistsPoints": 3,
             "minutesPlayed": 90,
             "yellowCards": 0,
             "redCards": 0,
@@ -304343,7 +304303,7 @@
           },
           "footballCoIl": {
             "teamId": 7,
-            "expectedGoals": 0.0493,
+            "expectedGoals": 0.0564,
             "goals": 0,
             "assists": 1,
             "shotsOnTarget": 1,
@@ -304469,7 +304429,7 @@
           },
           "footballCoIl": {
             "teamId": 7,
-            "expectedGoals": 1.0748,
+            "expectedGoals": 0.9888,
             "goals": 1,
             "assists": 0,
             "shotsOnTarget": 3,
@@ -305832,12 +305792,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0,
+            "expectedGoals": 0.0549,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 0,
-            "shotAttempts": 0,
-            "minutesPlayed": 81
+            "shotsOnTarget": 1,
+            "shotAttempts": 1,
+            "minutesPlayed": 7
           },
           "scores365": {
             "xG": 0.0,
@@ -305989,12 +305949,12 @@
           },
           "footballCoIl": {
             "teamId": 6,
-            "expectedGoals": 0.0549,
+            "expectedGoals": 0.0,
             "goals": 0,
             "assists": 0,
-            "shotsOnTarget": 1,
-            "shotAttempts": 1,
-            "minutesPlayed": 7
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 81
           },
           "scores365": {
             "xG": 0.06,
@@ -307058,7 +307018,7 @@
           },
           "footballCoIl": {
             "teamId": 12,
-            "expectedGoals": 0.2039,
+            "expectedGoals": 0.2025,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -307291,7 +307251,7 @@
           },
           "footballCoIl": {
             "teamId": 12,
-            "expectedGoals": 0.0475,
+            "expectedGoals": 0.0299,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -307524,7 +307484,7 @@
           },
           "footballCoIl": {
             "teamId": 12,
-            "expectedGoals": 0.0337,
+            "expectedGoals": 0.0234,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -307681,7 +307641,7 @@
           },
           "footballCoIl": {
             "teamId": 12,
-            "expectedGoals": 0.0463,
+            "expectedGoals": 0.0287,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -307723,7 +307683,7 @@
           },
           "footballCoIl": {
             "teamId": 12,
-            "expectedGoals": 0.2008,
+            "expectedGoals": 0.2317,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -308618,7 +308578,7 @@
           },
           "footballCoIl": {
             "teamId": 14,
-            "expectedGoals": 0.439,
+            "expectedGoals": 0.2007,
             "goals": 1,
             "assists": 1,
             "shotsOnTarget": 1,
@@ -308753,7 +308713,7 @@
           },
           "footballCoIl": {
             "teamId": 14,
-            "expectedGoals": 0.1138,
+            "expectedGoals": 0.0958,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -309028,7 +308988,7 @@
           },
           "footballCoIl": {
             "teamId": 14,
-            "expectedGoals": 0.4226,
+            "expectedGoals": 0.5719,
             "goals": 1,
             "assists": 0,
             "shotsOnTarget": 3,
@@ -309228,7 +309188,7 @@
           },
           "footballCoIl": {
             "teamId": 14,
-            "expectedGoals": 0.0488,
+            "expectedGoals": 0.0416,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -315193,7 +315153,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 0
+            "minutesPlayed": 90
           },
           "scores365": null
         },
@@ -315308,7 +315268,7 @@
             "assists": 0,
             "shotsOnTarget": 0,
             "shotAttempts": 0,
-            "minutesPlayed": 90
+            "minutesPlayed": 0
           },
           "scores365": {
             "xG": 0.0,
@@ -320779,6 +320739,1574 @@
           },
           "footballCoIl": null,
           "scores365": null
+        }
+      }
+    },
+    "31": {
+      "stage": "Playoffs",
+      "sport5RoundId": 194,
+      "players": {
+        "326": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 29,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0617,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 1,
+            "minutesPlayed": 29
+          },
+          "scores365": {
+            "xG": 0.06,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 13,
+            "minutesPlayed": 30
+          }
+        },
+        "327": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "328": {
+          "sport5": {
+            "points": 2,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.09,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 5,
+            "chancesCreated": 0,
+            "touches": 75,
+            "minutesPlayed": 90
+          }
+        },
+        "331": {
+          "sport5": {
+            "points": 18,
+            "goals": 1,
+            "goalsPoints": 6,
+            "assists": 2,
+            "assistsPoints": 6,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 1,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.8816,
+            "goals": 1,
+            "assists": 2,
+            "shotsOnTarget": 1,
+            "shotAttempts": 1,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.88,
+            "xA": 0.35,
+            "goals": 1,
+            "assists": 2,
+            "totalShots": 1,
+            "shotsOnTarget": 1,
+            "keyPasses": 4,
+            "chancesCreated": 1,
+            "touches": 67,
+            "minutesPlayed": 90
+          }
+        },
+        "339": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "340": {
+          "sport5": {
+            "points": 7,
+            "goals": 1,
+            "goalsPoints": 5,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.7713,
+            "goals": 1,
+            "assists": 0,
+            "shotsOnTarget": 2,
+            "shotAttempts": 2,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.77,
+            "xA": 0.35,
+            "goals": 1,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 2,
+            "keyPasses": 1,
+            "chancesCreated": 1,
+            "touches": 35,
+            "minutesPlayed": 90
+          }
+        },
+        "345": {
+          "sport5": {
+            "points": 5,
+            "goals": 1,
+            "goalsPoints": 4,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 29,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 1.5282,
+            "goals": 1,
+            "assists": 0,
+            "shotsOnTarget": 2,
+            "shotAttempts": 5,
+            "minutesPlayed": 29
+          },
+          "scores365": {
+            "xG": 1.5,
+            "xA": 0.0,
+            "goals": 1,
+            "assists": 0,
+            "totalShots": 4,
+            "shotsOnTarget": 5,
+            "keyPasses": 1,
+            "chancesCreated": 0,
+            "touches": 17,
+            "minutesPlayed": 30
+          }
+        },
+        "347": {
+          "sport5": {
+            "points": 6,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 61,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 1,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 61
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.02,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 56,
+            "minutesPlayed": 60
+          }
+        },
+        "348": {
+          "sport5": {
+            "points": 2,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 61,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.119,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 2,
+            "minutesPlayed": 61
+          },
+          "scores365": {
+            "xG": 0.12,
+            "xA": 0.01,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 3,
+            "shotsOnTarget": 2,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 21,
+            "minutesPlayed": 60
+          }
+        },
+        "349": {
+          "sport5": {
+            "points": 5,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 1,
+            "assistsPoints": 3,
+            "minutesPlayed": 85,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.2573,
+            "goals": 0,
+            "assists": 1,
+            "shotsOnTarget": 0,
+            "shotAttempts": 2,
+            "minutesPlayed": 84
+          },
+          "scores365": {
+            "xG": 0.26,
+            "xA": 0.43,
+            "goals": 0,
+            "assists": 1,
+            "totalShots": 3,
+            "shotsOnTarget": 2,
+            "keyPasses": 2,
+            "chancesCreated": 1,
+            "touches": 57,
+            "minutesPlayed": 83
+          }
+        },
+        "351": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 17,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.2284,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 1,
+            "shotAttempts": 1,
+            "minutesPlayed": 17
+          },
+          "scores365": {
+            "xG": 0.23,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 1,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 14,
+            "minutesPlayed": 18
+          }
+        },
+        "353": {
+          "sport5": {
+            "points": 6,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 1,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0346,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 1,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.03,
+            "xA": 0.01,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 1,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 66,
+            "minutesPlayed": 90
+          }
+        },
+        "361": {
+          "sport5": {
+            "points": 6,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 1,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 25,
+            "minutesPlayed": 90
+          }
+        },
+        "363": {
+          "sport5": {
+            "points": 12,
+            "goals": 1,
+            "goalsPoints": 6,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 1,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.1091,
+            "goals": 1,
+            "assists": 0,
+            "shotsOnTarget": 1,
+            "shotAttempts": 2,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.11,
+            "xA": 0.15,
+            "goals": 1,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 2,
+            "keyPasses": 4,
+            "chancesCreated": 0,
+            "touches": 59,
+            "minutesPlayed": 90
+          }
+        },
+        "372": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "374": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "377": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 5,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 6
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 7,
+            "minutesPlayed": 7
+          }
+        },
+        "378": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 17,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.0899,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 1,
+            "minutesPlayed": 17
+          },
+          "scores365": {
+            "xG": 0.09,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 1,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 7,
+            "minutesPlayed": 18
+          }
+        },
+        "379": {
+          "sport5": {
+            "points": 2,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 73,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.298,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 1,
+            "shotAttempts": 5,
+            "minutesPlayed": 73
+          },
+          "scores365": {
+            "xG": 0.3,
+            "xA": 0.16,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 5,
+            "keyPasses": 1,
+            "chancesCreated": 0,
+            "touches": 41,
+            "minutesPlayed": 72
+          }
+        },
+        "383": {
+          "sport5": {
+            "points": 5,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 1,
+            "assistsPoints": 3,
+            "minutesPlayed": 73,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 3,
+            "expectedGoals": 0.3148,
+            "goals": 0,
+            "assists": 1,
+            "shotsOnTarget": 1,
+            "shotAttempts": 6,
+            "minutesPlayed": 73
+          },
+          "scores365": {
+            "xG": 0.31,
+            "xA": 0.16,
+            "goals": 0,
+            "assists": 1,
+            "totalShots": 4,
+            "shotsOnTarget": 6,
+            "keyPasses": 4,
+            "chancesCreated": 1,
+            "touches": 35,
+            "minutesPlayed": 72
+          }
+        },
+        "384": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 58,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 58
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 1,
+            "chancesCreated": 0,
+            "touches": 30,
+            "minutesPlayed": 57
+          }
+        },
+        "386": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 58,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.1089,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 1,
+            "minutesPlayed": 58
+          },
+          "scores365": null
+        },
+        "397": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 15,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 16
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 11,
+            "minutesPlayed": 17
+          }
+        },
+        "399": {
+          "sport5": {
+            "points": -1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 71,
+            "minutesPlayed": 90
+          }
+        },
+        "402": {
+          "sport5": {
+            "points": -1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 60,
+            "minutesPlayed": 90
+          }
+        },
+        "406": {
+          "sport5": {
+            "points": 2,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.21,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 56,
+            "minutesPlayed": 90
+          }
+        },
+        "407": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 9,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 9
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 4,
+            "minutesPlayed": 10
+          }
+        },
+        "408": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 32,
+            "yellowCards": 1,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 32
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 14,
+            "minutesPlayed": 33
+          }
+        },
+        "409": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "432": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "433": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": null
+        },
+        "434": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 32,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 32
+          },
+          "scores365": null
+        },
+        "435": {
+          "sport5": {
+            "points": 2,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0304,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 1,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.03,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 34,
+            "minutesPlayed": 90
+          }
+        },
+        "436": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 75,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 74
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.02,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 72,
+            "minutesPlayed": 73
+          }
+        },
+        "437": {
+          "sport5": {
+            "points": -1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": null,
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 56,
+            "minutesPlayed": 90
+          }
+        },
+        "438": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 0,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 0
+          },
+          "scores365": null
+        },
+        "439": {
+          "sport5": {
+            "points": 1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 32,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 0,
+            "substituteIn": 1,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 32
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.01,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 19,
+            "minutesPlayed": 33
+          }
+        },
+        "442": {
+          "sport5": {
+            "points": 0,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 58,
+            "yellowCards": 1,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 58
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 35,
+            "minutesPlayed": 57
+          }
+        },
+        "448": {
+          "sport5": {
+            "points": 2,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 81,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 1,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 81
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.05,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 1,
+            "chancesCreated": 0,
+            "touches": 33,
+            "minutesPlayed": 80
+          }
+        },
+        "449": {
+          "sport5": {
+            "points": -1,
+            "goals": 0,
+            "goalsPoints": 0,
+            "assists": 0,
+            "assistsPoints": 0,
+            "minutesPlayed": 90,
+            "yellowCards": 0,
+            "redCards": 0,
+            "cleanSheets": 0,
+            "openLineup": 1,
+            "substituteIn": 0,
+            "substituteOut": 0,
+            "ownGoals": 0,
+            "penaltiesStopped": 0,
+            "penaltiesMissed": 0,
+            "causedPenalty": 0,
+            "failedForPenalty": 0
+          },
+          "footballCoIl": {
+            "teamId": 6,
+            "expectedGoals": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 0,
+            "minutesPlayed": 90
+          },
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.01,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 77,
+            "minutesPlayed": 90
+          }
         }
       }
     }
