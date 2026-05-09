@@ -1,51 +1,43 @@
 {
-  "scrapedAt": "2026-05-08T21:43:54.171146+00:00",
+  "scrapedAt": "2026-05-09T21:30:36.418034+00:00",
   "games": [
     {
-      "homeTeam": "Hapoel Petah Tikva",
-      "awayTeam": "Hapoel Be'er Sheva",
-      "gameId": "28416304",
-      "homeCleanSheetPct": 14.3,
-      "awayCleanSheetPct": 45.0,
-      "noData": false
-    },
-    {
       "homeTeam": "Hapoel Tel Aviv",
-      "awayTeam": "Maccabi Tel Aviv",
-      "gameId": "28415853",
-      "homeCleanSheetPct": 24.7,
-      "awayCleanSheetPct": 26.7,
+      "awayTeam": "Hapoel Petah Tikva",
+      "gameId": "28470068",
+      "homeCleanSheetPct": 41.7,
+      "awayCleanSheetPct": 14.5,
       "noData": false
     },
     {
-      "homeTeam": "Maccabi Haifa",
-      "awayTeam": "Beitar Jerusalem",
-      "gameId": "28416267",
-      "homeCleanSheetPct": 14.5,
-      "awayCleanSheetPct": 30.9,
+      "homeTeam": "Beitar Jerusalem",
+      "awayTeam": "Hapoel Be'er Sheva",
+      "gameId": "28470034",
+      "homeCleanSheetPct": 22.7,
+      "awayCleanSheetPct": 25.4,
       "noData": false
     },
     {
-      "homeTeam": "Maccabi Bnei Reine",
-      "awayTeam": "Ironi Kiryat Shmona",
-      "gameId": "28378300",
-      "homeCleanSheetPct": 26.9,
-      "awayCleanSheetPct": 36.2,
+      "homeTeam": "Maccabi Tel Aviv",
+      "awayTeam": "Maccabi Haifa",
+      "gameId": "28470044",
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 15.9,
       "noData": false
     },
     {
       "homeTeam": "Hapoel Haifa",
       "awayTeam": "Ashdod",
       "gameId": "28362052",
-      "homeCleanSheetPct": 30.9,
-      "awayCleanSheetPct": 24.7,
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 24.4,
       "noData": false
     },
     {
       "homeTeam": "Hapoel Jerusalem",
       "awayTeam": "Bnei Sakhnin",
       "gameId": "28378304",
-      "homeCleanSheetPct": 42.9,
+      "homeCleanSheetPct": 43.3,
       "awayCleanSheetPct": 26.0,
       "noData": false
     },
@@ -53,8 +45,8 @@
       "homeTeam": "Ironi Tiberias",
       "awayTeam": "Maccabi Netanya",
       "gameId": "28378296",
-      "homeCleanSheetPct": 26.7,
-      "awayCleanSheetPct": 24.7,
+      "homeCleanSheetPct": 25.4,
+      "awayCleanSheetPct": 25.3,
       "noData": false
     }
   ]
