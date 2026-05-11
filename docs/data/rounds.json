@@ -115182,7 +115182,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 1
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 3,
+            "minutesPlayed": 2
+          }
         },
         "646": {
           "sport5": {
@@ -308685,7 +308696,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 10
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 9,
+            "minutesPlayed": 11
+          }
         },
         "641": {
           "sport5": {
@@ -315608,7 +315630,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 55
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 37,
+            "minutesPlayed": 56
+          }
         },
         "641": {
           "sport5": {
@@ -323254,7 +323287,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 61
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 27,
+            "minutesPlayed": 60
+          }
         },
         "643": {
           "sport5": {
