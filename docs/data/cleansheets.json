@@ -1,44 +1,36 @@
 {
-  "scrapedAt": "2026-05-11T21:55:49.673405+00:00",
+  "scrapedAt": "2026-05-12T21:58:07.751184+00:00",
   "games": [
-    {
-      "homeTeam": "Hapoel Tel Aviv",
-      "awayTeam": "Hapoel Petah Tikva",
-      "gameId": "28470068",
-      "homeCleanSheetPct": 44.6,
-      "awayCleanSheetPct": 12.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Beitar Jerusalem",
-      "awayTeam": "Hapoel Be'er Sheva",
-      "gameId": "28470034",
-      "homeCleanSheetPct": 23.5,
-      "awayCleanSheetPct": 25.0,
-      "noData": false
-    },
     {
       "homeTeam": "Maccabi Tel Aviv",
       "awayTeam": "Maccabi Haifa",
       "gameId": "28470044",
       "homeCleanSheetPct": 31.8,
-      "awayCleanSheetPct": 15.3,
+      "awayCleanSheetPct": 15.6,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Tel Aviv",
+      "awayTeam": "Hapoel Be'er Sheva",
+      "gameId": "28525238",
+      "homeCleanSheetPct": 25.3,
+      "awayCleanSheetPct": 32.9,
       "noData": false
     },
     {
       "homeTeam": "Ashdod",
       "awayTeam": "Hapoel Jerusalem",
       "gameId": "28487318",
-      "homeCleanSheetPct": 30.7,
-      "awayCleanSheetPct": 30.7,
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 30.9,
       "noData": false
     },
     {
       "homeTeam": "Bnei Sakhnin",
       "awayTeam": "Ironi Kiryat Shmona",
       "gameId": "28487332",
-      "homeCleanSheetPct": 32.9,
-      "awayCleanSheetPct": 35.7,
+      "homeCleanSheetPct": 32.5,
+      "awayCleanSheetPct": 36.2,
       "noData": false
     },
     {
@@ -46,15 +38,15 @@
       "awayTeam": "Maccabi Bnei Reine",
       "gameId": "28487328",
       "homeCleanSheetPct": 39.8,
-      "awayCleanSheetPct": 23.8,
+      "awayCleanSheetPct": 23.0,
       "noData": false
     },
     {
       "homeTeam": "Maccabi Netanya",
       "awayTeam": "Hapoel Haifa",
       "gameId": "28487324",
-      "homeCleanSheetPct": 26.7,
-      "awayCleanSheetPct": 24.7,
+      "homeCleanSheetPct": 26.0,
+      "awayCleanSheetPct": 24.4,
       "noData": false
     }
   ]

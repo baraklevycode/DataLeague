@@ -313,19 +313,19 @@
       "shirtUrl": "https://www.sport5.co.il/Files/9/174209.png",
       "standings": {
         "position": 1,
-        "played": 32,
+        "played": 33,
         "won": 22,
-        "drawn": 6,
+        "drawn": 7,
         "lost": 4,
-        "goalsFor": 70,
-        "goalsAgainst": 30,
-        "points": 72,
+        "goalsFor": 71,
+        "goalsAgainst": 31,
+        "points": 73,
         "recentForm": [
+          2,
           1,
           1,
           1,
-          0,
-          2
+          0
         ]
       },
       "playerIds": [
@@ -386,8 +386,8 @@
       ],
       "formScore": 10,
       "nextGame": {
-        "opponent": "בית\"ר ירושלים",
-        "opponentId": 2,
+        "opponent": "הפועל תל אביב",
+        "opponentId": 4,
         "isHome": false
       },
       "games": [
@@ -614,6 +614,13 @@
           "goalsFor": 4,
           "goalsAgainst": 2,
           "opponentId": 6
+        },
+        {
+          "round": 33,
+          "isHome": false,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 2
         }
       ],
       "formRank": 2,
@@ -629,19 +636,19 @@
       "shirtUrl": "https://www.sport5.co.il/Files/6/184046.png",
       "standings": {
         "position": 2,
-        "played": 32,
+        "played": 33,
         "won": 21,
-        "drawn": 7,
+        "drawn": 8,
         "lost": 4,
-        "goalsFor": 74,
-        "goalsAgainst": 37,
-        "points": 70,
+        "goalsFor": 75,
+        "goalsAgainst": 38,
+        "points": 71,
         "recentForm": [
+          2,
           0,
           1,
           1,
-          1,
-          2
+          1
         ]
       },
       "playerIds": [
@@ -708,9 +715,9 @@
       ],
       "formScore": 10,
       "nextGame": {
-        "opponent": "הפועל באר שבע",
-        "opponentId": 1,
-        "isHome": true
+        "opponent": "מכבי תל אביב",
+        "opponentId": 3,
+        "isHome": false
       },
       "games": [
         {
@@ -936,6 +943,13 @@
           "goalsFor": 0,
           "goalsAgainst": 3,
           "opponentId": 5
+        },
+        {
+          "round": 33,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 1,
+          "opponentId": 1
         }
       ],
       "formRank": 3,
@@ -2190,18 +2204,18 @@
       "shirtUrl": "https://www.sport5.co.il/Files/8/163978.png",
       "standings": {
         "position": 4,
-        "played": 32,
-        "won": 17,
+        "played": 33,
+        "won": 18,
         "drawn": 7,
         "lost": 8,
-        "goalsFor": 52,
+        "goalsFor": 53,
         "goalsAgainst": 31,
-        "points": 56,
+        "points": 59,
         "recentForm": [
+          1,
           2,
           0,
           0,
-          1,
           1
         ]
       },
@@ -2283,8 +2297,8 @@
       ],
       "formScore": 7,
       "nextGame": {
-        "opponent": "הפועל פתח תקווה",
-        "opponentId": 6,
+        "opponent": "הפועל באר שבע",
+        "opponentId": 1,
         "isHome": true
       },
       "games": [
@@ -2504,6 +2518,13 @@
           "goalsFor": 1,
           "goalsAgainst": 1,
           "opponentId": 3
+        },
+        {
+          "round": 33,
+          "isHome": true,
+          "goalsFor": 1,
+          "goalsAgainst": 0,
+          "opponentId": 6
         }
       ],
       "formRank": 8,
@@ -4138,12 +4159,12 @@
       "shirtUrl": "https://www.sport5.co.il/Files/8/163948.png",
       "standings": {
         "position": 6,
-        "played": 32,
+        "played": 33,
         "won": 9,
         "drawn": 10,
-        "lost": 13,
+        "lost": 14,
         "goalsFor": 45,
-        "goalsAgainst": 53,
+        "goalsAgainst": 54,
         "points": 37,
         "recentForm": [
           0,
@@ -4223,8 +4244,8 @@
       ],
       "formScore": 0,
       "nextGame": {
-        "opponent": "הפועל תל אביב",
-        "opponentId": 4,
+        "opponent": "מכבי חיפה",
+        "opponentId": 5,
         "isHome": false
       },
       "games": [
@@ -4451,6 +4472,13 @@
           "goalsFor": 2,
           "goalsAgainst": 4,
           "opponentId": 1
+        },
+        {
+          "round": 33,
+          "isHome": false,
+          "goalsFor": 0,
+          "goalsAgainst": 1,
+          "opponentId": 4
         }
       ],
       "formRank": 14,
