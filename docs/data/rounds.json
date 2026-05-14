@@ -330560,7 +330560,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.1411,
+            "expectedGoals": 0.1181,
             "goals": 1,
             "assists": 1,
             "shotsOnTarget": 2,
@@ -330675,7 +330675,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.0653,
+            "expectedGoals": 0.0937,
             "goals": 0,
             "assists": 1,
             "shotsOnTarget": 0,
@@ -330748,7 +330748,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 1.0294,
+            "expectedGoals": 0.9951,
             "goals": 1,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -330874,7 +330874,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.2328,
+            "expectedGoals": 0.2378,
             "goals": 1,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -331062,7 +331062,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.1617,
+            "expectedGoals": 0.1309,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -331230,7 +331230,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.0386,
+            "expectedGoals": 0.0453,
             "goals": 0,
             "assists": 1,
             "shotsOnTarget": 0,
@@ -331272,7 +331272,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.115,
+            "expectedGoals": 0.1588,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -331314,7 +331314,7 @@
           },
           "footballCoIl": {
             "teamId": 3,
-            "expectedGoals": 0.0535,
+            "expectedGoals": 0.0659,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -333300,7 +333300,7 @@
           },
           "footballCoIl": {
             "teamId": 5,
-            "expectedGoals": 0.0998,
+            "expectedGoals": 0.1191,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
@@ -333342,7 +333342,7 @@
           },
           "footballCoIl": {
             "teamId": 5,
-            "expectedGoals": 0.2707,
+            "expectedGoals": 0.2724,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -333667,7 +333667,7 @@
           },
           "footballCoIl": {
             "teamId": 5,
-            "expectedGoals": 0.0204,
+            "expectedGoals": 0.0233,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 0,
@@ -333889,7 +333889,7 @@
           },
           "footballCoIl": {
             "teamId": 5,
-            "expectedGoals": 0.4744,
+            "expectedGoals": 0.5007,
             "goals": 0,
             "assists": 0,
             "shotsOnTarget": 1,
