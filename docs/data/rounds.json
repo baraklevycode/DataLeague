@@ -119030,13 +119030,13 @@
         },
         "65": {
           "sport5": {
-            "points": 7,
+            "points": 6,
             "goals": 1,
             "goalsPoints": 5,
             "assists": 0,
             "assistsPoints": 0,
             "minutesPlayed": 90,
-            "yellowCards": 0,
+            "yellowCards": 1,
             "redCards": 0,
             "cleanSheets": 0,
             "openLineup": 1,
@@ -120041,7 +120041,7 @@
         },
         "355": {
           "sport5": {
-            "points": -1,
+            "points": -5,
             "goals": 0,
             "goalsPoints": 0,
             "assists": 0,
@@ -120056,7 +120056,7 @@
             "ownGoals": 0,
             "penaltiesStopped": 0,
             "penaltiesMissed": 0,
-            "causedPenalty": 0,
+            "causedPenalty": 1,
             "failedForPenalty": 0
           },
           "footballCoIl": null,
