@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-05-21T22:07:37.257275+00:00",
+  "scrapedAt": "2026-05-22T21:49:47.481966+00:00",
   "games": [
     {
       "homeTeam": "Hapoel Petah Tikva",
@@ -21,8 +21,8 @@
       "homeTeam": "Hapoel Be'er Sheva",
       "awayTeam": "Maccabi Haifa",
       "gameId": "28652049",
-      "homeCleanSheetPct": 38.3,
-      "awayCleanSheetPct": 14.3,
+      "homeCleanSheetPct": 36.8,
+      "awayCleanSheetPct": 14.8,
       "noData": false
     }
   ]
