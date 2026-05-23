@@ -1,9 +1,9 @@
 {
-  "fetchedAt": "2026-05-23T13:22:28.525991+00:00",
-  "sport5PlayersCount": 861,
-  "footballCoIlPlayersCount": 518,
+  "fetchedAt": "2026-05-23T21:39:51.507920+00:00",
+  "sport5PlayersCount": 864,
+  "footballCoIlPlayersCount": 523,
   "scores365GamesCount": 0,
-  "matchedPlayers": 410,
+  "matchedPlayers": 415,
   "unmatchedPlayers": [],
-  "currentRound": 35
+  "currentRound": 36
 }
