@@ -13,7 +13,7 @@ from fetcher.clients.scores365 import Scores365Client
 from fetcher.clients.sport5 import Sport5Client
 from fetcher.config import Settings, build_scores365_id_map, build_sport5_id_map
 from fetcher.schemas import Scores365GameRef, Sport5PlayerDetail
-from fetcher.services.matcher import PlayerMatcher
+from fetcher.services.matcher import PlayerMatcher, _levenshtein, normalize_name
 from fetcher.services.processor import DataProcessor
 
 logger = logging.getLogger(__name__)
@@ -267,8 +267,26 @@ async def run_pipeline(settings: Settings) -> None:
         t2 = time.time()
         played_ids = {pid for pid, detail in sport5_details.items() if detail.roundsStats}
 
-        # Build FC English name lookup
-        fc_english = {p.hebrewName: p.name for p in fc_players if p.name}
+        # FC English name lookup: same normalize + Levenshtein logic as PlayerMatcher
+        # so the 365Scores search gets en_name whenever a fuzzy FC match exists.
+        fc_english_by_norm: dict[str, str] = {}
+        for p in fc_players:
+            if p.name and p.hebrewName:
+                nk = normalize_name(p.hebrewName)
+                if nk:
+                    fc_english_by_norm[nk] = p.name
+
+        def _fc_english(he_name: str) -> str:
+            nk = normalize_name(he_name)
+            if not nk:
+                return ""
+            hit = fc_english_by_norm.get(nk)
+            if hit:
+                return hit
+            for fc_key, en in fc_english_by_norm.items():
+                if _levenshtein(nk, fc_key) <= 2:
+                    return en
+            return ""
 
         # Build sport5_id -> 365 team ID lookup
         s5_team_map = build_sport5_id_map()
@@ -279,7 +297,7 @@ async def run_pipeline(settings: Settings) -> None:
             if p["id"] not in played_ids:
                 continue
             he_name = p["name"]
-            en_name = fc_english.get(he_name, "")
+            en_name = _fc_english(he_name)
             tm = s5_team_map.get(p["teamId"])
             club_id = tm.scores365_id if tm else 0
             search_list.append((p["id"], he_name, en_name, club_id))
