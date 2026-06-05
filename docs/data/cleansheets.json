@@ -1,12 +1,12 @@
 {
-  "scrapedAt": "2026-06-04T22:19:54.462696+00:00",
+  "scrapedAt": "2026-06-05T22:13:48.623970+00:00",
   "games": [
     {
       "homeTeam": "Mexico",
       "awayTeam": "South Africa",
       "gameId": "25838587",
-      "homeCleanSheetPct": 59.5,
-      "awayCleanSheetPct": 17.9,
+      "homeCleanSheetPct": 58.8,
+      "awayCleanSheetPct": 18.2,
       "noData": false
     },
     {
@@ -37,8 +37,8 @@
       "homeTeam": "Qatar",
       "awayTeam": "Switzerland",
       "gameId": "25838602",
-      "homeCleanSheetPct": 11.1,
-      "awayCleanSheetPct": 62.1,
+      "homeCleanSheetPct": 11.0,
+      "awayCleanSheetPct": 62.5,
       "noData": false
     },
     {
@@ -61,8 +61,8 @@
       "homeTeam": "Australia",
       "awayTeam": "Turkey",
       "gameId": "27755606",
-      "homeCleanSheetPct": 21.1,
-      "awayCleanSheetPct": 43.7,
+      "homeCleanSheetPct": 21.3,
+      "awayCleanSheetPct": 44.4,
       "noData": false
     },
     {
@@ -86,7 +86,7 @@
       "awayTeam": "Ecuador",
       "gameId": "25838650",
       "homeCleanSheetPct": 36.2,
-      "awayCleanSheetPct": 46.3,
+      "awayCleanSheetPct": 46.7,
       "noData": false
     },
     {
@@ -134,7 +134,7 @@
       "awayTeam": "Senegal",
       "gameId": "25838812",
       "homeCleanSheetPct": 52.1,
-      "awayCleanSheetPct": 16.7,
+      "awayCleanSheetPct": 16.5,
       "noData": false
     },
     {
@@ -150,7 +150,7 @@
       "awayTeam": "Algeria",
       "gameId": "25838835",
       "homeCleanSheetPct": 56.8,
-      "awayCleanSheetPct": 15.7,
+      "awayCleanSheetPct": 15.6,
       "noData": false
     },
     {
@@ -173,15 +173,15 @@
       "homeTeam": "England",
       "awayTeam": "Croatia",
       "gameId": "25838855",
-      "homeCleanSheetPct": 46.1,
-      "awayCleanSheetPct": 22.2,
+      "homeCleanSheetPct": 46.7,
+      "awayCleanSheetPct": 22.7,
       "noData": false
     },
     {
       "homeTeam": "Ghana",
       "awayTeam": "Panama",
       "gameId": "25838854",
-      "homeCleanSheetPct": 41.8,
+      "homeCleanSheetPct": 41.5,
       "awayCleanSheetPct": 27.5,
       "noData": false
     },
@@ -205,7 +205,7 @@
       "homeTeam": "Switzerland",
       "awayTeam": "Bosnia and Herzegovina",
       "gameId": "27756084",
-      "homeCleanSheetPct": 49.5,
+      "homeCleanSheetPct": 49.8,
       "awayCleanSheetPct": 20.0,
       "noData": false
     },
@@ -230,7 +230,7 @@
       "awayTeam": "Australia",
       "gameId": "25838636",
       "homeCleanSheetPct": 45.0,
-      "awayCleanSheetPct": 20.8,
+      "awayCleanSheetPct": 21.1,
       "noData": false
     },
     {
@@ -269,16 +269,16 @@
       "homeTeam": "Germany",
       "awayTeam": "Cote d'Ivoire",
       "gameId": "25838652",
-      "homeCleanSheetPct": 46.5,
-      "awayCleanSheetPct": 16.5,
+      "homeCleanSheetPct": 45.9,
+      "awayCleanSheetPct": 16.9,
       "noData": false
     },
     {
       "homeTeam": "Ecuador",
       "awayTeam": "Curacao",
       "gameId": "25838651",
-      "homeCleanSheetPct": 65.4,
-      "awayCleanSheetPct": 11.2,
+      "homeCleanSheetPct": 65.8,
+      "awayCleanSheetPct": 10.9,
       "noData": false
     },
     {
@@ -301,8 +301,8 @@
       "homeTeam": "Belgium",
       "awayTeam": "Iran",
       "gameId": "25838774",
-      "homeCleanSheetPct": 54.3,
-      "awayCleanSheetPct": 16.4,
+      "homeCleanSheetPct": 54.6,
+      "awayCleanSheetPct": 16.3,
       "noData": false
     },
     {
@@ -333,7 +333,7 @@
       "homeTeam": "France",
       "awayTeam": "Iraq",
       "gameId": "27759603",
-      "homeCleanSheetPct": 71.4,
+      "homeCleanSheetPct": 71.9,
       "awayCleanSheetPct": 9.8,
       "noData": false
     },
@@ -349,15 +349,15 @@
       "homeTeam": "Jordan",
       "awayTeam": "Algeria",
       "gameId": "25838837",
-      "homeCleanSheetPct": 18.0,
-      "awayCleanSheetPct": 48.8,
+      "homeCleanSheetPct": 18.2,
+      "awayCleanSheetPct": 48.5,
       "noData": false
     },
     {
       "homeTeam": "Portugal",
       "awayTeam": "Uzbekistan",
       "gameId": "25838845",
-      "homeCleanSheetPct": 54.9,
+      "homeCleanSheetPct": 54.3,
       "awayCleanSheetPct": 9.5,
       "noData": false
     },
@@ -365,15 +365,15 @@
       "homeTeam": "England",
       "awayTeam": "Ghana",
       "gameId": "25838853",
-      "homeCleanSheetPct": 55.6,
-      "awayCleanSheetPct": 12.5,
+      "homeCleanSheetPct": 55.9,
+      "awayCleanSheetPct": 12.3,
       "noData": false
     },
     {
       "homeTeam": "Panama",
       "awayTeam": "Croatia",
       "gameId": "25838856",
-      "homeCleanSheetPct": 18.0,
+      "homeCleanSheetPct": 17.9,
       "awayCleanSheetPct": 54.6,
       "noData": false
     },
@@ -389,7 +389,7 @@
       "homeTeam": "Bosnia and Herzegovina",
       "awayTeam": "Qatar",
       "gameId": "27756083",
-      "homeCleanSheetPct": 51.8,
+      "homeCleanSheetPct": 51.5,
       "awayCleanSheetPct": 19.6,
       "noData": false
     },
@@ -405,8 +405,8 @@
       "homeTeam": "Morocco",
       "awayTeam": "Haiti",
       "gameId": "25838617",
-      "homeCleanSheetPct": 56.8,
-      "awayCleanSheetPct": 13.5,
+      "homeCleanSheetPct": 56.2,
+      "awayCleanSheetPct": 13.7,
       "noData": false
     },
     {
@@ -414,7 +414,7 @@
       "awayTeam": "Brazil",
       "gameId": "25838619",
       "homeCleanSheetPct": 16.1,
-      "awayCleanSheetPct": 49.8,
+      "awayCleanSheetPct": 50.3,
       "noData": false
     },
     {
@@ -437,16 +437,16 @@
       "homeTeam": "Curacao",
       "awayTeam": "Cote d'Ivoire",
       "gameId": "25838649",
-      "homeCleanSheetPct": 11.6,
-      "awayCleanSheetPct": 61.7,
+      "homeCleanSheetPct": 11.2,
+      "awayCleanSheetPct": 63.7,
       "noData": false
     },
     {
       "homeTeam": "Ecuador",
       "awayTeam": "Germany",
       "gameId": "25838653",
-      "homeCleanSheetPct": 20.0,
-      "awayCleanSheetPct": 44.6,
+      "homeCleanSheetPct": 20.2,
+      "awayCleanSheetPct": 44.2,
       "noData": false
     },
     {
@@ -454,7 +454,7 @@
       "awayTeam": "Sweden",
       "gameId": "27755608",
       "homeCleanSheetPct": 39.2,
-      "awayCleanSheetPct": 26.9,
+      "awayCleanSheetPct": 26.7,
       "noData": false
     },
     {
@@ -478,7 +478,7 @@
       "awayTeam": "USA",
       "gameId": "27755605",
       "homeCleanSheetPct": 29.9,
-      "awayCleanSheetPct": 30.9,
+      "awayCleanSheetPct": 31.8,
       "noData": false
     },
     {
@@ -493,7 +493,7 @@
       "homeTeam": "Senegal",
       "awayTeam": "Iraq",
       "gameId": "27759602",
-      "homeCleanSheetPct": 52.9,
+      "homeCleanSheetPct": 53.2,
       "awayCleanSheetPct": 16.3,
       "noData": false
     },
@@ -501,8 +501,8 @@
       "homeTeam": "Cape Verde",
       "awayTeam": "Saudi Arabia",
       "gameId": "25838804",
-      "homeCleanSheetPct": 35.2,
-      "awayCleanSheetPct": 32.5,
+      "homeCleanSheetPct": 34.1,
+      "awayCleanSheetPct": 32.9,
       "noData": false
     },
     {
@@ -518,23 +518,23 @@
       "awayTeam": "Iran",
       "gameId": "25838775",
       "homeCleanSheetPct": 43.3,
-      "awayCleanSheetPct": 33.6,
+      "awayCleanSheetPct": 34.1,
       "noData": false
     },
     {
       "homeTeam": "New Zealand",
       "awayTeam": "Belgium",
       "gameId": "25838777",
-      "homeCleanSheetPct": 12.0,
-      "awayCleanSheetPct": 55.6,
+      "homeCleanSheetPct": 11.6,
+      "awayCleanSheetPct": 56.8,
       "noData": false
     },
     {
       "homeTeam": "Croatia",
       "awayTeam": "Ghana",
       "gameId": "25838868",
-      "homeCleanSheetPct": 46.9,
-      "awayCleanSheetPct": 22.2,
+      "homeCleanSheetPct": 48.8,
+      "awayCleanSheetPct": 21.5,
       "noData": false
     },
     {
@@ -557,8 +557,8 @@
       "homeTeam": "Congo DR",
       "awayTeam": "Uzbekistan",
       "gameId": "27759638",
-      "homeCleanSheetPct": 37.9,
-      "awayCleanSheetPct": 31.8,
+      "homeCleanSheetPct": 38.3,
+      "awayCleanSheetPct": 31.2,
       "noData": false
     },
     {
@@ -573,152 +573,8 @@
       "homeTeam": "Jordan",
       "awayTeam": "Argentina",
       "gameId": "25838836",
-      "homeCleanSheetPct": 10.9,
-      "awayCleanSheetPct": 60.6,
-      "noData": false
-    },
-    {
-      "homeTeam": "Guatemala",
-      "awayTeam": "Czech Republic",
-      "gameId": "28894572",
-      "homeCleanSheetPct": 10.1,
-      "awayCleanSheetPct": 65.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Mexico",
-      "awayTeam": "Serbia",
-      "gameId": "28808324",
-      "homeCleanSheetPct": 58.8,
-      "awayCleanSheetPct": 12.7,
-      "noData": false
-    },
-    {
-      "homeTeam": "Singapore",
-      "awayTeam": "China PR",
-      "gameId": "28900705",
-      "homeCleanSheetPct": 17.7,
-      "awayCleanSheetPct": 45.9,
-      "noData": false
-    },
-    {
-      "homeTeam": "Hong Kong",
-      "awayTeam": "Mongolia",
-      "gameId": "28939431",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Thailand",
-      "awayTeam": "Kuwait",
-      "gameId": "28900656",
-      "homeCleanSheetPct": 46.3,
-      "awayCleanSheetPct": 22.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "Indonesia",
-      "awayTeam": "Oman",
-      "gameId": "28900653",
-      "homeCleanSheetPct": 39.2,
-      "awayCleanSheetPct": 29.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Tajikistan",
-      "awayTeam": "India",
-      "gameId": "28900657",
-      "homeCleanSheetPct": 48.5,
-      "awayCleanSheetPct": 20.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Belarus",
-      "awayTeam": "Syria",
-      "gameId": "28900655",
-      "homeCleanSheetPct": 45.0,
-      "awayCleanSheetPct": 23.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Georgia",
-      "awayTeam": "Bahrain",
-      "gameId": "28942658",
-      "homeCleanSheetPct": 60.6,
-      "awayCleanSheetPct": 11.9,
-      "noData": false
-    },
-    {
-      "homeTeam": "Slovakia",
-      "awayTeam": "Montenegro",
-      "gameId": "28900719",
-      "homeCleanSheetPct": 49.3,
-      "awayCleanSheetPct": 20.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Moldova",
-      "awayTeam": "Bulgaria",
-      "gameId": "28900721",
-      "homeCleanSheetPct": 29.9,
-      "awayCleanSheetPct": 36.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Russia",
-      "awayTeam": "Burkina Faso",
-      "gameId": "28244849",
-      "homeCleanSheetPct": 53.8,
-      "awayCleanSheetPct": 15.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "San Marino",
-      "awayTeam": "Bangladesh",
-      "gameId": "28900654",
-      "homeCleanSheetPct": 42.6,
-      "awayCleanSheetPct": 35.2,
-      "noData": false
-    },
-    {
-      "homeTeam": "Hungary",
-      "awayTeam": "Finland",
-      "gameId": "28900720",
-      "homeCleanSheetPct": 49.5,
-      "awayCleanSheetPct": 19.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "Azerbaijan",
-      "awayTeam": "Malta",
-      "gameId": "28939430",
-      "homeCleanSheetPct": 50.3,
-      "awayCleanSheetPct": 22.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "Benin",
-      "awayTeam": "Niger",
-      "gameId": "28941651",
-      "homeCleanSheetPct": 42.6,
-      "awayCleanSheetPct": 30.7,
-      "noData": false
-    },
-    {
-      "homeTeam": "Central African Republic",
-      "awayTeam": "Togo",
-      "gameId": "28944044",
-      "homeCleanSheetPct": 28.1,
-      "awayCleanSheetPct": 52.6,
-      "noData": false
-    },
-    {
-      "homeTeam": "Angola",
-      "awayTeam": "Mauritania",
-      "gameId": "28945661",
-      "homeCleanSheetPct": 39.8,
-      "awayCleanSheetPct": 33.6,
+      "homeCleanSheetPct": 10.4,
+      "awayCleanSheetPct": 62.1,
       "noData": false
     },
     {
@@ -733,88 +589,176 @@
       "homeTeam": "Puerto Rico",
       "awayTeam": "Saudi Arabia",
       "gameId": "28945660",
-      "homeCleanSheetPct": 11.4,
-      "awayCleanSheetPct": 64.5,
+      "homeCleanSheetPct": 11.8,
+      "awayCleanSheetPct": 54.1,
       "noData": false
     },
     {
       "homeTeam": "Canada",
       "awayTeam": "Republic of Ireland",
       "gameId": "28808325",
-      "homeCleanSheetPct": 53.2,
-      "awayCleanSheetPct": 19.6,
+      "homeCleanSheetPct": 49.8,
+      "awayCleanSheetPct": 23.8,
       "noData": false
     },
     {
       "homeTeam": "Haiti",
       "awayTeam": "Peru",
       "gameId": "28939420",
-      "homeCleanSheetPct": 29.4,
-      "awayCleanSheetPct": 37.9,
+      "homeCleanSheetPct": 33.6,
+      "awayCleanSheetPct": 33.6,
       "noData": false
+    },
+    {
+      "homeTeam": "Vanuatu",
+      "awayTeam": "Fiji",
+      "gameId": "28977002",
+      "homeCleanSheetPct": 30.7,
+      "awayCleanSheetPct": 22.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Myanmar",
+      "awayTeam": "Guam",
+      "gameId": "28968287",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
     },
     {
       "homeTeam": "Belgium",
       "awayTeam": "Tunisia",
       "gameId": "28808287",
-      "homeCleanSheetPct": 58.1,
-      "awayCleanSheetPct": 14.4,
+      "homeCleanSheetPct": 57.1,
+      "awayCleanSheetPct": 15.0,
       "noData": false
     },
     {
       "homeTeam": "Armenia",
       "awayTeam": "Kazakhstan",
       "gameId": "28808504",
-      "homeCleanSheetPct": 41.7,
-      "awayCleanSheetPct": 26.7,
+      "homeCleanSheetPct": 42.1,
+      "awayCleanSheetPct": 29.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Kyrgyzstan",
+      "awayTeam": "Palestine",
+      "gameId": "28971573",
+      "homeCleanSheetPct": 37.3,
+      "awayCleanSheetPct": 34.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Ethiopia",
+      "awayTeam": "Malawi",
+      "gameId": "28963563",
+      "homeCleanSheetPct": 38.3,
+      "awayCleanSheetPct": 34.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Comoros",
+      "awayTeam": "Rwanda",
+      "gameId": "28971589",
+      "homeCleanSheetPct": 44.6,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Sierra Leone",
+      "awayTeam": "Liberia",
+      "gameId": "28966396",
+      "homeCleanSheetPct": 43.3,
+      "awayCleanSheetPct": 30.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Gibraltar",
+      "awayTeam": "Cayman Islands",
+      "gameId": "28963559",
+      "homeCleanSheetPct": 55.9,
+      "awayCleanSheetPct": 9.8,
       "noData": false
     },
     {
       "homeTeam": "Portugal",
       "awayTeam": "Chile",
       "gameId": "28808286",
-      "homeCleanSheetPct": 55.2,
-      "awayCleanSheetPct": 9.3,
+      "homeCleanSheetPct": 56.2,
+      "awayCleanSheetPct": 9.1,
       "noData": false
     },
     {
       "homeTeam": "Romania",
       "awayTeam": "Wales",
       "gameId": "28924208",
-      "homeCleanSheetPct": 35.3,
-      "awayCleanSheetPct": 35.2,
+      "homeCleanSheetPct": 35.2,
+      "awayCleanSheetPct": 35.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Albania",
+      "awayTeam": "Luxembourg",
+      "gameId": "28963561",
+      "homeCleanSheetPct": 51.3,
+      "awayCleanSheetPct": 21.7,
       "noData": false
     },
     {
       "homeTeam": "USA",
       "awayTeam": "Germany",
       "gameId": "28808285",
-      "homeCleanSheetPct": 14.5,
-      "awayCleanSheetPct": 35.2,
+      "homeCleanSheetPct": 14.8,
+      "awayCleanSheetPct": 35.7,
       "noData": false
     },
     {
       "homeTeam": "Australia",
       "awayTeam": "Switzerland",
       "gameId": "28878787",
-      "homeCleanSheetPct": 20.2,
+      "homeCleanSheetPct": 20.6,
       "awayCleanSheetPct": 48.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Panama",
+      "awayTeam": "Bosnia and Herzegovina",
+      "gameId": "28963538",
+      "homeCleanSheetPct": 30.9,
+      "awayCleanSheetPct": 41.2,
       "noData": false
     },
     {
       "homeTeam": "Bolivia",
       "awayTeam": "Scotland",
       "gameId": "28808327",
-      "homeCleanSheetPct": 12.7,
-      "awayCleanSheetPct": 48.8,
+      "homeCleanSheetPct": 14.8,
+      "awayCleanSheetPct": 50.5,
       "noData": false
+    },
+    {
+      "homeTeam": "Cape Verde",
+      "awayTeam": "Bermuda",
+      "gameId": "28971613",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
     },
     {
       "homeTeam": "England",
       "awayTeam": "New Zealand",
       "gameId": "28876936",
-      "homeCleanSheetPct": 75.2,
+      "homeCleanSheetPct": 76.3,
       "awayCleanSheetPct": 9.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Qatar",
+      "awayTeam": "El Salvador",
+      "gameId": "28963562",
+      "homeCleanSheetPct": 48.8,
+      "awayCleanSheetPct": 21.1,
       "noData": false
     },
     {
@@ -822,39 +766,79 @@
       "awayTeam": "Egypt",
       "gameId": "28878780",
       "homeCleanSheetPct": 50.5,
-      "awayCleanSheetPct": 12.3,
+      "awayCleanSheetPct": 13.0,
       "noData": false
     },
     {
       "homeTeam": "Venezuela",
       "awayTeam": "Turkey",
       "gameId": "28941266",
-      "homeCleanSheetPct": 20.0,
-      "awayCleanSheetPct": 46.5,
+      "homeCleanSheetPct": 20.2,
+      "awayCleanSheetPct": 46.3,
       "noData": false
     },
     {
       "homeTeam": "Argentina",
       "awayTeam": "Honduras",
       "gameId": "28882934",
-      "homeCleanSheetPct": 64.5,
-      "awayCleanSheetPct": 9.8,
+      "homeCleanSheetPct": 67.6,
+      "awayCleanSheetPct": 9.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Curacao",
+      "awayTeam": "Aruba",
+      "gameId": "28963560",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Afghanistan",
+      "awayTeam": "Pakistan",
+      "gameId": "28971644",
+      "homeCleanSheetPct": 48.1,
+      "awayCleanSheetPct": 26.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Liechtenstein",
+      "awayTeam": "Cyprus",
+      "gameId": "28971674",
+      "homeCleanSheetPct": 18.5,
+      "awayCleanSheetPct": 60.6,
+      "noData": false
+    },
+    {
+      "homeTeam": "Maldives",
+      "awayTeam": "Bangladesh U-23",
+      "gameId": "28973067",
+      "homeCleanSheetPct": 50.8,
+      "awayCleanSheetPct": 23.5,
       "noData": false
     },
     {
       "homeTeam": "Denmark",
       "awayTeam": "Ukraine",
       "gameId": "28891572",
-      "homeCleanSheetPct": 44.6,
-      "awayCleanSheetPct": 21.7,
+      "homeCleanSheetPct": 45.0,
+      "awayCleanSheetPct": 21.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Kosovo",
+      "awayTeam": "Andorra",
+      "gameId": "28971766",
+      "homeCleanSheetPct": 65.8,
+      "awayCleanSheetPct": 11.9,
       "noData": false
     },
     {
       "homeTeam": "Croatia",
       "awayTeam": "Slovenia",
       "gameId": "28808360",
-      "homeCleanSheetPct": 60.2,
-      "awayCleanSheetPct": 16.5,
+      "homeCleanSheetPct": 60.6,
+      "awayCleanSheetPct": 16.4,
       "noData": false
     },
     {
@@ -869,24 +853,88 @@
       "homeTeam": "Morocco",
       "awayTeam": "Norway",
       "gameId": "28808695",
-      "homeCleanSheetPct": 25.3,
-      "awayCleanSheetPct": 33.6,
+      "homeCleanSheetPct": 26.0,
+      "awayCleanSheetPct": 32.9,
       "noData": false
     },
     {
       "homeTeam": "Ecuador",
       "awayTeam": "Guatemala",
       "gameId": "28891580",
-      "homeCleanSheetPct": 68.0,
-      "awayCleanSheetPct": 13.2,
+      "homeCleanSheetPct": 69.9,
+      "awayCleanSheetPct": 12.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Jordan",
+      "awayTeam": "Colombia",
+      "gameId": "28971807",
+      "homeCleanSheetPct": 9.8,
+      "awayCleanSheetPct": 60.0,
       "noData": false
     },
     {
       "homeTeam": "Netherlands",
       "awayTeam": "Uzbekistan",
       "gameId": "28926752",
-      "homeCleanSheetPct": 51.3,
-      "awayCleanSheetPct": 11.2,
+      "homeCleanSheetPct": 50.8,
+      "awayCleanSheetPct": 11.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Northern Ireland",
+      "gameId": "28966050",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Peru",
+      "awayTeam": "Spain",
+      "gameId": "28971796",
+      "homeCleanSheetPct": 10.8,
+      "awayCleanSheetPct": 65.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Philippines",
+      "awayTeam": "Myanmar",
+      "gameId": "28971941",
+      "homeCleanSheetPct": 47.4,
+      "awayCleanSheetPct": 19.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "China PR",
+      "awayTeam": "Thailand",
+      "gameId": "28972008",
+      "homeCleanSheetPct": 40.2,
+      "awayCleanSheetPct": 27.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Bahrain",
+      "awayTeam": "Syria",
+      "gameId": "28973223",
+      "homeCleanSheetPct": 38.8,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Tajikistan",
+      "awayTeam": "India",
+      "gameId": "28973234",
+      "homeCleanSheetPct": 43.3,
+      "awayCleanSheetPct": 26.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Armenia",
+      "awayTeam": "Moldova",
+      "gameId": "28973262",
+      "homeCleanSheetPct": 51.8,
+      "awayCleanSheetPct": 21.3,
       "noData": false
     },
     {
@@ -898,11 +946,51 @@
       "noData": true
     },
     {
+      "homeTeam": "Saudi Arabia",
+      "awayTeam": "Senegal",
+      "gameId": "28973289",
+      "homeCleanSheetPct": 17.5,
+      "awayCleanSheetPct": 50.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Iceland",
+      "gameId": "28973308",
+      "homeCleanSheetPct": 57.9,
+      "awayCleanSheetPct": 9.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Iraq",
+      "awayTeam": "Venezuela",
+      "gameId": "28973385",
+      "homeCleanSheetPct": 26.7,
+      "awayCleanSheetPct": 40.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Nigeria",
+      "gameId": "28972183",
+      "homeCleanSheetPct": 58.1,
+      "awayCleanSheetPct": 11.5,
+      "noData": false
+    },
+    {
       "homeTeam": "England",
       "awayTeam": "Costa Rica",
       "gameId": "28808379",
-      "homeCleanSheetPct": 63.3,
-      "awayCleanSheetPct": 10.3,
+      "homeCleanSheetPct": 62.9,
+      "awayCleanSheetPct": 10.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Austria",
+      "awayTeam": "Guatemala",
+      "gameId": "28972169",
+      "homeCleanSheetPct": 60.2,
+      "awayCleanSheetPct": 11.2,
       "noData": false
     },
     {
@@ -930,195 +1018,163 @@
       "noData": false
     },
     {
-      "homeTeam": "Austria Women",
-      "awayTeam": "Slovenia Women",
-      "gameId": "28916688",
-      "homeCleanSheetPct": 61.3,
-      "awayCleanSheetPct": 13.2,
+      "homeTeam": "Iceland U-19",
+      "awayTeam": "Montenegro U-19",
+      "gameId": "28890873",
+      "homeCleanSheetPct": 36.2,
+      "awayCleanSheetPct": 30.9,
       "noData": false
     },
     {
-      "homeTeam": "Poland Women",
-      "awayTeam": "France Women",
-      "gameId": "28916664",
-      "homeCleanSheetPct": 9.8,
-      "awayCleanSheetPct": 56.5,
+      "homeTeam": "Serbia U-19",
+      "awayTeam": "Kazakhstan U-19",
+      "gameId": "28890886",
+      "homeCleanSheetPct": 62.1,
+      "awayCleanSheetPct": 16.4,
       "noData": false
     },
     {
-      "homeTeam": "Ukraine Women",
-      "awayTeam": "Iceland Women",
-      "gameId": "28916676",
-      "homeCleanSheetPct": 17.4,
-      "awayCleanSheetPct": 64.9,
+      "homeTeam": "Portugal U-19",
+      "awayTeam": "Greece U-19",
+      "gameId": "28890890",
+      "homeCleanSheetPct": 46.9,
+      "awayCleanSheetPct": 16.3,
       "noData": false
     },
     {
-      "homeTeam": "Italy Women",
-      "awayTeam": "Serbia Women",
-      "gameId": "28916648",
-      "homeCleanSheetPct": 67.1,
-      "awayCleanSheetPct": 67.1,
+      "homeTeam": "Atletico Platense",
+      "awayTeam": "Coquimbo Unido",
+      "gameId": "28858418",
+      "homeCleanSheetPct": 48.1,
+      "awayCleanSheetPct": 25.4,
       "noData": false
     },
     {
-      "homeTeam": "Denmark Women",
-      "awayTeam": "Sweden Women",
-      "gameId": "28916650",
-      "homeCleanSheetPct": 23.1,
-      "awayCleanSheetPct": 38.5,
+      "homeTeam": "Cruzeiro-MG",
+      "awayTeam": "Flamengo",
+      "gameId": "28858420",
+      "homeCleanSheetPct": 32.5,
+      "awayCleanSheetPct": 32.9,
       "noData": false
     },
     {
-      "homeTeam": "Republic of Ireland Women",
-      "awayTeam": "Netherlands Women",
-      "gameId": "28916666",
-      "homeCleanSheetPct": 19.2,
-      "awayCleanSheetPct": 43.5,
+      "homeTeam": "Deportes Tolima",
+      "awayTeam": "Independiente Del Valle",
+      "gameId": "28858421",
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 30.7,
       "noData": false
     },
     {
-      "homeTeam": "Germany Women",
-      "awayTeam": "Norway Women",
-      "gameId": "28916690",
-      "homeCleanSheetPct": 46.7,
-      "awayCleanSheetPct": 12.5,
+      "homeTeam": "Estudiantes de La Plata",
+      "awayTeam": "Universidad Catolica Santiago",
+      "gameId": "28858417",
+      "homeCleanSheetPct": 51.3,
+      "awayCleanSheetPct": 23.8,
       "noData": false
     },
     {
-      "homeTeam": "Spain Women",
-      "awayTeam": "England Women",
-      "gameId": "28916678",
-      "homeCleanSheetPct": 42.7,
-      "awayCleanSheetPct": 16.8,
+      "homeTeam": "Fluminense",
+      "awayTeam": "Independiente Rivadavia",
+      "gameId": "28858422",
+      "homeCleanSheetPct": 49.3,
+      "awayCleanSheetPct": 18.3,
       "noData": false
     },
     {
-      "homeTeam": "Slovakia Women",
-      "awayTeam": "Finland Women",
-      "gameId": "28916614",
-      "homeCleanSheetPct": 10.9,
-      "awayCleanSheetPct": 46.7,
+      "homeTeam": "Mirassol",
+      "awayTeam": "LDU Quito",
+      "gameId": "28858424",
+      "homeCleanSheetPct": 45.9,
+      "awayCleanSheetPct": 27.5,
       "noData": false
     },
     {
-      "homeTeam": "Czech Republic Women",
-      "awayTeam": "Albania Women",
-      "gameId": "28916634",
-      "homeCleanSheetPct": 70.9,
-      "awayCleanSheetPct": 70.9,
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Cerro Porteno",
+      "gameId": "28858423",
+      "homeCleanSheetPct": 63.3,
+      "awayCleanSheetPct": 15.3,
       "noData": false
     },
     {
-      "homeTeam": "Montenegro Women",
-      "awayTeam": "Wales Women",
-      "gameId": "28916636",
-      "homeCleanSheetPct": 70.9,
-      "awayCleanSheetPct": 70.9,
+      "homeTeam": "Rosario Central",
+      "awayTeam": "Corinthians-SP",
+      "gameId": "28858419",
+      "homeCleanSheetPct": 37.9,
+      "awayCleanSheetPct": 29.4,
       "noData": false
     },
     {
-      "homeTeam": "Scotland Women",
-      "awayTeam": "Israel Women",
-      "gameId": "28916596",
-      "homeCleanSheetPct": 74.1,
-      "awayCleanSheetPct": 74.1,
+      "homeTeam": "Zenit St Petersburg",
+      "awayTeam": "Spartak Moscow",
+      "gameId": "28752313",
+      "homeCleanSheetPct": 34.8,
+      "awayCleanSheetPct": 26.9,
       "noData": false
     },
     {
-      "homeTeam": "Turkey Women",
-      "awayTeam": "Northern Ireland Women",
-      "gameId": "28916624",
-      "homeCleanSheetPct": 44.1,
-      "awayCleanSheetPct": 24.7,
+      "homeTeam": "Sirius",
+      "awayTeam": "Mjallby",
+      "gameId": "28893714",
+      "homeCleanSheetPct": 40.7,
+      "awayCleanSheetPct": 16.5,
       "noData": false
     },
     {
-      "homeTeam": "Switzerland Women",
-      "awayTeam": "Malta Women",
-      "gameId": "28916626",
-      "homeCleanSheetPct": 70.4,
-      "awayCleanSheetPct": 70.4,
+      "homeTeam": "Degerfors",
+      "awayTeam": "Malmo",
+      "gameId": "28893710",
+      "homeCleanSheetPct": 26.7,
+      "awayCleanSheetPct": 29.4,
       "noData": false
     },
     {
-      "homeTeam": "Belgium Women",
-      "awayTeam": "Luxembourg Women",
-      "gameId": "28916598",
-      "homeCleanSheetPct": 75.8,
-      "awayCleanSheetPct": 75.8,
+      "homeTeam": "Halmstads",
+      "awayTeam": "Vasteras",
+      "gameId": "28893715",
+      "homeCleanSheetPct": 29.4,
+      "awayCleanSheetPct": 28.7,
       "noData": false
     },
     {
-      "homeTeam": "Portugal Women",
-      "awayTeam": "Latvia Women",
-      "gameId": "28916616",
-      "homeCleanSheetPct": 82.0,
-      "awayCleanSheetPct": 82.0,
+      "homeTeam": "Goteborg",
+      "awayTeam": "AIK",
+      "gameId": "28893716",
+      "homeCleanSheetPct": 29.4,
+      "awayCleanSheetPct": 28.7,
       "noData": false
     },
     {
-      "homeTeam": "Georgia Women",
-      "awayTeam": "Faroe Islands Women",
-      "gameId": "28916534",
-      "homeCleanSheetPct": 29.9,
-      "awayCleanSheetPct": 31.2,
+      "homeTeam": "Kalmar",
+      "awayTeam": "Orgryte",
+      "gameId": "28893717",
+      "homeCleanSheetPct": 44.6,
+      "awayCleanSheetPct": 14.3,
       "noData": false
     },
     {
-      "homeTeam": "Armenia Women",
-      "awayTeam": "Kazakhstan Women",
-      "gameId": "28916510",
-      "homeCleanSheetPct": 17.2,
-      "awayCleanSheetPct": 42.1,
+      "homeTeam": "Elfsborg",
+      "awayTeam": "Hammarby",
+      "gameId": "28893711",
+      "homeCleanSheetPct": 21.7,
+      "awayCleanSheetPct": 32.5,
       "noData": false
     },
     {
-      "homeTeam": "Azerbaijan Women",
-      "awayTeam": "Hungary Women",
-      "gameId": "28916551",
-      "homeCleanSheetPct": 14.7,
-      "awayCleanSheetPct": 65.4,
+      "homeTeam": "Brommapojkarna",
+      "awayTeam": "GAIS",
+      "gameId": "28893713",
+      "homeCleanSheetPct": 24.1,
+      "awayCleanSheetPct": 32.5,
       "noData": false
     },
     {
-      "homeTeam": "Bosnia and Herzegovina Women",
-      "awayTeam": "Lithuania Women",
-      "gameId": "28916574",
-      "homeCleanSheetPct": 61.0,
-      "awayCleanSheetPct": 9.5,
-      "noData": false
-    },
-    {
-      "homeTeam": "Moldova Women",
-      "awayTeam": "Romania Women",
-      "gameId": "28916530",
-      "homeCleanSheetPct": 9.5,
-      "awayCleanSheetPct": 71.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Kosovo Women",
-      "awayTeam": "Croatia Women",
-      "gameId": "28916564",
-      "homeCleanSheetPct": 30.5,
-      "awayCleanSheetPct": 27.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Liechtenstein Women",
-      "awayTeam": "Estonia Women",
-      "gameId": "28916576",
-      "homeCleanSheetPct": 48.8,
-      "awayCleanSheetPct": 48.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Andorra Women",
-      "awayTeam": "North Macedonia Women",
-      "gameId": "28916553",
-      "homeCleanSheetPct": 21.5,
-      "awayCleanSheetPct": 38.5,
+      "homeTeam": "Hacken",
+      "awayTeam": "Djurgardens",
+      "gameId": "28893712",
+      "homeCleanSheetPct": 25.4,
+      "awayCleanSheetPct": 21.3,
       "noData": false
     }
   ]
