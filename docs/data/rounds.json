@@ -7629,7 +7629,15 @@
             "causedPenalty": 0,
             "failedForPenalty": 0
           },
-          "footballCoIl": null,
+          "footballCoIl": {
+            "teamId": 5,
+            "expectedGoals": 0.0193,
+            "goals": 0,
+            "assists": 0,
+            "shotsOnTarget": 0,
+            "shotAttempts": 1,
+            "minutesPlayed": 18
+          },
           "scores365": {
             "xG": 0.03,
             "xA": 0.01,
