@@ -1,44 +1,12 @@
 {
-  "scrapedAt": "2026-06-24T22:06:01.375358+00:00",
+  "scrapedAt": "2026-06-25T22:15:37.440745+00:00",
   "games": [
-    {
-      "homeTeam": "Czech Republic",
-      "awayTeam": "Mexico",
-      "gameId": "27756047",
-      "homeCleanSheetPct": 22.7,
-      "awayCleanSheetPct": 37.7,
-      "noData": false
-    },
-    {
-      "homeTeam": "South Africa",
-      "awayTeam": "Korea Republic",
-      "gameId": "25838597",
-      "homeCleanSheetPct": 19.0,
-      "awayCleanSheetPct": 48.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Curacao",
-      "awayTeam": "Cote d'Ivoire",
-      "gameId": "25838649",
-      "homeCleanSheetPct": 8.7,
-      "awayCleanSheetPct": 64.9,
-      "noData": false
-    },
-    {
-      "homeTeam": "Ecuador",
-      "awayTeam": "Germany",
-      "gameId": "25838653",
-      "homeCleanSheetPct": 19.8,
-      "awayCleanSheetPct": 35.7,
-      "noData": false
-    },
     {
       "homeTeam": "Japan",
       "awayTeam": "Sweden",
       "gameId": "27755608",
-      "homeCleanSheetPct": 36.8,
-      "awayCleanSheetPct": 20.8,
+      "homeCleanSheetPct": 31.7,
+      "awayCleanSheetPct": 22.7,
       "noData": false
     },
     {
@@ -53,56 +21,56 @@
       "homeTeam": "Paraguay",
       "awayTeam": "Australia",
       "gameId": "25838635",
-      "homeCleanSheetPct": 46.7,
-      "awayCleanSheetPct": 40.2,
+      "homeCleanSheetPct": 46.3,
+      "awayCleanSheetPct": 37.2,
       "noData": false
     },
     {
       "homeTeam": "Turkey",
       "awayTeam": "USA",
       "gameId": "27755605",
-      "homeCleanSheetPct": 20.0,
-      "awayCleanSheetPct": 32.9,
+      "homeCleanSheetPct": 16.9,
+      "awayCleanSheetPct": 32.3,
       "noData": false
     },
     {
       "homeTeam": "Norway",
       "awayTeam": "France",
       "gameId": "25838815",
-      "homeCleanSheetPct": 16.3,
-      "awayCleanSheetPct": 38.2,
+      "homeCleanSheetPct": 15.0,
+      "awayCleanSheetPct": 39.7,
       "noData": false
     },
     {
       "homeTeam": "Senegal",
       "awayTeam": "Iraq",
       "gameId": "27759602",
-      "homeCleanSheetPct": 56.8,
-      "awayCleanSheetPct": 9.1,
+      "homeCleanSheetPct": 57.5,
+      "awayCleanSheetPct": 9.5,
       "noData": false
     },
     {
       "homeTeam": "Cape Verde",
       "awayTeam": "Saudi Arabia",
       "gameId": "25838804",
-      "homeCleanSheetPct": 32.3,
-      "awayCleanSheetPct": 29.4,
+      "homeCleanSheetPct": 31.8,
+      "awayCleanSheetPct": 31.8,
       "noData": false
     },
     {
       "homeTeam": "Uruguay",
       "awayTeam": "Spain",
       "gameId": "25838803",
-      "homeCleanSheetPct": 16.9,
-      "awayCleanSheetPct": 49.3,
+      "homeCleanSheetPct": 17.9,
+      "awayCleanSheetPct": 51.5,
       "noData": false
     },
     {
       "homeTeam": "Egypt",
       "awayTeam": "Iran",
       "gameId": "25838775",
-      "homeCleanSheetPct": 46.1,
-      "awayCleanSheetPct": 36.8,
+      "homeCleanSheetPct": 46.3,
+      "awayCleanSheetPct": 36.2,
       "noData": false
     },
     {
@@ -117,7 +85,7 @@
       "homeTeam": "Croatia",
       "awayTeam": "Ghana",
       "gameId": "25838868",
-      "homeCleanSheetPct": 50.0,
+      "homeCleanSheetPct": 50.3,
       "awayCleanSheetPct": 24.4,
       "noData": false
     },
@@ -133,400 +101,504 @@
       "homeTeam": "Colombia",
       "awayTeam": "Portugal",
       "gameId": "25838850",
-      "homeCleanSheetPct": 23.3,
-      "awayCleanSheetPct": 41.5,
+      "homeCleanSheetPct": 22.5,
+      "awayCleanSheetPct": 41.8,
       "noData": false
     },
     {
       "homeTeam": "Congo DR",
       "awayTeam": "Uzbekistan",
       "gameId": "27759638",
-      "homeCleanSheetPct": 40.7,
-      "awayCleanSheetPct": 20.6,
+      "homeCleanSheetPct": 41.5,
+      "awayCleanSheetPct": 20.4,
       "noData": false
     },
     {
       "homeTeam": "Algeria",
       "awayTeam": "Austria",
       "gameId": "25838833",
-      "homeCleanSheetPct": 37.7,
-      "awayCleanSheetPct": 43.7,
+      "homeCleanSheetPct": 38.2,
+      "awayCleanSheetPct": 44.1,
       "noData": false
     },
     {
       "homeTeam": "Jordan",
       "awayTeam": "Argentina",
       "gameId": "25838836",
-      "homeCleanSheetPct": 10.4,
-      "awayCleanSheetPct": 61.7,
+      "homeCleanSheetPct": 10.0,
+      "awayCleanSheetPct": 62.1,
       "noData": false
     },
     {
-      "homeTeam": "Czech Republic",
-      "awayTeam": "Mexico",
-      "gameId": "29123425",
+      "homeTeam": "Japan",
+      "awayTeam": "Sweden",
+      "gameId": "29260501",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Tunisia",
+      "awayTeam": "Netherlands",
+      "gameId": "29260464",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "gameId": "29166360",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Turkey",
+      "awayTeam": "USA",
+      "gameId": "29166416",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Japan",
+      "awayTeam": "Sweden",
+      "gameId": "29260541",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Tunisia",
+      "awayTeam": "Netherlands",
+      "gameId": "29260478",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Paraguay",
+      "awayTeam": "Australia",
+      "gameId": "29166369",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Turkey",
+      "awayTeam": "USA",
+      "gameId": "29166422",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Brobbey, Brian (Tunisia",
+      "awayTeam": "Netherlands) vs Gakpo, Cody (Tunisia vs Netherlands)",
+      "gameId": "29433242",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Isak, Alexander (Japan",
+      "awayTeam": "Sweden) vs Gyokeres, Viktor (Japan vs Sweden)",
+      "gameId": "29430353",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Nakamura, Keito (Japan",
+      "awayTeam": "Sweden) vs Gyokeres, Viktor (Japan vs Sweden)",
+      "gameId": "29430355",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Nakamura, Keito (Japan",
+      "awayTeam": "Sweden) vs Isak, Alexander (Japan vs Sweden)",
+      "gameId": "29430351",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Saad, Elias (Tunisia",
+      "awayTeam": "Netherlands) vs Gakpo, Cody (Tunisia vs Netherlands)",
+      "gameId": "29433241",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Saad, Elias (Tunisia",
+      "awayTeam": "Netherlands) vs Tounekti, Sebastian (Tunisia vs Netherlands)",
+      "gameId": "29433245",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Summerville, Crysencio (Tunisia",
+      "awayTeam": "Netherlands) vs Brobbey, Brian (Tunisia vs Netherlands)",
+      "gameId": "29433243",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Tounekti, Sebastian (Tunisia",
+      "awayTeam": "Netherlands) vs Gakpo, Cody (Tunisia vs Netherlands)",
+      "gameId": "29433244",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ueda, Ayase (Japan",
+      "awayTeam": "Sweden) vs Gyokeres, Viktor (Japan vs Sweden)",
+      "gameId": "29430354",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ueda, Ayase (Japan",
+      "awayTeam": "Sweden) vs Isak, Alexander (Japan vs Sweden)",
+      "gameId": "29430352",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Arce, Alex (Paraguay",
+      "awayTeam": "Australia) vs Irankunda, Nestory (Paraguay vs Australia)",
+      "gameId": "29441443",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Arce, Alex (Paraguay",
+      "awayTeam": "Australia) vs Sanabria, Antonio (Paraguay vs Australia)",
+      "gameId": "29441439",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Balogun, Folarin (Turkey",
+      "awayTeam": "USA) vs Pepi, Ricardo (Turkey vs USA)",
+      "gameId": "29434951",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Calhanoglu, Hakan (Turkey",
+      "awayTeam": "USA) vs Gul, Deniz (Turkey vs USA)",
+      "gameId": "29434952",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Calhanoglu, Hakan (Turkey",
+      "awayTeam": "USA) vs Guler, Arda (Turkey vs USA)",
+      "gameId": "29434948",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Enciso, Julio (Paraguay",
+      "awayTeam": "Australia) vs Toure, Mohamed (Paraguay vs Australia)",
+      "gameId": "29441441",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Guler, Arda (Turkey",
+      "awayTeam": "USA) vs Pepi, Ricardo (Turkey vs USA)",
+      "gameId": "29434950",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Guler, Arda (Turkey",
+      "awayTeam": "USA) vs Yildiz, Kenan (Turkey vs USA)",
+      "gameId": "29434949",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Pitta, Isidro (Paraguay",
+      "awayTeam": "Australia) vs Enciso, Julio (Paraguay vs Australia)",
+      "gameId": "29441440",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Sanabria, Antonio (Paraguay",
+      "awayTeam": "Australia) vs Enciso, Julio (Paraguay vs Australia)",
+      "gameId": "29441442",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Dembele, Ousmane (Norway",
+      "awayTeam": "France) vs Mbappe Lottin, Kylian (Norway vs France)",
+      "gameId": "29456269",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Haaland, Erling (Norway",
+      "awayTeam": "France) vs Dembele, Ousmane (Norway vs France)",
+      "gameId": "29456268",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Haaland, Erling (Norway",
+      "awayTeam": "France) vs Mbappe Lottin, Kylian (Norway vs France)",
+      "gameId": "29456267",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Jackson, Nicolas (Senegal",
+      "awayTeam": "Iraq) vs Hussein, Aymen (Senegal vs Iraq)",
+      "gameId": "29456460",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Jasim, Ali (Senegal",
+      "awayTeam": "Iraq) vs Al-Ammari, Amir (Senegal vs Iraq)",
+      "gameId": "29456459",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Mane, Sadio (Senegal",
+      "awayTeam": "Iraq) vs Al-Ammari, Amir (Senegal vs Iraq)",
+      "gameId": "29456461",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Mane, Sadio (Senegal",
+      "awayTeam": "Iraq) vs Sarr, Ismaila (Senegal vs Iraq)",
+      "gameId": "29456462",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Olise, Michael (Norway",
+      "awayTeam": "France) vs Doue, Desire (Norway vs France)",
+      "gameId": "29456265",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Sarr, Ismaila (Senegal",
+      "awayTeam": "Iraq) vs Jackson, Nicolas (Senegal vs Iraq)",
+      "gameId": "29456464",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Sorloth, Alexander (Norway",
+      "awayTeam": "France) vs Barcola, Bradley (Norway vs France)",
+      "gameId": "29456266",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Al Dawsari, Salem (Cape Verde",
+      "awayTeam": "Saudi Arabia) vs Al-Buraikan, Firas (Cape Verde vs Saudi Arabia)",
+      "gameId": "29456799",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Araujo, Maximiliano (Uruguay",
+      "awayTeam": "Spain) vs Olmo, Daniel (Uruguay vs Spain)",
+      "gameId": "29457023",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Canobbio, Agustin (Uruguay",
+      "awayTeam": "Spain) vs Yamal, Lamine (Uruguay vs Spain)",
+      "gameId": "29457025",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Mendes, Ryan (Cape Verde",
+      "awayTeam": "Saudi Arabia) vs Al Dawsari, Salem (Cape Verde vs Saudi Arabia)",
+      "gameId": "29456800",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Mendes, Ryan (Cape Verde",
+      "awayTeam": "Saudi Arabia) vs Tavares, Gilson Benchimol (Cape Verde vs Saudi Arabia)",
+      "gameId": "29456803",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Oyarzabal, Mikel (Uruguay",
+      "awayTeam": "Spain) vs Yamal, Lamine (Uruguay vs Spain)",
+      "gameId": "29457026",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Tavares, Gilson Benchimol (Cape Verde",
+      "awayTeam": "Saudi Arabia) vs Al-Buraikan, Firas (Cape Verde vs Saudi Arabia)",
+      "gameId": "29456802",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Tavares, Gilson Benchimol (Cape Verde",
+      "awayTeam": "Saudi Arabia) vs Al Dawsari, Salem (Cape Verde vs Saudi Arabia)",
+      "gameId": "29456801",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Valverde, Federico (Uruguay",
+      "awayTeam": "Spain) vs Olmo, Daniel (Uruguay vs Spain)",
+      "gameId": "29457028",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Vinas, Federico (Uruguay",
+      "awayTeam": "Spain) vs Oyarzabal, Mikel (Uruguay vs Spain)",
+      "gameId": "29457027",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "De Bruyne, Kevin (New Zealand",
+      "awayTeam": "Belgium) vs Trossard, Leandro (New Zealand vs Belgium)",
+      "gameId": "29457955",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Just, Elijah (New Zealand",
+      "awayTeam": "Belgium) vs De Bruyne, Kevin (New Zealand vs Belgium)",
+      "gameId": "29457959",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Lukaku, Romelu (New Zealand",
+      "awayTeam": "Belgium) vs De Bruyne, Kevin (New Zealand vs Belgium)",
+      "gameId": "29457958",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Marmoush, Omar (Egypt",
+      "awayTeam": "Iran) vs Mohebi, Mohammad (Egypt vs Iran)",
+      "gameId": "29457584",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Marmoush, Omar (Egypt",
+      "awayTeam": "Iran) vs Taremi, Mehdi (Egypt vs Iran)",
+      "gameId": "29457587",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Salah, Mohamed (Egypt",
+      "awayTeam": "Iran) vs Marmoush, Omar (Egypt vs Iran)",
+      "gameId": "29457583",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Salah, Mohamed (Egypt",
+      "awayTeam": "Iran) vs Taremi, Mehdi (Egypt vs Iran)",
+      "gameId": "29457586",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Wood, Chris (New Zealand",
+      "awayTeam": "Belgium) vs Just, Elijah (New Zealand vs Belgium)",
+      "gameId": "29457956",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Wood, Chris (New Zealand",
+      "awayTeam": "Belgium) vs Lukaku, Romelu (New Zealand vs Belgium)",
+      "gameId": "29457957",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ziko, Mostafa (Egypt",
+      "awayTeam": "Iran) vs Mohebi, Mohammad (Egypt vs Iran)",
+      "gameId": "29457585",
       "homeCleanSheetPct": null,
       "awayCleanSheetPct": null,
       "noData": true
     },
     {
       "homeTeam": "South Africa",
-      "awayTeam": "Korea Republic",
-      "gameId": "29123242",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Czech Republic",
-      "awayTeam": "Mexico",
-      "gameId": "29123475",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "South Africa",
-      "awayTeam": "Korea Republic",
-      "gameId": "29123318",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Adams, Jayden (South Africa",
-      "awayTeam": "Korea Republic) vs Maseko, Thapelo (South Africa vs Korea Republic)",
-      "gameId": "29409884",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Alvarado, Roberto (Czech Republic",
-      "awayTeam": "Mexico) vs Sulc, Pavel (Czech Republic vs Mexico)",
-      "gameId": "29409357",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Appollis, Oswin (South Africa",
-      "awayTeam": "Korea Republic) vs Rayners, Iqraam (South Africa vs Korea Republic)",
-      "gameId": "29409888",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Hlozek, Adam (Czech Republic",
-      "awayTeam": "Mexico) vs Alvarado, Roberto (Czech Republic vs Mexico)",
-      "gameId": "29409359",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Hlozek, Adam (Czech Republic",
-      "awayTeam": "Mexico) vs Sulc, Pavel (Czech Republic vs Mexico)",
-      "gameId": "29409356",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Lee, Kang-in (South Africa",
-      "awayTeam": "Korea Republic) vs Lee, Jae-Sung (South Africa vs Korea Republic)",
-      "gameId": "29409887",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Rayners, Iqraam (South Africa",
-      "awayTeam": "Korea Republic) vs Hwang, In-Beom (South Africa vs Korea Republic)",
-      "gameId": "29409886",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Schick, Patrik (Czech Republic",
-      "awayTeam": "Mexico) vs Alvarado, Roberto (Czech Republic vs Mexico)",
-      "gameId": "29409355",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Schick, Patrik (Czech Republic",
-      "awayTeam": "Mexico) vs Hlozek, Adam (Czech Republic vs Mexico)",
-      "gameId": "29409354",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Son, Heung-Min (South Africa",
-      "awayTeam": "Korea Republic) vs Lee, Kang-in (South Africa vs Korea Republic)",
-      "gameId": "29409889",
-      "homeCleanSheetPct": null,
-      "awayCleanSheetPct": null,
-      "noData": true
-    },
-    {
-      "homeTeam": "Paris Saint-Germain",
-      "awayTeam": "Aston Villa",
-      "gameId": "28858203",
-      "homeCleanSheetPct": 48.3,
-      "awayCleanSheetPct": 17.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Manchester City",
-      "gameId": "28858338",
-      "homeCleanSheetPct": 31.2,
-      "awayCleanSheetPct": 23.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Arsenal",
-      "awayTeam": "Coventry City",
-      "gameId": "29306889",
-      "homeCleanSheetPct": 65.4,
-      "awayCleanSheetPct": 9.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Hull City",
-      "awayTeam": "Manchester United",
-      "gameId": "29306886",
-      "homeCleanSheetPct": 14.9,
-      "awayCleanSheetPct": 47.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Everton",
-      "awayTeam": "Crystal Palace",
-      "gameId": "29306888",
-      "homeCleanSheetPct": 32.9,
-      "awayCleanSheetPct": 22.7,
-      "noData": false
-    },
-    {
-      "homeTeam": "Ipswich Town",
-      "awayTeam": "Sunderland",
-      "gameId": "29306881",
-      "homeCleanSheetPct": 28.7,
-      "awayCleanSheetPct": 29.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Nottingham Forest",
-      "awayTeam": "Leeds United",
-      "gameId": "29306887",
-      "homeCleanSheetPct": 31.2,
-      "awayCleanSheetPct": 23.3,
-      "noData": false
-    },
-    {
-      "homeTeam": "Brentford",
-      "awayTeam": "Tottenham Hotspur",
-      "gameId": "29306882",
-      "homeCleanSheetPct": 24.1,
-      "awayCleanSheetPct": 24.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Brighton & Hove Albion",
-      "awayTeam": "Aston Villa",
-      "gameId": "29306885",
-      "homeCleanSheetPct": 27.5,
-      "awayCleanSheetPct": 21.3,
-      "noData": false
-    },
-    {
-      "homeTeam": "Manchester City",
-      "awayTeam": "Bournemouth",
-      "gameId": "29306884",
-      "homeCleanSheetPct": 37.2,
-      "awayCleanSheetPct": 11.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Newcastle United",
-      "awayTeam": "Liverpool",
-      "gameId": "29306883",
-      "homeCleanSheetPct": 17.7,
-      "awayCleanSheetPct": 23.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Fulham",
-      "awayTeam": "Chelsea",
-      "gameId": "29306880",
-      "homeCleanSheetPct": 21.3,
-      "awayCleanSheetPct": 27.5,
-      "noData": false
-    },
-    {
-      "homeTeam": "Atalanta",
-      "awayTeam": "Sassuolo",
-      "gameId": "29308386",
-      "homeCleanSheetPct": 43.7,
-      "awayCleanSheetPct": 16.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Bologna",
-      "awayTeam": "Lazio",
-      "gameId": "29308394",
-      "homeCleanSheetPct": 40.7,
-      "awayCleanSheetPct": 27.5,
-      "noData": false
-    },
-    {
-      "homeTeam": "Frosinone",
-      "awayTeam": "Juventus",
-      "gameId": "29308385",
-      "homeCleanSheetPct": 16.5,
-      "awayCleanSheetPct": 50.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "Genoa",
-      "awayTeam": "Napoli",
-      "gameId": "29308391",
-      "homeCleanSheetPct": 22.5,
-      "awayCleanSheetPct": 49.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "Inter",
-      "awayTeam": "Monza",
-      "gameId": "29308381",
-      "homeCleanSheetPct": 60.6,
-      "awayCleanSheetPct": 11.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Parma",
-      "awayTeam": "Cagliari",
-      "gameId": "29308384",
-      "homeCleanSheetPct": 36.8,
-      "awayCleanSheetPct": 34.6,
-      "noData": false
-    },
-    {
-      "homeTeam": "Roma",
-      "awayTeam": "Fiorentina",
-      "gameId": "29308392",
-      "homeCleanSheetPct": 49.5,
-      "awayCleanSheetPct": 17.5,
-      "noData": false
-    },
-    {
-      "homeTeam": "Torino",
-      "awayTeam": "Milan",
-      "gameId": "29308390",
-      "homeCleanSheetPct": 20.4,
-      "awayCleanSheetPct": 41.0,
-      "noData": false
-    },
-    {
-      "homeTeam": "Udinese",
-      "awayTeam": "Como",
-      "gameId": "29308383",
-      "homeCleanSheetPct": 23.5,
-      "awayCleanSheetPct": 46.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Venezia",
-      "awayTeam": "Lecce",
-      "gameId": "29308382",
-      "homeCleanSheetPct": 37.7,
-      "awayCleanSheetPct": 30.3,
-      "noData": false
-    },
-    {
-      "homeTeam": "Borussia Dortmund",
-      "awayTeam": "Bayern Munich",
-      "gameId": "28858158",
-      "homeCleanSheetPct": 12.5,
-      "awayCleanSheetPct": 28.2,
-      "noData": false
-    },
-    {
-      "homeTeam": "Lens",
-      "awayTeam": "Paris Saint-Germain",
-      "gameId": "29062620",
-      "homeCleanSheetPct": 17.5,
-      "awayCleanSheetPct": 38.2,
-      "noData": false
-    },
-    {
-      "homeTeam": "Fluminense",
-      "awayTeam": "Independiente Rivadavia",
-      "gameId": "28858422",
-      "homeCleanSheetPct": 49.5,
-      "awayCleanSheetPct": 18.2,
-      "noData": false
-    },
-    {
-      "homeTeam": "Deportes Tolima",
-      "awayTeam": "Independiente Del Valle",
-      "gameId": "28858421",
-      "homeCleanSheetPct": 31.2,
-      "awayCleanSheetPct": 30.7,
-      "noData": false
-    },
-    {
-      "homeTeam": "Estudiantes de La Plata",
-      "awayTeam": "Universidad Catolica Santiago",
-      "gameId": "28858417",
-      "homeCleanSheetPct": 51.3,
-      "awayCleanSheetPct": 24.1,
-      "noData": false
-    },
-    {
-      "homeTeam": "Atletico Platense",
-      "awayTeam": "Coquimbo Unido",
-      "gameId": "28858418",
-      "homeCleanSheetPct": 48.1,
-      "awayCleanSheetPct": 25.3,
-      "noData": false
-    },
-    {
-      "homeTeam": "Palmeiras",
-      "awayTeam": "Cerro Porteno",
-      "gameId": "28858423",
-      "homeCleanSheetPct": 62.1,
-      "awayCleanSheetPct": 15.4,
-      "noData": false
-    },
-    {
-      "homeTeam": "Cruzeiro-MG",
-      "awayTeam": "Flamengo",
-      "gameId": "28858420",
-      "homeCleanSheetPct": 32.5,
-      "awayCleanSheetPct": 32.9,
-      "noData": false
-    },
-    {
-      "homeTeam": "Mirassol",
-      "awayTeam": "LDU Quito",
-      "gameId": "28858424",
-      "homeCleanSheetPct": 45.5,
-      "awayCleanSheetPct": 27.5,
-      "noData": false
-    },
-    {
-      "homeTeam": "Rosario Central",
-      "awayTeam": "Corinthians-SP",
-      "gameId": "28858419",
-      "homeCleanSheetPct": 39.5,
-      "awayCleanSheetPct": 30.9,
+      "awayTeam": "Canada",
+      "gameId": "29444563",
+      "homeCleanSheetPct": 23.3,
+      "awayCleanSheetPct": 50.3,
       "noData": false
     }
   ]
