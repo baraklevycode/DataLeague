@@ -1,43 +1,27 @@
 {
-  "scrapedAt": "2026-06-28T21:50:59.345515+00:00",
+  "scrapedAt": "2026-06-29T22:05:44.131383+00:00",
   "games": [
-    {
-      "homeTeam": "Brazil",
-      "awayTeam": "Japan",
-      "gameId": "29467136",
-      "homeCleanSheetPct": 45.7,
-      "awayCleanSheetPct": 20.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Germany",
-      "awayTeam": "Paraguay",
-      "gameId": "29493402",
-      "homeCleanSheetPct": 53.8,
-      "awayCleanSheetPct": 12.0,
-      "noData": false
-    },
     {
       "homeTeam": "Netherlands",
       "awayTeam": "Morocco",
       "gameId": "29467135",
-      "homeCleanSheetPct": 37.3,
-      "awayCleanSheetPct": 27.2,
+      "homeCleanSheetPct": 34.8,
+      "awayCleanSheetPct": 27.8,
       "noData": false
     },
     {
       "homeTeam": "Cote d'Ivoire",
       "awayTeam": "Norway",
       "gameId": "29489697",
-      "homeCleanSheetPct": 22.0,
-      "awayCleanSheetPct": 34.8,
+      "homeCleanSheetPct": 23.3,
+      "awayCleanSheetPct": 35.7,
       "noData": false
     },
     {
       "homeTeam": "France",
       "awayTeam": "Sweden",
       "gameId": "29493403",
-      "homeCleanSheetPct": 53.2,
+      "homeCleanSheetPct": 49.5,
       "awayCleanSheetPct": 9.5,
       "noData": false
     },
@@ -45,7 +29,7 @@
       "homeTeam": "Mexico",
       "awayTeam": "Ecuador",
       "gameId": "29514309",
-      "homeCleanSheetPct": 46.7,
+      "homeCleanSheetPct": 49.0,
       "awayCleanSheetPct": 34.1,
       "noData": false
     },
@@ -53,31 +37,31 @@
       "homeTeam": "England",
       "awayTeam": "Congo DR",
       "gameId": "29515863",
-      "homeCleanSheetPct": 66.2,
-      "awayCleanSheetPct": 13.5,
+      "homeCleanSheetPct": 65.8,
+      "awayCleanSheetPct": 14.5,
       "noData": false
     },
     {
       "homeTeam": "Belgium",
       "awayTeam": "Senegal",
       "gameId": "29515862",
-      "homeCleanSheetPct": 41.5,
-      "awayCleanSheetPct": 28.7,
+      "homeCleanSheetPct": 38.2,
+      "awayCleanSheetPct": 27.5,
       "noData": false
     },
     {
       "homeTeam": "USA",
       "awayTeam": "Bosnia and Herzegovina",
       "gameId": "29467229",
-      "homeCleanSheetPct": 54.9,
-      "awayCleanSheetPct": 13.7,
+      "homeCleanSheetPct": 54.6,
+      "awayCleanSheetPct": 13.9,
       "noData": false
     },
     {
       "homeTeam": "Spain",
       "awayTeam": "Austria",
       "gameId": "29517694",
-      "homeCleanSheetPct": 62.5,
+      "homeCleanSheetPct": 60.0,
       "awayCleanSheetPct": 13.7,
       "noData": false
     },
@@ -85,8 +69,8 @@
       "homeTeam": "Portugal",
       "awayTeam": "Croatia",
       "gameId": "29515804",
-      "homeCleanSheetPct": 44.8,
-      "awayCleanSheetPct": 21.3,
+      "homeCleanSheetPct": 45.7,
+      "awayCleanSheetPct": 21.1,
       "noData": false
     },
     {
@@ -94,14 +78,14 @@
       "awayTeam": "Algeria",
       "gameId": "29517693",
       "homeCleanSheetPct": 41.0,
-      "awayCleanSheetPct": 26.2,
+      "awayCleanSheetPct": 27.5,
       "noData": false
     },
     {
       "homeTeam": "Australia",
       "awayTeam": "Egypt",
       "gameId": "29495624",
-      "homeCleanSheetPct": 36.8,
+      "homeCleanSheetPct": 36.2,
       "awayCleanSheetPct": 43.7,
       "noData": false
     },
@@ -109,32 +93,96 @@
       "homeTeam": "Argentina",
       "awayTeam": "Cape Verde",
       "gameId": "29493404",
-      "homeCleanSheetPct": 68.5,
-      "awayCleanSheetPct": 9.1,
+      "homeCleanSheetPct": 68.0,
+      "awayCleanSheetPct": 9.8,
       "noData": false
     },
     {
       "homeTeam": "Colombia",
       "awayTeam": "Ghana",
       "gameId": "29515803",
-      "homeCleanSheetPct": 55.6,
-      "awayCleanSheetPct": 20.6,
+      "homeCleanSheetPct": 56.8,
+      "awayCleanSheetPct": 20.0,
       "noData": false
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
+      "gameId": "29478070",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Diaz, Brahim (Netherlands",
+      "awayTeam": "Morocco) vs Saibari, Ismael (Netherlands vs Morocco)",
+      "gameId": "29538838",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "El Kaabi, Ayoub (Netherlands",
+      "awayTeam": "Morocco) vs Saibari, Ismael (Netherlands vs Morocco)",
+      "gameId": "29538841",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Gakpo, Cody (Netherlands",
+      "awayTeam": "Morocco) vs Brobbey, Brian (Netherlands vs Morocco)",
+      "gameId": "29538840",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Gakpo, Cody (Netherlands",
+      "awayTeam": "Morocco) vs Saibari, Ismael (Netherlands vs Morocco)",
+      "gameId": "29538839",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Malen, Donyell (Netherlands",
+      "awayTeam": "Morocco) vs Brobbey, Brian (Netherlands vs Morocco)",
+      "gameId": "29538837",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Malen, Donyell (Netherlands",
+      "awayTeam": "Morocco) vs Diaz, Brahim (Netherlands vs Morocco)",
+      "gameId": "29538842",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Netherlands",
+      "awayTeam": "Morocco",
+      "gameId": "29478064",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
     },
     {
       "homeTeam": "Paris Saint-Germain",
       "awayTeam": "Aston Villa",
       "gameId": "28858203",
-      "homeCleanSheetPct": 47.2,
-      "awayCleanSheetPct": 17.5,
+      "homeCleanSheetPct": 46.7,
+      "awayCleanSheetPct": 17.7,
       "noData": false
     },
     {
       "homeTeam": "Arsenal",
       "awayTeam": "Manchester City",
       "gameId": "28858338",
-      "homeCleanSheetPct": 31.2,
-      "awayCleanSheetPct": 23.5,
+      "homeCleanSheetPct": 28.7,
+      "awayCleanSheetPct": 25.5,
       "noData": false
     },
     {
@@ -373,8 +421,8 @@
       "homeTeam": "Middlesbrough",
       "awayTeam": "Wrexham",
       "gameId": "29485127",
-      "homeCleanSheetPct": 32.9,
-      "awayCleanSheetPct": 22.7,
+      "homeCleanSheetPct": 32.5,
+      "awayCleanSheetPct": 23.1,
       "noData": false
     },
     {
@@ -493,8 +541,8 @@
       "homeTeam": "York City",
       "awayTeam": "Crawley Town",
       "gameId": "29485030",
-      "homeCleanSheetPct": 41.5,
-      "awayCleanSheetPct": 20.8,
+      "homeCleanSheetPct": 42.4,
+      "awayCleanSheetPct": 20.6,
       "noData": false
     },
     {
@@ -594,22 +642,6 @@
       "noData": false
     },
     {
-      "homeTeam": "Italy U-19",
-      "awayTeam": "Serbia U-19",
-      "gameId": "29478955",
-      "homeCleanSheetPct": 33.6,
-      "awayCleanSheetPct": 12.8,
-      "noData": false
-    },
-    {
-      "homeTeam": "Croatia U-19",
-      "awayTeam": "Ukraine U-19",
-      "gameId": "29478959",
-      "homeCleanSheetPct": 35.2,
-      "awayCleanSheetPct": 21.1,
-      "noData": false
-    },
-    {
       "homeTeam": "Fluminense",
       "awayTeam": "Independiente Rivadavia",
       "gameId": "28858422",
@@ -629,7 +661,7 @@
       "homeTeam": "Estudiantes de La Plata",
       "awayTeam": "Universidad Catolica Santiago",
       "gameId": "28858417",
-      "homeCleanSheetPct": 50.8,
+      "homeCleanSheetPct": 51.3,
       "awayCleanSheetPct": 23.8,
       "noData": false
     },
@@ -637,8 +669,8 @@
       "homeTeam": "Atletico Platense",
       "awayTeam": "Coquimbo Unido",
       "gameId": "28858418",
-      "homeCleanSheetPct": 48.1,
-      "awayCleanSheetPct": 25.3,
+      "homeCleanSheetPct": 47.6,
+      "awayCleanSheetPct": 26.0,
       "noData": false
     },
     {
@@ -669,7 +701,7 @@
       "homeTeam": "Rosario Central",
       "awayTeam": "Corinthians-SP",
       "gameId": "28858419",
-      "homeCleanSheetPct": 39.5,
+      "homeCleanSheetPct": 40.2,
       "awayCleanSheetPct": 30.9,
       "noData": false
     }
