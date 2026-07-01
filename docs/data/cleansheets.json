@@ -1,4 +1,853 @@
 {
-  "scrapedAt": "2026-06-30T22:06:07.785094+00:00",
-  "games": []
+  "scrapedAt": "2026-07-01T22:14:26.667331+00:00",
+  "games": [
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Bosnia and Herzegovina",
+      "gameId": "29467229",
+      "homeCleanSheetPct": 50.0,
+      "awayCleanSheetPct": 11.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Spain",
+      "awayTeam": "Austria",
+      "gameId": "29517694",
+      "homeCleanSheetPct": 57.9,
+      "awayCleanSheetPct": 13.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Portugal",
+      "awayTeam": "Croatia",
+      "gameId": "29515804",
+      "homeCleanSheetPct": 44.1,
+      "awayCleanSheetPct": 19.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Switzerland",
+      "awayTeam": "Algeria",
+      "gameId": "29517693",
+      "homeCleanSheetPct": 41.5,
+      "awayCleanSheetPct": 26.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Australia",
+      "awayTeam": "Egypt",
+      "gameId": "29495624",
+      "homeCleanSheetPct": 36.2,
+      "awayCleanSheetPct": 43.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Argentina",
+      "awayTeam": "Cape Verde",
+      "gameId": "29493404",
+      "homeCleanSheetPct": 69.3,
+      "awayCleanSheetPct": 9.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Colombia",
+      "awayTeam": "Ghana",
+      "gameId": "29515803",
+      "homeCleanSheetPct": 56.5,
+      "awayCleanSheetPct": 20.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Bosnia and Herzegovina",
+      "gameId": "29478148",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Balogun, Folarin (USA",
+      "awayTeam": "Bosnia and Herzegovina) vs Demirovic, Ermedin (USA vs Bosnia and Herzegovina)",
+      "gameId": "29574159",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Balogun, Folarin (USA",
+      "awayTeam": "Bosnia and Herzegovina) vs Dzeko, Edin (USA vs Bosnia and Herzegovina)",
+      "gameId": "29574158",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Dzeko, Edin (USA",
+      "awayTeam": "Bosnia and Herzegovina) vs Demirovic, Ermedin (USA vs Bosnia and Herzegovina)",
+      "gameId": "29574157",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Pulisic, Christian (USA",
+      "awayTeam": "Bosnia and Herzegovina) vs Balogun, Folarin (USA vs Bosnia and Herzegovina)",
+      "gameId": "29574151",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Pulisic, Christian (USA",
+      "awayTeam": "Bosnia and Herzegovina) vs Demirovic, Ermedin (USA vs Bosnia and Herzegovina)",
+      "gameId": "29574156",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Pulisic, Christian (USA",
+      "awayTeam": "Bosnia and Herzegovina) vs Dzeko, Edin (USA vs Bosnia and Herzegovina)",
+      "gameId": "29574154",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Arnautovic, Marko (Spain",
+      "awayTeam": "Austria) vs Sabitzer, Marcel (Spain vs Austria)",
+      "gameId": "29600508",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Olmo, Daniel (Spain",
+      "awayTeam": "Austria) vs Baena, Alex (Spain vs Austria)",
+      "gameId": "29600510",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Olmo, Daniel (Spain",
+      "awayTeam": "Austria) vs Sabitzer, Marcel (Spain vs Austria)",
+      "gameId": "29600509",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Oyarzabal, Mikel (Spain",
+      "awayTeam": "Austria) vs Arnautovic, Marko (Spain vs Austria)",
+      "gameId": "29600513",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Oyarzabal, Mikel (Spain",
+      "awayTeam": "Austria) vs Yamal, Lamine (Spain vs Austria)",
+      "gameId": "29600514",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Yamal, Lamine (Spain",
+      "awayTeam": "Austria) vs Arnautovic, Marko (Spain vs Austria)",
+      "gameId": "29600512",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Felix, Joao (Portugal",
+      "awayTeam": "Croatia) vs Budimir, Ante (Portugal vs Croatia)",
+      "gameId": "29600636",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Fernandes, Bruno (Portugal",
+      "awayTeam": "Croatia) vs Felix, Joao (Portugal vs Croatia)",
+      "gameId": "29600634",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Perisic, Ivan (Portugal",
+      "awayTeam": "Croatia) vs Budimir, Ante (Portugal vs Croatia)",
+      "gameId": "29600638",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ronaldo, Cristiano (Portugal",
+      "awayTeam": "Croatia) vs Budimir, Ante (Portugal vs Croatia)",
+      "gameId": "29600637",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ronaldo, Cristiano (Portugal",
+      "awayTeam": "Croatia) vs Fernandes, Bruno (Portugal vs Croatia)",
+      "gameId": "29600632",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ronaldo, Cristiano (Portugal",
+      "awayTeam": "Croatia) vs Perisic, Ivan (Portugal vs Croatia)",
+      "gameId": "29600633",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Embolo, Breel (Switzerland",
+      "awayTeam": "Algeria) vs Gouiri, Amine (Switzerland vs Algeria)",
+      "gameId": "29600792",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Embolo, Breel (Switzerland",
+      "awayTeam": "Algeria) vs Mahrez, Riyad (Switzerland vs Algeria)",
+      "gameId": "29600790",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Embolo, Breel (Switzerland",
+      "awayTeam": "Algeria) vs Ndoye, Dan (Switzerland vs Algeria)",
+      "gameId": "29600788",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Mahrez, Riyad (Switzerland",
+      "awayTeam": "Algeria) vs Gouiri, Amine (Switzerland vs Algeria)",
+      "gameId": "29600791",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ndoye, Dan (Switzerland",
+      "awayTeam": "Algeria) vs Gouiri, Amine (Switzerland vs Algeria)",
+      "gameId": "29600793",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Ndoye, Dan (Switzerland",
+      "awayTeam": "Algeria) vs Mahrez, Riyad (Switzerland vs Algeria)",
+      "gameId": "29600794",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "USA",
+      "awayTeam": "Bosnia and Herzegovina",
+      "gameId": "29478131",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Canada",
+      "awayTeam": "Morocco",
+      "gameId": "29563156",
+      "homeCleanSheetPct": 24.1,
+      "awayCleanSheetPct": 48.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Paraguay",
+      "awayTeam": "France",
+      "gameId": "29583917",
+      "homeCleanSheetPct": 10.9,
+      "awayCleanSheetPct": 64.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Brazil",
+      "awayTeam": "Norway",
+      "gameId": "29580247",
+      "homeCleanSheetPct": 38.2,
+      "awayCleanSheetPct": 20.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "gameId": "29603521",
+      "homeCleanSheetPct": 34.1,
+      "awayCleanSheetPct": 40.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Paris Saint-Germain",
+      "awayTeam": "Aston Villa",
+      "gameId": "28858203",
+      "homeCleanSheetPct": 44.1,
+      "awayCleanSheetPct": 19.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Manchester City",
+      "gameId": "28858338",
+      "homeCleanSheetPct": 28.7,
+      "awayCleanSheetPct": 25.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Arsenal",
+      "awayTeam": "Coventry City",
+      "gameId": "29306889",
+      "homeCleanSheetPct": 65.4,
+      "awayCleanSheetPct": 9.1,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hull City",
+      "awayTeam": "Manchester United",
+      "gameId": "29306886",
+      "homeCleanSheetPct": 14.7,
+      "awayCleanSheetPct": 48.1,
+      "noData": false
+    },
+    {
+      "homeTeam": "Everton",
+      "awayTeam": "Crystal Palace",
+      "gameId": "29306888",
+      "homeCleanSheetPct": 32.9,
+      "awayCleanSheetPct": 22.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Ipswich Town",
+      "awayTeam": "Sunderland",
+      "gameId": "29306881",
+      "homeCleanSheetPct": 28.7,
+      "awayCleanSheetPct": 29.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Nottingham Forest",
+      "awayTeam": "Leeds United",
+      "gameId": "29306887",
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 23.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Brentford",
+      "awayTeam": "Tottenham Hotspur",
+      "gameId": "29306882",
+      "homeCleanSheetPct": 24.1,
+      "awayCleanSheetPct": 24.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Brighton & Hove Albion",
+      "awayTeam": "Aston Villa",
+      "gameId": "29306885",
+      "homeCleanSheetPct": 26.9,
+      "awayCleanSheetPct": 21.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Manchester City",
+      "awayTeam": "Bournemouth",
+      "gameId": "29306884",
+      "homeCleanSheetPct": 37.2,
+      "awayCleanSheetPct": 11.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Newcastle United",
+      "awayTeam": "Liverpool",
+      "gameId": "29306883",
+      "homeCleanSheetPct": 17.7,
+      "awayCleanSheetPct": 22.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Fulham",
+      "awayTeam": "Chelsea",
+      "gameId": "29306880",
+      "homeCleanSheetPct": 21.3,
+      "awayCleanSheetPct": 27.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "AFC Wimbledon",
+      "awayTeam": "Newport County",
+      "gameId": "29485062",
+      "homeCleanSheetPct": 46.5,
+      "awayCleanSheetPct": 16.1,
+      "noData": false
+    },
+    {
+      "homeTeam": "Barnsley",
+      "awayTeam": "Wigan Athletic",
+      "gameId": "29485066",
+      "homeCleanSheetPct": 34.7,
+      "awayCleanSheetPct": 26.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Bristol City",
+      "awayTeam": "Walsall",
+      "gameId": "29485060",
+      "homeCleanSheetPct": 54.1,
+      "awayCleanSheetPct": 11.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Bristol Rovers",
+      "awayTeam": "Peterborough United",
+      "gameId": "29485064",
+      "homeCleanSheetPct": 26.7,
+      "awayCleanSheetPct": 29.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Bromley",
+      "awayTeam": "Reading",
+      "gameId": "29485063",
+      "homeCleanSheetPct": 28.1,
+      "awayCleanSheetPct": 29.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Burnley",
+      "awayTeam": "Notts County",
+      "gameId": "29485050",
+      "homeCleanSheetPct": 41.7,
+      "awayCleanSheetPct": 16.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Burton Albion",
+      "awayTeam": "Blackburn Rovers",
+      "gameId": "29485061",
+      "homeCleanSheetPct": 27.5,
+      "awayCleanSheetPct": 37.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Cambridge United",
+      "awayTeam": "Barnet",
+      "gameId": "29485051",
+      "homeCleanSheetPct": 41.7,
+      "awayCleanSheetPct": 22.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Cardiff City",
+      "awayTeam": "Swindon Town",
+      "gameId": "29485057",
+      "homeCleanSheetPct": 44.2,
+      "awayCleanSheetPct": 13.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Cheltenham Town",
+      "awayTeam": "Charlton Athletic",
+      "gameId": "29485055",
+      "homeCleanSheetPct": 16.7,
+      "awayCleanSheetPct": 45.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Colchester United",
+      "awayTeam": "Southampton",
+      "gameId": "29485058",
+      "homeCleanSheetPct": 12.2,
+      "awayCleanSheetPct": 49.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Crewe Alexandra",
+      "awayTeam": "Accrington Stanley",
+      "gameId": "29485067",
+      "homeCleanSheetPct": 38.3,
+      "awayCleanSheetPct": 20.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Derby County",
+      "awayTeam": "Lincoln City",
+      "gameId": "29485065",
+      "homeCleanSheetPct": 41.2,
+      "awayCleanSheetPct": 16.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Fleetwood Town",
+      "awayTeam": "Chesterfield",
+      "gameId": "29485053",
+      "homeCleanSheetPct": 27.5,
+      "awayCleanSheetPct": 29.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Gillingham",
+      "awayTeam": "Luton Town",
+      "gameId": "29485059",
+      "homeCleanSheetPct": 22.7,
+      "awayCleanSheetPct": 39.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Grimsby Town",
+      "awayTeam": "Blackpool",
+      "gameId": "29485052",
+      "homeCleanSheetPct": 27.5,
+      "awayCleanSheetPct": 30.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Leicester City",
+      "awayTeam": "Northampton Town",
+      "gameId": "29485119",
+      "homeCleanSheetPct": 48.1,
+      "awayCleanSheetPct": 13.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Leyton Orient",
+      "awayTeam": "Oxford United",
+      "gameId": "29485118",
+      "homeCleanSheetPct": 26.0,
+      "awayCleanSheetPct": 30.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Mansfield Town",
+      "awayTeam": "Sheffield United",
+      "gameId": "29485121",
+      "homeCleanSheetPct": 17.5,
+      "awayCleanSheetPct": 43.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Middlesbrough",
+      "awayTeam": "Wrexham",
+      "gameId": "29485127",
+      "homeCleanSheetPct": 32.5,
+      "awayCleanSheetPct": 23.1,
+      "noData": false
+    },
+    {
+      "homeTeam": "Norwich City",
+      "awayTeam": "Milton Keynes Dons",
+      "gameId": "29485125",
+      "homeCleanSheetPct": 47.4,
+      "awayCleanSheetPct": 15.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Plymouth Argyle",
+      "awayTeam": "Exeter City",
+      "gameId": "29485126",
+      "homeCleanSheetPct": 38.8,
+      "awayCleanSheetPct": 15.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Preston North End",
+      "awayTeam": "Huddersfield Town",
+      "gameId": "29485128",
+      "homeCleanSheetPct": 35.2,
+      "awayCleanSheetPct": 22.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Queens Park Rangers",
+      "awayTeam": "Millwall",
+      "gameId": "29485131",
+      "homeCleanSheetPct": 26.0,
+      "awayCleanSheetPct": 31.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Rotherham United",
+      "awayTeam": "West Bromwich Albion",
+      "gameId": "29485136",
+      "homeCleanSheetPct": 13.5,
+      "awayCleanSheetPct": 44.6,
+      "noData": false
+    },
+    {
+      "homeTeam": "Salford City",
+      "awayTeam": "Shrewsbury Town",
+      "gameId": "29485135",
+      "homeCleanSheetPct": 45.5,
+      "awayCleanSheetPct": 19.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Sheffield Wednesday",
+      "awayTeam": "Bolton Wanderers",
+      "gameId": "29485146",
+      "homeCleanSheetPct": 26.0,
+      "awayCleanSheetPct": 31.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Stockport County",
+      "awayTeam": "Doncaster Rovers",
+      "gameId": "29485139",
+      "homeCleanSheetPct": 39.2,
+      "awayCleanSheetPct": 18.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Stoke City",
+      "awayTeam": "Oldham Athletic",
+      "gameId": "29485141",
+      "homeCleanSheetPct": 46.5,
+      "awayCleanSheetPct": 13.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Swansea City",
+      "awayTeam": "Birmingham City",
+      "gameId": "29485145",
+      "homeCleanSheetPct": 28.1,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "West Ham United",
+      "awayTeam": "Portsmouth",
+      "gameId": "29485150",
+      "homeCleanSheetPct": 40.7,
+      "awayCleanSheetPct": 18.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Wolverhampton Wanderers",
+      "awayTeam": "Port Vale",
+      "gameId": "29485148",
+      "homeCleanSheetPct": 49.8,
+      "awayCleanSheetPct": 11.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Wycombe Wanderers",
+      "awayTeam": "Stevenage",
+      "gameId": "29485170",
+      "homeCleanSheetPct": 39.5,
+      "awayCleanSheetPct": 26.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Tranmere Rovers",
+      "awayTeam": "Rochdale",
+      "gameId": "29485031",
+      "homeCleanSheetPct": 31.8,
+      "awayCleanSheetPct": 24.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "York City",
+      "awayTeam": "Crawley Town",
+      "gameId": "29485030",
+      "homeCleanSheetPct": 41.0,
+      "awayCleanSheetPct": 21.1,
+      "noData": false
+    },
+    {
+      "homeTeam": "Inter",
+      "awayTeam": "Monza",
+      "gameId": "29308381",
+      "homeCleanSheetPct": 60.6,
+      "awayCleanSheetPct": 11.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Udinese",
+      "awayTeam": "Como",
+      "gameId": "29308383",
+      "homeCleanSheetPct": 23.8,
+      "awayCleanSheetPct": 45.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Genoa",
+      "awayTeam": "Napoli",
+      "gameId": "29308391",
+      "homeCleanSheetPct": 22.5,
+      "awayCleanSheetPct": 49.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Parma",
+      "awayTeam": "Cagliari",
+      "gameId": "29308384",
+      "homeCleanSheetPct": 36.8,
+      "awayCleanSheetPct": 34.6,
+      "noData": false
+    },
+    {
+      "homeTeam": "Frosinone",
+      "awayTeam": "Juventus",
+      "gameId": "29308385",
+      "homeCleanSheetPct": 16.5,
+      "awayCleanSheetPct": 50.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Venezia",
+      "awayTeam": "Lecce",
+      "gameId": "29308382",
+      "homeCleanSheetPct": 37.7,
+      "awayCleanSheetPct": 30.3,
+      "noData": false
+    },
+    {
+      "homeTeam": "Atalanta",
+      "awayTeam": "Sassuolo",
+      "gameId": "29308386",
+      "homeCleanSheetPct": 44.1,
+      "awayCleanSheetPct": 16.1,
+      "noData": false
+    },
+    {
+      "homeTeam": "Torino",
+      "awayTeam": "Milan",
+      "gameId": "29308390",
+      "homeCleanSheetPct": 20.4,
+      "awayCleanSheetPct": 41.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Bologna",
+      "awayTeam": "Lazio",
+      "gameId": "29308394",
+      "homeCleanSheetPct": 40.2,
+      "awayCleanSheetPct": 27.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Roma",
+      "awayTeam": "Fiorentina",
+      "gameId": "29308392",
+      "homeCleanSheetPct": 50.5,
+      "awayCleanSheetPct": 17.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Borussia Dortmund",
+      "awayTeam": "Bayern Munich",
+      "gameId": "28858158",
+      "homeCleanSheetPct": 13.0,
+      "awayCleanSheetPct": 29.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "Lens",
+      "awayTeam": "Paris Saint-Germain",
+      "gameId": "29062620",
+      "homeCleanSheetPct": 17.9,
+      "awayCleanSheetPct": 38.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Croatia U-19",
+      "awayTeam": "Italy U-19",
+      "gameId": "29478961",
+      "homeCleanSheetPct": 24.7,
+      "awayCleanSheetPct": 34.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Serbia U-19",
+      "awayTeam": "Ukraine U-19",
+      "gameId": "29478963",
+      "homeCleanSheetPct": 26.0,
+      "awayCleanSheetPct": 28.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Fluminense",
+      "awayTeam": "Independiente Rivadavia",
+      "gameId": "28858422",
+      "homeCleanSheetPct": 49.5,
+      "awayCleanSheetPct": 18.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Deportes Tolima",
+      "awayTeam": "Independiente Del Valle",
+      "gameId": "28858421",
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 30.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Estudiantes de La Plata",
+      "awayTeam": "Universidad Catolica Santiago",
+      "gameId": "28858417",
+      "homeCleanSheetPct": 50.8,
+      "awayCleanSheetPct": 23.8,
+      "noData": false
+    },
+    {
+      "homeTeam": "Atletico Platense",
+      "awayTeam": "Coquimbo Unido",
+      "gameId": "28858418",
+      "homeCleanSheetPct": 47.6,
+      "awayCleanSheetPct": 26.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Palmeiras",
+      "awayTeam": "Cerro Porteno",
+      "gameId": "28858423",
+      "homeCleanSheetPct": 61.7,
+      "awayCleanSheetPct": 15.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Cruzeiro-MG",
+      "awayTeam": "Flamengo",
+      "gameId": "28858420",
+      "homeCleanSheetPct": 32.5,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Mirassol",
+      "awayTeam": "LDU Quito",
+      "gameId": "28858424",
+      "homeCleanSheetPct": 45.5,
+      "awayCleanSheetPct": 27.5,
+      "noData": false
+    },
+    {
+      "homeTeam": "Rosario Central",
+      "awayTeam": "Corinthians-SP",
+      "gameId": "28858419",
+      "homeCleanSheetPct": 40.2,
+      "awayCleanSheetPct": 30.9,
+      "noData": false
+    }
+  ]
 }
