@@ -1270,18 +1270,7 @@
             "failedForPenalty": 0
           },
           "footballCoIl": null,
-          "scores365": {
-            "xG": 0.0,
-            "xA": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "totalShots": 0,
-            "shotsOnTarget": 0,
-            "keyPasses": 0,
-            "chancesCreated": 0,
-            "touches": 45,
-            "minutesPlayed": 90
-          }
+          "scores365": null
         },
         "134": {
           "sport5": {
@@ -7890,7 +7879,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 90
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 45,
+            "minutesPlayed": 90
+          }
         },
         "656": {
           "sport5": {
@@ -18742,7 +18742,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 60
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 21,
+            "minutesPlayed": 59
+          }
         },
         "656": {
           "sport5": {
@@ -29588,7 +29599,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 45
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 27,
+            "minutesPlayed": 45
+          }
         },
         "656": {
           "sport5": {
@@ -40482,7 +40504,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 57
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 18,
+            "minutesPlayed": 56
+          }
         },
         "656": {
           "sport5": {
@@ -62157,7 +62190,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 11
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 10,
+            "minutesPlayed": 12
+          }
         },
         "660": {
           "sport5": {
@@ -83910,7 +83954,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 7
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 4,
+            "minutesPlayed": 8
+          }
         },
         "655": {
           "sport5": {
@@ -94730,7 +94785,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 3
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 2,
+            "minutesPlayed": 4
+          }
         },
         "655": {
           "sport5": {
@@ -105649,7 +105715,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 3
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 2,
+            "minutesPlayed": 4
+          }
         },
         "655": {
           "sport5": {
@@ -145807,7 +145884,18 @@
             "shotAttempts": 3,
             "minutesPlayed": 62
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.07,
+            "xA": 0.0,
+            "goals": 1,
+            "assists": 0,
+            "totalShots": 1,
+            "shotsOnTarget": 3,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 35,
+            "minutesPlayed": 61
+          }
         },
         "655": {
           "sport5": {
@@ -156651,7 +156739,18 @@
             "shotAttempts": 1,
             "minutesPlayed": 82
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.02,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 1,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 24,
+            "minutesPlayed": 81
+          }
         },
         "655": {
           "sport5": {
@@ -167496,7 +167595,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 39
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.01,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 25,
+            "minutesPlayed": 38
+          }
         },
         "655": {
           "sport5": {
@@ -171937,18 +172047,7 @@
             "failedForPenalty": 0
           },
           "footballCoIl": null,
-          "scores365": {
-            "xG": 0.0,
-            "xA": 0.0,
-            "goals": 0,
-            "assists": 0,
-            "totalShots": 0,
-            "shotsOnTarget": 0,
-            "keyPasses": 0,
-            "chancesCreated": 0,
-            "touches": 10,
-            "minutesPlayed": 22
-          }
+          "scores365": null
         },
         "133": {
           "sport5": {
@@ -178460,7 +178559,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 21
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 10,
+            "minutesPlayed": 22
+          }
         },
         "655": {
           "sport5": {
@@ -221840,7 +221950,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 13
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 5,
+            "minutesPlayed": 14
+          }
         },
         "655": {
           "sport5": {
@@ -243607,7 +243728,18 @@
             "shotAttempts": 2,
             "minutesPlayed": 45
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.12,
+            "xA": 0.02,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 2,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 18,
+            "minutesPlayed": 45
+          }
         },
         "655": {
           "sport5": {
@@ -265395,7 +265527,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 1
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 1,
+            "minutesPlayed": 1
+          }
         },
         "655": {
           "sport5": {
@@ -287053,7 +287196,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 1
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 0,
+            "minutesPlayed": 1
+          }
         },
         "655": {
           "sport5": {
@@ -308681,7 +308835,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 6
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 5,
+            "minutesPlayed": 7
+          }
         },
         "655": {
           "sport5": {
@@ -319590,7 +319755,18 @@
             "shotAttempts": 0,
             "minutesPlayed": 0
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.0,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 0,
+            "shotsOnTarget": 0,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 0,
+            "minutesPlayed": 13
+          }
         },
         "655": {
           "sport5": {
@@ -345541,7 +345717,18 @@
             "shotAttempts": 2,
             "minutesPlayed": 70
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.07,
+            "xA": 0.02,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 2,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 11,
+            "minutesPlayed": 11
+          }
         },
         "655": {
           "sport5": {
@@ -354082,7 +354269,18 @@
             "failedForPenalty": 0
           },
           "footballCoIl": null,
-          "scores365": null
+          "scores365": {
+            "xG": 0.06,
+            "xA": 0.0,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 2,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 48,
+            "minutesPlayed": 69
+          }
         },
         "655": {
           "sport5": {
@@ -356957,18 +357155,7 @@
             "failedForPenalty": 0
           },
           "footballCoIl": null,
-          "scores365": {
-            "xG": 0.02,
-            "xA": 0.01,
-            "goals": 0,
-            "assists": 0,
-            "totalShots": 2,
-            "shotsOnTarget": 1,
-            "keyPasses": 0,
-            "chancesCreated": 0,
-            "touches": 21,
-            "minutesPlayed": 78
-          }
+          "scores365": null
         },
         "133": {
           "sport5": {
@@ -362682,7 +362869,18 @@
             "shotAttempts": 1,
             "minutesPlayed": 79
           },
-          "scores365": null
+          "scores365": {
+            "xG": 0.02,
+            "xA": 0.01,
+            "goals": 0,
+            "assists": 0,
+            "totalShots": 2,
+            "shotsOnTarget": 1,
+            "keyPasses": 0,
+            "chancesCreated": 0,
+            "touches": 21,
+            "minutesPlayed": 78
+          }
         },
         "655": {
           "sport5": {
