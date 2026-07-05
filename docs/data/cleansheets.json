@@ -1,36 +1,28 @@
 {
-  "scrapedAt": "2026-07-04T21:46:13.074965+00:00",
+  "scrapedAt": "2026-07-05T21:47:46.261694+00:00",
   "games": [
-    {
-      "homeTeam": "Brazil",
-      "awayTeam": "Norway",
-      "gameId": "29580247",
-      "homeCleanSheetPct": 35.8,
-      "awayCleanSheetPct": 18.3,
-      "noData": false
-    },
     {
       "homeTeam": "Mexico",
       "awayTeam": "England",
       "gameId": "29603521",
-      "homeCleanSheetPct": 31.2,
-      "awayCleanSheetPct": 36.8,
+      "homeCleanSheetPct": 32.9,
+      "awayCleanSheetPct": 37.3,
       "noData": false
     },
     {
       "homeTeam": "Portugal",
       "awayTeam": "Spain",
       "gameId": "29634221",
-      "homeCleanSheetPct": 21.5,
-      "awayCleanSheetPct": 36.8,
+      "homeCleanSheetPct": 20.8,
+      "awayCleanSheetPct": 35.2,
       "noData": false
     },
     {
       "homeTeam": "USA",
       "awayTeam": "Belgium",
       "gameId": "29610699",
-      "homeCleanSheetPct": 26.9,
-      "awayCleanSheetPct": 27.5,
+      "homeCleanSheetPct": 24.4,
+      "awayCleanSheetPct": 26.2,
       "noData": false
     },
     {
@@ -38,23 +30,111 @@
       "awayTeam": "Egypt",
       "gameId": "29657795",
       "homeCleanSheetPct": 59.5,
-      "awayCleanSheetPct": 16.8,
+      "awayCleanSheetPct": 16.9,
       "noData": false
     },
     {
       "homeTeam": "Switzerland",
       "awayTeam": "Colombia",
       "gameId": "29660094",
-      "homeCleanSheetPct": 30.7,
-      "awayCleanSheetPct": 41.5,
+      "homeCleanSheetPct": 31.2,
+      "awayCleanSheetPct": 41.0,
+      "noData": false
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "gameId": "29614403",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Jimenez, Raul (Mexico",
+      "awayTeam": "England) vs Bellingham, Jude (Mexico vs England)",
+      "gameId": "29674708",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Jimenez, Raul (Mexico",
+      "awayTeam": "England) vs Kane, Harry (Mexico vs England)",
+      "gameId": "29674712",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Jimenez, Raul (Mexico",
+      "awayTeam": "England) vs Quinones, Julian (Mexico vs England)",
+      "gameId": "29674713",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Kane, Harry (Mexico",
+      "awayTeam": "England) vs Bellingham, Jude (Mexico vs England)",
+      "gameId": "29674711",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Quinones, Julian (Mexico",
+      "awayTeam": "England) vs Bellingham, Jude (Mexico vs England)",
+      "gameId": "29674710",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "Mexico",
+      "awayTeam": "England",
+      "gameId": "29614454",
+      "homeCleanSheetPct": null,
+      "awayCleanSheetPct": null,
+      "noData": true
+    },
+    {
+      "homeTeam": "France",
+      "awayTeam": "Morocco",
+      "gameId": "29680508",
+      "homeCleanSheetPct": 49.5,
+      "awayCleanSheetPct": 18.9,
       "noData": false
     },
     {
       "homeTeam": "Paris Saint-Germain",
       "awayTeam": "Aston Villa",
       "gameId": "28858203",
-      "homeCleanSheetPct": 43.1,
+      "homeCleanSheetPct": 43.7,
       "awayCleanSheetPct": 18.7,
+      "noData": false
+    },
+    {
+      "homeTeam": "Dynamo Kyiv",
+      "awayTeam": "Universitatea Cluj",
+      "gameId": "29402040",
+      "homeCleanSheetPct": 42.6,
+      "awayCleanSheetPct": 24.4,
+      "noData": false
+    },
+    {
+      "homeTeam": "CSKA Sofia",
+      "awayTeam": "Derry City",
+      "gameId": "29402044",
+      "homeCleanSheetPct": 52.6,
+      "awayCleanSheetPct": 11.9,
+      "noData": false
+    },
+    {
+      "homeTeam": "Vojvodina",
+      "awayTeam": "Ferencvarosi",
+      "gameId": "29402048",
+      "homeCleanSheetPct": 23.3,
+      "awayCleanSheetPct": 35.7,
       "noData": false
     },
     {
@@ -70,7 +150,7 @@
       "awayTeam": "Malaga",
       "gameId": "29617842",
       "homeCleanSheetPct": 61.3,
-      "awayCleanSheetPct": 11.6,
+      "awayCleanSheetPct": 11.8,
       "noData": false
     },
     {
@@ -109,15 +189,15 @@
       "homeTeam": "Racing Santander",
       "awayTeam": "Villarreal",
       "gameId": "29617839",
-      "homeCleanSheetPct": 24.1,
-      "awayCleanSheetPct": 36.8,
+      "homeCleanSheetPct": 24.4,
+      "awayCleanSheetPct": 37.2,
       "noData": false
     },
     {
       "homeTeam": "Real Madrid",
       "awayTeam": "Real Sociedad",
       "gameId": "29617881",
-      "homeCleanSheetPct": 43.7,
+      "homeCleanSheetPct": 43.1,
       "awayCleanSheetPct": 13.0,
       "noData": false
     },
@@ -206,7 +286,7 @@
       "awayTeam": "Bournemouth",
       "gameId": "29306884",
       "homeCleanSheetPct": 37.2,
-      "awayCleanSheetPct": 11.5,
+      "awayCleanSheetPct": 11.4,
       "noData": false
     },
     {
@@ -526,7 +606,7 @@
       "awayTeam": "Napoli",
       "gameId": "29308391",
       "homeCleanSheetPct": 24.7,
-      "awayCleanSheetPct": 47.4,
+      "awayCleanSheetPct": 47.2,
       "noData": false
     },
     {
@@ -637,7 +717,7 @@
       "homeTeam": "Koln",
       "awayTeam": "1899 Hoffenheim",
       "gameId": "29620265",
-      "homeCleanSheetPct": 17.5,
+      "homeCleanSheetPct": 17.7,
       "awayCleanSheetPct": 26.2,
       "noData": false
     },
@@ -654,14 +734,14 @@
       "awayTeam": "Borussia Monchengladbach",
       "gameId": "29620273",
       "homeCleanSheetPct": 38.9,
-      "awayCleanSheetPct": 13.3,
+      "awayCleanSheetPct": 13.5,
       "noData": false
     },
     {
       "homeTeam": "Union Berlin",
       "awayTeam": "Eintracht Frankfurt",
       "gameId": "29620270",
-      "homeCleanSheetPct": 26.9,
+      "homeCleanSheetPct": 27.5,
       "awayCleanSheetPct": 26.9,
       "noData": false
     }
