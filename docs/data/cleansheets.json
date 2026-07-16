@@ -1,13 +1,4 @@
 {
-  "scrapedAt": "2026-07-15T21:42:21.818258+00:00",
-  "games": [
-    {
-      "homeTeam": "Hapoel Be'er Sheva",
-      "awayTeam": "Maccabi Tel Aviv",
-      "gameId": "29918971",
-      "homeCleanSheetPct": 29.2,
-      "awayCleanSheetPct": 23.8,
-      "noData": false
-    }
-  ]
+  "scrapedAt": "2026-07-16T21:48:34.577404+00:00",
+  "games": []
 }
