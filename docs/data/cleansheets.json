@@ -1,4 +1,13 @@
 {
-  "scrapedAt": "2026-07-16T21:48:34.577404+00:00",
-  "games": []
+  "scrapedAt": "2026-07-17T21:36:23.873461+00:00",
+  "games": [
+    {
+      "homeTeam": "Beitar Jerusalem",
+      "awayTeam": "Hapoel Tel Aviv",
+      "gameId": "29924699",
+      "homeCleanSheetPct": 31.4,
+      "awayCleanSheetPct": 22.2,
+      "noData": false
+    }
+  ]
 }
