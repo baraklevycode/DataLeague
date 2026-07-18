@@ -20,8 +20,6 @@
         "recentForm": []
       },
       "playerIds": [
-        153,
-        154,
         155,
         156,
         157,
@@ -79,7 +77,9 @@
         209,
         210,
         211,
-        212
+        212,
+        213,
+        214
       ],
       "formScore": 0,
       "nextGame": null,
@@ -424,7 +424,8 @@
         782,
         783,
         784,
-        785
+        785,
+        786
       ],
       "formScore": 0,
       "nextGame": null,
@@ -705,7 +706,6 @@
         "recentForm": []
       },
       "playerIds": [
-        334,
         335,
         336,
         337,
@@ -767,7 +767,8 @@
         393,
         394,
         395,
-        396
+        396,
+        397
       ],
       "formScore": 0,
       "nextGame": null,
@@ -1116,7 +1117,9 @@
         73,
         74,
         75,
-        76
+        76,
+        77,
+        78
       ],
       "formScore": 0,
       "nextGame": null,
@@ -1390,7 +1393,6 @@
         "recentForm": []
       },
       "playerIds": [
-        582,
         583,
         584,
         585,
@@ -1462,7 +1464,8 @@
         651,
         652,
         653,
-        654
+        654,
+        655
       ],
       "formScore": 0,
       "nextGame": null,
@@ -1743,7 +1746,6 @@
         "recentForm": []
       },
       "playerIds": [
-        397,
         398,
         399,
         400,
@@ -1807,7 +1809,8 @@
         458,
         459,
         460,
-        461
+        461,
+        462
       ],
       "formScore": 0,
       "nextGame": null,
@@ -2088,7 +2091,6 @@
         "recentForm": []
       },
       "playerIds": [
-        281,
         282,
         283,
         284,
@@ -2140,7 +2142,8 @@
         330,
         331,
         332,
-        333
+        333,
+        334
       ],
       "formScore": 0,
       "nextGame": null,
@@ -2400,8 +2403,6 @@
         "recentForm": []
       },
       "playerIds": [
-        77,
-        78,
         79,
         80,
         81,
@@ -2475,7 +2476,9 @@
         149,
         150,
         151,
-        152
+        152,
+        153,
+        154
       ],
       "formScore": 0,
       "nextGame": null,
@@ -2735,7 +2738,6 @@
         "recentForm": []
       },
       "playerIds": [
-        786,
         787,
         788,
         789,
@@ -2773,7 +2775,8 @@
         821,
         822,
         823,
-        824
+        824,
+        825
       ],
       "formScore": 0,
       "nextGame": null,
@@ -3033,8 +3036,6 @@
         "recentForm": []
       },
       "playerIds": [
-        213,
-        214,
         215,
         216,
         217,
@@ -3100,7 +3101,8 @@
         277,
         278,
         279,
-        280
+        280,
+        281
       ],
       "formScore": 0,
       "nextGame": null,
@@ -3350,7 +3352,6 @@
       "shirtUrl": "https://www.sport5.co.il/Files/5/174105.png",
       "standings": null,
       "playerIds": [
-        462,
         463,
         464,
         465,
@@ -3412,7 +3413,8 @@
         521,
         522,
         523,
-        524
+        524,
+        525
       ],
       "formScore": 0,
       "nextGame": null,
@@ -3672,7 +3674,6 @@
         "recentForm": []
       },
       "playerIds": [
-        525,
         526,
         527,
         528,
@@ -3728,7 +3729,8 @@
         578,
         579,
         580,
-        581
+        581,
+        582
       ],
       "formScore": 0,
       "nextGame": null,
@@ -3988,7 +3990,6 @@
         "recentForm": []
       },
       "playerIds": [
-        825,
         826,
         827,
         828,
@@ -4035,7 +4036,8 @@
         869,
         870,
         871,
-        872
+        872,
+        873
       ],
       "formScore": 0,
       "nextGame": null,
@@ -4285,7 +4287,6 @@
       "shirtUrl": "https://www.sport5.co.il/Files/6/174216.png",
       "standings": null,
       "playerIds": [
-        655,
         656,
         657,
         658,
