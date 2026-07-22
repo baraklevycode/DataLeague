@@ -1,5 +1,5 @@
 {
-  "scrapedAt": "2026-07-21T21:51:13.324612+00:00",
+  "scrapedAt": "2026-07-22T21:50:40.761924+00:00",
   "games": [
     {
       "homeTeam": "Paris Saint-Germain",
@@ -10,42 +10,18 @@
       "noData": false
     },
     {
-      "homeTeam": "Omonia Nicosia",
-      "awayTeam": "Kairat",
-      "gameId": "29953863",
-      "homeCleanSheetPct": 47.4,
-      "awayCleanSheetPct": 21.5,
-      "noData": false
-    },
-    {
-      "homeTeam": "Levski Sofia",
-      "awayTeam": "Universitatea Craiova",
-      "gameId": "29953869",
-      "homeCleanSheetPct": 39.8,
-      "awayCleanSheetPct": 29.9,
-      "noData": false
-    },
-    {
-      "homeTeam": "Egnatia",
-      "awayTeam": "Celje",
-      "gameId": "29953873",
-      "homeCleanSheetPct": 26.0,
-      "awayCleanSheetPct": 38.8,
-      "noData": false
-    },
-    {
       "homeTeam": "Qarabag",
       "awayTeam": "CSKA Sofia",
       "gameId": "30024147",
-      "homeCleanSheetPct": 51.5,
-      "awayCleanSheetPct": 17.7,
+      "homeCleanSheetPct": 52.1,
+      "awayCleanSheetPct": 16.9,
       "noData": false
     },
     {
       "homeTeam": "Dynamo Kyiv",
       "awayTeam": "PAOK",
       "gameId": "30024154",
-      "homeCleanSheetPct": 31.8,
+      "homeCleanSheetPct": 31.2,
       "awayCleanSheetPct": 36.2,
       "noData": false
     },
@@ -53,48 +29,48 @@
       "homeTeam": "Hammarby",
       "awayTeam": "Anderlecht",
       "gameId": "29402163",
-      "homeCleanSheetPct": 29.9,
-      "awayCleanSheetPct": 26.0,
+      "homeCleanSheetPct": 34.7,
+      "awayCleanSheetPct": 26.7,
       "noData": false
     },
     {
       "homeTeam": "Sheriff",
       "awayTeam": "Maccabi Tel Aviv",
       "gameId": "30024159",
-      "homeCleanSheetPct": 30.7,
-      "awayCleanSheetPct": 42.1,
+      "homeCleanSheetPct": 29.4,
+      "awayCleanSheetPct": 38.3,
       "noData": false
     },
     {
       "homeTeam": "Tromso",
       "awayTeam": "Hradec Kralove",
       "gameId": "30024161",
-      "homeCleanSheetPct": 48.5,
-      "awayCleanSheetPct": 18.3,
+      "homeCleanSheetPct": 53.2,
+      "awayCleanSheetPct": 16.1,
       "noData": false
     },
     {
       "homeTeam": "Besiktas",
       "awayTeam": "Midtjylland",
       "gameId": "29402157",
-      "homeCleanSheetPct": 36.8,
-      "awayCleanSheetPct": 23.5,
+      "homeCleanSheetPct": 35.2,
+      "awayCleanSheetPct": 23.8,
       "noData": false
     },
     {
       "homeTeam": "St. Gallen",
       "awayTeam": "Benfica",
       "gameId": "29402161",
-      "homeCleanSheetPct": 12.7,
-      "awayCleanSheetPct": 47.4,
+      "homeCleanSheetPct": 13.9,
+      "awayCleanSheetPct": 46.3,
       "noData": false
     },
     {
       "homeTeam": "Twente",
       "awayTeam": "Ferencvarosi",
       "gameId": "30024165",
-      "homeCleanSheetPct": 44.2,
-      "awayCleanSheetPct": 19.4,
+      "homeCleanSheetPct": 45.5,
+      "awayCleanSheetPct": 18.9,
       "noData": false
     },
     {
@@ -109,8 +85,8 @@
       "homeTeam": "Alaves",
       "awayTeam": "Getafe",
       "gameId": "29617844",
-      "homeCleanSheetPct": 46.7,
-      "awayCleanSheetPct": 37.2,
+      "homeCleanSheetPct": 47.2,
+      "awayCleanSheetPct": 37.7,
       "noData": false
     },
     {
@@ -149,7 +125,7 @@
       "homeTeam": "Deportivo de la Coruna",
       "awayTeam": "Elche",
       "gameId": "29617838",
-      "homeCleanSheetPct": 39.2,
+      "homeCleanSheetPct": 38.9,
       "awayCleanSheetPct": 30.3,
       "noData": false
     },
@@ -157,8 +133,8 @@
       "homeTeam": "Atletico Madrid",
       "awayTeam": "Malaga",
       "gameId": "29617842",
-      "homeCleanSheetPct": 58.8,
-      "awayCleanSheetPct": 12.5,
+      "homeCleanSheetPct": 58.1,
+      "awayCleanSheetPct": 12.7,
       "noData": false
     },
     {
@@ -173,8 +149,8 @@
       "homeTeam": "Real Madrid",
       "awayTeam": "Real Sociedad",
       "gameId": "29617881",
-      "homeCleanSheetPct": 44.4,
-      "awayCleanSheetPct": 12.8,
+      "homeCleanSheetPct": 43.7,
+      "awayCleanSheetPct": 12.7,
       "noData": false
     },
     {
@@ -197,8 +173,8 @@
       "homeTeam": "Arsenal",
       "awayTeam": "Coventry City",
       "gameId": "29306889",
-      "homeCleanSheetPct": 65.8,
-      "awayCleanSheetPct": 9.1,
+      "homeCleanSheetPct": 65.4,
+      "awayCleanSheetPct": 9.3,
       "noData": false
     },
     {
@@ -278,7 +254,7 @@
       "awayTeam": "Walsall",
       "gameId": "29485060",
       "homeCleanSheetPct": 47.6,
-      "awayCleanSheetPct": 12.8,
+      "awayCleanSheetPct": 12.7,
       "noData": false
     },
     {
@@ -366,7 +342,7 @@
       "awayTeam": "Blackburn Rovers",
       "gameId": "29485061",
       "homeCleanSheetPct": 28.7,
-      "awayCleanSheetPct": 35.3,
+      "awayCleanSheetPct": 35.2,
       "noData": false
     },
     {
@@ -413,7 +389,7 @@
       "homeTeam": "Grimsby Town",
       "awayTeam": "Blackpool",
       "gameId": "29485052",
-      "homeCleanSheetPct": 30.9,
+      "homeCleanSheetPct": 31.2,
       "awayCleanSheetPct": 27.5,
       "noData": false
     },
@@ -462,7 +438,7 @@
       "awayTeam": "Bolton Wanderers",
       "gameId": "29485146",
       "homeCleanSheetPct": 20.0,
-      "awayCleanSheetPct": 34.7,
+      "awayCleanSheetPct": 34.1,
       "noData": false
     },
     {
@@ -501,16 +477,16 @@
       "homeTeam": "Cheltenham Town",
       "awayTeam": "Charlton Athletic",
       "gameId": "29485055",
-      "homeCleanSheetPct": 17.7,
-      "awayCleanSheetPct": 42.6,
+      "homeCleanSheetPct": 18.2,
+      "awayCleanSheetPct": 41.7,
       "noData": false
     },
     {
       "homeTeam": "Colchester United",
       "awayTeam": "Southampton",
       "gameId": "29485058",
-      "homeCleanSheetPct": 11.0,
-      "awayCleanSheetPct": 50.3,
+      "homeCleanSheetPct": 11.2,
+      "awayCleanSheetPct": 49.5,
       "noData": false
     },
     {
@@ -541,7 +517,7 @@
       "homeTeam": "Tranmere Rovers",
       "awayTeam": "Rochdale",
       "gameId": "29485031",
-      "homeCleanSheetPct": 25.3,
+      "homeCleanSheetPct": 25.1,
       "awayCleanSheetPct": 29.9,
       "noData": false
     },
@@ -549,8 +525,8 @@
       "homeTeam": "York City",
       "awayTeam": "Crawley Town",
       "gameId": "29485030",
-      "homeCleanSheetPct": 41.8,
-      "awayCleanSheetPct": 18.2,
+      "homeCleanSheetPct": 41.5,
+      "awayCleanSheetPct": 17.9,
       "noData": false
     },
     {
@@ -677,8 +653,8 @@
       "homeTeam": "Freiburg",
       "awayTeam": "Werder Bremen",
       "gameId": "29620266",
-      "homeCleanSheetPct": 32.9,
-      "awayCleanSheetPct": 22.2,
+      "homeCleanSheetPct": 33.1,
+      "awayCleanSheetPct": 22.0,
       "noData": false
     },
     {
