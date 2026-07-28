@@ -1,4 +1,21 @@
 {
-  "scrapedAt": "2026-07-27T21:50:04.454482+00:00",
-  "games": []
+  "scrapedAt": "2026-07-28T21:48:15.829130+00:00",
+  "games": [
+    {
+      "homeTeam": "Maccabi Petah Tikva",
+      "awayTeam": "Maccabi Netanya",
+      "gameId": "30239383",
+      "homeCleanSheetPct": 23.5,
+      "awayCleanSheetPct": 31.2,
+      "noData": false
+    },
+    {
+      "homeTeam": "Hapoel Ramat Gan",
+      "awayTeam": "Hapoel Petah Tikva",
+      "gameId": "30239386",
+      "homeCleanSheetPct": 24.7,
+      "awayCleanSheetPct": 32.9,
+      "noData": false
+    }
+  ]
 }
