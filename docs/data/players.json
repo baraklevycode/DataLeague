@@ -44492,7 +44492,7 @@
       "scores365": {
         "xG": 0.0,
         "xA": 0.12,
-        "appearances": 9,
+        "appearances": 10,
         "goals": 0,
         "assists": 0,
         "penaltyGoals": 0,
@@ -57266,7 +57266,7 @@
         "xA": 0.29,
         "appearances": 2,
         "goals": 0,
-        "assists": 1,
+        "assists": 0,
         "penaltyGoals": 0,
         "totalShots": 0,
         "shotsOnTarget": 0,
@@ -96875,7 +96875,7 @@
         "bigChancesCreated": 0,
         "touches": 0,
         "minutesPlayed": 0,
-        "yellowCards": 2,
+        "yellowCards": 1,
         "redCards": 0
       },
       "games": [
@@ -136980,8 +136980,8 @@
       "timesSelected": 1309,
       "avgPoints": 2.2903225806451615,
       "ppm": 11.83,
-      "xA": 0.0,
-      "xGI": 4.4,
+      "xA": 4.61,
+      "xGI": 9.2,
       "sport5": {
         "totalPoints": 71,
         "minutesPlayed": 2444,
@@ -137014,7 +137014,21 @@
         "appearances": 31,
         "passes": 1406
       },
-      "scores365": null,
+      "scores365": {
+        "xG": 4.59,
+        "xA": 4.61,
+        "appearances": 31,
+        "goals": 4,
+        "assists": 1,
+        "penaltyGoals": 2,
+        "totalShots": 20,
+        "shotsOnTarget": 9,
+        "bigChancesCreated": 5,
+        "touches": 1905,
+        "minutesPlayed": 2437,
+        "yellowCards": 5,
+        "redCards": 0
+      },
       "games": [
         {
           "round": 1,
@@ -137371,7 +137385,9 @@
           "name": "הפועל פתח תקווה",
           "points": 8
         }
-      ]
+      ],
+      "isPenaltyTaker": true,
+      "penaltyRank": 1
     },
     {
       "id": 828,
