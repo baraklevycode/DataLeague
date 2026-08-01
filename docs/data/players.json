@@ -13256,6 +13256,398 @@
     },
     {
       "id": 93,
+      "name": "עיאד אבו עביד",
+      "englishName": "Iyad Abu Abaid",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 2,
+      "price": 7000000,
+      "shirtNumber": 5,
+      "imageUrl": "https://www.sport5.co.il/Files/9/184839.png",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 4017,
+      "avgPoints": 1.3928571428571428,
+      "ppm": 5.57,
+      "xA": 0.23,
+      "xGI": 2.13,
+      "sport5": {
+        "totalPoints": 39,
+        "minutesPlayed": 1650,
+        "goals": 1,
+        "goalsPoints": 6,
+        "assists": 0,
+        "assistsPoints": 0,
+        "yellowCards": 9,
+        "yellowCardsPoints": -9,
+        "redCards": 1,
+        "openLineup": 17,
+        "substituteIn": 8,
+        "substituteOut": 5,
+        "cleanSheets": 5,
+        "ownGoals": 0,
+        "penaltiesStopped": 0,
+        "penaltiesMissed": 1,
+        "causedPenalty": 0,
+        "failedForPenalty": 1
+      },
+      "footballCoIl": {
+        "expectedGoals": 1.913,
+        "goals": 1,
+        "assists": 0,
+        "shotsOnTarget": 2,
+        "shotAttempts": 6,
+        "totalMinutesPlayed": 1654,
+        "yellowCards": 9,
+        "redCards": 1,
+        "appearances": 25,
+        "passes": 773
+      },
+      "scores365": {
+        "xG": 1.9,
+        "xA": 0.23,
+        "appearances": 25,
+        "goals": 1,
+        "assists": 0,
+        "penaltyGoals": 1,
+        "totalShots": 5,
+        "shotsOnTarget": 2,
+        "bigChancesCreated": 0,
+        "touches": 1035,
+        "minutesPlayed": 1185,
+        "yellowCards": 9,
+        "redCards": 1
+      },
+      "games": [
+        {
+          "round": 1,
+          "opponent": "בית\"ר ירושלים",
+          "opponentId": 140,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 2
+        },
+        {
+          "round": 2,
+          "opponent": "מ.ס. אשדוד",
+          "opponentId": 135,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 2
+        },
+        {
+          "round": 3,
+          "opponent": "הפועל חיפה",
+          "opponentId": 131,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 2
+        },
+        {
+          "round": 4,
+          "opponent": "הפועל באר שבע",
+          "opponentId": 130,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 3,
+          "awayScore": 1
+        },
+        {
+          "round": 5,
+          "opponent": "מכבי תל אביב",
+          "opponentId": 133,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 6,
+          "opponent": "מכבי נתניה",
+          "opponentId": 132,
+          "points": 8,
+          "goals": 1,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 2
+        },
+        {
+          "round": 7,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 2,
+          "awayScore": 0
+        },
+        {
+          "round": 8,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 9,
+          "opponent": "הפועל פתח תקווה",
+          "opponentId": 134,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 2
+        },
+        {
+          "round": 11,
+          "opponent": "הפועל תל אביב",
+          "opponentId": 128,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 0
+        },
+        {
+          "round": 12,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 13,
+          "opponent": "מכבי בני ריינה",
+          "opponentId": 139,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 1
+        },
+        {
+          "round": 14,
+          "opponent": "בית\"ר ירושלים",
+          "opponentId": 140,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 1
+        },
+        {
+          "round": 16,
+          "opponent": "הפועל חיפה",
+          "opponentId": 131,
+          "points": 5,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 2
+        },
+        {
+          "round": 17,
+          "opponent": "הפועל באר שבע",
+          "opponentId": 130,
+          "points": -2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 5
+        },
+        {
+          "round": 18,
+          "opponent": "מכבי תל אביב",
+          "opponentId": 133,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
+          "round": 19,
+          "opponent": "מכבי נתניה",
+          "opponentId": 132,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 2,
+          "awayScore": 1
+        },
+        {
+          "round": 20,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 21,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 23,
+          "opponent": "מכבי נתניה",
+          "opponentId": 132,
+          "points": -2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 4
+        },
+        {
+          "round": 24,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 1
+        },
+        {
+          "round": 25,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 26,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": -2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 0
+        },
+        {
+          "round": 29,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 1
+        },
+        {
+          "round": 30,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 2
+        },
+        {
+          "round": 32,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 33,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
+          "round": 34,
+          "opponent": "מכבי נתניה",
+          "opponentId": 132,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 4
+        }
+      ],
+      "topOpponents": [
+        {
+          "name": "הפועל ירושלים",
+          "points": 12
+        },
+        {
+          "name": "מכבי נתניה",
+          "points": 7
+        },
+        {
+          "name": "מכבי בני ריינה",
+          "points": 6
+        }
+      ],
+      "isPenaltyTaker2": true,
+      "penaltyRank": 2
+    },
+    {
+      "id": 94,
       "name": "עדן שמיר",
       "englishName": "Eden Shamir",
       "team": "בני סכנין",
@@ -13689,7 +14081,7 @@
       ]
     },
     {
-      "id": 94,
+      "id": 95,
       "name": "אדריאן פאון",
       "englishName": "Constantin Paun-Alexandru",
       "team": "בני סכנין",
@@ -13713,7 +14105,7 @@
       "topOpponents": []
     },
     {
-      "id": 95,
+      "id": 96,
       "name": "ג`בייר בושנאק",
       "englishName": "Jabier Boshank",
       "team": "בני סכנין",
@@ -14114,7 +14506,7 @@
       ]
     },
     {
-      "id": 96,
+      "id": 97,
       "name": "אחמד סלמן",
       "englishName": "Ahmad Ebraheim",
       "team": "בני סכנין",
@@ -14539,7 +14931,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 97,
+      "id": 98,
       "name": "אלעד שחף",
       "englishName": "Elad Shahaf",
       "team": "בני סכנין",
@@ -14563,7 +14955,7 @@
       "topOpponents": []
     },
     {
-      "id": 98,
+      "id": 99,
       "name": "מקסים גרצ`קין",
       "englishName": "Maksim Grechkin",
       "team": "בני סכנין",
@@ -14876,7 +15268,7 @@
       ]
     },
     {
-      "id": 99,
+      "id": 100,
       "name": "מאוויס צ`יבוטה",
       "englishName": "Mavis Tchibota",
       "team": "בני סכנין",
@@ -14900,7 +15292,7 @@
       "topOpponents": []
     },
     {
-      "id": 100,
+      "id": 101,
       "name": "מופלח שלאעטה",
       "englishName": "Mofleh Shalata",
       "team": "בני סכנין",
@@ -14924,7 +15316,7 @@
       "topOpponents": []
     },
     {
-      "id": 101,
+      "id": 102,
       "name": "יואל אבוחצירה",
       "englishName": "Yoel Abuhatzera",
       "team": "בני סכנין",
@@ -14948,7 +15340,7 @@
       "topOpponents": []
     },
     {
-      "id": 102,
+      "id": 103,
       "name": "ניקולאו קרדוסו",
       "englishName": "Nicolao Dumitru",
       "team": "בני סכנין",
@@ -14972,7 +15364,7 @@
       "topOpponents": []
     },
     {
-      "id": 103,
+      "id": 104,
       "name": "עומר קורסיה",
       "englishName": "Omer Korsia",
       "team": "בני סכנין",
@@ -15406,7 +15798,7 @@
       ]
     },
     {
-      "id": 104,
+      "id": 105,
       "name": "מג`ד סולימאן",
       "englishName": "Majed Suleiman",
       "team": "בני סכנין",
@@ -15782,7 +16174,7 @@
       ]
     },
     {
-      "id": 105,
+      "id": 106,
       "name": "ריאד אבו ריא",
       "englishName": "Bian Abu Raya",
       "team": "בני סכנין",
@@ -15806,7 +16198,7 @@
       "topOpponents": []
     },
     {
-      "id": 106,
+      "id": 107,
       "name": "ראמי גנאים",
       "englishName": "Rami Ganaim",
       "team": "בני סכנין",
@@ -15830,7 +16222,7 @@
       "topOpponents": []
     },
     {
-      "id": 107,
+      "id": 108,
       "name": "ראני חדיד",
       "englishName": "Rani Hadid",
       "team": "בני סכנין",
@@ -15854,7 +16246,7 @@
       "topOpponents": []
     },
     {
-      "id": 108,
+      "id": 109,
       "name": "אדהם סוואעד",
       "englishName": "Adham Suaed",
       "team": "בני סכנין",
@@ -15878,7 +16270,7 @@
       "topOpponents": []
     },
     {
-      "id": 109,
+      "id": 110,
       "name": "עזאלדין גביס",
       "englishName": "",
       "team": "בני סכנין",
@@ -15902,7 +16294,7 @@
       "topOpponents": []
     },
     {
-      "id": 110,
+      "id": 111,
       "name": "מוחמד פוקרא",
       "englishName": "Mohamad Fukra",
       "team": "בני סכנין",
@@ -15926,7 +16318,7 @@
       "topOpponents": []
     },
     {
-      "id": 111,
+      "id": 112,
       "name": "איליה מרטינוביץ`",
       "englishName": "Ilija Martinović",
       "team": "בני סכנין",
@@ -15950,7 +16342,7 @@
       "topOpponents": []
     },
     {
-      "id": 112,
+      "id": 113,
       "name": "עלא חסן",
       "englishName": "",
       "team": "בני סכנין",
@@ -15974,7 +16366,7 @@
       "topOpponents": []
     },
     {
-      "id": 113,
+      "id": 114,
       "name": "ראנג`לו יאנגה",
       "englishName": "Rangelo Janga",
       "team": "בני סכנין",
@@ -15998,7 +16390,7 @@
       "topOpponents": []
     },
     {
-      "id": 114,
+      "id": 115,
       "name": "צ`ינימירים גודוין",
       "englishName": "",
       "team": "בני סכנין",
@@ -16022,7 +16414,7 @@
       "topOpponents": []
     },
     {
-      "id": 115,
+      "id": 116,
       "name": "עבד יאסין",
       "englishName": "Abudi Yassin",
       "team": "בני סכנין",
@@ -16170,7 +16562,7 @@
       ]
     },
     {
-      "id": 116,
+      "id": 117,
       "name": "ג`וזף גנדה",
       "englishName": "Joseph Gande",
       "team": "בני סכנין",
@@ -16194,7 +16586,7 @@
       "topOpponents": []
     },
     {
-      "id": 117,
+      "id": 118,
       "name": "עבדאללה חליחל",
       "englishName": "Abdalla Hlehel",
       "team": "בני סכנין",
@@ -16218,7 +16610,7 @@
       "topOpponents": []
     },
     {
-      "id": 118,
+      "id": 119,
       "name": "קלאודיו ספינלי",
       "englishName": "Claudio Spinelli",
       "team": "בני סכנין",
@@ -16242,7 +16634,7 @@
       "topOpponents": []
     },
     {
-      "id": 119,
+      "id": 120,
       "name": "קונסטנטינוס סוטיריו",
       "englishName": "Costas Soteriou",
       "team": "בני סכנין",
@@ -16266,7 +16658,7 @@
       "topOpponents": []
     },
     {
-      "id": 120,
+      "id": 121,
       "name": "ג`יימס אדניי",
       "englishName": "Adeniyi Segun James",
       "team": "בני סכנין",
@@ -16678,7 +17070,7 @@
       ]
     },
     {
-      "id": 121,
+      "id": 122,
       "name": "קווין סוני",
       "englishName": "Kebin Soni",
       "team": "בני סכנין",
@@ -16702,7 +17094,7 @@
       "topOpponents": []
     },
     {
-      "id": 122,
+      "id": 123,
       "name": "סתיו נחמני",
       "englishName": "Stav Nachmani",
       "team": "בני סכנין",
@@ -17081,7 +17473,7 @@
       ]
     },
     {
-      "id": 123,
+      "id": 124,
       "name": "אלכסנדר רמאלינגום",
       "englishName": "Alexandre Ramalingom",
       "team": "בני סכנין",
@@ -17105,7 +17497,7 @@
       "topOpponents": []
     },
     {
-      "id": 124,
+      "id": 125,
       "name": "עומר אבוהב",
       "englishName": "Omer Abuhav",
       "team": "בני סכנין",
@@ -17550,7 +17942,7 @@
       ]
     },
     {
-      "id": 125,
+      "id": 126,
       "name": "פאטה גודושאורי",
       "englishName": "Paata Ghudushauri",
       "team": "בני סכנין",
@@ -17574,7 +17966,7 @@
       "topOpponents": []
     },
     {
-      "id": 126,
+      "id": 127,
       "name": "דניאל אונימוכארה",
       "englishName": "Daniel  Onyumokhara",
       "team": "בני סכנין",
@@ -17598,7 +17990,7 @@
       "topOpponents": []
     },
     {
-      "id": 127,
+      "id": 128,
       "name": "ז`אנדו פוקס",
       "englishName": "Jeando Fuchs",
       "team": "בני סכנין",
@@ -17622,7 +18014,7 @@
       "topOpponents": []
     },
     {
-      "id": 128,
+      "id": 129,
       "name": "קרלו ברוצ`יץ`",
       "englishName": "Karlo Brucic",
       "team": "בני סכנין",
@@ -18034,7 +18426,7 @@
       ]
     },
     {
-      "id": 129,
+      "id": 130,
       "name": "מתיו קודג`ו",
       "englishName": "",
       "team": "בני סכנין",
@@ -18443,7 +18835,7 @@
       ]
     },
     {
-      "id": 130,
+      "id": 131,
       "name": "בארנס אוסיי",
       "englishName": "Barnes Osei",
       "team": "בני סכנין",
@@ -18467,7 +18859,7 @@
       "topOpponents": []
     },
     {
-      "id": 131,
+      "id": 132,
       "name": "מוחמד טאהא",
       "englishName": "Ahmed Taha",
       "team": "בני סכנין",
@@ -18593,7 +18985,7 @@
       ]
     },
     {
-      "id": 132,
+      "id": 133,
       "name": "מוסטפא שיח יוסף",
       "englishName": "Yusef Mustafa Sheh",
       "team": "בני סכנין",
@@ -19016,7 +19408,7 @@
       ]
     },
     {
-      "id": 133,
+      "id": 134,
       "name": "ראני סיף",
       "englishName": "Rani Sif",
       "team": "בני סכנין",
@@ -19116,7 +19508,7 @@
       ]
     },
     {
-      "id": 134,
+      "id": 135,
       "name": "שאקר אבו חוסיין",
       "englishName": "Shaker Abu Husein",
       "team": "בני סכנין",
@@ -19264,7 +19656,7 @@
       ]
     },
     {
-      "id": 135,
+      "id": 136,
       "name": "אכרם זבידאת",
       "englishName": "Akram Zabidat",
       "team": "בני סכנין",
@@ -19354,7 +19746,7 @@
       ]
     },
     {
-      "id": 136,
+      "id": 137,
       "name": "עלי חיאדרה",
       "englishName": "Ali Hayadre",
       "team": "בני סכנין",
@@ -19378,7 +19770,7 @@
       "topOpponents": []
     },
     {
-      "id": 137,
+      "id": 138,
       "name": "ארתור מירניאן",
       "englishName": "Artur Miranyan",
       "team": "בני סכנין",
@@ -19779,7 +20171,7 @@
       ]
     },
     {
-      "id": 138,
+      "id": 139,
       "name": "גליד אוטאנגה",
       "englishName": "",
       "team": "בני סכנין",
@@ -19957,7 +20349,7 @@
       ]
     },
     {
-      "id": 139,
+      "id": 140,
       "name": "רובן אקווה",
       "englishName": "Reuben Acquah",
       "team": "בני סכנין",
@@ -19981,7 +20373,7 @@
       "topOpponents": []
     },
     {
-      "id": 140,
+      "id": 141,
       "name": "עומר קורסיה",
       "englishName": "Omer Korsia",
       "team": "בני סכנין",
@@ -20005,7 +20397,7 @@
       "topOpponents": []
     },
     {
-      "id": 141,
+      "id": 142,
       "name": "דניאל צ`ינוסומו",
       "englishName": "",
       "team": "בני סכנין",
@@ -20029,7 +20421,7 @@
       "topOpponents": []
     },
     {
-      "id": 142,
+      "id": 143,
       "name": "דניאל אונימוכארה",
       "englishName": "Daniel  Onyumokhara",
       "team": "בני סכנין",
@@ -20115,7 +20507,364 @@
       ]
     },
     {
-      "id": 143,
+      "id": 144,
+      "name": "סאנה גומס",
+      "englishName": "Saná Gomes",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 2,
+      "price": 7000000,
+      "shirtNumber": 92,
+      "imageUrl": "https://www.sport5.co.il/Files/4/184874.png",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 5877,
+      "avgPoints": 2.48,
+      "ppm": 8.86,
+      "xA": 2.55,
+      "xGI": 3.32,
+      "sport5": {
+        "totalPoints": 62,
+        "minutesPlayed": 1973,
+        "goals": 0,
+        "goalsPoints": 0,
+        "assists": 0,
+        "assistsPoints": 0,
+        "yellowCards": 6,
+        "yellowCardsPoints": -6,
+        "redCards": 1,
+        "openLineup": 23,
+        "substituteIn": 1,
+        "substituteOut": 7,
+        "cleanSheets": 8,
+        "ownGoals": 0,
+        "penaltiesStopped": 0,
+        "penaltiesMissed": 0,
+        "causedPenalty": 0,
+        "failedForPenalty": 1
+      },
+      "footballCoIl": {
+        "expectedGoals": 0.7067000000000001,
+        "goals": 0,
+        "assists": 0,
+        "shotsOnTarget": 5,
+        "shotAttempts": 20,
+        "totalMinutesPlayed": 1973,
+        "yellowCards": 7,
+        "redCards": 1,
+        "appearances": 24,
+        "passes": 680
+      },
+      "scores365": {
+        "xG": 0.77,
+        "xA": 2.55,
+        "appearances": 24,
+        "goals": 0,
+        "assists": 0,
+        "penaltyGoals": 0,
+        "totalShots": 15,
+        "shotsOnTarget": 5,
+        "bigChancesCreated": 1,
+        "touches": 1358,
+        "minutesPlayed": 1973,
+        "yellowCards": 7,
+        "redCards": 1
+      },
+      "games": [
+        {
+          "round": 1,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
+          "round": 2,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 2,
+          "awayScore": 1
+        },
+        {
+          "round": 3,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 2
+        },
+        {
+          "round": 4,
+          "opponent": "מכבי חיפה",
+          "opponentId": 138,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 5,
+          "opponent": "הפועל תל אביב",
+          "opponentId": 128,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
+          "round": 6,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 8,
+          "opponent": "בית\"ר ירושלים",
+          "opponentId": 140,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 2,
+          "awayScore": 3
+        },
+        {
+          "round": 11,
+          "opponent": "הפועל באר שבע",
+          "opponentId": 130,
+          "points": -1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 3,
+          "awayScore": 4
+        },
+        {
+          "round": 12,
+          "opponent": "מכבי תל אביב",
+          "opponentId": 133,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 1
+        },
+        {
+          "round": 13,
+          "opponent": "מכבי נתניה",
+          "opponentId": 132,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 3,
+          "awayScore": 4
+        },
+        {
+          "round": 14,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 2,
+          "awayScore": 0
+        },
+        {
+          "round": 15,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 1
+        },
+        {
+          "round": 16,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 2
+        },
+        {
+          "round": 17,
+          "opponent": "מכבי חיפה",
+          "opponentId": 138,
+          "points": -2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 0
+        },
+        {
+          "round": 19,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 3,
+          "awayScore": 1
+        },
+        {
+          "round": 20,
+          "opponent": "מכבי בני ריינה",
+          "opponentId": 139,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 0,
+          "awayScore": 1
+        },
+        {
+          "round": 21,
+          "opponent": "בית\"ר ירושלים",
+          "opponentId": 140,
+          "points": 0,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 2
+        },
+        {
+          "round": 23,
+          "opponent": "הפועל פתח תקווה",
+          "opponentId": 134,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 1
+        },
+        {
+          "round": 24,
+          "opponent": "הפועל באר שבע",
+          "opponentId": 130,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 28,
+          "opponent": "הפועל ירושלים",
+          "opponentId": 136,
+          "points": 5,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 0,
+          "awayScore": 0
+        },
+        {
+          "round": 29,
+          "opponent": "עירוני טבריה",
+          "opponentId": 198,
+          "points": 2,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 30,
+          "opponent": "הפועל קרית שמונה",
+          "opponentId": 197,
+          "points": 1,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 2,
+          "awayScore": 0
+        },
+        {
+          "round": 32,
+          "opponent": "מ.ס. אשדוד",
+          "opponentId": 135,
+          "points": 6,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 1,
+          "awayScore": 0
+        },
+        {
+          "round": 33,
+          "opponent": "מכבי נתניה",
+          "opponentId": 132,
+          "points": 4,
+          "goals": 0,
+          "assists": 0,
+          "isHome": false,
+          "homeScore": 1,
+          "awayScore": 1
+        },
+        {
+          "round": 34,
+          "opponent": "בני סכנין",
+          "opponentId": 129,
+          "points": 5,
+          "goals": 0,
+          "assists": 0,
+          "isHome": true,
+          "homeScore": 3,
+          "awayScore": 0
+        }
+      ],
+      "topOpponents": [
+        {
+          "name": "בני סכנין",
+          "points": 13
+        },
+        {
+          "name": "הפועל ירושלים",
+          "points": 12
+        },
+        {
+          "name": "עירוני טבריה",
+          "points": 10
+        }
+      ]
+    },
+    {
+      "id": 145,
       "name": "ביאן אבו ריא",
       "englishName": "Bian Abu Raya",
       "team": "בני סכנין",
@@ -20204,7 +20953,7 @@
       ]
     },
     {
-      "id": 144,
+      "id": 146,
       "name": "דוראל אובנאו",
       "englishName": "",
       "team": "בני סכנין",
@@ -20305,7 +21054,7 @@
       ]
     },
     {
-      "id": 145,
+      "id": 147,
       "name": "איברהימה דראמה",
       "englishName": "Ibrahima Drame",
       "team": "בני סכנין",
@@ -20651,7 +21400,7 @@
       ]
     },
     {
-      "id": 146,
+      "id": 148,
       "name": "אבישי יהב",
       "englishName": "Avishai Yahav",
       "team": "בני סכנין",
@@ -20725,7 +21474,7 @@
       ]
     },
     {
-      "id": 147,
+      "id": 149,
       "name": "יוהאן אנזי",
       "englishName": "Johan N'Zi",
       "team": "בני סכנין",
@@ -20950,7 +21699,7 @@
       ]
     },
     {
-      "id": 148,
+      "id": 150,
       "name": "מייקום דיוויד",
       "englishName": "",
       "team": "בני סכנין",
@@ -21161,7 +21910,7 @@
       ]
     },
     {
-      "id": 149,
+      "id": 151,
       "name": "סובחי אבו יונס",
       "englishName": "Subhi Abu Yunes",
       "team": "בני סכנין",
@@ -21273,7 +22022,7 @@
       ]
     },
     {
-      "id": 150,
+      "id": 152,
       "name": "מוחמד אבו ריא",
       "englishName": "Muhammad Abu Ria",
       "team": "בני סכנין",
@@ -21369,7 +22118,7 @@
       ]
     },
     {
-      "id": 151,
+      "id": 153,
       "name": "דוד בן לולו",
       "englishName": "David Ben Lulu",
       "team": "בני סכנין",
@@ -21443,7 +22192,175 @@
       ]
     },
     {
-      "id": 152,
+      "id": 154,
+      "name": "רועי הרמן",
+      "englishName": "Roie Herman",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 2,
+      "price": 5000000,
+      "shirtNumber": 55,
+      "imageUrl": "https://www.sport5.co.il/Files/3/145263.jpg",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 155,
+      "name": "עמית קרדי",
+      "englishName": "Amit Arazi",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 2,
+      "price": 0,
+      "shirtNumber": 17,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 156,
+      "name": "ראול בלבראו",
+      "englishName": "",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 1,
+      "price": 0,
+      "shirtNumber": 1,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 157,
+      "name": "מודסטס וורביובס",
+      "englishName": "",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 3,
+      "price": 0,
+      "shirtNumber": 8,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 158,
+      "name": "נורברטו קרלוס",
+      "englishName": "",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 3,
+      "price": 0,
+      "shirtNumber": 18,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 159,
+      "name": "עמאד אלאדין עבדאללה",
+      "englishName": "",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 4,
+      "price": 0,
+      "shirtNumber": 25,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 160,
+      "name": "עלי גנאמה",
+      "englishName": "Ali Gnameh",
+      "team": "בני סכנין",
+      "teamId": 8,
+      "position": 2,
+      "price": 0,
+      "shirtNumber": 44,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 161,
       "name": "מרקו וולף",
       "englishName": "Marco Wolff",
       "team": "הפועל באר שבע",
@@ -21467,7 +22384,7 @@
       "topOpponents": []
     },
     {
-      "id": 153,
+      "id": 162,
       "name": "אור בלוריאן",
       "englishName": "Or Blorian",
       "team": "הפועל באר שבע",
@@ -21934,7 +22851,7 @@
       ]
     },
     {
-      "id": 154,
+      "id": 163,
       "name": "פטריק קלימלה",
       "englishName": "Patryk Klimala",
       "team": "הפועל באר שבע",
@@ -21958,7 +22875,7 @@
       "topOpponents": []
     },
     {
-      "id": 155,
+      "id": 164,
       "name": "מיגל ויטור",
       "englishName": "Miguel Vitor",
       "team": "הפועל באר שבע",
@@ -22293,7 +23210,7 @@
       ]
     },
     {
-      "id": 156,
+      "id": 165,
       "name": "אור דדיה",
       "englishName": "Or Dadya",
       "team": "הפועל באר שבע",
@@ -22317,7 +23234,7 @@
       "topOpponents": []
     },
     {
-      "id": 157,
+      "id": 166,
       "name": "הלדר לופס",
       "englishName": "Hélder Lopes",
       "team": "הפועל באר שבע",
@@ -22718,7 +23635,7 @@
       ]
     },
     {
-      "id": 158,
+      "id": 167,
       "name": "אופיר מרציאנו",
       "englishName": "Ofir Marciano",
       "team": "הפועל באר שבע",
@@ -23185,7 +24102,7 @@
       ]
     },
     {
-      "id": 159,
+      "id": 168,
       "name": "תום עמוס",
       "englishName": "Tom Amos",
       "team": "הפועל באר שבע",
@@ -23209,7 +24126,7 @@
       "topOpponents": []
     },
     {
-      "id": 160,
+      "id": 169,
       "name": "כריסטופר פטרסון",
       "englishName": "Kristoffer Peterson",
       "team": "הפועל באר שבע",
@@ -23233,7 +24150,7 @@
       "topOpponents": []
     },
     {
-      "id": 161,
+      "id": 170,
       "name": "יוני סטויאנוב",
       "englishName": "Yoni Stoyanov",
       "team": "הפועל באר שבע",
@@ -23425,7 +24342,7 @@
       ]
     },
     {
-      "id": 162,
+      "id": 171,
       "name": "רמזי ספורי",
       "englishName": "Ramzi Safuri",
       "team": "הפועל באר שבע",
@@ -23449,7 +24366,7 @@
       "topOpponents": []
     },
     {
-      "id": 163,
+      "id": 172,
       "name": "מריאנו בריירו",
       "englishName": "Mariano Bareiro",
       "team": "הפועל באר שבע",
@@ -23473,7 +24390,7 @@
       "topOpponents": []
     },
     {
-      "id": 164,
+      "id": 173,
       "name": "שי אליאס",
       "englishName": "Shay Elias",
       "team": "הפועל באר שבע",
@@ -23907,7 +24824,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": 174,
       "name": "איגור זלטאנוביץ`",
       "englishName": "Igor Zlatanović",
       "team": "הפועל באר שבע",
@@ -24365,7 +25282,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 166,
+      "id": 175,
       "name": "גיא מזרחי",
       "englishName": "Guy Mizrahi",
       "team": "הפועל באר שבע",
@@ -24821,7 +25738,7 @@
       ]
     },
     {
-      "id": 167,
+      "id": 176,
       "name": "אופיר דוידזאדה",
       "englishName": "Ofir Davidadze",
       "team": "הפועל באר שבע",
@@ -25178,7 +26095,7 @@
       ]
     },
     {
-      "id": 168,
+      "id": 177,
       "name": "דן ביטון",
       "englishName": "Dan Biton",
       "team": "הפועל באר שבע",
@@ -25537,7 +26454,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 169,
+      "id": 178,
       "name": "רועי לוי",
       "englishName": "Roy Levy",
       "team": "הפועל באר שבע",
@@ -25905,7 +26822,7 @@
       ]
     },
     {
-      "id": 170,
+      "id": 179,
       "name": "מוחמד כנעאן",
       "englishName": "",
       "team": "הפועל באר שבע",
@@ -26295,7 +27212,7 @@
       ]
     },
     {
-      "id": 171,
+      "id": 180,
       "name": "איתן טיבי",
       "englishName": "Eitan Tibi",
       "team": "הפועל באר שבע",
@@ -26319,7 +27236,7 @@
       "topOpponents": []
     },
     {
-      "id": 172,
+      "id": 181,
       "name": "ניב אליאסי",
       "englishName": "Niv Eliasi",
       "team": "הפועל באר שבע",
@@ -26742,7 +27659,7 @@
       ]
     },
     {
-      "id": 173,
+      "id": 182,
       "name": "אמיר גנאח",
       "englishName": "Amir Chaim Ganah",
       "team": "הפועל באר שבע",
@@ -27209,7 +28126,7 @@
       ]
     },
     {
-      "id": 174,
+      "id": 183,
       "name": "יונתן שני",
       "englishName": "Yonatan Levi",
       "team": "הפועל באר שבע",
@@ -27233,7 +28150,7 @@
       "topOpponents": []
     },
     {
-      "id": 175,
+      "id": 184,
       "name": "זאהי אחמד",
       "englishName": "Zahi Ahmed",
       "team": "הפועל באר שבע",
@@ -27711,7 +28628,7 @@
       ]
     },
     {
-      "id": 176,
+      "id": 185,
       "name": "ארי מרנשטיין",
       "englishName": "Ari Mernstein",
       "team": "הפועל באר שבע",
@@ -27735,7 +28652,7 @@
       "topOpponents": []
     },
     {
-      "id": 177,
+      "id": 186,
       "name": "נועם שחר",
       "englishName": "Noam Shachar",
       "team": "הפועל באר שבע",
@@ -27759,7 +28676,7 @@
       "topOpponents": []
     },
     {
-      "id": 178,
+      "id": 187,
       "name": "ראם גולן",
       "englishName": "Ram Yigal Golan",
       "team": "הפועל באר שבע",
@@ -27783,7 +28700,7 @@
       "topOpponents": []
     },
     {
-      "id": 179,
+      "id": 188,
       "name": "רועי ממן",
       "englishName": "Roie Herman",
       "team": "הפועל באר שבע",
@@ -27807,7 +28724,7 @@
       "topOpponents": []
     },
     {
-      "id": 180,
+      "id": 189,
       "name": "אנדרה פוקו",
       "englishName": "André Poko",
       "team": "הפועל באר שבע",
@@ -27831,7 +28748,7 @@
       "topOpponents": []
     },
     {
-      "id": 181,
+      "id": 190,
       "name": "קינגס קנגוואה",
       "englishName": "Kings Kangwa",
       "team": "הפועל באר שבע",
@@ -28287,7 +29204,7 @@
       ]
     },
     {
-      "id": 182,
+      "id": 191,
       "name": "אימרן אולאד עומאר",
       "englishName": "Imran Oulad Omar",
       "team": "הפועל באר שבע",
@@ -28311,7 +29228,7 @@
       "topOpponents": []
     },
     {
-      "id": 183,
+      "id": 192,
       "name": "ניב יהושוע",
       "englishName": "Niv Yehoshua",
       "team": "הפועל באר שבע",
@@ -28335,7 +29252,7 @@
       "topOpponents": []
     },
     {
-      "id": 184,
+      "id": 193,
       "name": "מתן בלטקסה",
       "englishName": "Matan Baltaksa",
       "team": "הפועל באר שבע",
@@ -28769,7 +29686,7 @@
       ]
     },
     {
-      "id": 185,
+      "id": 194,
       "name": "ארתור שושנאצ`ב",
       "englishName": "Artur Shushenachev",
       "team": "הפועל באר שבע",
@@ -28793,7 +29710,7 @@
       "topOpponents": []
     },
     {
-      "id": 186,
+      "id": 195,
       "name": "מקסימו לוי",
       "englishName": "M Levi",
       "team": "הפועל באר שבע",
@@ -28817,7 +29734,7 @@
       "topOpponents": []
     },
     {
-      "id": 187,
+      "id": 196,
       "name": "איתי חזות",
       "englishName": "Itay Hazut",
       "team": "הפועל באר שבע",
@@ -29262,7 +30179,7 @@
       ]
     },
     {
-      "id": 188,
+      "id": 197,
       "name": "אופק פרץ",
       "englishName": "Ofek Peretz",
       "team": "הפועל באר שבע",
@@ -29286,7 +30203,7 @@
       "topOpponents": []
     },
     {
-      "id": 189,
+      "id": 198,
       "name": "עמיר סבג",
       "englishName": "Amir Sabag",
       "team": "הפועל באר שבע",
@@ -29310,7 +30227,7 @@
       "topOpponents": []
     },
     {
-      "id": 190,
+      "id": 199,
       "name": "ליאור שוגר",
       "englishName": "Lior Shoger",
       "team": "הפועל באר שבע",
@@ -29334,7 +30251,7 @@
       "topOpponents": []
     },
     {
-      "id": 191,
+      "id": 200,
       "name": "שלמה איילין",
       "englishName": "Shlomo Ailin",
       "team": "הפועל באר שבע",
@@ -29358,7 +30275,7 @@
       "topOpponents": []
     },
     {
-      "id": 192,
+      "id": 201,
       "name": "אליאל פרץ",
       "englishName": "Eliel Peretz",
       "team": "הפועל באר שבע",
@@ -29825,7 +30742,7 @@
       ]
     },
     {
-      "id": 193,
+      "id": 202,
       "name": "לירן ריגן",
       "englishName": "Liran Rigen",
       "team": "הפועל באר שבע",
@@ -29849,7 +30766,7 @@
       "topOpponents": []
     },
     {
-      "id": 194,
+      "id": 203,
       "name": "סמיר פרהוד",
       "englishName": "Samir Farhud",
       "team": "הפועל באר שבע",
@@ -29949,7 +30866,7 @@
       ]
     },
     {
-      "id": 195,
+      "id": 204,
       "name": "ארנולד גריטה",
       "englishName": "",
       "team": "הפועל באר שבע",
@@ -29973,7 +30890,7 @@
       "topOpponents": []
     },
     {
-      "id": 196,
+      "id": 205,
       "name": "מוחמד אבו רומי",
       "englishName": "Mohammed Abu Romi",
       "team": "הפועל באר שבע",
@@ -30429,7 +31346,7 @@
       ]
     },
     {
-      "id": 197,
+      "id": 206,
       "name": "לוקאס ונטורה",
       "englishName": "Lucas de Souza Ventura",
       "team": "הפועל באר שבע",
@@ -30885,7 +31802,7 @@
       ]
     },
     {
-      "id": 198,
+      "id": 207,
       "name": "קרלוס פונק",
       "englishName": "Carlos Satos Rodrigues",
       "team": "הפועל באר שבע",
@@ -30909,7 +31826,7 @@
       "topOpponents": []
     },
     {
-      "id": 199,
+      "id": 208,
       "name": "יורי מדיירוש",
       "englishName": "Iuri Medeiros",
       "team": "הפועל באר שבע",
@@ -30933,7 +31850,7 @@
       "topOpponents": []
     },
     {
-      "id": 200,
+      "id": 209,
       "name": "ג`בון איסט",
       "englishName": "Javon Romario East",
       "team": "הפועל באר שבע",
@@ -31389,7 +32306,7 @@
       ]
     },
     {
-      "id": 201,
+      "id": 210,
       "name": "יפתח סיגלר",
       "englishName": "Yiftach sigler",
       "team": "הפועל באר שבע",
@@ -31413,7 +32330,7 @@
       "topOpponents": []
     },
     {
-      "id": 202,
+      "id": 211,
       "name": "יונתן שני",
       "englishName": "Yonatan Levi",
       "team": "הפועל באר שבע",
@@ -31437,7 +32354,7 @@
       "topOpponents": []
     },
     {
-      "id": 203,
+      "id": 212,
       "name": "ג`וזף סאבובו",
       "englishName": "Joseph Sabobo Banda",
       "team": "הפועל באר שבע",
@@ -31582,7 +32499,7 @@
       ]
     },
     {
-      "id": 204,
+      "id": 213,
       "name": "איתי רוטמן",
       "englishName": "Itay Rotman",
       "team": "הפועל באר שבע",
@@ -32038,7 +32955,7 @@
       ]
     },
     {
-      "id": 205,
+      "id": 214,
       "name": "ג`יבריל דיופ",
       "englishName": "Djibril Thialaw Diop",
       "team": "הפועל באר שבע",
@@ -32461,7 +33378,7 @@
       ]
     },
     {
-      "id": 206,
+      "id": 215,
       "name": "איתי חמי",
       "englishName": "Itay Hemi",
       "team": "הפועל באר שבע",
@@ -32587,7 +33504,7 @@
       ]
     },
     {
-      "id": 207,
+      "id": 216,
       "name": "עמית אוחנה",
       "englishName": "Amit Ohana",
       "team": "הפועל באר שבע",
@@ -32672,7 +33589,7 @@
       ]
     },
     {
-      "id": 208,
+      "id": 217,
       "name": "ז`ואאו ויקטור",
       "englishName": "",
       "team": "הפועל באר שבע",
@@ -32696,7 +33613,7 @@
       "topOpponents": []
     },
     {
-      "id": 209,
+      "id": 218,
       "name": "יואב קורן",
       "englishName": "Yoav Horev",
       "team": "הפועל באר שבע",
@@ -32720,7 +33637,7 @@
       "topOpponents": []
     },
     {
-      "id": 210,
+      "id": 219,
       "name": "שלומי דהן",
       "englishName": "Shlomi Dana",
       "team": "הפועל באר שבע",
@@ -32744,7 +33661,7 @@
       "topOpponents": []
     },
     {
-      "id": 211,
+      "id": 220,
       "name": "אלון תורג`מן",
       "englishName": "Alon Turgeman",
       "team": "הפועל חיפה",
@@ -33191,7 +34108,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 212,
+      "id": 221,
       "name": "רותם חטואל",
       "englishName": "Rotem Hatuel",
       "team": "הפועל חיפה",
@@ -33559,7 +34476,7 @@
       ]
     },
     {
-      "id": 213,
+      "id": 222,
       "name": "איתי בוגנים",
       "englishName": "Itay Buganim",
       "team": "הפועל חיפה",
@@ -33927,7 +34844,7 @@
       ]
     },
     {
-      "id": 214,
+      "id": 223,
       "name": "מוחמד קמארה",
       "englishName": "Mohammed Kamara",
       "team": "הפועל חיפה",
@@ -33951,7 +34868,7 @@
       "topOpponents": []
     },
     {
-      "id": 215,
+      "id": 224,
       "name": "אורן ביטון",
       "englishName": "Oren Bitton",
       "team": "הפועל חיפה",
@@ -34352,7 +35269,7 @@
       ]
     },
     {
-      "id": 216,
+      "id": 225,
       "name": "דניס פוליאקוב",
       "englishName": "Denis Polyakov",
       "team": "הפועל חיפה",
@@ -34376,7 +35293,7 @@
       "topOpponents": []
     },
     {
-      "id": 217,
+      "id": 226,
       "name": "ג`ורג` דיבה",
       "englishName": "George Diba",
       "team": "הפועל חיפה",
@@ -34810,7 +35727,7 @@
       ]
     },
     {
-      "id": 218,
+      "id": 227,
       "name": "דור מלול",
       "englishName": "Dor Malul",
       "team": "הפועל חיפה",
@@ -35244,7 +36161,7 @@
       ]
     },
     {
-      "id": 219,
+      "id": 228,
       "name": "יואב ג`ראפי",
       "englishName": "Yoav Gerafi",
       "team": "הפועל חיפה",
@@ -35535,7 +36452,7 @@
       ]
     },
     {
-      "id": 220,
+      "id": 229,
       "name": "עמית סוארי",
       "englishName": "Amit Moseri",
       "team": "הפועל חיפה",
@@ -35559,7 +36476,7 @@
       "topOpponents": []
     },
     {
-      "id": 221,
+      "id": 230,
       "name": "נאור סבג",
       "englishName": "Naor Sabag",
       "team": "הפועל חיפה",
@@ -35971,7 +36888,7 @@
       ]
     },
     {
-      "id": 222,
+      "id": 231,
       "name": "פליפה סנטוס",
       "englishName": "Felipe Silva Correa dos Santos",
       "team": "הפועל חיפה",
@@ -35995,7 +36912,7 @@
       "topOpponents": []
     },
     {
-      "id": 223,
+      "id": 232,
       "name": "לירן סרדל",
       "englishName": "Liran Sardal",
       "team": "הפועל חיפה",
@@ -36385,7 +37302,7 @@
       ]
     },
     {
-      "id": 224,
+      "id": 233,
       "name": "ירין סרדל",
       "englishName": "Yarin Serdal",
       "team": "הפועל חיפה",
@@ -36409,7 +37326,7 @@
       "topOpponents": []
     },
     {
-      "id": 225,
+      "id": 234,
       "name": "רועי רבינוביץ`",
       "englishName": "Roei Rabinovich",
       "team": "הפועל חיפה",
@@ -36433,7 +37350,7 @@
       "topOpponents": []
     },
     {
-      "id": 226,
+      "id": 235,
       "name": "נפתלי בלאי",
       "englishName": "Naftali Balay",
       "team": "הפועל חיפה",
@@ -36559,7 +37476,7 @@
       ]
     },
     {
-      "id": 227,
+      "id": 236,
       "name": "לירן רוטמן",
       "englishName": "Liran Rotman",
       "team": "הפועל חיפה",
@@ -36861,7 +37778,7 @@
       ]
     },
     {
-      "id": 228,
+      "id": 237,
       "name": "בר לין",
       "englishName": "Bar Shmuel Enosh Lin",
       "team": "הפועל חיפה",
@@ -36885,7 +37802,7 @@
       "topOpponents": []
     },
     {
-      "id": 229,
+      "id": 238,
       "name": "רוי נאווי",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -37308,7 +38225,7 @@
       ]
     },
     {
-      "id": 230,
+      "id": 239,
       "name": "אופק ביטון",
       "englishName": "Ofek Biton",
       "team": "הפועל חיפה",
@@ -37610,7 +38527,7 @@
       ]
     },
     {
-      "id": 231,
+      "id": 240,
       "name": "ליאור רוקח",
       "englishName": "Lior Rokach",
       "team": "הפועל חיפה",
@@ -37634,7 +38551,7 @@
       "topOpponents": []
     },
     {
-      "id": 232,
+      "id": 241,
       "name": "אניס פורת עיאש",
       "englishName": "Anis  Ayash",
       "team": "הפועל חיפה",
@@ -38002,7 +38919,7 @@
       ]
     },
     {
-      "id": 233,
+      "id": 242,
       "name": "ניתאי ביתן",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -38026,7 +38943,7 @@
       "topOpponents": []
     },
     {
-      "id": 234,
+      "id": 243,
       "name": "ייסמאו קבדה",
       "englishName": "Yasmao Kabeda",
       "team": "הפועל חיפה",
@@ -38240,7 +39157,7 @@
       ]
     },
     {
-      "id": 235,
+      "id": 244,
       "name": "ירין גברי",
       "englishName": "Yarin Gavri",
       "team": "הפועל חיפה",
@@ -38264,7 +39181,7 @@
       "topOpponents": []
     },
     {
-      "id": 236,
+      "id": 245,
       "name": "ריף אמסלם",
       "englishName": "Reef  Amsalem",
       "team": "הפועל חיפה",
@@ -38288,7 +39205,7 @@
       "topOpponents": []
     },
     {
-      "id": 237,
+      "id": 246,
       "name": "יונתן אטיאס",
       "englishName": "Yonatan Elias",
       "team": "הפועל חיפה",
@@ -38312,7 +39229,7 @@
       "topOpponents": []
     },
     {
-      "id": 238,
+      "id": 247,
       "name": "ליאם נחום",
       "englishName": "Liam Nahum",
       "team": "הפועל חיפה",
@@ -38336,7 +39253,7 @@
       "topOpponents": []
     },
     {
-      "id": 239,
+      "id": 248,
       "name": "אחמד המאם",
       "englishName": "Ahmad Amar",
       "team": "הפועל חיפה",
@@ -38436,7 +39353,7 @@
       ]
     },
     {
-      "id": 240,
+      "id": 249,
       "name": "ליעם דוד מרגי",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -38460,7 +39377,7 @@
       "topOpponents": []
     },
     {
-      "id": 241,
+      "id": 250,
       "name": "עודד צוקול",
       "englishName": "Oded Checkol",
       "team": "הפועל חיפה",
@@ -38484,7 +39401,7 @@
       "topOpponents": []
     },
     {
-      "id": 242,
+      "id": 251,
       "name": "סולימן מארה",
       "englishName": "Sulayman Marreh",
       "team": "הפועל חיפה",
@@ -38508,7 +39425,7 @@
       "topOpponents": []
     },
     {
-      "id": 243,
+      "id": 252,
       "name": "אחמד עוואד",
       "englishName": "Ahmad Awad",
       "team": "הפועל חיפה",
@@ -38532,7 +39449,7 @@
       "topOpponents": []
     },
     {
-      "id": 244,
+      "id": 253,
       "name": "ייאלו קורקה",
       "englishName": "Yealo Kurka",
       "team": "הפועל חיפה",
@@ -38556,7 +39473,7 @@
       "topOpponents": []
     },
     {
-      "id": 245,
+      "id": 254,
       "name": "הראל עטיה",
       "englishName": "Harel Attia",
       "team": "הפועל חיפה",
@@ -38580,7 +39497,7 @@
       "topOpponents": []
     },
     {
-      "id": 246,
+      "id": 255,
       "name": "דמיטרי אנטלייבסקי",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -38604,7 +39521,7 @@
       "topOpponents": []
     },
     {
-      "id": 247,
+      "id": 256,
       "name": "דראמן סאלו",
       "englishName": "Dramane Salou",
       "team": "הפועל חיפה",
@@ -38628,7 +39545,7 @@
       "topOpponents": []
     },
     {
-      "id": 248,
+      "id": 257,
       "name": "סער פדידה",
       "englishName": "Sa'ar Fadida",
       "team": "הפועל חיפה",
@@ -39007,7 +39924,7 @@
       ]
     },
     {
-      "id": 249,
+      "id": 258,
       "name": "תמיר ארבל",
       "englishName": "Tamir Nes Arbel",
       "team": "הפועל חיפה",
@@ -39441,7 +40358,7 @@
       ]
     },
     {
-      "id": 250,
+      "id": 259,
       "name": "רועי זיקרי",
       "englishName": "Roi Zickry",
       "team": "הפועל חיפה",
@@ -39853,7 +40770,7 @@
       ]
     },
     {
-      "id": 251,
+      "id": 260,
       "name": "נועם כהן",
       "englishName": "Noam Cohen",
       "team": "הפועל חיפה",
@@ -40309,7 +41226,7 @@
       ]
     },
     {
-      "id": 252,
+      "id": 261,
       "name": "והיב חביבאללה",
       "englishName": "Wahib Habiballa",
       "team": "הפועל חיפה",
@@ -40688,7 +41605,7 @@
       ]
     },
     {
-      "id": 253,
+      "id": 262,
       "name": "תיאמוקו דיארה",
       "englishName": "Thiemoko Diarra",
       "team": "הפועל חיפה",
@@ -40712,7 +41629,7 @@
       "topOpponents": []
     },
     {
-      "id": 254,
+      "id": 263,
       "name": "עמית בן יוסף",
       "englishName": "Amit Ben Yosef",
       "team": "הפועל חיפה",
@@ -40736,7 +41653,7 @@
       "topOpponents": []
     },
     {
-      "id": 255,
+      "id": 264,
       "name": "חליל יוחנא",
       "englishName": "Khalil Yohana",
       "team": "הפועל חיפה",
@@ -40760,7 +41677,7 @@
       "topOpponents": []
     },
     {
-      "id": 256,
+      "id": 265,
       "name": "הראל עטיא",
       "englishName": "Harel Attia",
       "team": "הפועל חיפה",
@@ -40784,7 +41701,7 @@
       "topOpponents": []
     },
     {
-      "id": 257,
+      "id": 266,
       "name": "עילאי חזן",
       "englishName": "Ilay Hazan",
       "team": "הפועל חיפה",
@@ -40808,7 +41725,7 @@
       "topOpponents": []
     },
     {
-      "id": 258,
+      "id": 267,
       "name": "יעד גונן",
       "englishName": "Yaad Gonen",
       "team": "הפועל חיפה",
@@ -41132,7 +42049,7 @@
       ]
     },
     {
-      "id": 259,
+      "id": 268,
       "name": "סער אלקיים",
       "englishName": "Saar Elkayam",
       "team": "הפועל חיפה",
@@ -41232,7 +42149,7 @@
       ]
     },
     {
-      "id": 260,
+      "id": 269,
       "name": "אבובקאר דומביה",
       "englishName": "Aboubacar Junior Doumbia",
       "team": "הפועל חיפה",
@@ -41256,7 +42173,7 @@
       "topOpponents": []
     },
     {
-      "id": 261,
+      "id": 270,
       "name": "אריאל מנדי",
       "englishName": "Arial Benabent Mendy",
       "team": "הפועל חיפה",
@@ -41657,7 +42574,7 @@
       ]
     },
     {
-      "id": 262,
+      "id": 271,
       "name": "קווין ריאסקוס",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -41681,7 +42598,7 @@
       "topOpponents": []
     },
     {
-      "id": 263,
+      "id": 272,
       "name": "עומר חנין",
       "englishName": "Omer Hanin",
       "team": "הפועל חיפה",
@@ -41705,7 +42622,7 @@
       "topOpponents": []
     },
     {
-      "id": 264,
+      "id": 273,
       "name": "ריקרדו רוביניו",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -41729,7 +42646,7 @@
       "topOpponents": []
     },
     {
-      "id": 265,
+      "id": 274,
       "name": "לארי אנגולו",
       "englishName": "Larry Angulo",
       "team": "הפועל חיפה",
@@ -41899,7 +42816,7 @@
       ]
     },
     {
-      "id": 266,
+      "id": 275,
       "name": "אחמד מחאג`נה",
       "englishName": "Ahmad Mahagna",
       "team": "הפועל חיפה",
@@ -41923,7 +42840,7 @@
       "topOpponents": []
     },
     {
-      "id": 267,
+      "id": 276,
       "name": "חיים מקונן",
       "englishName": "Haim Makonen",
       "team": "הפועל חיפה",
@@ -42027,7 +42944,7 @@
       ]
     },
     {
-      "id": 268,
+      "id": 277,
       "name": "ייסמאו קבדה",
       "englishName": "Yasmao Kabeda",
       "team": "הפועל חיפה",
@@ -42051,7 +42968,7 @@
       "topOpponents": []
     },
     {
-      "id": 269,
+      "id": 278,
       "name": "סלאם ז`ידו",
       "englishName": "Salam Giddou",
       "team": "הפועל חיפה",
@@ -42137,7 +43054,7 @@
       ]
     },
     {
-      "id": 270,
+      "id": 279,
       "name": "אורי לוי",
       "englishName": "Ori Levi",
       "team": "הפועל חיפה",
@@ -42237,7 +43154,7 @@
       ]
     },
     {
-      "id": 271,
+      "id": 280,
       "name": "רז`י אנדו",
       "englishName": "Regis N'do",
       "team": "הפועל חיפה",
@@ -42539,364 +43456,7 @@
       ]
     },
     {
-      "id": 272,
-      "name": "סאנה גומס",
-      "englishName": "Saná Gomes",
-      "team": "הפועל חיפה",
-      "teamId": 10,
-      "position": 2,
-      "price": 7000000,
-      "shirtNumber": 3,
-      "imageUrl": "https://www.sport5.co.il/Files/4/184874.png",
-      "injuredStatus": 0,
-      "expelledStatus": 0,
-      "missingStatus": 0,
-      "timesSelected": 5877,
-      "avgPoints": 2.48,
-      "ppm": 8.86,
-      "xA": 2.55,
-      "xGI": 3.32,
-      "sport5": {
-        "totalPoints": 62,
-        "minutesPlayed": 1973,
-        "goals": 0,
-        "goalsPoints": 0,
-        "assists": 0,
-        "assistsPoints": 0,
-        "yellowCards": 6,
-        "yellowCardsPoints": -6,
-        "redCards": 1,
-        "openLineup": 23,
-        "substituteIn": 1,
-        "substituteOut": 7,
-        "cleanSheets": 8,
-        "ownGoals": 0,
-        "penaltiesStopped": 0,
-        "penaltiesMissed": 0,
-        "causedPenalty": 0,
-        "failedForPenalty": 1
-      },
-      "footballCoIl": {
-        "expectedGoals": 0.7067000000000001,
-        "goals": 0,
-        "assists": 0,
-        "shotsOnTarget": 5,
-        "shotAttempts": 20,
-        "totalMinutesPlayed": 1973,
-        "yellowCards": 7,
-        "redCards": 1,
-        "appearances": 24,
-        "passes": 680
-      },
-      "scores365": {
-        "xG": 0.77,
-        "xA": 2.55,
-        "appearances": 24,
-        "goals": 0,
-        "assists": 0,
-        "penaltyGoals": 0,
-        "totalShots": 15,
-        "shotsOnTarget": 5,
-        "bigChancesCreated": 1,
-        "touches": 1358,
-        "minutesPlayed": 1973,
-        "yellowCards": 7,
-        "redCards": 1
-      },
-      "games": [
-        {
-          "round": 1,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "round": 2,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 2,
-          "awayScore": 1
-        },
-        {
-          "round": 3,
-          "opponent": "בני סכנין",
-          "opponentId": 129,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 2
-        },
-        {
-          "round": 4,
-          "opponent": "מכבי חיפה",
-          "opponentId": 138,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 5,
-          "opponent": "הפועל תל אביב",
-          "opponentId": 128,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "round": 6,
-          "opponent": "הפועל קרית שמונה",
-          "opponentId": 197,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 0
-        },
-        {
-          "round": 8,
-          "opponent": "בית\"ר ירושלים",
-          "opponentId": 140,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 2,
-          "awayScore": 3
-        },
-        {
-          "round": 11,
-          "opponent": "הפועל באר שבע",
-          "opponentId": 130,
-          "points": -1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 3,
-          "awayScore": 4
-        },
-        {
-          "round": 12,
-          "opponent": "מכבי תל אביב",
-          "opponentId": 133,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 1
-        },
-        {
-          "round": 13,
-          "opponent": "מכבי נתניה",
-          "opponentId": 132,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 3,
-          "awayScore": 4
-        },
-        {
-          "round": 14,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 2,
-          "awayScore": 0
-        },
-        {
-          "round": 15,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 1
-        },
-        {
-          "round": 16,
-          "opponent": "בני סכנין",
-          "opponentId": 129,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 2
-        },
-        {
-          "round": 17,
-          "opponent": "מכבי חיפה",
-          "opponentId": 138,
-          "points": -2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 0
-        },
-        {
-          "round": 19,
-          "opponent": "הפועל קרית שמונה",
-          "opponentId": 197,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 3,
-          "awayScore": 1
-        },
-        {
-          "round": 20,
-          "opponent": "מכבי בני ריינה",
-          "opponentId": 139,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 1
-        },
-        {
-          "round": 21,
-          "opponent": "בית\"ר ירושלים",
-          "opponentId": 140,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 2
-        },
-        {
-          "round": 23,
-          "opponent": "הפועל פתח תקווה",
-          "opponentId": 134,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 1
-        },
-        {
-          "round": 24,
-          "opponent": "הפועל באר שבע",
-          "opponentId": 130,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 28,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 5,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 0
-        },
-        {
-          "round": 29,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 30,
-          "opponent": "הפועל קרית שמונה",
-          "opponentId": 197,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 0
-        },
-        {
-          "round": 32,
-          "opponent": "מ.ס. אשדוד",
-          "opponentId": 135,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "round": 33,
-          "opponent": "מכבי נתניה",
-          "opponentId": 132,
-          "points": 4,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 34,
-          "opponent": "בני סכנין",
-          "opponentId": 129,
-          "points": 5,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 3,
-          "awayScore": 0
-        }
-      ],
-      "topOpponents": [
-        {
-          "name": "בני סכנין",
-          "points": 13
-        },
-        {
-          "name": "הפועל ירושלים",
-          "points": 12
-        },
-        {
-          "name": "עירוני טבריה",
-          "points": 10
-        }
-      ]
-    },
-    {
-      "id": 273,
+      "id": 281,
       "name": "יהלי ועקנין",
       "englishName": "Yali Vaknin",
       "team": "הפועל חיפה",
@@ -42956,7 +43516,7 @@
       ]
     },
     {
-      "id": 274,
+      "id": 282,
       "name": "ברונו רמירז",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -43236,7 +43796,7 @@
       ]
     },
     {
-      "id": 275,
+      "id": 283,
       "name": "בנג`מין מצ`יני",
       "englishName": "Benjamin Machini",
       "team": "הפועל חיפה",
@@ -43516,7 +44076,7 @@
       ]
     },
     {
-      "id": 276,
+      "id": 284,
       "name": "שי בלחסן",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -43653,7 +44213,7 @@
       ]
     },
     {
-      "id": 277,
+      "id": 285,
       "name": "איבן קריצ`אק",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -43875,7 +44435,7 @@
       ]
     },
     {
-      "id": 278,
+      "id": 286,
       "name": "סנדרו אלטונשווילי",
       "englishName": "Sandro Altunashvili",
       "team": "הפועל חיפה",
@@ -44111,7 +44671,7 @@
       ]
     },
     {
-      "id": 279,
+      "id": 287,
       "name": "מתן עמבר",
       "englishName": "Matan Ambar",
       "team": "הפועל חיפה",
@@ -44314,7 +44874,7 @@
       ]
     },
     {
-      "id": 280,
+      "id": 288,
       "name": "אנדריה רדולוביץ`",
       "englishName": "Andrija Radulović",
       "team": "הפועל חיפה",
@@ -44440,7 +45000,7 @@
       ]
     },
     {
-      "id": 281,
+      "id": 289,
       "name": "דריו ז`ופאריץ`",
       "englishName": "Dario Župarić",
       "team": "הפועל חיפה",
@@ -44632,7 +45192,7 @@
       ]
     },
     {
-      "id": 282,
+      "id": 290,
       "name": "טל נעים",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -44656,7 +45216,7 @@
       "topOpponents": []
     },
     {
-      "id": 283,
+      "id": 291,
       "name": "סאלי פחימה",
       "englishName": "Israel Sali Pahima",
       "team": "הפועל חיפה",
@@ -44680,7 +45240,7 @@
       "topOpponents": []
     },
     {
-      "id": 284,
+      "id": 292,
       "name": "שיק קייטה",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -44704,7 +45264,7 @@
       "topOpponents": []
     },
     {
-      "id": 285,
+      "id": 293,
       "name": "מועתז חאמד",
       "englishName": "",
       "team": "הפועל חיפה",
@@ -44728,7 +45288,31 @@
       "topOpponents": []
     },
     {
-      "id": 286,
+      "id": 294,
+      "name": "עידן דדיה",
+      "englishName": "",
+      "team": "הפועל חיפה",
+      "teamId": 10,
+      "position": 3,
+      "price": 0,
+      "shirtNumber": 30,
+      "imageUrl": "",
+      "injuredStatus": 0,
+      "expelledStatus": 0,
+      "missingStatus": 0,
+      "timesSelected": 0,
+      "avgPoints": 0.0,
+      "ppm": 0.0,
+      "xA": 0.0,
+      "xGI": 0.0,
+      "sport5": null,
+      "footballCoIl": null,
+      "scores365": null,
+      "games": [],
+      "topOpponents": []
+    },
+    {
+      "id": 295,
       "name": "מאור לוי",
       "englishName": "Maor Levi",
       "team": "מכבי נתניה",
@@ -45151,7 +45735,7 @@
       ]
     },
     {
-      "id": 287,
+      "id": 296,
       "name": "אלון אזוגי",
       "englishName": "Alon Azugi",
       "team": "מכבי נתניה",
@@ -45585,7 +46169,7 @@
       ]
     },
     {
-      "id": 288,
+      "id": 297,
       "name": "סאהר תאג`י",
       "englishName": "Sahar Taji",
       "team": "מכבי נתניה",
@@ -45766,7 +46350,7 @@
       ]
     },
     {
-      "id": 289,
+      "id": 298,
       "name": "סער ברמי",
       "englishName": "Mor Barami",
       "team": "מכבי נתניה",
@@ -45790,7 +46374,7 @@
       "topOpponents": []
     },
     {
-      "id": 290,
+      "id": 299,
       "name": "דניס קוליקוב",
       "englishName": "Denis Kulikov",
       "team": "מכבי נתניה",
@@ -46180,7 +46764,7 @@
       ]
     },
     {
-      "id": 291,
+      "id": 300,
       "name": "ג`ואל אבו חנא",
       "englishName": "Joel Abu Hanna",
       "team": "מכבי נתניה",
@@ -46204,7 +46788,7 @@
       "topOpponents": []
     },
     {
-      "id": 292,
+      "id": 301,
       "name": "נאסים אואמאו",
       "englishName": "Nassim Ouammou",
       "team": "מכבי נתניה",
@@ -46228,7 +46812,7 @@
       "topOpponents": []
     },
     {
-      "id": 293,
+      "id": 302,
       "name": "מתן לוי",
       "englishName": "Matan Levi",
       "team": "מכבי נתניה",
@@ -46252,7 +46836,7 @@
       "topOpponents": []
     },
     {
-      "id": 294,
+      "id": 303,
       "name": "כארם ג`אבר",
       "englishName": "Karem Jaber",
       "team": "מכבי נתניה",
@@ -46664,7 +47248,7 @@
       ]
     },
     {
-      "id": 295,
+      "id": 304,
       "name": "תומר צרפתי",
       "englishName": "Tomer Tzarfati",
       "team": "מכבי נתניה",
@@ -47043,7 +47627,7 @@
       ]
     },
     {
-      "id": 296,
+      "id": 305,
       "name": "עוז בילו",
       "englishName": "Oz Bilu",
       "team": "מכבי נתניה",
@@ -47466,7 +48050,7 @@
       ]
     },
     {
-      "id": 297,
+      "id": 306,
       "name": "יובל שדה",
       "englishName": "Yuval Sadeh",
       "team": "מכבי נתניה",
@@ -47853,7 +48437,7 @@
       ]
     },
     {
-      "id": 298,
+      "id": 307,
       "name": "עמרי גנדלמן",
       "englishName": "Omri Gandelman",
       "team": "מכבי נתניה",
@@ -47877,7 +48461,7 @@
       "topOpponents": []
     },
     {
-      "id": 299,
+      "id": 308,
       "name": "לירוי גבאי",
       "englishName": "Liroy Gabay",
       "team": "מכבי נתניה",
@@ -47901,7 +48485,7 @@
       "topOpponents": []
     },
     {
-      "id": 300,
+      "id": 309,
       "name": "מקסים פלקושצ`נקו",
       "englishName": "Maxim Plakushchenko",
       "team": "מכבי נתניה",
@@ -48280,7 +48864,7 @@
       ]
     },
     {
-      "id": 301,
+      "id": 310,
       "name": "עוביידה חטאב",
       "englishName": "Obeida Khattab",
       "team": "מכבי נתניה",
@@ -48304,7 +48888,7 @@
       "topOpponents": []
     },
     {
-      "id": 302,
+      "id": 311,
       "name": "נדב נידם",
       "englishName": "Nadav Aviv Niddam",
       "team": "מכבי נתניה",
@@ -48628,7 +49212,7 @@
       ]
     },
     {
-      "id": 303,
+      "id": 312,
       "name": "בסאם זערורה",
       "englishName": "Basam Zaarura",
       "team": "מכבי נתניה",
@@ -49018,7 +49602,7 @@
       ]
     },
     {
-      "id": 304,
+      "id": 313,
       "name": "דולב חזיזה",
       "englishName": "Dolev Haziza",
       "team": "מכבי נתניה",
@@ -49432,7 +50016,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 305,
+      "id": 314,
       "name": "לואי חלף",
       "englishName": "Loei Halaf",
       "team": "מכבי נתניה",
@@ -49602,7 +50186,7 @@
       ]
     },
     {
-      "id": 306,
+      "id": 315,
       "name": "עמית כהן",
       "englishName": "Amit Cohen",
       "team": "מכבי נתניה",
@@ -50036,7 +50620,7 @@
       ]
     },
     {
-      "id": 307,
+      "id": 316,
       "name": "גרגורי מורוזוב",
       "englishName": "Grigori Morozov",
       "team": "מכבי נתניה",
@@ -50470,7 +51054,7 @@
       ]
     },
     {
-      "id": 308,
+      "id": 317,
       "name": "איתי בן שבת",
       "englishName": "Itay Ben Shabat",
       "team": "מכבי נתניה",
@@ -50849,7 +51433,7 @@
       ]
     },
     {
-      "id": 309,
+      "id": 318,
       "name": "דור חוגי",
       "englishName": "Dor Hugy",
       "team": "מכבי נתניה",
@@ -51327,7 +51911,7 @@
       ]
     },
     {
-      "id": 310,
+      "id": 319,
       "name": "פורז ולקוביץ`",
       "englishName": "Poraz Wolkowiz",
       "team": "מכבי נתניה",
@@ -51351,7 +51935,7 @@
       "topOpponents": []
     },
     {
-      "id": 311,
+      "id": 320,
       "name": "ניב אנטמן",
       "englishName": "Niv Antman",
       "team": "מכבי נתניה",
@@ -51796,7 +52380,7 @@
       ]
     },
     {
-      "id": 312,
+      "id": 321,
       "name": "ראצ`יד צ`ירינו",
       "englishName": "Rashid Chirino Serrano",
       "team": "מכבי נתניה",
@@ -51820,7 +52404,7 @@
       "topOpponents": []
     },
     {
-      "id": 313,
+      "id": 322,
       "name": "רותם קלר",
       "englishName": "Rotem Keller",
       "team": "מכבי נתניה",
@@ -52199,7 +52783,7 @@
       ]
     },
     {
-      "id": 314,
+      "id": 323,
       "name": "פרדי ורגאס",
       "englishName": "Freddy Enrique Vargas Piñero",
       "team": "מכבי נתניה",
@@ -52223,7 +52807,7 @@
       "topOpponents": []
     },
     {
-      "id": 315,
+      "id": 324,
       "name": "עומר ניראון",
       "englishName": "Omer Niron",
       "team": "מכבי נתניה",
@@ -52536,7 +53120,7 @@
       ]
     },
     {
-      "id": 316,
+      "id": 325,
       "name": "סאבה חבדגיאני",
       "englishName": "",
       "team": "מכבי נתניה",
@@ -52673,7 +53257,7 @@
       ]
     },
     {
-      "id": 317,
+      "id": 326,
       "name": "איברהים טנקו",
       "englishName": "Ibrahim Tanko",
       "team": "מכבי נתניה",
@@ -52697,7 +53281,7 @@
       "topOpponents": []
     },
     {
-      "id": 318,
+      "id": 327,
       "name": "ניקיטה סטויאנוב",
       "englishName": "Nikita Stoioanov",
       "team": "מכבי נתניה",
@@ -52721,7 +53305,7 @@
       "topOpponents": []
     },
     {
-      "id": 319,
+      "id": 328,
       "name": "עדי טבצ`ניק",
       "englishName": "Adi Tabechnik",
       "team": "מכבי נתניה",
@@ -52745,7 +53329,7 @@
       "topOpponents": []
     },
     {
-      "id": 320,
+      "id": 329,
       "name": "הריברטו טבארש",
       "englishName": "Heriberto Tavares",
       "team": "מכבי נתניה",
@@ -53157,7 +53741,7 @@
       ]
     },
     {
-      "id": 321,
+      "id": 330,
       "name": "אביב קנריק",
       "englishName": "Aviv Kanarik",
       "team": "מכבי נתניה",
@@ -53181,7 +53765,7 @@
       "topOpponents": []
     },
     {
-      "id": 322,
+      "id": 331,
       "name": "מוחמד ג`טיי",
       "englishName": "Mohamed Djetei",
       "team": "מכבי נתניה",
@@ -53359,7 +53943,7 @@
       ]
     },
     {
-      "id": 323,
+      "id": 332,
       "name": "ז`אניו ביקל",
       "englishName": "",
       "team": "מכבי נתניה",
@@ -53383,7 +53967,7 @@
       "topOpponents": []
     },
     {
-      "id": 324,
+      "id": 333,
       "name": "ווילסון האריס",
       "englishName": "Wilson Harris",
       "team": "מכבי נתניה",
@@ -53685,7 +54269,7 @@
       ]
     },
     {
-      "id": 325,
+      "id": 334,
       "name": "עידו דוד",
       "englishName": "Ido David",
       "team": "מכבי נתניה",
@@ -53709,7 +54293,7 @@
       "topOpponents": []
     },
     {
-      "id": 326,
+      "id": 335,
       "name": "לי-ים דן",
       "englishName": "lee-yam Dan",
       "team": "מכבי נתניה",
@@ -53846,7 +54430,7 @@
       ]
     },
     {
-      "id": 327,
+      "id": 336,
       "name": "דניאל אטלן",
       "englishName": "Daniel Atlan",
       "team": "מכבי נתניה",
@@ -54027,7 +54611,7 @@
       ]
     },
     {
-      "id": 328,
+      "id": 337,
       "name": "ליאם כהן",
       "englishName": "Liam Cohen",
       "team": "מכבי נתניה",
@@ -54197,7 +54781,7 @@
       ]
     },
     {
-      "id": 329,
+      "id": 338,
       "name": "ישראל פחימה",
       "englishName": "",
       "team": "מכבי נתניה",
@@ -54221,7 +54805,7 @@
       "topOpponents": []
     },
     {
-      "id": 330,
+      "id": 339,
       "name": "בני פלדמן",
       "englishName": "Benny Feldman",
       "team": "מכבי נתניה",
@@ -54457,7 +55041,7 @@
       ]
     },
     {
-      "id": 331,
+      "id": 340,
       "name": "לוקאס פראיזו",
       "englishName": "Luccas Paraizo Feitosa",
       "team": "מכבי נתניה",
@@ -54712,7 +55296,7 @@
       ]
     },
     {
-      "id": 332,
+      "id": 341,
       "name": "עומרי שמיר",
       "englishName": "Omri Amer",
       "team": "מכבי נתניה",
@@ -55102,7 +55686,7 @@
       ]
     },
     {
-      "id": 333,
+      "id": 342,
       "name": "דניאל כהן",
       "englishName": "Daniel Cohen",
       "team": "מכבי נתניה",
@@ -55250,7 +55834,7 @@
       ]
     },
     {
-      "id": 334,
+      "id": 343,
       "name": "מתיאוס דאבו",
       "englishName": "Matheus Alvarenga de Oliveira",
       "team": "מכבי נתניה",
@@ -55664,7 +56248,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 335,
+      "id": 344,
       "name": "עזיז אואטרה",
       "englishName": "Aziz Outtara Mohammed",
       "team": "מכבי נתניה",
@@ -56032,7 +56616,7 @@
       ]
     },
     {
-      "id": 336,
+      "id": 345,
       "name": "ליאון מזרחי",
       "englishName": "Leon Mizrachi",
       "team": "מכבי נתניה",
@@ -56356,7 +56940,7 @@
       ]
     },
     {
-      "id": 337,
+      "id": 346,
       "name": "גונטי ג`וניור דיומנדה",
       "englishName": "",
       "team": "מכבי נתניה",
@@ -56713,7 +57297,7 @@
       ]
     },
     {
-      "id": 338,
+      "id": 347,
       "name": "בקארי קונאטה",
       "englishName": "Bakary Konaté",
       "team": "מכבי נתניה",
@@ -56894,7 +57478,7 @@
       ]
     },
     {
-      "id": 339,
+      "id": 348,
       "name": "ווילאן סיפריאן",
       "englishName": "Wylan Cyprien",
       "team": "מכבי נתניה",
@@ -57075,7 +57659,7 @@
       ]
     },
     {
-      "id": 340,
+      "id": 349,
       "name": " פדריניו",
       "englishName": "Pedro Henrique Fonseca de Araújo Martins",
       "team": "מכבי נתניה",
@@ -57212,7 +57796,7 @@
       ]
     },
     {
-      "id": 341,
+      "id": 350,
       "name": "אלכסיי טלפה",
       "englishName": "Alex Talpa",
       "team": "מכבי נתניה",
@@ -57338,7 +57922,7 @@
       ]
     },
     {
-      "id": 342,
+      "id": 351,
       "name": "טהר תאנה",
       "englishName": "Tahar Teena",
       "team": "מכבי נתניה",
@@ -57398,7 +57982,7 @@
       ]
     },
     {
-      "id": 343,
+      "id": 352,
       "name": "ירין אבוחצירא",
       "englishName": "Yarden Abuhazira",
       "team": "מכבי נתניה",
@@ -57422,7 +58006,7 @@
       "topOpponents": []
     },
     {
-      "id": 344,
+      "id": 353,
       "name": "סמואל סילבה",
       "englishName": "",
       "team": "מכבי נתניה",
@@ -57446,7 +58030,7 @@
       "topOpponents": []
     },
     {
-      "id": 345,
+      "id": 354,
       "name": "אייזיק צ`יבנגו",
       "englishName": "",
       "team": "מכבי נתניה",
@@ -57470,7 +58054,7 @@
       "topOpponents": []
     },
     {
-      "id": 346,
+      "id": 355,
       "name": "סתיו למקין",
       "englishName": "Stav Lemkin",
       "team": "מכבי תל אביב",
@@ -57494,7 +58078,7 @@
       "topOpponents": []
     },
     {
-      "id": 347,
+      "id": 356,
       "name": "הישאם לאיוס",
       "englishName": "Hisham Layous",
       "team": "מכבי תל אביב",
@@ -57518,7 +58102,7 @@
       "topOpponents": []
     },
     {
-      "id": 348,
+      "id": 357,
       "name": "שגיב יחזקאל",
       "englishName": "Sagiv Jehezkel",
       "team": "מכבי תל אביב",
@@ -57963,7 +58547,7 @@
       ]
     },
     {
-      "id": 349,
+      "id": 358,
       "name": "נועם בן הרוש",
       "englishName": "Noam Ben Harush",
       "team": "מכבי תל אביב",
@@ -58419,7 +59003,7 @@
       ]
     },
     {
-      "id": 350,
+      "id": 359,
       "name": "איתמר נוי",
       "englishName": "Itamar Noy",
       "team": "מכבי תל אביב",
@@ -58886,7 +59470,7 @@
       ]
     },
     {
-      "id": 351,
+      "id": 360,
       "name": "דור תורג`מן",
       "englishName": "Dor Turgeman",
       "team": "מכבי תל אביב",
@@ -58910,7 +59494,7 @@
       "topOpponents": []
     },
     {
-      "id": 352,
+      "id": 361,
       "name": "ערן זהבי",
       "englishName": "Eran Zahavi",
       "team": "מכבי תל אביב",
@@ -58934,7 +59518,7 @@
       "topOpponents": []
     },
     {
-      "id": 353,
+      "id": 362,
       "name": "רוי רביבו",
       "englishName": "Roy Revivo",
       "team": "מכבי תל אביב",
@@ -59357,7 +59941,7 @@
       ]
     },
     {
-      "id": 354,
+      "id": 363,
       "name": "דריק לוקאסן",
       "englishName": "Derrick Luckassen",
       "team": "מכבי תל אביב",
@@ -59381,7 +59965,7 @@
       "topOpponents": []
     },
     {
-      "id": 355,
+      "id": 364,
       "name": "איבן מאסון",
       "englishName": "Yvann Macon",
       "team": "מכבי תל אביב",
@@ -59405,7 +59989,7 @@
       "topOpponents": []
     },
     {
-      "id": 356,
+      "id": 365,
       "name": "עידן נחמיאס",
       "englishName": "Idan Nachmias",
       "team": "מכבי תל אביב",
@@ -59429,7 +60013,7 @@
       "topOpponents": []
     },
     {
-      "id": 357,
+      "id": 366,
       "name": "אנריק סאבוריט",
       "englishName": "Enric Saborit",
       "team": "מכבי תל אביב",
@@ -59453,7 +60037,7 @@
       "topOpponents": []
     },
     {
-      "id": 358,
+      "id": 367,
       "name": "שרן ייני",
       "englishName": "Sherran Yeini",
       "team": "מכבי תל אביב",
@@ -59477,7 +60061,7 @@
       "topOpponents": []
     },
     {
-      "id": 359,
+      "id": 368,
       "name": "דניאל פרץ",
       "englishName": "Daniel Peretz",
       "team": "מכבי תל אביב",
@@ -59501,7 +60085,7 @@
       "topOpponents": []
     },
     {
-      "id": 360,
+      "id": 369,
       "name": "אור יצחק",
       "englishName": "Or Yitzhak",
       "team": "מכבי תל אביב",
@@ -59525,7 +60109,7 @@
       "topOpponents": []
     },
     {
-      "id": 361,
+      "id": 370,
       "name": "רועי משפתי",
       "englishName": "Roei Mashpati",
       "team": "מכבי תל אביב",
@@ -59981,7 +60565,7 @@
       ]
     },
     {
-      "id": 362,
+      "id": 371,
       "name": "דור פרץ",
       "englishName": "Dor Peretz",
       "team": "מכבי תל אביב",
@@ -60415,7 +60999,7 @@
       ]
     },
     {
-      "id": 363,
+      "id": 372,
       "name": "יוריס ואן אובריים",
       "englishName": "Joris Overeem",
       "team": "מכבי תל אביב",
@@ -60439,7 +61023,7 @@
       "topOpponents": []
     },
     {
-      "id": 364,
+      "id": 373,
       "name": "גבי קניקובסקי",
       "englishName": "Gavriel Gilad Kanichowsky",
       "team": "מכבי תל אביב",
@@ -60463,7 +61047,7 @@
       "topOpponents": []
     },
     {
-      "id": 365,
+      "id": 374,
       "name": "דן גלזר",
       "englishName": "Dan Glazer",
       "team": "מכבי תל אביב",
@@ -60487,7 +61071,7 @@
       "topOpponents": []
     },
     {
-      "id": 366,
+      "id": 375,
       "name": "אלעד מדמון",
       "englishName": "Elad Madmon",
       "team": "מכבי תל אביב",
@@ -60954,7 +61538,7 @@
       ]
     },
     {
-      "id": 367,
+      "id": 376,
       "name": "אוראל באייה",
       "englishName": "Orel Baye",
       "team": "מכבי תל אביב",
@@ -61223,7 +61807,7 @@
       ]
     },
     {
-      "id": 368,
+      "id": 377,
       "name": "יון ניקולסקו",
       "englishName": "Ion Nicolăescu",
       "team": "מכבי תל אביב",
@@ -61426,7 +62010,7 @@
       ]
     },
     {
-      "id": 369,
+      "id": 378,
       "name": "רז שלמה",
       "englishName": "Raz Shlomo",
       "team": "מכבי תל אביב",
@@ -61838,7 +62422,7 @@
       ]
     },
     {
-      "id": 370,
+      "id": 379,
       "name": "סייד אבו פרחי",
       "englishName": "Saied Abu Farchi",
       "team": "מכבי תל אביב",
@@ -62274,7 +62858,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 371,
+      "id": 380,
       "name": "עידו שחר",
       "englishName": "Ido Shahar",
       "team": "מכבי תל אביב",
@@ -62732,7 +63316,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 372,
+      "id": 381,
       "name": "תומר אלון",
       "englishName": "Tomer Alon",
       "team": "מכבי תל אביב",
@@ -62756,7 +63340,7 @@
       "topOpponents": []
     },
     {
-      "id": 373,
+      "id": 382,
       "name": "אושר דוידה",
       "englishName": "Osher Davida",
       "team": "מכבי תל אביב",
@@ -63168,7 +63752,7 @@
       ]
     },
     {
-      "id": 374,
+      "id": 383,
       "name": "קיקו בונדוסו",
       "englishName": "Francisco Miguel Ribeiro Tomé Tavares Bondoso",
       "team": "מכבי תל אביב",
@@ -63192,7 +63776,7 @@
       "topOpponents": []
     },
     {
-      "id": 375,
+      "id": 384,
       "name": "מוחמד עלי קמארה",
       "englishName": "Mohamed Aly Camara",
       "team": "מכבי תל אביב",
@@ -63560,7 +64144,7 @@
       ]
     },
     {
-      "id": 376,
+      "id": 385,
       "name": "אורלנדו מוסקרה",
       "englishName": "Orlando Mosquera",
       "team": "מכבי תל אביב",
@@ -63584,7 +64168,7 @@
       "topOpponents": []
     },
     {
-      "id": 377,
+      "id": 386,
       "name": "יהודה בלאי",
       "englishName": "Yehuda Nisan Balay",
       "team": "מכבי תל אביב",
@@ -63608,7 +64192,7 @@
       "topOpponents": []
     },
     {
-      "id": 378,
+      "id": 387,
       "name": "אורי עזו",
       "englishName": "Ori Natan Azo",
       "team": "מכבי תל אביב",
@@ -63866,7 +64450,7 @@
       ]
     },
     {
-      "id": 379,
+      "id": 388,
       "name": "עדן קארצב",
       "englishName": "Eden Karzev",
       "team": "מכבי תל אביב",
@@ -63890,7 +64474,7 @@
       "topOpponents": []
     },
     {
-      "id": 380,
+      "id": 389,
       "name": "איתי בן חמו",
       "englishName": "Itai Ben Hamo",
       "team": "מכבי תל אביב",
@@ -64203,7 +64787,7 @@
       ]
     },
     {
-      "id": 381,
+      "id": 390,
       "name": "יונס מלדה",
       "englishName": "Yonas Malede",
       "team": "מכבי תל אביב",
@@ -64472,7 +65056,7 @@
       ]
     },
     {
-      "id": 382,
+      "id": 391,
       "name": "הנרי אדו",
       "englishName": "Henry Addo",
       "team": "מכבי תל אביב",
@@ -64496,7 +65080,7 @@
       "topOpponents": []
     },
     {
-      "id": 383,
+      "id": 392,
       "name": "אדיר קורדובה",
       "englishName": "",
       "team": "מכבי תל אביב",
@@ -64520,7 +65104,7 @@
       "topOpponents": []
     },
     {
-      "id": 384,
+      "id": 393,
       "name": "אופק מליקה",
       "englishName": "Ofek Malika",
       "team": "מכבי תל אביב",
@@ -64921,7 +65505,7 @@
       ]
     },
     {
-      "id": 385,
+      "id": 394,
       "name": "נמניה סטואיץ`",
       "englishName": "Nemanja Stojić",
       "team": "מכבי תל אביב",
@@ -64945,7 +65529,7 @@
       "topOpponents": []
     },
     {
-      "id": 386,
+      "id": 395,
       "name": "שחר רוזן",
       "englishName": "Shahar Rosen",
       "team": "מכבי תל אביב",
@@ -65368,7 +65952,7 @@
       ]
     },
     {
-      "id": 387,
+      "id": 396,
       "name": "טייריס אסנטה",
       "englishName": "Tyrese Asante",
       "team": "מכבי תל אביב",
@@ -65802,7 +66386,7 @@
       ]
     },
     {
-      "id": 388,
+      "id": 397,
       "name": "איסוף סיסוקו",
       "englishName": "Youssouf Sissokho",
       "team": "מכבי תל אביב",
@@ -66148,7 +66732,7 @@
       ]
     },
     {
-      "id": 389,
+      "id": 398,
       "name": "ווסלי פטאצ`י",
       "englishName": "Weslley Pinto Batista",
       "team": "מכבי תל אביב",
@@ -66172,7 +66756,7 @@
       "topOpponents": []
     },
     {
-      "id": 390,
+      "id": 399,
       "name": "דניאל טישלר",
       "englishName": "Daniel Tishler",
       "team": "מכבי תל אביב",
@@ -66196,7 +66780,7 @@
       "topOpponents": []
     },
     {
-      "id": 391,
+      "id": 400,
       "name": "רועי מגור",
       "englishName": "Roey Magor",
       "team": "מכבי תל אביב",
@@ -66220,7 +66804,7 @@
       "topOpponents": []
     },
     {
-      "id": 392,
+      "id": 401,
       "name": "עידן ויינברג",
       "englishName": "Idan Weinberg",
       "team": "מכבי תל אביב",
@@ -66244,7 +66828,7 @@
       "topOpponents": []
     },
     {
-      "id": 393,
+      "id": 402,
       "name": "סימון סלוגה",
       "englishName": "Simon Sluga",
       "team": "מכבי תל אביב",
@@ -66268,7 +66852,7 @@
       "topOpponents": []
     },
     {
-      "id": 394,
+      "id": 403,
       "name": "שליו סעדיה",
       "englishName": "Shalev Saadia",
       "team": "מכבי תל אביב",
@@ -66292,7 +66876,7 @@
       "topOpponents": []
     },
     {
-      "id": 395,
+      "id": 404,
       "name": "עידן טראו",
       "englishName": "Idan Trau",
       "team": "מכבי תל אביב",
@@ -66316,7 +66900,7 @@
       "topOpponents": []
     },
     {
-      "id": 396,
+      "id": 405,
       "name": "בן לדרמן",
       "englishName": "Ben Lederman",
       "team": "מכבי תל אביב",
@@ -66739,7 +67323,7 @@
       ]
     },
     {
-      "id": 397,
+      "id": 406,
       "name": "דני גרופר",
       "englishName": "Danny Gruper",
       "team": "מכבי תל אביב",
@@ -66920,7 +67504,7 @@
       ]
     },
     {
-      "id": 398,
+      "id": 407,
       "name": " הייטור",
       "englishName": "",
       "team": "מכבי תל אביב",
@@ -67321,7 +67905,7 @@
       ]
     },
     {
-      "id": 399,
+      "id": 408,
       "name": "עידן טראו",
       "englishName": "Idan Trau",
       "team": "מכבי תל אביב",
@@ -67345,7 +67929,7 @@
       "topOpponents": []
     },
     {
-      "id": 400,
+      "id": 409,
       "name": "שלו סעדיה",
       "englishName": "Shalev Saadia",
       "team": "מכבי תל אביב",
@@ -67369,7 +67953,7 @@
       "topOpponents": []
     },
     {
-      "id": 401,
+      "id": 410,
       "name": "כריסטיאן בליץ`",
       "englishName": "Kristijan Belic",
       "team": "מכבי תל אביב",
@@ -67638,7 +68222,7 @@
       ]
     },
     {
-      "id": 402,
+      "id": 411,
       "name": "קרווין אנדרדה",
       "englishName": "Kervin Andrade",
       "team": "מכבי תל אביב",
@@ -68061,7 +68645,7 @@
       ]
     },
     {
-      "id": 403,
+      "id": 412,
       "name": "חליו וארלה",
       "englishName": "Hélio Sandro Oliveira Alves Varela",
       "team": "מכבי תל אביב",
@@ -68484,7 +69068,7 @@
       ]
     },
     {
-      "id": 404,
+      "id": 413,
       "name": "עילאי בן סימון",
       "englishName": "Elai Ben Simon",
       "team": "מכבי תל אביב",
@@ -68643,7 +69227,7 @@
       ]
     },
     {
-      "id": 405,
+      "id": 414,
       "name": "איתי זפרני",
       "englishName": "",
       "team": "מכבי תל אביב",
@@ -68667,7 +69251,7 @@
       "topOpponents": []
     },
     {
-      "id": 406,
+      "id": 415,
       "name": "לוטם אסרס",
       "englishName": "",
       "team": "מכבי תל אביב",
@@ -68782,7 +69366,7 @@
       ]
     },
     {
-      "id": 407,
+      "id": 416,
       "name": "אמיר סהיטי",
       "englishName": "Emir Sahiti",
       "team": "מכבי תל אביב",
@@ -69029,7 +69613,7 @@
       ]
     },
     {
-      "id": 408,
+      "id": 417,
       "name": "נועם שוורץ",
       "englishName": "",
       "team": "מכבי תל אביב",
@@ -69053,7 +69637,7 @@
       "topOpponents": []
     },
     {
-      "id": 409,
+      "id": 418,
       "name": "שביט מזל",
       "englishName": "Shavit Mazal",
       "team": "הפועל פתח תקווה",
@@ -69531,7 +70115,7 @@
       ]
     },
     {
-      "id": 410,
+      "id": 419,
       "name": "הראל שלום",
       "englishName": "Harel Shalom",
       "team": "הפועל פתח תקווה",
@@ -69943,7 +70527,7 @@
       ]
     },
     {
-      "id": 411,
+      "id": 420,
       "name": "גיא בדש",
       "englishName": "Guy Badash",
       "team": "הפועל פתח תקווה",
@@ -70366,7 +70950,7 @@
       ]
     },
     {
-      "id": 412,
+      "id": 421,
       "name": "שובל גוזלן",
       "englishName": "Shoval Gozlan",
       "team": "הפועל פתח תקווה",
@@ -70390,7 +70974,7 @@
       "topOpponents": []
     },
     {
-      "id": 413,
+      "id": 422,
       "name": "יונתן כהן",
       "englishName": "Yonatan Cohen",
       "team": "הפועל פתח תקווה",
@@ -70738,7 +71322,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 414,
+      "id": 423,
       "name": "רז שטיין",
       "englishName": "Raz Stain",
       "team": "הפועל פתח תקווה",
@@ -70762,7 +71346,7 @@
       "topOpponents": []
     },
     {
-      "id": 415,
+      "id": 424,
       "name": "רן ואתורי",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -70786,7 +71370,7 @@
       "topOpponents": []
     },
     {
-      "id": 416,
+      "id": 425,
       "name": "איתי שכטר",
       "englishName": "Itay Shechter",
       "team": "הפועל פתח תקווה",
@@ -70810,7 +71394,7 @@
       "topOpponents": []
     },
     {
-      "id": 417,
+      "id": 426,
       "name": "אופק אושר",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -70834,7 +71418,7 @@
       "topOpponents": []
     },
     {
-      "id": 418,
+      "id": 427,
       "name": "יער זמבורסקי",
       "englishName": "Yaar Zambrovsky",
       "team": "הפועל פתח תקווה",
@@ -70858,7 +71442,7 @@
       "topOpponents": []
     },
     {
-      "id": 419,
+      "id": 428,
       "name": "דניאל פלשר",
       "englishName": "Daniel Flesher",
       "team": "הפועל פתח תקווה",
@@ -70882,7 +71466,7 @@
       "topOpponents": []
     },
     {
-      "id": 420,
+      "id": 429,
       "name": "ניב ברקוביץ`",
       "englishName": "Niv Berkovitz",
       "team": "הפועל פתח תקווה",
@@ -70906,7 +71490,7 @@
       "topOpponents": []
     },
     {
-      "id": 421,
+      "id": 430,
       "name": "בר נוהי",
       "englishName": "Bar Nohi",
       "team": "הפועל פתח תקווה",
@@ -70930,7 +71514,7 @@
       "topOpponents": []
     },
     {
-      "id": 422,
+      "id": 431,
       "name": "רן חשפיה",
       "englishName": "Ran Haspia",
       "team": "הפועל פתח תקווה",
@@ -70954,7 +71538,7 @@
       "topOpponents": []
     },
     {
-      "id": 423,
+      "id": 432,
       "name": "מתן פלג",
       "englishName": "Matan Peleg",
       "team": "הפועל פתח תקווה",
@@ -70978,7 +71562,7 @@
       "topOpponents": []
     },
     {
-      "id": 424,
+      "id": 433,
       "name": "מתן גושה",
       "englishName": "Matan Gosha",
       "team": "הפועל פתח תקווה",
@@ -71379,7 +71963,7 @@
       ]
     },
     {
-      "id": 425,
+      "id": 434,
       "name": "רם לוי",
       "englishName": "Ram Levi",
       "team": "הפועל פתח תקווה",
@@ -71403,7 +71987,7 @@
       "topOpponents": []
     },
     {
-      "id": 426,
+      "id": 435,
       "name": "עומר כץ",
       "englishName": "Omer Katz",
       "team": "הפועל פתח תקווה",
@@ -71859,7 +72443,7 @@
       ]
     },
     {
-      "id": 427,
+      "id": 436,
       "name": "ג`ימי אלכסיס",
       "englishName": "Djimy Bend Alexis",
       "team": "הפועל פתח תקווה",
@@ -71883,7 +72467,7 @@
       "topOpponents": []
     },
     {
-      "id": 428,
+      "id": 437,
       "name": "עידו דוידוב",
       "englishName": "Ido Davidov",
       "team": "הפועל פתח תקווה",
@@ -71907,7 +72491,7 @@
       "topOpponents": []
     },
     {
-      "id": 429,
+      "id": 438,
       "name": "דרור ניר",
       "englishName": "Dror Nir",
       "team": "הפועל פתח תקווה",
@@ -72275,7 +72859,7 @@
       ]
     },
     {
-      "id": 430,
+      "id": 439,
       "name": "ריצ`ארד בואטנג",
       "englishName": "Richard Boateng",
       "team": "הפועל פתח תקווה",
@@ -72299,7 +72883,7 @@
       "topOpponents": []
     },
     {
-      "id": 431,
+      "id": 440,
       "name": "אבי ריקן",
       "englishName": "Avi Rikan",
       "team": "הפועל פתח תקווה",
@@ -72323,7 +72907,7 @@
       "topOpponents": []
     },
     {
-      "id": 432,
+      "id": 441,
       "name": "תומר אלטמן",
       "englishName": "Tomer Altman",
       "team": "הפועל פתח תקווה",
@@ -72724,7 +73308,7 @@
       ]
     },
     {
-      "id": 433,
+      "id": 442,
       "name": "מארק קוסטה",
       "englishName": "Márk Koszta",
       "team": "הפועל פתח תקווה",
@@ -73147,7 +73731,7 @@
       ]
     },
     {
-      "id": 434,
+      "id": 443,
       "name": "אבישי כהן",
       "englishName": "Avishay Cohen",
       "team": "הפועל פתח תקווה",
@@ -73372,7 +73956,7 @@
       ]
     },
     {
-      "id": 435,
+      "id": 444,
       "name": "אוראל דגני",
       "englishName": "Orel Dgani",
       "team": "הפועל פתח תקווה",
@@ -73806,7 +74390,7 @@
       ]
     },
     {
-      "id": 436,
+      "id": 445,
       "name": "יזן נסאר",
       "englishName": "Yazen Nassar",
       "team": "הפועל פתח תקווה",
@@ -74163,7 +74747,7 @@
       ]
     },
     {
-      "id": 437,
+      "id": 446,
       "name": "רועי זכרי",
       "englishName": "Roi Zickry",
       "team": "הפועל פתח תקווה",
@@ -74187,7 +74771,7 @@
       "topOpponents": []
     },
     {
-      "id": 438,
+      "id": 447,
       "name": "עדי אפרים",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -74211,7 +74795,7 @@
       "topOpponents": []
     },
     {
-      "id": 439,
+      "id": 448,
       "name": "ז`אן קיניונס",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -74235,7 +74819,7 @@
       "topOpponents": []
     },
     {
-      "id": 440,
+      "id": 449,
       "name": "אנדרה טישיירה",
       "englishName": "Andre  Teixeira",
       "team": "הפועל פתח תקווה",
@@ -74259,7 +74843,7 @@
       "topOpponents": []
     },
     {
-      "id": 441,
+      "id": 450,
       "name": "עדי חייקין",
       "englishName": "Adi Haikin",
       "team": "הפועל פתח תקווה",
@@ -74283,7 +74867,7 @@
       "topOpponents": []
     },
     {
-      "id": 442,
+      "id": 451,
       "name": "סמואל בראון",
       "englishName": "Samuel Broun",
       "team": "הפועל פתח תקווה",
@@ -74307,7 +74891,7 @@
       "topOpponents": []
     },
     {
-      "id": 443,
+      "id": 452,
       "name": "רוי ששון",
       "englishName": "Roy Sason",
       "team": "הפועל פתח תקווה",
@@ -74331,7 +74915,7 @@
       "topOpponents": []
     },
     {
-      "id": 444,
+      "id": 453,
       "name": "פורצ`ן באסיי",
       "englishName": "Fortune Akpan Bassey",
       "team": "הפועל פתח תקווה",
@@ -74355,7 +74939,7 @@
       "topOpponents": []
     },
     {
-      "id": 445,
+      "id": 454,
       "name": "בר נאווי",
       "englishName": "Bar Nohi",
       "team": "הפועל פתח תקווה",
@@ -74379,7 +74963,7 @@
       "topOpponents": []
     },
     {
-      "id": 446,
+      "id": 455,
       "name": "ירין חנום",
       "englishName": "Yarin Hanoum",
       "team": "הפועל פתח תקווה",
@@ -74403,7 +74987,7 @@
       "topOpponents": []
     },
     {
-      "id": 447,
+      "id": 456,
       "name": "רן שבתאי",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -74427,7 +75011,7 @@
       "topOpponents": []
     },
     {
-      "id": 448,
+      "id": 457,
       "name": "טיזיאנו צ`קנה",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -74451,7 +75035,7 @@
       "topOpponents": []
     },
     {
-      "id": 449,
+      "id": 458,
       "name": "רוי בן נביא",
       "englishName": "Roy Ben Navi",
       "team": "הפועל פתח תקווה",
@@ -74643,7 +75227,7 @@
       ]
     },
     {
-      "id": 450,
+      "id": 459,
       "name": "מקסים בבקו",
       "englishName": "Maxim Babko",
       "team": "הפועל פתח תקווה",
@@ -74667,7 +75251,7 @@
       "topOpponents": []
     },
     {
-      "id": 451,
+      "id": 460,
       "name": "רז זרבאילוב",
       "englishName": "Raz Zarbailov",
       "team": "הפועל פתח תקווה",
@@ -74691,7 +75275,7 @@
       "topOpponents": []
     },
     {
-      "id": 452,
+      "id": 461,
       "name": "שגיא הראל",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -74715,7 +75299,7 @@
       "topOpponents": []
     },
     {
-      "id": 453,
+      "id": 462,
       "name": "גולן בני",
       "englishName": "Benny Golan",
       "team": "הפועל פתח תקווה",
@@ -75017,7 +75601,7 @@
       ]
     },
     {
-      "id": 454,
+      "id": 463,
       "name": "עמית משיח",
       "englishName": "Amit Mashiah",
       "team": "הפועל פתח תקווה",
@@ -75286,7 +75870,7 @@
       ]
     },
     {
-      "id": 455,
+      "id": 464,
       "name": "עבדול קוליבאלי",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -75310,7 +75894,7 @@
       "topOpponents": []
     },
     {
-      "id": 456,
+      "id": 465,
       "name": "ניקולאוס ג`יאנקופולוס",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -75334,7 +75918,7 @@
       "topOpponents": []
     },
     {
-      "id": 457,
+      "id": 466,
       "name": "ניקו אנטוניץ`",
       "englishName": "Nico Antonitsch",
       "team": "הפועל פתח תקווה",
@@ -75358,7 +75942,7 @@
       "topOpponents": []
     },
     {
-      "id": 458,
+      "id": 467,
       "name": "דניס אדנירן",
       "englishName": "Dennis Adeniran",
       "team": "הפועל פתח תקווה",
@@ -75382,7 +75966,7 @@
       "topOpponents": []
     },
     {
-      "id": 459,
+      "id": 468,
       "name": "גילברט קומסון",
       "englishName": "Gilbert Koomson",
       "team": "הפועל פתח תקווה",
@@ -75406,7 +75990,7 @@
       "topOpponents": []
     },
     {
-      "id": 460,
+      "id": 469,
       "name": "כרים קימוואידי",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -75749,7 +76333,7 @@
       ]
     },
     {
-      "id": 461,
+      "id": 470,
       "name": "אריאל כהן",
       "englishName": "Daniel Cohen",
       "team": "הפועל פתח תקווה",
@@ -76081,7 +76665,7 @@
       ]
     },
     {
-      "id": 462,
+      "id": 471,
       "name": " קליי",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -76559,7 +77143,7 @@
       ]
     },
     {
-      "id": 463,
+      "id": 472,
       "name": "עידן כהן",
       "englishName": "Idan Cohen",
       "team": "הפועל פתח תקווה",
@@ -76982,7 +77566,7 @@
       ]
     },
     {
-      "id": 464,
+      "id": 473,
       "name": "שחר אמסלם",
       "englishName": "Shahar  Amsalem",
       "team": "הפועל פתח תקווה",
@@ -77284,7 +77868,7 @@
       ]
     },
     {
-      "id": 465,
+      "id": 474,
       "name": "רועי דוד",
       "englishName": "Roei David",
       "team": "הפועל פתח תקווה",
@@ -77718,7 +78302,7 @@
       ]
     },
     {
-      "id": 466,
+      "id": 475,
       "name": "עידו טסה",
       "englishName": "Ido Tassa",
       "team": "הפועל פתח תקווה",
@@ -77855,7 +78439,7 @@
       ]
     },
     {
-      "id": 467,
+      "id": 476,
       "name": "יהודה בלאי",
       "englishName": "Yehuda Nisan Balay",
       "team": "הפועל פתח תקווה",
@@ -77879,7 +78463,7 @@
       "topOpponents": []
     },
     {
-      "id": 468,
+      "id": 477,
       "name": "בוני אמיאן",
       "englishName": "Boni Gontran Benoit Junior Amian",
       "team": "הפועל פתח תקווה",
@@ -78291,7 +78875,7 @@
       ]
     },
     {
-      "id": 469,
+      "id": 478,
       "name": "ג`וסלין טאבי",
       "englishName": "Joselin Tabi",
       "team": "הפועל פתח תקווה",
@@ -78491,7 +79075,7 @@
       ]
     },
     {
-      "id": 470,
+      "id": 479,
       "name": "נועם גיסין",
       "englishName": "Noam Gissin",
       "team": "הפועל פתח תקווה",
@@ -78727,7 +79311,7 @@
       ]
     },
     {
-      "id": 471,
+      "id": 480,
       "name": "צ`אפיוקה סונגה",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -79062,7 +79646,7 @@
       ]
     },
     {
-      "id": 472,
+      "id": 481,
       "name": "נועם כהן (קשר)",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -79262,7 +79846,7 @@
       ]
     },
     {
-      "id": 473,
+      "id": 482,
       "name": "עמרי כהן",
       "englishName": "Omer Cohen",
       "team": "הפועל פתח תקווה",
@@ -79434,7 +80018,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 474,
+      "id": 483,
       "name": "ממאדי דיארה",
       "englishName": "Mamady Diarra",
       "team": "הפועל פתח תקווה",
@@ -79692,7 +80276,7 @@
       ]
     },
     {
-      "id": 475,
+      "id": 484,
       "name": "אלכס מוסונדה",
       "englishName": "Alex Yowan Kévin Moucketou-Moussounda",
       "team": "הפועל פתח תקווה",
@@ -79917,7 +80501,7 @@
       ]
     },
     {
-      "id": 476,
+      "id": 485,
       "name": "זוהר גרינברג",
       "englishName": "Zohar Grinberg",
       "team": "הפועל פתח תקווה",
@@ -79941,7 +80525,7 @@
       "topOpponents": []
     },
     {
-      "id": 477,
+      "id": 486,
       "name": "אביעד חקיקי",
       "englishName": "Aviad Hakiki",
       "team": "הפועל פתח תקווה",
@@ -79965,7 +80549,7 @@
       "topOpponents": []
     },
     {
-      "id": 478,
+      "id": 487,
       "name": "פרנק ריבולייה",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -79989,7 +80573,7 @@
       "topOpponents": []
     },
     {
-      "id": 479,
+      "id": 488,
       "name": "נחמן יעקב ויטה אסל",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -80013,7 +80597,7 @@
       "topOpponents": []
     },
     {
-      "id": 480,
+      "id": 489,
       "name": "אוקלידס אנדרדה",
       "englishName": "",
       "team": "הפועל פתח תקווה",
@@ -80037,7 +80621,7 @@
       "topOpponents": []
     },
     {
-      "id": 481,
+      "id": 490,
       "name": "סתיו ישראלי",
       "englishName": "Stav Israeli",
       "team": "הפועל פתח תקווה",
@@ -80061,7 +80645,7 @@
       "topOpponents": []
     },
     {
-      "id": 482,
+      "id": 491,
       "name": "רועי גורדנה",
       "englishName": "Roy Gordana",
       "team": "מ.ס. אשדוד",
@@ -80418,7 +81002,7 @@
       ]
     },
     {
-      "id": 483,
+      "id": 492,
       "name": "רז כרמי",
       "englishName": "Raz Carmi",
       "team": "מ.ס. אשדוד",
@@ -80863,7 +81447,7 @@
       ]
     },
     {
-      "id": 484,
+      "id": 493,
       "name": "אילון אלמוג",
       "englishName": "Eylon Almog",
       "team": "מ.ס. אשדוד",
@@ -81233,7 +81817,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 485,
+      "id": 494,
       "name": "ניר ביטון",
       "englishName": "Nir Biton",
       "team": "מ.ס. אשדוד",
@@ -81422,7 +82006,7 @@
       ]
     },
     {
-      "id": 486,
+      "id": 495,
       "name": "אבנעזר ממאטה",
       "englishName": "Ebenezer Mamatah",
       "team": "מ.ס. אשדוד",
@@ -81446,7 +82030,7 @@
       "topOpponents": []
     },
     {
-      "id": 487,
+      "id": 496,
       "name": "אדיר לוי",
       "englishName": "Adir Levi",
       "team": "מ.ס. אשדוד",
@@ -81594,7 +82178,7 @@
       ]
     },
     {
-      "id": 488,
+      "id": 497,
       "name": "קלארק רוברטסון",
       "englishName": "Clark Robertson",
       "team": "מ.ס. אשדוד",
@@ -81618,7 +82202,7 @@
       "topOpponents": []
     },
     {
-      "id": 489,
+      "id": 498,
       "name": "שקד חכמון",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -81642,7 +82226,7 @@
       "topOpponents": []
     },
     {
-      "id": 490,
+      "id": 499,
       "name": "טימותי אוואני",
       "englishName": "Dennis Awany",
       "team": "מ.ס. אשדוד",
@@ -82010,7 +82594,7 @@
       ]
     },
     {
-      "id": 491,
+      "id": 500,
       "name": "טום בן זקן",
       "englishName": "Tom Ben-Zaken",
       "team": "מ.ס. אשדוד",
@@ -82169,7 +82753,7 @@
       ]
     },
     {
-      "id": 492,
+      "id": 501,
       "name": "מונטרי קמאהני",
       "englishName": "Montari Kamaheni",
       "team": "מ.ס. אשדוד",
@@ -82193,7 +82777,7 @@
       "topOpponents": []
     },
     {
-      "id": 493,
+      "id": 502,
       "name": "יואב אריכא",
       "englishName": "Yoav Arica",
       "team": "מ.ס. אשדוד",
@@ -82217,7 +82801,7 @@
       "topOpponents": []
     },
     {
-      "id": 494,
+      "id": 503,
       "name": "סהר חסון",
       "englishName": "Sahar Hasson",
       "team": "מ.ס. אשדוד",
@@ -82241,7 +82825,7 @@
       "topOpponents": []
     },
     {
-      "id": 495,
+      "id": 504,
       "name": "אריאל הרוש",
       "englishName": "Ariel Harush",
       "team": "מ.ס. אשדוד",
@@ -82265,7 +82849,7 @@
       "topOpponents": []
     },
     {
-      "id": 496,
+      "id": 505,
       "name": "אלטון אקולטסה",
       "englishName": "Elton Acolatse",
       "team": "מ.ס. אשדוד",
@@ -82289,7 +82873,7 @@
       "topOpponents": []
     },
     {
-      "id": 497,
+      "id": 506,
       "name": "ג`ורדן סבן",
       "englishName": "Jordan Sebban",
       "team": "מ.ס. אשדוד",
@@ -82313,7 +82897,7 @@
       "topOpponents": []
     },
     {
-      "id": 498,
+      "id": 507,
       "name": "איזק פאפו",
       "englishName": "Isaac Pappoe",
       "team": "מ.ס. אשדוד",
@@ -82337,7 +82921,7 @@
       "topOpponents": []
     },
     {
-      "id": 499,
+      "id": 508,
       "name": "יצחק אספה",
       "englishName": "Manamto Asefa",
       "team": "מ.ס. אשדוד",
@@ -82361,7 +82945,7 @@
       "topOpponents": []
     },
     {
-      "id": 500,
+      "id": 509,
       "name": "מרטין אנדזי אטמנגה",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -82385,7 +82969,7 @@
       "topOpponents": []
     },
     {
-      "id": 501,
+      "id": 510,
       "name": "ניר חסון",
       "englishName": "Nir Hasson",
       "team": "מ.ס. אשדוד",
@@ -82409,7 +82993,7 @@
       "topOpponents": []
     },
     {
-      "id": 502,
+      "id": 511,
       "name": "שלו הרוש",
       "englishName": "Shalev Harush",
       "team": "מ.ס. אשדוד",
@@ -82821,7 +83405,7 @@
       ]
     },
     {
-      "id": 503,
+      "id": 512,
       "name": "לוקאס סלינאס",
       "englishName": " Lucas",
       "team": "מ.ס. אשדוד",
@@ -82845,7 +83429,7 @@
       "topOpponents": []
     },
     {
-      "id": 504,
+      "id": 513,
       "name": "זקאריה מוגיס",
       "englishName": "Zakaria Mugeese",
       "team": "מ.ס. אשדוד",
@@ -82869,7 +83453,7 @@
       "topOpponents": []
     },
     {
-      "id": 505,
+      "id": 514,
       "name": "יעקב בריהון",
       "englishName": "Jacob Barihon",
       "team": "מ.ס. אשדוד",
@@ -82893,7 +83477,7 @@
       "topOpponents": []
     },
     {
-      "id": 506,
+      "id": 515,
       "name": "ליאב פרדה",
       "englishName": "Liav Preda",
       "team": "מ.ס. אשדוד",
@@ -83030,7 +83614,7 @@
       ]
     },
     {
-      "id": 507,
+      "id": 516,
       "name": "עילאי חג`ג`",
       "englishName": "Ilay Hajaj",
       "team": "מ.ס. אשדוד",
@@ -83310,7 +83894,7 @@
       ]
     },
     {
-      "id": 508,
+      "id": 517,
       "name": "שלומי אזולאי (חלוץ)",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -83334,7 +83918,7 @@
       "topOpponents": []
     },
     {
-      "id": 509,
+      "id": 518,
       "name": "אופיר קריאף",
       "englishName": "Ofir Kriaf",
       "team": "מ.ס. אשדוד",
@@ -83358,7 +83942,7 @@
       "topOpponents": []
     },
     {
-      "id": 510,
+      "id": 519,
       "name": "נהוראי דבוש",
       "englishName": "Nehorai Dabush",
       "team": "מ.ס. אשדוד",
@@ -83759,7 +84343,7 @@
       ]
     },
     {
-      "id": 511,
+      "id": 520,
       "name": "איליי טמם",
       "englishName": "Ilay Tamam",
       "team": "מ.ס. אשדוד",
@@ -84138,7 +84722,7 @@
       ]
     },
     {
-      "id": 512,
+      "id": 521,
       "name": "אליה גטהון",
       "englishName": "Elia Gethon",
       "team": "מ.ס. אשדוד",
@@ -84418,7 +85002,7 @@
       ]
     },
     {
-      "id": 513,
+      "id": 522,
       "name": "רז זגורי",
       "englishName": "Raz Zaguri",
       "team": "מ.ס. אשדוד",
@@ -84442,7 +85026,7 @@
       "topOpponents": []
     },
     {
-      "id": 514,
+      "id": 523,
       "name": "רז מאיר",
       "englishName": "Raz Meir",
       "team": "מ.ס. אשדוד",
@@ -84689,7 +85273,7 @@
       ]
     },
     {
-      "id": 515,
+      "id": 524,
       "name": "עמרי בן הרוש",
       "englishName": "Omri Ben Harush",
       "team": "מ.ס. אשדוד",
@@ -84713,7 +85297,7 @@
       "topOpponents": []
     },
     {
-      "id": 516,
+      "id": 525,
       "name": "אופק גלר",
       "englishName": "Ofek Geler",
       "team": "מ.ס. אשדוד",
@@ -84737,7 +85321,7 @@
       "topOpponents": []
     },
     {
-      "id": 517,
+      "id": 526,
       "name": "עומר יפרח",
       "englishName": "Omer Ifrah",
       "team": "מ.ס. אשדוד",
@@ -84761,7 +85345,7 @@
       "topOpponents": []
     },
     {
-      "id": 518,
+      "id": 527,
       "name": "מתן בית יעקב",
       "englishName": "Matan Beit-Ya'akov",
       "team": "מ.ס. אשדוד",
@@ -84785,7 +85369,7 @@
       "topOpponents": []
     },
     {
-      "id": 519,
+      "id": 528,
       "name": "לואי דה לוקאס",
       "englishName": "Luiyi Ramón de Lucas Pérez",
       "team": "מ.ס. אשדוד",
@@ -84809,7 +85393,7 @@
       "topOpponents": []
     },
     {
-      "id": 520,
+      "id": 529,
       "name": "עמנואל אג`יי",
       "englishName": "Emmanuel Agyei",
       "team": "מ.ס. אשדוד",
@@ -84979,7 +85563,7 @@
       ]
     },
     {
-      "id": 521,
+      "id": 530,
       "name": "בן לוי",
       "englishName": "Ben Levy",
       "team": "מ.ס. אשדוד",
@@ -85003,7 +85587,7 @@
       "topOpponents": []
     },
     {
-      "id": 522,
+      "id": 531,
       "name": "מאור ישילירמק",
       "englishName": "Maor Yashilirmak",
       "team": "מ.ס. אשדוד",
@@ -85404,7 +85988,7 @@
       ]
     },
     {
-      "id": 523,
+      "id": 532,
       "name": "קמהני מונטרי",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -85428,7 +86012,7 @@
       "topOpponents": []
     },
     {
-      "id": 524,
+      "id": 533,
       "name": "תום כרמלי",
       "englishName": "Tom Carmeli",
       "team": "מ.ס. אשדוד",
@@ -85452,7 +86036,7 @@
       "topOpponents": []
     },
     {
-      "id": 525,
+      "id": 534,
       "name": "אורי נהוראי מלכה",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -85476,7 +86060,7 @@
       "topOpponents": []
     },
     {
-      "id": 526,
+      "id": 535,
       "name": "קארול נימצ`סקי",
       "englishName": "Karol Niemczycki",
       "team": "מ.ס. אשדוד",
@@ -85910,7 +86494,7 @@
       ]
     },
     {
-      "id": 527,
+      "id": 536,
       "name": "לני נאנגיס",
       "englishName": "Lenny Nangis",
       "team": "מ.ס. אשדוד",
@@ -86099,7 +86683,7 @@
       ]
     },
     {
-      "id": 528,
+      "id": 537,
       "name": "ישראל קול",
       "englishName": "Israel Coll",
       "team": "מ.ס. אשדוד",
@@ -86222,7 +86806,7 @@
       ]
     },
     {
-      "id": 529,
+      "id": 538,
       "name": "ז`אן באטום",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -86510,7 +87094,7 @@
       ]
     },
     {
-      "id": 530,
+      "id": 539,
       "name": "איברהים דיאקיטה",
       "englishName": "Ibrahim Diakite",
       "team": "מ.ס. אשדוד",
@@ -86933,7 +87517,7 @@
       ]
     },
     {
-      "id": 531,
+      "id": 540,
       "name": "רועי לוי (שוער)",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -86957,7 +87541,7 @@
       "topOpponents": []
     },
     {
-      "id": 532,
+      "id": 541,
       "name": "מוחמד עאמר",
       "englishName": "Mohammed Kamara",
       "team": "מ.ס. אשדוד",
@@ -87325,7 +87909,7 @@
       ]
     },
     {
-      "id": 533,
+      "id": 542,
       "name": "בן הדדי",
       "englishName": "Ben Hadadi",
       "team": "מ.ס. אשדוד",
@@ -87583,7 +88167,7 @@
       ]
     },
     {
-      "id": 534,
+      "id": 543,
       "name": "אור דסה",
       "englishName": "Or Dasa",
       "team": "מ.ס. אשדוד",
@@ -87830,7 +88414,7 @@
       ]
     },
     {
-      "id": 535,
+      "id": 544,
       "name": "אמיתי ימין",
       "englishName": "Amitay Yamin",
       "team": "מ.ס. אשדוד",
@@ -88030,7 +88614,7 @@
       ]
     },
     {
-      "id": 536,
+      "id": 545,
       "name": "אסף ארניה",
       "englishName": "Asaf Avraham Arania",
       "team": "מ.ס. אשדוד",
@@ -88211,7 +88795,7 @@
       ]
     },
     {
-      "id": 537,
+      "id": 546,
       "name": "אברהם טל",
       "englishName": "",
       "team": "מ.ס. אשדוד",
@@ -88510,7 +89094,7 @@
       ]
     },
     {
-      "id": 538,
+      "id": 547,
       "name": "עמית דנציגר",
       "englishName": "Amit Danziger",
       "team": "מ.ס. אשדוד",
@@ -88669,7 +89253,7 @@
       ]
     },
     {
-      "id": 539,
+      "id": 548,
       "name": "מיסרה אבו בלאל",
       "englishName": "Misra Abu Bilal",
       "team": "מ.ס. אשדוד",
@@ -88693,7 +89277,7 @@
       "topOpponents": []
     },
     {
-      "id": 540,
+      "id": 549,
       "name": "הייפורד בוהאן",
       "englishName": "Hayford Adu Boahen",
       "team": "מ.ס. אשדוד",
@@ -88874,7 +89458,7 @@
       ]
     },
     {
-      "id": 541,
+      "id": 550,
       "name": "ויקטור אוצ`אי",
       "englishName": "Victor Ayi Ochayi",
       "team": "מ.ס. אשדוד",
@@ -89077,7 +89661,7 @@
       ]
     },
     {
-      "id": 542,
+      "id": 551,
       "name": "איליי מדמון",
       "englishName": "Ilay Madmon",
       "team": "הפועל ירושלים",
@@ -89359,7 +89943,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 543,
+      "id": 552,
       "name": "ינון אליהו",
       "englishName": "Inon Eliyahu",
       "team": "הפועל ירושלים",
@@ -89584,7 +90168,7 @@
       ]
     },
     {
-      "id": 544,
+      "id": 553,
       "name": "מתן חוזז",
       "englishName": "Matan Hozez",
       "team": "הפועל ירושלים",
@@ -89930,7 +90514,7 @@
       ]
     },
     {
-      "id": 545,
+      "id": 554,
       "name": "כארם זועבי",
       "englishName": "Karem Zoabi",
       "team": "הפועל ירושלים",
@@ -89954,7 +90538,7 @@
       "topOpponents": []
     },
     {
-      "id": 546,
+      "id": 555,
       "name": "גולן בני",
       "englishName": "Benny Golan",
       "team": "הפועל ירושלים",
@@ -89978,7 +90562,7 @@
       "topOpponents": []
     },
     {
-      "id": 547,
+      "id": 556,
       "name": "אמיר אריאלי",
       "englishName": "Amir Ariely",
       "team": "הפועל ירושלים",
@@ -90002,7 +90586,7 @@
       "topOpponents": []
     },
     {
-      "id": 548,
+      "id": 557,
       "name": "רז יחזקאל",
       "englishName": "Raz Yehezkel",
       "team": "הפועל ירושלים",
@@ -90026,7 +90610,7 @@
       "topOpponents": []
     },
     {
-      "id": 549,
+      "id": 558,
       "name": "בני טרידובסקי",
       "englishName": "Benyamin Tridovski",
       "team": "הפועל ירושלים",
@@ -90050,7 +90634,7 @@
       "topOpponents": []
     },
     {
-      "id": 550,
+      "id": 559,
       "name": "פלג חמני",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -90074,7 +90658,7 @@
       "topOpponents": []
     },
     {
-      "id": 551,
+      "id": 560,
       "name": "עומר אגבדיש",
       "englishName": "Omer Agbadish",
       "team": "הפועל ירושלים",
@@ -90431,7 +91015,7 @@
       ]
     },
     {
-      "id": 552,
+      "id": 561,
       "name": "סהר בראון",
       "englishName": "Sahar Braun",
       "team": "הפועל ירושלים",
@@ -90455,7 +91039,7 @@
       "topOpponents": []
     },
     {
-      "id": 553,
+      "id": 562,
       "name": "מאור ג`רסי",
       "englishName": "Maor Geassi",
       "team": "הפועל ירושלים",
@@ -90479,7 +91063,7 @@
       "topOpponents": []
     },
     {
-      "id": 554,
+      "id": 563,
       "name": "בר שושן",
       "englishName": "Bar Shushan",
       "team": "הפועל ירושלים",
@@ -90503,7 +91087,7 @@
       "topOpponents": []
     },
     {
-      "id": 555,
+      "id": 564,
       "name": "נועם מלמוד",
       "englishName": "Noam Malmud",
       "team": "הפועל ירושלים",
@@ -90915,7 +91499,7 @@
       ]
     },
     {
-      "id": 556,
+      "id": 565,
       "name": "אלוז` יאו",
       "englishName": "Eloge Yao",
       "team": "הפועל ירושלים",
@@ -90939,7 +91523,7 @@
       "topOpponents": []
     },
     {
-      "id": 557,
+      "id": 566,
       "name": "אדלאיי אדבאיו",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -90963,7 +91547,7 @@
       "topOpponents": []
     },
     {
-      "id": 558,
+      "id": 567,
       "name": "נדב זמיר",
       "englishName": "Nadav Zamir",
       "team": "הפועל ירושלים",
@@ -91397,7 +91981,7 @@
       ]
     },
     {
-      "id": 559,
+      "id": 568,
       "name": "איינהו פרדה",
       "englishName": "Ainao Parada",
       "team": "הפועל ירושלים",
@@ -91497,7 +92081,7 @@
       ]
     },
     {
-      "id": 560,
+      "id": 569,
       "name": "יוראי מליח",
       "englishName": "Yorai Maliac",
       "team": "הפועל ירושלים",
@@ -91521,7 +92105,7 @@
       "topOpponents": []
     },
     {
-      "id": 561,
+      "id": 570,
       "name": "איתי זדה",
       "englishName": "Itay Zada",
       "team": "הפועל ירושלים",
@@ -91545,7 +92129,7 @@
       "topOpponents": []
     },
     {
-      "id": 562,
+      "id": 571,
       "name": "אווקה אשטה",
       "englishName": "Aweka Ashata",
       "team": "הפועל ירושלים",
@@ -91957,7 +92541,7 @@
       ]
     },
     {
-      "id": 563,
+      "id": 572,
       "name": "מידן כהן",
       "englishName": "Meidan Cohen",
       "team": "הפועל ירושלים",
@@ -91981,7 +92565,7 @@
       "topOpponents": []
     },
     {
-      "id": 564,
+      "id": 573,
       "name": "ראונו סאפינן",
       "englishName": "Rauno Sappinen",
       "team": "הפועל ירושלים",
@@ -92005,7 +92589,7 @@
       "topOpponents": []
     },
     {
-      "id": 565,
+      "id": 574,
       "name": "אופק נדיר",
       "englishName": "Ofek Nadir",
       "team": "הפועל ירושלים",
@@ -92428,7 +93012,7 @@
       ]
     },
     {
-      "id": 566,
+      "id": 575,
       "name": "יהונתן שאבי",
       "englishName": "Yehonatan Shabi",
       "team": "הפועל ירושלים",
@@ -92452,7 +93036,7 @@
       "topOpponents": []
     },
     {
-      "id": 567,
+      "id": 576,
       "name": "בן אז`ובל",
       "englishName": "Ben Azubel",
       "team": "הפועל ירושלים",
@@ -92476,7 +93060,7 @@
       "topOpponents": []
     },
     {
-      "id": 568,
+      "id": 577,
       "name": " קאפיטה",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -92500,7 +93084,7 @@
       "topOpponents": []
     },
     {
-      "id": 569,
+      "id": 578,
       "name": "יילה דוין",
       "englishName": "Jelle  Duin",
       "team": "הפועל ירושלים",
@@ -92524,7 +93108,7 @@
       "topOpponents": []
     },
     {
-      "id": 570,
+      "id": 579,
       "name": "עילאי טובים",
       "englishName": "Ilay Tovim",
       "team": "הפועל ירושלים",
@@ -92598,7 +93182,7 @@
       ]
     },
     {
-      "id": 571,
+      "id": 580,
       "name": "אוהד אלמגור",
       "englishName": "Ohad Almagor",
       "team": "הפועל ירושלים",
@@ -93021,7 +93605,7 @@
       ]
     },
     {
-      "id": 572,
+      "id": 581,
       "name": "נדים ורסאנה",
       "englishName": "Nadim Vrasana",
       "team": "הפועל ירושלים",
@@ -93045,7 +93629,7 @@
       "topOpponents": []
     },
     {
-      "id": 573,
+      "id": 582,
       "name": "בן גורדין",
       "englishName": "Ben Gordin",
       "team": "הפועל ירושלים",
@@ -93479,7 +94063,7 @@
       ]
     },
     {
-      "id": 574,
+      "id": 583,
       "name": "יונתן ליש",
       "englishName": "Yonatan Kay Laish",
       "team": "הפועל ירושלים",
@@ -93924,7 +94508,7 @@
       ]
     },
     {
-      "id": 575,
+      "id": 584,
       "name": "ינאי דיסטלפלד",
       "englishName": "Yanai Ariel Distalfeld",
       "team": "הפועל ירושלים",
@@ -94369,7 +94953,7 @@
       ]
     },
     {
-      "id": 576,
+      "id": 585,
       "name": "איבה רנסום",
       "englishName": "Ibeh Ransom Jidechukwu",
       "team": "הפועל ירושלים",
@@ -94726,7 +95310,7 @@
       ]
     },
     {
-      "id": 577,
+      "id": 586,
       "name": "מרקו אלצ`בסקי",
       "englishName": "Marko Alchevski",
       "team": "הפועל ירושלים",
@@ -94750,7 +95334,7 @@
       "topOpponents": []
     },
     {
-      "id": 578,
+      "id": 587,
       "name": "ליאל צ`אנה",
       "englishName": "Liel Tsana",
       "team": "הפועל ירושלים",
@@ -94774,7 +95358,7 @@
       "topOpponents": []
     },
     {
-      "id": 579,
+      "id": 588,
       "name": "אליה ביטון",
       "englishName": "Elia Biton",
       "team": "הפועל ירושלים",
@@ -94798,7 +95382,7 @@
       "topOpponents": []
     },
     {
-      "id": 580,
+      "id": 589,
       "name": "רואי חזן",
       "englishName": "Roy Roee Hazan",
       "team": "הפועל ירושלים",
@@ -94822,7 +95406,7 @@
       "topOpponents": []
     },
     {
-      "id": 581,
+      "id": 590,
       "name": "ז`ארדל סילבה",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -94948,7 +95532,7 @@
       ]
     },
     {
-      "id": 582,
+      "id": 591,
       "name": "אנדרו אידוקו",
       "englishName": "Andrew Idoko",
       "team": "הפועל ירושלים",
@@ -95371,7 +95955,7 @@
       ]
     },
     {
-      "id": 583,
+      "id": 592,
       "name": "נועם שביט",
       "englishName": "Noam Shavit",
       "team": "הפועל ירושלים",
@@ -95395,7 +95979,7 @@
       "topOpponents": []
     },
     {
-      "id": 584,
+      "id": 593,
       "name": "סמבה דיאלו",
       "englishName": "Samba Diallo",
       "team": "הפועל ירושלים",
@@ -95419,7 +96003,7 @@
       "topOpponents": []
     },
     {
-      "id": 585,
+      "id": 594,
       "name": "עידו עולי",
       "englishName": "Ido Oli",
       "team": "הפועל ירושלים",
@@ -95677,7 +96261,7 @@
       ]
     },
     {
-      "id": 586,
+      "id": 595,
       "name": "נדים וראסנה",
       "englishName": "Nadim Vrasana",
       "team": "הפועל ירושלים",
@@ -95957,7 +96541,7 @@
       ]
     },
     {
-      "id": 587,
+      "id": 596,
       "name": "תמיר חיימוביץ`",
       "englishName": "Tamir Haimovitch",
       "team": "הפועל ירושלים",
@@ -96292,7 +96876,7 @@
       ]
     },
     {
-      "id": 588,
+      "id": 597,
       "name": "דויד דומג`וני",
       "englishName": "David Domgjoni",
       "team": "הפועל ירושלים",
@@ -96715,7 +97299,7 @@
       ]
     },
     {
-      "id": 589,
+      "id": 598,
       "name": "דניאל קודוגו",
       "englishName": "Daniel Koudogo ",
       "team": "הפועל ירושלים",
@@ -96790,7 +97374,7 @@
       ]
     },
     {
-      "id": 590,
+      "id": 599,
       "name": "ואליו אוג`טואי",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -96814,7 +97398,7 @@
       "topOpponents": []
     },
     {
-      "id": 591,
+      "id": 600,
       "name": "ישראל דאפה",
       "englishName": "Israel Dapaah",
       "team": "הפועל ירושלים",
@@ -97105,7 +97689,7 @@
       ]
     },
     {
-      "id": 592,
+      "id": 601,
       "name": "נתי שפראו",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -97319,7 +97903,7 @@
       ]
     },
     {
-      "id": 593,
+      "id": 602,
       "name": "ג`ון אוטומאו",
       "englishName": "John Otomeau",
       "team": "הפועל ירושלים",
@@ -97610,7 +98194,7 @@
       ]
     },
     {
-      "id": 594,
+      "id": 603,
       "name": "מוחמד דיאב",
       "englishName": "",
       "team": "הפועל ירושלים",
@@ -97711,7 +98295,7 @@
       ]
     },
     {
-      "id": 595,
+      "id": 604,
       "name": "מרקו רקוניאץ`",
       "englishName": "Marko Rakonjac",
       "team": "הפועל ירושלים",
@@ -97947,7 +98531,7 @@
       ]
     },
     {
-      "id": 596,
+      "id": 605,
       "name": "רואל סוטיריו",
       "englishName": "Ruel Sotiriou",
       "team": "הפועל ירושלים",
@@ -98161,7 +98745,7 @@
       ]
     },
     {
-      "id": 597,
+      "id": 606,
       "name": "תומר חמד",
       "englishName": "Tomer Hemed",
       "team": "מכבי חיפה",
@@ -98185,7 +98769,7 @@
       "topOpponents": []
     },
     {
-      "id": 598,
+      "id": 607,
       "name": "גיא מלמד",
       "englishName": "Guy Melamed",
       "team": "מכבי חיפה",
@@ -98564,7 +99148,7 @@
       ]
     },
     {
-      "id": 599,
+      "id": 608,
       "name": "איתן אזולאי",
       "englishName": "Ethane Azoulay",
       "team": "מכבי חיפה",
@@ -98965,7 +99549,7 @@
       ]
     },
     {
-      "id": 600,
+      "id": 609,
       "name": "ג`ורג`ה יובאנוביץ`",
       "englishName": "Đorđe Jovanović",
       "team": "מכבי חיפה",
@@ -99269,7 +99853,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 601,
+      "id": 610,
       "name": "זוהר זסנו",
       "englishName": "Zohar Zasno",
       "team": "מכבי חיפה",
@@ -99714,7 +100298,7 @@
       ]
     },
     {
-      "id": 602,
+      "id": 611,
       "name": "מיכאל אוחנה",
       "englishName": "Michael Ohana",
       "team": "מכבי חיפה",
@@ -100005,7 +100589,7 @@
       ]
     },
     {
-      "id": 603,
+      "id": 612,
       "name": "סדריק דון",
       "englishName": "Cédric Franck Don",
       "team": "מכבי חיפה",
@@ -100428,7 +101012,7 @@
       ]
     },
     {
-      "id": 604,
+      "id": 613,
       "name": "ליאור קאסה",
       "englishName": "Lior Kasa",
       "team": "מכבי חיפה",
@@ -100554,7 +101138,7 @@
       ]
     },
     {
-      "id": 605,
+      "id": 614,
       "name": "דין דוד",
       "englishName": "Din David",
       "team": "מכבי חיפה",
@@ -100578,7 +101162,7 @@
       "topOpponents": []
     },
     {
-      "id": 606,
+      "id": 615,
       "name": "פראנזי פיירו",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -100602,7 +101186,7 @@
       "topOpponents": []
     },
     {
-      "id": 607,
+      "id": 616,
       "name": "אריק שוראנוב",
       "englishName": "Erik Shuranov",
       "team": "מכבי חיפה",
@@ -100626,7 +101210,7 @@
       "topOpponents": []
     },
     {
-      "id": 608,
+      "id": 617,
       "name": "עילי פיינגולד",
       "englishName": "Ilay Feingold",
       "team": "מכבי חיפה",
@@ -100650,7 +101234,7 @@
       "topOpponents": []
     },
     {
-      "id": 609,
+      "id": 618,
       "name": "מאור קנדיל",
       "englishName": "Maor Kandil",
       "team": "מכבי חיפה",
@@ -100674,7 +101258,7 @@
       "topOpponents": []
     },
     {
-      "id": 610,
+      "id": 619,
       "name": "דניאל סונדגרן",
       "englishName": "Daniel Sundgren",
       "team": "מכבי חיפה",
@@ -100698,7 +101282,7 @@
       "topOpponents": []
     },
     {
-      "id": 611,
+      "id": 620,
       "name": "פייר קורנו",
       "englishName": "Pierre Cornud",
       "team": "מכבי חיפה",
@@ -100945,7 +101529,7 @@
       ]
     },
     {
-      "id": 612,
+      "id": 621,
       "name": "עבדולאי סק",
       "englishName": "Abdoulaye Seck",
       "team": "מכבי חיפה",
@@ -101324,7 +101908,7 @@
       ]
     },
     {
-      "id": 613,
+      "id": 622,
       "name": "רמי גרשון",
       "englishName": "Rami Gershon",
       "team": "מכבי חיפה",
@@ -101348,7 +101932,7 @@
       "topOpponents": []
     },
     {
-      "id": 614,
+      "id": 623,
       "name": "סאן מנחם",
       "englishName": "Sun Menachem",
       "team": "מכבי חיפה",
@@ -101372,7 +101956,7 @@
       "topOpponents": []
     },
     {
-      "id": 615,
+      "id": 624,
       "name": "שון גולדברג",
       "englishName": "Sean Goldberg",
       "team": "מכבי חיפה",
@@ -101828,7 +102412,7 @@
       ]
     },
     {
-      "id": 616,
+      "id": 625,
       "name": "רועי פוקס",
       "englishName": "Roei Fuchs",
       "team": "מכבי חיפה",
@@ -101902,7 +102486,7 @@
       ]
     },
     {
-      "id": 617,
+      "id": 626,
       "name": "איתמר ניצן",
       "englishName": "Itamar Nitzan",
       "team": "מכבי חיפה",
@@ -101926,7 +102510,7 @@
       "topOpponents": []
     },
     {
-      "id": 618,
+      "id": 627,
       "name": "שריף כיוף",
       "englishName": "Shareef Keouf",
       "team": "מכבי חיפה",
@@ -102404,7 +102988,7 @@
       ]
     },
     {
-      "id": 619,
+      "id": 628,
       "name": "גוני נאור",
       "englishName": "Goni Naor",
       "team": "מכבי חיפה",
@@ -102618,7 +103202,7 @@
       ]
     },
     {
-      "id": 620,
+      "id": 629,
       "name": "דיא סבע",
       "englishName": "Dia Seba",
       "team": "מכבי חיפה",
@@ -102642,7 +103226,7 @@
       "topOpponents": []
     },
     {
-      "id": 621,
+      "id": 630,
       "name": "ענאן חלאילי",
       "englishName": "Anan Khalaili",
       "team": "מכבי חיפה",
@@ -102666,7 +103250,7 @@
       "topOpponents": []
     },
     {
-      "id": 622,
+      "id": 631,
       "name": "ליאור רפאלוב",
       "englishName": "Lior Refaelov",
       "team": "מכבי חיפה",
@@ -102690,7 +103274,7 @@
       "topOpponents": []
     },
     {
-      "id": 623,
+      "id": 632,
       "name": "עלי מוחמד",
       "englishName": "Ali Muhammad Muhammad Al Faz",
       "team": "מכבי חיפה",
@@ -102992,7 +103576,7 @@
       ]
     },
     {
-      "id": 624,
+      "id": 633,
       "name": "מחמוד ג`אבר",
       "englishName": "Mahmoud Jaber",
       "team": "מכבי חיפה",
@@ -103016,7 +103600,7 @@
       "topOpponents": []
     },
     {
-      "id": 625,
+      "id": 634,
       "name": "סוף פודגוראנו",
       "englishName": "Suf Podgoreanu",
       "team": "מכבי חיפה",
@@ -103263,7 +103847,7 @@
       ]
     },
     {
-      "id": 626,
+      "id": 635,
       "name": "ירין לוי",
       "englishName": "Yarin Levi",
       "team": "מכבי חיפה",
@@ -103642,7 +104226,7 @@
       ]
     },
     {
-      "id": 627,
+      "id": 636,
       "name": "צ`ארון שרי",
       "englishName": "Tjarronn Chery",
       "team": "מכבי חיפה",
@@ -103666,7 +104250,7 @@
       "topOpponents": []
     },
     {
-      "id": 628,
+      "id": 637,
       "name": " שואו",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -103690,7 +104274,7 @@
       "topOpponents": []
     },
     {
-      "id": 629,
+      "id": 638,
       "name": "לורנצו שימיץ`",
       "englishName": "Lorenco Simic",
       "team": "מכבי חיפה",
@@ -103714,7 +104298,7 @@
       "topOpponents": []
     },
     {
-      "id": 630,
+      "id": 639,
       "name": "יילה בטאיי",
       "englishName": "Jelle Bataille",
       "team": "מכבי חיפה",
@@ -104159,7 +104743,7 @@
       ]
     },
     {
-      "id": 631,
+      "id": 640,
       "name": "עילאיי פיינגולד",
       "englishName": "Ilay Feingold",
       "team": "מכבי חיפה",
@@ -104183,7 +104767,7 @@
       "topOpponents": []
     },
     {
-      "id": 632,
+      "id": 641,
       "name": "קני סייף",
       "englishName": "Kenny Seif",
       "team": "מכבי חיפה",
@@ -104584,7 +105168,7 @@
       ]
     },
     {
-      "id": 633,
+      "id": 642,
       "name": "גדי קינדה",
       "englishName": "Gadi Kinda",
       "team": "מכבי חיפה",
@@ -104608,7 +105192,7 @@
       "topOpponents": []
     },
     {
-      "id": 634,
+      "id": 643,
       "name": "עומר דהן",
       "englishName": "Omer Cohen",
       "team": "מכבי חיפה",
@@ -104693,7 +105277,7 @@
       ]
     },
     {
-      "id": 635,
+      "id": 644,
       "name": "דניל לסובוי",
       "englishName": "Daniyil Lisovyy",
       "team": "מכבי חיפה",
@@ -104717,7 +105301,7 @@
       "topOpponents": []
     },
     {
-      "id": 636,
+      "id": 645,
       "name": "איאד חלאילי",
       "englishName": "Iyad Khalaili",
       "team": "מכבי חיפה",
@@ -105140,7 +105724,7 @@
       ]
     },
     {
-      "id": 637,
+      "id": 646,
       "name": "תומאס סולטאני",
       "englishName": "Tomás Sultani",
       "team": "מכבי חיפה",
@@ -105164,7 +105748,7 @@
       "topOpponents": []
     },
     {
-      "id": 638,
+      "id": 647,
       "name": "תומר לנס",
       "englishName": "Tomer Levi",
       "team": "מכבי חיפה",
@@ -105188,7 +105772,7 @@
       "topOpponents": []
     },
     {
-      "id": 639,
+      "id": 648,
       "name": "אלעד אמיר",
       "englishName": "Elad Amir",
       "team": "מכבי חיפה",
@@ -105413,7 +105997,7 @@
       ]
     },
     {
-      "id": 640,
+      "id": 649,
       "name": "ליאם חרמש",
       "englishName": "Liam Hermesh",
       "team": "מכבי חיפה",
@@ -105437,7 +106021,7 @@
       "topOpponents": []
     },
     {
-      "id": 641,
+      "id": 650,
       "name": "אלכסנדר סירוטה",
       "englishName": "Oleksandr Syrota",
       "team": "מכבי חיפה",
@@ -105461,7 +106045,7 @@
       "topOpponents": []
     },
     {
-      "id": 642,
+      "id": 651,
       "name": "סילבה קאני",
       "englishName": "Silva Kanengi Sukpa",
       "team": "מכבי חיפה",
@@ -105917,7 +106501,7 @@
       ]
     },
     {
-      "id": 643,
+      "id": 652,
       "name": "יאיר מרדכי",
       "englishName": "Yair Mordechai",
       "team": "מכבי חיפה",
@@ -106362,7 +106946,7 @@
       ]
     },
     {
-      "id": 644,
+      "id": 653,
       "name": "ליאם חרמש",
       "englishName": "Liam Hermesh",
       "team": "מכבי חיפה",
@@ -106386,7 +106970,7 @@
       "topOpponents": []
     },
     {
-      "id": 645,
+      "id": 654,
       "name": "ויטאל אנסימבה",
       "englishName": "Vital N'Simba",
       "team": "מכבי חיפה",
@@ -106410,7 +106994,7 @@
       "topOpponents": []
     },
     {
-      "id": 646,
+      "id": 655,
       "name": "ליסאב עיסאת",
       "englishName": "Lisav Naif Eissat",
       "team": "מכבי חיפה",
@@ -106855,7 +107439,7 @@
       ]
     },
     {
-      "id": 647,
+      "id": 656,
       "name": " פדראו",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -106970,7 +107554,7 @@
       ]
     },
     {
-      "id": 648,
+      "id": 657,
       "name": "קסנדר סברינה",
       "englishName": "Xander Severina",
       "team": "מכבי חיפה",
@@ -107055,7 +107639,7 @@
       ]
     },
     {
-      "id": 649,
+      "id": 658,
       "name": "מתיאס נהואל",
       "englishName": "Nahuel Leiva",
       "team": "מכבי חיפה",
@@ -107346,7 +107930,7 @@
       ]
     },
     {
-      "id": 650,
+      "id": 659,
       "name": " ריקרדיניו",
       "englishName": "Ricardo Viana Filho",
       "team": "מכבי חיפה",
@@ -107370,7 +107954,7 @@
       "topOpponents": []
     },
     {
-      "id": 651,
+      "id": 660,
       "name": "גל אלוין",
       "englishName": "Gal Asoulin",
       "team": "מכבי חיפה",
@@ -107430,7 +108014,7 @@
       ]
     },
     {
-      "id": 652,
+      "id": 661,
       "name": "עמית ארזי",
       "englishName": "Amit Arazi",
       "team": "מכבי חיפה",
@@ -107504,7 +108088,7 @@
       ]
     },
     {
-      "id": 653,
+      "id": 662,
       "name": "איתי אהוד",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -107528,7 +108112,7 @@
       "topOpponents": []
     },
     {
-      "id": 654,
+      "id": 663,
       "name": "גטאצ`ו יבלו",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -107552,7 +108136,7 @@
       "topOpponents": []
     },
     {
-      "id": 655,
+      "id": 664,
       "name": "אדיר והב",
       "englishName": "Adir Waheb",
       "team": "מכבי חיפה",
@@ -107576,7 +108160,7 @@
       "topOpponents": []
     },
     {
-      "id": 656,
+      "id": 665,
       "name": "קנג`י גורה",
       "englishName": "Kenji Gorre",
       "team": "מכבי חיפה",
@@ -107933,7 +108517,7 @@
       ]
     },
     {
-      "id": 657,
+      "id": 666,
       "name": "גיאורגי ירמקוב",
       "englishName": "Heorhii Ermakov",
       "team": "מכבי חיפה",
@@ -108400,7 +108984,7 @@
       ]
     },
     {
-      "id": 658,
+      "id": 667,
       "name": "טריוואנטה סטיוארט",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -108814,7 +109398,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 659,
+      "id": 668,
       "name": "פיטר אגבה",
       "englishName": "Peter Agba",
       "team": "מכבי חיפה",
@@ -109248,7 +109832,7 @@
       ]
     },
     {
-      "id": 660,
+      "id": 669,
       "name": "ינון פיינגזיכט",
       "englishName": "Yinon Feingsicht",
       "team": "מכבי חיפה",
@@ -109605,7 +110189,7 @@
       ]
     },
     {
-      "id": 661,
+      "id": 670,
       "name": "דניאל דרזי",
       "englishName": "Daniel Darzi",
       "team": "מכבי חיפה",
@@ -109786,7 +110370,7 @@
       ]
     },
     {
-      "id": 662,
+      "id": 671,
       "name": "נבות רטנר",
       "englishName": "Navot Ratner",
       "team": "מכבי חיפה",
@@ -110044,7 +110628,7 @@
       ]
     },
     {
-      "id": 663,
+      "id": 672,
       "name": "מיכאל ממן",
       "englishName": "Michael Maman",
       "team": "מכבי חיפה",
@@ -110068,7 +110652,7 @@
       "topOpponents": []
     },
     {
-      "id": 664,
+      "id": 673,
       "name": "נעם שטייפמן",
       "englishName": "Noam Sztejfman",
       "team": "מכבי חיפה",
@@ -110304,7 +110888,7 @@
       ]
     },
     {
-      "id": 665,
+      "id": 674,
       "name": "מנואל בנסון",
       "englishName": "Manuel Benson",
       "team": "מכבי חיפה",
@@ -110496,7 +111080,7 @@
       ]
     },
     {
-      "id": 666,
+      "id": 675,
       "name": "טומי ציצואשווילי",
       "englishName": "Tommy Tsitsiashvili",
       "team": "מכבי חיפה",
@@ -110520,7 +111104,7 @@
       "topOpponents": []
     },
     {
-      "id": 667,
+      "id": 676,
       "name": "אדם גרימברג",
       "englishName": "Adam Grimberg",
       "team": "מכבי חיפה",
@@ -110646,7 +111230,7 @@
       ]
     },
     {
-      "id": 668,
+      "id": 677,
       "name": "איילון ברוך",
       "englishName": "Eylon Baruch",
       "team": "מכבי חיפה",
@@ -110746,7 +111330,7 @@
       ]
     },
     {
-      "id": 669,
+      "id": 678,
       "name": "ליאם לוסקי",
       "englishName": "Liam Lusky",
       "team": "מכבי חיפה",
@@ -110861,7 +111445,7 @@
       ]
     },
     {
-      "id": 670,
+      "id": 679,
       "name": "איתי סולומון",
       "englishName": "Itay Solomon",
       "team": "מכבי חיפה",
@@ -110976,7 +111560,7 @@
       ]
     },
     {
-      "id": 671,
+      "id": 680,
       "name": "עמרי גלזר",
       "englishName": "Omri Glazer",
       "team": "מכבי חיפה",
@@ -111000,7 +111584,7 @@
       "topOpponents": []
     },
     {
-      "id": 672,
+      "id": 681,
       "name": " צונאמי",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -111024,7 +111608,7 @@
       "topOpponents": []
     },
     {
-      "id": 673,
+      "id": 682,
       "name": " ברוניניו",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -111048,7 +111632,7 @@
       "topOpponents": []
     },
     {
-      "id": 674,
+      "id": 683,
       "name": "נייג`ל לונווייק",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -111072,7 +111656,7 @@
       "topOpponents": []
     },
     {
-      "id": 675,
+      "id": 684,
       "name": "ארד גייטס",
       "englishName": "",
       "team": "מכבי חיפה",
@@ -111096,7 +111680,7 @@
       "topOpponents": []
     },
     {
-      "id": 676,
+      "id": 685,
       "name": "גלן אלווין",
       "englishName": "Glenn Alvin",
       "team": "מכבי חיפה",
@@ -111120,7 +111704,7 @@
       "topOpponents": []
     },
     {
-      "id": 677,
+      "id": 686,
       "name": "ליאור גליקליך",
       "englishName": "Lior Gliklich",
       "team": "מכבי בני ריינה",
@@ -111554,7 +112138,7 @@
       ]
     },
     {
-      "id": 678,
+      "id": 687,
       "name": "מוחמד שכר",
       "englishName": "Muhamad Shaker",
       "team": "מכבי בני ריינה",
@@ -111955,7 +112539,7 @@
       ]
     },
     {
-      "id": 679,
+      "id": 688,
       "name": "אחמד טאהא",
       "englishName": "Ahmed Taha",
       "team": "מכבי בני ריינה",
@@ -112345,7 +112929,7 @@
       ]
     },
     {
-      "id": 680,
+      "id": 689,
       "name": "איהאב גנאים",
       "englishName": "Ihab Ganaem",
       "team": "מכבי בני ריינה",
@@ -112724,399 +113308,7 @@
       ]
     },
     {
-      "id": 681,
-      "name": "עיאד אבו עביד",
-      "englishName": "Iyad Abu Abaid",
-      "team": "מכבי בני ריינה",
-      "teamId": 14,
-      "position": 2,
-      "price": 7000000,
-      "shirtNumber": 3,
-      "imageUrl": "https://www.sport5.co.il/Files/9/184839.png",
-      "injuredStatus": 0,
-      "expelledStatus": 0,
-      "missingStatus": 2,
-      "timesSelected": 4017,
-      "avgPoints": 1.3928571428571428,
-      "ppm": 5.57,
-      "xA": 0.23,
-      "xGI": 2.13,
-      "sport5": {
-        "totalPoints": 39,
-        "minutesPlayed": 1650,
-        "goals": 1,
-        "goalsPoints": 6,
-        "assists": 0,
-        "assistsPoints": 0,
-        "yellowCards": 9,
-        "yellowCardsPoints": -9,
-        "redCards": 1,
-        "openLineup": 17,
-        "substituteIn": 8,
-        "substituteOut": 5,
-        "cleanSheets": 5,
-        "ownGoals": 0,
-        "penaltiesStopped": 0,
-        "penaltiesMissed": 1,
-        "causedPenalty": 0,
-        "failedForPenalty": 1
-      },
-      "footballCoIl": {
-        "expectedGoals": 1.913,
-        "goals": 1,
-        "assists": 0,
-        "shotsOnTarget": 2,
-        "shotAttempts": 6,
-        "totalMinutesPlayed": 1654,
-        "yellowCards": 9,
-        "redCards": 1,
-        "appearances": 25,
-        "passes": 773
-      },
-      "scores365": {
-        "xG": 1.9,
-        "xA": 0.23,
-        "appearances": 25,
-        "goals": 1,
-        "assists": 0,
-        "penaltyGoals": 1,
-        "totalShots": 5,
-        "shotsOnTarget": 2,
-        "bigChancesCreated": 0,
-        "touches": 1035,
-        "minutesPlayed": 1185,
-        "yellowCards": 9,
-        "redCards": 1
-      },
-      "games": [
-        {
-          "round": 1,
-          "opponent": "בית\"ר ירושלים",
-          "opponentId": 140,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 2
-        },
-        {
-          "round": 2,
-          "opponent": "מ.ס. אשדוד",
-          "opponentId": 135,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 2
-        },
-        {
-          "round": 3,
-          "opponent": "הפועל חיפה",
-          "opponentId": 131,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 2
-        },
-        {
-          "round": 4,
-          "opponent": "הפועל באר שבע",
-          "opponentId": 130,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 3,
-          "awayScore": 1
-        },
-        {
-          "round": 5,
-          "opponent": "מכבי תל אביב",
-          "opponentId": 133,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 0
-        },
-        {
-          "round": 6,
-          "opponent": "מכבי נתניה",
-          "opponentId": 132,
-          "points": 8,
-          "goals": 1,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 2
-        },
-        {
-          "round": 7,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 2,
-          "awayScore": 0
-        },
-        {
-          "round": 8,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 0
-        },
-        {
-          "round": 9,
-          "opponent": "הפועל פתח תקווה",
-          "opponentId": 134,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 2
-        },
-        {
-          "round": 11,
-          "opponent": "הפועל תל אביב",
-          "opponentId": 128,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 0
-        },
-        {
-          "round": 12,
-          "opponent": "הפועל קרית שמונה",
-          "opponentId": 197,
-          "points": 2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 13,
-          "opponent": "מכבי בני ריינה",
-          "opponentId": 139,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 1
-        },
-        {
-          "round": 14,
-          "opponent": "בית\"ר ירושלים",
-          "opponentId": 140,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 1
-        },
-        {
-          "round": 16,
-          "opponent": "הפועל חיפה",
-          "opponentId": 131,
-          "points": 5,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 2
-        },
-        {
-          "round": 17,
-          "opponent": "הפועל באר שבע",
-          "opponentId": 130,
-          "points": -2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 5
-        },
-        {
-          "round": 18,
-          "opponent": "מכבי תל אביב",
-          "opponentId": 133,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "round": 19,
-          "opponent": "מכבי נתניה",
-          "opponentId": 132,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 2,
-          "awayScore": 1
-        },
-        {
-          "round": 20,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 21,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 0
-        },
-        {
-          "round": 23,
-          "opponent": "מכבי נתניה",
-          "opponentId": 132,
-          "points": -2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 4
-        },
-        {
-          "round": 24,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 1
-        },
-        {
-          "round": 25,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 6,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 0
-        },
-        {
-          "round": 26,
-          "opponent": "בני סכנין",
-          "opponentId": 129,
-          "points": -2,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 2,
-          "awayScore": 0
-        },
-        {
-          "round": 29,
-          "opponent": "הפועל ירושלים",
-          "opponentId": 136,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 0,
-          "awayScore": 1
-        },
-        {
-          "round": 30,
-          "opponent": "בני סכנין",
-          "opponentId": 129,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 0,
-          "awayScore": 2
-        },
-        {
-          "round": 32,
-          "opponent": "הפועל קרית שמונה",
-          "opponentId": 197,
-          "points": 0,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 1
-        },
-        {
-          "round": 33,
-          "opponent": "עירוני טבריה",
-          "opponentId": 198,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": false,
-          "homeScore": 1,
-          "awayScore": 0
-        },
-        {
-          "round": 34,
-          "opponent": "מכבי נתניה",
-          "opponentId": 132,
-          "points": 1,
-          "goals": 0,
-          "assists": 0,
-          "isHome": true,
-          "homeScore": 1,
-          "awayScore": 4
-        }
-      ],
-      "topOpponents": [
-        {
-          "name": "הפועל ירושלים",
-          "points": 12
-        },
-        {
-          "name": "מכבי נתניה",
-          "points": 7
-        },
-        {
-          "name": "מכבי בני ריינה",
-          "points": 6
-        }
-      ],
-      "isPenaltyTaker2": true,
-      "penaltyRank": 2
-    },
-    {
-      "id": 682,
+      "id": 690,
       "name": "אנטוניו ספר",
       "englishName": "Antonio Sefer",
       "team": "מכבי בני ריינה",
@@ -113420,7 +113612,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 683,
+      "id": 691,
       "name": "גיא הרמן",
       "englishName": "Guy Herman",
       "team": "מכבי בני ריינה",
@@ -113645,7 +113837,7 @@
       ]
     },
     {
-      "id": 684,
+      "id": 692,
       "name": "חמזה שיבלי",
       "englishName": "Hamza Shibli",
       "team": "מכבי בני ריינה",
@@ -113669,7 +113861,7 @@
       "topOpponents": []
     },
     {
-      "id": 685,
+      "id": 693,
       "name": "עבד ג`אבר",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -114070,7 +114262,7 @@
       ]
     },
     {
-      "id": 686,
+      "id": 694,
       "name": "דור אלו",
       "englishName": "Dor Elo",
       "team": "מכבי בני ריינה",
@@ -114094,7 +114286,7 @@
       "topOpponents": []
     },
     {
-      "id": 687,
+      "id": 695,
       "name": "טארק בושנאק",
       "englishName": "Tarek Bushank",
       "team": "מכבי בני ריינה",
@@ -114118,7 +114310,7 @@
       "topOpponents": []
     },
     {
-      "id": 688,
+      "id": 696,
       "name": "אלון גינת",
       "englishName": "Alon Ginat",
       "team": "מכבי בני ריינה",
@@ -114142,7 +114334,7 @@
       "topOpponents": []
     },
     {
-      "id": 689,
+      "id": 697,
       "name": "איאד ח`וטבא",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -114521,7 +114713,7 @@
       ]
     },
     {
-      "id": 690,
+      "id": 698,
       "name": "אשרף רבאח",
       "englishName": "Rabah Asraf",
       "team": "מכבי בני ריינה",
@@ -114545,7 +114737,7 @@
       "topOpponents": []
     },
     {
-      "id": 691,
+      "id": 699,
       "name": "עומר נחפאווי",
       "englishName": "Omar Nahfawi",
       "team": "מכבי בני ריינה",
@@ -114569,7 +114761,7 @@
       "topOpponents": []
     },
     {
-      "id": 692,
+      "id": 700,
       "name": "הנרי ואקה",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -114593,7 +114785,7 @@
       "topOpponents": []
     },
     {
-      "id": 693,
+      "id": 701,
       "name": "רועי שוקרני",
       "englishName": "Roei Shukrani",
       "team": "מכבי בני ריינה",
@@ -114708,7 +114900,7 @@
       ]
     },
     {
-      "id": 694,
+      "id": 702,
       "name": "מרוואן קבהא",
       "englishName": "Maruwan Kabha",
       "team": "מכבי בני ריינה",
@@ -114732,7 +114924,7 @@
       "topOpponents": []
     },
     {
-      "id": 695,
+      "id": 703,
       "name": "אייזק נורטי",
       "englishName": "Isaac Nortey",
       "team": "מכבי בני ריינה",
@@ -114756,7 +114948,7 @@
       "topOpponents": []
     },
     {
-      "id": 696,
+      "id": 704,
       "name": "אחמד עאבד",
       "englishName": "Ahmad Abed",
       "team": "מכבי בני ריינה",
@@ -114780,7 +114972,7 @@
       "topOpponents": []
     },
     {
-      "id": 697,
+      "id": 705,
       "name": "אלכסנדר נויוק",
       "englishName": "Oleksandr Noyok",
       "team": "מכבי בני ריינה",
@@ -114804,7 +114996,7 @@
       "topOpponents": []
     },
     {
-      "id": 698,
+      "id": 706,
       "name": "עמית זנטי",
       "englishName": "Amit Zaneti",
       "team": "מכבי בני ריינה",
@@ -114828,7 +115020,7 @@
       "topOpponents": []
     },
     {
-      "id": 699,
+      "id": 707,
       "name": "עאמר באסל",
       "englishName": "Amar Basel",
       "team": "מכבי בני ריינה",
@@ -114852,7 +115044,7 @@
       "topOpponents": []
     },
     {
-      "id": 700,
+      "id": 708,
       "name": "עלי עבאס",
       "englishName": "Ali Abbas",
       "team": "מכבי בני ריינה",
@@ -114876,7 +115068,7 @@
       "topOpponents": []
     },
     {
-      "id": 701,
+      "id": 709,
       "name": "מור פדידה",
       "englishName": "Mor Fadida",
       "team": "מכבי בני ריינה",
@@ -114900,7 +115092,7 @@
       "topOpponents": []
     },
     {
-      "id": 702,
+      "id": 710,
       "name": "מוחמד חטיב",
       "englishName": "Muhamad El-Khatib",
       "team": "מכבי בני ריינה",
@@ -114924,7 +115116,7 @@
       "topOpponents": []
     },
     {
-      "id": 703,
+      "id": 711,
       "name": "לוקאס שפנדלהופר",
       "englishName": "Lukas  Spendlhofer",
       "team": "מכבי בני ריינה",
@@ -114948,7 +115140,7 @@
       "topOpponents": []
     },
     {
-      "id": 704,
+      "id": 712,
       "name": "עמית מאיר",
       "englishName": "Amit Meir",
       "team": "מכבי בני ריינה",
@@ -114972,7 +115164,7 @@
       "topOpponents": []
     },
     {
-      "id": 705,
+      "id": 713,
       "name": "מוחמד מוראד",
       "englishName": "Mohamed Mourad",
       "team": "מכבי בני ריינה",
@@ -114996,7 +115188,7 @@
       "topOpponents": []
     },
     {
-      "id": 706,
+      "id": 714,
       "name": "מהראן גאדיר",
       "englishName": "Ma'aran  Gadir",
       "team": "מכבי בני ריינה",
@@ -115020,7 +115212,7 @@
       "topOpponents": []
     },
     {
-      "id": 707,
+      "id": 715,
       "name": "ג`וזף אדה",
       "englishName": "Joseph Gande",
       "team": "מכבי בני ריינה",
@@ -115044,7 +115236,7 @@
       "topOpponents": []
     },
     {
-      "id": 708,
+      "id": 716,
       "name": "ניב פליטר",
       "englishName": "Niv Fliter",
       "team": "מכבי בני ריינה",
@@ -115068,7 +115260,7 @@
       "topOpponents": []
     },
     {
-      "id": 709,
+      "id": 717,
       "name": "איליי מור",
       "englishName": "Ilay Mor",
       "team": "מכבי בני ריינה",
@@ -115092,7 +115284,7 @@
       "topOpponents": []
     },
     {
-      "id": 710,
+      "id": 718,
       "name": "סארג`י אמטאנס",
       "englishName": "Sargi Ametanes",
       "team": "מכבי בני ריינה",
@@ -115116,7 +115308,7 @@
       "topOpponents": []
     },
     {
-      "id": 711,
+      "id": 719,
       "name": "עילאי אלמקייס",
       "englishName": "Ilay Eliyau Elmkies",
       "team": "מכבי בני ריינה",
@@ -115517,7 +115709,7 @@
       ]
     },
     {
-      "id": 712,
+      "id": 720,
       "name": "מור ברמי",
       "englishName": "Mor Barami",
       "team": "מכבי בני ריינה",
@@ -115929,7 +116121,7 @@
       ]
     },
     {
-      "id": 713,
+      "id": 721,
       "name": "מאיר בוחבוט",
       "englishName": "Meir Buhbut",
       "team": "מכבי בני ריינה",
@@ -115953,7 +116145,7 @@
       "topOpponents": []
     },
     {
-      "id": 714,
+      "id": 722,
       "name": "אזקיאל הנטי",
       "englishName": "Ezekiel Henty",
       "team": "מכבי בני ריינה",
@@ -115977,7 +116169,7 @@
       "topOpponents": []
     },
     {
-      "id": 715,
+      "id": 723,
       "name": "פרדי גונדולה",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -116001,7 +116193,7 @@
       "topOpponents": []
     },
     {
-      "id": 716,
+      "id": 724,
       "name": "אלדין עותמאן",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -116025,7 +116217,7 @@
       "topOpponents": []
     },
     {
-      "id": 717,
+      "id": 725,
       "name": "לרוי מונדזנגה",
       "englishName": "Chance Leroy Mondzenga Mouala",
       "team": "מכבי בני ריינה",
@@ -116049,7 +116241,7 @@
       "topOpponents": []
     },
     {
-      "id": 718,
+      "id": 726,
       "name": "ויטלי דמשקאן",
       "englishName": "Vitalie Damascan",
       "team": "מכבי בני ריינה",
@@ -116296,7 +116488,7 @@
       ]
     },
     {
-      "id": 719,
+      "id": 727,
       "name": "עאיד חבשי",
       "englishName": "Hbshe Ayed",
       "team": "מכבי בני ריינה",
@@ -116686,7 +116878,7 @@
       ]
     },
     {
-      "id": 720,
+      "id": 728,
       "name": "פדיל זבידאת",
       "englishName": "Fadil Zabidat",
       "team": "מכבי בני ריינה",
@@ -116710,7 +116902,7 @@
       "topOpponents": []
     },
     {
-      "id": 721,
+      "id": 729,
       "name": "אביתר ברק",
       "englishName": "Evyatar Barak",
       "team": "מכבי בני ריינה",
@@ -116734,7 +116926,7 @@
       "topOpponents": []
     },
     {
-      "id": 722,
+      "id": 730,
       "name": "אסיל כנאני",
       "englishName": "Asil Kanani",
       "team": "מכבי בני ריינה",
@@ -117146,7 +117338,7 @@
       ]
     },
     {
-      "id": 723,
+      "id": 731,
       "name": "איהם מטר",
       "englishName": "Iham Matar",
       "team": "מכבי בני ריינה",
@@ -117481,7 +117673,7 @@
       ]
     },
     {
-      "id": 724,
+      "id": 732,
       "name": "מהראן גדיר",
       "englishName": "Ma'aran  Gadir",
       "team": "מכבי בני ריינה",
@@ -117505,7 +117697,7 @@
       "topOpponents": []
     },
     {
-      "id": 725,
+      "id": 733,
       "name": "עלי איברהים",
       "englishName": "Ali Ibrahim",
       "team": "מכבי בני ריינה",
@@ -117686,7 +117878,7 @@
       ]
     },
     {
-      "id": 726,
+      "id": 734,
       "name": "ג`וניור פיוס",
       "englishName": "Júnior Udeme Pius",
       "team": "מכבי בני ריינה",
@@ -117988,7 +118180,7 @@
       ]
     },
     {
-      "id": 727,
+      "id": 735,
       "name": "אלקסה פייץ`",
       "englishName": "Aleksa Pejić",
       "team": "מכבי בני ריינה",
@@ -118257,7 +118449,7 @@
       ]
     },
     {
-      "id": 728,
+      "id": 736,
       "name": "מילאדין סטבנוביץ`",
       "englishName": "Miladin Stevanović",
       "team": "מכבי בני ריינה",
@@ -118537,7 +118729,7 @@
       ]
     },
     {
-      "id": 729,
+      "id": 737,
       "name": "מחמוד ג`בארין",
       "englishName": "Mahmud Jabarin",
       "team": "מכבי בני ריינה",
@@ -118773,7 +118965,7 @@
       ]
     },
     {
-      "id": 730,
+      "id": 738,
       "name": "עידן גורן",
       "englishName": "Idan Goren",
       "team": "מכבי בני ריינה",
@@ -119218,7 +119410,7 @@
       ]
     },
     {
-      "id": 731,
+      "id": 739,
       "name": "נתנאל חגאני",
       "englishName": "Netanel Hagani",
       "team": "מכבי בני ריינה",
@@ -119242,7 +119434,7 @@
       "topOpponents": []
     },
     {
-      "id": 732,
+      "id": 740,
       "name": "עמנואל בנדה",
       "englishName": "Emmanuel Justine Rabby Banda",
       "team": "מכבי בני ריינה",
@@ -119577,7 +119769,7 @@
       ]
     },
     {
-      "id": 733,
+      "id": 741,
       "name": "בראא אמארה",
       "englishName": "Braa Amara",
       "team": "מכבי בני ריינה",
@@ -119651,7 +119843,7 @@
       ]
     },
     {
-      "id": 734,
+      "id": 742,
       "name": " זה טורבו",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -119928,7 +120120,7 @@
       ]
     },
     {
-      "id": 735,
+      "id": 743,
       "name": "אווסו קוואבנה",
       "englishName": "Owusu Kwabena",
       "team": "מכבי בני ריינה",
@@ -120161,7 +120353,7 @@
       ]
     },
     {
-      "id": 736,
+      "id": 744,
       "name": "מהרן גדיר",
       "englishName": "Ma'aran  Gadir",
       "team": "מכבי בני ריינה",
@@ -120235,7 +120427,7 @@
       ]
     },
     {
-      "id": 737,
+      "id": 745,
       "name": "ז`וזה קורייה",
       "englishName": "",
       "team": "מכבי בני ריינה",
@@ -120295,7 +120487,7 @@
       ]
     },
     {
-      "id": 738,
+      "id": 746,
       "name": "וירג`יל פינסון",
       "englishName": "Virgile Pinson",
       "team": "מכבי בני ריינה",
@@ -120498,7 +120690,7 @@
       ]
     },
     {
-      "id": 739,
+      "id": 747,
       "name": "כריסט טיהי",
       "englishName": "Christ Junior Tiéhi",
       "team": "מכבי בני ריינה",
@@ -120701,7 +120893,7 @@
       ]
     },
     {
-      "id": 740,
+      "id": 748,
       "name": "ירדן כהן",
       "englishName": "Yarden Cohen",
       "team": "בית\"ר ירושלים",
@@ -121157,7 +121349,7 @@
       ]
     },
     {
-      "id": 741,
+      "id": 749,
       "name": "תומר יוספי",
       "englishName": "Tomer Yossefi",
       "team": "בית\"ר ירושלים",
@@ -121181,7 +121373,7 @@
       "topOpponents": []
     },
     {
-      "id": 742,
+      "id": 750,
       "name": "בוריס אינו",
       "englishName": "Boris Enow Takang",
       "team": "בית\"ר ירושלים",
@@ -121450,7 +121642,7 @@
       ]
     },
     {
-      "id": 743,
+      "id": 751,
       "name": "פטריק טוומאסי",
       "englishName": "Patrick Twumasi",
       "team": "בית\"ר ירושלים",
@@ -121474,7 +121666,7 @@
       "topOpponents": []
     },
     {
-      "id": 744,
+      "id": 752,
       "name": "רועי בן שמעון",
       "englishName": "Roei Ben Shimon",
       "team": "בית\"ר ירושלים",
@@ -121498,7 +121690,7 @@
       "topOpponents": []
     },
     {
-      "id": 745,
+      "id": 753,
       "name": "רביד אברג`יל",
       "englishName": "Ravid Hay Abrgil",
       "team": "בית\"ר ירושלים",
@@ -121778,7 +121970,7 @@
       ]
     },
     {
-      "id": 746,
+      "id": 754,
       "name": "גיל כהן",
       "englishName": "Gil Cohen",
       "team": "בית\"ר ירושלים",
@@ -122168,7 +122360,7 @@
       ]
     },
     {
-      "id": 747,
+      "id": 755,
       "name": "נועם מוצ`ה",
       "englishName": "Noam Motcha",
       "team": "בית\"ר ירושלים",
@@ -122536,7 +122728,7 @@
       ]
     },
     {
-      "id": 748,
+      "id": 756,
       "name": "שגיא ישראלי",
       "englishName": "Sagi Israeli",
       "team": "בית\"ר ירושלים",
@@ -122560,7 +122752,7 @@
       "topOpponents": []
     },
     {
-      "id": 749,
+      "id": 757,
       "name": "רום אליגון",
       "englishName": "Rom Alyagon",
       "team": "בית\"ר ירושלים",
@@ -122584,7 +122776,7 @@
       "topOpponents": []
     },
     {
-      "id": 750,
+      "id": 758,
       "name": "רועי אלימלך",
       "englishName": "Roey Elimelech",
       "team": "בית\"ר ירושלים",
@@ -122985,7 +123177,7 @@
       ]
     },
     {
-      "id": 751,
+      "id": 759,
       "name": "אורי דהן",
       "englishName": "Ori Dahan",
       "team": "בית\"ר ירושלים",
@@ -123419,7 +123611,7 @@
       ]
     },
     {
-      "id": 752,
+      "id": 760,
       "name": "אביאל זרגרי",
       "englishName": "Aviel Yosef Zargary",
       "team": "בית\"ר ירושלים",
@@ -123622,7 +123814,7 @@
       ]
     },
     {
-      "id": 753,
+      "id": 761,
       "name": "זיו בן שימול",
       "englishName": "Ziv Israel Ben Shimol",
       "team": "בית\"ר ירושלים",
@@ -124078,7 +124270,7 @@
       ]
     },
     {
-      "id": 754,
+      "id": 762,
       "name": "פרד פריידיי",
       "englishName": "Fred Friday",
       "team": "בית\"ר ירושלים",
@@ -124102,7 +124294,7 @@
       "topOpponents": []
     },
     {
-      "id": 755,
+      "id": 763,
       "name": "בן ביטון",
       "englishName": "Ben Bitton",
       "team": "בית\"ר ירושלים",
@@ -124126,7 +124318,7 @@
       "topOpponents": []
     },
     {
-      "id": 756,
+      "id": 764,
       "name": "דוד חוג`ה",
       "englishName": "David Hoga",
       "team": "בית\"ר ירושלים",
@@ -124150,7 +124342,7 @@
       "topOpponents": []
     },
     {
-      "id": 757,
+      "id": 765,
       "name": "מיגל סילבה",
       "englishName": "João Miguel  Macedo Silva",
       "team": "בית\"ר ירושלים",
@@ -124606,7 +124798,7 @@
       ]
     },
     {
-      "id": 758,
+      "id": 766,
       "name": "טראזי תומא",
       "englishName": "Trazie Thomas Zai",
       "team": "בית\"ר ירושלים",
@@ -124630,7 +124822,7 @@
       "topOpponents": []
     },
     {
-      "id": 759,
+      "id": 767,
       "name": "רוי דוגה",
       "englishName": "Roy Doga",
       "team": "בית\"ר ירושלים",
@@ -124654,7 +124846,7 @@
       "topOpponents": []
     },
     {
-      "id": 760,
+      "id": 768,
       "name": "לי-און מזרחי",
       "englishName": "Leon Mizrachi",
       "team": "בית\"ר ירושלים",
@@ -124678,7 +124870,7 @@
       "topOpponents": []
     },
     {
-      "id": 761,
+      "id": 769,
       "name": "מירון טל",
       "englishName": "Miron Tal",
       "team": "בית\"ר ירושלים",
@@ -124702,7 +124894,7 @@
       "topOpponents": []
     },
     {
-      "id": 762,
+      "id": 770,
       "name": "דנילו אספרייה",
       "englishName": "Danilo Moreno",
       "team": "בית\"ר ירושלים",
@@ -124726,7 +124918,7 @@
       "topOpponents": []
     },
     {
-      "id": 763,
+      "id": 771,
       "name": "טימו מוזי",
       "englishName": "Timothy Lior Mozi",
       "team": "בית\"ר ירושלים",
@@ -125193,7 +125385,7 @@
       ]
     },
     {
-      "id": 764,
+      "id": 772,
       "name": "עדי יונה",
       "englishName": "Adi Menachem Yona",
       "team": "בית\"ר ירושלים",
@@ -125517,7 +125709,7 @@
       ]
     },
     {
-      "id": 765,
+      "id": 773,
       "name": "ירדן שועה",
       "englishName": "Yarden Shua",
       "team": "בית\"ר ירושלים",
@@ -125964,7 +126156,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 766,
+      "id": 774,
       "name": "גידי קניוק",
       "englishName": "Gidi Kanuk",
       "team": "בית\"ר ירושלים",
@@ -125988,7 +126180,7 @@
       "topOpponents": []
     },
     {
-      "id": 767,
+      "id": 775,
       "name": "דור מיכה",
       "englishName": "Dor Micha",
       "team": "בית\"ר ירושלים",
@@ -126455,7 +126647,7 @@
       ]
     },
     {
-      "id": 768,
+      "id": 776,
       "name": "יובל אשכנזי",
       "englishName": "Yuval Ashkenazi",
       "team": "בית\"ר ירושלים",
@@ -126479,7 +126671,7 @@
       "topOpponents": []
     },
     {
-      "id": 769,
+      "id": 777,
       "name": "נתנאל דלויה",
       "englishName": "Netanel Daloya",
       "team": "בית\"ר ירושלים",
@@ -126503,7 +126695,7 @@
       "topOpponents": []
     },
     {
-      "id": 770,
+      "id": 778,
       "name": "אדי גוטליב",
       "englishName": "Edi Gutliv",
       "team": "בית\"ר ירושלים",
@@ -126527,7 +126719,7 @@
       "topOpponents": []
     },
     {
-      "id": 771,
+      "id": 779,
       "name": "ליאל דרעי",
       "englishName": "Liel Deri",
       "team": "בית\"ר ירושלים",
@@ -126551,7 +126743,7 @@
       "topOpponents": []
     },
     {
-      "id": 772,
+      "id": 780,
       "name": "יאן יוסופוב",
       "englishName": "Yan Yusupov",
       "team": "בית\"ר ירושלים",
@@ -126575,7 +126767,7 @@
       "topOpponents": []
     },
     {
-      "id": 773,
+      "id": 781,
       "name": "קים זיבת",
       "englishName": "Kim Zivat",
       "team": "בית\"ר ירושלים",
@@ -126599,7 +126791,7 @@
       "topOpponents": []
     },
     {
-      "id": 774,
+      "id": 782,
       "name": "ברני קבאלה",
       "englishName": "",
       "team": "בית\"ר ירושלים",
@@ -126623,7 +126815,7 @@
       "topOpponents": []
     },
     {
-      "id": 775,
+      "id": 783,
       "name": "דני הוצ`קו",
       "englishName": "Deni Hočko",
       "team": "בית\"ר ירושלים",
@@ -126647,7 +126839,7 @@
       "topOpponents": []
     },
     {
-      "id": 776,
+      "id": 784,
       "name": "מיירון ג`ורג`",
       "englishName": "Mayron George",
       "team": "בית\"ר ירושלים",
@@ -126671,7 +126863,7 @@
       "topOpponents": []
     },
     {
-      "id": 777,
+      "id": 785,
       "name": "איסמעילה סורו",
       "englishName": "Ismaila Wafougossani Soro",
       "team": "בית\"ר ירושלים",
@@ -126695,7 +126887,7 @@
       "topOpponents": []
     },
     {
-      "id": 778,
+      "id": 786,
       "name": "ניקה חורחלי",
       "englishName": "Nika Khorkheli",
       "team": "בית\"ר ירושלים",
@@ -126719,7 +126911,7 @@
       "topOpponents": []
     },
     {
-      "id": 779,
+      "id": 787,
       "name": "ז`אן מרסלן",
       "englishName": "Jean Marcelin",
       "team": "בית\"ר ירושלים",
@@ -126743,7 +126935,7 @@
       "topOpponents": []
     },
     {
-      "id": 780,
+      "id": 788,
       "name": "רז ברוכיאן",
       "englishName": "Raz Brochian",
       "team": "בית\"ר ירושלים",
@@ -126767,7 +126959,7 @@
       "topOpponents": []
     },
     {
-      "id": 781,
+      "id": 789,
       "name": "נדב מרקוביץ`",
       "englishName": "Nadav Markovitch",
       "team": "בית\"ר ירושלים",
@@ -126791,7 +126983,7 @@
       "topOpponents": []
     },
     {
-      "id": 782,
+      "id": 790,
       "name": "ליאל דרעי",
       "englishName": "Liel Deri",
       "team": "בית\"ר ירושלים",
@@ -127192,7 +127384,7 @@
       ]
     },
     {
-      "id": 783,
+      "id": 791,
       "name": "אלון בן עמי",
       "englishName": "Alon Ben Ami",
       "team": "בית\"ר ירושלים",
@@ -127216,7 +127408,7 @@
       "topOpponents": []
     },
     {
-      "id": 784,
+      "id": 792,
       "name": "אביעזר ז`נו",
       "englishName": "",
       "team": "בית\"ר ירושלים",
@@ -127240,7 +127432,7 @@
       "topOpponents": []
     },
     {
-      "id": 785,
+      "id": 793,
       "name": "עומר אצילי",
       "englishName": "Omer Atzily",
       "team": "בית\"ר ירושלים",
@@ -127676,7 +127868,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 786,
+      "id": 794,
       "name": "עמית קורנפיין",
       "englishName": "Amit Korenfine",
       "team": "בית\"ר ירושלים",
@@ -127765,7 +127957,7 @@
       ]
     },
     {
-      "id": 787,
+      "id": 795,
       "name": "יוג`ין אנסה",
       "englishName": "Eugene Ansah",
       "team": "בית\"ר ירושלים",
@@ -128188,7 +128380,7 @@
       ]
     },
     {
-      "id": 788,
+      "id": 796,
       "name": "יובל שלו",
       "englishName": "Yuval Shalev",
       "team": "בית\"ר ירושלים",
@@ -128262,7 +128454,7 @@
       ]
     },
     {
-      "id": 789,
+      "id": 797,
       "name": "ג`ונבוסקו קאלו",
       "englishName": "",
       "team": "בית\"ר ירושלים",
@@ -128707,7 +128899,7 @@
       ]
     },
     {
-      "id": 790,
+      "id": 798,
       "name": "בריאן קרבאלי",
       "englishName": "",
       "team": "בית\"ר ירושלים",
@@ -129138,7 +129330,7 @@
       ]
     },
     {
-      "id": 791,
+      "id": 799,
       "name": "יהונתן עוזר",
       "englishName": "Yonatan Ozer",
       "team": "בית\"ר ירושלים",
@@ -129605,7 +129797,7 @@
       ]
     },
     {
-      "id": 792,
+      "id": 800,
       "name": "איילסון טבארש",
       "englishName": "Aílson Júnior Mendes Tavares",
       "team": "בית\"ר ירושלים",
@@ -129984,7 +130176,7 @@
       ]
     },
     {
-      "id": 793,
+      "id": 801,
       "name": "נבו שדו",
       "englishName": "Nevo Shedo",
       "team": "בית\"ר ירושלים",
@@ -130418,7 +130610,7 @@
       ]
     },
     {
-      "id": 794,
+      "id": 802,
       "name": "לוקה גדראני",
       "englishName": "Luka Gadrani",
       "team": "בית\"ר ירושלים",
@@ -130841,7 +131033,7 @@
       ]
     },
     {
-      "id": 795,
+      "id": 803,
       "name": "עידו זברו",
       "englishName": "Edo Zebro",
       "team": "בית\"ר ירושלים",
@@ -130915,7 +131107,7 @@
       ]
     },
     {
-      "id": 796,
+      "id": 804,
       "name": "חאסונד גונסאלס",
       "englishName": "",
       "team": "בית\"ר ירושלים",
@@ -131148,7 +131340,7 @@
       ]
     },
     {
-      "id": 797,
+      "id": 805,
       "name": "נאנה אנטווי",
       "englishName": "Nana Kwame Antwi",
       "team": "בית\"ר ירושלים",
@@ -131351,7 +131543,7 @@
       ]
     },
     {
-      "id": 798,
+      "id": 806,
       "name": "שחר ויסגי",
       "englishName": "Shahar Visagie",
       "team": "בית\"ר ירושלים",
@@ -131425,7 +131617,7 @@
       ]
     },
     {
-      "id": 799,
+      "id": 807,
       "name": "יאן שיקוט",
       "englishName": "Yan Shikut",
       "team": "בית\"ר ירושלים",
@@ -131650,7 +131842,7 @@
       ]
     },
     {
-      "id": 800,
+      "id": 808,
       "name": "איתי שושן",
       "englishName": "Itay Shor",
       "team": "בית\"ר ירושלים",
@@ -131754,7 +131946,7 @@
       ]
     },
     {
-      "id": 801,
+      "id": 809,
       "name": "שון וייסמן",
       "englishName": "Shon Zalman Weissman",
       "team": "בית\"ר ירושלים",
@@ -131778,7 +131970,7 @@
       "topOpponents": []
     },
     {
-      "id": 802,
+      "id": 810,
       "name": "דניאל וורקו",
       "englishName": "",
       "team": "בית\"ר ירושלים",
@@ -131802,7 +131994,7 @@
       "topOpponents": []
     },
     {
-      "id": 803,
+      "id": 811,
       "name": "דביר ניר",
       "englishName": "Dror Nir",
       "team": "בית\"ר ירושלים",
@@ -131826,7 +132018,7 @@
       "topOpponents": []
     },
     {
-      "id": 804,
+      "id": 812,
       "name": "איציק שולמייסטר",
       "englishName": "Itzik Shoolmaister",
       "team": "הפועל קרית שמונה",
@@ -132117,7 +132309,7 @@
       ]
     },
     {
-      "id": 805,
+      "id": 813,
       "name": "עובדיה דרוויש",
       "englishName": "Obeida Darwish",
       "team": "הפועל קרית שמונה",
@@ -132551,7 +132743,7 @@
       ]
     },
     {
-      "id": 806,
+      "id": 814,
       "name": "עידו וייר",
       "englishName": "Ido Vayer",
       "team": "הפועל קרית שמונה",
@@ -132949,7 +133141,7 @@
       ]
     },
     {
-      "id": 807,
+      "id": 815,
       "name": "אביב אברהם",
       "englishName": "Aviv Avraham",
       "team": "הפועל קרית שמונה",
@@ -133339,7 +133531,7 @@
       ]
     },
     {
-      "id": 808,
+      "id": 816,
       "name": "עמית גלזר",
       "englishName": "Amit Dov Glezer",
       "team": "הפועל קרית שמונה",
@@ -133630,7 +133822,7 @@
       ]
     },
     {
-      "id": 809,
+      "id": 817,
       "name": "נמניה ליוביסבלייביץ`",
       "englishName": "Nemanja Ljubisavljević",
       "team": "הפועל קרית שמונה",
@@ -134031,7 +134223,7 @@
       ]
     },
     {
-      "id": 810,
+      "id": 818,
       "name": "דניאל טננבאום",
       "englishName": "Daniel Tenenbaum",
       "team": "הפועל קרית שמונה",
@@ -134454,7 +134646,7 @@
       ]
     },
     {
-      "id": 811,
+      "id": 819,
       "name": "ניקולה ג`ורקוביץ`",
       "englishName": "Nikola Ćirković",
       "team": "הפועל קרית שמונה",
@@ -134478,7 +134670,7 @@
       "topOpponents": []
     },
     {
-      "id": 812,
+      "id": 820,
       "name": "סטפן אלפרדו",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -134502,7 +134694,7 @@
       "topOpponents": []
     },
     {
-      "id": 813,
+      "id": 821,
       "name": "פיטר אוניקאצ`י",
       "englishName": "Peter Onyekachi",
       "team": "הפועל קרית שמונה",
@@ -134526,7 +134718,7 @@
       "topOpponents": []
     },
     {
-      "id": 814,
+      "id": 822,
       "name": "שון עדרי",
       "englishName": "Sean Edri",
       "team": "הפועל קרית שמונה",
@@ -134550,7 +134742,7 @@
       "topOpponents": []
     },
     {
-      "id": 815,
+      "id": 823,
       "name": "סלאח חוסיין",
       "englishName": "Saleh Husein",
       "team": "הפועל קרית שמונה",
@@ -134574,7 +134766,7 @@
       "topOpponents": []
     },
     {
-      "id": 816,
+      "id": 824,
       "name": "שי בן דוד",
       "englishName": "Shay Ben David",
       "team": "הפועל קרית שמונה",
@@ -134975,7 +135167,7 @@
       ]
     },
     {
-      "id": 817,
+      "id": 825,
       "name": "אור חסין",
       "englishName": "Or Hasin",
       "team": "הפועל קרית שמונה",
@@ -134999,7 +135191,7 @@
       "topOpponents": []
     },
     {
-      "id": 818,
+      "id": 826,
       "name": "אופיר בנבנישתי",
       "englishName": "Ofir Benbenishti",
       "team": "הפועל קרית שמונה",
@@ -135433,7 +135625,7 @@
       ]
     },
     {
-      "id": 819,
+      "id": 827,
       "name": "דודי טוויטו",
       "englishName": "Dudu Twitto",
       "team": "הפועל קרית שמונה",
@@ -135457,7 +135649,7 @@
       "topOpponents": []
     },
     {
-      "id": 820,
+      "id": 828,
       "name": "מתן זלמנוביץ`",
       "englishName": "Matan Zalmanovich",
       "team": "הפועל קרית שמונה",
@@ -135902,7 +136094,7 @@
       ]
     },
     {
-      "id": 821,
+      "id": 829,
       "name": "לידור כהן",
       "englishName": "Lidor Cohen",
       "team": "הפועל קרית שמונה",
@@ -135926,7 +136118,7 @@
       "topOpponents": []
     },
     {
-      "id": 822,
+      "id": 830,
       "name": "אריאל שרצקי",
       "englishName": "Ariel Shiratzki",
       "team": "הפועל קרית שמונה",
@@ -136371,7 +136563,7 @@
       ]
     },
     {
-      "id": 823,
+      "id": 831,
       "name": "אביחי וודגה",
       "englishName": "Avichay Wodaje",
       "team": "הפועל קרית שמונה",
@@ -136395,7 +136587,7 @@
       "topOpponents": []
     },
     {
-      "id": 824,
+      "id": 832,
       "name": "בילאל שאהין",
       "englishName": "Bilal Shaheen",
       "team": "הפועל קרית שמונה",
@@ -136730,7 +136922,7 @@
       ]
     },
     {
-      "id": 825,
+      "id": 833,
       "name": "סקו בנגורה",
       "englishName": "Sekou Tidiany Bangoura",
       "team": "הפועל קרית שמונה",
@@ -136941,7 +137133,7 @@
       ]
     },
     {
-      "id": 826,
+      "id": 834,
       "name": "דוד דגו",
       "englishName": "David Dego",
       "team": "הפועל קרית שמונה",
@@ -136965,7 +137157,7 @@
       "topOpponents": []
     },
     {
-      "id": 827,
+      "id": 835,
       "name": "כריסטיאן מרטינס",
       "englishName": "Christian Martinez",
       "team": "הפועל קרית שמונה",
@@ -137390,7 +137582,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 828,
+      "id": 836,
       "name": "אורי שנפר",
       "englishName": "Ori Shnaper",
       "team": "הפועל קרית שמונה",
@@ -137604,7 +137796,7 @@
       ]
     },
     {
-      "id": 829,
+      "id": 837,
       "name": "כריסטיאן בלה",
       "englishName": "Rosin Christian Bella",
       "team": "הפועל קרית שמונה",
@@ -137689,7 +137881,7 @@
       ]
     },
     {
-      "id": 830,
+      "id": 838,
       "name": "ג`ואן חלבי",
       "englishName": "Jwan Al Halabi",
       "team": "הפועל קרית שמונה",
@@ -138101,7 +138293,7 @@
       ]
     },
     {
-      "id": 831,
+      "id": 839,
       "name": "יהונתן מלכה",
       "englishName": "Yehonatan Malka",
       "team": "הפועל קרית שמונה",
@@ -138238,7 +138430,7 @@
       ]
     },
     {
-      "id": 832,
+      "id": 840,
       "name": "רובן קומפאורה",
       "englishName": "Ruben Compaore",
       "team": "הפועל קרית שמונה",
@@ -138298,7 +138490,7 @@
       ]
     },
     {
-      "id": 833,
+      "id": 841,
       "name": "יואב כראדי",
       "englishName": "Yoav Karadi",
       "team": "הפועל קרית שמונה",
@@ -138578,7 +138770,7 @@
       ]
     },
     {
-      "id": 834,
+      "id": 842,
       "name": "הראל גולדנברג",
       "englishName": "Harel David Goldenberg",
       "team": "הפועל קרית שמונה",
@@ -138924,7 +139116,7 @@
       ]
     },
     {
-      "id": 835,
+      "id": 843,
       "name": "אופרי בוארון",
       "englishName": "Ofri Boaron",
       "team": "הפועל קרית שמונה",
@@ -138948,7 +139140,7 @@
       "topOpponents": []
     },
     {
-      "id": 836,
+      "id": 844,
       "name": "מור סימן טוב",
       "englishName": "Mor Siman-Tov",
       "team": "הפועל קרית שמונה",
@@ -139184,7 +139376,7 @@
       ]
     },
     {
-      "id": 837,
+      "id": 845,
       "name": "אדריאן אוגריסה",
       "englishName": "Adrián Ugarriza",
       "team": "הפועל קרית שמונה",
@@ -139593,7 +139785,7 @@
       ]
     },
     {
-      "id": 838,
+      "id": 846,
       "name": "אנתוני לימבומבה",
       "englishName": "Anthony Limbombe",
       "team": "הפועל קרית שמונה",
@@ -139796,7 +139988,7 @@
       ]
     },
     {
-      "id": 839,
+      "id": 847,
       "name": "וואלי מוסא עלי",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -140186,7 +140378,7 @@
       ]
     },
     {
-      "id": 840,
+      "id": 848,
       "name": "רוי שדו",
       "englishName": "Roy Shefer",
       "team": "הפועל קרית שמונה",
@@ -140261,7 +140453,7 @@
       ]
     },
     {
-      "id": 841,
+      "id": 849,
       "name": "ניב גבאי",
       "englishName": "Niv Michael Gabay",
       "team": "הפועל קרית שמונה",
@@ -140453,7 +140645,7 @@
       ]
     },
     {
-      "id": 842,
+      "id": 850,
       "name": "יאהו אקה",
       "englishName": "Yaw Ackah",
       "team": "הפועל קרית שמונה",
@@ -140689,7 +140881,7 @@
       ]
     },
     {
-      "id": 843,
+      "id": 851,
       "name": "פרננדו פאצ`קו",
       "englishName": "Fernando José Pacheco Rivas",
       "team": "הפועל קרית שמונה",
@@ -140878,7 +141070,7 @@
       ]
     },
     {
-      "id": 844,
+      "id": 852,
       "name": "שי סבח",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -140902,7 +141094,7 @@
       "topOpponents": []
     },
     {
-      "id": 845,
+      "id": 853,
       "name": "אווג`ו אספה",
       "englishName": "Awajo Asepa",
       "team": "הפועל קרית שמונה",
@@ -140926,7 +141118,7 @@
       "topOpponents": []
     },
     {
-      "id": 846,
+      "id": 854,
       "name": "אמאדו סגנה",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -140950,7 +141142,7 @@
       "topOpponents": []
     },
     {
-      "id": 847,
+      "id": 855,
       "name": "אלכסנדר סולה",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -140974,7 +141166,7 @@
       "topOpponents": []
     },
     {
-      "id": 848,
+      "id": 856,
       "name": "רופאט אבדולאזאדה",
       "englishName": "",
       "team": "הפועל קרית שמונה",
@@ -140998,7 +141190,7 @@
       "topOpponents": []
     },
     {
-      "id": 849,
+      "id": 857,
       "name": "יונתן טפר",
       "englishName": "Yonatan Teper",
       "team": "עירוני טבריה",
@@ -141410,7 +141602,7 @@
       ]
     },
     {
-      "id": 850,
+      "id": 858,
       "name": "קייס גאנם",
       "englishName": "Kayes Ganem",
       "team": "עירוני טבריה",
@@ -141434,7 +141626,7 @@
       "topOpponents": []
     },
     {
-      "id": 851,
+      "id": 859,
       "name": "דוד קלטינס",
       "englishName": "David Keltjens",
       "team": "עירוני טבריה",
@@ -141824,7 +142016,7 @@
       ]
     },
     {
-      "id": 852,
+      "id": 860,
       "name": "ארי כהן",
       "englishName": "Ariel Cohen",
       "team": "עירוני טבריה",
@@ -141848,7 +142040,7 @@
       "topOpponents": []
     },
     {
-      "id": 853,
+      "id": 861,
       "name": "אביב סולומון",
       "englishName": "Aviv Solomon",
       "team": "עירוני טבריה",
@@ -141872,7 +142064,7 @@
       "topOpponents": []
     },
     {
-      "id": 854,
+      "id": 862,
       "name": "מתנאל טדסה",
       "englishName": "Matanel Tadisa",
       "team": "עירוני טבריה",
@@ -141896,7 +142088,7 @@
       "topOpponents": []
     },
     {
-      "id": 855,
+      "id": 863,
       "name": "סטניסלב בילנקי",
       "englishName": "Stanislav Bilenskyy",
       "team": "עירוני טבריה",
@@ -142286,7 +142478,7 @@
       ]
     },
     {
-      "id": 856,
+      "id": 864,
       "name": "אונדז`יי באצ`ו",
       "englishName": "Ondřej Bačo",
       "team": "עירוני טבריה",
@@ -142621,7 +142813,7 @@
       ]
     },
     {
-      "id": 857,
+      "id": 865,
       "name": "עידן דהן",
       "englishName": "Idan Dahan Aharon",
       "team": "עירוני טבריה",
@@ -142710,7 +142902,7 @@
       ]
     },
     {
-      "id": 858,
+      "id": 866,
       "name": "רון אונגר",
       "englishName": "Ron Unger",
       "team": "עירוני טבריה",
@@ -143155,7 +143347,7 @@
       ]
     },
     {
-      "id": 859,
+      "id": 867,
       "name": "ניב גוטליב",
       "englishName": "Niv Gottlieb",
       "team": "עירוני טבריה",
@@ -143567,7 +143759,7 @@
       ]
     },
     {
-      "id": 860,
+      "id": 868,
       "name": " סמביניה",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -143968,7 +144160,7 @@
       ]
     },
     {
-      "id": 861,
+      "id": 869,
       "name": "גד עמוס",
       "englishName": "Gad Amos",
       "team": "עירוני טבריה",
@@ -144424,7 +144616,7 @@
       ]
     },
     {
-      "id": 862,
+      "id": 870,
       "name": "מוחמד אוסמן",
       "englishName": "Usman Mohammed",
       "team": "עירוני טבריה",
@@ -144737,7 +144929,7 @@
       ]
     },
     {
-      "id": 863,
+      "id": 871,
       "name": "בר כהן",
       "englishName": "Bar Cohen",
       "team": "עירוני טבריה",
@@ -144761,7 +144953,7 @@
       "topOpponents": []
     },
     {
-      "id": 864,
+      "id": 872,
       "name": "אור רויזמן",
       "englishName": "Or Roizman",
       "team": "עירוני טבריה",
@@ -144785,7 +144977,7 @@
       "topOpponents": []
     },
     {
-      "id": 865,
+      "id": 873,
       "name": "ניב טובול",
       "englishName": "Niv Tubul",
       "team": "עירוני טבריה",
@@ -144809,7 +145001,7 @@
       "topOpponents": []
     },
     {
-      "id": 866,
+      "id": 874,
       "name": "ירין סוויסה",
       "englishName": "Yarin Swisa",
       "team": "עירוני טבריה",
@@ -145243,7 +145435,7 @@
       ]
     },
     {
-      "id": 867,
+      "id": 875,
       "name": "איתמר שבירו",
       "englishName": "Itamar Shabiro",
       "team": "עירוני טבריה",
@@ -145690,7 +145882,7 @@
       "penaltyRank": 2
     },
     {
-      "id": 868,
+      "id": 876,
       "name": "ג`ורדן בוטאקה",
       "englishName": "Jordan Botaka",
       "team": "עירוני טבריה",
@@ -145714,7 +145906,7 @@
       "topOpponents": []
     },
     {
-      "id": 869,
+      "id": 877,
       "name": "נואף בזיע",
       "englishName": "Noaf Bazea",
       "team": "עירוני טבריה",
@@ -145738,7 +145930,7 @@
       "topOpponents": []
     },
     {
-      "id": 870,
+      "id": 878,
       "name": "עידן ברנס",
       "englishName": "Idan Baranes",
       "team": "עירוני טבריה",
@@ -146139,7 +146331,7 @@
       ]
     },
     {
-      "id": 871,
+      "id": 879,
       "name": "גיא חדידה",
       "englishName": "Guy Hadida",
       "team": "עירוני טבריה",
@@ -146531,7 +146723,7 @@
       "penaltyRank": 1
     },
     {
-      "id": 872,
+      "id": 880,
       "name": "דניאל גולאני",
       "englishName": "Daniel Golani",
       "team": "עירוני טבריה",
@@ -146899,7 +147091,7 @@
       ]
     },
     {
-      "id": 873,
+      "id": 881,
       "name": "שי קונסטנטין",
       "englishName": "Shay Konstantini",
       "team": "עירוני טבריה",
@@ -146923,7 +147115,7 @@
       "topOpponents": []
     },
     {
-      "id": 874,
+      "id": 882,
       "name": "אלי בלילתי",
       "englishName": "Eli Belilti",
       "team": "עירוני טבריה",
@@ -147368,7 +147560,7 @@
       ]
     },
     {
-      "id": 875,
+      "id": 883,
       "name": "בן והבה",
       "englishName": "Ben Vahaba",
       "team": "עירוני טבריה",
@@ -147392,7 +147584,7 @@
       "topOpponents": []
     },
     {
-      "id": 876,
+      "id": 884,
       "name": "רועי שחר",
       "englishName": "Roei Shachar",
       "team": "עירוני טבריה",
@@ -147416,7 +147608,7 @@
       "topOpponents": []
     },
     {
-      "id": 877,
+      "id": 885,
       "name": "הארון שפסו",
       "englishName": "Haroun Shapso",
       "team": "עירוני טבריה",
@@ -147718,7 +147910,7 @@
       ]
     },
     {
-      "id": 878,
+      "id": 886,
       "name": "ג`ונס אבו גנימה",
       "englishName": "Gons Abu Nigma",
       "team": "עירוני טבריה",
@@ -147855,7 +148047,7 @@
       ]
     },
     {
-      "id": 879,
+      "id": 887,
       "name": "טל בומשטיין",
       "englishName": "Tal Bomshtein",
       "team": "עירוני טבריה",
@@ -147879,7 +148071,7 @@
       "topOpponents": []
     },
     {
-      "id": 880,
+      "id": 888,
       "name": "פראס אבו עקל",
       "englishName": "Firas Abu Akel",
       "team": "עירוני טבריה",
@@ -148302,7 +148494,7 @@
       ]
     },
     {
-      "id": 881,
+      "id": 889,
       "name": "שניר טליאס",
       "englishName": "Snir Talias",
       "team": "עירוני טבריה",
@@ -148326,7 +148518,7 @@
       "topOpponents": []
     },
     {
-      "id": 882,
+      "id": 890,
       "name": "איתן וולבלום",
       "englishName": "Eithan Velblum",
       "team": "עירוני טבריה",
@@ -148573,7 +148765,7 @@
       ]
     },
     {
-      "id": 883,
+      "id": 891,
       "name": "יניב בריק",
       "englishName": "Yaniv Brik",
       "team": "עירוני טבריה",
@@ -148597,7 +148789,7 @@
       "topOpponents": []
     },
     {
-      "id": 884,
+      "id": 892,
       "name": "פרנקו מזורק",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -148621,7 +148813,7 @@
       "topOpponents": []
     },
     {
-      "id": 885,
+      "id": 893,
       "name": "באסל שעאבן",
       "englishName": "Basel Sha'aban",
       "team": "עירוני טבריה",
@@ -148645,7 +148837,7 @@
       "topOpponents": []
     },
     {
-      "id": 886,
+      "id": 894,
       "name": "רון אפלבאום",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -148669,7 +148861,7 @@
       "topOpponents": []
     },
     {
-      "id": 887,
+      "id": 895,
       "name": "נרי בר",
       "englishName": "Arad Bar",
       "team": "עירוני טבריה",
@@ -148693,7 +148885,7 @@
       "topOpponents": []
     },
     {
-      "id": 888,
+      "id": 896,
       "name": "מנסור באדג`י",
       "englishName": "Mansur Badji",
       "team": "עירוני טבריה",
@@ -148717,7 +148909,7 @@
       "topOpponents": []
     },
     {
-      "id": 889,
+      "id": 897,
       "name": "מתן דגני",
       "englishName": "Matan Dgani",
       "team": "עירוני טבריה",
@@ -148741,7 +148933,7 @@
       "topOpponents": []
     },
     {
-      "id": 890,
+      "id": 898,
       "name": "אוהד אסולין",
       "englishName": "Ohad Asulin",
       "team": "עירוני טבריה",
@@ -148765,7 +148957,7 @@
       "topOpponents": []
     },
     {
-      "id": 891,
+      "id": 899,
       "name": "אור לוי",
       "englishName": "Or Levi",
       "team": "עירוני טבריה",
@@ -148789,7 +148981,7 @@
       "topOpponents": []
     },
     {
-      "id": 892,
+      "id": 900,
       "name": "יהודה אגם",
       "englishName": "Yehuda Agam",
       "team": "עירוני טבריה",
@@ -148915,7 +149107,7 @@
       ]
     },
     {
-      "id": 893,
+      "id": 901,
       "name": "פיטר מייקל",
       "englishName": "Peter Godly Michael",
       "team": "עירוני טבריה",
@@ -149338,7 +149530,7 @@
       ]
     },
     {
-      "id": 894,
+      "id": 902,
       "name": "עומר יצחק",
       "englishName": "Omer Yizhak",
       "team": "עירוני טבריה",
@@ -149739,7 +149931,7 @@
       ]
     },
     {
-      "id": 895,
+      "id": 903,
       "name": "עידו שרון",
       "englishName": "Ido Sharon",
       "team": "עירוני טבריה",
@@ -150162,7 +150354,7 @@
       ]
     },
     {
-      "id": 896,
+      "id": 904,
       "name": "רוג`ריו סנטוס",
       "englishName": "Rogério Paulo Veiga Santos",
       "team": "עירוני טבריה",
@@ -150574,7 +150766,7 @@
       ]
     },
     {
-      "id": 897,
+      "id": 905,
       "name": "נהוראי חן",
       "englishName": "Nehorai Yosef Chen",
       "team": "עירוני טבריה",
@@ -150766,7 +150958,7 @@
       ]
     },
     {
-      "id": 898,
+      "id": 906,
       "name": "יהונתן חסון",
       "englishName": "Jonathan Hasson",
       "team": "עירוני טבריה",
@@ -150958,7 +151150,7 @@
       ]
     },
     {
-      "id": 899,
+      "id": 907,
       "name": "מתן דגני",
       "englishName": "Matan Dgani",
       "team": "עירוני טבריה",
@@ -151062,7 +151254,7 @@
       ]
     },
     {
-      "id": 900,
+      "id": 908,
       "name": "עמית סארה",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -151086,7 +151278,7 @@
       "topOpponents": []
     },
     {
-      "id": 901,
+      "id": 909,
       "name": "רן חליבה",
       "englishName": "Yarin Haliva",
       "team": "עירוני טבריה",
@@ -151110,7 +151302,7 @@
       "topOpponents": []
     },
     {
-      "id": 902,
+      "id": 910,
       "name": "איתמר גואטה",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -151134,7 +151326,7 @@
       "topOpponents": []
     },
     {
-      "id": 903,
+      "id": 911,
       "name": "גיא סנקר",
       "englishName": "Guy Sanker",
       "team": "עירוני טבריה",
@@ -151158,7 +151350,7 @@
       "topOpponents": []
     },
     {
-      "id": 904,
+      "id": 912,
       "name": "מנסור באג`י",
       "englishName": "Mansur Badji",
       "team": "עירוני טבריה",
@@ -151182,7 +151374,7 @@
       "topOpponents": []
     },
     {
-      "id": 905,
+      "id": 913,
       "name": "רג`ב עיסא",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -151206,7 +151398,7 @@
       "topOpponents": []
     },
     {
-      "id": 906,
+      "id": 914,
       "name": "ירין שיוביץ",
       "englishName": "Yarin Shyovitz",
       "team": "עירוני טבריה",
@@ -151230,7 +151422,7 @@
       "topOpponents": []
     },
     {
-      "id": 907,
+      "id": 915,
       "name": "כריס קואקו",
       "englishName": "",
       "team": "עירוני טבריה",
@@ -151254,7 +151446,7 @@
       "topOpponents": []
     },
     {
-      "id": 908,
+      "id": 916,
       "name": "ננה גמבל",
       "englishName": "",
       "team": "עירוני טבריה",
