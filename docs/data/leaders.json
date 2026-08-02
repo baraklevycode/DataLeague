@@ -1,13 +1,13 @@
 {
   "fantasyPoints": [
     {
-      "playerId": 371,
+      "playerId": 370,
       "name": "דור פרץ",
       "team": "מכבי תל אביב",
       "value": 165.0
     },
     {
-      "playerId": 773,
+      "playerId": 777,
       "name": "ירדן שועה",
       "team": "בית\"ר ירושלים",
       "value": 162.0
@@ -19,7 +19,7 @@
       "value": 147.0
     },
     {
-      "playerId": 793,
+      "playerId": 797,
       "name": "עומר אצילי",
       "team": "בית\"ר ירושלים",
       "value": 142.0
@@ -31,7 +31,7 @@
       "value": 138.0
     },
     {
-      "playerId": 845,
+      "playerId": 849,
       "name": "אדריאן אוגריסה",
       "team": "הפועל קרית שמונה",
       "value": 135.0
@@ -43,13 +43,13 @@
       "value": 133.0
     },
     {
-      "playerId": 879,
+      "playerId": 883,
       "name": "גיא חדידה",
       "team": "עירוני טבריה",
       "value": 129.0
     },
     {
-      "playerId": 362,
+      "playerId": 361,
       "name": "רוי רביבו",
       "team": "מכבי תל אביב",
       "value": 127.0
@@ -79,13 +79,13 @@
       "value": 121.0
     },
     {
-      "playerId": 380,
+      "playerId": 379,
       "name": "עידו שחר",
       "team": "מכבי תל אביב",
       "value": 121.0
     },
     {
-      "playerId": 652,
+      "playerId": 657,
       "name": "יאיר מרדכי",
       "team": "מכבי חיפה",
       "value": 121.0
@@ -103,7 +103,7 @@
       "value": 118.0
     },
     {
-      "playerId": 748,
+      "playerId": 752,
       "name": "ירדן כהן",
       "team": "בית\"ר ירושלים",
       "value": 117.0
@@ -123,13 +123,13 @@
   ],
   "ppm": [
     {
-      "playerId": 474,
+      "playerId": 472,
       "name": "רועי דוד",
       "team": "הפועל פתח תקווה",
       "value": 22.5
     },
     {
-      "playerId": 652,
+      "playerId": 657,
       "name": "יאיר מרדכי",
       "team": "מכבי חיפה",
       "value": 20.17
@@ -141,7 +141,7 @@
       "value": 17.29
     },
     {
-      "playerId": 380,
+      "playerId": 379,
       "name": "עידו שחר",
       "team": "מכבי תל אביב",
       "value": 17.29
@@ -153,7 +153,7 @@
       "value": 16.86
     },
     {
-      "playerId": 748,
+      "playerId": 752,
       "name": "ירדן כהן",
       "team": "בית\"ר ירושלים",
       "value": 16.71
@@ -165,13 +165,13 @@
       "value": 16.43
     },
     {
-      "playerId": 866,
+      "playerId": 870,
       "name": "רון אונגר",
       "team": "עירוני טבריה",
       "value": 16.4
     },
     {
-      "playerId": 903,
+      "playerId": 907,
       "name": "עידו שרון",
       "team": "עירוני טבריה",
       "value": 16.33
@@ -183,13 +183,13 @@
       "value": 16.0
     },
     {
-      "playerId": 567,
+      "playerId": 565,
       "name": "נדב זמיר",
       "team": "הפועל ירושלים",
       "value": 16.0
     },
     {
-      "playerId": 583,
+      "playerId": 581,
       "name": "יונתן ליש",
       "team": "הפועל ירושלים",
       "value": 15.8
@@ -225,13 +225,13 @@
       "value": 15.0
     },
     {
-      "playerId": 845,
+      "playerId": 849,
       "name": "אדריאן אוגריסה",
       "team": "הפועל קרית שמונה",
       "value": 15.0
     },
     {
-      "playerId": 830,
+      "playerId": 834,
       "name": "אריאל שרצקי",
       "team": "הפועל קרית שמונה",
       "value": 14.8
@@ -245,13 +245,13 @@
   ],
   "goals": [
     {
-      "playerId": 371,
+      "playerId": 370,
       "name": "דור פרץ",
       "team": "מכבי תל אביב",
       "value": 19.0
     },
     {
-      "playerId": 845,
+      "playerId": 849,
       "name": "אדריאן אוגריסה",
       "team": "הפועל קרית שמונה",
       "value": 18.0
@@ -263,19 +263,19 @@
       "value": 15.0
     },
     {
-      "playerId": 607,
+      "playerId": 612,
       "name": "גיא מלמד",
       "team": "מכבי חיפה",
       "value": 15.0
     },
     {
-      "playerId": 773,
+      "playerId": 777,
       "name": "ירדן שועה",
       "team": "בית\"ר ירושלים",
       "value": 15.0
     },
     {
-      "playerId": 793,
+      "playerId": 797,
       "name": "עומר אצילי",
       "team": "בית\"ר ירושלים",
       "value": 15.0
@@ -293,7 +293,7 @@
       "value": 13.0
     },
     {
-      "playerId": 380,
+      "playerId": 379,
       "name": "עידו שחר",
       "team": "מכבי תל אביב",
       "value": 13.0
@@ -311,7 +311,7 @@
       "value": 12.0
     },
     {
-      "playerId": 879,
+      "playerId": 883,
       "name": "גיא חדידה",
       "team": "עירוני טבריה",
       "value": 12.0
@@ -323,7 +323,7 @@
       "value": 11.0
     },
     {
-      "playerId": 667,
+      "playerId": 672,
       "name": "טריוואנטה סטיוארט",
       "team": "מכבי חיפה",
       "value": 11.0
@@ -335,13 +335,13 @@
       "value": 10.0
     },
     {
-      "playerId": 652,
+      "playerId": 657,
       "name": "יאיר מרדכי",
       "team": "מכבי חיפה",
       "value": 10.0
     },
     {
-      "playerId": 795,
+      "playerId": 799,
       "name": "יוג`ין אנסה",
       "team": "בית\"ר ירושלים",
       "value": 9.0
@@ -359,7 +359,7 @@
       "value": 8.0
     },
     {
-      "playerId": 442,
+      "playerId": 441,
       "name": "מארק קוסטה",
       "team": "הפועל פתח תקווה",
       "value": 8.0
@@ -379,13 +379,13 @@
       "value": 14.723899999999999
     },
     {
-      "playerId": 793,
+      "playerId": 797,
       "name": "עומר אצילי",
       "team": "בית\"ר ירושלים",
       "value": 14.5228
     },
     {
-      "playerId": 845,
+      "playerId": 849,
       "name": "אדריאן אוגריסה",
       "team": "הפועל קרית שמונה",
       "value": 14.317300000000003
@@ -397,19 +397,19 @@
       "value": 13.795799999999998
     },
     {
-      "playerId": 371,
+      "playerId": 370,
       "name": "דור פרץ",
       "team": "מכבי תל אביב",
       "value": 13.3737
     },
     {
-      "playerId": 607,
+      "playerId": 612,
       "name": "גיא מלמד",
       "team": "מכבי חיפה",
       "value": 12.8062
     },
     {
-      "playerId": 773,
+      "playerId": 777,
       "name": "ירדן שועה",
       "team": "בית\"ר ירושלים",
       "value": 12.6183
@@ -427,7 +427,7 @@
       "value": 11.2285
     },
     {
-      "playerId": 667,
+      "playerId": 672,
       "name": "טריוואנטה סטיוארט",
       "team": "מכבי חיפה",
       "value": 9.522799999999998
@@ -439,7 +439,7 @@
       "value": 9.287299999999998
     },
     {
-      "playerId": 795,
+      "playerId": 799,
       "name": "יוג`ין אנסה",
       "team": "בית\"ר ירושלים",
       "value": 9.0768
@@ -451,7 +451,7 @@
       "value": 8.958499999999999
     },
     {
-      "playerId": 652,
+      "playerId": 657,
       "name": "יאיר מרדכי",
       "team": "מכבי חיפה",
       "value": 8.6222
@@ -463,13 +463,13 @@
       "value": 8.3729
     },
     {
-      "playerId": 379,
+      "playerId": 378,
       "name": "סייד אבו פרחי",
       "team": "מכבי תל אביב",
       "value": 7.4612
     },
     {
-      "playerId": 380,
+      "playerId": 379,
       "name": "עידו שחר",
       "team": "מכבי תל אביב",
       "value": 7.451999999999999
@@ -489,7 +489,7 @@
   ],
   "assists": [
     {
-      "playerId": 362,
+      "playerId": 361,
       "name": "רוי רביבו",
       "team": "מכבי תל אביב",
       "value": 13.0
@@ -513,7 +513,7 @@
       "value": 8.0
     },
     {
-      "playerId": 773,
+      "playerId": 777,
       "name": "ירדן שועה",
       "team": "בית\"ר ירושלים",
       "value": 8.0
@@ -531,19 +531,19 @@
       "value": 7.0
     },
     {
-      "playerId": 771,
+      "playerId": 775,
       "name": "טימו מוזי",
       "team": "בית\"ר ירושלים",
       "value": 7.0
     },
     {
-      "playerId": 795,
+      "playerId": 799,
       "name": "יוג`ין אנסה",
       "team": "בית\"ר ירושלים",
       "value": 7.0
     },
     {
-      "playerId": 879,
+      "playerId": 883,
       "name": "גיא חדידה",
       "team": "עירוני טבריה",
       "value": 7.0
@@ -561,25 +561,25 @@
       "value": 6.0
     },
     {
-      "playerId": 357,
+      "playerId": 356,
       "name": "שגיב יחזקאל",
       "team": "מכבי תל אביב",
       "value": 6.0
     },
     {
-      "playerId": 652,
+      "playerId": 657,
       "name": "יאיר מרדכי",
       "team": "מכבי חיפה",
       "value": 6.0
     },
     {
-      "playerId": 665,
+      "playerId": 670,
       "name": "קנג`י גורה",
       "team": "מכבי חיפה",
       "value": 6.0
     },
     {
-      "playerId": 793,
+      "playerId": 797,
       "name": "עומר אצילי",
       "team": "בית\"ר ירושלים",
       "value": 6.0
@@ -603,7 +603,7 @@
       "value": 5.0
     },
     {
-      "playerId": 471,
+      "playerId": 470,
       "name": " קליי",
       "team": "הפועל פתח תקווה",
       "value": 5.0
@@ -611,7 +611,7 @@
   ],
   "xA": [
     {
-      "playerId": 773,
+      "playerId": 777,
       "name": "ירדן שועה",
       "team": "בית\"ר ירושלים",
       "value": 10.3
@@ -635,7 +635,7 @@
       "value": 7.98
     },
     {
-      "playerId": 793,
+      "playerId": 797,
       "name": "עומר אצילי",
       "team": "בית\"ר ירושלים",
       "value": 7.54
@@ -665,43 +665,43 @@
       "value": 5.34
     },
     {
-      "playerId": 357,
+      "playerId": 356,
       "name": "שגיב יחזקאל",
       "team": "מכבי תל אביב",
       "value": 5.28
     },
     {
-      "playerId": 882,
+      "playerId": 886,
       "name": "אלי בלילתי",
       "team": "עירוני טבריה",
       "value": 5.07
     },
     {
-      "playerId": 382,
+      "playerId": 381,
       "name": "אושר דוידה",
       "team": "מכבי תל אביב",
       "value": 4.94
     },
     {
-      "playerId": 879,
+      "playerId": 883,
       "name": "גיא חדידה",
       "team": "עירוני טבריה",
       "value": 4.94
     },
     {
-      "playerId": 835,
+      "playerId": 839,
       "name": "כריסטיאן מרטינס",
       "team": "הפועל קרית שמונה",
       "value": 4.61
     },
     {
-      "playerId": 608,
+      "playerId": 613,
       "name": "איתן אזולאי",
       "team": "מכבי חיפה",
       "value": 4.49
     },
     {
-      "playerId": 362,
+      "playerId": 361,
       "name": "רוי רביבו",
       "team": "מכבי תל אביב",
       "value": 4.27
@@ -713,7 +713,7 @@
       "value": 4.25
     },
     {
-      "playerId": 380,
+      "playerId": 379,
       "name": "עידו שחר",
       "team": "מכבי תל אביב",
       "value": 4.19
@@ -725,7 +725,7 @@
       "value": 4.1
     },
     {
-      "playerId": 795,
+      "playerId": 799,
       "name": "יוג`ין אנסה",
       "team": "בית\"ר ירושלים",
       "value": 4.09
@@ -739,13 +739,13 @@
       "value": 22.82
     },
     {
-      "playerId": 773,
+      "playerId": 777,
       "name": "ירדן שועה",
       "team": "בית\"ר ירושלים",
       "value": 22.67
     },
     {
-      "playerId": 793,
+      "playerId": 797,
       "name": "עומר אצילי",
       "team": "בית\"ר ירושלים",
       "value": 22.27
@@ -781,25 +781,25 @@
       "value": 16.81
     },
     {
-      "playerId": 371,
+      "playerId": 370,
       "name": "דור פרץ",
       "team": "מכבי תל אביב",
       "value": 15.26
     },
     {
-      "playerId": 845,
+      "playerId": 849,
       "name": "אדריאן אוגריסה",
       "team": "הפועל קרית שמונה",
       "value": 14.32
     },
     {
-      "playerId": 607,
+      "playerId": 612,
       "name": "גיא מלמד",
       "team": "מכבי חיפה",
       "value": 13.6
     },
     {
-      "playerId": 795,
+      "playerId": 799,
       "name": "יוג`ין אנסה",
       "team": "בית\"ר ירושלים",
       "value": 13.59
@@ -811,7 +811,7 @@
       "value": 12.7
     },
     {
-      "playerId": 652,
+      "playerId": 657,
       "name": "יאיר מרדכי",
       "team": "מכבי חיפה",
       "value": 12.57
@@ -823,7 +823,7 @@
       "value": 12.51
     },
     {
-      "playerId": 380,
+      "playerId": 379,
       "name": "עידו שחר",
       "team": "מכבי תל אביב",
       "value": 11.71
@@ -835,7 +835,7 @@
       "value": 11.66
     },
     {
-      "playerId": 879,
+      "playerId": 883,
       "name": "גיא חדידה",
       "team": "עירוני טבריה",
       "value": 11.35
@@ -847,7 +847,7 @@
       "value": 11.09
     },
     {
-      "playerId": 357,
+      "playerId": 356,
       "name": "שגיב יחזקאל",
       "team": "מכבי תל אביב",
       "value": 10.6
@@ -885,13 +885,13 @@
       "value": 12.0
     },
     {
-      "playerId": 567,
+      "playerId": 565,
       "name": "נדב זמיר",
       "team": "הפועל ירושלים",
       "value": 11.0
     },
     {
-      "playerId": 866,
+      "playerId": 870,
       "name": "רון אונגר",
       "team": "עירוני טבריה",
       "value": 11.0
@@ -921,19 +921,19 @@
       "value": 10.0
     },
     {
-      "playerId": 396,
+      "playerId": 395,
       "name": "טייריס אסנטה",
       "team": "מכבי תל אביב",
       "value": 10.0
     },
     {
-      "playerId": 639,
+      "playerId": 644,
       "name": "יילה בטאיי",
       "team": "מכבי חיפה",
       "value": 10.0
     },
     {
-      "playerId": 666,
+      "playerId": 671,
       "name": "גיאורגי ירמקוב",
       "team": "מכבי חיפה",
       "value": 10.0
@@ -951,25 +951,25 @@
       "value": 9.0
     },
     {
-      "playerId": 362,
+      "playerId": 361,
       "name": "רוי רביבו",
       "team": "מכבי תל אביב",
       "value": 9.0
     },
     {
-      "playerId": 574,
+      "playerId": 572,
       "name": "אופק נדיר",
       "team": "הפועל ירושלים",
       "value": 9.0
     },
     {
-      "playerId": 583,
+      "playerId": 581,
       "name": "יונתן ליש",
       "team": "הפועל ירושלים",
       "value": 9.0
     },
     {
-      "playerId": 748,
+      "playerId": 752,
       "name": "ירדן כהן",
       "team": "בית\"ר ירושלים",
       "value": 9.0
@@ -989,13 +989,13 @@
       "value": 10.0
     },
     {
-      "playerId": 771,
+      "playerId": 775,
       "name": "טימו מוזי",
       "team": "בית\"ר ירושלים",
       "value": 10.0
     },
     {
-      "playerId": 824,
+      "playerId": 828,
       "name": "שי בן דוד",
       "team": "הפועל קרית שמונה",
       "value": 10.0
@@ -1025,19 +1025,19 @@
       "value": 9.0
     },
     {
-      "playerId": 571,
+      "playerId": 569,
       "name": "אווקה אשטה",
       "team": "הפועל ירושלים",
       "value": 9.0
     },
     {
-      "playerId": 802,
+      "playerId": 806,
       "name": "לוקה גדראני",
       "team": "בית\"ר ירושלים",
       "value": 9.0
     },
     {
-      "playerId": 832,
+      "playerId": 836,
       "name": "בילאל שאהין",
       "team": "הפועל קרית שמונה",
       "value": 9.0
@@ -1091,7 +1091,7 @@
       "value": 8.0
     },
     {
-      "playerId": 396,
+      "playerId": 395,
       "name": "טייריס אסנטה",
       "team": "מכבי תל אביב",
       "value": 8.0
@@ -1105,13 +1105,13 @@
       "value": 2970.0
     },
     {
-      "playerId": 435,
+      "playerId": 434,
       "name": "עומר כץ",
       "team": "הפועל פתח תקווה",
       "value": 2970.0
     },
     {
-      "playerId": 765,
+      "playerId": 769,
       "name": "מיגל סילבה",
       "team": "בית\"ר ירושלים",
       "value": 2970.0
@@ -1129,7 +1129,7 @@
       "value": 2941.0
     },
     {
-      "playerId": 798,
+      "playerId": 802,
       "name": "בריאן קרבאלי",
       "team": "בית\"ר ירושלים",
       "value": 2916.0
@@ -1141,19 +1141,19 @@
       "value": 2897.0
     },
     {
-      "playerId": 639,
+      "playerId": 644,
       "name": "יילה בטאיי",
       "team": "מכבי חיפה",
       "value": 2886.0
     },
     {
-      "playerId": 567,
+      "playerId": 565,
       "name": "נדב זמיר",
       "team": "הפועל ירושלים",
       "value": 2880.0
     },
     {
-      "playerId": 535,
+      "playerId": 533,
       "name": "קארול נימצ`סקי",
       "team": "מ.ס. אשדוד",
       "value": 2836.0
@@ -1165,19 +1165,19 @@
       "value": 2833.0
     },
     {
-      "playerId": 666,
+      "playerId": 671,
       "name": "גיאורגי ירמקוב",
       "team": "מכבי חיפה",
       "value": 2802.0
     },
     {
-      "playerId": 818,
+      "playerId": 822,
       "name": "דניאל טננבאום",
       "team": "הפועל קרית שמונה",
       "value": 2790.0
     },
     {
-      "playerId": 539,
+      "playerId": 537,
       "name": "איברהים דיאקיטה",
       "team": "מ.ס. אשדוד",
       "value": 2769.0
@@ -1201,13 +1201,13 @@
       "value": 2717.0
     },
     {
-      "playerId": 371,
+      "playerId": 370,
       "name": "דור פרץ",
       "team": "מכבי תל אביב",
       "value": 2705.0
     },
     {
-      "playerId": 396,
+      "playerId": 395,
       "name": "טייריס אסנטה",
       "team": "מכבי תל אביב",
       "value": 2705.0
